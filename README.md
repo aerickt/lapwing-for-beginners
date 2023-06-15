@@ -1,1 +1,1 @@
-# lapwing-for-beginners
+# [Click here to access the chapters!](https://github.com/aerickt/lapwing-for-beginners/wiki)
