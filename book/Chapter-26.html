@@ -193,17 +193,26 @@
 <tr><td><code>#TPH-FBL</code></td><td>Page down <br> <img src="img/26-down.png" width="300px"/></td></tr>
 </tbody></table>
 </div>
-<p>For arrow keys, you can think of the <code>-RPBG</code> as an arrow key cluster and <code>#TPH</code> as a starting chord.</p>
+<p>The <code>-RPBG</code> cluster can be thought of as arrow keys:</p>
 <p><img src="img/26-arrow-keys.png" alt="" /></p>
+<p>Furthermore, other chords have distinctive shapes reminiscent of their purpose.</p>
+<ul>
+<li>Page up (arrow pointing up)</li>
+<li>Page down (arrow pointing down)</li>
+<li>Home (left column)</li>
+<li>End (right column)</li>
+<li>Top (top row)</li>
+<li>Bottom (bottom row)</li>
+</ul>
 <h4 id="moving-word-by-word"><a class="header" href="#moving-word-by-word">Moving word by word</a></h4>
-<p>On a regular keyboard, you can move the text cursor word by word by pressing <code class="code-mono">Ctrl</code> and an arrow key. Using Lapwing, you can do this with <code>#TPH-RB</code> and <code>#TPH-BG</code>.</p>
+<p>On a regular keyboard, the text cursor can be moved word by word by pressing <code class="code-mono">Ctrl</code> and an arrow key. This can also be done by pressing <code>#TPH-RB</code> and <code>#TPH-BG</code>.</p>
 <div class="table-wrapper"><table><thead><tr><th>Outline</th><th>Description</th></tr></thead><tbody>
 <tr><td><code>#TPH-RB</code></td><td>Left by one word <br> <img src="img/26-left-word.png" width="300px"/></td></tr>
 <tr><td><code>#TPH-BG</code></td><td>Right by one word <br> <img src="img/26-right-word.png" width="300px"/></td></tr>
 </tbody></table>
 </div>
 <h4 id="-ts-repetition"><a class="header" href="#-ts-repetition"><code>-TS</code> repetition</a></h4>
-<p>By including a combination of <code>-T</code> and <code>-S</code>, you can repeat a movement key command up to 4 times in one stroke.</p>
+<p>By including a combination of <code>-T</code> and <code>-S</code>, a movement key command up to 4 times in one stroke.</p>
 <div class="table-wrapper"><table><thead><tr><th>Repetition</th><th>Key</th></tr></thead><tbody>
 <tr><td>1</td><td><code> </code></td></tr>
 <tr><td>2</td><td><code>-S</code></td></tr>
@@ -213,12 +222,12 @@
 </div>
 <p>For example, <code>#TPH-GT</code> would move the cursor to the right by three characters and <code>#TPH-BGT</code> would move the cursor to the right by three words.</p>
 <h4 id="selection"><a class="header" href="#selection">Selection</a></h4>
-<p>To select text, include the <code>*</code> key in a movement command. Repeating the same command works for incrementing your selection. For example, <code>#TPH*R/#TPH*R/#TPH*R/#TPH*R</code> will select the 4 letters to the left.</p>
+<p>To select text, include the <code>*</code> key in a movement command. Repeating the same command works for incrementing the current selection. For example, <code>#TPH*R/#TPH*R/#TPH*R/#TPH*R</code> will select the 4 letters to the left.</p>
 <h4 id="repeat-the-last-command"><a class="header" href="#repeat-the-last-command">Repeat the last command</a></h4>
 <blockquote>
 <p><strong>NOTE:</strong> for this to work, you will have to disable the <code class="code-mono">lapwing-prefixed-proper-nouns.json&gt;</code>.</p>
 </blockquote>
-<p>Instead of writing <code>#TPH*R/#TPH*R/#TPH*R/#TPH*R</code>, you can also use the number key to repeat the last outline: <code>#TPH*R/#/#/#</code>.</p>
+<p>Instead of writing <code>#TPH*R/#TPH*R/#TPH*R/#TPH*R</code>, the number key can be pressed to repeat the last outline: <code>#TPH*R/#/#/#</code>.</p>
 <blockquote>
 <p><strong>NOTE:</strong> this requires the <code class="code-mono">plover-last-translation</code> plugin if you are not using <code class="code-mono">plover-lapwing-aio</code>.</p>
 </blockquote>
@@ -226,7 +235,7 @@
 <p>Replace all occurrences of &quot;Control&quot; with &quot;Alt&quot; in the movement commands if you are on macOS.</p>
 <h3 id="modal-movement"><a class="header" href="#modal-movement">Modal movement</a></h3>
 <h4 id="setup"><a class="header" href="#setup">Setup</a></h4>
-<p>Make sure you are using the <code class="code-mono">plover-lapwing-aio</code> plugin, or you have manually configured your dictionary stack by following <a href="Appendix-B.html">these instructions</a>.</p>
+<p>Ensure that <code class="code-mono">plover-lapwing-aio</code> is installed and <code class="code-mono">Lapwing</code> is selected as the system. Alternatively, if you are setting up <a href="Appendix-B.html">Lapwing manually</a> (not recommended), ensure that <code class="code-mono">movement.modal</code> is in your dictionary stack.</p>
 <h4 id="modal-dictionaries"><a class="header" href="#modal-dictionaries">Modal dictionaries</a></h4>
 <p>Moving around a document can be quite tedious especially with such a long starting chord like <code>#TPH</code>. One way to make movement easier is to use a modal dictionary. This is a temporary dictionary that can be turned on and off with a regular outline that also outputs a translation.</p>
 <p>A modal movement dictionary contains the regular movement strokes, but with the <code>#TPH</code> chord removed. Writing a normal movement stroke will turn this dictionary on, so that every subsequent movement stroke can be written using only the right hand. Writing a non-movement stroke will turn this dictionary back off.</p>

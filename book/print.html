@@ -3560,7 +3560,7 @@
 <p>Lapwing theory is very North American centred as that is the dialect of English I am familiar with. However, being from Canada, I often need to use both American and British spellings of words in writing. I've created a dictionary that adds in British spellings with alternative outlines. Unfortunately, this dictionary does not account for pronunciation differences, and it also prioritises the American forms of words—there may not always be short briefs available for British spellings.</p>
 <p>Ideally, there would be a separate stand-alone lapwing dictionary for British English, but creating one would be very difficult, particularly for someone who does not speak this dialect. If you would like to contribute a lapwing dictionary for British speakers, please do get in touch!</p>
 <h3 id="setup"><a class="header" href="#setup">Setup</a></h3>
-<p>Ensure that <code class="code-mono">plover-lapwing-aio</code> is installed and <code class="code-mono">Lapwing</code> is selected as the system. Alternatively, if you are setting up <a href="Appendix-B.html">Lapwing manually</a> (not recommended), ensure that <code class="code-mono">lapwing-uk-additions.json</code> in your dictionary stack.</p>
+<p>Ensure that <code class="code-mono">plover-lapwing-aio</code> is installed and <code class="code-mono">Lapwing</code> is selected as the system. Alternatively, if you are setting up <a href="Appendix-B.html">Lapwing manually</a> (not recommended), ensure that <code class="code-mono">lapwing-uk-additions.json</code> is in your dictionary stack.</p>
 <h2 id="quick-switching"><a class="header" href="#quick-switching">Quick switching</a></h2>
 <p>The recommended way to switch from an American word to its British form is by using <code>#TPH</code> as a suffix stroke of sorts. This is guaranteed to always work unlike the other methods outlined later.</p>
 <h3 id="examples-36"><a class="header" href="#examples-36">Examples</a></h3>
@@ -4010,7 +4010,7 @@
 </blockquote>
 <p>Every bolded phrase can be written in one stroke using Jeff's phrasing. There are likely some that I have also missed, as I personally do not go beyond the basics of Jeff's phrasing.</p>
 <h3 id="setup-1"><a class="header" href="#setup-1">Setup</a></h3>
-<p>Make sure you are using the <code class="code-mono">plover-lapwing-aio</code> plugin, or you have manually configured your dictionary stack by following <a href="Appendix-B.html">these instructions</a>.</p>
+<p>Ensure that <code class="code-mono">plover-lapwing-aio</code> is installed and <code class="code-mono">Lapwing</code> is selected as the system. Alternatively, if you are setting up <a href="Appendix-B.html">Lapwing manually</a> (not recommended), ensure that <code class="code-mono">jeff-phrasing.json</code> is in your dictionary stack.</p>
 <h3 id="basics"><a class="header" href="#basics">Basics</a></h3>
 <p>Jeff's phrasing is a Magnum-esque phrasing system that allows you to write phrases involving pronouns and verbs.</p>
 <p>In its most basic form, these are some phrases you can write:</p>
@@ -4224,14 +4224,14 @@
 <h2 id="python-dictionaries"><a class="header" href="#python-dictionaries">Python dictionaries</a></h2>
 <p>Most dictionaries for writing symbols and modifiers use python dictionaries. In contrast to JSON or RTF dictionaries (which are essentially just lists of outlines and their translations), Python dictionaries generate their translations &quot;on the fly&quot;. When an outline is received, the python dictionary parses each part of the outline and determines how to combine them all in one translation. This is useful for systematic dictionaries such as those for writing keyboard shortcuts and symbols.</p>
 <h3 id="setup-2"><a class="header" href="#setup-2">Setup</a></h3>
-<p>Make sure you are using the <code class="code-mono">plover-lapwing-aio</code> plugin, or you have manually configured your dictionary stack by following <a href="Appendix-B.html">these instructions</a>.</p>
+<p>Ensure that <code class="code-mono">plover-lapwing-aio</code> is installed and <code class="code-mono">Lapwing</code> is selected as the system. Alternatively, if you are setting up <a href="Appendix-B.html">Lapwing manually</a> (not recommended), ensure that <code class="code-mono">lapwing-uk-additions.json</code> is in your dictionary stack.</p>
 <h2 id="emilys-symbols-dictionary"><a class="header" href="#emilys-symbols-dictionary">Emily's symbols dictionary</a></h2>
-<p>This dictionary allows you to write any symbol available on a regular keyboard. In one stroke, you can control the spacing, repetition, and capitalization of the next word.</p>
+<p>This dictionary allows writing any symbol that is available on a regular keyboard. In one stroke, spacing, repetition, and capitalization of the next word can be controlled.</p>
 <h3 id="usage"><a class="header" href="#usage">Usage</a></h3>
 <p>Emily's symbol dictionary uses a unique starting chord on the left <code>SKWH</code>. This chord does not represent a useful sound in English, so we can be sure any outline with this chord on the left hand side will not conflict with any preexisting words.</p>
 <p>The right hand determines which symbol to write as well as the repetition. The left hand vowels control the spacing.</p>
 <p><img src="img/25-emily-symbols.png" alt="" /></p>
-<p>For example, to write <code>!!!! </code> (space on the right side and next word capitalized) you would use <code>SKWHO*FRTS</code>.</p>
+<p>For example, to write <code class="code-mono">!!!! </code> (space on the right side and next word capitalized) use <code>SKWHO*FRTS</code>.</p>
 <p>Breaking down this stroke looks like this:</p>
 <ol>
 <li><code>SKWH</code> left hand starting chord</li>
@@ -4241,9 +4241,9 @@
 <li><code>-TS</code> repeat 4 times</li>
 </ol>
 <h2 id="emilys-modifiers-dictionary"><a class="header" href="#emilys-modifiers-dictionary">Emily's modifiers dictionary</a></h2>
-<p>This dictionary allows you to write any shortcut possible on a regular keyboard in one stroke.</p>
+<p>This dictionary allows writing any keyboard shortcut that can be pressed on a regular keyboard.</p>
 <h3 id="usage-1"><a class="header" href="#usage-1">Usage</a></h3>
-<p>Similar to her symbols dictionary, Emily's modifier dictionary uses a unique right hand ender chord: <code>-LGTS</code>. As this is a very rare chord, we can be sure that any outline including this chord does not conflict with any other words. The Ctrl, Shift, Alt, and Super (Windows) keys are pressed with the right index and middle finger and the letter or symbol is pressed with the left hand.</p>
+<p>Similar to her symbols dictionary, Emily's modifier dictionary uses a unique right hand ender chord: <code>-LGTS</code>. As this is a very rare chord, any modifier outline will likely not conflict with any pre-existing outlines. The Ctrl, Shift, Alt, and Super (Windows) keys are pressed with the right index and middle finger and the letter or symbol is pressed with the left hand.</p>
 <p><img src="img/25-emily-modifiers.png" alt="" /></p>
 <p>To write <code class="code-mono">Ctrl+Shift+C</code> you would write <code>KR-FRLGTS</code>.</p>
 <p>Breaking down this stroke looks like this:</p>
@@ -4285,17 +4285,26 @@
 <tr><td><code>#TPH-FBL</code></td><td>Page down <br> <img src="img/26-down.png" width="300px"/></td></tr>
 </tbody></table>
 </div>
-<p>For arrow keys, you can think of the <code>-RPBG</code> as an arrow key cluster and <code>#TPH</code> as a starting chord.</p>
+<p>The <code>-RPBG</code> cluster can be thought of as arrow keys:</p>
 <p><img src="img/26-arrow-keys.png" alt="" /></p>
+<p>Furthermore, other chords have distinctive shapes reminiscent of their purpose.</p>
+<ul>
+<li>Page up (arrow pointing up)</li>
+<li>Page down (arrow pointing down)</li>
+<li>Home (left column)</li>
+<li>End (right column)</li>
+<li>Top (top row)</li>
+<li>Bottom (bottom row)</li>
+</ul>
 <h4 id="moving-word-by-word"><a class="header" href="#moving-word-by-word">Moving word by word</a></h4>
-<p>On a regular keyboard, you can move the text cursor word by word by pressing <code class="code-mono">Ctrl</code> and an arrow key. Using Lapwing, you can do this with <code>#TPH-RB</code> and <code>#TPH-BG</code>.</p>
+<p>On a regular keyboard, the text cursor can be moved word by word by pressing <code class="code-mono">Ctrl</code> and an arrow key. This can also be done by pressing <code>#TPH-RB</code> and <code>#TPH-BG</code>.</p>
 <div class="table-wrapper"><table><thead><tr><th>Outline</th><th>Description</th></tr></thead><tbody>
 <tr><td><code>#TPH-RB</code></td><td>Left by one word <br> <img src="img/26-left-word.png" width="300px"/></td></tr>
 <tr><td><code>#TPH-BG</code></td><td>Right by one word <br> <img src="img/26-right-word.png" width="300px"/></td></tr>
 </tbody></table>
 </div>
 <h4 id="-ts-repetition"><a class="header" href="#-ts-repetition"><code>-TS</code> repetition</a></h4>
-<p>By including a combination of <code>-T</code> and <code>-S</code>, you can repeat a movement key command up to 4 times in one stroke.</p>
+<p>By including a combination of <code>-T</code> and <code>-S</code>, a movement key command up to 4 times in one stroke.</p>
 <div class="table-wrapper"><table><thead><tr><th>Repetition</th><th>Key</th></tr></thead><tbody>
 <tr><td>1</td><td><code> </code></td></tr>
 <tr><td>2</td><td><code>-S</code></td></tr>
@@ -4305,12 +4314,12 @@
 </div>
 <p>For example, <code>#TPH-GT</code> would move the cursor to the right by three characters and <code>#TPH-BGT</code> would move the cursor to the right by three words.</p>
 <h4 id="selection"><a class="header" href="#selection">Selection</a></h4>
-<p>To select text, include the <code>*</code> key in a movement command. Repeating the same command works for incrementing your selection. For example, <code>#TPH*R/#TPH*R/#TPH*R/#TPH*R</code> will select the 4 letters to the left.</p>
+<p>To select text, include the <code>*</code> key in a movement command. Repeating the same command works for incrementing the current selection. For example, <code>#TPH*R/#TPH*R/#TPH*R/#TPH*R</code> will select the 4 letters to the left.</p>
 <h4 id="repeat-the-last-command"><a class="header" href="#repeat-the-last-command">Repeat the last command</a></h4>
 <blockquote>
 <p><strong>NOTE:</strong> for this to work, you will have to disable the <code class="code-mono">lapwing-prefixed-proper-nouns.json&gt;</code>.</p>
 </blockquote>
-<p>Instead of writing <code>#TPH*R/#TPH*R/#TPH*R/#TPH*R</code>, you can also use the number key to repeat the last outline: <code>#TPH*R/#/#/#</code>.</p>
+<p>Instead of writing <code>#TPH*R/#TPH*R/#TPH*R/#TPH*R</code>, the number key can be pressed to repeat the last outline: <code>#TPH*R/#/#/#</code>.</p>
 <blockquote>
 <p><strong>NOTE:</strong> this requires the <code class="code-mono">plover-last-translation</code> plugin if you are not using <code class="code-mono">plover-lapwing-aio</code>.</p>
 </blockquote>
@@ -4318,7 +4327,7 @@
 <p>Replace all occurrences of &quot;Control&quot; with &quot;Alt&quot; in the movement commands if you are on macOS.</p>
 <h3 id="modal-movement"><a class="header" href="#modal-movement">Modal movement</a></h3>
 <h4 id="setup-3"><a class="header" href="#setup-3">Setup</a></h4>
-<p>Make sure you are using the <code class="code-mono">plover-lapwing-aio</code> plugin, or you have manually configured your dictionary stack by following <a href="Appendix-B.html">these instructions</a>.</p>
+<p>Ensure that <code class="code-mono">plover-lapwing-aio</code> is installed and <code class="code-mono">Lapwing</code> is selected as the system. Alternatively, if you are setting up <a href="Appendix-B.html">Lapwing manually</a> (not recommended), ensure that <code class="code-mono">movement.modal</code> is in your dictionary stack.</p>
 <h4 id="modal-dictionaries"><a class="header" href="#modal-dictionaries">Modal dictionaries</a></h4>
 <p>Moving around a document can be quite tedious especially with such a long starting chord like <code>#TPH</code>. One way to make movement easier is to use a modal dictionary. This is a temporary dictionary that can be turned on and off with a regular outline that also outputs a translation.</p>
 <p>A modal movement dictionary contains the regular movement strokes, but with the <code>#TPH</code> chord removed. Writing a normal movement stroke will turn this dictionary on, so that every subsequent movement stroke can be written using only the right hand. Writing a non-movement stroke will turn this dictionary back off.</p>

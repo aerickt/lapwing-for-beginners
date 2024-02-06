@@ -21,13 +21,22 @@ Here's a table of all basic movement commands:
 | `#TPH-RPG` | Page up <br> <img src="img/26-page-up.png" width="300px"/> |
 | `#TPH-FBL` | Page down <br> <img src="img/26-down.png" width="300px"/> |
 
-For arrow keys, you can think of the `-RPBG` as an arrow key cluster and `#TPH` as a starting chord.
+The `-RPBG` cluster can be thought of as arrow keys:
 
 ![](img/26-arrow-keys.png)
 
+Furthermore, other chords have distinctive shapes reminiscent of their purpose.
+
+* Page up (arrow pointing up)
+* Page down (arrow pointing down)
+* Home (left column)
+* End (right column)
+* Top (top row)
+* Bottom (bottom row)
+
 #### Moving word by word
 
-On a regular keyboard, you can move the text cursor word by word by pressing <code class="code-mono">Ctrl</code> and an arrow key. Using Lapwing, you can do this with `#TPH-RB` and `#TPH-BG`.
+On a regular keyboard, the text cursor can be moved word by word by pressing <code class="code-mono">Ctrl</code> and an arrow key. This can also be done by pressing `#TPH-RB` and `#TPH-BG`.
 
 | Outline | Description |
 | ---- | ---- |
@@ -36,7 +45,7 @@ On a regular keyboard, you can move the text cursor word by word by pressing <co
 
 #### `-TS` repetition
 
-By including a combination of `-T` and `-S`, you can repeat a movement key command up to 4 times in one stroke.
+By including a combination of `-T` and `-S`, a movement key command up to 4 times in one stroke.
 
 | Repetition | Key |
 | ---- | ---- |
@@ -49,13 +58,13 @@ For example, `#TPH-GT` would move the cursor to the right by three characters an
 
 #### Selection
 
-To select text, include the `*` key in a movement command. Repeating the same command works for incrementing your selection. For example, `#TPH*R/#TPH*R/#TPH*R/#TPH*R` will select the 4 letters to the left.
+To select text, include the `*` key in a movement command. Repeating the same command works for incrementing the current selection. For example, `#TPH*R/#TPH*R/#TPH*R/#TPH*R` will select the 4 letters to the left.
 
 #### Repeat the last command
 
 > **NOTE:** for this to work, you will have to disable the <code class="code-mono">lapwing-prefixed-proper-nouns.json></code>.
 
-Instead of writing `#TPH*R/#TPH*R/#TPH*R/#TPH*R`, you can also use the number key to repeat the last outline: `#TPH*R/#/#/#`.
+Instead of writing `#TPH*R/#TPH*R/#TPH*R/#TPH*R`, the number key can be pressed to repeat the last outline: `#TPH*R/#/#/#`.
 
 > **NOTE:** this requires the <code class="code-mono">plover-last-translation</code> plugin if you are not using <code class="code-mono">plover-lapwing-aio</code>.
 
@@ -67,7 +76,7 @@ Replace all occurrences of "Control" with "Alt" in the movement commands if you 
 
 #### Setup
 
-Make sure you are using the <code class="code-mono">plover-lapwing-aio</code> plugin, or you have manually configured your dictionary stack by following [these instructions](Appendix-B.md).
+Ensure that <code class="code-mono">plover-lapwing-aio</code> is installed and <code class="code-mono">Lapwing</code> is selected as the system. Alternatively, if you are setting up [Lapwing manually](Appendix-B.md) (not recommended), ensure that <code class="code-mono">movement.modal</code> is in your dictionary stack.
 
 #### Modal dictionaries
 

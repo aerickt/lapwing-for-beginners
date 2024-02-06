@@ -10,11 +10,11 @@ Most dictionaries for writing symbols and modifiers use python dictionaries. In 
 
 ### Setup
 
-Make sure you are using the <code class="code-mono">plover-lapwing-aio</code> plugin, or you have manually configured your dictionary stack by following [these instructions](Appendix-B.md).
+Ensure that <code class="code-mono">plover-lapwing-aio</code> is installed and <code class="code-mono">Lapwing</code> is selected as the system. Alternatively, if you are setting up [Lapwing manually](Appendix-B.md) (not recommended), ensure that <code class="code-mono">lapwing-uk-additions.json</code> is in your dictionary stack.
 
 ## Emily's symbols dictionary
 
-This dictionary allows you to write any symbol available on a regular keyboard. In one stroke, you can control the spacing, repetition, and capitalization of the next word.
+This dictionary allows writing any symbol that is available on a regular keyboard. In one stroke, spacing, repetition, and capitalization of the next word can be controlled.
 
 ### Usage
 
@@ -24,7 +24,7 @@ The right hand determines which symbol to write as well as the repetition. The l
 
 ![](img/25-emily-symbols.png)
 
-For example, to write `!!!! ` (space on the right side and next word capitalized) you would use `SKWHO*FRTS`.
+For example, to write <code class="code-mono">!!!! </code> (space on the right side and next word capitalized) use `SKWHO*FRTS`.
 
 Breaking down this stroke looks like this:
 
@@ -36,11 +36,11 @@ Breaking down this stroke looks like this:
 
 ## Emily's modifiers dictionary
 
-This dictionary allows you to write any shortcut possible on a regular keyboard in one stroke.
+This dictionary allows writing any keyboard shortcut that can be pressed on a regular keyboard.
 
 ### Usage
 
-Similar to her symbols dictionary, Emily's modifier dictionary uses a unique right hand ender chord: `-LGTS`. As this is a very rare chord, we can be sure that any outline including this chord does not conflict with any other words. The Ctrl, Shift, Alt, and Super (Windows) keys are pressed with the right index and middle finger and the letter or symbol is pressed with the left hand.
+Similar to her symbols dictionary, Emily's modifier dictionary uses a unique right hand ender chord: `-LGTS`. As this is a very rare chord, any modifier outline will likely not conflict with any pre-existing outlines. The Ctrl, Shift, Alt, and Super (Windows) keys are pressed with the right index and middle finger and the letter or symbol is pressed with the left hand.
 
 ![](img/25-emily-modifiers.png)
 

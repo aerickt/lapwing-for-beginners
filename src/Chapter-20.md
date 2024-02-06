@@ -14,7 +14,7 @@ Ideally, there would be a separate stand-alone lapwing dictionary for British En
 
 ### Setup
 
-Ensure that <code class="code-mono">plover-lapwing-aio</code> is installed and <code class="code-mono">Lapwing</code> is selected as the system. Alternatively, if you are setting up [Lapwing manually](Appendix-B.md) (not recommended), ensure that <code class="code-mono">lapwing-uk-additions.json</code> in your dictionary stack.
+Ensure that <code class="code-mono">plover-lapwing-aio</code> is installed and <code class="code-mono">Lapwing</code> is selected as the system. Alternatively, if you are setting up [Lapwing manually](Appendix-B.md) (not recommended), ensure that <code class="code-mono">lapwing-uk-additions.json</code> is in your dictionary stack.
 
 ## Quick switching
 

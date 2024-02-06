@@ -32,7 +32,7 @@ Every bolded phrase can be written in one stroke using Jeff's phrasing. There ar
 
 ### Setup
 
-Make sure you are using the <code class="code-mono">plover-lapwing-aio</code> plugin, or you have manually configured your dictionary stack by following [these instructions](Appendix-B.md).
+Ensure that <code class="code-mono">plover-lapwing-aio</code> is installed and <code class="code-mono">Lapwing</code> is selected as the system. Alternatively, if you are setting up [Lapwing manually](Appendix-B.md) (not recommended), ensure that <code class="code-mono">jeff-phrasing.json</code> is in your dictionary stack.
 
 ### Basics
 
