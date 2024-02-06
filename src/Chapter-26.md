@@ -71,9 +71,9 @@ Make sure you are using the <code class="code-mono">plover-lapwing-aio</code> pl
 
 #### Modal dictionaries
 
-Moving around a document can be quite tedious especially with such a long starting chord like `#TPH`. One way to make movement easier is to use modal dictionaries. A modal dictionary is like a temporary dictionary that can be turned on and off with an outline in addition to outputting a translation.
+Moving around a document can be quite tedious especially with such a long starting chord like `#TPH`. One way to make movement easier is to use a modal dictionary. This is a temporary dictionary that can be turned on and off with a regular outline that also outputs a translation.
 
-With a modal movement dictionary, writing a regular movement stroke will turn the dictionary on. This dictionary contains the movement strokes but with the `#TPH` chord removed. This way, when you write a full stroke for the first movement command, you can write subsequent movement strokes using only the right hand. To turn off the modal dictionary, you would just right an outline that is not a movement command.
+A modal movement dictionary contains the regular movement strokes, but with the `#TPH` chord removed. Writing a normal movement stroke will turn this dictionary on, so that every subsequent movement stroke can be written using only the right hand. Writing a non-movement stroke will turn this dictionary back off.
 
 ![](img/26-modal-movement.gif)
 
