@@ -78,7 +78,7 @@ However, if steno were completely phonetic, it would be impossible to differenti
 
 ### Steno theories
 
-A steno theory refers to the set of rules that govern how you write words. While the basics (such as everything I've mentioned so far) are more or less the same between theories, there are some subtle differences. If you're starting to learn English steno, it's not too important which theory you start with—it isn't difficult to switch between them.
+A steno theory refers to the set of rules that govern how words are broken down. While the basics (such as everything I've mentioned so far) are more or less the same between theories, there are some subtle differences. If you're starting to learn English steno, it's not too important which theory you start with—it isn't difficult to switch between them.
 
 The primary way steno theories differ is in their philosophy. For example, Phoenix theory is based off of a comprehensive set of rules that you must be fluent with; the benefit is that you will be able to write any word that comes to mind regardless of if you have written it before. On the other side of the spectrum, Magnum theory places more emphasis on learning words themselves through rote memorization. In essence, you learn fewer rules, but you must memorize more words and exceptions.
 

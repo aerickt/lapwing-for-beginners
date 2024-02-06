@@ -188,10 +188,10 @@
 <li><a href="img/19-punctuation.png">Punctuation graphic</a></li>
 </ul>
 <h2 id="intro"><a class="header" href="#intro">Intro</a></h2>
-<p>In this chapter, we will look at punctuation and Plover commands which tend to be less intuitive. You will have to simply memorize many of these. There won't be any practice material for this chapter; instead, I encourage you to start using steno whenever you can and refer back to this page whenever you need to. This would also be a great time to start playing typing games like TypeRacer or Monkeytype if you are interested in that.</p>
+<p>This chapter will cover punctuation and Plover commands. As these are not really tied to any words, they may be less intuitive. Many of these will simply have to be memorized. There is no practice material for this chapter; instead, incorporating steno into daily computer tasks can be a great way to practise these miscellaneous outlines. It may be helpful to print out the punctuation graphic and keep it in a easy to reference location (such as taped to a wall). Playing typing games such as TypeRacer or monkeytype is also a great way to practise steno at this point.</p>
 <h2 id="punctuation"><a class="header" href="#punctuation">Punctuation</a></h2>
-<p>You should be familiar with how regular words in Plover are written with spaces in between them (apart from special translations). For punctuation, however, you do not necessarily want to have a space on either side of the symbol. Thus, each punctuation outline has its own special formatting.</p>
-<p>By default, every translation will have a space on either side—it won't be attached to the previous or the next word. Every translation also won't affect the capitalization of the next word. In the table below, the formatting specifies where each translation differs from default formatting.</p>
+<p>Punctuation is a lot different to regular words where a space is almost always inserted before. For different punctuation, there may be different scenarios for spacing on one side or the other. Furthermore, punctuation can sometimes also govern the capitalization of the next word. Therefore, punctuation strokes contain special formatting rules to control the spacing and capitalization.</p>
+<p>The following table lists several common punctuation marks along with the name, formatting, steno outline, and a mnemonic to aid with memorization.</p>
 <div class="table-wrapper"><table><thead><tr><th>Character</th><th>Name</th><th>Formatting</th><th>Steno outline</th><th>Mnemonic</th></tr></thead><tbody>
 <tr><td><code class="code-mono">.</code></td><td>Period</td><td>Attaches to the previous word and capitalizes the next word.</td><td><code>TP-PL</code></td><td>Written by the top index and middle finger on both hands.</td></tr>
 <tr><td><code class="code-mono">?</code></td><td>Question mark</td><td>Attaches to the previous word and capitalizes the next word.</td><td><code>KW-PL</code></td><td>This is like the outline for a period, but the shape resembles a rising intonation as would happen in a question.</td></tr>
@@ -220,42 +220,57 @@
 </div>
 <p><img src="img/19-punctuation.png" alt="" /></p>
 <h2 id="commands"><a class="header" href="#commands">Commands</a></h2>
-<p>Quite often, you might have to manually tell Plover to format a word a certain way.</p>
+<p>Situations may arise where Plover will have to be explicitly told how to format a word. The following section goes over some useful formatting commands.</p>
 <h3 id="insert-a-space"><a class="header" href="#insert-a-space">Insert a space</a></h3>
 <h4 id="outline-s-p"><a class="header" href="#outline-s-p">Outline: <code>S-P</code></a></h4>
 <p>Mnemonic: <strong>sp</strong>ace</p>
-<p>Although Plover will automatically insert spaces before regular words, sometimes you might have to explicitly tell Plover to insert a space so that two strokes should not be interpreted as a multistroke outline.</p>
-<p>For example, <code>KOR/TPHET</code> is the word &quot;cornet&quot; in the Lapwing dictionary, but this makes it impossible to write the phrase &quot;core net&quot;. Instead, we use the &quot;insert space&quot; command in between the two strokes:</p>
-<p><code>KOR/S-P/TPHET</code> → core net</p>
+<p>Although Plover will automatically insert spaces before regular words, it may be necessary to manually insert a space so that two strokes should not be interpreted as a multistroke outline.</p>
+<h4 id="example"><a class="header" href="#example">Example</a></h4>
+<ul>
+<li><code>KOR/TPHET</code> cornet</li>
+<li><code>KOR/S-P/TPHET</code> core net</li>
+</ul>
 <h3 id="retroactively-insert-a-space"><a class="header" href="#retroactively-insert-a-space">Retroactively insert a space</a></h3>
 <h4 id="outline-s-pd"><a class="header" href="#outline-s-pd">Outline: <code>S-PD</code></a></h4>
-<p>Mnemonic: the <code>S-P</code> outline but with <code>-D</code> to indicate the retro command</p>
-<p>This outline will insert a space before the last stroke.</p>
-<p><code>KOR/TPHET/S-PD</code> → core net</p>
+<p>Mnemonic: the <code>S-P</code> outline but with <code>-D</code> to indicate that this is a retroactive command.</p>
+<h4 id="example-1"><a class="header" href="#example-1">Example</a></h4>
+<ul>
+<li><code>KOR/TPHET</code> cornet</li>
+<li><code>KOR/TPHET/S-PD</code> core net</li>
+</ul>
 <blockquote>
-<p><strong>NOTE:</strong> this doesn't work with multistroke outlines.</p>
+<p><strong>NOTE:</strong> this does not work with multistroke outlines if <code>S-PD</code> is pressed in between two strokes part of the same word. For example, the phrase &quot;core nettle&quot; <strong>cannot</strong> be written like <code>KOR/TPHET/S-PD/-L</code>.</p>
 </blockquote>
-<p>For example, you cannot use this technique to write the phrase &quot;core nettle&quot;. What's happening is that when you write <code>KOR/TPHET/S-PD/-L</code>, Plover interprets the second word as <code>TPHET/S-PD/-L</code> which, of course, isn't defined in the dictionary.</p>
 <h3 id="suppress-the-next-space"><a class="header" href="#suppress-the-next-space">Suppress the next space</a></h3>
 <h4 id="outline-sp-s"><a class="header" href="#outline-sp-s">Outline: <code>SP-S</code></a></h4>
 <p>Mnemonic: <strong>s</strong>u<strong>pp</strong>ress <strong>s</strong>pace</p>
-<p>Example:</p>
-<p><code>HOU/SP-S/-FR</code> → however</p>
+<h4 id="example-2"><a class="header" href="#example-2">Example</a></h4>
+<ul>
+<li>how ever <code>HOU/-FR</code></li>
+<li>however <code>HOU/SP-S/-FR</code></li>
+</ul>
 <h3 id="retroactively-suppress-the-last-space"><a class="header" href="#retroactively-suppress-the-last-space">Retroactively suppress the last space</a></h3>
 <h4 id="outline-sp-ls"><a class="header" href="#outline-sp-ls">Outline: <code>SP-LS</code></a></h4>
 <p>Mnemonic: <strong>s</strong>u<strong>pp</strong>ress <strong>l</strong>ast <strong>s</strong>pace</p>
-<p>Example:</p>
-<p><code>PHOR/AUFR/SP-LS</code> → moreover</p>
+<h4 id="example-3"><a class="header" href="#example-3">Example</a></h4>
+<ul>
+<li><code>PHOR/AUFR</code> more over</li>
+<li><code>PHOR/AUFR/SP-LS</code> moreover</li>
+</ul>
 <h3 id="capitalize-the-next-word"><a class="header" href="#capitalize-the-next-word">Capitalize the next word</a></h3>
 <h4 id="outline-kpa"><a class="header" href="#outline-kpa">Outline: <code>KPA</code></a></h4>
 <p>Mnemonic: the word &quot;cap&quot; but with the &quot;a&quot; and &quot;p&quot; out of order</p>
-<p>Example:</p>
-<p><code>-T/KPA/AOEU/HRAPBD</code> → the Island</p>
+<h4 id="example-4"><a class="header" href="#example-4">Example</a></h4>
+<ul>
+<li><code>-T/KPA/AOEU/HRAPBD</code> the island</li>
+</ul>
 <h3 id="retroactively-capitalize-the-next-word"><a class="header" href="#retroactively-capitalize-the-next-word">Retroactively capitalize the next word</a></h3>
 <h4 id="outline-kapd"><a class="header" href="#outline-kapd">Outline: <code>KA*PD</code></a></h4>
 <p>Mnemonic: the word &quot;capped&quot; but with the asterisk</p>
-<p>Example:</p>
-<p><code>-T/AOEU/HRAPBD/KA*PD</code> → the Island</p>
+<h4 id="example-5"><a class="header" href="#example-5">Example</a></h4>
+<ul>
+<li><code>-T/AOEU/HRAPBD/KA*PD</code> the Island</li>
+</ul>
 <h3 id="capitalize-the-next-word-and-suppress-the-next-space"><a class="header" href="#capitalize-the-next-word-and-suppress-the-next-space">Capitalize the next word and suppress the next space</a></h3>
 <h4 id="outline-kpa-1"><a class="header" href="#outline-kpa-1">Outline: <code>KPA*</code></a></h4>
 <p>Mnemonic: the <code>KPA</code> outline with the asterisk</p>

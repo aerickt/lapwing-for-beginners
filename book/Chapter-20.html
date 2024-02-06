@@ -183,7 +183,7 @@
 <p>Lapwing theory is very North American centred as that is the dialect of English I am familiar with. However, being from Canada, I often need to use both American and British spellings of words in writing. I've created a dictionary that adds in British spellings with alternative outlines. Unfortunately, this dictionary does not account for pronunciation differences, and it also prioritises the American forms of words—there may not always be short briefs available for British spellings.</p>
 <p>Ideally, there would be a separate stand-alone lapwing dictionary for British English, but creating one would be very difficult, particularly for someone who does not speak this dialect. If you would like to contribute a lapwing dictionary for British speakers, please do get in touch!</p>
 <h3 id="setup"><a class="header" href="#setup">Setup</a></h3>
-<p>Make sure you are using the <code class="code-mono">plover-lapwing-aio</code> plugin, or you have manually configured your dictionary stack by following <a href="Appendix-B.html">these instructions</a>.</p>
+<p>Ensure that <code class="code-mono">plover-lapwing-aio</code> is installed and <code class="code-mono">Lapwing</code> is selected as the system. Alternatively, if you are setting up <a href="Appendix-B.html">Lapwing manually</a> (not recommended), ensure that <code class="code-mono">lapwing-uk-additions.json</code> in your dictionary stack.</p>
 <h2 id="quick-switching"><a class="header" href="#quick-switching">Quick switching</a></h2>
 <p>The recommended way to switch from an American word to its British form is by using <code>#TPH</code> as a suffix stroke of sorts. This is guaranteed to always work unlike the other methods outlined later.</p>
 <h3 id="examples"><a class="header" href="#examples">Examples</a></h3>
@@ -210,7 +210,7 @@
 </li>
 </ul>
 <h3 id="dealing-with-suffixes"><a class="header" href="#dealing-with-suffixes">Dealing with suffixes</a></h3>
-<p>If you are writing a word with a suffix, you have to switch the word into its British form <strong>first</strong> before writing the suffix.</p>
+<p>If you are writing a word with a suffix, switch the word into its British form <strong>first</strong> before writing the suffix. It is not guaranteed to work if the suffix is written before <code>#TPH</code>.</p>
 <h4 id="examples-1"><a class="header" href="#examples-1">Examples</a></h4>
 <ul>
 <li>organising <code>OR/TKPWA/TPHAOEUZ/#TPH/-G</code></li>
@@ -254,7 +254,7 @@
 <li>neighbour <code>TPHAEU/PWOUR</code></li>
 </ul>
 <h2 id="re-spellings"><a class="header" href="#re-spellings">re spellings</a></h2>
-<p>For British words spelled with &quot;re&quot; you can use the asterisk key in the stroke containing <code>ER</code>.</p>
+<p>For British words spelled with &quot;re&quot; the asterisk key can be included in the stroke containing <code>ER</code>.</p>
 <h3 id="examples-5"><a class="header" href="#examples-5">Examples</a></h3>
 <ul>
 <li>calibre <code>KA/HREU/PW*ER</code></li>
@@ -263,7 +263,7 @@
 <li>centimetre <code>SEPB/TEU/PHAO*ERT</code></li>
 </ul>
 <h2 id="miscellaneous-briefs"><a class="header" href="#miscellaneous-briefs">Miscellaneous briefs</a></h2>
-<p>If adding the asterisk into a brief or other outline exists, then chances are it will work for the British spelling.</p>
+<p>If adding the asterisk into an a brief is possible, then it will very likely work for the British spelling.</p>
 <h3 id="examples-6"><a class="header" href="#examples-6">Examples</a></h3>
 <ul>
 <li>metre <code>PHAO*ERT</code></li>

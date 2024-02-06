@@ -1,13 +1,13 @@
 # Chapter 21: Theory principles wrap-up
 
 ## Intro
-This page serves as a reference for all the miscellaneous theory principles that only apply to a few words. It's not important to explicitly memorize the content on this page as you will likely encounter these situations in everyday writing.
+This page serves as a reference for all the miscellaneous theory principles that only apply to a few words. It's not important to explicitly memorize the content on this page, as it is very likely these situations will arise in everyday writing.
 
-When you do find odd entries via the lookup tool, first consult this page. If you cannot find an explanation, free to contact me on Discord (@aerbg). It may be that I have not yet documented the oddity here or that the entry itself may be incorrect.
+When you do find odd entries via the lookup tool, first consult this page. If you cannot find an explanation, free to contact me on Discord (@aerbg) or [start a discussion on GitHub](https://github.com/aerickt/lapwing-for-beginners/discussions) (login required). It may be that I have not yet documented the oddity here or that the entry itself may be incorrect.
 
 ## Acronyms
 
-For capitalized acronyms, Lapwing treats these as regular words for the most part. Write the first stroke with the asterisk and the number key, but continue the rest of the acronym with regular theory rules, although, it is generally okay to break steno order. Usually writing an acronym involves spelling the letters it is made up of. For short acronyms, it can also be faster to fingerspell.
+For capitalized acronyms, Lapwing treats these as regular words for the most part. Write the first stroke with the asterisk and the number key, but continue the rest of the acronym with regular theory rules. It is generally okay to break steno order. Usually writing an acronym involves spelling the letters it is made up of. For short acronyms, it can also be faster to fingerspell.
 
 - AWOL `#A*EU/WOL`
 - LAN `#HRA*PB`
@@ -15,9 +15,10 @@ For capitalized acronyms, Lapwing treats these as regular words for the most par
 
 ## Contractions
 
-Contractions are written with theory rules, but use the asterisk key.
+Contractions are written like regular words, but with the asterisk key.
 
-Here are some common contractions.
+
+Some common contractions:
 
 | Contraction | Outline |
 | ---- | ---- |
@@ -44,15 +45,23 @@ In these cases, "-sh" gets precedence and the word with "-rb" is instead asteris
 
 ## Disambiguating "ou" with `OU`
 
-Plover's `main.json` uses `OU` for many words that are spelled with "ou" (especially when there is a conflict). For example, `KORS` would be the word "cores" and therefore "course" would have to be `KOURS`. Lapwing doesn't use this technique; it's preferred that you use `O` as much as possible and `OU` only when it's absolutely necessary.
+Lapwing is somewhat strict in using `OU` only phonetically. However, for cases where where existing outlines with `OU` do not exist, it is generally okay to use this chord for disambiguation.
 
-These are the following such cases to memorize or at least note:
+* `TPOUR` four
+  * `TPOR` is already "for^"
+* `SOUL` soul
+  * `SOEL` is already "sole"
+* `PHOURPB` morn*
+  * `PHORPB` is already "morn"
 
-1. `TPOR` is already used so "four" is `TPOUR` or `TPO*R`.
-2. `KWROUR` exists for "your" as a brief.
-3. The word "tour" can only be written as `TAOUR` even if that is not how you pronounce it (myself included).
-4. Similarly, the word "mourn" can only be written as `PHAOURPB`.
-5. The word "soul" can be written `SO*EL` or `SOUL`.
+\* Not in the Lapwing dictionary
+
+## Tricky "ou" words
+
+In some accents, the words "tour" and "mourn" would be written like `TOR` and `PHORPB`. However, since these two outlines already exist as other words, Lapwing uses `AOUR` instead. The reasoning for this is that this pronunciation of "tour" is more standard in a North American accent.
+
+* `PHAOURPB` mourn
+* `TAOUR` tour
 
 ## `W` for glides
 
@@ -85,14 +94,21 @@ Write the "-graph" part separately and then use the `KWREU` suffix to add the "-
 
 ### Alternative "-graphy" outline
 
-Instead of `TKPWRAF/KWREU`, you can also use `TKPWRAEF`:
+`TKPWRAEF` can be used as a shorter stroke for "-graphy":
 
 * `SKWRAOE/KWRO/TKPWRAEF` geography
 * `OR/THO/TKPWRAEF` orthography
 * `STE/TPHO/TKPWRAEF` stenography
 * `SREUD/KWRO/TKPWRAEF` videography
 
-This uses a briefing technique called "E-folding" where the `E` key represents another vowel and is "tucked" into a steno stroke. In this case, the `E` represents the "long e" sound. Often, this extra sound is phonetically at the end of the word. This is an example of when steno order can be violated in briefs.
+
+This uses a briefing technique called "e-folding". The stroke `TKPWRAF` represents "graph", and the `E` key can indicate a "long e" sound on the end of the word.
+
+In other words:
+
+* `TKPWRAF` + `E` = `TKPWRAEF` can be thought of as:
+*  graph + "ee" = graphy.
+
 
 E-folding is covered further in [chapter 24](Chapter-24.md#e-folding)
 
@@ -134,7 +150,7 @@ Instead of `TKPWRAF/KWREUBG`, you can also use `TKPWRAFBG`:
 * `EUPB/TPOE/TKPWRAFBG` infographic
 * `PEUBG/TO/TKPWRAFBG` pictographic
 
-This uses a briefing technique where you drop unstressed vowels such as the "i" in graph**i**c.
+This uses a briefing technique where the unstressed vowels such as the "i" in graph**i**c is dropped.
 
 ## "-ology" words
 These are written using regular syllabic splitting:
@@ -170,11 +186,11 @@ Another way of thinking about this is that the `KWR` or the `W` glide represents
 
 ## "-ual" words
 
-If you were to split these words using regular syllabic splitting, it would be difficult to accurately reflect the glide in the "-ual" sound. For example, if you were write the word "manual" in a way that the second stroke begins with a consonant, you would be left with `PHA/TPHAOU`. You could add a last stroke `WAL` to complete the word, but three strokes for such a short word is not very fast indeed. Instead, we can use `WAL` to represent the entire "-ual" cluster. This allows us to include the "n" consonant in the first stroke: `PHAPB/WAL`.
+It is very difficult to write the "-ual" sound using regular syllabic splitting rules. For example, to write the word "manual" in a way that the second stroke begins with a consonant is only possible as `PHA/TPHAOU`. It is possible to finish the word with `WAL`, but three strokes for such a short word is not very fast indeed. Instead, the `WAL` stroke on its own can represent the entire "-ual" cluster. Thus, by including the "n" consonant in the first stroke, it is possible to write this word with only two: `PHAPB/WAL`.
 
 ### `WAL`
 
-You can also think of the `WAL` stroke orthographically: the `W` key represents the "u", and the `AL` represents the "al".
+Another way of thinking of the `WAL` stroke is that the `W` key represents the "u", and the `AL` represents the "al".
 
 * `AOEBG/WAL` equal
 * `HA/PWEUFP/WAL` habitual
@@ -203,13 +219,9 @@ I prefer using `TWAL` over `WAL` (when possible) as it more closely resembles th
 
 You are also free to come up with your own strokes for dealing with these words. In hindsight, `KWRAOUL` would be a better fit to some of these words, however, as I am already accustomed to `WAL`, I am not about to change these around. Furthermore, if `PHA/TPHAOU/WAL` or `PHA/TPHAOUL` do, in fact, make more sense to you, you should absolutely make changes to your dictionary.
 
-## "Improperly" used suffix strokes
-
-Sometimes, you may want to use a stroke that resembles a suffix stroke but isn't actually defined in the way that you intend to use it. For example, the word "hyphenate" is clearly related to "hyphen" and, therefore, it might make more sense to use a suffix rather than `HAOEU/TP*E/TPHAEUT`. While `KWRAEUT` is defined as `{^iate}`, it is acceptable to use this suffix stroke in this situation: `HAOEU/TP*EPB/KWRAEUT`.
-
 ## Doubling consonants with prefixes
 
-With prefix strokes, you are allowed to double consonants between two strokes if it makes sense to do so. This is entirely up to your discretion. Here are some examples you can find in the default Lapwing dictionary:
+With prefix strokes, doubling consonants between two strokes is allowed if it makes sense to do so.
 
 - `EUPL/PHOE/PWAOEUL` immobile
    - `EUPL` is the "im-" prefix
@@ -219,9 +231,9 @@ There can also be alternative strokes that exist in the dictionary (for example,
 
 ## Splitting a sound at "ng"
 
-If you have to split a word into multiple syllables at "ng", use `...PBG/TKPW...`
+To split a word at "ng", use `...PBG/TKPW...`
 
-If you feel uncomfortable that this is doubling a consonant between two strokes, feel free to use any of the alternatives:
+There are also two other alternative splitting methods:
 
 1. `...PB/TKPW...`
 2. `...PBG/KWR...`
@@ -230,7 +242,6 @@ If you feel uncomfortable that this is doubling a consonant between two strokes,
 
 * bingo `PWEUPBG/TKPWOE` or `PWEUPB/TKPWOE` or `PWEUPBG/KWROE`
 * tango `TAPBG/TKPWOE` or `TAPB/TKPWOE` or `TAPBG/KWROE`
-
 
 ## Prefix outline conflicts
 
@@ -286,7 +297,7 @@ Another technique for disambiguating between prefixes and words is using alterna
 
 ### Prefix strokes vs compound words
 
-Sometimes it can be arbitrary to determine whether you should write a word as a compound word rather than a word with a prefix. For example, the Lapwing dictionary by default treats words like "upright" and "downwards" as compound words as you can only write these as `UP/RAO*EUT` and `TKOUPB/WA*RD/-Z`. In these cases, it is perfectly reasonable to edit your dictionary and add prefix strokes that make sense to you.
+Sometimes it can be arbitrary to determine whether a word should be written as a compound word rather than a word with a prefix. For example, the Lapwing dictionary by default treats words like "upright" and "downwards" as compound words; they can be only be written as `UP/RAO*EUT` and `TKOUPB/WA*RD/-Z`. It is perfectly reasonable to make changes and add extra prefix strokes if desired.
 
 ## Problematic words
 

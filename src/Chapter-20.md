@@ -14,7 +14,7 @@ Ideally, there would be a separate stand-alone lapwing dictionary for British En
 
 ### Setup
 
-Make sure you are using the <code class="code-mono">plover-lapwing-aio</code> plugin, or you have manually configured your dictionary stack by following [these instructions](Appendix-B.md).
+Ensure that <code class="code-mono">plover-lapwing-aio</code> is installed and <code class="code-mono">Lapwing</code> is selected as the system. Alternatively, if you are setting up [Lapwing manually](Appendix-B.md) (not recommended), ensure that <code class="code-mono">lapwing-uk-additions.json</code> in your dictionary stack.
 
 ## Quick switching
 
@@ -33,7 +33,7 @@ The recommended way to switch from an American word to its British form is by us
 
 ### Dealing with suffixes
 
-If you are writing a word with a suffix, you have to switch the word into its British form **first** before writing the suffix.
+If you are writing a word with a suffix, switch the word into its British form **first** before writing the suffix. It is not guaranteed to work if the suffix is written before `#TPH`.
 
 #### Examples
 * organising `OR/TKPWA/TPHAOEUZ/#TPH/-G`
@@ -84,7 +84,7 @@ Words spelled with "ou" can be written using `OU` **only** to disambiguate betwe
 
 ## re spellings
 
-For British words spelled with "re" you can use the asterisk key in the stroke containing `ER`.
+For British words spelled with "re" the asterisk key can be included in the stroke containing `ER`.
 
 ### Examples
 * calibre `KA/HREU/PW*ER`
@@ -94,7 +94,7 @@ For British words spelled with "re" you can use the asterisk key in the stroke c
 
 ## Miscellaneous briefs
 
-If adding the asterisk into a brief or other outline exists, then chances are it will work for the British spelling.
+If adding the asterisk into an a brief is possible, then it will very likely work for the British spelling.
 
 ### Examples
 * metre `PHAO*ERT`

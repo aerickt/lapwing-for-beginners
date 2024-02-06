@@ -10,9 +10,7 @@ Remember to take breaks!
 
 ## Proper nouns
 
-You may be wondering how to write proper nouns with Lapwing theory. So far, the drills have not included any proper nouns at all. This is because they can sometimes conflict with other words (for example, "mat", "math", "Mat", and "Matt").
-
-Lapwing uses the number key to help get around this issue. Proper nouns are written exactly the same as regular words, with one exception: the first stroke includes the `#` key.
+Proper nouns in Lapwing theory are written exactly the same as regular words, except with the addition of the number key in the first stroke. Proper nouns can be multiple words long, but only the first stroke has to contain the number key (see examples below). The inclusion of the number key reduces conflicts, such as between "mat" and "Mat".
 
 #### Examples
 
@@ -23,18 +21,20 @@ Lapwing uses the number key to help get around this issue. Proper nouns are writ
 
 ### Proper nouns starting with "j"
 
-`#SKWR` is a really hard chord to press, especially when writing at speed. `#STKPW` is an alternative chord for proper nouns starting with "j".
+`#SKWR` is a difficult chord to press, especially when writing at speed. `#STKPW` can be used as an alternative chord for proper nouns starting with "j".
 
 * `#STKPWER/PHA/TPHEU` Germany
 * `#STKPWO/TPHO/THAPB` Jonathan
 
 ## Alternative proper nouns with a prefix stroke
 
-Some machines may not be compatible with remapping the top `S-` key. In this case, you can instead use `#` as a stroke on its own to prefix proper nouns. This is handled through the <code class="code-mono">lapwing-prefixed-proper-nouns.json</code> dictionary. If you do not need this functionality, you can safely remove this from your dictionary stack.
+Some machines may not be compatible with remapping the top `S-` key. In this case, the number key can be used as a stroke on its own to indicate that subsequent strokes will be treated as a proper noun. This is handled through the <code class="code-mono">lapwing-prefixed-proper-nouns.json</code> dictionary. If you do not need this functionality, you can safely remove it from your stack.
 
 #### Examples
 
-* `#/KEFPB` Kevin
-* `#/PAT` Pat
+* `#/A/TPHA` Anna
+* `#/KAL/TKPWAR/KWREU` Calgary
+* `#/PHAT` Mat
+* `#/SRAPB/KAOU/SRER/AOEU/HRAPBD` Vancouver Island
 
 ## No test this chapter!

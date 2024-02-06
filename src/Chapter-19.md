@@ -14,13 +14,13 @@ Remember to take breaks!
 * [Punctuation graphic](img/19-punctuation.png)
 
 ## Intro
-In this chapter, we will look at punctuation and Plover commands which tend to be less intuitive. You will have to simply memorize many of these. There won't be any practice material for this chapter; instead, I encourage you to start using steno whenever you can and refer back to this page whenever you need to. This would also be a great time to start playing typing games like TypeRacer or Monkeytype if you are interested in that.
+This chapter will cover punctuation and Plover commands. As these are not really tied to any words, they may be less intuitive. Many of these will simply have to be memorized. There is no practice material for this chapter; instead, incorporating steno into daily computer tasks can be a great way to practise these miscellaneous outlines. It may be helpful to print out the punctuation graphic and keep it in a easy to reference location (such as taped to a wall). Playing typing games such as TypeRacer or monkeytype is also a great way to practise steno at this point.
 
 ## Punctuation
 
-You should be familiar with how regular words in Plover are written with spaces in between them (apart from special translations). For punctuation, however, you do not necessarily want to have a space on either side of the symbol. Thus, each punctuation outline has its own special formatting.
+Punctuation is a lot different to regular words where a space is almost always inserted before. For different punctuation, there may be different scenarios for spacing on one side or the other. Furthermore, punctuation can sometimes also govern the capitalization of the next word. Therefore, punctuation strokes contain special formatting rules to control the spacing and capitalization.
 
-By default, every translation will have a space on either side—it won't be attached to the previous or the next word. Every translation also won't affect the capitalization of the next word. In the table below, the formatting specifies where each translation differs from default formatting.
+The following table lists several common punctuation marks along with the name, formatting, steno outline, and a mnemonic to aid with memorization.
 
 | Character | Name | Formatting | Steno outline | Mnemonic |
 | ---- | ---- | ---- | ---- | ---- |
@@ -52,67 +52,65 @@ By default, every translation will have a space on either side—it won't be att
 
 ## Commands
 
-Quite often, you might have to manually tell Plover to format a word a certain way.
+Situations may arise where Plover will have to be explicitly told how to format a word. The following section goes over some useful formatting commands.
 
 ### Insert a space
 #### Outline: `S-P`
 
 Mnemonic: **sp**ace
 
-Although Plover will automatically insert spaces before regular words, sometimes you might have to explicitly tell Plover to insert a space so that two strokes should not be interpreted as a multistroke outline.
+Although Plover will automatically insert spaces before regular words, it may be necessary to manually insert a space so that two strokes should not be interpreted as a multistroke outline.
 
-For example, `KOR/TPHET` is the word "cornet" in the Lapwing dictionary, but this makes it impossible to write the phrase "core net". Instead, we use the "insert space" command in between the two strokes:
 
-`KOR/S-P/TPHET` → core net
+#### Example
+
+* `KOR/TPHET` cornet
+* `KOR/S-P/TPHET` core net
 
 ### Retroactively insert a space
 #### Outline: `S-PD`
 
-Mnemonic: the `S-P` outline but with `-D` to indicate the retro command
+Mnemonic: the `S-P` outline but with `-D` to indicate that this is a retroactive command.
 
-This outline will insert a space before the last stroke.
+#### Example
+* `KOR/TPHET` cornet
+* `KOR/TPHET/S-PD` core net
 
-`KOR/TPHET/S-PD` → core net
-
-> **NOTE:** this doesn't work with multistroke outlines.
-
-For example, you cannot use this technique to write the phrase "core nettle". What's happening is that when you write `KOR/TPHET/S-PD/-L`, Plover interprets the second word as `TPHET/S-PD/-L` which, of course, isn't defined in the dictionary.
+> **NOTE:** this does not work with multistroke outlines if `S-PD` is pressed in between two strokes part of the same word. For example, the phrase "core nettle" **cannot** be written like `KOR/TPHET/S-PD/-L`.
 
 ### Suppress the next space
 #### Outline: `SP-S`
 
 Mnemonic: **s**u**pp**ress **s**pace
 
-Example:
-
-`HOU/SP-S/-FR` → however
+#### Example
+* how ever `HOU/-FR`
+* however `HOU/SP-S/-FR`
 
 ### Retroactively suppress the last space
 #### Outline: `SP-LS`
 
 Mnemonic: **s**u**pp**ress **l**ast **s**pace
 
-Example:
-
-`PHOR/AUFR/SP-LS` → moreover
+#### Example
+* `PHOR/AUFR` more over
+* `PHOR/AUFR/SP-LS` moreover
 
 ### Capitalize the next word
 #### Outline: `KPA`
 
 Mnemonic: the word "cap" but with the "a" and "p" out of order
 
-Example:
-
-`-T/KPA/AOEU/HRAPBD` → the Island
+#### Example
+* `-T/KPA/AOEU/HRAPBD` the island
 
 ### Retroactively capitalize the next word
 #### Outline: `KA*PD`
 
 Mnemonic: the word "capped" but with the asterisk
 
-Example:
-
-`-T/AOEU/HRAPBD/KA*PD` → the Island
+#### Example
+* `-T/AOEU/HRAPBD/KA*PD` the Island
 
 ### Capitalize the next word and suppress the next space
 #### Outline: `KPA*`
