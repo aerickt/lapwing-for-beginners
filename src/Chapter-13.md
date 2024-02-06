@@ -21,7 +21,7 @@ Remember to take breaks!
 * [Right hand ment and let words](practice/11-rh-ment-and-let.txt)
 * [Right hand bl words drill](practice/11-rh-bl.txt)
 * [Right hand kwr suffix words drill](practice/13-kwr.txt)
-* [Right hand *bility words drill](practice/13-rh-bility.txt)
+* [Right hand \*bility words drill](practice/13-rh-bility.txt)
 * [Chapter 13 test](practice/13-test.txt)
 
 ## Intro
@@ -30,11 +30,11 @@ Every chapter up until now has been focusing on single syllable words. When it c
 
 ## Prefix strokes
 
-Every translation we have been writing so far has been a regular word with no special formatting. This means that Plover will output a space before every word—this should be pretty familiar to you from the drills we have been practising. Let's take a look at how Plover parses these translations. In the main window of Plover, go to <code>Tools → Add Translation</code>. With your steno keyboard, write <code>STROEBG</code> into the <code>Strokes</code> field. You should see the following:
+Every translation we have been writing so far has been a regular word with no special formatting. This means that Plover will output a space before every word—this should be pretty familiar to you from the drills we have been practising. Let's take a look at how Plover parses these translations. In the main window of Plover, go to <code class="code-mono">Tools → Add Translation</code>. With your steno keyboard, write <code class="code-mono">STROEBG</code> into the <code class="code-mono">Strokes</code> field. You should see the following:
 
 ![](img/13-add-translation-stroke.png)
 
-Now let's look at a **prefix stroke**. This is a stroke that tells Plover to suppress the next space after outputting a translation. If you write `PRAOE` into the <code>Strokes</code> field. You should see the following:
+Now let's look at a **prefix stroke**. This is a stroke that tells Plover to suppress the next space after outputting a translation. If you write `PRAOE` into the <code class="code-mono">Strokes</code> field. You should see the following:
 
 ![](img/13-add-translation-pre.png)
 

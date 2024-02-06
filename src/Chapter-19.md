@@ -24,29 +24,29 @@ By default, every translation will have a space on either side—it won't be att
 
 | Character | Name | Formatting | Steno outline | Mnemonic |
 | ---- | ---- | ---- | ---- | ---- |
-| <code>.</code>  | Period | Attaches to the previous word and capitalizes the next word. | `TP-PL` | Written by the top index and middle finger on both hands. |
-| <code>?</code> | Question mark | Attaches to the previous word and capitalizes the next word. | `KW-PL` | This is like the outline for a period, but the shape resembles a rising intonation as would happen in a question. |
-| <code>!</code> | Exclamation mark | Attaches to the previous word and capitalizes the next word. | `TP-BG` | This is like the period outline, but sloped downwards to mirror the question mark outline.|
-| <code>.</code> | Decimal point | Attaches to the previous word and the next word. | `P-P` | This is like the period outline but is only pressed with the middle fingers. |
-| <code>,</code> | Comma | Attaches to the previous word. | `KW-BG` | This is similar to the period outline, but is on the bottom row. |
-| <code>"</code> | Opening quotation mark | Attaches to the next word. | `KW-GS` | Think of the outline as "**qu**ota**tion**". |
-| <code>"</code> | Closing quotation mark | Attaches to the previous word. | `KW*GS` | This is the opening quotation mark outline with the asterisk. |
-| <code>\`</code> | Opening backtick | Attaches to the next word. | `KH-FG` | This outline is symmetrical and the right hand makes a shape that resembles a backtick. |
-| <code>\`</code> | Closing backtick | Attaches to the previous word. | `KH*FG` | This is the opening backtick outline with the asterisk. |
-| <code>(</code> | Opening parenthesis | Attaches to the next word. | `PREPB` | This outline makes the sound "pren" as in **p**a**ren**thesis |
-| <code>)</code> | Closing parenthesis | Attaches to the previous word | `PR*EPB` | This is the opening parenthesis outline with the asterisk. |
-| <code>{</code> | Opening curly brace | Attaches to the next word. | `TPR-BGT` | This symbol is also called a "**Fr**ench **br**a**ck**e**t**" (hence the outline). |
-| <code>}</code> | Closing curly brace | Attaches to the previous word. | `TPR*BGT` | This is the opening curly brace outline with the asterisk. |
-| <code>[</code> | Opening square bracket | Attaches to the next word. | `PWR-BGT` | This outline resembles "**br**a**ck**e**t**". |
-| <code>]</code> | Closing square bracket | Attaches to the previous word. | `PWR*BGT` | This is the opening square bracket outline with the asterisk.
-| <code>:</code> | Colon (for writing) | Attaches to the previous word | `STPH-FPLT` | This outline uses the top row of keys apart from the `S` |
-| <code>;</code> | Semicolon | Attaches to the previous word. | `STPH*FPLT` | This is the colon outline but with the asterisk. |
-| <code>:</code> | Colon (for time) | Attaches to the previous word and the next word. | `KHR-PB` | This outline resembles the word "**c**o**l**o**n**". |
-| <code>—</code> | Emdash | Attaches to the previous word and the next word. | `PH-RB` | This outline sort of resembles "e**m**da**sh**". |
-| <code>–</code> | Endash | Attaches to the previous word and the next word. | `TPH-RB` | This outline sort of resembles "e**n**da**sh**". |
-| <code>-</code> | Hyphen | Attaches to the previous word and the next word. | `H-PB` | This outline resembles "**h**yphe**n**".
-| <code>‽</code> | Interrobang | Attaches to the previous word and capitalizes the next word | `TRAPBG` | This outline resembles the word "in**t**e**rr**ob**ang**". |
-| <code>/</code> | Slash | Attaches to the previous word and the next word | `OEU` |
+| <code class="code-mono">.</code>  | Period | Attaches to the previous word and capitalizes the next word. | `TP-PL` | Written by the top index and middle finger on both hands. |
+| <code class="code-mono">?</code> | Question mark | Attaches to the previous word and capitalizes the next word. | `KW-PL` | This is like the outline for a period, but the shape resembles a rising intonation as would happen in a question. |
+| <code class="code-mono">!</code> | Exclamation mark | Attaches to the previous word and capitalizes the next word. | `TP-BG` | This is like the period outline, but sloped downwards to mirror the question mark outline.|
+| <code class="code-mono">.</code> | Decimal point | Attaches to the previous word and the next word. | `P-P` | This is like the period outline but is only pressed with the middle fingers. |
+| <code class="code-mono">,</code> | Comma | Attaches to the previous word. | `KW-BG` | This is similar to the period outline, but is on the bottom row. |
+| <code class="code-mono">"</code> | Opening quotation mark | Attaches to the next word. | `KW-GS` | Think of the outline as "**qu**ota**tion**". |
+| <code class="code-mono">"</code> | Closing quotation mark | Attaches to the previous word. | `KW*GS` | This is the opening quotation mark outline with the asterisk. |
+| <code class="code-mono">\`</code> | Opening backtick | Attaches to the next word. | `KH-FG` | This outline is symmetrical and the right hand makes a shape that resembles a backtick. |
+| <code class="code-mono">\`</code> | Closing backtick | Attaches to the previous word. | `KH*FG` | This is the opening backtick outline with the asterisk. |
+| <code class="code-mono">(</code> | Opening parenthesis | Attaches to the next word. | `PREPB` | This outline makes the sound "pren" as in **p**a**ren**thesis |
+| <code class="code-mono">)</code> | Closing parenthesis | Attaches to the previous word | `PR*EPB` | This is the opening parenthesis outline with the asterisk. |
+| <code class="code-mono">{</code> | Opening curly brace | Attaches to the next word. | `TPR-BGT` | This symbol is also called a "**Fr**ench **br**a**ck**e**t**" (hence the outline). |
+| <code class="code-mono">}</code> | Closing curly brace | Attaches to the previous word. | `TPR*BGT` | This is the opening curly brace outline with the asterisk. |
+| <code class="code-mono">[</code> | Opening square bracket | Attaches to the next word. | `PWR-BGT` | This outline resembles "**br**a**ck**e**t**". |
+| <code class="code-mono">]</code> | Closing square bracket | Attaches to the previous word. | `PWR*BGT` | This is the opening square bracket outline with the asterisk.
+| <code class="code-mono">:</code> | Colon (for writing) | Attaches to the previous word | `STPH-FPLT` | This outline uses the top row of keys apart from the `S` |
+| <code class="code-mono">;</code> | Semicolon | Attaches to the previous word. | `STPH*FPLT` | This is the colon outline but with the asterisk. |
+| <code class="code-mono">:</code> | Colon (for time) | Attaches to the previous word and the next word. | `KHR-PB` | This outline resembles the word "**c**o**l**o**n**". |
+| <code class="code-mono">—</code> | Emdash | Attaches to the previous word and the next word. | `PH-RB` | This outline sort of resembles "e**m**da**sh**". |
+| <code class="code-mono">–</code> | Endash | Attaches to the previous word and the next word. | `TPH-RB` | This outline sort of resembles "e**n**da**sh**". |
+| <code class="code-mono">-</code> | Hyphen | Attaches to the previous word and the next word. | `H-PB` | This outline resembles "**h**yphe**n**".
+| <code class="code-mono">‽</code> | Interrobang | Attaches to the previous word and capitalizes the next word | `TRAPBG` | This outline resembles the word "in**t**e**rr**ob**ang**". |
+| <code class="code-mono">/</code> | Slash | Attaches to the previous word and the next word | `OEU` |
 
 ![](img/19-punctuation.png)
 

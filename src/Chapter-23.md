@@ -20,7 +20,7 @@ Here is a non-exhaustive table of some common phrase briefs.
 
 Again, if you come across a phrase that you think could be briefed, try looking it up first. If an outline is not available, this is where you should add your own!
 
-Lapwing doesn't contain many phrase briefs (compared to other theories), but this is because I recommend learning Jeff's phrasing. It is a very useful system that is already packaged in the <code>plover-lapwing-aio</code> plugin.
+Lapwing doesn't contain many phrase briefs (compared to other theories), but this is because I recommend learning Jeff's phrasing. It is a very useful system that is already packaged in the <code class="code-mono">plover-lapwing-aio</code> plugin.
 
 ## Jeff's phrasing
 
@@ -32,7 +32,7 @@ Every bolded phrase can be written in one stroke using Jeff's phrasing. There ar
 
 ### Setup
 
-Make sure you are using the <code>plover-lapwing-aio</code> plugin, or you have manually configured your dictionary stack by following [these instructions](Appendix-B.md).
+Make sure you are using the <code class="code-mono">plover-lapwing-aio</code> plugin, or you have manually configured your dictionary stack by following [these instructions](Appendix-B.md).
 
 ### Basics
 

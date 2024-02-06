@@ -1,6 +1,6 @@
 # Chapter 26: Editing text
 
-Lapwing contains some limited movement commands by default. However, if you want to switch to steno full time, you will have to incorporate another method for movement. This chapter goes over the default movement commands in <code>lapwing-base.json</code> as well as some additional methods you can use.
+Lapwing contains some limited movement commands by default. However, if you want to switch to steno full time, you will have to incorporate another method for movement. This chapter goes over the default movement commands in <code class="code-mono">lapwing-base.json</code> as well as some additional methods you can use.
 
 ## Movement
 
@@ -27,7 +27,7 @@ You can think of the `-RPBG` as an arrow key cluster and `#TPH` as a starting ch
 
 #### Moving word by word
 
-You can normally move word by word by pressing <code>Ctrl</code> and an arrow key on a regular keyboard. Using Lapwing, you can do this with `#TPH-RB` and `#TPH-BG`.
+You can normally move word by word by pressing <code class="code-mono">Ctrl</code> and an arrow key on a regular keyboard. Using Lapwing, you can do this with `#TPH-RB` and `#TPH-BG`.
 
 | Outline | Description |
 | ---- | ---- |
@@ -55,7 +55,7 @@ To select text, simply include the `*` key in a movement command. Repeating the 
 
 Instead of writing `#TPH*R/#TPH*R/#TPH*R/#TPH*R`, you can also use the number key to repeat the last outline: `#TPH*R/#/#/#`.
 
-> **NOTE:** this requires the <code>plover-last-translation</code> plugin if you are not using <code>plover-lapwing-aio</code>.
+> **NOTE:** this requires the <code class="code-mono">plover-last-translation</code> plugin if you are not using <code class="code-mono">plover-lapwing-aio</code>.
 
 #### MacOS commands
 
@@ -65,7 +65,7 @@ Replace all occurrences of "Control" with "Alt" in the movement commands if you 
 
 #### Setup
 
-Make sure you are using the <code>plover-lapwing-aio</code> plugin, or you have manually configured your dictionary stack by following [these instructions](Appendix-B.md).
+Make sure you are using the <code class="code-mono">plover-lapwing-aio</code> plugin, or you have manually configured your dictionary stack by following [these instructions](Appendix-B.md).
 
 #### Modal dictionaries
 
@@ -121,7 +121,7 @@ This technique also requires modifying your keyboard's firmware. Unlike first-up
 
 For these keyboards, prebuilt firmware binaries for these mods are available at Josh Gram's [steno-firmware](https://github.com/JoshuaGrams/steno-firmware) repository.
 
-Flashing these firmware files are beyond the scope of this page, and instructions differ from keyboard to keyboard and machine to machine. On Linux, flashing the Multisteno is relatively straightforward as long as <code>dfu-util</code> is installed. I use the following command (where <code>noll_multisteno.bin</code> is the binary):
+Flashing these firmware files are beyond the scope of this page, and instructions differ from keyboard to keyboard and machine to machine. On Linux, flashing the Multisteno is relatively straightforward as long as <code class="code-mono">dfu-util</code> is installed. I use the following command (where <code class="code-mono">noll_multisteno.bin</code> is the binary):
 
 ```
 sudo dfu-util -d 1eaf:0003 -a 2 -D "noll_multisteno.bin"
@@ -137,13 +137,13 @@ If you don't intend to use Javelin's embedded steno capability, you can also sti
 
 ## Copying, pasting, and deleting text
 
-Copying and pasting of text is done by simply emulating the <code>Ctrl+C</code> and <code>Ctrl+V</code> shortcuts. Using Abby's left hand modifiers, this would be `KHR/KR` and `KHR/SR` respectively. The same goes for cutting text.
+Copying and pasting of text is done by simply emulating the <code class="code-mono">Ctrl+C</code> and <code class="code-mono">Ctrl+V</code> shortcuts. Using Abby's left hand modifiers, this would be `KHR/KR` and `KHR/SR` respectively. The same goes for cutting text.
 
 The following table lists a few helpful strokes for deleting text. It is important to note that using these strokes will mess up any undo history with the `*`.
 
 | Outline | Translation | Description |
 | ---- | ---- | ---- |
-| `PW-FP` | <code>{#BackSpace}{^}</code> | Backspace |
-| `PW*FP` | <code>{#Control(BackSpace)}{^}</code> | Backspace the last word (change translation if you're on Mac) |
-| `TKHR` | <code>{#Delete}{^}</code> | Delete the next character |
-| `TKHR*` | <code>{#Control(Delete)}{^}</code> | Delete the next word |
+| `PW-FP` | <code class="code-mono">{#BackSpace}{^}</code> | Backspace |
+| `PW*FP` | <code class="code-mono">{#Control(BackSpace)}{^}</code> | Backspace the last word (change translation if you're on Mac) |
+| `TKHR` | <code class="code-mono">{#Delete}{^}</code> | Delete the next character |
+| `TKHR*` | <code class="code-mono">{#Control(Delete)}{^}</code> | Delete the next word |

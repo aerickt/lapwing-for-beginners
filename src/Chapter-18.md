@@ -30,7 +30,7 @@ Lapwing uses the number key to help get around this issue. Proper nouns are writ
 
 ## Alternative proper nouns with a prefix stroke
 
-Some machines may not be compatible with remapping the top `S-` key. In this case, you can instead use `#` as a stroke on its own to prefix proper nouns. This is handled through the <code>lapwing-prefixed-proper-nouns.json</code> dictionary. If you do not need this functionality, you can safely remove this from your dictionary stack.
+Some machines may not be compatible with remapping the top `S-` key. In this case, you can instead use `#` as a stroke on its own to prefix proper nouns. This is handled through the <code class="code-mono">lapwing-prefixed-proper-nouns.json</code> dictionary. If you do not need this functionality, you can safely remove this from your dictionary stack.
 
 #### Examples
 

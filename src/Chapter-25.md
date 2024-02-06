@@ -10,7 +10,7 @@ Most dictionaries for writing symbols and modifiers use python dictionaries. In 
 
 ### Setup
 
-Make sure you are using the <code>plover-lapwing-aio</code> plugin, or you have manually configured your dictionary stack by following [these instructions](Appendix-B.md).
+Make sure you are using the <code class="code-mono">plover-lapwing-aio</code> plugin, or you have manually configured your dictionary stack by following [these instructions](Appendix-B.md).
 
 ## Emily's symbols dictionary
 
@@ -44,7 +44,7 @@ Similar to her symbols dictionary, Emily's modifier dictionary uses a unique rig
 
 ![](img/25-emily-modifiers.png)
 
-To write <code>Ctrl+Shift+C</code> you would write `KR-FRLGTS`.
+To write <code class="code-mono">Ctrl+Shift+C</code> you would write `KR-FRLGTS`.
 
 Breaking down this stroke looks like this:
 
@@ -60,7 +60,7 @@ This dictionary enables writing shortcuts with only one hand. Each shortcut is w
 
 ### Usage
 
-To write <code>Ctrl+V</code> you would write `KHR/SR`.
+To write <code class="code-mono">Ctrl+V</code> you would write `KHR/SR`.
 
 Breaking down this outline looks like:
 

@@ -1973,9 +1973,9 @@
 <h2 id="intro-3"><a class="header" href="#intro-3">Intro</a></h2>
 <p>Every chapter up until now has been focusing on single syllable words. When it comes to words with more than one syllable, we simply just break these into multiple strokes. How exactly we do this depends on the situation. We will first look at more straightforward situations in this chapter.</p>
 <h2 id="prefix-strokes"><a class="header" href="#prefix-strokes">Prefix strokes</a></h2>
-<p>Every translation we have been writing so far has been a regular word with no special formatting. This means that Plover will output a space before every word—this should be pretty familiar to you from the drills we have been practising. Let's take a look at how Plover parses these translations. In the main window of Plover, go to <code>Tools → Add Translation</code>. With your steno keyboard, write <code>STROEBG</code> into the <code>Strokes</code> field. You should see the following:</p>
+<p>Every translation we have been writing so far has been a regular word with no special formatting. This means that Plover will output a space before every word—this should be pretty familiar to you from the drills we have been practising. Let's take a look at how Plover parses these translations. In the main window of Plover, go to <code class="code-mono">Tools → Add Translation</code>. With your steno keyboard, write <code class="code-mono">STROEBG</code> into the <code class="code-mono">Strokes</code> field. You should see the following:</p>
 <p><img src="img/13-add-translation-stroke.png" alt="" /></p>
-<p>Now let's look at a <strong>prefix stroke</strong>. This is a stroke that tells Plover to suppress the next space after outputting a translation. If you write <code>PRAOE</code> into the <code>Strokes</code> field. You should see the following:</p>
+<p>Now let's look at a <strong>prefix stroke</strong>. This is a stroke that tells Plover to suppress the next space after outputting a translation. If you write <code>PRAOE</code> into the <code class="code-mono">Strokes</code> field. You should see the following:</p>
 <p><img src="img/13-add-translation-pre.png" alt="" /></p>
 <p>Here, the curly braces denote that there is special formatting rules contained inside the braces. The caret tells Plover to suppress the space where it is located. Any translation of the form ___^ is a prefix.</p>
 <p>If you were to write the word &quot;preview&quot;, you would have to split this word into &quot;pre^&quot; + &quot;view&quot;. Try it yourself—open a text document and write the strokes <code>PRAOE</code> and then <code>SRAOU</code>. In raw steno, this would be notated as <code>PRAOE/SRAOU</code> with the <code>/</code> character representing a stroke separator.</p>
@@ -3421,7 +3421,7 @@
 <li><code>#STKPWO/TPHO/THAPB</code> Jonathan</li>
 </ul>
 <h2 id="alternative-proper-nouns-with-a-prefix-stroke"><a class="header" href="#alternative-proper-nouns-with-a-prefix-stroke">Alternative proper nouns with a prefix stroke</a></h2>
-<p>Some machines may not be compatible with remapping the top <code>S-</code> key. In this case, you can instead use <code>#</code> as a stroke on its own to prefix proper nouns. This is handled through the <code>lapwing-prefixed-proper-nouns.json</code> dictionary. If you do not need this functionality, you can safely remove this from your dictionary stack.</p>
+<p>Some machines may not be compatible with remapping the top <code>S-</code> key. In this case, you can instead use <code>#</code> as a stroke on its own to prefix proper nouns. This is handled through the <code class="code-mono">lapwing-prefixed-proper-nouns.json</code> dictionary. If you do not need this functionality, you can safely remove this from your dictionary stack.</p>
 <h4 id="examples-36"><a class="header" href="#examples-36">Examples</a></h4>
 <ul>
 <li><code>#/KEFPB</code> Kevin</li>
@@ -3446,29 +3446,29 @@
 <p>You should be familiar with how regular words in Plover are written with spaces in between them (apart from special translations). For punctuation, however, you do not necessarily want to have a space on either side of the symbol. Thus, each punctuation outline has its own special formatting.</p>
 <p>By default, every translation will have a space on either side—it won't be attached to the previous or the next word. Every translation also won't affect the capitalization of the next word. In the table below, the formatting specifies where each translation differs from default formatting.</p>
 <div class="table-wrapper"><table><thead><tr><th>Character</th><th>Name</th><th>Formatting</th><th>Steno outline</th><th>Mnemonic</th></tr></thead><tbody>
-<tr><td><code>.</code></td><td>Period</td><td>Attaches to the previous word and capitalizes the next word.</td><td><code>TP-PL</code></td><td>Written by the top index and middle finger on both hands.</td></tr>
-<tr><td><code>?</code></td><td>Question mark</td><td>Attaches to the previous word and capitalizes the next word.</td><td><code>KW-PL</code></td><td>This is like the outline for a period, but the shape resembles a rising intonation as would happen in a question.</td></tr>
-<tr><td><code>!</code></td><td>Exclamation mark</td><td>Attaches to the previous word and capitalizes the next word.</td><td><code>TP-BG</code></td><td>This is like the period outline, but sloped downwards to mirror the question mark outline.</td></tr>
-<tr><td><code>.</code></td><td>Decimal point</td><td>Attaches to the previous word and the next word.</td><td><code>P-P</code></td><td>This is like the period outline but is only pressed with the middle fingers.</td></tr>
-<tr><td><code>,</code></td><td>Comma</td><td>Attaches to the previous word.</td><td><code>KW-BG</code></td><td>This is similar to the period outline, but is on the bottom row.</td></tr>
-<tr><td><code>&quot;</code></td><td>Opening quotation mark</td><td>Attaches to the next word.</td><td><code>KW-GS</code></td><td>Think of the outline as &quot;<strong>qu</strong>ota<strong>tion</strong>&quot;.</td></tr>
-<tr><td><code>&quot;</code></td><td>Closing quotation mark</td><td>Attaches to the previous word.</td><td><code>KW*GS</code></td><td>This is the opening quotation mark outline with the asterisk.</td></tr>
-<tr><td><code>`</code></td><td>Opening backtick</td><td>Attaches to the next word.</td><td><code>KH-FG</code></td><td>This outline is symmetrical and the right hand makes a shape that resembles a backtick.</td></tr>
-<tr><td><code>`</code></td><td>Closing backtick</td><td>Attaches to the previous word.</td><td><code>KH*FG</code></td><td>This is the opening backtick outline with the asterisk.</td></tr>
-<tr><td><code>(</code></td><td>Opening parenthesis</td><td>Attaches to the next word.</td><td><code>PREPB</code></td><td>This outline makes the sound &quot;pren&quot; as in <strong>p</strong>a<strong>ren</strong>thesis</td></tr>
-<tr><td><code>)</code></td><td>Closing parenthesis</td><td>Attaches to the previous word</td><td><code>PR*EPB</code></td><td>This is the opening parenthesis outline with the asterisk.</td></tr>
-<tr><td><code>{</code></td><td>Opening curly brace</td><td>Attaches to the next word.</td><td><code>TPR-BGT</code></td><td>This symbol is also called a &quot;<strong>Fr</strong>ench <strong>br</strong>a<strong>ck</strong>e<strong>t</strong>&quot; (hence the outline).</td></tr>
-<tr><td><code>}</code></td><td>Closing curly brace</td><td>Attaches to the previous word.</td><td><code>TPR*BGT</code></td><td>This is the opening curly brace outline with the asterisk.</td></tr>
-<tr><td><code>[</code></td><td>Opening square bracket</td><td>Attaches to the next word.</td><td><code>PWR-BGT</code></td><td>This outline resembles &quot;<strong>br</strong>a<strong>ck</strong>e<strong>t</strong>&quot;.</td></tr>
-<tr><td><code>]</code></td><td>Closing square bracket</td><td>Attaches to the previous word.</td><td><code>PWR*BGT</code></td><td>This is the opening square bracket outline with the asterisk.</td></tr>
-<tr><td><code>:</code></td><td>Colon (for writing)</td><td>Attaches to the previous word</td><td><code>STPH-FPLT</code></td><td>This outline uses the top row of keys apart from the <code>S</code></td></tr>
-<tr><td><code>;</code></td><td>Semicolon</td><td>Attaches to the previous word.</td><td><code>STPH*FPLT</code></td><td>This is the colon outline but with the asterisk.</td></tr>
-<tr><td><code>:</code></td><td>Colon (for time)</td><td>Attaches to the previous word and the next word.</td><td><code>KHR-PB</code></td><td>This outline resembles the word &quot;<strong>c</strong>o<strong>l</strong>o<strong>n</strong>&quot;.</td></tr>
-<tr><td><code>—</code></td><td>Emdash</td><td>Attaches to the previous word and the next word.</td><td><code>PH-RB</code></td><td>This outline sort of resembles &quot;e<strong>m</strong>da<strong>sh</strong>&quot;.</td></tr>
-<tr><td><code>–</code></td><td>Endash</td><td>Attaches to the previous word and the next word.</td><td><code>TPH-RB</code></td><td>This outline sort of resembles &quot;e<strong>n</strong>da<strong>sh</strong>&quot;.</td></tr>
-<tr><td><code>-</code></td><td>Hyphen</td><td>Attaches to the previous word and the next word.</td><td><code>H-PB</code></td><td>This outline resembles &quot;<strong>h</strong>yphe<strong>n</strong>&quot;.</td></tr>
-<tr><td><code>‽</code></td><td>Interrobang</td><td>Attaches to the previous word and capitalizes the next word</td><td><code>TRAPBG</code></td><td>This outline resembles the word &quot;in<strong>t</strong>e<strong>rr</strong>ob<strong>ang</strong>&quot;.</td></tr>
-<tr><td><code>/</code></td><td>Slash</td><td>Attaches to the previous word and the next word</td><td><code>OEU</code></td><td></td></tr>
+<tr><td><code class="code-mono">.</code></td><td>Period</td><td>Attaches to the previous word and capitalizes the next word.</td><td><code>TP-PL</code></td><td>Written by the top index and middle finger on both hands.</td></tr>
+<tr><td><code class="code-mono">?</code></td><td>Question mark</td><td>Attaches to the previous word and capitalizes the next word.</td><td><code>KW-PL</code></td><td>This is like the outline for a period, but the shape resembles a rising intonation as would happen in a question.</td></tr>
+<tr><td><code class="code-mono">!</code></td><td>Exclamation mark</td><td>Attaches to the previous word and capitalizes the next word.</td><td><code>TP-BG</code></td><td>This is like the period outline, but sloped downwards to mirror the question mark outline.</td></tr>
+<tr><td><code class="code-mono">.</code></td><td>Decimal point</td><td>Attaches to the previous word and the next word.</td><td><code>P-P</code></td><td>This is like the period outline but is only pressed with the middle fingers.</td></tr>
+<tr><td><code class="code-mono">,</code></td><td>Comma</td><td>Attaches to the previous word.</td><td><code>KW-BG</code></td><td>This is similar to the period outline, but is on the bottom row.</td></tr>
+<tr><td><code class="code-mono">&quot;</code></td><td>Opening quotation mark</td><td>Attaches to the next word.</td><td><code>KW-GS</code></td><td>Think of the outline as &quot;<strong>qu</strong>ota<strong>tion</strong>&quot;.</td></tr>
+<tr><td><code class="code-mono">&quot;</code></td><td>Closing quotation mark</td><td>Attaches to the previous word.</td><td><code>KW*GS</code></td><td>This is the opening quotation mark outline with the asterisk.</td></tr>
+<tr><td><code class="code-mono">`</code></td><td>Opening backtick</td><td>Attaches to the next word.</td><td><code>KH-FG</code></td><td>This outline is symmetrical and the right hand makes a shape that resembles a backtick.</td></tr>
+<tr><td><code class="code-mono">`</code></td><td>Closing backtick</td><td>Attaches to the previous word.</td><td><code>KH*FG</code></td><td>This is the opening backtick outline with the asterisk.</td></tr>
+<tr><td><code class="code-mono">(</code></td><td>Opening parenthesis</td><td>Attaches to the next word.</td><td><code>PREPB</code></td><td>This outline makes the sound &quot;pren&quot; as in <strong>p</strong>a<strong>ren</strong>thesis</td></tr>
+<tr><td><code class="code-mono">)</code></td><td>Closing parenthesis</td><td>Attaches to the previous word</td><td><code>PR*EPB</code></td><td>This is the opening parenthesis outline with the asterisk.</td></tr>
+<tr><td><code class="code-mono">{</code></td><td>Opening curly brace</td><td>Attaches to the next word.</td><td><code>TPR-BGT</code></td><td>This symbol is also called a &quot;<strong>Fr</strong>ench <strong>br</strong>a<strong>ck</strong>e<strong>t</strong>&quot; (hence the outline).</td></tr>
+<tr><td><code class="code-mono">}</code></td><td>Closing curly brace</td><td>Attaches to the previous word.</td><td><code>TPR*BGT</code></td><td>This is the opening curly brace outline with the asterisk.</td></tr>
+<tr><td><code class="code-mono">[</code></td><td>Opening square bracket</td><td>Attaches to the next word.</td><td><code>PWR-BGT</code></td><td>This outline resembles &quot;<strong>br</strong>a<strong>ck</strong>e<strong>t</strong>&quot;.</td></tr>
+<tr><td><code class="code-mono">]</code></td><td>Closing square bracket</td><td>Attaches to the previous word.</td><td><code>PWR*BGT</code></td><td>This is the opening square bracket outline with the asterisk.</td></tr>
+<tr><td><code class="code-mono">:</code></td><td>Colon (for writing)</td><td>Attaches to the previous word</td><td><code>STPH-FPLT</code></td><td>This outline uses the top row of keys apart from the <code>S</code></td></tr>
+<tr><td><code class="code-mono">;</code></td><td>Semicolon</td><td>Attaches to the previous word.</td><td><code>STPH*FPLT</code></td><td>This is the colon outline but with the asterisk.</td></tr>
+<tr><td><code class="code-mono">:</code></td><td>Colon (for time)</td><td>Attaches to the previous word and the next word.</td><td><code>KHR-PB</code></td><td>This outline resembles the word &quot;<strong>c</strong>o<strong>l</strong>o<strong>n</strong>&quot;.</td></tr>
+<tr><td><code class="code-mono">—</code></td><td>Emdash</td><td>Attaches to the previous word and the next word.</td><td><code>PH-RB</code></td><td>This outline sort of resembles &quot;e<strong>m</strong>da<strong>sh</strong>&quot;.</td></tr>
+<tr><td><code class="code-mono">–</code></td><td>Endash</td><td>Attaches to the previous word and the next word.</td><td><code>TPH-RB</code></td><td>This outline sort of resembles &quot;e<strong>n</strong>da<strong>sh</strong>&quot;.</td></tr>
+<tr><td><code class="code-mono">-</code></td><td>Hyphen</td><td>Attaches to the previous word and the next word.</td><td><code>H-PB</code></td><td>This outline resembles &quot;<strong>h</strong>yphe<strong>n</strong>&quot;.</td></tr>
+<tr><td><code class="code-mono">‽</code></td><td>Interrobang</td><td>Attaches to the previous word and capitalizes the next word</td><td><code>TRAPBG</code></td><td>This outline resembles the word &quot;in<strong>t</strong>e<strong>rr</strong>ob<strong>ang</strong>&quot;.</td></tr>
+<tr><td><code class="code-mono">/</code></td><td>Slash</td><td>Attaches to the previous word and the next word</td><td><code>OEU</code></td><td></td></tr>
 </tbody></table>
 </div>
 <p><img src="img/19-punctuation.png" alt="" /></p>
@@ -3528,7 +3528,7 @@
 <p>Lapwing theory is very North American centred as that is the dialect of English I am familiar with. However, being from Canada, I often need to use both American and British spellings of words in writing. I've created a dictionary that adds in British spellings with alternative outlines. Unfortunately, this dictionary does not account for pronunciation differences, and it also prioritises the American forms of words—there may not always be short briefs available for British spellings.</p>
 <p>Ideally, there would be a separate stand-alone lapwing dictionary for British English, but creating one would be very difficult, particularly for someone who does not speak this dialect. If you would like to contribute a lapwing dictionary for British speakers, please do get in touch!</p>
 <h3 id="setup"><a class="header" href="#setup">Setup</a></h3>
-<p>Make sure you are using the <code>plover-lapwing-aio</code> plugin, or you have manually configured your dictionary stack by following <a href="Appendix-B.html">these instructions</a>.</p>
+<p>Make sure you are using the <code class="code-mono">plover-lapwing-aio</code> plugin, or you have manually configured your dictionary stack by following <a href="Appendix-B.html">these instructions</a>.</p>
 <h2 id="quick-switching"><a class="header" href="#quick-switching">Quick switching</a></h2>
 <p>The recommended way to switch from an American word to its British form is by using <code>#TPH</code> as a suffix stroke of sorts. This is guaranteed to always work unlike the other methods outlined later.</p>
 <h3 id="examples-37"><a class="header" href="#examples-37">Examples</a></h3>
@@ -3884,11 +3884,11 @@
 <p>As such, you may come across words that are just impossible to write using the default Lapwing dictionary. This may be because it does not exist in the dictionary, or the theory is lacking rules that dictate how it should be written.</p>
 <p>This is where Plover's lookup tool comes in handy. If you are struggling to write a tricky word, don't be afraid to just look it up. If several outlines show up in the lookup tool, I would first recommend trying the write-out entry which is the <strong>longest outline available</strong>. You can also identify the write-out entry as the one that follows theory rules. I will discuss later why you might want to look at any of the shorter outlines later.</p>
 <h3 id="adding-new-words"><a class="header" href="#adding-new-words">Adding new words</a></h3>
-<p>If you've used the lookup tool and found that none of the outlines make sense, first try looking at any relevant pages and see if you've missed any theory. If you are on Discord, feel free to ask in the <code>#lapwing-theory</code> channel.</p>
+<p>If you've used the lookup tool and found that none of the outlines make sense, first try looking at any relevant pages and see if you've missed any theory. If you are on Discord, feel free to ask in the <code class="code-mono">#lapwing-theory</code> channel.</p>
 <p>However, it is possible that these outlines aren't covered under basic Lapwing theory—you've encountered a theory gap! At this point, you can decide to learn one of these outlines, or add your own.</p>
 <p>To add your own entry, stroke <code>TKUPT</code> to bring up the add translation tool. In the strokes field, start writing the outline you want to add. Then, move to the translation field by pressing <code>TA*B</code> and fingerspelling the word you want to add.</p>
 <p><img src="img/22-add-translation.png" alt="" /></p>
-<p><strong>It is also very important that you don't add new outlines to <code>lapwing-base.json</code>. If you intend to update the Lapwing dictionary, you will have to replace this entire file which will throw away any edits you have made.</strong></p>
+<p><strong>It is also very important that you don't add new outlines to <code class="code-mono">lapwing-base.json</code>. If you intend to update the Lapwing dictionary, you will have to replace this entire file which will throw away any edits you have made.</strong></p>
 <h3 id="an-example-of-a-theory-gap"><a class="header" href="#an-example-of-a-theory-gap">An example of a theory gap</a></h3>
 <p>We know that prefix strokes generally take precedence over word strokes when there is a conflict. However, sometimes there are more than just one conflicting entry. Here are some examples:</p>
 <div class="table-wrapper"><table><thead><tr><th>Word/prefix</th><th>Outline</th></tr></thead><tbody>
@@ -3951,7 +3951,7 @@
 </tbody></table>
 </div>
 <p>Again, if you come across a phrase that you think could be briefed, try looking it up first. If an outline is not available, this is where you should add your own!</p>
-<p>Lapwing doesn't contain many phrase briefs (compared to other theories), but this is because I recommend learning Jeff's phrasing. It is a very useful system that is already packaged in the <code>plover-lapwing-aio</code> plugin.</p>
+<p>Lapwing doesn't contain many phrase briefs (compared to other theories), but this is because I recommend learning Jeff's phrasing. It is a very useful system that is already packaged in the <code class="code-mono">plover-lapwing-aio</code> plugin.</p>
 <h2 id="jeffs-phrasing"><a class="header" href="#jeffs-phrasing">Jeff's phrasing</a></h2>
 <p>Jeff's phrasing system enables writing many common phrases, especially those that involve pronouns and verbs. For example, have a look at the following monkeytype quote:</p>
 <blockquote>
@@ -3959,7 +3959,7 @@
 </blockquote>
 <p>Every bolded phrase can be written in one stroke using Jeff's phrasing. There are likely some that I have also missed, as I personally do not go beyond the basics of Jeff's phrasing.</p>
 <h3 id="setup-1"><a class="header" href="#setup-1">Setup</a></h3>
-<p>Make sure you are using the <code>plover-lapwing-aio</code> plugin, or you have manually configured your dictionary stack by following <a href="Appendix-B.html">these instructions</a>.</p>
+<p>Make sure you are using the <code class="code-mono">plover-lapwing-aio</code> plugin, or you have manually configured your dictionary stack by following <a href="Appendix-B.html">these instructions</a>.</p>
 <h3 id="basics"><a class="header" href="#basics">Basics</a></h3>
 <p>Jeff's phrasing is a Magnum-esque phrasing system that allows you to write phrases involving pronouns and verbs.</p>
 <p>In its most basic form, these are some phrases you can write:</p>
@@ -4173,7 +4173,7 @@
 <h2 id="python-dictionaries"><a class="header" href="#python-dictionaries">Python dictionaries</a></h2>
 <p>Most dictionaries for writing symbols and modifiers use python dictionaries. In contrast to JSON or RTF dictionaries (which are essentially just lists of outlines and their translations), Python dictionaries generate their translations &quot;on the fly&quot;. When an outline is received, the python dictionary parses each part of the outline and determines how to combine them all in one translation. This is useful for systematic dictionaries such as those for writing keyboard shortcuts and symbols.</p>
 <h3 id="setup-2"><a class="header" href="#setup-2">Setup</a></h3>
-<p>Make sure you are using the <code>plover-lapwing-aio</code> plugin, or you have manually configured your dictionary stack by following <a href="Appendix-B.html">these instructions</a>.</p>
+<p>Make sure you are using the <code class="code-mono">plover-lapwing-aio</code> plugin, or you have manually configured your dictionary stack by following <a href="Appendix-B.html">these instructions</a>.</p>
 <h2 id="emilys-symbols-dictionary"><a class="header" href="#emilys-symbols-dictionary">Emily's symbols dictionary</a></h2>
 <p>This dictionary allows you to write any symbol available on a regular keyboard. In one stroke, you can control the spacing, repetition, and capitalization of the next word.</p>
 <h3 id="usage"><a class="header" href="#usage">Usage</a></h3>
@@ -4194,7 +4194,7 @@
 <h3 id="usage-1"><a class="header" href="#usage-1">Usage</a></h3>
 <p>Similar to her symbols dictionary, Emily's modifier dictionary uses a unique right hand ender chord: <code>-LGTS</code>. As this is a very rare chord, we can be sure that any outline including this chord does not conflict with any other words. The Ctrl, Shift, Alt, and Super (Windows) keys are pressed with the right index and middle finger and the letter or symbol is pressed with the left hand.</p>
 <p><img src="img/25-emily-modifiers.png" alt="" /></p>
-<p>To write <code>Ctrl+Shift+C</code> you would write <code>KR-FRLGTS</code>.</p>
+<p>To write <code class="code-mono">Ctrl+Shift+C</code> you would write <code>KR-FRLGTS</code>.</p>
 <p>Breaking down this stroke looks like this:</p>
 <ol>
 <li><code>-LGTS</code> right hand ending chord</li>
@@ -4207,7 +4207,7 @@
 <h2 id="abbys-left-hand-modifiers-dictionary"><a class="header" href="#abbys-left-hand-modifiers-dictionary">Abby's left hand modifiers dictionary</a></h2>
 <p>This dictionary enables writing shortcuts with only one hand. Each shortcut is written using two strokes on the left.</p>
 <h3 id="usage-2"><a class="header" href="#usage-2">Usage</a></h3>
-<p>To write <code>Ctrl+V</code> you would write <code>KHR/SR</code>.</p>
+<p>To write <code class="code-mono">Ctrl+V</code> you would write <code>KHR/SR</code>.</p>
 <p>Breaking down this outline looks like:</p>
 <ol>
 <li><code>KHR</code> chord for Ctrl</li>
@@ -4217,7 +4217,7 @@
 <h2 id="learning-these-systems"><a class="header" href="#learning-these-systems">Learning these systems</a></h2>
 <p>I recommend keeping these graphics somewhere easily visible (such as on your wall or on your desktop wallpaper). Instead of drilling random strokes, I suggest just incorporating these systems into your steno computer usage and slowly learning them gradually. Abby's left hand modifiers dictionary is quite intuitive, and I would start there with simple shortcuts such as copying and pasting.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="chapter-26-editing-text"><a class="header" href="#chapter-26-editing-text">Chapter 26: Editing text</a></h1>
-<p>Lapwing contains some limited movement commands by default. However, if you want to switch to steno full time, you will have to incorporate another method for movement. This chapter goes over the default movement commands in <code>lapwing-base.json</code> as well as some additional methods you can use.</p>
+<p>Lapwing contains some limited movement commands by default. However, if you want to switch to steno full time, you will have to incorporate another method for movement. This chapter goes over the default movement commands in <code class="code-mono">lapwing-base.json</code> as well as some additional methods you can use.</p>
 <h2 id="movement"><a class="header" href="#movement">Movement</a></h2>
 <h3 id="basic-movement"><a class="header" href="#basic-movement">Basic movement</a></h3>
 <p>Here's a table of all basic movement commands:</p>
@@ -4237,7 +4237,7 @@
 <p>You can think of the <code>-RPBG</code> as an arrow key cluster and <code>#TPH</code> as a starting chord.</p>
 <p><img src="img/26-arrow-keys.png" alt="" /></p>
 <h4 id="moving-word-by-word"><a class="header" href="#moving-word-by-word">Moving word by word</a></h4>
-<p>You can normally move word by word by pressing <code>Ctrl</code> and an arrow key on a regular keyboard. Using Lapwing, you can do this with <code>#TPH-RB</code> and <code>#TPH-BG</code>.</p>
+<p>You can normally move word by word by pressing <code class="code-mono">Ctrl</code> and an arrow key on a regular keyboard. Using Lapwing, you can do this with <code>#TPH-RB</code> and <code>#TPH-BG</code>.</p>
 <div class="table-wrapper"><table><thead><tr><th>Outline</th><th>Description</th></tr></thead><tbody>
 <tr><td><code>#TPH-RB</code></td><td>Left by one word <img src="img/26-left-word.png" alt="" /></td></tr>
 <tr><td><code>#TPH-BG</code></td><td>Right by one word <img src="img/26-right-word.png" alt="" /></td></tr>
@@ -4258,13 +4258,13 @@
 <h4 id="repeat-the-last-command"><a class="header" href="#repeat-the-last-command">Repeat the last command</a></h4>
 <p>Instead of writing <code>#TPH*R/#TPH*R/#TPH*R/#TPH*R</code>, you can also use the number key to repeat the last outline: <code>#TPH*R/#/#/#</code>.</p>
 <blockquote>
-<p><strong>NOTE:</strong> this requires the <code>plover-last-translation</code> plugin if you are not using <code>plover-lapwing-aio</code>.</p>
+<p><strong>NOTE:</strong> this requires the <code class="code-mono">plover-last-translation</code> plugin if you are not using <code class="code-mono">plover-lapwing-aio</code>.</p>
 </blockquote>
 <h4 id="macos-commands"><a class="header" href="#macos-commands">MacOS commands</a></h4>
 <p>Replace all occurrences of &quot;Control&quot; with &quot;Alt&quot; in the movement commands if you are on macOS.</p>
 <h3 id="modal-movement"><a class="header" href="#modal-movement">Modal movement</a></h3>
 <h4 id="setup-3"><a class="header" href="#setup-3">Setup</a></h4>
-<p>Make sure you are using the <code>plover-lapwing-aio</code> plugin, or you have manually configured your dictionary stack by following <a href="Appendix-B.html">these instructions</a>.</p>
+<p>Make sure you are using the <code class="code-mono">plover-lapwing-aio</code> plugin, or you have manually configured your dictionary stack by following <a href="Appendix-B.html">these instructions</a>.</p>
 <h4 id="modal-dictionaries"><a class="header" href="#modal-dictionaries">Modal dictionaries</a></h4>
 <p>Moving around a document can be quite tedious especially with such a long starting chord like <code>#TPH</code>. One way to make movement easier is to use modal dictionaries. A modal dictionary is like a temporary dictionary that can be turned on and off with an outline in addition to outputting a translation.</p>
 <p>With a modal movement dictionary, writing a regular movement stroke will turn the dictionary on. This dictionary contains the movement strokes but with the <code>#TPH</code> chord removed. This way, when you write a full stroke for the first movement command, you can write subsequent movement strokes using only the right hand. To turn off the modal dictionary, you would just right an outline that is not a movement command.</p>
@@ -4294,7 +4294,7 @@
 <p>This technique also requires modifying your keyboard's firmware. Unlike first-up chord send, I do recommend this and find it very useful.</p>
 <h4 id="ecosteno-multisteno-splitography-uni-v3"><a class="header" href="#ecosteno-multisteno-splitography-uni-v3">Ecosteno, Multisteno, Splitography, Uni v3</a></h4>
 <p>For these keyboards, prebuilt firmware binaries for these mods are available at Josh Gram's <a href="https://github.com/JoshuaGrams/steno-firmware">steno-firmware</a> repository.</p>
-<p>Flashing these firmware files are beyond the scope of this page, and instructions differ from keyboard to keyboard and machine to machine. On Linux, flashing the Multisteno is relatively straightforward as long as <code>dfu-util</code> is installed. I use the following command (where <code>noll_multisteno.bin</code> is the binary):</p>
+<p>Flashing these firmware files are beyond the scope of this page, and instructions differ from keyboard to keyboard and machine to machine. On Linux, flashing the Multisteno is relatively straightforward as long as <code class="code-mono">dfu-util</code> is installed. I use the following command (where <code class="code-mono">noll_multisteno.bin</code> is the binary):</p>
 <pre><code>sudo dfu-util -d 1eaf:0003 -a 2 -D &quot;noll_multisteno.bin&quot;
 </code></pre>
 <h4 id="javelin-compatible-devices"><a class="header" href="#javelin-compatible-devices">Javelin compatible devices</a></h4>
@@ -4302,18 +4302,18 @@
 <p>Javelin is compatible with several steno keyboards such as the Uni v4 and the Polyglot. It is much easier to create custom firmware builds and flash binaries to these keyboards via the Javelin Steno Firmware Builder. By checking the &quot;Show expert options&quot; at the very top of the page, you have the option of enabling first up chord send and/or repeat.</p>
 <p>If you don't intend to use Javelin's embedded steno capability, you can also still use Plover with keyboards that have Javelin firmware. For each keyboard, you will have to press a key combination to switch it into Gemini PR for usage with Plover.</p>
 <h2 id="copying-pasting-and-deleting-text"><a class="header" href="#copying-pasting-and-deleting-text">Copying, pasting, and deleting text</a></h2>
-<p>Copying and pasting of text is done by simply emulating the <code>Ctrl+C</code> and <code>Ctrl+V</code> shortcuts. Using Abby's left hand modifiers, this would be <code>KHR/KR</code> and <code>KHR/SR</code> respectively. The same goes for cutting text.</p>
+<p>Copying and pasting of text is done by simply emulating the <code class="code-mono">Ctrl+C</code> and <code class="code-mono">Ctrl+V</code> shortcuts. Using Abby's left hand modifiers, this would be <code>KHR/KR</code> and <code>KHR/SR</code> respectively. The same goes for cutting text.</p>
 <p>The following table lists a few helpful strokes for deleting text. It is important to note that using these strokes will mess up any undo history with the <code>*</code>.</p>
 <div class="table-wrapper"><table><thead><tr><th>Outline</th><th>Translation</th><th>Description</th></tr></thead><tbody>
-<tr><td><code>PW-FP</code></td><td><code>{#BackSpace}{^}</code></td><td>Backspace</td></tr>
-<tr><td><code>PW*FP</code></td><td><code>{#Control(BackSpace)}{^}</code></td><td>Backspace the last word (change translation if you're on Mac)</td></tr>
-<tr><td><code>TKHR</code></td><td><code>{#Delete}{^}</code></td><td>Delete the next character</td></tr>
-<tr><td><code>TKHR*</code></td><td><code>{#Control(Delete)}{^}</code></td><td>Delete the next word</td></tr>
+<tr><td><code>PW-FP</code></td><td><code class="code-mono">{#BackSpace}{^}</code></td><td>Backspace</td></tr>
+<tr><td><code>PW*FP</code></td><td><code class="code-mono">{#Control(BackSpace)}{^}</code></td><td>Backspace the last word (change translation if you're on Mac)</td></tr>
+<tr><td><code>TKHR</code></td><td><code class="code-mono">{#Delete}{^}</code></td><td>Delete the next character</td></tr>
+<tr><td><code>TKHR*</code></td><td><code class="code-mono">{#Control(Delete)}{^}</code></td><td>Delete the next word</td></tr>
 </tbody></table>
 </div><div style="break-before: page; page-break-before: always;"></div><p>If you have learned Plover theory and are considering switching to Lapwing, have a read through of this page before deciding!</p>
 <h1 id="plover-theory"><a class="header" href="#plover-theory">Plover Theory</a></h1>
-<p>Plover theory is a perfectly capable theory. After all, Mirabai Knight, the founder of the Open Steno Project, uses it in her professional work as a stenocaptioner. She has graciously provided her own dictionary (<code>main.json</code>) for us hobbyists to use. As with all professional stenographers, she built the majority of this dictionary by herself, having added many of the entries over the years.</p>
-<p>However, everyone writes differently. In fact, no two stenographers' dictionaries are ever the same. Many of the entries in <code>main.json</code> are simply what made sense to Mirabai at the time. They do not always follow systematic and rigorous rules. Plover theory itself is not very well defined in some areas; to illustrate this, have a look at all the ways to write &quot;monotonous&quot; in <code>main.json</code>:</p>
+<p>Plover theory is a perfectly capable theory. After all, Mirabai Knight, the founder of the Open Steno Project, uses it in her professional work as a stenocaptioner. She has graciously provided her own dictionary (<code class="code-mono">main.json</code>) for us hobbyists to use. As with all professional stenographers, she built the majority of this dictionary by herself, having added many of the entries over the years.</p>
+<p>However, everyone writes differently. In fact, no two stenographers' dictionaries are ever the same. Many of the entries in <code class="code-mono">main.json</code> are simply what made sense to Mirabai at the time. They do not always follow systematic and rigorous rules. Plover theory itself is not very well defined in some areas; to illustrate this, have a look at all the ways to write &quot;monotonous&quot; in <code class="code-mono">main.json</code>:</p>
 <pre><code>&quot;PHO/TPHOT/TPHOUS&quot;: &quot;monotonous&quot;,
 &quot;PHOE/TPHOT/TPHOUS&quot;: &quot;monotonous&quot;,
 &quot;PHOE/TPHOT/TPHUS&quot;: &quot;monotonous&quot;,
@@ -4323,9 +4323,9 @@
 &quot;PHOPB/TPHOT/TPHOUS&quot;: &quot;monotonous&quot;,
 </code></pre>
 <p>There are many different ways to write this word simply because there are no simple rules when it comes to splitting multisyllable words. This would be fine if the dictionary contained every single valid combination, but it doesn't. After all, it is a very time consuming task to add multiple entries for every single word. In the above example, <code>PHOPB/TPHOT/TPHUS</code> is missing.</p>
-<p>The learning resources such as Learn Plover! and Art of Chording also do not mention any rules about doubling consonants between strokes or about using <code>OUS</code> vs <code>US</code>. While, I can advise against using <code>US</code> from having used <code>main.json</code> for a year, it is much harder for me to give a recommendation when it comes to doubling consonants in multisyllable words. It is just poorly defined, and the dictionary does not contain any easy to recognize patterns.</p>
-<p>One more issue with <code>main.json</code> that is illustrated in the example above is the fact that many write-out entries require briefing techniques. In this case, you must drop the third &quot;o&quot; in &quot;monotonous&quot; since it is unstressed in order to write it out. This is fine for speed, but can be confusing for learners.</p>
-<p>The common wisdom to work around these issues (if you would like to stick with Plover theory and <code>main.json</code>) is to simply just add entries to fill in these gaps. If you do not want to have to drop unstressed vowels, just add the entry yourself. If you disagree with the dictionary's preference towards <code>OUS</code>, it's trivial to add the alternative entries. After all, there is no such thing as a &quot;complete&quot; dictionary and stenographers constantly tweak their own.</p>
+<p>The learning resources such as Learn Plover! and Art of Chording also do not mention any rules about doubling consonants between strokes or about using <code>OUS</code> vs <code>US</code>. While, I can advise against using <code>US</code> from having used <code class="code-mono">main.json</code> for a year, it is much harder for me to give a recommendation when it comes to doubling consonants in multisyllable words. It is just poorly defined, and the dictionary does not contain any easy to recognize patterns.</p>
+<p>One more issue with <code class="code-mono">main.json</code> that is illustrated in the example above is the fact that many write-out entries require briefing techniques. In this case, you must drop the third &quot;o&quot; in &quot;monotonous&quot; since it is unstressed in order to write it out. This is fine for speed, but can be confusing for learners.</p>
+<p>The common wisdom to work around these issues (if you would like to stick with Plover theory and <code class="code-mono">main.json</code>) is to simply just add entries to fill in these gaps. If you do not want to have to drop unstressed vowels, just add the entry yourself. If you disagree with the dictionary's preference towards <code>OUS</code>, it's trivial to add the alternative entries. After all, there is no such thing as a &quot;complete&quot; dictionary and stenographers constantly tweak their own.</p>
 <p>However, I disagree with the notion that learners should be doing this right from the start. This is my motivation behind creating Lapwing theory. It is basically &quot;Plover theory but more defined&quot; in that there is always one outline that is correct for a given pronunciation.</p>
 <p>I've also gone more into detail about my motivation behind creating Lapwing theory on my <a href="https://aerick.ca/steno/dictionary-building">personal website</a>.</p>
 <h1 id="lapwing-theory"><a class="header" href="#lapwing-theory">Lapwing theory</a></h1>
@@ -4347,9 +4347,9 @@
 </ul>
 </li>
 </ol>
-<h3 id="using-both-mainjson-and-lapwing-basejson"><a class="header" href="#using-both-mainjson-and-lapwing-basejson">Using both <code>main.json</code> and <code>lapwing-base.json</code></a></h3>
-<p>Some recommend using both <code>main.json</code> and <code>lapwing-base.json</code> in their dictionary stack. This is a great way to slowly teach yourself Lapwing without giving up all your progress on stock Plover. If you've memorized briefs in <code>main.json</code> that aren't in Lapwing, this is also a great way to address this issue should you wish to incorporate aspects of Lapwing theory.</p>
-<p>However, compound words in <code>main.json</code> are quite haphazard, so some users recommend using a derivative of <code>main.json</code> with these removed. You can download this dictionary <a href="https://cdn.discordapp.com/attachments/1034561356361367683/1189880098082525245/main-without-compounds.json">here</a>. Just make sure to keep <code>lapwing-base.json</code> at a higher priority.</p>
+<h3 id="using-both-mainjson-and-lapwing-basejson"><a class="header" href="#using-both-mainjson-and-lapwing-basejson">Using both <code class="code-mono">main.json</code> and <code class="code-mono">lapwing-base.json</code></a></h3>
+<p>Some recommend using both <code class="code-mono">main.json</code> and <code class="code-mono">lapwing-base.json</code> in their dictionary stack. This is a great way to slowly teach yourself Lapwing without giving up all your progress on stock Plover. If you've memorized briefs in <code>main.json</code> that aren't in Lapwing, this is also a great way to address this issue should you wish to incorporate aspects of Lapwing theory.</p>
+<p>However, compound words in <code class="code-mono">main.json</code> are quite haphazard, so some users recommend using a derivative of <code class="code-mono">main.json</code> with these removed. You can download this dictionary <a href="https://cdn.discordapp.com/attachments/1034561356361367683/1189880098082525245/main-without-compounds.json">here</a>. Just make sure to keep <code class="code-mono">lapwing-base.json</code> at a higher priority.</p>
 <h2 id="differences"><a class="header" href="#differences">Differences</a></h2>
 <p>To switch to Lapwing theory from Plover theory, you do not necessarily need to work through every single chapter in Lapwing for Beginners. Below is a summary of the differences between Plover and Lapwing. The relevant chapters are also linked, and it is recommended you read these complete the exercises. You can assume anything not listed to be equivalent to Plover theory.</p>
 <p>If you would still like to switch to Lapwing theory, I recommend reading through this entire section (and skimming the linked chapters) before finally deciding if trying it out is for you.</p>
@@ -4483,48 +4483,48 @@
 <p>Be sure to read <a href="Chapter-21.html">chapter 21</a>.</p>
 <h2 id="how-to-get-started"><a class="header" href="#how-to-get-started">How to get started</a></h2>
 <h3 id="setting-up-lapwing"><a class="header" href="#setting-up-lapwing">Setting up Lapwing</a></h3>
-<p>It is highly recommended that you use the <code>plover-lapwing-aio</code> plugin. This will automatically install the right plugins, dictionaries, and adds some other quality-of-life improvements such as relocating the number key for you and reverting the special number key behaviour. See <a href="Chapter-05.html">chapter 5</a> for setting up Lapwing with this plugin.</p>
+<p>It is highly recommended that you use the <code class="code-mono">plover-lapwing-aio</code> plugin. This will automatically install the right plugins, dictionaries, and adds some other quality-of-life improvements such as relocating the number key for you and reverting the special number key behaviour. See <a href="Chapter-05.html">chapter 5</a> for setting up Lapwing with this plugin.</p>
 <p>However, if you already have several dictionaries with Plover theory, you can also just add the Lapwing dictionaries to your stack. All the Lapwing dictionaries are fully compatible with Plover without having to make any modifications. See <a href="Appendix-B.html">appendix B</a> for details.</p>
 <h3 id="transitioning-to-lapwing"><a class="header" href="#transitioning-to-lapwing">Transitioning to Lapwing</a></h3>
 <p>Keep this page bookmarked and refer back to it whenever you run into trouble. Chapters 12, 13, 14, and 15 are especially important and I recommend at least skimming through these before you go &quot;cold turkey&quot; with Lapwing.</p>
 <p>More tips to come...</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="setting-up-lapwing-manually-1"><a class="header" href="#setting-up-lapwing-manually-1">Setting up Lapwing manually</a></h1>
 <p>This page describes how to manually configure Plover to use Lapwing theory. This is not a recommended method for two reasons: there is a lot of manual work required, and Plover will have a tendency to modify the number key entries, thereby making lookups difficult.</p>
-<p>If any change is made directly to a Lapwing dictionary, Plover will change all entries with the number key so that they contain numbers in the steno strokes (i.e. <code>#PWOB</code> → <code>3W0B</code>). To revert this, you will have to redownload the dictionary and update the dictionary in your stack. Therefore, I highly recommend simply the <code>plover-lapwing-aio</code> plugin instead of following the instructions on this page.</p>
+<p>If any change is made directly to a Lapwing dictionary, Plover will change all entries with the number key so that they contain numbers in the steno strokes (i.e. <code>#PWOB</code> → <code>3W0B</code>). To revert this, you will have to redownload the dictionary and update the dictionary in your stack. Therefore, I highly recommend simply the <code class="code-mono">plover-lapwing-aio</code> plugin instead of following the instructions on this page.</p>
 <h2 id="install-required-plugins"><a class="header" href="#install-required-plugins">Install required plugins</a></h2>
 <p>See the Plover wiki page on <a href="https://github.com/openstenoproject/plover/wiki/installing-plugins">installing plugins</a> for instructions. Install the following plugins:</p>
 <ul>
-<li><code>plover-dict-commands</code></li>
-<li><code>plover-last-translation</code></li>
-<li><code>plover-modal-dictionary</code></li>
-<li><code>plover-python-dictionary</code></li>
-<li><code>plover-stitching</code></li>
+<li><code class="code-mono">plover-dict-commands</code></li>
+<li><code class="code-mono">plover-last-translation</code></li>
+<li><code class="code-mono">plover-modal-dictionary</code></li>
+<li><code class="code-mono">plover-python-dictionary</code></li>
+<li><code class="code-mono">plover-stitching</code></li>
 </ul>
 <p>Note that you can install all four plugins before restarting Plover.</p>
 <h2 id="download-the-dictionaries"><a class="header" href="#download-the-dictionaries">Download the dictionaries</a></h2>
-<p>Download the dictionaries by right clicking the following links and pressing <code>Save link as</code> (or whatever the equivalent is for your browser):</p>
+<p>Download the dictionaries by right clicking the following links and pressing <code class="code-mono">Save link as</code> (or whatever the equivalent is for your browser):</p>
 <ul>
-<li><a href="https://raw.githubusercontent.com/aerickt/steno-dictionaries/main/movement.modal"><code>movement.modal</code></a></li>
-<li><a href="https://raw.githubusercontent.com/jthlim/jeff-phrasing/main/jeff-phrasing.py"><code>jeff-phrasing.py</code></a></li>
-<li><a href="https://raw.githubusercontent.com/Abkwreu/plover-left-hand-modifiers/main/abby-left-hand-modifiers.py"><code>abby-left-hand-modifiers.py</code></a></li>
-<li><a href="https://raw.githubusercontent.com/EPLHREU/emily-modifiers/master/emily-modifiers.py"><code>emily-modifiers.py</code></a></li>
-<li><a href="https://raw.githubusercontent.com/EPLHREU/emily-symbols/main/emily-symbols.py"><code>emily-symbols.py</code></a></li>
-<li><a href="https://raw.githubusercontent.com/aerickt/steno-dictionaries/main/lapwing-numbers.json"><code>lapwing-numbers.json</code></a></li>
-<li><a href="https://raw.githubusercontent.com/aerickt/steno-dictionaries/main/lapwing-uk-additions.json"><code>lapwing-uk-additions.json</code></a></li>
-<li><a href="https://raw.githubusercontent.com/aerickt/steno-dictionaries/main/lapwing-prefixed-proper-nouns.json"><code>lapwing-prefixed-proper-nouns.json</code></a></li>
-<li><a href="https://raw.githubusercontent.com/aerickt/steno-dictionaries/main/lapwing-base.json"><code>lapwing-base.json</code></a></li>
+<li><a href="https://raw.githubusercontent.com/aerickt/steno-dictionaries/main/movement.modal"><code class="code-mono">movement.modal</code></a></li>
+<li><a href="https://raw.githubusercontent.com/jthlim/jeff-phrasing/main/jeff-phrasing.py"><code class="code-mono">jeff-phrasing.py</code></a></li>
+<li><a href="https://raw.githubusercontent.com/Abkwreu/plover-left-hand-modifiers/main/abby-left-hand-modifiers.py"><code class="code-mono">abby-left-hand-modifiers.py</code></a></li>
+<li><a href="https://raw.githubusercontent.com/EPLHREU/emily-modifiers/master/emily-modifiers.py"><code class="code-mono">emily-modifiers.py</code></a></li>
+<li><a href="https://raw.githubusercontent.com/EPLHREU/emily-symbols/main/emily-symbols.py"><code class="code-mono">emily-symbols.py</code></a></li>
+<li><a href="https://raw.githubusercontent.com/aerickt/steno-dictionaries/main/lapwing-numbers.json"><code class="code-mono">lapwing-numbers.json</code></a></li>
+<li><a href="https://raw.githubusercontent.com/aerickt/steno-dictionaries/main/lapwing-uk-additions.json"><code class="code-mono">lapwing-uk-additions.json</code></a></li>
+<li><a href="https://raw.githubusercontent.com/aerickt/steno-dictionaries/main/lapwing-prefixed-proper-nouns.json"><code class="code-mono">lapwing-prefixed-proper-nouns.json</code></a></li>
+<li><a href="https://raw.githubusercontent.com/aerickt/steno-dictionaries/main/lapwing-base.json"><code class="code-mono">lapwing-base.json</code></a></li>
 </ul>
 <p>Next, in the Plover main window, click on the green plus button:</p>
 <p><img src="img/5-load-dictionary.png" alt="load dictionary button" /></p>
-<p>Select &quot;Load dictionaries&quot; and you will be greeted with a window to select all the dictionaries that you downloaded earlier. Next, click on <code>main.json</code> and press the red X button to delete it from your dictionary stack. Do the same for commands.json. You can now select each dictionary and make sure they are listed in your stack in the same order as above by using the blue arrow keys.</p>
+<p>Select &quot;Load dictionaries&quot; and you will be greeted with a window to select all the dictionaries that you downloaded earlier. Next, click on <code class="code-mono">main.json</code> and press the red X button to delete it from your dictionary stack. Do the same for commands.json. You can now select each dictionary and make sure they are listed in your stack in the same order as above by using the blue arrow keys.</p>
 <p><img src="img/B-dictionary-stack.png" alt="dictionary stack" /></p>
 <h2 id="relocate-the-number-key"><a class="header" href="#relocate-the-number-key">Relocate the number key</a></h2>
 <p>On professional steno machines, there is a long key that runs at the very top of the steno layout (called the number bar). It is in a somewhat awkward location, but for most mainstream steno theories, it doesn't matter; it is only used for writing numbers.</p>
 <p><img src="img/5-professional-machines.png" alt="lever machine layout" /></p>
 <p>However, Lapwing theory uses the number key quite extensively (especially in proper nouns) and therefore puts it in a more convenient location. Lapwing removes one of the redundant <code>S</code> keys on the left and replaces it with the number key.</p>
 <p><img src="img/5-top-s-number.png" alt="top S layout" /></p>
-<p>This key is not configured by default, so you will have to change it yourself. In the main window of Plover, go to <code>Configure → Machine</code>.</p>
-<p>Scroll down to the keymap, and change either <code>S1</code> or <code>q</code> to <code>#</code> depending on whether you are using Gemini PR or keyboard as the machine.</p>
+<p>This key is not configured by default, so you will have to change it yourself. In the main window of Plover, go to <code class="code-mono">Configure → Machine</code>.</p>
+<p>Scroll down to the keymap, and change either <code class="code-mono">S1</code> or <code class="code-mono">q</code> to <code>#</code> depending on whether you are using Gemini PR or keyboard as the machine.</p>
 <p><img src="img/5-top-s.png" alt="top s remap" /></p>
 <p>Triple click on the cell next to the key to open the dropdown. From there, you will be able to change the action to <code>#</code>.</p>
 

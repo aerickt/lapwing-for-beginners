@@ -24,7 +24,7 @@ This is where Plover's lookup tool comes in handy. If you are struggling to writ
 
 ### Adding new words
 
-If you've used the lookup tool and found that none of the outlines make sense, first try looking at any relevant pages and see if you've missed any theory. If you are on Discord, feel free to ask in the <code>#lapwing-theory</code> channel.
+If you've used the lookup tool and found that none of the outlines make sense, first try looking at any relevant pages and see if you've missed any theory. If you are on Discord, feel free to ask in the <code class="code-mono">#lapwing-theory</code> channel.
 
 However, it is possible that these outlines aren't covered under basic Lapwing theory—you've encountered a theory gap! At this point, you can decide to learn one of these outlines, or add your own.
 
@@ -32,7 +32,7 @@ To add your own entry, stroke `TKUPT` to bring up the add translation tool. In t
 
 ![](img/22-add-translation.png)
 
-**It is also very important that you don't add new outlines to `lapwing-base.json`. If you intend to update the Lapwing dictionary, you will have to replace this entire file which will throw away any edits you have made.**
+**It is also very important that you don't add new outlines to <code class="code-mono">lapwing-base.json</code>. If you intend to update the Lapwing dictionary, you will have to replace this entire file which will throw away any edits you have made.**
 
 ### An example of a theory gap
 

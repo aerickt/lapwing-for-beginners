@@ -14,7 +14,7 @@ Ideally, there would be a separate stand-alone lapwing dictionary for British En
 
 ### Setup
 
-Make sure you are using the <code>plover-lapwing-aio</code> plugin, or you have manually configured your dictionary stack by following [these instructions](Appendix-B.md).
+Make sure you are using the <code class="code-mono">plover-lapwing-aio</code> plugin, or you have manually configured your dictionary stack by following [these instructions](Appendix-B.md).
 
 ## Quick switching
 

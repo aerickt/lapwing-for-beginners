@@ -2,9 +2,9 @@ If you have learned Plover theory and are considering switching to Lapwing, have
 
 # Plover Theory
 
-Plover theory is a perfectly capable theory. After all, Mirabai Knight, the founder of the Open Steno Project, uses it in her professional work as a stenocaptioner. She has graciously provided her own dictionary (<code>main.json</code>) for us hobbyists to use. As with all professional stenographers, she built the majority of this dictionary by herself, having added many of the entries over the years.
+Plover theory is a perfectly capable theory. After all, Mirabai Knight, the founder of the Open Steno Project, uses it in her professional work as a stenocaptioner. She has graciously provided her own dictionary (<code class="code-mono">main.json</code>) for us hobbyists to use. As with all professional stenographers, she built the majority of this dictionary by herself, having added many of the entries over the years.
 
-However, everyone writes differently. In fact, no two stenographers' dictionaries are ever the same. Many of the entries in <code>main.json</code> are simply what made sense to Mirabai at the time. They do not always follow systematic and rigorous rules. Plover theory itself is not very well defined in some areas; to illustrate this, have a look at all the ways to write "monotonous" in <code>main.json</code>:
+However, everyone writes differently. In fact, no two stenographers' dictionaries are ever the same. Many of the entries in <code class="code-mono">main.json</code> are simply what made sense to Mirabai at the time. They do not always follow systematic and rigorous rules. Plover theory itself is not very well defined in some areas; to illustrate this, have a look at all the ways to write "monotonous" in <code class="code-mono">main.json</code>:
 
 ```
 "PHO/TPHOT/TPHOUS": "monotonous",
@@ -18,11 +18,11 @@ However, everyone writes differently. In fact, no two stenographers' dictionarie
 
 There are many different ways to write this word simply because there are no simple rules when it comes to splitting multisyllable words. This would be fine if the dictionary contained every single valid combination, but it doesn't. After all, it is a very time consuming task to add multiple entries for every single word. In the above example, `PHOPB/TPHOT/TPHUS` is missing.
 
-The learning resources such as Learn Plover! and Art of Chording also do not mention any rules about doubling consonants between strokes or about using `OUS` vs `US`. While, I can advise against using `US` from having used <code>main.json</code> for a year, it is much harder for me to give a recommendation when it comes to doubling consonants in multisyllable words. It is just poorly defined, and the dictionary does not contain any easy to recognize patterns.
+The learning resources such as Learn Plover! and Art of Chording also do not mention any rules about doubling consonants between strokes or about using `OUS` vs `US`. While, I can advise against using `US` from having used <code class="code-mono">main.json</code> for a year, it is much harder for me to give a recommendation when it comes to doubling consonants in multisyllable words. It is just poorly defined, and the dictionary does not contain any easy to recognize patterns.
 
-One more issue with <code>main.json</code> that is illustrated in the example above is the fact that many write-out entries require briefing techniques. In this case, you must drop the third "o" in "monotonous" since it is unstressed in order to write it out. This is fine for speed, but can be confusing for learners.
+One more issue with <code class="code-mono">main.json</code> that is illustrated in the example above is the fact that many write-out entries require briefing techniques. In this case, you must drop the third "o" in "monotonous" since it is unstressed in order to write it out. This is fine for speed, but can be confusing for learners.
 
-The common wisdom to work around these issues (if you would like to stick with Plover theory and <code>main.json</code>) is to simply just add entries to fill in these gaps. If you do not want to have to drop unstressed vowels, just add the entry yourself. If you disagree with the dictionary's preference towards `OUS`, it's trivial to add the alternative entries. After all, there is no such thing as a "complete" dictionary and stenographers constantly tweak their own.
+The common wisdom to work around these issues (if you would like to stick with Plover theory and <code class="code-mono">main.json</code>) is to simply just add entries to fill in these gaps. If you do not want to have to drop unstressed vowels, just add the entry yourself. If you disagree with the dictionary's preference towards `OUS`, it's trivial to add the alternative entries. After all, there is no such thing as a "complete" dictionary and stenographers constantly tweak their own.
 
 However, I disagree with the notion that learners should be doing this right from the start. This is my motivation behind creating Lapwing theory. It is basically "Plover theory but more defined" in that there is always one outline that is correct for a given pronunciation.
 
@@ -43,11 +43,11 @@ I created the initial Lapwing dictionary in early 2022 and have been refining it
 6. ... you are looking for a theory that is not North American centric.
    - Sadly, there are currently no freely available steno theories (that I know of) based on non-North American variants of English.
 
-### Using both `main.json` and `lapwing-base.json`
+### Using both <code class="code-mono">main.json</code> and <code class="code-mono">lapwing-base.json</code>
 
-Some recommend using both `main.json` and `lapwing-base.json` in their dictionary stack. This is a great way to slowly teach yourself Lapwing without giving up all your progress on stock Plover. If you've memorized briefs in `main.json` that aren't in Lapwing, this is also a great way to address this issue should you wish to incorporate aspects of Lapwing theory.
+Some recommend using both <code class="code-mono">main.json</code> and <code class="code-mono">lapwing-base.json</code> in their dictionary stack. This is a great way to slowly teach yourself Lapwing without giving up all your progress on stock Plover. If you've memorized briefs in `main.json` that aren't in Lapwing, this is also a great way to address this issue should you wish to incorporate aspects of Lapwing theory.
 
-However, compound words in `main.json` are quite haphazard, so some users recommend using a derivative of `main.json` with these removed. You can download this dictionary [here](https://cdn.discordapp.com/attachments/1034561356361367683/1189880098082525245/main-without-compounds.json). Just make sure to keep `lapwing-base.json` at a higher priority.
+However, compound words in <code class="code-mono">main.json</code> are quite haphazard, so some users recommend using a derivative of <code class="code-mono">main.json</code> with these removed. You can download this dictionary [here](https://cdn.discordapp.com/attachments/1034561356361367683/1189880098082525245/main-without-compounds.json). Just make sure to keep <code class="code-mono">lapwing-base.json</code> at a higher priority.
 
 ## Differences
 
@@ -221,7 +221,7 @@ Be sure to read [chapter 21](Chapter-21.md).
 
 ### Setting up Lapwing
 
-It is highly recommended that you use the <code>plover-lapwing-aio</code> plugin. This will automatically install the right plugins, dictionaries, and adds some other quality-of-life improvements such as relocating the number key for you and reverting the special number key behaviour. See [chapter 5](Chapter-05.md) for setting up Lapwing with this plugin.
+It is highly recommended that you use the <code class="code-mono">plover-lapwing-aio</code> plugin. This will automatically install the right plugins, dictionaries, and adds some other quality-of-life improvements such as relocating the number key for you and reverting the special number key behaviour. See [chapter 5](Chapter-05.md) for setting up Lapwing with this plugin.
 
 However, if you already have several dictionaries with Plover theory, you can also just add the Lapwing dictionaries to your stack. All the Lapwing dictionaries are fully compatible with Plover without having to make any modifications. See [appendix B](Appendix-B.md) for details.
 
