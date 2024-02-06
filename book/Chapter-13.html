@@ -1,0 +1,636 @@
+<!DOCTYPE HTML>
+<html lang="en" class="light" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Chapter 13: Prefixes and suffixes - Lapwing for Beginners</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="theme/pagetoc.css">
+
+    </head>
+    <body class="sidebar-visible no-js">
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('light')
+            html.classList.add(theme);
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var body = document.querySelector('body');
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="Chapter-01.html">Chapter 1: Introduction</a></li><li class="chapter-item expanded affix "><a href="Chapter-02.html">Chapter 2: Steno hardware and software</a></li><li class="chapter-item expanded affix "><a href="Chapter-03.html">Chapter 3: How to learn steno</a></li><li class="chapter-item expanded affix "><a href="Chapter-04.html">Chapter 4: The layout</a></li><li class="chapter-item expanded affix "><a href="Chapter-05.html">Chapter 5: Lapwing setup and basics</a></li><li class="chapter-item expanded affix "><a href="Chapter-06.html">Chapter 6: Left hand consonants continued</a></li><li class="chapter-item expanded affix "><a href="Chapter-07.html">Chapter 7: Vowels</a></li><li class="chapter-item expanded affix "><a href="Chapter-08.html">Chapter 8: Vowels continued</a></li><li class="chapter-item expanded affix "><a href="Chapter-09.html">Chapter 9: Right hand chords</a></li><li class="chapter-item expanded affix "><a href="Chapter-10.html">Chapter 10: Right hand chords continued</a></li><li class="chapter-item expanded affix "><a href="Chapter-11.html">Chapter 11: Right hand compound clusters</a></li><li class="chapter-item expanded affix "><a href="Chapter-12.html">Chapter 12: Wrapping up basic words</a></li><li class="chapter-item expanded affix "><a href="Chapter-13.html" class="active">Chapter 13: Prefixes and suffixes</a></li><li class="chapter-item expanded affix "><a href="Chapter-14.html">Chapter 14: Suffix keys and compound words</a></li><li class="chapter-item expanded affix "><a href="Chapter-15.html">Chapter 15: Syllabic splitting</a></li><li class="chapter-item expanded affix "><a href="Chapter-16.html">Chapter 16: Top 200 common English words</a></li><li class="chapter-item expanded affix "><a href="Chapter-17.html">Chapter 17: Fingerspelling and numbers</a></li><li class="chapter-item expanded affix "><a href="Chapter-18.html">Chapter 18: Proper nouns</a></li><li class="chapter-item expanded affix "><a href="Chapter-19.html">Chapter 19: Punctuation and commands</a></li><li class="chapter-item expanded affix "><a href="Chapter-20.html">Chapter 20: UK spellings</a></li><li class="chapter-item expanded affix "><a href="Chapter-21.html">Chapter 21: Theory principles wrap-up</a></li><li class="chapter-item expanded affix "><a href="Chapter-22.html">Chapter 22: End of basic theory</a></li><li class="chapter-item expanded affix "><a href="Chapter-23.html">Chapter 23: Phrase briefs</a></li><li class="chapter-item expanded affix "><a href="Chapter-24.html">Chapter 24: Lapwing briefing techniques</a></li><li class="chapter-item expanded affix "><a href="Chapter-25.html">Chapter 25: Symbols and modifiers</a></li><li class="chapter-item expanded affix "><a href="Chapter-26.html">Chapter 26: Editing text</a></li><li class="chapter-item expanded affix "><a href="Appendix-A.html">Appendix A: Switching to Lapwing from Plover</a></li><li class="chapter-item expanded affix "><a href="Appendix-B.html">Appendix B: Setting up Lapwing manually</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Lapwing for Beginners</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <div class="content-wrap">
+                            <h1 id="chapter-13-prefixes-and-suffixes"><a class="header" href="#chapter-13-prefixes-and-suffixes">Chapter 13: Prefixes and suffixes</a></h1>
+<h2 id="recommended-pace"><a class="header" href="#recommended-pace">Recommended pace</a></h2>
+<p><strong>Recommended time to spend on this chapter: 2–5 days.</strong></p>
+<ol>
+<li>Read <a href="#prefix-strokes">Prefix strokes</a> (<strong>20 minutes</strong>)</li>
+<li>Read <a href="#suffix-strokes">Suffix strokes</a> and complete the drills (<strong>60 minutes</strong>)
+<ul>
+<li>Repeat the drills as needed</li>
+</ul>
+</li>
+<li>Read <a href="#prefix-priority">Prefix priority</a> (<strong>5 minutes</strong>)</li>
+<li>Attempt the <a href="#chapter-13-test">test</a> (<strong>20 minutes</strong>)
+<ul>
+<li>Practise as needed</li>
+</ul>
+</li>
+</ol>
+<p>Remember to take breaks!</p>
+<h2 id="useful-links"><a class="header" href="#useful-links">Useful links</a></h2>
+<ul>
+<li><a href="practice/13-eu.txt">Words with -y and -ly suffixes drill</a></li>
+<li><a href="practice/13-ar-or-er.txt">Words with -ar, -or, and -er suffixes drill</a></li>
+<li><a href="practice/13-ful-ness.txt">Words with -ful and -ness suffixes drill</a></li>
+<li><a href="practice/11-rh-ment-and-let.txt">Right hand ment and let words</a></li>
+<li><a href="practice/11-rh-bl.txt">Right hand bl words drill</a></li>
+<li><a href="practice/13-kwr.txt">Right hand kwr suffix words drill</a></li>
+<li><a href="practice/13-rh-bility.txt">Right hand *bility words drill</a></li>
+<li><a href="practice/13-test.txt">Chapter 13 test</a></li>
+</ul>
+<h2 id="intro"><a class="header" href="#intro">Intro</a></h2>
+<p>Every chapter up until now has been focusing on single syllable words. When it comes to words with more than one syllable, we simply just break these into multiple strokes. How exactly we do this depends on the situation. We will first look at more straightforward situations in this chapter.</p>
+<h2 id="prefix-strokes"><a class="header" href="#prefix-strokes">Prefix strokes</a></h2>
+<p>Every translation we have been writing so far has been a regular word with no special formatting. This means that Plover will output a space before every word—this should be pretty familiar to you from the drills we have been practising. Let's take a look at how Plover parses these translations. In the main window of Plover, go to <code>Tools → Add Translation</code>. With your steno keyboard, write <code>STROEBG</code> into the <code>Strokes</code> field. You should see the following:</p>
+<p><img src="img/13-add-translation-stroke.png" alt="" /></p>
+<p>Now let's look at a <strong>prefix stroke</strong>. This is a stroke that tells Plover to suppress the next space after outputting a translation. If you write <code>PRAOE</code> into the <code>Strokes</code> field. You should see the following:</p>
+<p><img src="img/13-add-translation-pre.png" alt="" /></p>
+<p>Here, the curly braces denote that there is special formatting rules contained inside the braces. The caret tells Plover to suppress the space where it is located. Any translation of the form ___^ is a prefix.</p>
+<p>If you were to write the word &quot;preview&quot;, you would have to split this word into &quot;pre^&quot; + &quot;view&quot;. Try it yourself—open a text document and write the strokes <code>PRAOE</code> and then <code>SRAOU</code>. In raw steno, this would be notated as <code>PRAOE/SRAOU</code> with the <code>/</code> character representing a stroke separator.</p>
+<p>Most prefix strokes are fairly intuitive and take precedence when they conflict with other translations. For example, the &quot;for^&quot; prefix as in &quot;forget&quot; <code>TPOR/TKPWET</code> is written as <code>TPOR</code> while the word &quot;for&quot; is briefed. Thus, it's not necessary to memorize many of these strokes.</p>
+<h3 id="common-prefix-strokes"><a class="header" href="#common-prefix-strokes">Common Prefix Strokes</a></h3>
+<ul>
+<li>a^ <code>A</code>
+<ul>
+<li>As in &quot;<ins>a</ins>bout&quot; <code>A/PWOUT</code></li>
+</ul>
+</li>
+<li>co^ <code>KOE</code>
+<ul>
+<li>As in &quot;<ins>co</ins>star&quot; <code>KOE/STAR</code></li>
+</ul>
+</li>
+<li>de^ <code>TKAOE</code>
+<ul>
+<li>As in &quot;<ins>de</ins>plane&quot; <code>TKAOE/PHRAEPB</code></li>
+</ul>
+</li>
+<li>for^ <code>TPOR</code>
+<ul>
+<li>As in &quot;<ins>for</ins>go&quot; <code>TPOR/TKPWOE</code></li>
+</ul>
+</li>
+<li>in^ <code>EUPB</code>
+<ul>
+<li>As in &quot;<ins>in</ins>fix&quot; <code>EUPB/TPEUBGS</code></li>
+</ul>
+</li>
+<li>mis^ <code>PHEUS</code>
+<ul>
+<li>As in &quot;<ins>mis</ins>take&quot; <code>PHEUS/TAEUBG</code></li>
+</ul>
+</li>
+<li>non^ <code>TPHOPB</code>
+<ul>
+<li>As in &quot;<ins>non</ins>stop&quot; <code>TPHOPB/STOP</code></li>
+</ul>
+</li>
+<li>pro^ <code>PROE</code>
+<ul>
+<li>As in &quot;<ins>pro</ins>tip&quot; <code>PROE/TEUP</code></li>
+</ul>
+</li>
+<li>re^ <code>RAOE</code>
+<ul>
+<li>As in &quot;<ins>re</ins>take&quot; <code>RAOE/TAEUBG</code></li>
+</ul>
+</li>
+<li>sub^ <code>SUB</code>
+<ul>
+<li>As in &quot;<ins>sub</ins>way&quot; <code>SUB/WAEU</code></li>
+</ul>
+</li>
+</ul>
+<h3 id="prefix-usage"><a class="header" href="#prefix-usage">Prefix usage</a></h3>
+<p>Let's say you are trying to write the word &quot;confuse&quot;. You may be tempted to write <code>KOPB/TPAOUS</code>, but you would have to know if <code>KOPB</code> is a prefix stroke. Even if it were, it wouldn't make sense to use it since &quot;fuse&quot; isn't the root word of &quot;confuse&quot;—the two words aren't related in meaning. Instead, you will later learn another method you should actually be using to write this word.</p>
+<p><strong>For now, only use prefix strokes when they make sense semantically. A prefix stroke should modify a root word that can exist on its own.</strong></p>
+<h3 id="prefixes-with-different-pronunciations"><a class="header" href="#prefixes-with-different-pronunciations">Prefixes with different pronunciations</a></h3>
+<p>English pronunciation differs from person to person, but even a single speaker may pronounce a word differently depending on the context. For example, you may pronounce the word &quot;defect&quot; as <code>TKAOE/TPEBGT</code> (as the noun) or <code>TKE/TPEBGT</code> (as the verb). Both of these outlines are valid and you will find this to be the case with many ambiguous situations.</p>
+<p>Here is a non-exhaustive list of some alternative prefix strokes:</p>
+<ul>
+<li>&quot;de-&quot; <code>TKE</code></li>
+<li>&quot;pre-&quot; <code>PRE</code></li>
+<li>&quot;pro-&quot; <code>PRO</code></li>
+<li>&quot;re-&quot; <code>RE</code></li>
+</ul>
+<p>This chapter later covers <a href="#looking-up-prefixes-and-suffixes">looking up prefixes and suffixes</a> which is handy for finding these alternative prefix strokes.</p>
+<h3 id="practice-material"><a class="header" href="#practice-material">Practice material?</a></h3>
+<p>There is no practice material for this section. It's not important to explicitly know and memorize prefix strokes as they tend to be implicitly used with the syllabic splitting technique, which you will learn in a later chapter.</p>
+<h2 id="suffix-strokes"><a class="header" href="#suffix-strokes">Suffix strokes</a></h2>
+<p>Much like how a prefix stroke attaches to the next word, a suffix stroke attaches to the <strong>previous</strong> word—it's exactly what you might expect from the name. Unlike prefix strokes, however, suffixes tend to be less intuitive and most have to be memorized. This section is split into smaller subsections with different &quot;families&quot; of suffix strokes to hopefully make them easier to remember.</p>
+<p>It is very important that you understand when it is appropriate to use a suffix. Pay careful attention to the information in each subsection telling you when it is appropriate to use those suffix strokes.</p>
+<h3 id="eu-suffixes"><a class="header" href="#eu-suffixes"><code>EU</code> suffixes</a></h3>
+<p>The suffixes in this subsection contain the <code>EU</code> vowel and some consonant on the left hand. While you've learned that <code>EU</code> represents the &quot;short i&quot; vowel as in &quot;kiss&quot;, <code>EU</code> is also used for the &quot;long e&quot; vowel as in &quot;tee&quot; under some circumstances.</p>
+<blockquote>
+<p>This comes from Plover theory's main.json and it is unfortunately an arbitrary rule that would be difficult to change Lapwing theory.</p>
+</blockquote>
+<p>One such circumstance where <code>EU</code> represents the &quot;long e&quot; sound is in the following suffixes:</p>
+<div class="table-wrapper"><table><thead><tr><th>Stroke</th><th>Suffix</th><th>Example outline</th><th>Example translation</th></tr></thead><tbody>
+<tr><td><code>KWREU</code></td><td>^y</td><td><code>KRAEUZ/KWREU</code></td><td>crazy</td></tr>
+<tr><td><code>HREU</code></td><td>^ly</td><td><code>TPEURPL/HREU</code></td><td>firmly</td></tr>
+</tbody></table>
+</div>
+<p><strong>Use these suffixes only to modify a root word. Ensure that the root word relates to the full word semantically.</strong></p>
+<h4 id="examples-of-correct-usage"><a class="header" href="#examples-of-correct-usage">Examples of correct usage</a></h4>
+<ul>
+<li>chatty <code>KHAT/KWREU</code></li>
+<li>earthy <code>*ERT/KWREU</code></li>
+<li>freely <code>TPRAOE/HREU</code></li>
+<li>mostly <code>PHOEFT/HREU</code></li>
+</ul>
+<h4 id="examples-of-incorrect-usage"><a class="header" href="#examples-of-incorrect-usage">Examples of incorrect usage</a></h4>
+<ul>
+<li>city <code>SEUT/KWREU</code> ❌
+<ul>
+<li>This would be &quot;sitty&quot;</li>
+</ul>
+</li>
+<li>lily <code>HREUL/KWREU</code> ❌
+<ul>
+<li>&quot;lil&quot; is not the root word of &quot;lily&quot;</li>
+</ul>
+</li>
+</ul>
+<h4 id="practice-material-1"><a class="header" href="#practice-material-1">Practice material</a></h4>
+<p><a href="practice/13-eu.txt">Words with -y and -ly suffixes drill</a></p>
+<blockquote>
+<p>Since this only contains two suffixes, it is not necessary to spend too long on this drill. 5 minutes is sufficient.</p>
+</blockquote>
+<h3 id="-suffixes"><a class="header" href="#-suffixes"><code>*</code> suffixes</a></h3>
+<p>The following suffixes all contain a single vowel key, an asterisk, and the <code>-R</code>.</p>
+<div class="table-wrapper"><table><thead><tr><th>Stroke</th><th>Suffix</th><th>Example outline</th><th>Example translation</th></tr></thead><tbody>
+<tr><td><code>A*R</code></td><td>^ar</td><td><code>KREL/A*R</code></td><td>cellar</td></tr>
+<tr><td><code>O*R</code></td><td>^or</td><td><code>ABGT/O*R</code></td><td>actor</td></tr>
+<tr><td><code>*ER</code></td><td>^er</td><td><code>TAOEFP/*ER</code></td><td>teacher</td></tr>
+</tbody></table>
+</div>
+<p><strong>Use these suffixes only to modify a root word. Ensure that the root word relates to the full word semantically.</strong></p>
+<h4 id="examples-of-correct-usage-1"><a class="header" href="#examples-of-correct-usage-1">Examples of correct usage</a></h4>
+<ul>
+<li>upper <code>UP/*ER</code></li>
+<li>player <code>PHRAEU/*ER</code></li>
+<li>planar <code>PHRAEPB/A*R</code></li>
+<li>hangar <code>HAPBG/A*R</code></li>
+<li>tormentor <code>TORPLT/O*R</code></li>
+<li>sailor <code>SAEUL/O*R</code></li>
+</ul>
+<h4 id="examples-of-wrong-usage"><a class="header" href="#examples-of-wrong-usage">Examples of wrong usage</a></h4>
+<ul>
+<li>imposter <code>EUPL/POFT/*ER</code> ❌
+<ul>
+<li>&quot;impost&quot; does not refer to a deceptive action in the same way &quot;imposter&quot; refers to the person who partakes in this action</li>
+</ul>
+</li>
+<li>mutter <code>PHUT/*ER</code> ❌
+<ul>
+<li>&quot;mutter&quot; does not relate to &quot;mutt&quot; (slang for a dog)</li>
+</ul>
+</li>
+<li>pillar <code>PEUL/A*R</code> ❌
+<ul>
+<li>&quot;pill&quot; refers to a medicinal substance while &quot;pillar&quot; refers to an upright post</li>
+</ul>
+</li>
+<li>sugar <code>SHUG/A*R</code> ❌
+<ul>
+<li><code>SHUG</code> is not a word</li>
+</ul>
+</li>
+<li>humor <code>HAOUPL/O*R</code> ❌
+<ul>
+<li><code>HAOUPL</code> is not a word</li>
+</ul>
+</li>
+<li>mentor <code>PHEPBT/O*R</code> ❌
+<ul>
+<li>&quot;ment&quot; is not the root of &quot;mentor&quot;</li>
+</ul>
+</li>
+</ul>
+<p>Do not worry about how to write these words correctly—you will soon learn about the technique you should instead be using in these scenarios.</p>
+<h4 id="practice-material-2"><a class="header" href="#practice-material-2">Practice material</a></h4>
+<p><a href="practice/13-ar-or-er.txt">Words with -ar, -or, and -er suffixes drill</a></p>
+<p>5–10 minutes is sufficient for this drill.</p>
+<h3 id="right-hand-chord-suffixes"><a class="header" href="#right-hand-chord-suffixes">Right hand chord suffixes</a></h3>
+<p>These suffixes are composed entirely of consonant keys on the right hand.</p>
+<div class="table-wrapper"><table><thead><tr><th>Stroke</th><th>Suffix</th><th>Example outline</th><th>Example translation</th></tr></thead><tbody>
+<tr><td><code>-FL</code></td><td>^ful</td><td><code>HEL/-P/-FL</code></td><td>helpful</td></tr>
+<tr><td><code>-PBS</code></td><td>^ness</td><td><code>EUL/-PBS</code></td><td>illness</td></tr>
+</tbody></table>
+</div>
+<p><strong>Use these suffixes only to modify a root word. Ensure that the root word relates to the full word semantically.</strong></p>
+<h4 id="examples-of-correct-usage-2"><a class="header" href="#examples-of-correct-usage-2">Examples of correct usage</a></h4>
+<ul>
+<li>hopeful <code>HOEP/-FL</code></li>
+<li>rightful <code>RAOEUT/-FL</code></li>
+<li>ripeness <code>RAOEUP/-PBS</code></li>
+<li>thickness <code>THEUBG/-PBS</code></li>
+</ul>
+<blockquote>
+<p>Both &quot;ful&quot; and &quot;ness&quot; are rarely used in English as non-suffixes so it's difficult to find examples of incorrect usage.</p>
+</blockquote>
+<h4 id="practice-material-3"><a class="header" href="#practice-material-3">Practice material</a></h4>
+<p><a href="practice/13-ful-ness.txt">Words with -ful and -ness suffixes drill</a></p>
+<h3 id="right-hand-compound-cluster-suffixes"><a class="header" href="#right-hand-compound-cluster-suffixes">Right hand compound cluster suffixes</a></h3>
+<p>Like the last subsection, these suffixes are also composed entirely of consonant keys on the right hand.</p>
+<div class="table-wrapper"><table><thead><tr><th>Stroke</th><th>Suffix</th><th>Example outline</th><th>Example translation</th></tr></thead><tbody>
+<tr><td><code>-PLT</code></td><td>^ment</td><td><code>TRAOET/-PLT</code></td><td>treatment</td></tr>
+<tr><td><code>-BLT</code></td><td>^ability or ^ibility</td><td><code>EUPB/-BLT</code></td><td>inability</td></tr>
+<tr><td><code>-BL</code></td><td>^able</td><td><code>PHRAEU/-BL</code></td><td>playable</td></tr>
+<tr><td><code>-LT</code></td><td>^let</td><td><code>EUPB/-LT</code></td><td>inlet</td></tr>
+</tbody></table>
+</div>
+<p><strong>These suffixes can be used whenever as they are also compound clusters.</strong></p>
+<h4 id="examples-as-a-root-word--suffix"><a class="header" href="#examples-as-a-root-word--suffix">Examples: as a root word + suffix</a></h4>
+<p>In these words, the suffix is used to &quot;modify&quot; a root word.</p>
+<ul>
+<li>basement <code>PWAEUS/-PLT</code></li>
+<li>movement <code>PHAOUF/-PLT</code></li>
+<li>usability <code>AOUS/-BLT</code></li>
+<li>sensibility <code>SEPBS/-BLT</code></li>
+<li>readable <code>RAED/-BL</code></li>
+<li>viewable <code>SRAOU/-BL</code></li>
+<li>outlet <code>OUT/-LT</code></li>
+<li>sublet <code>SUB/-LT</code></li>
+</ul>
+<h4 id="examples-as-a-compound-cluster"><a class="header" href="#examples-as-a-compound-cluster">Examples: as a compound cluster</a></h4>
+<p>In these words, the suffix is used as a compound cluster; notice how the group of letters before the suffix are not root words related to the full translations.</p>
+<ul>
+<li>cement <code>SE/-PLT</code></li>
+<li>ferment <code>TPER/-PLT</code></li>
+<li>probability <code>PROB/-BLT</code></li>
+<li>pliability <code>PHRAOEU/-BLT</code></li>
+<li>humble <code>HUPL/-BL</code></li>
+<li>arable <code>AEUR/-BL</code></li>
+<li>omelet <code>OPL/-LT</code></li>
+<li>bullet <code>PWU/-LT</code></li>
+</ul>
+<h4 id="compound-clusters-in-a-single-stroke"><a class="header" href="#compound-clusters-in-a-single-stroke">Compound clusters in a single stroke</a></h4>
+<p>Several of these examples can be written in one stroke by putting the suffix chord into the first stroke (as you have done so in chapter 11). The above examples are only to illustrate these how these compound clusters have the second function of behaving as suffix strokes.</p>
+<p>For these chords, it is recommended that you include the suffix chord in the first stroke for a slight speed advantage. To determine if an outline can be compressed into one stroke, take into account steno order and whether any keys are being overlapped.</p>
+<p>For example, <code>SEPLT</code> is perfectly valid as none of the keys in <code>SE</code> overlap with the keys in <code>-PLT</code>. However, if you wanted to write &quot;humble&quot; in one stroke, you would have to overlap the <code>-BL</code> chord with the <code>-PL</code> chord in the first stroke as <code>-B</code> comes in between <code>-P</code> and <code>-L</code> in steno order.</p>
+<p>The following are the same words from above but with the compound cluster in the first stroke:</p>
+<ul>
+<li>cement <code>SEPLT</code></li>
+<li>ferment <code>TPERPLT</code></li>
+<li>pliability <code>PHRAOEUBLT</code></li>
+<li>arable <code>AEURBL</code></li>
+<li>bullet <code>PWULT</code></li>
+</ul>
+<p>The rest of the examples are not possible to write in one stroke:</p>
+<ul>
+<li>probability <code>PROB/-BLT</code>
+<ul>
+<li><code>-B</code> key overlaps in both strokes</li>
+</ul>
+</li>
+<li>humble <code>HUPL/-BL</code>
+<ul>
+<li><code>-B</code> key in the second stroke overlaps with the <code>-PL</code> chord in the first stroke</li>
+</ul>
+</li>
+<li>omelet <code>OPL/-LT</code>
+<ul>
+<li><code>-L</code> key overlaps in both strokes</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p><strong>NOTE:</strong> just because overlapping these strokes is not valid in Lapwing theory, if there are no prior definitions in your dictionaries, these could make perfectly valid briefs. Feel free to add <code>PROBLT</code>, <code>HUPBL</code>, or <code>OPLT</code> to your dictionary as briefs.</p>
+</blockquote>
+<h4 id="practice-material-4"><a class="header" href="#practice-material-4">Practice material</a></h4>
+<p><a href="practice/13-rh-bility.txt">Right hand *bility words drill</a></p>
+<p>You should already be familiar with the other chords from the chapter 11 practice material. If you need a refresher, you can find them here:</p>
+<p><a href="practice/11-rh-ment-and-let.txt">Right hand ment and let words</a></p>
+<p><a href="practice/11-rh-bl.txt">Right hand bl words drill</a></p>
+<h3 id="kwr-suffixes"><a class="header" href="#kwr-suffixes"><code>KWR</code> suffixes</a></h3>
+<p>The <code>KWR</code> chord has many uses in Lapwing theory. It is widely used in suffixes where it could be thought of as a linker chord without any associated sound; its job is simply to connect to the previous word. This subsection has many suffix strokes for you to memorize, but they should hopefully be somewhat intuitive as they resemble their phonetic sounds to some degree.</p>
+<div class="table-wrapper"><table><thead><tr><th>Stroke</th><th>Suffix</th><th>Example outline</th><th>Example translation</th></tr></thead><tbody>
+<tr><td><code>KWRAL</code></td><td>^al</td><td><code>SPAOEUPB/KWRAL</code></td><td>spinal</td></tr>
+<tr><td><code>KWRAPBT</code></td><td>^ant</td><td><code>SAOEL/KWRAPBT</code></td><td>sealant</td></tr>
+<tr><td><code>KWRAEUGS</code></td><td>^ation</td><td><code>TPHROET/KWRAEUGS</code></td><td>flotation</td></tr>
+<tr><td><code>KWRAOEUZ</code></td><td>^ize</td><td><code>PHOEBL/KWRAOEUZ</code></td><td>mobilize</td></tr>
+<tr><td><code>KWROUT</code></td><td>^out</td><td><code>HOELD/KWROUT</code></td><td>holdout</td></tr>
+<tr><td><code>KWREUF</code></td><td>^ive</td><td><code>TPEFT/KWREUF</code></td><td>festive</td></tr>
+<tr><td><code>KWREUFPL</code></td><td>^ism</td><td><code>TAOUR/KWREUFPL</code></td><td>tourism</td></tr>
+<tr><td><code>KWREUFT</code></td><td>^ist</td><td><code>ART/KWREUFT</code></td><td>artist</td></tr>
+<tr><td><code>KWREUPB</code></td><td>^in</td><td><code>PHRUG/KWREUPB</code></td><td>plugin</td></tr>
+<tr><td><code>KWREUBG</code></td><td>^ic</td><td><code>PWAEUS/KWREUBG</code></td><td>basic</td></tr>
+<tr><td><code>KWREPB</code></td><td>^en</td><td><code>SOFT/KWREPB</code></td><td>soften</td></tr>
+</tbody></table>
+</div>
+<p><strong>Use these suffixes only to modify a root word. Ensure that the root word relates to the full word semantically.</strong></p>
+<h4 id="examples-of-correct-usage-3"><a class="header" href="#examples-of-correct-usage-3">Examples of correct usage</a></h4>
+<ul>
+<li>coolant <code>KAOL/KWRAPBT</code></li>
+<li>bailout <code>PWAEUL/KWROUT</code></li>
+<li>flirtation <code>TPHREURT/KWRAEUGS</code></li>
+<li>stylize <code>STAOEUL/KWRAOEUZ</code></li>
+<li>active <code>ABGT/KWREUF</code></li>
+<li>realism <code>RAEL/KWREUFPL</code></li>
+<li>purist <code>PAOUR/KWREUFT</code></li>
+<li>herein <code>HAOER/KWREUPB</code></li>
+<li>cubic <code>KAOUB/KWREUBG</code></li>
+<li>rotten <code>ROT/KWREPB</code></li>
+</ul>
+<h4 id="examples-of-incorrect-usage-1"><a class="header" href="#examples-of-incorrect-usage-1">Examples of incorrect usage</a></h4>
+<ul>
+<li>pedant <code>PED/KWRAPBT</code> ❌
+<ul>
+<li>&quot;ped&quot; unrelated to &quot;pedant&quot;</li>
+</ul>
+</li>
+<li>captive <code>KAPT/KWREUF</code> ❌
+<ul>
+<li>&quot;capt&quot; unrelated to &quot;captive&quot;</li>
+</ul>
+</li>
+</ul>
+<h4 id="practice-material-5"><a class="header" href="#practice-material-5">Practice material</a></h4>
+<p><a href="#practice/13-kwr.txt">Right hand kwr suffix words drill</a></p>
+<h3 id="suffixes-and-orthography"><a class="header" href="#suffixes-and-orthography">Suffixes and orthography</a></h3>
+<p>In some of the examples and drills you have been doing so far, you may have been wondering about the odd spelling quirks associated with these suffixes.</p>
+<p>For example, &quot;purist&quot; was listed in one of the examples above as <code>PWAOUR/KWREUFT</code>, but the root word is really spelled &quot;pur<ins>e</ins>&quot; with an &quot;e&quot; at the end.</p>
+<p>Here are some other examples where adding a suffix to a root word changes its spelling:</p>
+<ul>
+<li>&quot;haste&quot; + &quot;-y&quot; → &quot;hasty&quot;
+<ul>
+<li>&quot;e&quot; is removed</li>
+</ul>
+</li>
+<li>&quot;lucky&quot; + &quot;-ly&quot; → &quot;luckily&quot;
+<ul>
+<li>&quot;y&quot; changed to &quot;i&quot;</li>
+</ul>
+</li>
+<li>&quot;base&quot; + &quot;-ic&quot; → &quot;basic&quot;
+<ul>
+<li>&quot;e&quot; is removed</li>
+</ul>
+</li>
+</ul>
+<p>You do not have to think about these consciously when using suffix strokes in Lapwing theory. The dictionary is designed to handle these automatically.</p>
+<p>Thus, using the suffix strokes we have learned so far, we would write the above as:</p>
+<ul>
+<li>hasty <code>HAEUFT/KWREU</code></li>
+<li>luckily <code>HRUBG/KWREU/HREU</code></li>
+<li>basic <code>PWAEUS/KWREUBG</code></li>
+</ul>
+<h2 id="prefix-priority"><a class="header" href="#prefix-priority">Prefix priority</a></h2>
+<p>When there are conflicts between prefixes strokes and words, the former will be given higher priority for the primary outline. The words will instead be briefed. This allows you to write complicated words fairly intuitively without having to explicitly remember prefixes. Of course, this does come at the cost of having to memorize more arbitrary briefs. Since common words are often briefed, however, it does not require significantly more mental effort.</p>
+<div class="table-wrapper"><table><thead><tr><th>Prefix/word</th><th>Prefix Outline</th><th>Recommended word outline(s)</th><th>Explanation</th></tr></thead><tbody>
+<tr><td>a</td><td><code>A</code></td><td><code>AEU</code></td><td><code>A*</code> is already used.</td></tr>
+<tr><td>bi^ (by)</td><td><code>PWAOEU</code></td><td><code>PWEU</code></td><td>There is a three way conflict between &quot;by&quot;, &quot;bye&quot;, and &quot;buy&quot;.</td></tr>
+<tr><td>be</td><td><code>PWE</code></td><td><code>-B</code></td><td>Useful in phrase briefs.</td></tr>
+<tr><td>for</td><td><code>TPOR</code></td><td><code>TP-R</code> or <code>TPAURT</code></td><td>Useful in phrases like &quot;for the&quot; <code>TP-RT</code>.</td></tr>
+<tr><td>in</td><td><code>EUPB</code></td><td><code>TPH</code></td><td>Useful in phrases like &quot;in the&quot; <code>TPH-T</code>.</td></tr>
+<tr><td>or</td><td><code>OR</code></td><td><code>AOUR</code> or <code>AUR</code></td><td><code>O*R</code> is already used.</td></tr>
+<tr><td>out</td><td><code>OUT</code></td><td><code>O*UT</code> or <code>AOUT</code></td><td>Either works.</td></tr>
+<tr><td>on</td><td><code>OPB</code></td><td><code>O*PB</code> or <code>AUPB</code></td><td>Either works.</td></tr>
+<tr><td>tri^ (try)</td><td><code>TRAOEU</code></td><td><code>TRAO*EU</code> or <code>TREU</code></td><td>The first is the more &quot;formal&quot; outline, but the second matches the pattern with &quot;by&quot;.</td></tr>
+</tbody></table>
+</div>
+<p>You will see this table again in later chapters.</p>
+<h2 id="looking-up-prefixes-and-suffixes"><a class="header" href="#looking-up-prefixes-and-suffixes">Looking up prefixes and suffixes</a></h2>
+<p>You can use Plover's lookup tool to find prefix and suffix strokes not listed in this chapter. Go to the main window, press tools, and then select &quot;Lookup&quot;. Type in the letters that make up the translation and the tool will show outlines for prefixes, suffixes, and regular words; the dictionary formatting with the curly braces and carets is not required.</p>
+<p><img src="img/13-lookup.png" alt="looking up &quot;in&quot;" /></p>
+<h2 id="chapter-13-test"><a class="header" href="#chapter-13-test">Chapter 13 test</a></h2>
+<p>This chapter's test consists of all the practice drills you have done in this chapter. Make sure your settings are configured as such:</p>
+<p><img src="img/5-test-settings.png" alt="test settings" /></p>
+<ul>
+<li>Limit word count: 45</li>
+<li>Start from word: 1</li>
+<li>Repetitions: 3</li>
+<li>Sort: random</li>
+<li>Show hint for every word: unchecked</li>
+<li>Hide hint on last repetition: unchecked</li>
+<li>Show hint on misstroke: checked</li>
+</ul>
+<p><a href="practice/13-test.txt">Click here to access the chapter 13 test</a></p>
+<h3 id="recommended-completion-goal"><a class="header" href="#recommended-completion-goal">Recommended completion goal</a></h3>
+<p>This is only a suggestion; it is not a requirement to move to the next chapter!</p>
+<p><strong>Aim for 10–40 WPM with 90% accuracy.</strong></p>
+<p><strong>You may use the test material as practice!</strong></p>
+
+                        </div>
+                        <div class="sidetoc">
+                            <nav class="pagetoc"></nav>
+                        </div>
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="Chapter-12.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="Chapter-14.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="Chapter-12.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="Chapter-14.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+        <script src="theme/pagetoc.js"></script>
+
+
+    </div>
+    </body>
+</html>

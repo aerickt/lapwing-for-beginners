@@ -1,0 +1,368 @@
+<!DOCTYPE HTML>
+<html lang="en" class="light" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Chapter 4: The layout - Lapwing for Beginners</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="theme/pagetoc.css">
+
+    </head>
+    <body class="sidebar-visible no-js">
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('light')
+            html.classList.add(theme);
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var body = document.querySelector('body');
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="Chapter-01.html">Chapter 1: Introduction</a></li><li class="chapter-item expanded affix "><a href="Chapter-02.html">Chapter 2: Steno hardware and software</a></li><li class="chapter-item expanded affix "><a href="Chapter-03.html">Chapter 3: How to learn steno</a></li><li class="chapter-item expanded affix "><a href="Chapter-04.html" class="active">Chapter 4: The layout</a></li><li class="chapter-item expanded affix "><a href="Chapter-05.html">Chapter 5: Lapwing setup and basics</a></li><li class="chapter-item expanded affix "><a href="Chapter-06.html">Chapter 6: Left hand consonants continued</a></li><li class="chapter-item expanded affix "><a href="Chapter-07.html">Chapter 7: Vowels</a></li><li class="chapter-item expanded affix "><a href="Chapter-08.html">Chapter 8: Vowels continued</a></li><li class="chapter-item expanded affix "><a href="Chapter-09.html">Chapter 9: Right hand chords</a></li><li class="chapter-item expanded affix "><a href="Chapter-10.html">Chapter 10: Right hand chords continued</a></li><li class="chapter-item expanded affix "><a href="Chapter-11.html">Chapter 11: Right hand compound clusters</a></li><li class="chapter-item expanded affix "><a href="Chapter-12.html">Chapter 12: Wrapping up basic words</a></li><li class="chapter-item expanded affix "><a href="Chapter-13.html">Chapter 13: Prefixes and suffixes</a></li><li class="chapter-item expanded affix "><a href="Chapter-14.html">Chapter 14: Suffix keys and compound words</a></li><li class="chapter-item expanded affix "><a href="Chapter-15.html">Chapter 15: Syllabic splitting</a></li><li class="chapter-item expanded affix "><a href="Chapter-16.html">Chapter 16: Top 200 common English words</a></li><li class="chapter-item expanded affix "><a href="Chapter-17.html">Chapter 17: Fingerspelling and numbers</a></li><li class="chapter-item expanded affix "><a href="Chapter-18.html">Chapter 18: Proper nouns</a></li><li class="chapter-item expanded affix "><a href="Chapter-19.html">Chapter 19: Punctuation and commands</a></li><li class="chapter-item expanded affix "><a href="Chapter-20.html">Chapter 20: UK spellings</a></li><li class="chapter-item expanded affix "><a href="Chapter-21.html">Chapter 21: Theory principles wrap-up</a></li><li class="chapter-item expanded affix "><a href="Chapter-22.html">Chapter 22: End of basic theory</a></li><li class="chapter-item expanded affix "><a href="Chapter-23.html">Chapter 23: Phrase briefs</a></li><li class="chapter-item expanded affix "><a href="Chapter-24.html">Chapter 24: Lapwing briefing techniques</a></li><li class="chapter-item expanded affix "><a href="Chapter-25.html">Chapter 25: Symbols and modifiers</a></li><li class="chapter-item expanded affix "><a href="Chapter-26.html">Chapter 26: Editing text</a></li><li class="chapter-item expanded affix "><a href="Appendix-A.html">Appendix A: Switching to Lapwing from Plover</a></li><li class="chapter-item expanded affix "><a href="Appendix-B.html">Appendix B: Setting up Lapwing manually</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Lapwing for Beginners</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <div class="content-wrap">
+                            <h1 id="chapter-4-the-layout"><a class="header" href="#chapter-4-the-layout">Chapter 4: The layout</a></h1>
+<h2 id="recommended-pace"><a class="header" href="#recommended-pace">Recommended pace</a></h2>
+<p><strong>Recommended time to spend on this chapter: 5–9 days</strong></p>
+<ol>
+<li>Read this page (<strong>10 minutes</strong>)</li>
+<li>Drill as much as possible over the course of several days (<strong>1–3 hours</strong>)</li>
+<li>Attempt the <a href="#chapter-4-test">test</a> (<strong>20 minutes</strong>)
+<ul>
+<li>Keep practising the test until you meet the requirements (<strong>1 hour</strong>)</li>
+</ul>
+</li>
+</ol>
+<h2 id="useful-links"><a class="header" href="#useful-links">Useful links</a></h2>
+<ul>
+<li><a href="https://joshuagrams.github.io/steno-jig/learn-keyboard.html">Steno Jig's &quot;Learn the Steno Keyboard&quot; Drills</a></li>
+<li><a href="https://joshuagrams.github.io/steno-jig/form.html">Steno Jig's Own Drills</a></li>
+<li><a href="#chapter-4-test">Chapter 4 test</a></li>
+</ul>
+<h2 id="finger-positions"><a class="header" href="#finger-positions">Finger positions</a></h2>
+<p>You may remember this graphic from chapter 2:</p>
+<p><img src="img/2-key-positions.png" alt="" /></p>
+<p>Keep this bookmarked and handy throughout this chapter! The yellow circles indicate the resting &quot;home position&quot; of your fingers.</p>
+<p>You want to memorize this layout to the point that you are able to press the right key when prompted for.</p>
+<p>The best way to go about memorizing this layout is splitting it into memorable chunks and doing a lot of drills. It's one thing to know which finger is responsible for which key(s), but the most effective way of building muscle memory for the layout is simply drilling it.</p>
+<h3 id="the-backspace-key"><a class="header" href="#the-backspace-key">The backspace key</a></h3>
+<p>From here on, you can play around with the keys and press random things to see what you get for fun. You could also jump right into the drills. In any case, it's very important to know how to backspace what Plover outputs. For this, press the asterisk key (<code>*</code>) and Plover will delete the last translation caused by the last stroke.</p>
+<p>What's important to note is that doing so <strong>does not delete the last word</strong> necessarily. Try this: press the stroke <code>PAOEU</code> into a text editor. You should see the word &quot;pie&quot; outputted by Plover. Now, press the stroke <code>THOPB</code>. You should now see that Plover backspaces the &quot;ie&quot; and replaces it with &quot;ython&quot; to give you the word &quot;python&quot;.</p>
+<p>What you've just done is write a multistroke outline for the word &quot;python&quot;; to delete this, you will need to press the asterisk key twice. Try it out!</p>
+<p>If you're having trouble pressing the strokes, you can also just watch this GIF:</p>
+<p><img src="img/4-python.gif" alt="" /></p>
+<p>Notice how pressing the asterisk once doesn't delete the word—it only deletes the last stroke and therefore leaves the <code>PAOEU</code> (pie) stroke alone.</p>
+<p>For now, this isn't very crucial as the majority of the words you will be writing contain only single syllables. However, do keep in mind that the asterisk does not behave like a backspace key in the traditional sense.</p>
+<h2 id="steno-jig"><a class="header" href="#steno-jig">Steno Jig</a></h2>
+<p>For learning the layout, Steno Jig has some helpful <a href="https://joshuagrams.github.io/steno-jig/learn-keyboard.html">&quot;Learn the Steno Keyboard&quot;</a> drills.</p>
+<p>For each drill, you may choose to enable hints, which show where each key is located on the steno layout. Ultimately, you want to be able to do these drills without using any hints. Do not worry about the &quot;Speed (strokes per minute)&quot; parameter just yet.</p>
+<p>If you are unsure where to start, these 5 drills are recommended (select them in the dropdown menu):</p>
+<ul>
+<li>Left hand, bottom row</li>
+<li>Right hand, full bottom row</li>
+<li>Left hand, top row</li>
+<li>Right hand, full top row</li>
+<li>Vowels</li>
+</ul>
+<p>In order to do the drills, you must disable all your dictionaries by unchecking them in Plover's main window:</p>
+<p><img src="img/4-main-window.png" alt="" /></p>
+<p>Click on the checkmarks next to each dictionary to disable them.</p>
+<p>After you've done this, Plover will output raw steno when you write a key. Simply press the key that is prompted during the drills. If you make a mistake, press the asterisk key to backspace.</p>
+<h3 id="why-does-plover-output-a-hyphen"><a class="header" href="#why-does-plover-output-a-hyphen">Why does Plover output a hyphen?</a></h3>
+<p>With your dictionaries unchecked, try pressing the right side &quot;T&quot; key (or really any nonvowel on the right side). You'll notice that Plover outputs <code>-T</code> with a hyphen. The hyphen indicates that this &quot;T&quot; is on the right side of the keyboard. If you are prompted to press <code>S</code>, you must press the &quot;S&quot; key on the left side. If you see <code>-S</code>, this indicates that the S is on the right side and so you must press the right side &quot;S&quot; key.</p>
+<p>This hyphen is included in all strokes that contain only right hand keys. If you were to press the right hand &quot;R&quot;, &quot;P&quot;, and &quot;L&quot; keys, Plover would output <code>-RPL</code>. If a stroke contains a vowel or the asterisk, however, the hyphen is omitted.</p>
+<h3 id="how-should-i-start"><a class="header" href="#how-should-i-start">How should I start?</a></h3>
+<p>If you'd like, you can just jump right into the drills; that is a valid way to learn the layout. However, I would suggest coming up with mnemonics first just to make the memorization process a little bit easier. These should be personal as they're more likely to stick.</p>
+<p>For example, these are some mnemonics I used when first starting off:</p>
+<ol>
+<li>
+<p>Left hand, bottom row (<code>SKWR</code>)</p>
+<ul>
+<li><ins>s</ins>ome <ins>k</ins>ettle <ins>v</ins>alley <ins>r</ins>ailway (<code>SKWR</code>)
+<ul>
+<li>A historical railway in my area (&quot;v&quot; is not quite &quot;W&quot;, but it was close enough)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Right hand, full bottom row (<code>-RBGSZ</code>)</p>
+<ul>
+<li><ins>r</ins>ed, <ins>b</ins>lue, <ins>g</ins>reen (<code>RBG</code>)
+<ul>
+<li>Like &quot;RGB&quot; but not quite</li>
+</ul>
+</li>
+<li>Bottom right pinkie key is <code>-S</code> just like bottom left pinkie</li>
+<li>The &quot;Z&quot; sound is similar to &quot;S&quot; and is immediately to the right of <code>-S</code></li>
+<li><code>-Z</code> is also on the end, just like in the alphabet</li>
+</ul>
+</li>
+<li>
+<p>Left hand, top row (<code>#TPH</code>)</p>
+<ul>
+<li>ha<ins>s</ins>h is right above <code>S</code></li>
+<li><ins>t</ins>he <ins>p</ins>ower of <ins>h</ins>ydrogen (&quot;TPH&quot;)
+<ul>
+<li>As in the chemistry term &quot;pH&quot;</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Right hand, full top row (<code>-FPLTD</code>)</p>
+<ul>
+<li>Index <ins>f</ins>inger presses <code>-F</code></li>
+<li><ins>p</ins>ersonal <ins>l</ins>earning <ins>t</ins>ime (<code>-PLT</code>)
+<ul>
+<li>You can also combine the previous key with this mnemonic where <code>-F</code> represents an expletive (<code>-FPLTD</code>)</li>
+</ul>
+</li>
+<li>The &quot;D&quot; sound is just the voiced &quot;T&quot; sound and is right next to <code>-T</code> (<code>-D</code>)</li>
+</ul>
+</li>
+<li>
+<p>Vowels (<code>AOEU</code>)</p>
+<ul>
+<li><ins>a</ins>y y<ins>o</ins>, <ins>eu</ins>! (<code>AOEU</code>)
+<ul>
+<li>An individual really passionate about the European Union</li>
+</ul>
+</li>
+<li>You could also pronounce &quot;ao&quot; as &quot;ow&quot; for someone who dislikes the European Union</li>
+</ul>
+</li>
+</ol>
+<p>Clearly some of these mnemonics are rather silly (and also very specific), but that makes them easier to remember for me. I do encourage you to come up with your own! At some point, the keys will become natural to you and you will not need to recall any mnemonics. <strong>It is at this point that you should proceed to the test.</strong></p>
+<h3 id="other-drills"><a class="header" href="#other-drills">Other drills</a></h3>
+<p>If, after a few days, you feel pretty comfortable practising the previous drills, you may want to try other practice material. The other Steno Jig drills are fair game:</p>
+<p><img src="img/4-supplemental-drills.png" alt="" /></p>
+<p>The drills outside of the red box incorporate theory you have not learned yet, and are not recommended.</p>
+<p>If you have already done these drills and are quite comfortable, I would recommend moving onto the test.</p>
+<h2 id="chapter-4-test"><a class="header" href="#chapter-4-test">Chapter 4 test</a></h2>
+<p>For this test, we will also be using Steno Jig. This time, we will be making a custom drill here:</p>
+<p><img src="img/4-custom-drill.png" alt="" /></p>
+<p><a href="https://joshuagrams.github.io/steno-jig/form.html">Click here</a> to take you to the page shown above.</p>
+<p>Copy and paste the following into the text box:</p>
+<pre><code>SAF SAR SAP SAB SAL SAG SAT SAS SAD SAZ SOF SOR SOP SOB SOL SOG SOT SOS SOD SOZ SEF SER SEP SEB SEL SEG SET SES SED SEZ SUF SUR SUP SUB SUL SUG SUT SUS SUD SUZ TAF TAR TAP TAB TAL TAG TAT TAS TAD TAZ TOF TOR TOP TOB TOL TOG TOT TOS TOD TOZ TEF TER TEP TEB TEL TEG TET TES TED TEZ TUF TUR TUP TUB TUL TUG TUT TUS TUD TUZ KAF KAR KAP KAB KAL KAG KAT KAS KAD KAZ KOF KOR KOP KOB KOL KOG KOT KOS KOD KOZ KEF KER KEP KEB KEL KEG KET KES KED KEZ KUF KUR KUP KUB KUL KUG KUT KUS KUD KUZ PAF PAR PAP PAB PAL PAG PAT PAS PAD PAZ POF POR POP POB POL POG POT POS POD POZ PEF PER PEP PEB PEL PEG PET PES PED PEZ PUF PUR PUP PUB PUL PUG PUT PUS PUD PUZ WAF WAR WAP WAB WAL WAG WAT WAS WAD WAZ WOF WOR WOP WOB WOL WOG WOT WOS WOD WOZ WEF WER WEP WEB WEL WEG WET WES WED WEZ WUF WUR WUP WUB WUL WUG WUT WUS WUD WUZ HAF HAR HAP HAB HAL HAG HAT HAS HAD HAZ HOF HOR HOP HOB HOL HOG HOT HOS HOD HOZ HEF HER HEP HEB HEL HEG HET HES HED HEZ HUF HUR HUP HUB HUL HUG HUT HUS HUD HUZ RAF RAR RAP RAB RAL RAG RAT RAS RAD RAZ ROF ROR ROP ROB ROL ROG ROT ROS ROD ROZ REF RER REP REB REL REG RET RES RED REZ RUF RUR RUP RUB RUL RUG RUT RUS RUD RUZ
+</code></pre>
+<p>This test is a little different to previous drills in that you are writing entire <strong>strokes</strong> rather than single keys. Consonants on the left side of a vowel should be pressed with the left hand, and consonants on the right side should be pressed with the right hand. So <code>SAP</code> would be written like:</p>
+<p><img src="img/4-SAP.png" alt="" /></p>
+<p><strong>It is important that you press all three keys all at once for every stroke you are prompted to write (do not press each key letter by letter).</strong></p>
+<p>Select &quot;Shuffle words&quot; and make sure your dictionaries are also unchecked just like in previous drills. Once you have done so, you are ready to go!</p>
+<h4 id="recommended-completion-goal"><a class="header" href="#recommended-completion-goal">Recommended completion goal</a></h4>
+<p>This is only a suggestion; it is not a requirement to move to the next chapter!</p>
+<p><strong>You should be able to complete this test in 15 minutes or fewer with an accuracy of at least 90%.</strong></p>
+<p>This bar for completion is quite high, relatively speaking. However, do keep in mind that spending a week or more on the layout is recommended! It is very important that you internalize the layout as much as possible.</p>
+<p><strong>You are encouraged to use this test material as practice!</strong></p>
+
+                        </div>
+                        <div class="sidetoc">
+                            <nav class="pagetoc"></nav>
+                        </div>
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="Chapter-03.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="Chapter-05.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="Chapter-03.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="Chapter-05.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+        <script src="theme/pagetoc.js"></script>
+
+
+    </div>
+    </body>
+</html>

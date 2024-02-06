@@ -1,0 +1,622 @@
+<!DOCTYPE HTML>
+<html lang="en" class="light" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Chapter 15: Syllabic splitting - Lapwing for Beginners</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="theme/pagetoc.css">
+
+    </head>
+    <body class="sidebar-visible no-js">
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('light')
+            html.classList.add(theme);
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var body = document.querySelector('body');
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="Chapter-01.html">Chapter 1: Introduction</a></li><li class="chapter-item expanded affix "><a href="Chapter-02.html">Chapter 2: Steno hardware and software</a></li><li class="chapter-item expanded affix "><a href="Chapter-03.html">Chapter 3: How to learn steno</a></li><li class="chapter-item expanded affix "><a href="Chapter-04.html">Chapter 4: The layout</a></li><li class="chapter-item expanded affix "><a href="Chapter-05.html">Chapter 5: Lapwing setup and basics</a></li><li class="chapter-item expanded affix "><a href="Chapter-06.html">Chapter 6: Left hand consonants continued</a></li><li class="chapter-item expanded affix "><a href="Chapter-07.html">Chapter 7: Vowels</a></li><li class="chapter-item expanded affix "><a href="Chapter-08.html">Chapter 8: Vowels continued</a></li><li class="chapter-item expanded affix "><a href="Chapter-09.html">Chapter 9: Right hand chords</a></li><li class="chapter-item expanded affix "><a href="Chapter-10.html">Chapter 10: Right hand chords continued</a></li><li class="chapter-item expanded affix "><a href="Chapter-11.html">Chapter 11: Right hand compound clusters</a></li><li class="chapter-item expanded affix "><a href="Chapter-12.html">Chapter 12: Wrapping up basic words</a></li><li class="chapter-item expanded affix "><a href="Chapter-13.html">Chapter 13: Prefixes and suffixes</a></li><li class="chapter-item expanded affix "><a href="Chapter-14.html">Chapter 14: Suffix keys and compound words</a></li><li class="chapter-item expanded affix "><a href="Chapter-15.html" class="active">Chapter 15: Syllabic splitting</a></li><li class="chapter-item expanded affix "><a href="Chapter-16.html">Chapter 16: Top 200 common English words</a></li><li class="chapter-item expanded affix "><a href="Chapter-17.html">Chapter 17: Fingerspelling and numbers</a></li><li class="chapter-item expanded affix "><a href="Chapter-18.html">Chapter 18: Proper nouns</a></li><li class="chapter-item expanded affix "><a href="Chapter-19.html">Chapter 19: Punctuation and commands</a></li><li class="chapter-item expanded affix "><a href="Chapter-20.html">Chapter 20: UK spellings</a></li><li class="chapter-item expanded affix "><a href="Chapter-21.html">Chapter 21: Theory principles wrap-up</a></li><li class="chapter-item expanded affix "><a href="Chapter-22.html">Chapter 22: End of basic theory</a></li><li class="chapter-item expanded affix "><a href="Chapter-23.html">Chapter 23: Phrase briefs</a></li><li class="chapter-item expanded affix "><a href="Chapter-24.html">Chapter 24: Lapwing briefing techniques</a></li><li class="chapter-item expanded affix "><a href="Chapter-25.html">Chapter 25: Symbols and modifiers</a></li><li class="chapter-item expanded affix "><a href="Chapter-26.html">Chapter 26: Editing text</a></li><li class="chapter-item expanded affix "><a href="Appendix-A.html">Appendix A: Switching to Lapwing from Plover</a></li><li class="chapter-item expanded affix "><a href="Appendix-B.html">Appendix B: Setting up Lapwing manually</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Lapwing for Beginners</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <div class="content-wrap">
+                            <h1 id="chapter-15-syllabic-splitting"><a class="header" href="#chapter-15-syllabic-splitting">Chapter 15: Syllabic splitting</a></h1>
+<h2 id="recommended-pace"><a class="header" href="#recommended-pace">Recommended pace</a></h2>
+<p><strong>Recommended time to spend on this chapter: 2–5 days.</strong></p>
+<ol>
+<li>Read <a href="#syllabic-splitting-basics">syllabic splitting basics</a> and complete the drill (<strong>20 minutes</strong>)
+<ul>
+<li>Repeat the drill as needed</li>
+</ul>
+</li>
+<li>Read <a href="#kwr-as-a-silent-linker"><code>KWR</code> as a silent linker</a> and complete the drill (<strong>20 minutes</strong>)
+<ul>
+<li>Repeat the drill as needed</li>
+</ul>
+</li>
+<li>Read <a href="#kwr-as-y"><code>KWR</code> as y</a> and complete the drill (<strong>20 minutes</strong>)
+<ul>
+<li>Repeat the drill as needed</li>
+</ul>
+</li>
+<li>Read <a href="#prefix-priority">prefix priority</a> (<strong>10 minutes</strong>)</li>
+<li>Attempt the <a href="#chapter-15-test">test</a> (<strong>20 minutes</strong>)
+<ul>
+<li>Practise as needed</li>
+</ul>
+</li>
+</ol>
+<p>Remember to take breaks!</p>
+<h2 id="useful-links"><a class="header" href="#useful-links">Useful links</a></h2>
+<ul>
+<li><a href="practice/15-basics.txt">Basic syllabic splitting drill</a></li>
+<li><a href="practice/15-kwr-silent.txt"><code>KWR</code> as a silent consonant drill</a></li>
+<li><a href="practice/15-kwr-y.txt"><code>KWR</code> as &quot;y&quot; drill</a></li>
+<li><a href="practice/15-test.txt">Chapter 15 test</a></li>
+</ul>
+<h2 id="syllabic-splitting-basics"><a class="header" href="#syllabic-splitting-basics">Syllabic splitting basics</a></h2>
+<p>In earlier chapters, you learned when and how to use affix strokes. You also learned how to write compound words. Syllabic splitting is the last technique for writing multisyllable words that cannot be written in one stroke. The rules are fairly simple.</p>
+<ol>
+<li>Split the word using other methods (prefixes, suffixes, and compound words)—even just partially</li>
+<li>Split each remaining part by its syllables so that every stroke after the first begins with a consonant</li>
+<li>Make sure to not double consonants across separate strokes</li>
+<li>With multiple ways of splitting syllables, preserve the natural sounds of the word</li>
+</ol>
+<p>It's best to learn these rules by examples.</p>
+<h3 id="basic-examples-and-explanations"><a class="header" href="#basic-examples-and-explanations">Basic examples and explanations</a></h3>
+<h4 id="components"><a class="header" href="#components">components</a></h4>
+<ol>
+<li>
+<p>We first notice that this word can be split into a root word and a suffix: component/s.</p>
+</li>
+<li>
+<p>There are three possibilities for the first stroke: co/<ins>mp</ins>onent/s, com/<ins>p</ins>onent/s and comp/<ins>o</ins>nent/s. Take note of what the second stroke has to begin with in each of these scenarios (underlined letters).</p>
+</li>
+<li>
+<p>The first scenario is not correct as the second stroke would have to start with &quot;mp&quot; (not a valid left hand consonant). The third scenario is also incorrect since the second stroke begins with a vowel. Only the second method is valid: com/ponent/s.</p>
+</li>
+<li>
+<p>To split the remaining &quot;ponent&quot; group, we also remember that every stroke has to begin with a consonant. Remember that every stroke has to begin with a consonant. The only way to do this is by splitting it as: po/nent.</p>
+</li>
+</ol>
+<p>Full outline: <code>KOPL/POE/TPHEPBT/-Z</code></p>
+<h4 id="shatterproof"><a class="header" href="#shatterproof">shatterproof</a></h4>
+<ol>
+<li>
+<p>This word is clearly a compound of &quot;shatter&quot; and &quot;proof&quot;. Our last stroke should therefore be <code>PRAO*F</code>.</p>
+</li>
+<li>
+<p>It wouldn't make sense to use a suffix stroke, so we use syllabic splitting.</p>
+</li>
+<li>
+<p>If we want the second stroke to begin with a consonant, we must split this as: sha/tter.</p>
+</li>
+</ol>
+<p>Full outline: <code>SHA/TER/PRAO*F</code></p>
+<h4 id="exam"><a class="header" href="#exam">exam</a></h4>
+<ol>
+<li>
+<p>There are no prefixes, suffixes, or compound words we can use here.</p>
+</li>
+<li>
+<p>Since there is no consonant after the &quot;x&quot;, we have to split the &quot;x&quot; across the two strokes.</p>
+</li>
+</ol>
+<p>Full outline: <code>EBG/SAPL</code></p>
+<p><strong>Whenever &quot;x&quot; has to be split across two strokes, use <code>-BG</code> in the first stroke and <code>S</code> in the second.</strong></p>
+<h4 id="simile"><a class="header" href="#simile">simile</a></h4>
+<ol>
+<li>
+<p>This word does not contain any prefixes, suffixes, and is not a compound word.</p>
+</li>
+<li>
+<p>As each stroke cannot begin with a vowel, there is only one way to split this word: si/mi/le.</p>
+</li>
+</ol>
+<p>Full outline: <code>SEU/PHEU/HRAOE</code></p>
+<h4 id="dependent"><a class="header" href="#dependent">dependent</a></h4>
+<ol>
+<li>
+<p>We can start by splitting this word into &quot;depend&quot; + &quot;-ent&quot;; thus, our last stroke is <code>KWREPBT</code>.</p>
+</li>
+<li>
+<p>Since we cannot start any strokes with a vowel, there is only one way to split this: de/pend.</p>
+</li>
+</ol>
+<p>Full outline: <code>TKE/PEPBD/KWREPBT</code></p>
+<h4 id="ally"><a class="header" href="#ally">ally</a></h4>
+<ol>
+<li>
+<p>There are no prefixes, suffixes, or compound words that can be used.</p>
+</li>
+<li>
+<p>Split this in a way that every stroke begins with a consonant results in: a/lly</p>
+</li>
+</ol>
+<p>Full outline: <code>A/HRAOEU</code></p>
+<h4 id="ludicrous"><a class="header" href="#ludicrous">ludicrous</a></h4>
+<ol>
+<li>
+<p>No prefixes, suffixes, or compound words are available to use.</p>
+</li>
+<li>
+<p>We must start each stroke with with a consonant. The first stroke should therefore contain the first consonant and vowel: lu/dicrous.</p>
+</li>
+<li>
+<p>There are two ways of splitting the rest of the word: lu/dic/rous and lu/di/crous.</p>
+</li>
+<li>
+<p>The latter is more natural as the &quot;cr&quot; in &quot;ludi<ins>cr</ins>ous&quot; is pronounced as one sound.</p>
+</li>
+</ol>
+<p>Full outline: <code>HRAOU/TKEU/KRUS</code></p>
+<h4 id="wrinkly"><a class="header" href="#wrinkly">wrinkly</a></h4>
+<ol>
+<li>
+<p>This can be split into wrinkl(e)/y with the <code>KWREU</code> suffix.</p>
+</li>
+<li>
+<p>The root word &quot;wrinkle&quot; should be written as <code>WR*EUPBG/-L</code>.</p>
+</li>
+</ol>
+<p>Full outline: <code>WR*EUPBG/-L/KWREU</code></p>
+<h4 id="efficient"><a class="header" href="#efficient">efficient</a></h4>
+<ol>
+<li>
+<p>No prefixes, suffixes, or compound words are available to use.</p>
+</li>
+<li>
+<p>There is only one way to split this word so that every stroke begins with a consonant: e/ffi/cient</p>
+</li>
+</ol>
+<p>Full outline: <code>AOE/TPEU/SHEPBT</code> or <code>E/TPEU/SHEPBT</code></p>
+<h4 id="more-examples"><a class="header" href="#more-examples">More examples</a></h4>
+<ul>
+<li>compromise <code>KOPL/PRO/PHAOEUS</code> or <code>KO*PL/RO/PHAOEUS</code></li>
+<li>dispatcher <code>TKEUS/PAFP/*ER</code></li>
+<li>hubris <code>HAOU/PWREUS</code></li>
+<li>inadvertent <code>EUPB/AD/SRER/TEPBT</code></li>
+<li>occasion <code>OE/KAEUGS</code></li>
+<li>parliament <code>PAR/HRAPLT</code></li>
+<li>reassured <code>RE/A/SHUR/-D</code> or <code>RAOE/A/SHUR/-D</code></li>
+<li>sentiment <code>SEPB/TEUPLT</code></li>
+<li>example <code>EBG/SA*PL/-L</code></li>
+</ul>
+<h3 id="section-practice"><a class="header" href="#section-practice">Section practice</a></h3>
+<p><a href="practice/15-basics.txt">Basic syllabic splitting drill</a></p>
+<h2 id="kwr-as-a-silent-linker"><a class="header" href="#kwr-as-a-silent-linker"><code>KWR</code> as a silent linker</a></h2>
+<p>Sometimes it is not possible to start a stroke with a consonant as you may run out of consonants in a word. In these cases, use <code>KWR</code> as a silent linker chord to join a stroke to the previous.</p>
+<h3 id="kwr-with-the--r-key"><a class="header" href="#kwr-with-the--r-key"><code>KWR</code> with the <code>-R</code> key</a></h3>
+<p>In single syllable words, the inclusion of the <code>-R</code> key can sometimes change the pronunciation of the vowel.</p>
+<p>In the list below, notice how each pair of words has a different vowel sound due to the presence of the <code>-R</code> key.</p>
+<ul>
+<li>car <code>KAR</code></li>
+<li>cat <code>KAT</code></li>
+<li>pay <code>PAEU</code></li>
+<li>pair <code>PAEUR</code></li>
+<li>cue <code>KAOU</code></li>
+<li>cure <code>KAOUR</code></li>
+<li>hem <code>HEPL</code></li>
+<li>her <code>HER</code></li>
+</ul>
+<video controls>
+<source src="img/15-pronunciations-1.mp4" type="video/mp4">
+</video>
+<p>In multistroke words, we also treat <code>-R</code> as a quasi-vowel key when appropriate.</p>
+<p>For example, the word &quot;carry&quot; would be written in two strokes. As we must preserve the vowel sound, we have to include the <code>-R</code> key in the first stroke: <code>KAEUR</code>. To start the next stroke, we cannot repeat the &quot;r&quot; consonant by using the left hand <code>R</code> key, so we use <code>KWR</code> as a silent linker.</p>
+<h4 id="examples"><a class="header" href="#examples">Examples</a></h4>
+<ul>
+<li>carry <code>KAEUR/KWREU</code></li>
+<li>fury <code>TPAOUR/KWREU</code></li>
+<li>hurry <code>HUR/KWREU</code></li>
+<li>berry <code>PWER/KWREU</code></li>
+</ul>
+<video controls>
+<source src="img/15-pronunciations-2.mp4" type="video/mp4">
+</video>
+<h4 id="why-the-eu-chord"><a class="header" href="#why-the-eu-chord">Why the <code>EU</code> chord?</a></h4>
+<p>The examples above all end in the &quot;long e&quot; sound (/i/) as in &quot;tee&quot;—so why <code>EU</code>? Well, to be quite honest, I'm not entirely sure myself. This is simply what Plover theory sometimes does and it's just what I've gotten used to. This does, unfortunately, mean that Lapwing theory has inherited the quirk.</p>
+<p>That being said, the usage of <code>EU</code> vs <code>AOE</code> is more defined in Lapwing theory and is less arbitrary. If a word has a &quot;long e&quot; sound, these are the rules you should follow for deciding between <code>EU</code> and <code>AOE</code>:</p>
+<ol>
+<li>If the vowel is spelled with a single &quot;i&quot;, use <code>EU</code>
+<ul>
+<li>petite <code>PE/TEUT</code></li>
+<li>ski <code>SKEU</code></li>
+</ul>
+</li>
+<li>If the vowel is spelled with &quot;ey&quot; or &quot;y&quot;, use <code>EU</code>
+<ul>
+<li>city <code>SEU/TEU</code></li>
+<li>key <code>KEU</code></li>
+</ul>
+</li>
+<li>If <code>EU</code> is already taken by another word, use <code>AOE</code>
+<ul>
+<li>marine <code>PHAR/KWRAOEPB</code> (since <code>PHAR/KWREUPB</code> is marin)</li>
+</ul>
+</li>
+<li>In all other situations, use <code>AOE</code> or <code>AE</code> as previously covered
+<ul>
+<li>cookie <code>KAO/KAOE</code></li>
+<li>spleen <code>SPHRAOEPB</code></li>
+<li>here <code>HAOER</code></li>
+<li>hear <code>HAER</code></li>
+</ul>
+</li>
+</ol>
+<h4 id="prefix-vowel-exceptions"><a class="header" href="#prefix-vowel-exceptions">Prefix vowel exceptions</a></h4>
+<p>The stroke after a prefix may start with a vowel if needed. However, you must use this prefix stroke appropriately; it should modify a root word that can exist on its own.</p>
+<h5 id="examples-1"><a class="header" href="#examples-1">Examples</a></h5>
+<ul>
+<li><code>KOE/OR/TKEU/TPHAEUT</code> coordinate</li>
+<li><code>EUPB/AOE/KWAUL</code> inequal</li>
+<li><code>PRAOE/OR/TKAEUPB</code> preordain</li>
+<li><code>UPB/A/TAEUPB/-BL</code> unattainable</li>
+</ul>
+<h3 id="section-practice-1"><a class="header" href="#section-practice-1">Section practice</a></h3>
+<p><a href="practice/15-kwr-silent.txt"><code>KWR</code> as a silent consonant drill</a></p>
+<h2 id="kwr-as-y"><a class="header" href="#kwr-as-y"><code>KWR</code> as &quot;y&quot;</a></h2>
+<h3 id="to-start-a-vowel"><a class="header" href="#to-start-a-vowel">To start a vowel</a></h3>
+<p>We've learned that <code>KWR*</code> is the beginning &quot;y&quot; consonant, but within multisyllable words, <code>KWR</code> itself can represent &quot;y&quot; as well.</p>
+<p>For completeness, here is a table listing the different situations involving the &quot;y&quot; sound:</p>
+<div class="table-wrapper"><table><thead><tr><th>Situation</th><th>Appropriate chord</th><th>Example</th><th>Example outline</th></tr></thead><tbody>
+<tr><td>Word begins with &quot;y&quot;</td><td><code>KWR*</code></td><td>yell</td><td><code>KWR*EL</code></td></tr>
+<tr><td>Word begins with &quot;y&quot; sound (not spelled)</td><td><code> </code></td><td>use</td><td><code>AOUS</code></td></tr>
+<tr><td>&quot;y&quot; sound within a word</td><td><code>KWR</code></td><td>union</td><td><code>AOUPB/KWROPB</code></td></tr>
+</tbody></table>
+</div>
+<p>In the three situations above, only the last one should be new to you.</p>
+<h4 id="examples-2"><a class="header" href="#examples-2">Examples</a></h4>
+<ul>
+<li>bunion <code>PWUPB/KWROPB</code></li>
+<li>opinion <code>OE/PEUPB/KWROPB</code></li>
+<li>onion <code>OPB/KWROPB</code></li>
+<li>trunnion <code>TRUPB/KWROPB</code></li>
+</ul>
+<video controls>
+<source src="img/15-pronunciations-3.mp4" type="video/mp4">
+</video>
+<h3 id="between-two-vowels"><a class="header" href="#between-two-vowels">Between two vowels</a></h3>
+<p>The <code>KWR</code> chord can also represent the &quot;y&quot; sound that occurs between two vowels. In my accent, the words &quot;piano&quot; or &quot;aioli&quot; have a subtle &quot;y&quot; sound in the second syllable (&quot;pee-ya-no&quot; and &quot;ai-yo-lee&quot;).</p>
+<p>Linguistically, this sound is called a glide and is represented with <code>KWR</code> in Lapwing:</p>
+<ul>
+<li>piano <code>PEU/KWRA/TPHOE</code></li>
+<li>aioli <code>AOEU/KWROE/HREU</code></li>
+</ul>
+<video controls>
+<source src="img/15-pronunciations-4.mp4" type="video/mp4">
+</video>
+<p>If, in your accent, you cannot hear a glide, you can also just treat <code>KWR</code> as a silent linker just like in previous sections.</p>
+<p><strong>Essentially, if there are two distinct vowel sounds next to each other which cannot be represented by a single vowel chord, use <code>KWR</code> to link them in separate strokes.</strong></p>
+<h4 id="examples-3"><a class="header" href="#examples-3">Examples</a></h4>
+<ul>
+<li><code>KAEU/KWROS</code> chaos</li>
+<li><code>TKAOEU/KWRA/KREU/TEUBG</code> diacritic</li>
+<li><code>AOEU/TKAOE/KWRA</code> idea</li>
+<li><code>SRAOEU/KWROLT</code> violet</li>
+</ul>
+<video controls>
+<source src="img/15-pronunciations-5.mp4" type="video/mp4">
+</video>
+<h3 id="as-a-vowel-pair"><a class="header" href="#as-a-vowel-pair">As a vowel pair</a></h3>
+<p>How would you write the word &quot;alleviate&quot;? With everything we've learned so far, you may be tempted to use <code>A/HRAOE/SREU/KWRAEUT</code> (a/lle/vi/ate). However, four strokes is quite a lot. We need to be able to compress this word into fewer strokes if we want to be fast at steno.</p>
+<p>To do this, we can let the <code>KWRAEU</code> stroke represent the entire &quot;ia&quot; sound. This sound is made up of two distinct vowels that are blended together. The &quot;ia&quot; pair is composed of the &quot;long e&quot; /i/ vowel as in &quot;b<ins>ee</ins>t&quot; and the &quot;long a&quot; /ei/ vowel as in &quot;b<ins>ai</ins>t&quot;. These are blended together to form the sound &quot;ee-ait&quot; /iˌeɪt/.</p>
+<p>Say &quot;alleviate&quot; out loud and see if you can identify this &quot;ee-ait&quot; vowel pair in the last syllable!</p>
+<p>Instead of treating <code>KWR</code> as a silent linker chord, we can also treat it to represent the first vowel sound in this pair. We would write the second sound with the thumb keys. This way, we can let <code>KWRAEU</code> represent the &quot;ia&quot; sound. By doing so, we have effectively shifted where the last stroke begins: we went from a/lle/vi/ate to a/lle/v/iate</p>
+<p>Finally, if we move the &quot;v&quot; sound to the second stroke , we can split this word in only three strokes: a/llev/iate</p>
+<ul>
+<li>alleviate <code>A/HRAOEF/KWRAEUT</code></li>
+</ul>
+<p>Another way of thinking about this is that <code>KWR</code> is representing a subtle &quot;y&quot; sound just like in the previous section. If you can hear a &quot;y&quot; sound in alleviate (as in &quot;a-leev-<ins>y</ins>ait&quot;), then you can simply use <code>KWR</code> to represent this sound, and write the rest of the vowels using the thumbs.</p>
+<p>Thinking about vowel pairs is a great way of understanding how  <code>KWR</code> can be used in these situations. However, if it is a bit slow, I recommend thinking about <code>KWR</code> as a &quot;y&quot; sound. We can approximate complicated vowel sounds just by using a &quot;y&quot; sound and a vowel we've learned before.</p>
+<video controls>
+<source src="img/15-pronunciations-6.mp4" type="video/mp4">
+</video>
+<h4 id="examples-4"><a class="header" href="#examples-4">Examples</a></h4>
+<p>In the following examples, try to pronounce each word by approximating the vowel pair with a &quot;y&quot; sound. Notice how these approximations still resemble the word being pronounced.</p>
+<ul>
+<li>appreciate <code>A/PRAOERB/KWRAEUT</code>
+<ul>
+<li><code>KWRAEU</code> represents &quot;ia&quot; vowel pair</li>
+</ul>
+</li>
+<li>aficionado <code>A/TPEURB/KWRO/TPHA/TKOE</code>
+<ul>
+<li><code>KWRO</code> represents &quot;io&quot; vowel pair</li>
+</ul>
+</li>
+<li>nefarious <code>TPHE/TPAEUR/KWRUS</code>
+<ul>
+<li><code>KWRU</code> represents the &quot;iou&quot; vowel (the &quot;o&quot; is silent)</li>
+</ul>
+</li>
+<li>video <code>SREUD/KWROE</code>
+<ul>
+<li><code>KWROE</code> represents the &quot;eo&quot; vowel</li>
+</ul>
+</li>
+</ul>
+<video controls>
+<source src="img/15-pronunciations-7.mp4" type="video/mp4">
+</video>
+<h3 id="section-practice-2"><a class="header" href="#section-practice-2">Section practice</a></h3>
+<p><a href="practice/15-kwr-y.txt"><code>KWR</code> as &quot;y&quot; drill</a></p>
+<h2 id="prefix-priority"><a class="header" href="#prefix-priority">Prefix priority</a></h2>
+<p>Sometimes a given steno outline can have both a word and a prefix that it can represent. For example, to write the simple word &quot;by&quot; you may want to use <code>PWAOEU</code>. However, there also exists the &quot;bi-&quot; prefix as in the words &quot;bicycle&quot; <code>PWAOEU/SAOEUBG/-L</code>, &quot;bifurcate&quot; <code>PWAOEU/TPUR/KAEUT</code>, and &quot;bilateral&quot; <code>PWAOEU/HRA/TER/KWRAL</code>. From a prefix perspective, these are not used correctly since the prefixes are not altering a root word semantically. However, from a syllabic splitting perspective, these are correct.</p>
+<p>Therefore, it makes sense to assign a different stroke other than <code>PWAOEU</code> to the word &quot;by&quot;. Otherwise, you may lead to conflicts like:</p>
+<ul>
+<li><code>PWAOEU/SAOEUBG/-L/-G</code>
+<ul>
+<li>Can be the word &quot;bicycling&quot;</li>
+<li>Can be the phrase &quot;by cycling&quot; as in &quot;We can achieve hover by cycling between engine modes.&quot;</li>
+</ul>
+</li>
+<li><code>PWAOEU/HRA/TER/KWRAL</code>
+<ul>
+<li>The word &quot;bilateral&quot;</li>
+<li>Can be the phrase &quot;by lateral&quot; as in &quot;Love waves cause damage by lateral movement of the ground.&quot;</li>
+</ul>
+</li>
+</ul>
+<p>Below is a table of some basic word/prefix conflicts. Prefixes will be given to the intuitive outline and the word variant will use the asterisk key or a different vowel chord. However, for some common words, it's useful to brief them as it is useful in phrases. You are free to add your own briefs for the word variants.</p>
+<div class="table-wrapper"><table><thead><tr><th>Prefix/word</th><th>Prefix Outline</th><th>Recommended word outline(s)</th><th>Explanation</th></tr></thead><tbody>
+<tr><td>a</td><td><code>A</code></td><td><code>AEU</code></td><td><code>A*</code> is already used.</td></tr>
+<tr><td>bi- (by)</td><td><code>PWAOEU</code></td><td><code>PWEU</code></td><td>There is a three way conflict between &quot;by&quot;, &quot;bye&quot;, and &quot;buy&quot; (see below).</td></tr>
+<tr><td>be</td><td><code>PWE</code></td><td><code>-B</code></td><td>Useful in phrase briefs.</td></tr>
+<tr><td>for</td><td><code>TPOR</code></td><td><code>TP-R</code> or <code>TPAURT</code></td><td>Useful in phrases like &quot;for the&quot; <code>TP-RT</code>.</td></tr>
+<tr><td>in</td><td><code>EUPB</code></td><td><code>TPH</code></td><td>Useful in phrases like &quot;in the&quot; <code>TPH-T</code>.</td></tr>
+<tr><td>or</td><td><code>OR</code></td><td><code>AOUR</code> or <code>AUR</code></td><td><code>O*R</code> is already used.</td></tr>
+<tr><td>out</td><td><code>OUT</code></td><td><code>O*UT</code> or <code>AOUT</code></td><td>Either works.</td></tr>
+<tr><td>on</td><td><code>OPB</code></td><td><code>O*PB</code> or <code>AUPB</code></td><td>Either works.</td></tr>
+<tr><td>tri- (try)</td><td><code>TRAOEU</code></td><td><code>TRAO*EU</code> or <code>TREU</code></td><td>The first is the more &quot;formal&quot; outline, but the second matches the pattern with &quot;by&quot;.</td></tr>
+</tbody></table>
+</div>
+<h3 id="multistroke-prefixes"><a class="header" href="#multistroke-prefixes">Multistroke prefixes</a></h3>
+<p>There are also conflicts between words and prefixes that are more than one stroke long. In these cases, the rules are much more simple. Use the asterisk key on the last stroke of the outline to write the word variant, and no asterisk to write the prefix.</p>
+<div class="table-wrapper"><table><thead><tr><th>Prefix/word</th><th>Prefix Outline</th><th>Word Outline</th></tr></thead><tbody>
+<tr><td>auto</td><td><code>AU/TOE</code></td><td><code>AU/TO*E</code></td></tr>
+<tr><td>intro</td><td><code>EUPB/TROE</code></td><td><code>EUPB/TRO*E</code></td></tr>
+<tr><td>over</td><td><code>OE/SRER</code></td><td><code>OE/SR*ER</code></td></tr>
+<tr><td>under</td><td><code>UPB/TKER</code></td><td><code>UPB/TK*ER</code></td></tr>
+</tbody></table>
+</div>
+<p>Some of these can also be briefed. Feel free to use the look up and discover briefs.</p>
+<h5 id="three-way-conflict-between-by-bye-and-buy"><a class="header" href="#three-way-conflict-between-by-bye-and-buy">Three way conflict between &quot;by&quot;, &quot;bye&quot;, and &quot;buy&quot;:</a></h5>
+<div class="table-wrapper"><table><thead><tr><th>Word</th><th>Outline</th></tr></thead><tbody>
+<tr><td>by</td><td><code>PWEU</code></td></tr>
+<tr><td>bye</td><td><code>PW*EU</code></td></tr>
+<tr><td>buy</td><td><code>PWAO*EU</code></td></tr>
+</tbody></table>
+</div>
+<p>Again, feel free to change around these outlines.</p>
+<h3 id="next-chapter"><a class="header" href="#next-chapter">Next chapter</a></h3>
+<p>Don't worry too much about trying to memorize these briefs just yet. It's just important that you understand the motivation as to why some basic words aren't very intuitive. These briefs (along with others) are covered in the next chapter with practice material.</p>
+<h2 id="chapter-15-test"><a class="header" href="#chapter-15-test">Chapter 15 test</a></h2>
+<p>This chapter's test consists of all the practice drills you have done in this chapter. Make sure your settings are configured as such:</p>
+<p><img src="img/5-test-settings.png" alt="" /></p>
+<ul>
+<li>Limit word count: 45</li>
+<li>Start from word: 1</li>
+<li>Repetitions: 3</li>
+<li>Sort: random</li>
+<li>Show hint for every word: unchecked</li>
+<li>Hide hint on last repetition: unchecked</li>
+<li>Show hint on misstroke: checked</li>
+</ul>
+<p><a href="practice/15-test.txt">Click here to access the chapter 15 test</a></p>
+<h3 id="recommended-completion-goal"><a class="header" href="#recommended-completion-goal">Recommended completion goal</a></h3>
+<p>This is only a suggestion; it is not a requirement to move to the next chapter!</p>
+<p><strong>Aim for 10–40 WPM with 90% accuracy.</strong></p>
+<p><strong>You may use the test material as practice!</strong></p>
+
+                        </div>
+                        <div class="sidetoc">
+                            <nav class="pagetoc"></nav>
+                        </div>
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="Chapter-14.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="Chapter-16.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="Chapter-14.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="Chapter-16.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+        <script src="theme/pagetoc.js"></script>
+
+
+    </div>
+    </body>
+</html>

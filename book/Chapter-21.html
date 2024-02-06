@@ -1,0 +1,486 @@
+<!DOCTYPE HTML>
+<html lang="en" class="light" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Chapter 21: Theory principles wrap-up - Lapwing for Beginners</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="theme/pagetoc.css">
+
+    </head>
+    <body class="sidebar-visible no-js">
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('light')
+            html.classList.add(theme);
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var body = document.querySelector('body');
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="Chapter-01.html">Chapter 1: Introduction</a></li><li class="chapter-item expanded affix "><a href="Chapter-02.html">Chapter 2: Steno hardware and software</a></li><li class="chapter-item expanded affix "><a href="Chapter-03.html">Chapter 3: How to learn steno</a></li><li class="chapter-item expanded affix "><a href="Chapter-04.html">Chapter 4: The layout</a></li><li class="chapter-item expanded affix "><a href="Chapter-05.html">Chapter 5: Lapwing setup and basics</a></li><li class="chapter-item expanded affix "><a href="Chapter-06.html">Chapter 6: Left hand consonants continued</a></li><li class="chapter-item expanded affix "><a href="Chapter-07.html">Chapter 7: Vowels</a></li><li class="chapter-item expanded affix "><a href="Chapter-08.html">Chapter 8: Vowels continued</a></li><li class="chapter-item expanded affix "><a href="Chapter-09.html">Chapter 9: Right hand chords</a></li><li class="chapter-item expanded affix "><a href="Chapter-10.html">Chapter 10: Right hand chords continued</a></li><li class="chapter-item expanded affix "><a href="Chapter-11.html">Chapter 11: Right hand compound clusters</a></li><li class="chapter-item expanded affix "><a href="Chapter-12.html">Chapter 12: Wrapping up basic words</a></li><li class="chapter-item expanded affix "><a href="Chapter-13.html">Chapter 13: Prefixes and suffixes</a></li><li class="chapter-item expanded affix "><a href="Chapter-14.html">Chapter 14: Suffix keys and compound words</a></li><li class="chapter-item expanded affix "><a href="Chapter-15.html">Chapter 15: Syllabic splitting</a></li><li class="chapter-item expanded affix "><a href="Chapter-16.html">Chapter 16: Top 200 common English words</a></li><li class="chapter-item expanded affix "><a href="Chapter-17.html">Chapter 17: Fingerspelling and numbers</a></li><li class="chapter-item expanded affix "><a href="Chapter-18.html">Chapter 18: Proper nouns</a></li><li class="chapter-item expanded affix "><a href="Chapter-19.html">Chapter 19: Punctuation and commands</a></li><li class="chapter-item expanded affix "><a href="Chapter-20.html">Chapter 20: UK spellings</a></li><li class="chapter-item expanded affix "><a href="Chapter-21.html" class="active">Chapter 21: Theory principles wrap-up</a></li><li class="chapter-item expanded affix "><a href="Chapter-22.html">Chapter 22: End of basic theory</a></li><li class="chapter-item expanded affix "><a href="Chapter-23.html">Chapter 23: Phrase briefs</a></li><li class="chapter-item expanded affix "><a href="Chapter-24.html">Chapter 24: Lapwing briefing techniques</a></li><li class="chapter-item expanded affix "><a href="Chapter-25.html">Chapter 25: Symbols and modifiers</a></li><li class="chapter-item expanded affix "><a href="Chapter-26.html">Chapter 26: Editing text</a></li><li class="chapter-item expanded affix "><a href="Appendix-A.html">Appendix A: Switching to Lapwing from Plover</a></li><li class="chapter-item expanded affix "><a href="Appendix-B.html">Appendix B: Setting up Lapwing manually</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Lapwing for Beginners</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <div class="content-wrap">
+                            <h1 id="chapter-21-theory-principles-wrap-up"><a class="header" href="#chapter-21-theory-principles-wrap-up">Chapter 21: Theory principles wrap-up</a></h1>
+<h2 id="intro"><a class="header" href="#intro">Intro</a></h2>
+<p>This page serves as a reference for all the miscellaneous theory principles that only apply to a few words. It's not important to explicitly memorize the content on this page as you will likely encounter these situations in everyday writing.</p>
+<p>When you do find odd entries via the lookup tool, first consult this page. If you cannot find an explanation, free to contact me on Discord (@aerbg). It may be that I have not yet documented the oddity here or that the entry itself may be incorrect.</p>
+<h2 id="acronyms"><a class="header" href="#acronyms">Acronyms</a></h2>
+<p>For capitalized acronyms, Lapwing treats these as regular words for the most part. Write the first stroke with the asterisk and the number key, but continue the rest of the acronym with regular theory rules, although, it is generally okay to break steno order. Usually writing an acronym involves spelling the letters it is made up of. For short acronyms, it can also be faster to fingerspell.</p>
+<ul>
+<li>AWOL <code>#A*EU/WOL</code></li>
+<li>LAN <code>#HRA*PB</code></li>
+<li>PDF <code>#P*FD</code></li>
+</ul>
+<h2 id="contractions"><a class="header" href="#contractions">Contractions</a></h2>
+<p>Contractions are written with theory rules, but use the asterisk key.</p>
+<p>Here are some common contractions.</p>
+<div class="table-wrapper"><table><thead><tr><th>Contraction</th><th>Outline</th></tr></thead><tbody>
+<tr><td>he's</td><td><code>HAO*ES</code></td></tr>
+<tr><td>he'll</td><td><code>HAO*EL</code></td></tr>
+<tr><td>we're</td><td><code>WAO*ER</code></td></tr>
+<tr><td>who's</td><td><code>WHO*S</code></td></tr>
+</tbody></table>
+</div>
+<p>Some contractions that are based off of common words that are briefed in Lapwing are written a bit less intuitively:</p>
+<div class="table-wrapper"><table><thead><tr><th>Contraction</th><th>Outline</th></tr></thead><tbody>
+<tr><td>what's</td><td><code>WHA*S</code></td></tr>
+<tr><td>that's</td><td><code>THA*S</code></td></tr>
+</tbody></table>
+</div>
+<h2 id="-rb-for--rb-vs--sh"><a class="header" href="#-rb-for--rb-vs--sh"><code>-RB</code> for &quot;-rb&quot; vs &quot;-sh&quot;</a></h2>
+<p>Sometimes it can be ambiguous whether <code>-RB</code> represents &quot;-rb&quot; or &quot;-sh&quot; as in the following pair of words:</p>
+<ul>
+<li>cash</li>
+<li>carb</li>
+</ul>
+<p>In these cases, &quot;-sh&quot; gets precedence and the word with &quot;-rb&quot; is instead asterisked.</p>
+<h2 id="disambiguating-ou-with-ou"><a class="header" href="#disambiguating-ou-with-ou">Disambiguating &quot;ou&quot; with <code>OU</code></a></h2>
+<p>Plover's <code>main.json</code> uses <code>OU</code> for many words that are spelled with &quot;ou&quot; (especially when there is a conflict). For example, <code>KORS</code> would be the word &quot;cores&quot; and therefore &quot;course&quot; would have to be <code>KOURS</code>. Lapwing doesn't use this technique; it's preferred that you use <code>O</code> as much as possible and <code>OU</code> only when it's absolutely necessary.</p>
+<p>These are the following such cases to memorize or at least note:</p>
+<ol>
+<li><code>TPOR</code> is already used so &quot;four&quot; is <code>TPOUR</code> or <code>TPO*R</code>.</li>
+<li><code>KWROUR</code> exists for &quot;your&quot; as a brief.</li>
+<li>The word &quot;tour&quot; can only be written as <code>TAOUR</code> even if that is not how you pronounce it (myself included).</li>
+<li>Similarly, the word &quot;mourn&quot; can only be written as <code>PHAOURPB</code>.</li>
+<li>The word &quot;soul&quot; can be written <code>SO*EL</code> or <code>SOUL</code>.</li>
+</ol>
+<h2 id="w-for-glides"><a class="header" href="#w-for-glides"><code>W</code> for glides</a></h2>
+<p>For some words, using <code>W</code> for a glide might be closer phonetically:</p>
+<ul>
+<li><code>EBG/WEU/TEU</code> equity</li>
+<li><code>EBGS/TEUPBG/WEURB</code> extinguish</li>
+<li><code>EUPB/TAOU/WEU/TEUF</code> intuitive</li>
+<li><code>AOU/PWEUBG/WEU/TEU</code> ubiquity</li>
+</ul>
+<h2 id="-graph-words"><a class="header" href="#-graph-words">&quot;-graph&quot; words</a></h2>
+<h3 id="-graph"><a class="header" href="#-graph">&quot;-graph&quot;</a></h3>
+<p>Write the first part as if it is its own standalone word and then use <code>TKPWRAF</code> to write the &quot;-graph&quot; part separately:</p>
+<ul>
+<li><code>AU/TOE/TKPWRAF</code> autograph</li>
+<li><code>PAEUR/KWRA/TKPWRAF</code> paragraph</li>
+<li><code>PHEUPL/KWROE/TKPWRAF</code> mimeograph</li>
+<li><code>TE/HRE/TKPWRAF</code> telegraph</li>
+</ul>
+<h3 id="-graphy"><a class="header" href="#-graphy">&quot;-graphy&quot;</a></h3>
+<p>Write the &quot;-graph&quot; part separately and then use the <code>KWREU</code> suffix to add the &quot;-y&quot;:</p>
+<ul>
+<li><code>SKWRAOE/KWRO/TKPWRAF/KWREU</code> geography</li>
+<li><code>OR/THO/TKPWRAF/KWREU</code> orthography</li>
+<li><code>STE/TPHO/TKPWRAF/KWREU</code> stenography</li>
+<li><code>SREUD/KWRO/TKPWRAF/KWREU</code> videography</li>
+</ul>
+<h3 id="alternative--graphy-outline"><a class="header" href="#alternative--graphy-outline">Alternative &quot;-graphy&quot; outline</a></h3>
+<p>Instead of <code>TKPWRAF/KWREU</code>, you can also use <code>TKPWRAEF</code>:</p>
+<ul>
+<li><code>SKWRAOE/KWRO/TKPWRAEF</code> geography</li>
+<li><code>OR/THO/TKPWRAEF</code> orthography</li>
+<li><code>STE/TPHO/TKPWRAEF</code> stenography</li>
+<li><code>SREUD/KWRO/TKPWRAEF</code> videography</li>
+</ul>
+<p>This uses a briefing technique called &quot;E-folding&quot; where the <code>E</code> key represents another vowel and is &quot;tucked&quot; into a steno stroke. In this case, the <code>E</code> represents the &quot;long e&quot; sound. Often, this extra sound is phonetically at the end of the word. This is an example of when steno order can be violated in briefs.</p>
+<p>E-folding is covered further in <a href="Chapter-24.html#e-folding">chapter 24</a></p>
+<h3 id="-grapher"><a class="header" href="#-grapher">&quot;-grapher&quot;</a></h3>
+<p>Write the &quot;-graph&quot; part separately and then use the <code>*ER</code> suffix to add the &quot;-er&quot;:</p>
+<ul>
+<li><code>KAR/TO/TKPWRAF/*ER</code> cartographer</li>
+<li><code>KHOR/KWRO/TKPWRAF/*ER</code> choreographer</li>
+<li><code>HREBG/SEU/KO/TKPWRAF/*ER</code> lexicographer</li>
+<li><code>OEGS/KWRO/TKPWRAF/*ER</code> oceanographer</li>
+</ul>
+<h3 id="alternative--grapher-outline"><a class="header" href="#alternative--grapher-outline">Alternative &quot;-grapher&quot; outline</a></h3>
+<p>Instead of <code>TKPWRAF/*ER</code>, you can also use <code>TKPWRAFR</code>:</p>
+<ul>
+<li><code>KAR/TO/TKPWRAFR</code> cartographer</li>
+<li><code>KHOR/KWRO/TKPWRAFR</code> choreographer</li>
+<li><code>HREBG/SEU/KO/TKPWRAFR</code> lexicographer</li>
+<li><code>OEGS/KWRO/TKPWRAFR</code> oceanographer</li>
+</ul>
+<p>This uses a briefing technique where <code>-FR</code> can represent the &quot;fer&quot; sound.</p>
+<h3 id="-graphic"><a class="header" href="#-graphic">&quot;-graphic&quot;</a></h3>
+<p>Write the &quot;-graph&quot; part separately and then use the <code>KWREUBG</code> suffix to add the &quot;-ic&quot;:</p>
+<ul>
+<li><code>*ET/TPHOE/TKPWRAF/KWREUBG</code> ethnographic</li>
+<li><code>HO/HRO/TKPWRA*F/KWREUBG</code> holographic</li>
+<li><code>EUPB/TPOE/TKPWRAF/KWREUBG</code> infographic</li>
+<li><code>PEUBG/TO/TKPWRAF/KWREUBG</code> pictographic</li>
+</ul>
+<h3 id="alternative--graphic-outline"><a class="header" href="#alternative--graphic-outline">Alternative &quot;-graphic&quot; outline</a></h3>
+<p>Instead of <code>TKPWRAF/KWREUBG</code>, you can also use <code>TKPWRAFBG</code>:</p>
+<ul>
+<li><code>*ET/TPHOE/TKPWRAFBG</code> ethnographic</li>
+<li><code>HO/HRO/TKPWRAFBG</code> holographic</li>
+<li><code>EUPB/TPOE/TKPWRAFBG</code> infographic</li>
+<li><code>PEUBG/TO/TKPWRAFBG</code> pictographic</li>
+</ul>
+<p>This uses a briefing technique where you drop unstressed vowels such as the &quot;i&quot; in graph<strong>i</strong>c.</p>
+<h2 id="-ology-words"><a class="header" href="#-ology-words">&quot;-ology&quot; words</a></h2>
+<p>These are written using regular syllabic splitting:</p>
+<ul>
+<li><code>ARBG/KWRO/HRO/SKWREU</code> archaeology</li>
+<li><code>A/STRO/HRO/SKWREU</code> astrology</li>
+<li><code>AOE/KO/HRO/SKWREU</code> ecology</li>
+<li><code>OR/TPHEU/THO/HRO/SKWREU</code> ornithology</li>
+</ul>
+<h3 id="alternative--ology-chord"><a class="header" href="#alternative--ology-chord">Alternative &quot;-ology&quot; chord</a></h3>
+<p>Instead of writing the <code>O/HRO/SKWREU</code> cluster, you can instead use the <code>OLG</code> chord.</p>
+<ul>
+<li><code>ARBG/KWROLG</code> archaeology</li>
+<li><code>A/STROLG</code> astrology</li>
+<li><code>AOE/KOLG</code> ecology</li>
+<li><code>OR/TPHEU/THOLG</code> ornithology</li>
+</ul>
+<p>This is simply just a briefing pattern. These outlines are much shorter than the write-outs and are highly recommended.</p>
+<h2 id="ambiguous-glide-vowels"><a class="header" href="#ambiguous-glide-vowels">Ambiguous glide vowels</a></h2>
+<p>In some words containing glides represented with <code>KWR</code> or <code>W</code>, the proceeding vowel sound is spelled with two letters. The sound itself is an unstressed schwa (a &quot;short vowel&quot;), and so the <strong>second</strong> vowel letter is what determines which key to use.</p>
+<p>Here are some examples to illustrate:</p>
+<ul>
+<li><code>KAF/KWRAT</code> cave<strong>a</strong>t</li>
+<li><code>KORPB/KWRAL</code> corne<strong>a</strong>l</li>
+<li><code>HRAOEPB/KWREPBS</code> leni<strong>e</strong>nce</li>
+<li><code>PHA/TREU/HREUPB/KWRAL</code> matriline<strong>a</strong>l</li>
+</ul>
+<p>Another way of thinking about this is that the <code>KWR</code> or the <code>W</code> glide represents the first vowel letter and the second vowel letter is represented by the vowel key in the steno stroke.</p>
+<h2 id="-ual-words"><a class="header" href="#-ual-words">&quot;-ual&quot; words</a></h2>
+<p>If you were to split these words using regular syllabic splitting, it would be difficult to accurately reflect the glide in the &quot;-ual&quot; sound. For example, if you were write the word &quot;manual&quot; in a way that the second stroke begins with a consonant, you would be left with <code>PHA/TPHAOU</code>. You could add a last stroke <code>WAL</code> to complete the word, but three strokes for such a short word is not very fast indeed. Instead, we can use <code>WAL</code> to represent the entire &quot;-ual&quot; cluster. This allows us to include the &quot;n&quot; consonant in the first stroke: <code>PHAPB/WAL</code>.</p>
+<h3 id="wal"><a class="header" href="#wal"><code>WAL</code></a></h3>
+<p>You can also think of the <code>WAL</code> stroke orthographically: the <code>W</code> key represents the &quot;u&quot;, and the <code>AL</code> represents the &quot;al&quot;.</p>
+<ul>
+<li><code>AOEBG/WAL</code> equal</li>
+<li><code>HA/PWEUFP/WAL</code> habitual</li>
+<li><code>PER/PEFP/WAL</code> perpetual</li>
+<li><code>AOURB/WAL</code> usual</li>
+</ul>
+<p>It can also be used like a suffix:</p>
+<ul>
+<li><code>KOPB/TRABGT/WAL</code> contractual</li>
+<li><code>KOPB/TEGT/WAL</code> contextual</li>
+<li><code>HA/PWEUT/WAL</code> habitual</li>
+<li><code>SEBGS/WAL</code> sexual</li>
+</ul>
+<h3 id="twal"><a class="header" href="#twal"><code>TWAL</code></a></h3>
+<p>You can also use <code>TWAL</code> as the &quot;chwal&quot; cluster like in the following words:</p>
+<ul>
+<li><code>TPABG/TWAL</code> factual</li>
+<li><code>HA/PWEU/TWAL</code> habitual</li>
+<li><code>EUPB/TE/HREBG/TWAL</code> intellectual</li>
+<li><code>SREUR/TWAL</code> virtual</li>
+</ul>
+<p>I prefer using <code>TWAL</code> over <code>WAL</code> (when possible) as it more closely resembles the pronunciation it is supposed to represent.</p>
+<h3 id="kwraoul"><a class="header" href="#kwraoul"><code>KWRAOUL</code></a></h3>
+<p>You are also free to come up with your own strokes for dealing with these words. In hindsight, <code>KWRAOUL</code> would be a better fit to some of these words, however, as I am already accustomed to <code>WAL</code>, I am not about to change these around. Furthermore, if <code>PHA/TPHAOU/WAL</code> or <code>PHA/TPHAOUL</code> do, in fact, make more sense to you, you should absolutely make changes to your dictionary.</p>
+<h2 id="improperly-used-suffix-strokes"><a class="header" href="#improperly-used-suffix-strokes">&quot;Improperly&quot; used suffix strokes</a></h2>
+<p>Sometimes, you may want to use a stroke that resembles a suffix stroke but isn't actually defined in the way that you intend to use it. For example, the word &quot;hyphenate&quot; is clearly related to &quot;hyphen&quot; and, therefore, it might make more sense to use a suffix rather than <code>HAOEU/TP*E/TPHAEUT</code>. While <code>KWRAEUT</code> is defined as <code>{^iate}</code>, it is acceptable to use this suffix stroke in this situation: <code>HAOEU/TP*EPB/KWRAEUT</code>.</p>
+<h2 id="doubling-consonants-with-prefixes"><a class="header" href="#doubling-consonants-with-prefixes">Doubling consonants with prefixes</a></h2>
+<p>With prefix strokes, you are allowed to double consonants between two strokes if it makes sense to do so. This is entirely up to your discretion. Here are some examples you can find in the default Lapwing dictionary:</p>
+<ul>
+<li><code>EUPL/PHOE/PWAOEUL</code> immobile
+<ul>
+<li><code>EUPL</code> is the &quot;im-&quot; prefix</li>
+</ul>
+</li>
+<li>need more examples</li>
+</ul>
+<p>There can also be alternative strokes that exist in the dictionary (for example, <code>EUPL/KWROE/PWAOEUL</code>). Use whichever makes the most sense to you, or add your own!</p>
+<h2 id="splitting-a-sound-at-ng"><a class="header" href="#splitting-a-sound-at-ng">Splitting a sound at &quot;ng&quot;</a></h2>
+<p>If you have to split a word into multiple syllables at &quot;ng&quot;, use <code>...PBG/TKPW...</code></p>
+<p>If you feel uncomfortable that this is doubling a consonant between two strokes, feel free to use any of the alternatives:</p>
+<ol>
+<li><code>...PB/TKPW...</code></li>
+<li><code>...PBG/KWR...</code></li>
+</ol>
+<h3 id="examples"><a class="header" href="#examples">Examples</a></h3>
+<ul>
+<li>bingo <code>PWEUPBG/TKPWOE</code> or <code>PWEUPB/TKPWOE</code> or <code>PWEUPBG/KWROE</code></li>
+<li>tango <code>TAPBG/TKPWOE</code> or <code>TAPB/TKPWOE</code> or <code>TAPBG/KWROE</code></li>
+</ul>
+<h2 id="prefix-outline-conflicts"><a class="header" href="#prefix-outline-conflicts">Prefix outline conflicts</a></h2>
+<h3 id="single-stroke-briefed-prefixes"><a class="header" href="#single-stroke-briefed-prefixes">Single stroke briefed prefixes</a></h3>
+<p>Here are once again the tables from chapter 12 and 15:</p>
+<div class="table-wrapper"><table><thead><tr><th>Prefix/word</th><th>Prefix Outline</th><th>Recommended word outline(s)</th><th>Explanation</th></tr></thead><tbody>
+<tr><td>a</td><td><code>A</code></td><td><code>AEU</code></td><td><code>A*</code> is already used.</td></tr>
+<tr><td>bi^ (by)</td><td><code>PWAOEU</code></td><td><code>PWEU</code></td><td>There is a three way conflict between &quot;by&quot;, &quot;bye&quot;, and &quot;buy&quot;.</td></tr>
+<tr><td>be</td><td><code>PWE</code></td><td><code>-B</code></td><td>Useful in phrase briefs.</td></tr>
+<tr><td>for</td><td><code>TPOR</code></td><td><code>TP-R</code> or <code>TPAURT</code></td><td>Useful in phrases like &quot;for the&quot; <code>TP-RT</code>.</td></tr>
+<tr><td>in</td><td><code>EUPB</code></td><td><code>TPH</code></td><td>Useful in phrases like &quot;in the&quot; <code>TPH-T</code>.</td></tr>
+<tr><td>or</td><td><code>OR</code></td><td><code>AOUR</code> or <code>AUR</code></td><td><code>O*R</code> is already used (see below).</td></tr>
+<tr><td>out</td><td><code>OUT</code></td><td><code>O*UT</code> or <code>AOUT</code></td><td>Either works (see below).</td></tr>
+<tr><td>on</td><td><code>OPB</code></td><td><code>O*PB</code> or <code>AUPB</code></td><td>Either works (see below).</td></tr>
+<tr><td>tri^ (try)</td><td><code>TRAOEU</code></td><td><code>TRAO*EU</code> or <code>TREU</code></td><td>The first is the more &quot;formal&quot; outline, but the second matches the pattern with &quot;by&quot;.</td></tr>
+</tbody></table>
+</div>
+<h4 id="three-way-conflict-between-by-bye-and-buy"><a class="header" href="#three-way-conflict-between-by-bye-and-buy">Three way conflict between &quot;by&quot;, &quot;bye&quot;, and &quot;buy&quot;:</a></h4>
+<div class="table-wrapper"><table><thead><tr><th>Word</th><th>Outline</th></tr></thead><tbody>
+<tr><td>by</td><td><code>PWEU</code></td></tr>
+<tr><td>bye</td><td><code>PW*EU</code></td></tr>
+<tr><td>buy</td><td><code>PWAO*EU</code></td></tr>
+</tbody></table>
+</div>
+<p>Again, feel free to change around these outlines.</p>
+<h3 id="generic-way-of-dealing-with-multisyllable-prefix-outlines"><a class="header" href="#generic-way-of-dealing-with-multisyllable-prefix-outlines">Generic way of dealing with multisyllable prefix outlines</a></h3>
+<p>Press the asterisk in the last stroke of a multisyllable outline to get the word variant.</p>
+<div class="table-wrapper"><table><thead><tr><th>Prefix/word</th><th>Prefix Outline</th><th>Word Outline</th></tr></thead><tbody>
+<tr><td>auto</td><td><code>AU/TOE</code></td><td><code>AU/TO*E</code></td></tr>
+<tr><td>intro</td><td><code>EUPB/TROE</code></td><td><code>EUPB/TRO*E</code></td></tr>
+<tr><td>over</td><td><code>OE/SRER</code></td><td><code>OE/SR*ER</code></td></tr>
+<tr><td>under</td><td><code>UPB/TKER</code></td><td><code>UPB/TK*ER</code></td></tr>
+</tbody></table>
+</div>
+<p>Some of these can also be briefed. Feel free to use the look up and discover briefs.</p>
+<h3 id="special-conflicts"><a class="header" href="#special-conflicts">Special conflicts</a></h3>
+<p>Another technique for disambiguating between prefixes and words is using alternative vowels. One common case is using <code>AU</code> instead of <code>OE</code> and <code>O</code>. This is sometimes recommended over using the asterisk key as it is much easier to press:</p>
+<div class="table-wrapper"><table><thead><tr><th>Prefix/word</th><th>Prefix Outline</th><th>Word outline</th></tr></thead><tbody>
+<tr><td>on</td><td><code>OPB</code></td><td><code>AUPB</code></td></tr>
+<tr><td>or</td><td><code>OR</code></td><td><code>AUR</code></td></tr>
+<tr><td>over</td><td><code>OEFR</code></td><td><code>AUFR</code></td></tr>
+<tr><td>off</td><td><code>OF</code></td><td><code>AUF</code></td></tr>
+</tbody></table>
+</div>
+<h3 id="prefix-strokes-vs-compound-words"><a class="header" href="#prefix-strokes-vs-compound-words">Prefix strokes vs compound words</a></h3>
+<p>Sometimes it can be arbitrary to determine whether you should write a word as a compound word rather than a word with a prefix. For example, the Lapwing dictionary by default treats words like &quot;upright&quot; and &quot;downwards&quot; as compound words as you can only write these as <code>UP/RAO*EUT</code> and <code>TKOUPB/WA*RD/-Z</code>. In these cases, it is perfectly reasonable to edit your dictionary and add prefix strokes that make sense to you.</p>
+<h2 id="problematic-words"><a class="header" href="#problematic-words">Problematic words</a></h2>
+<p>This table contains words that don't quite follow main theory principles.</p>
+<div class="table-wrapper"><table><thead><tr><th>Word</th><th>Recommended outline</th><th>Explanation</th></tr></thead><tbody>
+<tr><td>cache</td><td><code>KAERB</code></td><td><code>KARB</code> and <code>KA*RB</code> are both already used as &quot;cash&quot; and &quot;carb&quot; so the <code>E</code> key is used to disambiguate.</td></tr>
+<tr><td>fore</td><td><code>TPOER</code></td><td><code>TPOR</code> and <code>TPO*R</code> are already used so we use the <code>E</code> as a disambiguation key.</td></tr>
+<tr><td>herein</td><td><code>HAOER/KWREUPB</code> or <code>HAOERPB</code></td><td>It's not recommended to treat this as a compound word as it would use a fingerspelling stroke: <code>HAOER/TPH*</code>.</td></tr>
+<tr><td>hi</td><td><code>HEU</code></td><td><code>HAOEU</code> is the word &quot;high&quot; already.</td></tr>
+<tr><td>hour</td><td><code>HOUR</code></td><td><code>OUR</code> is already used so the <code>H</code> key is added even though it is silent.</td></tr>
+<tr><td>lunch</td><td><code>HRUFRPBLG</code></td><td><code>HRUFRPB</code> is already used so <code>-LG</code> is used as a disambiguation chord. This is recommended over <code>HR*UFRPB</code> as it is slightly easier to press.</td></tr>
+<tr><td>nought</td><td><code>TPHA*UT</code></td><td><code>TPHAUT</code>, <code>TPHOT</code>, and <code>TPHO*T</code> are already used.</td></tr>
+<tr><td>poll/pole</td><td><code>POL</code>/<code>POEL</code></td><td>No real reason. Feel free to change things around and/or use the asterisk key for disambiguation.</td></tr>
+<tr><td>scene</td><td><code>SKAOEPB</code></td><td><code>SAOEPB</code> is already the word &quot;seen&quot; so &quot;scene&quot; is written with the <code>K</code> to disambiguate.</td></tr>
+<tr><td>wolf</td><td><code>WOEFL</code> or <code>WOFL</code></td><td>While you could write this as <code>WOEL/*F</code> or <code>WOL/*F</code>, it's just much faster to learn one of these briefs.</td></tr>
+<tr><td>werewolf</td><td>lots of outlines</td><td>You can use <code>WAEUR</code> or <code>WER</code> for the first stroke. However, if you use <code>WER</code>, you will have to to asterisk the second word since there is a potential conflict between the phrase &quot;were wolves&quot; and the word &quot;werewolves&quot;.</td></tr>
+</tbody></table>
+</div>
+                        </div>
+                        <div class="sidetoc">
+                            <nav class="pagetoc"></nav>
+                        </div>
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="Chapter-20.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="Chapter-22.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="Chapter-20.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="Chapter-22.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+        <script src="theme/pagetoc.js"></script>
+
+
+    </div>
+    </body>
+</html>

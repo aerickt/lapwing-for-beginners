@@ -1,0 +1,321 @@
+<!DOCTYPE HTML>
+<html lang="en" class="light" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Chapter 14: Suffix keys and compound words - Lapwing for Beginners</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="theme/pagetoc.css">
+
+    </head>
+    <body class="sidebar-visible no-js">
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('light')
+            html.classList.add(theme);
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var body = document.querySelector('body');
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="Chapter-01.html">Chapter 1: Introduction</a></li><li class="chapter-item expanded affix "><a href="Chapter-02.html">Chapter 2: Steno hardware and software</a></li><li class="chapter-item expanded affix "><a href="Chapter-03.html">Chapter 3: How to learn steno</a></li><li class="chapter-item expanded affix "><a href="Chapter-04.html">Chapter 4: The layout</a></li><li class="chapter-item expanded affix "><a href="Chapter-05.html">Chapter 5: Lapwing setup and basics</a></li><li class="chapter-item expanded affix "><a href="Chapter-06.html">Chapter 6: Left hand consonants continued</a></li><li class="chapter-item expanded affix "><a href="Chapter-07.html">Chapter 7: Vowels</a></li><li class="chapter-item expanded affix "><a href="Chapter-08.html">Chapter 8: Vowels continued</a></li><li class="chapter-item expanded affix "><a href="Chapter-09.html">Chapter 9: Right hand chords</a></li><li class="chapter-item expanded affix "><a href="Chapter-10.html">Chapter 10: Right hand chords continued</a></li><li class="chapter-item expanded affix "><a href="Chapter-11.html">Chapter 11: Right hand compound clusters</a></li><li class="chapter-item expanded affix "><a href="Chapter-12.html">Chapter 12: Wrapping up basic words</a></li><li class="chapter-item expanded affix "><a href="Chapter-13.html">Chapter 13: Prefixes and suffixes</a></li><li class="chapter-item expanded affix "><a href="Chapter-14.html" class="active">Chapter 14: Suffix keys and compound words</a></li><li class="chapter-item expanded affix "><a href="Chapter-15.html">Chapter 15: Syllabic splitting</a></li><li class="chapter-item expanded affix "><a href="Chapter-16.html">Chapter 16: Top 200 common English words</a></li><li class="chapter-item expanded affix "><a href="Chapter-17.html">Chapter 17: Fingerspelling and numbers</a></li><li class="chapter-item expanded affix "><a href="Chapter-18.html">Chapter 18: Proper nouns</a></li><li class="chapter-item expanded affix "><a href="Chapter-19.html">Chapter 19: Punctuation and commands</a></li><li class="chapter-item expanded affix "><a href="Chapter-20.html">Chapter 20: UK spellings</a></li><li class="chapter-item expanded affix "><a href="Chapter-21.html">Chapter 21: Theory principles wrap-up</a></li><li class="chapter-item expanded affix "><a href="Chapter-22.html">Chapter 22: End of basic theory</a></li><li class="chapter-item expanded affix "><a href="Chapter-23.html">Chapter 23: Phrase briefs</a></li><li class="chapter-item expanded affix "><a href="Chapter-24.html">Chapter 24: Lapwing briefing techniques</a></li><li class="chapter-item expanded affix "><a href="Chapter-25.html">Chapter 25: Symbols and modifiers</a></li><li class="chapter-item expanded affix "><a href="Chapter-26.html">Chapter 26: Editing text</a></li><li class="chapter-item expanded affix "><a href="Appendix-A.html">Appendix A: Switching to Lapwing from Plover</a></li><li class="chapter-item expanded affix "><a href="Appendix-B.html">Appendix B: Setting up Lapwing manually</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Lapwing for Beginners</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <div class="content-wrap">
+                            <h1 id="chapter-14-suffix-keys-and-compound-words"><a class="header" href="#chapter-14-suffix-keys-and-compound-words">Chapter 14: Suffix keys and compound words</a></h1>
+<h2 id="recommended-pace"><a class="header" href="#recommended-pace">Recommended pace</a></h2>
+<p><strong>Recommended time to spend on this chapter: &lt;1 day.</strong></p>
+<ol>
+<li>Read <a href="#suffix-keys">suffix keys</a> and complete the drill (<strong>20 minutes</strong>)
+<ul>
+<li>Repeat the drill as needed</li>
+</ul>
+</li>
+<li>Read <a href="#the-a-prefix-key">The <code>A</code> &quot;prefix&quot; key</a> (<strong>10 minutes</strong>)</li>
+<li>Read <a href="#compound-words">Compound words</a> and complete the drill (<strong>20 minutes</strong>)
+<ul>
+<li>Repeat the drill as needed</li>
+</ul>
+</li>
+</ol>
+<p>Remember to take breaks!</p>
+<h2 id="useful-links"><a class="header" href="#useful-links">Useful links</a></h2>
+<ul>
+<li><a href="practice/14-compound-words.txt">Compound words drill</a></li>
+<li><a href="practice/14-suffix-keys.txt">Words with suffix keys drill</a></li>
+</ul>
+<h2 id="suffix-keys"><a class="header" href="#suffix-keys">Suffix keys</a></h2>
+<p>One special type of suffix stroke is the suffix key; these are suffix strokes that contain only one key. There are four on the right hand side which are useful for changing the tense of a verb or for pluralizing nouns.</p>
+<div class="table-wrapper"><table><thead><tr><th>Stroke</th><th>Suffix</th><th>Example outline</th><th>Example translation</th></tr></thead><tbody>
+<tr><td><code>-G</code></td><td>^ing</td><td><code>PAT/-G</code></td><td>patting</td></tr>
+<tr><td><code>-S</code></td><td>^s</td><td><code>KAT/-S</code></td><td>cats</td></tr>
+<tr><td><code>-D</code></td><td>^ed</td><td><code>TKPWHRAOU/-D</code></td><td>glued</td></tr>
+<tr><td><code>-Z</code></td><td>^s</td><td><code>SAOEUD/-Z</code></td><td>sides</td></tr>
+</tbody></table>
+</div>
+<blockquote>
+<p><strong>NOTE:</strong> while <code>-S</code> and <code>-Z</code> have the same definition, you are expected to use <code>-Z</code> exclusively.</p>
+</blockquote>
+<p><img src="img/14-gsdz.png" alt="" /></p>
+<h4 id="examples-of-correct-usage"><a class="header" href="#examples-of-correct-usage">Examples of correct usage</a></h4>
+<ul>
+<li>aching <code>AEUBG/-G</code></li>
+<li>wedging <code>WEPBLG/-G</code></li>
+<li>typed <code>TAOEUP/-D</code></li>
+<li>served <code>SEFRB/-D</code></li>
+<li>faces <code>TPAEUS/-Z</code></li>
+<li>knives <code>TPHAOEUF/-Z</code></li>
+</ul>
+<h3 id="folding"><a class="header" href="#folding">Folding</a></h3>
+<p><strong>Folding</strong> is an advanced technique of using these suffix keys. It refers to including the suffix key in the previous stroke. This is only possible on some words—for example, it would not be possible to fold <code>-G</code> into the word &quot;ache&quot; as it already contains the <code>-G</code> key.</p>
+<p>Of the examples listed above, you would fold the suffix keys into the previous stroke like so:</p>
+<ul>
+<li>typed <code>TAOEUPD</code></li>
+<li>served <code>SEFRBD</code></li>
+<li>faces <code>TPAEUSZ</code></li>
+<li>knives <code>TPHAOEUFZ</code></li>
+</ul>
+<p>In some plural words where it would be impossible to fold <code>-Z</code>, we use <code>-S</code>. For example, the word &quot;crate&quot; is written as <code>KRAEUT</code>. Folding <code>-Z</code> into this stroke results in <code>KRAEUTZ</code>.</p>
+<p><img src="img/14-kraeutz.png" alt="" /></p>
+<p>While some theories permit such a stroke by pressing the <code>-T</code> with your ring finger and the <code>-Z</code> with your pinkie finger, this is not a technique used in Lapwing theory. Therefore, we instead use the <code>-S</code> key: <code>KRAEUTS</code>.</p>
+<h4 id="plovers-steno-engine-and-folded-suffix-keys"><a class="header" href="#plovers-steno-engine-and-folded-suffix-keys">Plover's steno engine and folded suffix keys</a></h4>
+<p>This technique of including a suffix key in the last stroke is &quot;baked&quot; into the English steno engine in Plover. If you try to write the stroke <code>HAEPZ</code>, you will find that it outputs &quot;happies&quot;. However, this isn't actually defined in the Lapwing dictionary:</p>
+<p><img src="img/14-haepz.png" alt="" /></p>
+<p>What's happening is that Plover recognizes that the outline <code>HAEP</code> is defined as &quot;happy&quot; (this is a Lapwing/Plover brief) and so tries to fold the <code>-Z</code> suffix key into the translation. Because of the orthography rules built into the English steno engine, Plover removes the ending &quot;y&quot; and adds &quot;ies&quot; to the translation.</p>
+<p>This happens with all of the suffix keys—try out <code>HAEPD</code>, <code>HAEPS</code>, and <code>HAEPG</code>.</p>
+<h4 id="should-you-use-folding"><a class="header" href="#should-you-use-folding">Should you use folding?</a></h4>
+<p>Using the Plover lookup tool, you can find a lot of entries with folded suffix keys. In fact, you won't find many entries where the suffix keys aren't folded into the previous stroke. Despite this, <strong>it is recommended that you do not fold suffix keys</strong>.</p>
+<p>Folding only saves a minuscule amount of time as opposed to pressing the suffix key in a separate stroke. As this technique often requires more finger contortion, it may not even be faster in the end. Furthermore, folding can also lead to extra conflicts that are tricky to resolve.</p>
+<h3 id="section-practice"><a class="header" href="#section-practice">Section practice</a></h3>
+<p><a href="practice/14-suffix-keys.txt">Words with suffix keys drill</a></p>
+<h2 id="the-a-prefix-key"><a class="header" href="#the-a-prefix-key">The <code>A</code> &quot;prefix&quot; key</a></h2>
+<p>While not nearly treated as specially as the suffix keys, the <code>A</code> key on its own is a prefix stroke. Contrary to other prefixes that should be used to modify a root word, this stroke can be used entirely on its own without any regard to the semantic meanings of the strokes.</p>
+<h3 id="examples"><a class="header" href="#examples">Examples</a></h3>
+<ul>
+<li>about <code>A/PWOUT</code></li>
+<li>accretion <code>A/KRAOEGS</code></li>
+<li>allow <code>A/HROU</code></li>
+<li>amend <code>A/PHEPBD</code></li>
+</ul>
+<h2 id="compound-words"><a class="header" href="#compound-words">Compound words</a></h2>
+<p>Compound words (more specifically, closed compound words) consist of two words joined together with nothing in between. To write these, asterisk the first stroke of the second word. If there is already an asterisk in this stroke, leave it as is.</p>
+<h3 id="examples-1"><a class="header" href="#examples-1">Examples</a></h3>
+<ul>
+<li>candlelight <code>KAPBD/-L/HRAO*EUT</code></li>
+<li>grasshopper <code>TKPWRAS/HO*P/*ER</code></li>
+<li>eyelash <code>AOEU/HRA*RB</code></li>
+<li>teamwork <code>TAEPL/WO*RBG</code></li>
+</ul>
+<h3 id="section-practice-1"><a class="header" href="#section-practice-1">Section practice</a></h3>
+<p><a href="practice/14-compound-words.txt">Compound words drill</a></p>
+<h2 id="no-test-this-chapter"><a class="header" href="#no-test-this-chapter">No test this chapter!</a></h2>
+
+                        </div>
+                        <div class="sidetoc">
+                            <nav class="pagetoc"></nav>
+                        </div>
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="Chapter-13.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="Chapter-15.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="Chapter-13.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="Chapter-15.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+        <script src="theme/pagetoc.js"></script>
+
+
+    </div>
+    </body>
+</html>

@@ -1,0 +1,300 @@
+<!DOCTYPE HTML>
+<html lang="en" class="light" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Chapter 22: End of basic theory - Lapwing for Beginners</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="theme/pagetoc.css">
+
+    </head>
+    <body class="sidebar-visible no-js">
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('light')
+            html.classList.add(theme);
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var body = document.querySelector('body');
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="Chapter-01.html">Chapter 1: Introduction</a></li><li class="chapter-item expanded affix "><a href="Chapter-02.html">Chapter 2: Steno hardware and software</a></li><li class="chapter-item expanded affix "><a href="Chapter-03.html">Chapter 3: How to learn steno</a></li><li class="chapter-item expanded affix "><a href="Chapter-04.html">Chapter 4: The layout</a></li><li class="chapter-item expanded affix "><a href="Chapter-05.html">Chapter 5: Lapwing setup and basics</a></li><li class="chapter-item expanded affix "><a href="Chapter-06.html">Chapter 6: Left hand consonants continued</a></li><li class="chapter-item expanded affix "><a href="Chapter-07.html">Chapter 7: Vowels</a></li><li class="chapter-item expanded affix "><a href="Chapter-08.html">Chapter 8: Vowels continued</a></li><li class="chapter-item expanded affix "><a href="Chapter-09.html">Chapter 9: Right hand chords</a></li><li class="chapter-item expanded affix "><a href="Chapter-10.html">Chapter 10: Right hand chords continued</a></li><li class="chapter-item expanded affix "><a href="Chapter-11.html">Chapter 11: Right hand compound clusters</a></li><li class="chapter-item expanded affix "><a href="Chapter-12.html">Chapter 12: Wrapping up basic words</a></li><li class="chapter-item expanded affix "><a href="Chapter-13.html">Chapter 13: Prefixes and suffixes</a></li><li class="chapter-item expanded affix "><a href="Chapter-14.html">Chapter 14: Suffix keys and compound words</a></li><li class="chapter-item expanded affix "><a href="Chapter-15.html">Chapter 15: Syllabic splitting</a></li><li class="chapter-item expanded affix "><a href="Chapter-16.html">Chapter 16: Top 200 common English words</a></li><li class="chapter-item expanded affix "><a href="Chapter-17.html">Chapter 17: Fingerspelling and numbers</a></li><li class="chapter-item expanded affix "><a href="Chapter-18.html">Chapter 18: Proper nouns</a></li><li class="chapter-item expanded affix "><a href="Chapter-19.html">Chapter 19: Punctuation and commands</a></li><li class="chapter-item expanded affix "><a href="Chapter-20.html">Chapter 20: UK spellings</a></li><li class="chapter-item expanded affix "><a href="Chapter-21.html">Chapter 21: Theory principles wrap-up</a></li><li class="chapter-item expanded affix "><a href="Chapter-22.html" class="active">Chapter 22: End of basic theory</a></li><li class="chapter-item expanded affix "><a href="Chapter-23.html">Chapter 23: Phrase briefs</a></li><li class="chapter-item expanded affix "><a href="Chapter-24.html">Chapter 24: Lapwing briefing techniques</a></li><li class="chapter-item expanded affix "><a href="Chapter-25.html">Chapter 25: Symbols and modifiers</a></li><li class="chapter-item expanded affix "><a href="Chapter-26.html">Chapter 26: Editing text</a></li><li class="chapter-item expanded affix "><a href="Appendix-A.html">Appendix A: Switching to Lapwing from Plover</a></li><li class="chapter-item expanded affix "><a href="Appendix-B.html">Appendix B: Setting up Lapwing manually</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Lapwing for Beginners</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <div class="content-wrap">
+                            <h1 id="chapter-22-end-of-basic-theory"><a class="header" href="#chapter-22-end-of-basic-theory">Chapter 22: End of basic theory</a></h1>
+<h2 id="end-of-basic-theory"><a class="header" href="#end-of-basic-theory">End of basic theory!</a></h2>
+<p>Congratulations on making it this far! If your goal was to be able to write English text with steno, you've certainly achieved it!</p>
+<p>From here on out, there are only about two or three more things you should be thinking about in your steno journey.</p>
+<ol>
+<li>Being comfortable with your own dictionary</li>
+<li>Writing shorter and building finger speed</li>
+<li>Switching to steno full time (optional)</li>
+</ol>
+<p>This page will give a quick summary of how to achieve these 3 goals. Later chapters will discuss these in more detail, and are recommended that you read them. However, these chapters will be more like reference pages for you to read and check every so often.</p>
+<h2 id="being-comfortable-with-your-own-dictionary"><a class="header" href="#being-comfortable-with-your-own-dictionary">Being comfortable with your own dictionary</a></h2>
+<h3 id="looking-up-words"><a class="header" href="#looking-up-words">Looking up words</a></h3>
+<p>English is a complicated language and it would be very difficult to create a theory that covers every single edge case. Furthermore, ensuring that a dictionary is complete and contains <em>every</em> single word is also practically impossible.</p>
+<p>As such, you may come across words that are just impossible to write using the default Lapwing dictionary. This may be because it does not exist in the dictionary, or the theory is lacking rules that dictate how it should be written.</p>
+<p>This is where Plover's lookup tool comes in handy. If you are struggling to write a tricky word, don't be afraid to just look it up. If several outlines show up in the lookup tool, I would first recommend trying the write-out entry which is the <strong>longest outline available</strong>. You can also identify the write-out entry as the one that follows theory rules. I will discuss later why you might want to look at any of the shorter outlines later.</p>
+<h3 id="adding-new-words"><a class="header" href="#adding-new-words">Adding new words</a></h3>
+<p>If you've used the lookup tool and found that none of the outlines make sense, first try looking at any relevant pages and see if you've missed any theory. If you are on Discord, feel free to ask in the <code>#lapwing-theory</code> channel.</p>
+<p>However, it is possible that these outlines aren't covered under basic Lapwing theory—you've encountered a theory gap! At this point, you can decide to learn one of these outlines, or add your own.</p>
+<p>To add your own entry, stroke <code>TKUPT</code> to bring up the add translation tool. In the strokes field, start writing the outline you want to add. Then, move to the translation field by pressing <code>TA*B</code> and fingerspelling the word you want to add.</p>
+<p><img src="img/22-add-translation.png" alt="" /></p>
+<p><strong>It is also very important that you don't add new outlines to <code>lapwing-base.json</code>. If you intend to update the Lapwing dictionary, you will have to replace this entire file which will throw away any edits you have made.</strong></p>
+<h3 id="an-example-of-a-theory-gap"><a class="header" href="#an-example-of-a-theory-gap">An example of a theory gap</a></h3>
+<p>We know that prefix strokes generally take precedence over word strokes when there is a conflict. However, sometimes there are more than just one conflicting entry. Here are some examples:</p>
+<div class="table-wrapper"><table><thead><tr><th>Word/prefix</th><th>Outline</th></tr></thead><tbody>
+<tr><td>bi-</td><td><code>PWAOEU</code></td></tr>
+<tr><td>buy</td><td><code>PWAO*EU</code></td></tr>
+<tr><td>by</td><td><code>PWEU</code></td></tr>
+<tr><td>bye</td><td><code>PW*EU</code></td></tr>
+</tbody></table>
+</div><div class="table-wrapper"><table><thead><tr><th>Word/prefix</th><th>Outline</th></tr></thead><tbody>
+<tr><td>di^</td><td><code>TKAOEU</code> or <code>TKEU</code></td></tr>
+<tr><td>die</td><td><code>TKAO*EU</code></td></tr>
+<tr><td>dye</td><td><code>TK*EU</code></td></tr>
+</tbody></table>
+</div><div class="table-wrapper"><table><thead><tr><th>Word/prefix</th><th>Outline</th></tr></thead><tbody>
+<tr><td>tri^</td><td><code>TRAOEU</code></td></tr>
+<tr><td>try</td><td><code>TREU</code>  or <code>TRAO*EU</code></td></tr>
+</tbody></table>
+</div>
+<p>At the moment, I have not thought of a consistent way of resolving these conflicts. This is one area where you may want to move around some outlines or come up with your own.</p>
+<h2 id="how-do-i-build-speed"><a class="header" href="#how-do-i-build-speed">How do I build speed?</a></h2>
+<h3 id="practice"><a class="header" href="#practice">Practice</a></h3>
+<p>You need lots and lots of practice. At this point, it's a good idea to try out sites that aren't steno-specific. Personally, I spent about an hour or two everyday on typing sites like <a href="https://play.typeracer.com">TypeRacer</a> and <a href="https://monkeytype.com">Monkeytype</a> after I had learned basic theory. 3 months of practice later, and I was frequently hitting 150 WPM on short TypeRacer quotes. on Monkeytype, I was reaching 180 WPM on the 60 second test.</p>
+<p>Using these sites are a great way of increasing your finger speed. If you would like to track exactly how fast your finger speed is, I would recommend using a metronome. You can use an app on your phone or a website on desktop. Start the metronome at a speed that you can handle (say, 30 BPM) and try writing some material either through a website (like any of the ones linked) or just writing into a text document.</p>
+<p>You can then gradually increase the tempo of the metronome until you find your maximum stroke speed. For me, I find this to be where going any faster results in a drop in accuracy. Three to four strokes per second (180 to 240 BPM) is quite fast and adequate for most hobbyists, though professional stenographers often reach five.</p>
+<p>Some people have also found listening to music and stroking on beat quite effective. If you're familiar with subdivision, you could get some effective practice even from slow songs.</p>
+<h3 id="learning-briefs"><a class="header" href="#learning-briefs">Learning briefs</a></h3>
+<p>The other way of writing faster is by learning briefs. These abbreviated outlines are very nice because they allow you to increase your speed without having to move your fingers any quicker—you just have to be able to remember them! Obviously, it's impossible to learn a brief for every single word, so how do you decide when you want to learn a brief? </p>
+<p>This is highly personal, but I think a good starting point is whenever you run into a word that is awkward to write. To me, this includes words that have long outlines requiring your fingers to move a lot.</p>
+<p>Here are some of the briefs I used in the last paragraph:</p>
+<div class="table-wrapper"><table><thead><tr><th>Translation</th><th>Brief</th><th>Mnemonic</th></tr></thead><tbody>
+<tr><td>personal</td><td><code>PERPBL</code></td><td><ins>per</ins>so<ins>n</ins>a<ins>l</ins></td></tr>
+<tr><td>I think</td><td><code>SWR-PBG</code></td><td>Uses Jeff's phrasing</td></tr>
+<tr><td>whenever</td><td><code>WH-FR</code></td><td>The briefs of &quot;when&quot; +  &quot;ever&quot;</td></tr>
+<tr><td>you</td><td><code>U</code></td><td></td></tr>
+<tr><td>that is</td><td><code>THAS</code></td><td></td></tr>
+<tr><td>this</td><td><code>TH</code></td><td></td></tr>
+<tr><td>into</td><td><code>TPHAO</code></td><td><ins>in</ins>t<ins>o</ins></td></tr>
+<tr><td>requiring</td><td><code>RAOEUR/-G</code></td><td><ins>r</ins>equ<ins>ir</ins>ing</td></tr>
+<tr><td>finger</td><td><code>TPEURPBG</code></td><td><code>-R</code> folding</td></tr>
+<tr><td>syllable</td><td><code>SEUBL</code></td><td><ins>sy</ins>lla<ins>bl</ins>e</td></tr>
+</tbody></table>
+</div>
+<p>Many of these might seem quite arbitrary, but that's only because the you have not learned some of the techniques yet! Also, the process of memorizing briefs is quite a lot easier than you might think. Compared to, say, learning vocabulary of another language, learning briefs is much easier.</p>
+<h4 id="how-to-learn-briefs"><a class="header" href="#how-to-learn-briefs">How to learn briefs</a></h4>
+<p>The easiest way to learn briefs is just by looking them up with Plover's lookup tool. Whenever you feel like a word or phrase should be briefed, just look it up! Some people also like to learn briefs using <a href="https://github.com/openstenoproject/plover/wiki/Using-Anki-for-Learning-Stenography">Anki</a> and plugins like plover-clippy-2.</p>
+
+                        </div>
+                        <div class="sidetoc">
+                            <nav class="pagetoc"></nav>
+                        </div>
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="Chapter-21.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="Chapter-23.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="Chapter-21.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="Chapter-23.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+        <script src="theme/pagetoc.js"></script>
+
+
+    </div>
+    </body>
+</html>

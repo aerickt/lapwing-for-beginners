@@ -1,0 +1,330 @@
+<!DOCTYPE HTML>
+<html lang="en" class="light" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Chapter 20: UK spellings - Lapwing for Beginners</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="theme/pagetoc.css">
+
+    </head>
+    <body class="sidebar-visible no-js">
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('light')
+            html.classList.add(theme);
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var body = document.querySelector('body');
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="Chapter-01.html">Chapter 1: Introduction</a></li><li class="chapter-item expanded affix "><a href="Chapter-02.html">Chapter 2: Steno hardware and software</a></li><li class="chapter-item expanded affix "><a href="Chapter-03.html">Chapter 3: How to learn steno</a></li><li class="chapter-item expanded affix "><a href="Chapter-04.html">Chapter 4: The layout</a></li><li class="chapter-item expanded affix "><a href="Chapter-05.html">Chapter 5: Lapwing setup and basics</a></li><li class="chapter-item expanded affix "><a href="Chapter-06.html">Chapter 6: Left hand consonants continued</a></li><li class="chapter-item expanded affix "><a href="Chapter-07.html">Chapter 7: Vowels</a></li><li class="chapter-item expanded affix "><a href="Chapter-08.html">Chapter 8: Vowels continued</a></li><li class="chapter-item expanded affix "><a href="Chapter-09.html">Chapter 9: Right hand chords</a></li><li class="chapter-item expanded affix "><a href="Chapter-10.html">Chapter 10: Right hand chords continued</a></li><li class="chapter-item expanded affix "><a href="Chapter-11.html">Chapter 11: Right hand compound clusters</a></li><li class="chapter-item expanded affix "><a href="Chapter-12.html">Chapter 12: Wrapping up basic words</a></li><li class="chapter-item expanded affix "><a href="Chapter-13.html">Chapter 13: Prefixes and suffixes</a></li><li class="chapter-item expanded affix "><a href="Chapter-14.html">Chapter 14: Suffix keys and compound words</a></li><li class="chapter-item expanded affix "><a href="Chapter-15.html">Chapter 15: Syllabic splitting</a></li><li class="chapter-item expanded affix "><a href="Chapter-16.html">Chapter 16: Top 200 common English words</a></li><li class="chapter-item expanded affix "><a href="Chapter-17.html">Chapter 17: Fingerspelling and numbers</a></li><li class="chapter-item expanded affix "><a href="Chapter-18.html">Chapter 18: Proper nouns</a></li><li class="chapter-item expanded affix "><a href="Chapter-19.html">Chapter 19: Punctuation and commands</a></li><li class="chapter-item expanded affix "><a href="Chapter-20.html" class="active">Chapter 20: UK spellings</a></li><li class="chapter-item expanded affix "><a href="Chapter-21.html">Chapter 21: Theory principles wrap-up</a></li><li class="chapter-item expanded affix "><a href="Chapter-22.html">Chapter 22: End of basic theory</a></li><li class="chapter-item expanded affix "><a href="Chapter-23.html">Chapter 23: Phrase briefs</a></li><li class="chapter-item expanded affix "><a href="Chapter-24.html">Chapter 24: Lapwing briefing techniques</a></li><li class="chapter-item expanded affix "><a href="Chapter-25.html">Chapter 25: Symbols and modifiers</a></li><li class="chapter-item expanded affix "><a href="Chapter-26.html">Chapter 26: Editing text</a></li><li class="chapter-item expanded affix "><a href="Appendix-A.html">Appendix A: Switching to Lapwing from Plover</a></li><li class="chapter-item expanded affix "><a href="Appendix-B.html">Appendix B: Setting up Lapwing manually</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Lapwing for Beginners</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <div class="content-wrap">
+                            <h1 id="chapter-20-uk-spellings"><a class="header" href="#chapter-20-uk-spellings">Chapter 20: UK spellings</a></h1>
+<h2 id="recommended-pace"><a class="header" href="#recommended-pace">Recommended pace</a></h2>
+<p><strong>Recommended time to spend on this chapter: &lt;1 day.</strong></p>
+<p>Remember to take breaks!</p>
+<h2 id="intro"><a class="header" href="#intro">Intro</a></h2>
+<p>Lapwing theory is very North American centred as that is the dialect of English I am familiar with. However, being from Canada, I often need to use both American and British spellings of words in writing. I've created a dictionary that adds in British spellings with alternative outlines. Unfortunately, this dictionary does not account for pronunciation differences, and it also prioritises the American forms of words—there may not always be short briefs available for British spellings.</p>
+<p>Ideally, there would be a separate stand-alone lapwing dictionary for British English, but creating one would be very difficult, particularly for someone who does not speak this dialect. If you would like to contribute a lapwing dictionary for British speakers, please do get in touch!</p>
+<h3 id="setup"><a class="header" href="#setup">Setup</a></h3>
+<p>Make sure you are using the <code>plover-lapwing-aio</code> plugin, or you have manually configured your dictionary stack by following <a href="Appendix-B.html">these instructions</a>.</p>
+<h2 id="quick-switching"><a class="header" href="#quick-switching">Quick switching</a></h2>
+<p>The recommended way to switch from an American word to its British form is by using <code>#TPH</code> as a suffix stroke of sorts. This is guaranteed to always work unlike the other methods outlined later.</p>
+<h3 id="examples"><a class="header" href="#examples">Examples</a></h3>
+<ul>
+<li>center <code>SEPB/TER</code>
+<ul>
+<li>centre <code>SEPB/TER/#TPH</code></li>
+</ul>
+</li>
+<li>fulfill <code>TPUL/TPEUL</code>
+<ul>
+<li>fulfil <code>TPUL/TPEUL/#TPH</code></li>
+</ul>
+</li>
+<li>harbor <code>HAR/PWOR</code>
+<ul>
+<li>harbour <code>HAR/PWOR/#TPH</code></li>
+</ul>
+</li>
+<li>organize <code>OR/TKPWA/TPHAOEUZ</code>
+<ul>
+<li>organise <code>OR/TKPWA/TPHAOEUZ/#TPH</code></li>
+</ul>
+</li>
+</ul>
+<h3 id="dealing-with-suffixes"><a class="header" href="#dealing-with-suffixes">Dealing with suffixes</a></h3>
+<p>If you are writing a word with a suffix, you have to switch the word into its British form <strong>first</strong> before writing the suffix.</p>
+<h4 id="examples-1"><a class="header" href="#examples-1">Examples</a></h4>
+<ul>
+<li>organising <code>OR/TKPWA/TPHAOEUZ/#TPH/-G</code></li>
+<li>economises <code>AOE/KO/TPHO/PHAOEUZ/#TPH/-Z</code></li>
+<li>energiser <code>EPB/KWRER/SKWRAOEUZ/#TPH/*ER</code></li>
+<li>immortalised <code>EUPL/PHOR/TAL/KWRAOEUZ/#TPH/-D</code></li>
+</ul>
+<h2 id="ae-spellings"><a class="header" href="#ae-spellings">ae spellings</a></h2>
+<p>Regardless of pronunciation, words that are spelled with &quot;ae&quot; can be written with <code>AE</code>.</p>
+<h3 id="examples-2"><a class="header" href="#examples-2">Examples</a></h3>
+<ul>
+<li>aetiology <code>AET/KWROLG</code></li>
+<li>encyclopaedia <code>EPB/SAOEU/KHROE/PAE/TKEU/KWRA</code> </li>
+<li>haemoglobin <code>HAE/PHOE/TKPWHROE/PWEUPB</code></li>
+<li>leukaemia <code>HRAOU/KAEPL/KWRA</code></li>
+</ul>
+<h2 id="ise-spellings"><a class="header" href="#ise-spellings">ise spellings</a></h2>
+<p>Words spelled with &quot;ise&quot; can be written by using <code>-S</code> instead of <code>-Z</code>.</p>
+<ul>
+<li>magnetise <code>PHAG/PHE/TAOEUS</code></li>
+<li>stabiliser <code>STAEUBL/KWRAOEUS/*ER</code></li>
+<li>utilising <code>AOUT/HRAOEUS/-G</code></li>
+<li>initialise <code>EUPB/KWREURBL/KWRAOEUS</code></li>
+</ul>
+<h2 id="oe-spellings"><a class="header" href="#oe-spellings">oe spellings</a></h2>
+<p>Words spelled with &quot;oe&quot; can be written using <code>OE</code> regardless of pronunciation.</p>
+<h3 id="examples-3"><a class="header" href="#examples-3">Examples</a></h3>
+<ul>
+<li>oedema <code>OE/TKE/PHA</code></li>
+<li>foetus <code>TPOE/TUS</code></li>
+<li>homoeopathy <code>HOEPL/KWROE/PATH/KWREU</code></li>
+<li>oestrogen <code>OES/TROE/SKWREPB</code></li>
+</ul>
+<h4 id="ou-spellings"><a class="header" href="#ou-spellings">ou spellings</a></h4>
+<p>Words spelled with &quot;ou&quot; can be written using <code>OU</code> <strong>only</strong> to disambiguate between British and American spellings.</p>
+<h3 id="examples-4"><a class="header" href="#examples-4">Examples</a></h3>
+<ul>
+<li>candour <code>KAPB/TKOUR</code></li>
+<li>colour <code>KO/HROUR</code></li>
+<li>favour <code>TPAEU/SROUR</code></li>
+<li>neighbour <code>TPHAEU/PWOUR</code></li>
+</ul>
+<h2 id="re-spellings"><a class="header" href="#re-spellings">re spellings</a></h2>
+<p>For British words spelled with &quot;re&quot; you can use the asterisk key in the stroke containing <code>ER</code>.</p>
+<h3 id="examples-5"><a class="header" href="#examples-5">Examples</a></h3>
+<ul>
+<li>calibre <code>KA/HREU/PW*ER</code></li>
+<li>litre <code>HREU/T*ER</code></li>
+<li>mitre <code>PHAOEU/T*ER</code></li>
+<li>centimetre <code>SEPB/TEU/PHAO*ERT</code></li>
+</ul>
+<h2 id="miscellaneous-briefs"><a class="header" href="#miscellaneous-briefs">Miscellaneous briefs</a></h2>
+<p>If adding the asterisk into a brief or other outline exists, then chances are it will work for the British spelling.</p>
+<h3 id="examples-6"><a class="header" href="#examples-6">Examples</a></h3>
+<ul>
+<li>metre <code>PHAO*ERT</code></li>
+<li>organise <code>O*RG</code></li>
+<li>neighbour <code>TPHA*EURB</code></li>
+</ul>
+<h2 id="no-test-this-chapter"><a class="header" href="#no-test-this-chapter">No test this chapter!</a></h2>
+
+                        </div>
+                        <div class="sidetoc">
+                            <nav class="pagetoc"></nav>
+                        </div>
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="Chapter-19.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="Chapter-21.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="Chapter-19.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="Chapter-21.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+        <script src="theme/pagetoc.js"></script>
+
+
+    </div>
+    </body>
+</html>

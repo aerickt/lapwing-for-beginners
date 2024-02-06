@@ -1,0 +1,375 @@
+<!DOCTYPE HTML>
+<html lang="en" class="light" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Chapter 12: Wrapping up basic words - Lapwing for Beginners</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="theme/pagetoc.css">
+
+    </head>
+    <body class="sidebar-visible no-js">
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('light')
+            html.classList.add(theme);
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var body = document.querySelector('body');
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="Chapter-01.html">Chapter 1: Introduction</a></li><li class="chapter-item expanded affix "><a href="Chapter-02.html">Chapter 2: Steno hardware and software</a></li><li class="chapter-item expanded affix "><a href="Chapter-03.html">Chapter 3: How to learn steno</a></li><li class="chapter-item expanded affix "><a href="Chapter-04.html">Chapter 4: The layout</a></li><li class="chapter-item expanded affix "><a href="Chapter-05.html">Chapter 5: Lapwing setup and basics</a></li><li class="chapter-item expanded affix "><a href="Chapter-06.html">Chapter 6: Left hand consonants continued</a></li><li class="chapter-item expanded affix "><a href="Chapter-07.html">Chapter 7: Vowels</a></li><li class="chapter-item expanded affix "><a href="Chapter-08.html">Chapter 8: Vowels continued</a></li><li class="chapter-item expanded affix "><a href="Chapter-09.html">Chapter 9: Right hand chords</a></li><li class="chapter-item expanded affix "><a href="Chapter-10.html">Chapter 10: Right hand chords continued</a></li><li class="chapter-item expanded affix "><a href="Chapter-11.html">Chapter 11: Right hand compound clusters</a></li><li class="chapter-item expanded affix "><a href="Chapter-12.html" class="active">Chapter 12: Wrapping up basic words</a></li><li class="chapter-item expanded affix "><a href="Chapter-13.html">Chapter 13: Prefixes and suffixes</a></li><li class="chapter-item expanded affix "><a href="Chapter-14.html">Chapter 14: Suffix keys and compound words</a></li><li class="chapter-item expanded affix "><a href="Chapter-15.html">Chapter 15: Syllabic splitting</a></li><li class="chapter-item expanded affix "><a href="Chapter-16.html">Chapter 16: Top 200 common English words</a></li><li class="chapter-item expanded affix "><a href="Chapter-17.html">Chapter 17: Fingerspelling and numbers</a></li><li class="chapter-item expanded affix "><a href="Chapter-18.html">Chapter 18: Proper nouns</a></li><li class="chapter-item expanded affix "><a href="Chapter-19.html">Chapter 19: Punctuation and commands</a></li><li class="chapter-item expanded affix "><a href="Chapter-20.html">Chapter 20: UK spellings</a></li><li class="chapter-item expanded affix "><a href="Chapter-21.html">Chapter 21: Theory principles wrap-up</a></li><li class="chapter-item expanded affix "><a href="Chapter-22.html">Chapter 22: End of basic theory</a></li><li class="chapter-item expanded affix "><a href="Chapter-23.html">Chapter 23: Phrase briefs</a></li><li class="chapter-item expanded affix "><a href="Chapter-24.html">Chapter 24: Lapwing briefing techniques</a></li><li class="chapter-item expanded affix "><a href="Chapter-25.html">Chapter 25: Symbols and modifiers</a></li><li class="chapter-item expanded affix "><a href="Chapter-26.html">Chapter 26: Editing text</a></li><li class="chapter-item expanded affix "><a href="Appendix-A.html">Appendix A: Switching to Lapwing from Plover</a></li><li class="chapter-item expanded affix "><a href="Appendix-B.html">Appendix B: Setting up Lapwing manually</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Lapwing for Beginners</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <div class="content-wrap">
+                            <h1 id="chapter-12-wrapping-up-basic-words"><a class="header" href="#chapter-12-wrapping-up-basic-words">Chapter 12: Wrapping up basic words</a></h1>
+<h2 id="recommended-pace"><a class="header" href="#recommended-pace">Recommended pace</a></h2>
+<p><strong>Recommended time to spend on this chapter: &lt;1 day.</strong></p>
+<ol>
+<li>Read <a href="#miscellaneous-orthographic-chords">Miscellaneous orthographic chords</a> and complete the drill (<strong>10 minutes</strong>)</li>
+<li>Read <a href="#the-stroke-separator">The stroke separator</a> (<strong>5 minutes</strong>)</li>
+<li>Read <a href="#when-sounds-cant-follow-steno-order">When sounds can't follow steno order</a> (<strong>5 minutes</strong>)</li>
+<li>Read <a href="#right-hand-xt">right hand xt</a> (<strong>5 minutes</strong>)</li>
+</ol>
+<p>Remember to take breaks!</p>
+<h2 id="useful-links"><a class="header" href="#useful-links">Useful links</a></h2>
+<ul>
+<li><a href="practice/12-left-hand-single-syllable-orthographic-chords.txt">Left hand single syllable orthographic chords drill</a></li>
+</ul>
+<h2 id="great-job"><a class="header" href="#great-job">Great job!</a></h2>
+<p>If you've been following the recommended pacing, you should now be anywhere from 3 to 7 weeks into your stenography journey! That is very impressive and you should be proud of your perseverance! With this kind of commitment, chances are you will continue to do well in later chapters.</p>
+<h2 id="what-weve-learned-so-far"><a class="header" href="#what-weve-learned-so-far">What we've learned so far</a></h2>
+<p>You should be pretty familiar with the steno layout and you should also understand how to write most single syllable words—even if you're not very fast yet. We will finally wrap up single syllable words in this chapter before moving onto other topics.</p>
+<h2 id="miscellaneous-orthographic-chords"><a class="header" href="#miscellaneous-orthographic-chords">Miscellaneous orthographic chords</a></h2>
+<h3 id="left-hand-chords"><a class="header" href="#left-hand-chords">Left hand chords</a></h3>
+<p>We've already learned a few orthographic chords like <code>AU</code> and <code>AO</code> whose usages depend on spelling rather than pronunciation. There are also a few left hand consonant chords that behave the same way.</p>
+<ul>
+<li>&quot;ph&quot; as in &quot;<ins>ph</ins>ase&quot; is written with <code>TP*</code></li>
+<li>&quot;wr&quot; as in &quot;<ins>wr</ins>ite&quot; is written with <code>WR</code></li>
+<li>&quot;wh&quot; as in &quot;<ins>wh</ins>en&quot; is written with <code>WH</code></li>
+</ul>
+<p>All of these except <code>TP*</code> are pretty intuitive as their steno keys match the spelling that they represent.</p>
+<h3 id="kr-for-c-in-conflicts"><a class="header" href="#kr-for-c-in-conflicts"><code>KR</code> for c in conflicts</a></h3>
+<p>When there is a conflict between a word that contains the &quot;soft c&quot; sound and another word that is spelled with an s, use <code>KR</code>.</p>
+<h4 id="examples"><a class="header" href="#examples">Examples</a></h4>
+<ul>
+<li>cent <code>KREPBT</code>
+<ul>
+<li>As <code>SEPBT</code> is already &quot;sent&quot;</li>
+</ul>
+</li>
+<li>cite <code>KRAOEUT</code>
+<ul>
+<li>As <code>SAOEUT</code> is already &quot;sight&quot;</li>
+</ul>
+</li>
+</ul>
+<h3 id="kh-for-hard-c-spelled-ch"><a class="header" href="#kh-for-hard-c-spelled-ch"><code>KH</code> for hard c spelled ch</a></h3>
+<p>Words spelled with &quot;ch&quot; can sometimes be homophones with words spelled with only a single &quot;c&quot;. In these cases, we use <code>K</code> for the words spelled with a &quot;c&quot; and <code>KH</code> for words spelled with &quot;ch&quot;.</p>
+<p><code>KH</code> can also be used in general for words spelled with &quot;ch&quot; but pronounced with a &quot;hard c&quot;. For example, in the word &quot;choreography&quot;, the initial consonant is a &quot;hard c&quot; so <code>K</code> would typically be used on the left hand. However, using <code>KH</code> is also a valid choice. This is helpful if your first instinct is to use the &quot;ch&quot; spelling to form the left hand consonant.</p>
+<blockquote>
+<p><strong>NOTE:</strong> the dictionary is not complete when it comes to &quot;ch&quot; words pronounced with a &quot;hard c&quot; and written with <code>KH</code>. I would recommend sticking to <code>K</code> and only using <code>KH</code> when there is a conflict. However, you are completely free to add these if you wish.</p>
+</blockquote>
+<h4 id="examples-1"><a class="header" href="#examples-1">Examples</a></h4>
+<ul>
+<li>chord <code>KHORD</code>
+<ul>
+<li><code>KORD</code> is already &quot;cord&quot;</li>
+</ul>
+</li>
+<li>charisma <code>KHA/REUS/PHA</code>
+<ul>
+<li><code>KA/REUS/PHA</code> is also valid</li>
+</ul>
+</li>
+</ul>
+<h3 id="-s-for-all-s"><a class="header" href="#-s-for-all-s"><code>-S</code> for all s</a></h3>
+<p>Use <code>-S</code> for an ending &quot;s&quot; letter, regardless of if it is pronounced as a &quot;z&quot;.</p>
+<h4 id="examples-2"><a class="header" href="#examples-2">Examples</a></h4>
+<ul>
+<li>fuse <code>TPAOUS</code></li>
+<li>cruise <code>KRAOUS</code></li>
+</ul>
+<h3 id="conflicts"><a class="header" href="#conflicts">Conflicts</a></h3>
+<p>You will inevitably run into some conflicts such as &quot;race&quot;, &quot;raise&quot;, &quot;raze&quot;, and &quot;raiz&quot;. <code>-S</code> is given to &quot;race&quot; since it has an &quot;s&quot; sound, but how do we deal with the rest? It's actually entirely up to you as to how you might want to proceed. Conflicts such as these are tricky because they don't appear very often; you're better off memorizing the exceptions than trying to learn rules to deal with them.</p>
+<p>By default, Lapwing gives <code>-Z</code> to &quot;raise&quot; since it's quite common and is spelled with an &quot;s&quot; (thereby giving it higher priority, in a sense). To write &quot;raze&quot;, you'd use an alternative vowel chord: <code>RAEZ</code>. Finally, for &quot;raiz&quot;, you could use the asterisk key. Although, this word isn't even in the default dictionary. Thus, you'd write these words like so:</p>
+<ul>
+<li>&quot;race&quot; <code>RAEUS</code></li>
+<li>&quot;raise&quot; <code>RAEUZ</code></li>
+<li>&quot;raze&quot; <code>RAEZ</code></li>
+<li>&quot;raiz&quot; <code>RA*EUZ</code></li>
+</ul>
+<p>This illustrates how messy the English language can be and how designing a theory to work around all of these conflicts without any arbitrary rules/briefs can be a difficult task. When you run into conflicts with more than three words in the future, do remember that (unless explicitly stated) it is perfectly acceptable (even expected!) to change around some outlines. It's best to create outlines that make sense to you instead of memorizing someone else's personal intuition.</p>
+<h3 id="y-sound-without-the-letter-y"><a class="header" href="#y-sound-without-the-letter-y">y sound without the letter y</a></h3>
+<p>If you encounter a word that has the &quot;y&quot; sound, only use <code>KWR*</code> if it is spelled with a &quot;y&quot;. If it isn't spelled with a &quot;y&quot; don't use any left hand consonant chord.</p>
+<h4 id="examples-3"><a class="header" href="#examples-3">Examples</a></h4>
+<ul>
+<li>yes <code>KWR*ES</code></li>
+<li>yep <code>KWR*EP</code></li>
+<li>use <code>AOUS</code></li>
+<li>usual <code>AOURB/WAL</code>
+<ul>
+<li>There aren't, unfortunately, a lot of single stroke words to demonstrate this</li>
+</ul>
+</li>
+</ul>
+<h3 id="section-practice"><a class="header" href="#section-practice">Section practice</a></h3>
+<p><a href="practice/12-left-hand-single-syllable-orthographic-chords.txt">Left hand single syllable orthographic chords drill</a></p>
+<p><strong>It's very recommended that you complete this drill.</strong></p>
+<h2 id="the-stroke-separator"><a class="header" href="#the-stroke-separator">The stroke separator</a></h2>
+<p>So far we have only been looking at single stroke words. We will soon look at words that require multiple strokes to be written. To notate these multistroke outlines, we use the slash character <code>/</code> to separate strokes.</p>
+<p>For example, to write the outline <code>TPEUL/-PL</code>, you would press <code>TPEUL</code>, release all the keys, and then press <code>-PL</code>.</p>
+<p><img src="img/12-TPEUL_PL.gif" alt="" /></p>
+<h2 id="when-sounds-cant-follow-steno-order"><a class="header" href="#when-sounds-cant-follow-steno-order">When sounds can't follow steno order</a></h2>
+<p>Sometimes, it is impossible to write a single syllable word using in a single stroke (see the examples below). In these cases, write as much as the word as you can in a single stroke, and then complete the rest using the corresponding right hand key or chord that finishes the word. Note that some right chords are different to their canonical form when using this technique:</p>
+<ul>
+<li>To end a word with &quot;-t&quot;, use <code>*T</code></li>
+<li>To end a word with &quot;-f&quot; or &quot;-v&quot;, use <code>*F</code></li>
+</ul>
+<p>There will be no practice material for this section, but do keep this technique in mind.</p>
+<h3 id="examples-4"><a class="header" href="#examples-4">Examples</a></h3>
+<ul>
+<li>film <code>TPEUL/-PL</code></li>
+<li>helm <code>HEL/-PL</code></li>
+<li>help <code>HEL/-P</code></li>
+<li>kelp <code>KEL/-P</code></li>
+<li>list <code>HREUS/*T</code>
+<ul>
+<li>Also <code>HR*EUS</code> (recommended, see note below)</li>
+</ul>
+</li>
+<li>thirst <code>THEURS/*T</code>
+<ul>
+<li>Also <code>TH*EURS</code> (recommended, see note below)</li>
+</ul>
+</li>
+<li>sixth <code>SEUBGS/*T</code></li>
+<li>elf <code>EL/*F</code></li>
+<li>shelf <code>SHEL/*F</code></li>
+<li>peddle <code>PED/-L</code></li>
+<li>saddle <code>SAD/-L</code></li>
+</ul>
+<blockquote>
+<p><strong>NOTE:</strong> remember that <code>*S</code> can be used to represent the &quot;-st&quot; cluster when <code>-F</code> is not available. It is highly recommended you use <code>*S</code> instead of splitting these words into two strokes.</p>
+</blockquote>
+<h2 id="right-hand-xt"><a class="header" href="#right-hand-xt">Right hand xt</a></h2>
+<ul>
+<li><code>-GT</code> is &quot;-xt&quot; as in te<ins>xt</ins></li>
+</ul>
+<p>There are only a handful of words in English that end in &quot;-xt&quot; and only two that are one syllable long in the Lapwing dictionary. You can pretty much just memorize these as briefs.</p>
+<h3 id="examples-5"><a class="header" href="#examples-5">Examples</a></h3>
+<ul>
+<li>text <code>TEGT</code></li>
+<li>next <code>TPHEGT</code></li>
+</ul>
+<h2 id="no-test-this-chapter"><a class="header" href="#no-test-this-chapter">No test this chapter!</a></h2>
+
+                        </div>
+                        <div class="sidetoc">
+                            <nav class="pagetoc"></nav>
+                        </div>
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="Chapter-11.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="Chapter-13.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="Chapter-11.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="Chapter-13.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+        <script src="theme/pagetoc.js"></script>
+
+
+    </div>
+    </body>
+</html>

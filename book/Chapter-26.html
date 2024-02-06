@@ -1,0 +1,328 @@
+<!DOCTYPE HTML>
+<html lang="en" class="light" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Chapter 26: Editing text - Lapwing for Beginners</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="theme/pagetoc.css">
+
+    </head>
+    <body class="sidebar-visible no-js">
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('light')
+            html.classList.add(theme);
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var body = document.querySelector('body');
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="Chapter-01.html">Chapter 1: Introduction</a></li><li class="chapter-item expanded affix "><a href="Chapter-02.html">Chapter 2: Steno hardware and software</a></li><li class="chapter-item expanded affix "><a href="Chapter-03.html">Chapter 3: How to learn steno</a></li><li class="chapter-item expanded affix "><a href="Chapter-04.html">Chapter 4: The layout</a></li><li class="chapter-item expanded affix "><a href="Chapter-05.html">Chapter 5: Lapwing setup and basics</a></li><li class="chapter-item expanded affix "><a href="Chapter-06.html">Chapter 6: Left hand consonants continued</a></li><li class="chapter-item expanded affix "><a href="Chapter-07.html">Chapter 7: Vowels</a></li><li class="chapter-item expanded affix "><a href="Chapter-08.html">Chapter 8: Vowels continued</a></li><li class="chapter-item expanded affix "><a href="Chapter-09.html">Chapter 9: Right hand chords</a></li><li class="chapter-item expanded affix "><a href="Chapter-10.html">Chapter 10: Right hand chords continued</a></li><li class="chapter-item expanded affix "><a href="Chapter-11.html">Chapter 11: Right hand compound clusters</a></li><li class="chapter-item expanded affix "><a href="Chapter-12.html">Chapter 12: Wrapping up basic words</a></li><li class="chapter-item expanded affix "><a href="Chapter-13.html">Chapter 13: Prefixes and suffixes</a></li><li class="chapter-item expanded affix "><a href="Chapter-14.html">Chapter 14: Suffix keys and compound words</a></li><li class="chapter-item expanded affix "><a href="Chapter-15.html">Chapter 15: Syllabic splitting</a></li><li class="chapter-item expanded affix "><a href="Chapter-16.html">Chapter 16: Top 200 common English words</a></li><li class="chapter-item expanded affix "><a href="Chapter-17.html">Chapter 17: Fingerspelling and numbers</a></li><li class="chapter-item expanded affix "><a href="Chapter-18.html">Chapter 18: Proper nouns</a></li><li class="chapter-item expanded affix "><a href="Chapter-19.html">Chapter 19: Punctuation and commands</a></li><li class="chapter-item expanded affix "><a href="Chapter-20.html">Chapter 20: UK spellings</a></li><li class="chapter-item expanded affix "><a href="Chapter-21.html">Chapter 21: Theory principles wrap-up</a></li><li class="chapter-item expanded affix "><a href="Chapter-22.html">Chapter 22: End of basic theory</a></li><li class="chapter-item expanded affix "><a href="Chapter-23.html">Chapter 23: Phrase briefs</a></li><li class="chapter-item expanded affix "><a href="Chapter-24.html">Chapter 24: Lapwing briefing techniques</a></li><li class="chapter-item expanded affix "><a href="Chapter-25.html">Chapter 25: Symbols and modifiers</a></li><li class="chapter-item expanded affix "><a href="Chapter-26.html" class="active">Chapter 26: Editing text</a></li><li class="chapter-item expanded affix "><a href="Appendix-A.html">Appendix A: Switching to Lapwing from Plover</a></li><li class="chapter-item expanded affix "><a href="Appendix-B.html">Appendix B: Setting up Lapwing manually</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Lapwing for Beginners</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <div class="content-wrap">
+                            <h1 id="chapter-26-editing-text"><a class="header" href="#chapter-26-editing-text">Chapter 26: Editing text</a></h1>
+<p>Lapwing contains some limited movement commands by default. However, if you want to switch to steno full time, you will have to incorporate another method for movement. This chapter goes over the default movement commands in <code>lapwing-base.json</code> as well as some additional methods you can use.</p>
+<h2 id="movement"><a class="header" href="#movement">Movement</a></h2>
+<h3 id="basic-movement"><a class="header" href="#basic-movement">Basic movement</a></h3>
+<p>Here's a table of all basic movement commands:</p>
+<div class="table-wrapper"><table><thead><tr><th>Outline</th><th>Description</th></tr></thead><tbody>
+<tr><td><code>#TPH-R</code></td><td>Left arrow key <img src="img/26-left.png" alt="" /></td></tr>
+<tr><td><code>#TPH-P</code></td><td>Up arrow key <img src="img/26-up.png" alt="" /></td></tr>
+<tr><td><code>#TPH-B</code></td><td>Down arrow key <img src="img/26-down.png" alt="" /></td></tr>
+<tr><td><code>#TPH-G</code></td><td>Right arrow key <img src="img/26-right.png" alt="" /></td></tr>
+<tr><td><code>#TPH-FR</code></td><td>Home <img src="img/26-home.png" alt="" /></td></tr>
+<tr><td><code>#TPH-LG</code></td><td>End <img src="img/26-end.png" alt="" /></td></tr>
+<tr><td><code>#TPH-FPL</code></td><td>Top (Ctrl+Home) <img src="img/26-top.png" alt="" /></td></tr>
+<tr><td><code>#TPH-RBG</code></td><td>Bottom (Ctrl+End) <img src="img/26-bottom.png" alt="" /></td></tr>
+<tr><td><code>#TPH-RPG</code></td><td>Page up <img src="img/26-page-up.png" alt="" /></td></tr>
+<tr><td><code>#TPH-FBL</code></td><td>Page down <img src="img/26-page-down.png" alt="" /></td></tr>
+</tbody></table>
+</div>
+<p>You can think of the <code>-RPBG</code> as an arrow key cluster and <code>#TPH</code> as a starting chord.</p>
+<p><img src="img/26-arrow-keys.png" alt="" /></p>
+<h4 id="moving-word-by-word"><a class="header" href="#moving-word-by-word">Moving word by word</a></h4>
+<p>You can normally move word by word by pressing <code>Ctrl</code> and an arrow key on a regular keyboard. Using Lapwing, you can do this with <code>#TPH-RB</code> and <code>#TPH-BG</code>.</p>
+<div class="table-wrapper"><table><thead><tr><th>Outline</th><th>Description</th></tr></thead><tbody>
+<tr><td><code>#TPH-RB</code></td><td>Left by one word <img src="img/26-left-word.png" alt="" /></td></tr>
+<tr><td><code>#TPH-BG</code></td><td>Right by one word <img src="img/26-right-word.png" alt="" /></td></tr>
+</tbody></table>
+</div>
+<h4 id="-ts-repetition"><a class="header" href="#-ts-repetition"><code>-TS</code> repetition</a></h4>
+<p>You can repeat a movement key command up to 4 times in one stroke by including a combination of <code>-T</code> and <code>-S</code>.</p>
+<div class="table-wrapper"><table><thead><tr><th>Repetition</th><th>Key</th></tr></thead><tbody>
+<tr><td>1</td><td><code> </code></td></tr>
+<tr><td>2</td><td><code>-S</code></td></tr>
+<tr><td>3</td><td><code>-T</code></td></tr>
+<tr><td>4</td><td><code>-TS</code></td></tr>
+</tbody></table>
+</div>
+<p>For example, <code>#TPH-GT</code> would move the cursor to the right by three characters and <code>#TPH-BGT</code> would move the cursor to the right by three words.</p>
+<h4 id="selection"><a class="header" href="#selection">Selection</a></h4>
+<p>To select text, simply include the <code>*</code> key in a movement command. Repeating the same command works for incrementing your selection. For example, <code>#TPH*R/#TPH*R/#TPH*R/#TPH*R</code> will select the 4 letters to the left.</p>
+<h4 id="repeat-the-last-command"><a class="header" href="#repeat-the-last-command">Repeat the last command</a></h4>
+<p>Instead of writing <code>#TPH*R/#TPH*R/#TPH*R/#TPH*R</code>, you can also use the number key to repeat the last outline: <code>#TPH*R/#/#/#</code>.</p>
+<blockquote>
+<p><strong>NOTE:</strong> this requires the <code>plover-last-translation</code> plugin if you are not using <code>plover-lapwing-aio</code>.</p>
+</blockquote>
+<h4 id="macos-commands"><a class="header" href="#macos-commands">MacOS commands</a></h4>
+<p>Replace all occurrences of &quot;Control&quot; with &quot;Alt&quot; in the movement commands if you are on macOS.</p>
+<h3 id="modal-movement"><a class="header" href="#modal-movement">Modal movement</a></h3>
+<h4 id="setup"><a class="header" href="#setup">Setup</a></h4>
+<p>Make sure you are using the <code>plover-lapwing-aio</code> plugin, or you have manually configured your dictionary stack by following <a href="Appendix-B.html">these instructions</a>.</p>
+<h4 id="modal-dictionaries"><a class="header" href="#modal-dictionaries">Modal dictionaries</a></h4>
+<p>Moving around a document can be quite tedious especially with such a long starting chord like <code>#TPH</code>. One way to make movement easier is to use modal dictionaries. A modal dictionary is like a temporary dictionary that can be turned on and off with an outline in addition to outputting a translation.</p>
+<p>With a modal movement dictionary, writing a regular movement stroke will turn the dictionary on. This dictionary contains the movement strokes but with the <code>#TPH</code> chord removed. This way, when you write a full stroke for the first movement command, you can write subsequent movement strokes using only the right hand. To turn off the modal dictionary, you would just right an outline that is not a movement command.</p>
+<p><img src="img/26-modal-movement.gif" alt="" /></p>
+<blockquote>
+<p><strong>NOTE:</strong> this plugin is incompatible with some plugins such as plover-clippy. The creator has expressed that it is a bit of a hacky plugin.</p>
+</blockquote>
+<h4 id="semi-modal-movement"><a class="header" href="#semi-modal-movement">Semi-modal movement</a></h4>
+<p>If you do not want to use modal dictionaries, you can also use the <a href="https://github.com/aerickt/steno-dictionaries/blob/main/semi-modal-movement.json">semi-modal movement dictionary</a>. This also contains movement strokes without the left hand starting chord.</p>
+<p>You can download the dictionary from the link above and make sure you add it to the top of your stack. Uncheck the box so that it is disabled by default. The idea is that you can enable this dictionary only when you need to move the text cursor.</p>
+<p>To achieve this, you will need to add a toggling entry to one of your dictionaries:</p>
+<pre><code>{PLOVER:TOGGLE_DICT:!semi-modal-movement.json}
+</code></pre>
+<p><img src="img/26-semi-modal-movement-entry.png" alt="" /></p>
+<p>Now, whenever you want to move the text cursor without having to use a left hand starting chord, just write <code>SKWR</code> (or whatever stroke you chose) and then <code>SKWR</code> again when you're done.</p>
+<h3 id="first-up-chord-send-and-chord-repeat"><a class="header" href="#first-up-chord-send-and-chord-repeat">First-up chord send and chord repeat</a></h3>
+<p>Quick video introducing these two firmware mods: <a href="https://youtu.be/UMGT-qyJeJk">https://youtu.be/UMGT-qyJeJk</a>.</p>
+<h4 id="first-up-chord-send"><a class="header" href="#first-up-chord-send">First-up chord send</a></h4>
+<p>Steno keyboards send stroke information to Plover once all keys have been released. You can test this out for yourself. Hold down <code>S</code> and press other keys on the steno layout. Plover will not receive any strokes as long as <code>S</code> (or any other key) is being held down. Once every key has been released, Plover will register the stroke.</p>
+<p>Alternatively, you could have your keyboard send stroke information once the first key has been released. This is what &quot;first-up chord send&quot; refers to: stroke information is sent to Plover as soon as the first key has been released. This is very useful for repeating movement keys without using a separate dictionary or pressing the entire stroke each time.</p>
+<p>By holding down the left hand starter chord, you can tap a right hand key repeatedly to move the cursor multiple times. In fact, as long as the left hand starter chord is being held, you can tap any of the right hand movement chords.</p>
+<p><img src="img/26-first-up-movement.gif" alt="" /></p>
+<p>However, there are two caveats with this technique: firstly, it involves modifying your keyboard's firmware. Secondly, it may cause your accuracy to drop if you're writing fast. Personally, wrong strokes are very often detected by Plover when I try to use first-up chord send. It may be that my writing is sloppy and I am not too careful and deliberate about my stroke actions, but I have not been able to get used to this firmware mod.</p>
+<h4 id="chord-repeat"><a class="header" href="#chord-repeat">Chord repeat</a></h4>
+<p>Chord repeat works a lot like holding down a key on a regular keyboard. However, as we often hold chords when we hesitate, it is more useful to double tap a chord and hold to signify that we want to repeat the chord.</p>
+<p><img src="img/26-chord-repeat.gif" alt="" /></p>
+<p>This technique also requires modifying your keyboard's firmware. Unlike first-up chord send, I do recommend this and find it very useful.</p>
+<h4 id="ecosteno-multisteno-splitography-uni-v3"><a class="header" href="#ecosteno-multisteno-splitography-uni-v3">Ecosteno, Multisteno, Splitography, Uni v3</a></h4>
+<p>For these keyboards, prebuilt firmware binaries for these mods are available at Josh Gram's <a href="https://github.com/JoshuaGrams/steno-firmware">steno-firmware</a> repository.</p>
+<p>Flashing these firmware files are beyond the scope of this page, and instructions differ from keyboard to keyboard and machine to machine. On Linux, flashing the Multisteno is relatively straightforward as long as <code>dfu-util</code> is installed. I use the following command (where <code>noll_multisteno.bin</code> is the binary):</p>
+<pre><code>sudo dfu-util -d 1eaf:0003 -a 2 -D &quot;noll_multisteno.bin&quot;
+</code></pre>
+<h4 id="javelin-compatible-devices"><a class="header" href="#javelin-compatible-devices">Javelin compatible devices</a></h4>
+<p><a href="https://lim.au/#/software/javelin-steno">Javelin</a> is a steno engine that is contained within a keyboard's firmware. This allows the keyboard to act a steno writer without having to install Plover on the host machine. It is very useful for using steno on multiple devices without having to worry about installing Plover or syncing dictionaries; the entirety of the translation from steno strokes to text happens on the keyboard itself.</p>
+<p>Javelin is compatible with several steno keyboards such as the Uni v4 and the Polyglot. It is much easier to create custom firmware builds and flash binaries to these keyboards via the Javelin Steno Firmware Builder. By checking the &quot;Show expert options&quot; at the very top of the page, you have the option of enabling first up chord send and/or repeat.</p>
+<p>If you don't intend to use Javelin's embedded steno capability, you can also still use Plover with keyboards that have Javelin firmware. For each keyboard, you will have to press a key combination to switch it into Gemini PR for usage with Plover.</p>
+<h2 id="copying-pasting-and-deleting-text"><a class="header" href="#copying-pasting-and-deleting-text">Copying, pasting, and deleting text</a></h2>
+<p>Copying and pasting of text is done by simply emulating the <code>Ctrl+C</code> and <code>Ctrl+V</code> shortcuts. Using Abby's left hand modifiers, this would be <code>KHR/KR</code> and <code>KHR/SR</code> respectively. The same goes for cutting text.</p>
+<p>The following table lists a few helpful strokes for deleting text. It is important to note that using these strokes will mess up any undo history with the <code>*</code>.</p>
+<div class="table-wrapper"><table><thead><tr><th>Outline</th><th>Translation</th><th>Description</th></tr></thead><tbody>
+<tr><td><code>PW-FP</code></td><td><code>{#BackSpace}{^}</code></td><td>Backspace</td></tr>
+<tr><td><code>PW*FP</code></td><td><code>{#Control(BackSpace)}{^}</code></td><td>Backspace the last word (change translation if you're on Mac)</td></tr>
+<tr><td><code>TKHR</code></td><td><code>{#Delete}{^}</code></td><td>Delete the next character</td></tr>
+<tr><td><code>TKHR*</code></td><td><code>{#Control(Delete)}{^}</code></td><td>Delete the next word</td></tr>
+</tbody></table>
+</div>
+                        </div>
+                        <div class="sidetoc">
+                            <nav class="pagetoc"></nav>
+                        </div>
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="Chapter-25.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="Appendix-A.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="Chapter-25.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="Appendix-A.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+        <script src="theme/pagetoc.js"></script>
+
+
+    </div>
+    </body>
+</html>

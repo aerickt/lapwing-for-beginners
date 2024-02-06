@@ -1,0 +1,764 @@
+<!DOCTYPE HTML>
+<html lang="en" class="light" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Chapter 16: Top 200 common English words - Lapwing for Beginners</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="theme/pagetoc.css">
+
+    </head>
+    <body class="sidebar-visible no-js">
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('light')
+            html.classList.add(theme);
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var body = document.querySelector('body');
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="Chapter-01.html">Chapter 1: Introduction</a></li><li class="chapter-item expanded affix "><a href="Chapter-02.html">Chapter 2: Steno hardware and software</a></li><li class="chapter-item expanded affix "><a href="Chapter-03.html">Chapter 3: How to learn steno</a></li><li class="chapter-item expanded affix "><a href="Chapter-04.html">Chapter 4: The layout</a></li><li class="chapter-item expanded affix "><a href="Chapter-05.html">Chapter 5: Lapwing setup and basics</a></li><li class="chapter-item expanded affix "><a href="Chapter-06.html">Chapter 6: Left hand consonants continued</a></li><li class="chapter-item expanded affix "><a href="Chapter-07.html">Chapter 7: Vowels</a></li><li class="chapter-item expanded affix "><a href="Chapter-08.html">Chapter 8: Vowels continued</a></li><li class="chapter-item expanded affix "><a href="Chapter-09.html">Chapter 9: Right hand chords</a></li><li class="chapter-item expanded affix "><a href="Chapter-10.html">Chapter 10: Right hand chords continued</a></li><li class="chapter-item expanded affix "><a href="Chapter-11.html">Chapter 11: Right hand compound clusters</a></li><li class="chapter-item expanded affix "><a href="Chapter-12.html">Chapter 12: Wrapping up basic words</a></li><li class="chapter-item expanded affix "><a href="Chapter-13.html">Chapter 13: Prefixes and suffixes</a></li><li class="chapter-item expanded affix "><a href="Chapter-14.html">Chapter 14: Suffix keys and compound words</a></li><li class="chapter-item expanded affix "><a href="Chapter-15.html">Chapter 15: Syllabic splitting</a></li><li class="chapter-item expanded affix "><a href="Chapter-16.html" class="active">Chapter 16: Top 200 common English words</a></li><li class="chapter-item expanded affix "><a href="Chapter-17.html">Chapter 17: Fingerspelling and numbers</a></li><li class="chapter-item expanded affix "><a href="Chapter-18.html">Chapter 18: Proper nouns</a></li><li class="chapter-item expanded affix "><a href="Chapter-19.html">Chapter 19: Punctuation and commands</a></li><li class="chapter-item expanded affix "><a href="Chapter-20.html">Chapter 20: UK spellings</a></li><li class="chapter-item expanded affix "><a href="Chapter-21.html">Chapter 21: Theory principles wrap-up</a></li><li class="chapter-item expanded affix "><a href="Chapter-22.html">Chapter 22: End of basic theory</a></li><li class="chapter-item expanded affix "><a href="Chapter-23.html">Chapter 23: Phrase briefs</a></li><li class="chapter-item expanded affix "><a href="Chapter-24.html">Chapter 24: Lapwing briefing techniques</a></li><li class="chapter-item expanded affix "><a href="Chapter-25.html">Chapter 25: Symbols and modifiers</a></li><li class="chapter-item expanded affix "><a href="Chapter-26.html">Chapter 26: Editing text</a></li><li class="chapter-item expanded affix "><a href="Appendix-A.html">Appendix A: Switching to Lapwing from Plover</a></li><li class="chapter-item expanded affix "><a href="Appendix-B.html">Appendix B: Setting up Lapwing manually</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Lapwing for Beginners</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <div class="content-wrap">
+                            <h1 id="chapter-16-top-200-common-english-words"><a class="header" href="#chapter-16-top-200-common-english-words">Chapter 16: Top 200 common English words</a></h1>
+<h2 id="recommended-pace"><a class="header" href="#recommended-pace">Recommended pace</a></h2>
+<p><strong>Recommended time to spend on this chapter: 2 days.</strong></p>
+<ol>
+<li>Read the <a href="#introduction">introduction</a> (<strong>5 minutes</strong>)</li>
+<li>Skim the rest of this page (<strong>10 minutes</strong>)</li>
+<li>Attempt the <a href="#chapter-16-test">test</a> (<strong>20 minutes</strong>)
+<ul>
+<li>Practise as needed</li>
+</ul>
+</li>
+</ol>
+<p>Remember to take breaks!</p>
+<h2 id="useful-links"><a class="header" href="#useful-links">Useful links</a></h2>
+<ul>
+<li><a href="practice/16-test.txt">All 200 words drill</a></li>
+<li><a href="practice/16-briefs.txt">Briefs only drill</a></li>
+</ul>
+<h2 id="introduction"><a class="header" href="#introduction">Introduction</a></h2>
+<p>In English, the 200 most frequently used words account for something like 80% of all writing. Because of this, these words tend to be briefed heavily for speed and comfort. About a third of the top 200 English words are briefed in Lapwing theory and cannot be written using theory principles. By the end of this chapter, you should be comfortable writing all of these words.</p>
+<h3 id="write-outs-versus-briefs"><a class="header" href="#write-outs-versus-briefs">Write-outs versus briefs</a></h3>
+<p>A write-out refers to an outline that adheres to theory principles very closely. They are the &quot;canonical&quot; outline you would use if you have never written the word before. On the other hand, a brief is an outline that doesn't necessarily follow theory. It is an abbreviated entry that is used for greater speed.</p>
+<p>Some words do not have a write-out entry and will only have a brief which needs to be memorized. On the other hand, some words may only have a write-out. Finally, some may also have a brief and a write-out. If no explanation is provided, you may use either one.</p>
+<blockquote>
+<p><strong>NOTE:</strong> you may find other briefs in the dictionary that are not mentioned in this page. I recommend not using them until you are done theory and are comfortable with your dictionary.</p>
+</blockquote>
+<h3 id="how-to-complete-this-chapter"><a class="header" href="#how-to-complete-this-chapter">How to complete this chapter</a></h3>
+<p>It would be extremely hard to memorize many of these briefs just by reading this page. Instead, first skim through this page and then use Typey Type to discover new words. Use these settings:</p>
+<p><img src="img/16-practice.png" alt="" /></p>
+<ul>
+<li>Study type: Discover</li>
+<li>Limit word count: 200</li>
+<li>Repetitions: 1</li>
+<li>Sort: Random</li>
+<li>Hide hint on last repetition: unchecked</li>
+</ul>
+<p>This way, you can learn the words by simply reading the hints provided. If you come across a brief that is confusing, check back on this page to see if there is an explanation.</p>
+<h3 id="practice-material"><a class="header" href="#practice-material">Practice material</a></h3>
+<p><a href="practice/16-briefs.txt">Discover briefs</a></p>
+<p><a href="practice/16-test.txt">Discover all 200 words</a></p>
+<h2 id="150"><a class="header" href="#150">1–50</a></h2>
+<h3 id="the"><a class="header" href="#the">the</a></h3>
+<p><strong>Brief: <code>-T</code></strong></p>
+<h3 id="of"><a class="header" href="#of">of</a></h3>
+<p><strong>Brief: <code>-F</code></strong></p>
+<h3 id="to"><a class="header" href="#to">to</a></h3>
+<p><strong>Brief: <code>TO</code></strong></p>
+<p><strong>Write-out: <code>TAOU</code></strong></p>
+<p>Both outlines are valid to use.</p>
+<h3 id="and"><a class="header" href="#and">and</a></h3>
+<p><strong>Brief: <code>SKP</code></strong></p>
+<p>Useful in phrases such as <code>SKP-T</code> &quot;and the&quot; and <code>SKPU</code> &quot;and you&quot;.</p>
+<h3 id="a"><a class="header" href="#a">a</a></h3>
+<p><strong>Write-out: <code>AEU</code></strong></p>
+<p><code>A</code> is the &quot;a-&quot; prefix.</p>
+<h3 id="in"><a class="header" href="#in">in</a></h3>
+<p><strong>Brief: <code>TPH</code></strong></p>
+<p><code>EUPB</code> is the &quot;in-&quot; prefix.</p>
+<h3 id="is"><a class="header" href="#is">is</a></h3>
+<p><strong>Brief: <code>S</code></strong></p>
+<h3 id="it"><a class="header" href="#it">it</a></h3>
+<p><strong>Brief: <code>T</code></strong></p>
+<h3 id="you"><a class="header" href="#you">you</a></h3>
+<p><strong>Brief: <code>U</code></strong></p>
+<h3 id="that"><a class="header" href="#that">that</a></h3>
+<p><strong>Brief: <code>THA</code></strong></p>
+<p>Useful in phrases such as <code>THAT</code> &quot;that the&quot; and <code>THAEU</code> &quot;that I&quot;.</p>
+<h3 id="he"><a class="header" href="#he">he</a></h3>
+<p><strong>Write-out: <code>HAOE</code></strong></p>
+<h3 id="was"><a class="header" href="#was">was</a></h3>
+<p><strong>Write-out: <code>WAS</code></strong></p>
+<h3 id="for"><a class="header" href="#for">for</a></h3>
+<p><strong>Brief: <code>TP-R</code></strong></p>
+<p><code>TPOR</code> is the &quot;for-&quot; prefix.</p>
+<h3 id="on"><a class="header" href="#on">on</a></h3>
+<p><strong>Brief: <code>AUPB</code> or <code>O*PB</code></strong></p>
+<p><code>OPB</code> is the &quot;on-&quot; prefix.</p>
+<h3 id="are"><a class="header" href="#are">are</a></h3>
+<p><strong>Brief: <code>R</code> or <code>-R</code></strong></p>
+<p>Useful in phrases such as <code>R-T</code> &quot;are the&quot; and <code>THR-R</code> &quot;there are&quot; (see <a href="#there">there</a>).</p>
+<h3 id="with"><a class="header" href="#with">with</a></h3>
+<p><strong>Brief: <code>W</code></strong></p>
+<p>Useful in phrases such as <code>W-T</code> &quot;with the&quot; and <code>WU</code> &quot;with you&quot; (see <a href="#you">you</a>).</p>
+<h3 id="as"><a class="header" href="#as">as</a></h3>
+<p><strong>Write-out: <code>AS</code></strong></p>
+<h3 id="i"><a class="header" href="#i">I</a></h3>
+<p><strong>Brief: <code>EU</code></strong></p>
+<p><code>AOEU</code> is the word &quot;eye&quot;.</p>
+<h3 id="his"><a class="header" href="#his">his</a></h3>
+<p><strong>Write-out: <code>HEUS</code></strong></p>
+<h3 id="they"><a class="header" href="#they">they</a></h3>
+<p><strong>Brief: <code>THE</code></strong></p>
+<p>Useful for dealing with the &quot;their&quot;, &quot;there&quot;, and &quot;they're&quot; three-way conflict as &quot;they're&quot; can be written as <code>THER</code>.</p>
+<h3 id="be"><a class="header" href="#be">be</a></h3>
+<p><strong>Brief: <code>-B</code></strong></p>
+<p><code>PWE</code> is the &quot;be-&quot; prefix and <code>PWAOE</code> is the word &quot;bee&quot;.</p>
+<h3 id="at"><a class="header" href="#at">at</a></h3>
+<p><strong>Write-out: <code>AT</code></strong></p>
+<h3 id="one"><a class="header" href="#one">one</a></h3>
+<p><strong>Write-out: <code>WUPB</code></strong></p>
+<h3 id="have"><a class="header" href="#have">have</a></h3>
+<p><strong>Brief: <code>SR</code></strong></p>
+<p>Useful in phrases like <code>SR-T</code> &quot;have the&quot; and <code>SRU</code> &quot;have you&quot;. <code>HAF</code> is also the word &quot;half&quot;.</p>
+<h3 id="this"><a class="header" href="#this">this</a></h3>
+<p><strong>Brief: <code>TH</code></strong></p>
+<p>Useful in phrases like <code>STH</code> &quot;is this&quot; and <code>TH-S</code> &quot;this is&quot;.</p>
+<h3 id="from"><a class="header" href="#from">from</a></h3>
+<p><strong>Write-out: <code>TPROPL</code></strong></p>
+<h3 id="or"><a class="header" href="#or">or</a></h3>
+<p><strong>Brief: <code>AOUR</code> or <code>AUR</code></strong></p>
+<p><code>OR</code> is the &quot;or-&quot; prefix.</p>
+<h3 id="had"><a class="header" href="#had">had</a></h3>
+<p><strong>Brief: <code>H</code></strong></p>
+<h3 id="by"><a class="header" href="#by">by</a></h3>
+<p><strong>Brief: <code>PWEU</code></strong></p>
+<p><code>PWAOEU</code> is the &quot;bi-&quot; prefix.</p>
+<h3 id="hot"><a class="header" href="#hot">hot</a></h3>
+<p><strong>Write-out: <code>HOT</code></strong></p>
+<h3 id="but"><a class="header" href="#but">but</a></h3>
+<p><strong>Write-out: <code>PWUT</code></strong></p>
+<h3 id="some"><a class="header" href="#some">some</a></h3>
+<p><strong>Write-out: <code>SOPL</code></strong></p>
+<h3 id="what"><a class="header" href="#what">what</a></h3>
+<p><strong>Brief: <code>WHA</code></strong></p>
+<p>Useful in phrases like <code>WHAT</code> &quot;what the&quot; and <code>WHAEU</code> &quot;what I&quot;.</p>
+<h3 id="there"><a class="header" href="#there">there</a></h3>
+<p><strong>Brief: <code>THR</code></strong></p>
+<p>Useful in phrases like <code>THR-R</code> &quot;there are&quot; and <code>THR-S</code> &quot;there is&quot;.</p>
+<h3 id="we"><a class="header" href="#we">we</a></h3>
+<p><strong>Write-out: <code>WAOE</code></strong></p>
+<p>To write the word &quot;wee&quot;, use <code>WAO*E</code>.</p>
+<h3 id="can"><a class="header" href="#can">can</a></h3>
+<p><strong>Brief: <code>K</code></strong></p>
+<h3 id="out"><a class="header" href="#out">out</a></h3>
+<p><strong>Brief: <code>AOUT</code> or <code>O*UT</code></strong></p>
+<p><code>OUT</code> is the &quot;out-&quot; prefix.</p>
+<h3 id="other"><a class="header" href="#other">other</a></h3>
+<p><strong>Brief: <code>OER</code></strong></p>
+<p><strong>Write-out: <code>O*T/KWRER</code></strong></p>
+<p>The brief is recommended for this common word.</p>
+<h3 id="were"><a class="header" href="#were">were</a></h3>
+<p><strong>Brief: <code>WR</code></strong></p>
+<p><strong>Write-out: <code>WER</code></strong></p>
+<p>The brief is useful in phrases such as <code>WR-T</code> &quot;were the&quot; and <code>WRU</code> &quot;were you&quot;.</p>
+<h3 id="all"><a class="header" href="#all">all</a></h3>
+<p><strong>Write-out: <code>AUL</code></strong></p>
+<h3 id="your"><a class="header" href="#your">your</a></h3>
+<p><strong>Brief: <code>KWRAOUR</code> or <code>KWROR</code> or <code>KWROUR</code></strong></p>
+<p><strong>Write-out: <code>KWRAO*UR</code></strong></p>
+<p>The write-out is somewhat awkward so it is recommended you use one of the briefs.</p>
+<h3 id="when"><a class="header" href="#when">when</a></h3>
+<p><strong>Brief: <code>WH</code></strong></p>
+<p>Useful in phrases such as <code>WH-S</code> &quot;when is&quot; and <code>WHU</code> &quot;when you&quot;.</p>
+<h3 id="up"><a class="header" href="#up">up</a></h3>
+<p><strong>Write-out: <code>UP</code></strong></p>
+<h3 id="use"><a class="header" href="#use">use</a></h3>
+<p><strong>Write-out: <code>AOUS</code></strong></p>
+<h3 id="word"><a class="header" href="#word">word</a></h3>
+<p><strong>Write-out: <code>WORD</code></strong></p>
+<h3 id="how"><a class="header" href="#how">how</a></h3>
+<p><strong>Write-out: <code>HOU</code></strong></p>
+<h3 id="said"><a class="header" href="#said">said</a></h3>
+<p><strong>Brief: <code>SED</code></strong></p>
+<p>The awkward spelling of this word makes a write-out impractical.</p>
+<h3 id="an"><a class="header" href="#an">an</a></h3>
+<p><strong>Write-out: <code>APB</code></strong></p>
+<h3 id="each"><a class="header" href="#each">each</a></h3>
+<p><strong>Write-out: <code>AOEFP</code></strong></p>
+<h3 id="she"><a class="header" href="#she">she</a></h3>
+<p><strong>Write-out: <code>SHAOE</code></strong></p>
+<h2 id="51100"><a class="header" href="#51100">51–100</a></h2>
+<h3 id="which"><a class="header" href="#which">which</a></h3>
+<p><strong>Brief: <code>WEU</code> or <code>KH</code></strong></p>
+<p><code>WEUFP</code> and <code>WHEUFP</code> are the words &quot;witch&quot; and &quot;whisp&quot;.</p>
+<h3 id="do"><a class="header" href="#do">do</a></h3>
+<p><strong>Brief: <code>TKO</code></strong></p>
+<p><code>TKAOU</code> and <code>TKAO*U</code> are the words &quot;due&quot; and &quot;dew&quot;.</p>
+<h3 id="their"><a class="header" href="#their">their</a></h3>
+<p><strong>Write-out: <code>THAEUR</code></strong></p>
+<h3 id="time"><a class="header" href="#time">time</a></h3>
+<p><strong>Write-out: <code>TAOEUPL</code></strong></p>
+<h3 id="if"><a class="header" href="#if">if</a></h3>
+<p><strong>Brief: <code>TP</code></strong></p>
+<p>Useful in phrases like <code>TPU</code> &quot;if you&quot; and <code>TP-T</code> &quot;if the&quot;.</p>
+<h3 id="will"><a class="header" href="#will">will</a></h3>
+<p><strong>Brief: <code>HR</code></strong></p>
+<p>Useful in phrases like <code>HRU</code> &quot;will you&quot; and <code>HR-T</code> &quot;will the&quot;.</p>
+<h3 id="way"><a class="header" href="#way">way</a></h3>
+<p><strong>Write-out: <code>WAEU</code></strong></p>
+<h3 id="about"><a class="header" href="#about">about</a></h3>
+<p><strong>Brief: <code>PW</code></strong></p>
+<h3 id="many"><a class="header" href="#many">many</a></h3>
+<p><strong>Brief: <code>PHA*EPB</code></strong></p>
+<h3 id="then"><a class="header" href="#then">then</a></h3>
+<p><strong>Write-out: <code>THEPB</code></strong></p>
+<h3 id="them"><a class="header" href="#them">them</a></h3>
+<p><strong>Write-out: <code>THEPL</code></strong></p>
+<h3 id="would"><a class="header" href="#would">would</a></h3>
+<p><strong>Write-out: <code>WUD</code></strong></p>
+<h3 id="write"><a class="header" href="#write">write</a></h3>
+<p><strong>Write-out: <code>WRAOEUT</code></strong></p>
+<h3 id="like"><a class="header" href="#like">like</a></h3>
+<p><strong>Write-out: <code>HRAOEUBG</code></strong></p>
+<h3 id="so"><a class="header" href="#so">so</a></h3>
+<p><strong>Brief: <code>SO</code></strong></p>
+<p><code>SOE</code> is the word &quot;sow&quot;.</p>
+<h3 id="these"><a class="header" href="#these">these</a></h3>
+<p><strong>Write-out: <code>THAOES</code></strong></p>
+<h3 id="her"><a class="header" href="#her">her</a></h3>
+<p><strong>Write-out: <code>HER</code></strong></p>
+<h3 id="long"><a class="header" href="#long">long</a></h3>
+<p><strong>Write-out: <code>HROPBG</code></strong></p>
+<h3 id="make"><a class="header" href="#make">make</a></h3>
+<p><strong>Write-out: <code>PHAEUBG</code></strong></p>
+<h3 id="thing"><a class="header" href="#thing">thing</a></h3>
+<p><strong>Write-out: <code>THEUPBG</code></strong></p>
+<h3 id="see"><a class="header" href="#see">see</a></h3>
+<p><strong>Write-out: <code>SAOE</code></strong></p>
+<h3 id="him"><a class="header" href="#him">him</a></h3>
+<p><strong>Write-out: <code>HEUPL</code></strong></p>
+<h3 id="two"><a class="header" href="#two">two</a></h3>
+<p><strong>Brief: <code>TWO</code></strong></p>
+<h3 id="has"><a class="header" href="#has">has</a></h3>
+<p><strong>Write-out: <code>HAS</code></strong></p>
+<h3 id="look"><a class="header" href="#look">look</a></h3>
+<p><strong>Write-out: <code>HRAOBG</code></strong></p>
+<h3 id="more"><a class="header" href="#more">more</a></h3>
+<p><strong>Write-out: <code>PHOR</code></strong></p>
+<h3 id="day"><a class="header" href="#day">day</a></h3>
+<p><strong>Write-out: <code>TKAEU</code></strong></p>
+<h3 id="could"><a class="header" href="#could">could</a></h3>
+<p><strong>Write-out: <code>KUD</code></strong></p>
+<h3 id="go"><a class="header" href="#go">go</a></h3>
+<p><strong>Write-out: <code>TKPWOE</code></strong></p>
+<h3 id="come"><a class="header" href="#come">come</a></h3>
+<p><strong>Write-out: <code>KOPL</code></strong></p>
+<h3 id="did"><a class="header" href="#did">did</a></h3>
+<p><strong>Brief: <code>TK</code></strong></p>
+<p>Useful in phrases like <code>TK-T</code> &quot;did the&quot; and <code>TKU</code> &quot;did you&quot;.</p>
+<h3 id="my"><a class="header" href="#my">my</a></h3>
+<p><strong>Write-out: <code>PHAOEU</code></strong></p>
+<h3 id="sound"><a class="header" href="#sound">sound</a></h3>
+<p><strong>Write-out: <code>SOUPBD</code></strong></p>
+<h3 id="no"><a class="header" href="#no">no</a></h3>
+<p><strong>Brief: <code>TPHO</code></strong></p>
+<p><code>TPHOE</code> is the word &quot;know&quot;.</p>
+<h3 id="most"><a class="header" href="#most">most</a></h3>
+<p><strong>Write-out: <code>PHOEFT</code></strong></p>
+<h3 id="number"><a class="header" href="#number">number</a></h3>
+<p><strong>Write-out: <code>TPHUPL/PWER</code></strong></p>
+<h3 id="who"><a class="header" href="#who">who</a></h3>
+<p><strong>Brief: <code>WHO</code></strong></p>
+<p><code>WHAOU</code> is the word &quot;whew&quot;.</p>
+<h3 id="over"><a class="header" href="#over">over</a></h3>
+<p><strong>Write-out: <code>OE/SRER</code></strong></p>
+<h3 id="know"><a class="header" href="#know">know</a></h3>
+<p><strong>Write-out: <code>TPHOE</code></strong></p>
+<h3 id="water"><a class="header" href="#water">water</a></h3>
+<p><strong>Write-out: <code>WAU/TER</code></strong></p>
+<h3 id="than"><a class="header" href="#than">than</a></h3>
+<p><strong>Write-out: <code>THAPB</code></strong></p>
+<h3 id="call"><a class="header" href="#call">call</a></h3>
+<p><strong>Write-out: <code>KAUL</code></strong></p>
+<h3 id="first"><a class="header" href="#first">first</a></h3>
+<p><strong>Brief: <code>TPEUFRT</code></strong></p>
+<p><strong>Write-out: <code>TP*EURS</code></strong></p>
+<p><code>TPEUFRT</code> uses an inversion (violation of steno order) which is more of a briefing technique than a theory rule.</p>
+<h3 id="people"><a class="header" href="#people">people</a></h3>
+<p><strong>Brief: <code>P</code></strong></p>
+<p><strong>Write-out: <code>PAOEPL</code></strong></p>
+<h3 id="may"><a class="header" href="#may">may</a></h3>
+<p><strong>Brief: <code>PHAEU</code></strong></p>
+<h3 id="down"><a class="header" href="#down">down</a></h3>
+<p><strong>Write-out: <code>TKOUPB</code></strong></p>
+<h3 id="side"><a class="header" href="#side">side</a></h3>
+<p><strong>Write-out: <code>SAOEUD</code></strong></p>
+<h3 id="been"><a class="header" href="#been">been</a></h3>
+<p><strong>Brief: <code>PW-PB</code></strong></p>
+<h3 id="now"><a class="header" href="#now">now</a></h3>
+<p><strong>Write-out: <code>TPHOU</code></strong></p>
+<h3 id="find"><a class="header" href="#find">find</a></h3>
+<p><strong>Write-out: <code>TPAOEUPBD</code></strong></p>
+<h2 id="101150"><a class="header" href="#101150">101–150</a></h2>
+<h3 id="any"><a class="header" href="#any">any</a></h3>
+<p><strong>Brief: <code>TPHEU</code></strong></p>
+<h3 id="new"><a class="header" href="#new">new</a></h3>
+<p><strong>Brief: <code>TPHU</code></strong></p>
+<p><code>TPHAOU</code> is the word &quot;knew&quot;</p>
+<h3 id="work"><a class="header" href="#work">work</a></h3>
+<p><strong>Write-out: <code>WORBG</code></strong></p>
+<h3 id="part"><a class="header" href="#part">part</a></h3>
+<p><strong>Write-out: <code>PART</code></strong></p>
+<h3 id="take"><a class="header" href="#take">take</a></h3>
+<p><strong>Write-out: <code>TAEUBG</code></strong></p>
+<h3 id="get"><a class="header" href="#get">get</a></h3>
+<p><strong>Write-out: <code>TKPWET</code></strong></p>
+<h3 id="place"><a class="header" href="#place">place</a></h3>
+<p><strong>Write-out: <code>PHRAEUS</code></strong></p>
+<h3 id="made"><a class="header" href="#made">made</a></h3>
+<p><strong>Write-out: <code>PHAED</code></strong></p>
+<h3 id="live"><a class="header" href="#live">live</a></h3>
+<p><strong>Write-out: <code>HREUF</code></strong></p>
+<h3 id="where"><a class="header" href="#where">where</a></h3>
+<p><strong>Brief: <code>W-R</code></strong></p>
+<p><strong>Write-out: <code>WHER</code></strong></p>
+<h3 id="after"><a class="header" href="#after">after</a></h3>
+<p><strong>Brief: <code>AF</code> or <code>AFR</code></strong></p>
+<p><strong>Write-out: <code>AF/TER</code></strong></p>
+<h3 id="back"><a class="header" href="#back">back</a></h3>
+<p><strong>Write-out: <code>PWABG</code></strong></p>
+<h3 id="little"><a class="header" href="#little">little</a></h3>
+<p><strong>Brief: <code>HREUL</code></strong></p>
+<p><strong>Write-out: <code>HREUT/-L</code></strong></p>
+<h3 id="only"><a class="header" href="#only">only</a></h3>
+<p><strong>Brief: <code>OEPBL</code></strong></p>
+<p><strong>Write-out: <code>OEPB/HREU</code></strong></p>
+<h3 id="round"><a class="header" href="#round">round</a></h3>
+<p><strong>Write-out: <code>ROUPBD</code></strong></p>
+<h3 id="man"><a class="header" href="#man">man</a></h3>
+<p><strong>Write-out: <code>PHAPB</code></strong></p>
+<h3 id="year"><a class="header" href="#year">year</a></h3>
+<p><strong>Write-out: <code>KWRAO*ER</code></strong></p>
+<h3 id="came"><a class="header" href="#came">came</a></h3>
+<p><strong>Write-out: <code>KAEUPL</code></strong></p>
+<h3 id="show"><a class="header" href="#show">show</a></h3>
+<p><strong>Write-out: <code>SHOE</code></strong></p>
+<h3 id="every"><a class="header" href="#every">every</a></h3>
+<p><strong>Brief: <code>EFR</code></strong></p>
+<h3 id="good"><a class="header" href="#good">good</a></h3>
+<p><strong>Write-out: <code>TKPWAOD</code></strong></p>
+<h3 id="me"><a class="header" href="#me">me</a></h3>
+<p><strong>Write-out: <code>PHAOE</code></strong></p>
+<h3 id="give"><a class="header" href="#give">give</a></h3>
+<p><strong>Write-out: <code>TKPWEUF</code></strong></p>
+<h3 id="our"><a class="header" href="#our">our</a></h3>
+<p><strong>Write-out: <code>OUR</code></strong></p>
+<h3 id="under"><a class="header" href="#under">under</a></h3>
+<p><strong>Brief: <code>TPH-PB</code> or <code>UPBD</code></strong></p>
+<p><strong>Write-out: <code>UPB/TK*ER</code></strong></p>
+<p><code>UPB/TKER</code> is the &quot;under-&quot; prefix.</p>
+<h3 id="name"><a class="header" href="#name">name</a></h3>
+<p><strong>Write-out: <code>TPHAEUPL</code></strong></p>
+<h3 id="very"><a class="header" href="#very">very</a></h3>
+<p><strong>Brief: <code>SRE</code></strong></p>
+<p><strong>Write-out: <code>SRER/KWREU</code></strong></p>
+<h3 id="through"><a class="header" href="#through">through</a></h3>
+<p><strong>Brief: <code>THRU</code></strong></p>
+<p><code>THRAOU</code> is the word &quot;threw&quot;.</p>
+<h3 id="just"><a class="header" href="#just">just</a></h3>
+<p><strong>Write-out: <code>SKWRUFT</code></strong></p>
+<h3 id="form"><a class="header" href="#form">form</a></h3>
+<p><strong>Write-out: <code>TPORPL</code></strong></p>
+<h3 id="much"><a class="header" href="#much">much</a></h3>
+<p><strong>Write-out: <code>PHUFP</code></strong></p>
+<h3 id="great"><a class="header" href="#great">great</a></h3>
+<p><strong>Write-out: <code>TKPWRAET</code></strong></p>
+<h3 id="think"><a class="header" href="#think">think</a></h3>
+<p><strong>Brief: <code>THEU</code></strong></p>
+<p><strong>Write-out: <code>TH*EUPBG</code></strong></p>
+<p>If you're having trouble with the awkward write-out, use the brief instead.</p>
+<h3 id="say"><a class="header" href="#say">say</a></h3>
+<p><strong>Write-out: <code>SAEU</code></strong></p>
+<h3 id="help"><a class="header" href="#help">help</a></h3>
+<p><strong>Brief: <code>HEP</code></strong></p>
+<p><strong>Write-out: <code>HEL/-P</code></strong></p>
+<h3 id="low"><a class="header" href="#low">low</a></h3>
+<p><strong>Write-out: <code>HROE</code></strong></p>
+<h3 id="line"><a class="header" href="#line">line</a></h3>
+<p><strong>Write-out: <code>HRAOEUPB</code></strong></p>
+<h3 id="before"><a class="header" href="#before">before</a></h3>
+<p><strong>Brief: <code>PW-FR</code></strong></p>
+<p><strong>Write-out: <code>PWE/TPOR</code></strong></p>
+<h3 id="turn"><a class="header" href="#turn">turn</a></h3>
+<p><strong>Write-out: <code>TURPB</code></strong></p>
+<h3 id="cause"><a class="header" href="#cause">cause</a></h3>
+<p><strong>Write-out: <code>KAUS</code></strong></p>
+<h3 id="same"><a class="header" href="#same">same</a></h3>
+<p><strong>Write-out: <code>SAEUPL</code></strong></p>
+<h3 id="mean"><a class="header" href="#mean">mean</a></h3>
+<p><strong>Write-out: <code>PHAOEPB</code></strong></p>
+<h3 id="differ"><a class="header" href="#differ">differ</a></h3>
+<p><strong>Brief: <code>TKEUFR</code></strong></p>
+<p><strong>Write-out: <code>TKEU/TPER</code></strong></p>
+<h3 id="move"><a class="header" href="#move">move</a></h3>
+<p><strong>Write-out: <code>PHAOUF</code></strong></p>
+<h3 id="right"><a class="header" href="#right">right</a></h3>
+<p><strong>Write-out: <code>RAOEUT</code></strong></p>
+<h3 id="boy"><a class="header" href="#boy">boy</a></h3>
+<p><strong>Write-out: <code>PWOEU</code></strong></p>
+<h3 id="old"><a class="header" href="#old">old</a></h3>
+<p><strong>Write-out: <code>OELD</code></strong></p>
+<h3 id="too"><a class="header" href="#too">too</a></h3>
+<p><strong>Write-out: <code>TAO</code></strong></p>
+<h3 id="does"><a class="header" href="#does">does</a></h3>
+<p><strong>Write-out: <code>TKOS</code></strong></p>
+<h3 id="tell"><a class="header" href="#tell">tell</a></h3>
+<p><strong>Write-out: <code>TEL</code></strong></p>
+<h2 id="151200"><a class="header" href="#151200">151–200</a></h2>
+<h3 id="sentence"><a class="header" href="#sentence">sentence</a></h3>
+<p><strong>Brief: <code>STEPBS</code></strong></p>
+<p><strong>Write-out: <code>SEPB/TEPBS</code></strong></p>
+<h3 id="set"><a class="header" href="#set">set</a></h3>
+<p><strong>Write-out: <code>SET</code></strong></p>
+<h3 id="three"><a class="header" href="#three">three</a></h3>
+<p><strong>Write-out: <code>THRAOE</code></strong></p>
+<h3 id="want"><a class="header" href="#want">want</a></h3>
+<p><strong>Write-out: <code>WAPBT</code></strong></p>
+<h3 id="air"><a class="header" href="#air">air</a></h3>
+<p><strong>Write-out: <code>AEUR</code></strong></p>
+<h3 id="well"><a class="header" href="#well">well</a></h3>
+<p><strong>Write-out: <code>WEL</code></strong></p>
+<h3 id="also"><a class="header" href="#also">also</a></h3>
+<p><strong>Brief: <code>HR-S</code></strong></p>
+<h3 id="play"><a class="header" href="#play">play</a></h3>
+<p><strong>Write-out: <code>PHRAEU</code></strong></p>
+<h3 id="small"><a class="header" href="#small">small</a></h3>
+<p><strong>Write-out: <code>SPHAUL</code></strong></p>
+<h3 id="end"><a class="header" href="#end">end</a></h3>
+<p><strong>Write-out: <code>EPBD</code></strong></p>
+<h3 id="put"><a class="header" href="#put">put</a></h3>
+<p><strong>Write-out: <code>PUT</code></strong></p>
+<h3 id="home"><a class="header" href="#home">home</a></h3>
+<p><strong>Write-out: <code>HOEPL</code></strong></p>
+<h3 id="read"><a class="header" href="#read">read</a></h3>
+<p><strong>Write-out: <code>RAED</code></strong></p>
+<h3 id="hand"><a class="header" href="#hand">hand</a></h3>
+<p><strong>Write-out: <code>HAPBD</code></strong></p>
+<h3 id="port"><a class="header" href="#port">port</a></h3>
+<p><strong>Write-out: <code>PORT</code></strong></p>
+<h3 id="large"><a class="header" href="#large">large</a></h3>
+<p><strong>Write-out: <code>HRARPBLG</code></strong></p>
+<h3 id="spell"><a class="header" href="#spell">spell</a></h3>
+<p><strong>Write-out: <code>SPEL</code></strong></p>
+<h3 id="add"><a class="header" href="#add">add</a></h3>
+<p><strong>Write-out: <code>AD</code></strong></p>
+<h3 id="even"><a class="header" href="#even">even</a></h3>
+<p><strong>Brief: <code>AOEFPB</code></strong></p>
+<h3 id="land"><a class="header" href="#land">land</a></h3>
+<p><strong>Write-out: <code>HRAPBD</code></strong></p>
+<h3 id="here"><a class="header" href="#here">here</a></h3>
+<p><strong>Write-out: <code>HAOER</code></strong></p>
+<h3 id="must"><a class="header" href="#must">must</a></h3>
+<p><strong>Write-out: <code>PHUFT</code></strong></p>
+<h3 id="big"><a class="header" href="#big">big</a></h3>
+<p><strong>Write-out: <code>PWEUG</code></strong></p>
+<h3 id="high"><a class="header" href="#high">high</a></h3>
+<p><strong>Write-out: <code>HAOEU</code></strong></p>
+<h3 id="such"><a class="header" href="#such">such</a></h3>
+<p><strong>Write-out: <code>SUFP</code></strong></p>
+<h3 id="follow"><a class="header" href="#follow">follow</a></h3>
+<p><strong>Brief: <code>TPOL</code></strong></p>
+<p><strong>Write-out: <code>TPO/HROE</code></strong></p>
+<h3 id="act"><a class="header" href="#act">act</a></h3>
+<p><strong>Write-out: <code>ABGT</code></strong></p>
+<h3 id="why"><a class="header" href="#why">why</a></h3>
+<p><strong>Brief: <code>KWR</code></strong></p>
+<p>Useful in phrases such as <code>KWR-R</code> &quot;why are&quot; and <code>KWR-T</code> &quot;why the&quot;</p>
+<h3 id="ask"><a class="header" href="#ask">ask</a></h3>
+<p><strong>Brief: <code>SK</code></strong></p>
+<p><strong>Write-out: <code>AFBG</code></strong></p>
+<h3 id="men"><a class="header" href="#men">men</a></h3>
+<p><strong>Write-out: <code>PHEPB</code></strong></p>
+<h3 id="change"><a class="header" href="#change">change</a></h3>
+<p><strong>Write-out: <code>KHAEUPBG</code></strong></p>
+<h3 id="went"><a class="header" href="#went">went</a></h3>
+<p><strong>Write-out: <code>WEPBT</code></strong></p>
+<h3 id="light"><a class="header" href="#light">light</a></h3>
+<p><strong>Write-out: <code>HRAOEUT</code></strong></p>
+<p>If you feel that &quot;lite&quot; should be written <code>HRAOEUT</code>, feel free to swap these around. However, &quot;lite&quot; is quite a bit more uncommon that I feel it should be given the asterisk.</p>
+<h3 id="kind"><a class="header" href="#kind">kind</a></h3>
+<p><strong>Write-out: <code>KAOEUPBD</code></strong></p>
+<h3 id="off"><a class="header" href="#off">off</a></h3>
+<p><strong>Write-out: <code>OF</code></strong></p>
+<h3 id="need"><a class="header" href="#need">need</a></h3>
+<p><strong>Write-out: <code>TPHAOED</code></strong></p>
+<h3 id="house"><a class="header" href="#house">house</a></h3>
+<p><strong>Write-out: <code>HOUS</code></strong></p>
+<h3 id="picture"><a class="header" href="#picture">picture</a></h3>
+<p>**Brief: <code>P*EUFP</code> **</p>
+<p><strong>Write-out: <code>PEUBG/KHUR</code></strong></p>
+<h3 id="try"><a class="header" href="#try">try</a></h3>
+<p><strong>Brief: <code>TREU</code></strong></p>
+<p><code>TRAOEU</code> is the &quot;tri-&quot; prefix.</p>
+<h3 id="us"><a class="header" href="#us">us</a></h3>
+<p><strong>Write-out: <code>US</code></strong></p>
+<h3 id="again"><a class="header" href="#again">again</a></h3>
+<p><strong>Brief: <code>TKPWEPB</code></strong></p>
+<p><strong>Write-out: <code>A/TKPWEPB</code> or <code>A/TKPWAEUPB</code></strong></p>
+<p>Just like with <a href="#said">said</a>, the spelling of this word makes a write-out entry ambiguous and slightly impractical.</p>
+<h3 id="animal"><a class="header" href="#animal">animal</a></h3>
+<p><strong>Brief: <code>PHAPBL</code> or <code>APB/PHAL</code></strong></p>
+<p><strong>Write-out: <code>A/TPHEU/PHAL</code></strong></p>
+<p>The one-stroke brief completely violates steno order. The two-stroke brief drops the &quot;i&quot; vowel as it is unstressed (unemphasized).</p>
+<h3 id="point"><a class="header" href="#point">point</a></h3>
+<p><strong>Write-out: <code>POEUPBT</code></strong></p>
+<h3 id="mother"><a class="header" href="#mother">mother</a></h3>
+<p><strong>Brief: <code>PHOER</code></strong></p>
+<p><strong>Write-out: <code>PHO/THER</code></strong></p>
+<h3 id="world"><a class="header" href="#world">world</a></h3>
+<p><strong>Write-out: <code>WORLD</code></strong></p>
+<h3 id="near"><a class="header" href="#near">near</a></h3>
+<p><strong>Write-out: <code>TPHAOER</code></strong></p>
+<h3 id="build"><a class="header" href="#build">build</a></h3>
+<p><strong>Write-out: <code>PWEULD</code></strong></p>
+<h3 id="self"><a class="header" href="#self">self</a></h3>
+<p><strong>Brief: <code>SEFL</code></strong></p>
+<p><strong>Write-out: <code>SEL/*F</code></strong></p>
+<p>Remember to use <code>*F</code> when <a href="Chapter-12.html#when-sounds-cant-follow-steno-order">ending a word</a> with the &quot;f&quot; sound.</p>
+<h3 id="earth"><a class="header" href="#earth">earth</a></h3>
+<p><strong>Write-out: <code>*ERT</code></strong></p>
+<h3 id="father"><a class="header" href="#father">father</a></h3>
+<p><strong>Brief: <code>TPA*URT</code></strong></p>
+<p><strong>Write-out: <code>TPAU/THER</code></strong></p>
+<h2 id="chapter-16-test"><a class="header" href="#chapter-16-test">Chapter 16 test</a></h2>
+<p>This chapter's test consists of the words listed on this page. Use the following settings:</p>
+<p><img src="img/5-test-settings.png" alt="" /></p>
+<ul>
+<li>Limit word count: 45</li>
+<li>Start from word: 1</li>
+<li>Repetitions: 3</li>
+<li>Sort: random</li>
+<li>Show hint for every word: unchecked</li>
+<li>Hide hint on last repetition: unchecked</li>
+<li>Show hint on misstroke: checked</li>
+</ul>
+<p><a href="practice/16-test.txt">Click here to access the chapter 16 test</a></p>
+<h3 id="recommended-completion-goal"><a class="header" href="#recommended-completion-goal">Recommended completion goal</a></h3>
+<p>This is only a suggestion; it is not a requirement to move to the next chapter!</p>
+<p><strong>Aim for 10–40 WPM with 90% accuracy.</strong></p>
+<p><strong>You may use the test material as practice!</strong></p>
+
+                        </div>
+                        <div class="sidetoc">
+                            <nav class="pagetoc"></nav>
+                        </div>
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="Chapter-15.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="Chapter-17.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="Chapter-15.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="Chapter-17.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+        <script src="theme/pagetoc.js"></script>
+
+
+    </div>
+    </body>
+</html>

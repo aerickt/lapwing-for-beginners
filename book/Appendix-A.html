@@ -1,0 +1,412 @@
+<!DOCTYPE HTML>
+<html lang="en" class="light" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Appendix A: Switching to Lapwing from Plover - Lapwing for Beginners</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="theme/pagetoc.css">
+
+    </head>
+    <body class="sidebar-visible no-js">
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('light')
+            html.classList.add(theme);
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var body = document.querySelector('body');
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="Chapter-01.html">Chapter 1: Introduction</a></li><li class="chapter-item expanded affix "><a href="Chapter-02.html">Chapter 2: Steno hardware and software</a></li><li class="chapter-item expanded affix "><a href="Chapter-03.html">Chapter 3: How to learn steno</a></li><li class="chapter-item expanded affix "><a href="Chapter-04.html">Chapter 4: The layout</a></li><li class="chapter-item expanded affix "><a href="Chapter-05.html">Chapter 5: Lapwing setup and basics</a></li><li class="chapter-item expanded affix "><a href="Chapter-06.html">Chapter 6: Left hand consonants continued</a></li><li class="chapter-item expanded affix "><a href="Chapter-07.html">Chapter 7: Vowels</a></li><li class="chapter-item expanded affix "><a href="Chapter-08.html">Chapter 8: Vowels continued</a></li><li class="chapter-item expanded affix "><a href="Chapter-09.html">Chapter 9: Right hand chords</a></li><li class="chapter-item expanded affix "><a href="Chapter-10.html">Chapter 10: Right hand chords continued</a></li><li class="chapter-item expanded affix "><a href="Chapter-11.html">Chapter 11: Right hand compound clusters</a></li><li class="chapter-item expanded affix "><a href="Chapter-12.html">Chapter 12: Wrapping up basic words</a></li><li class="chapter-item expanded affix "><a href="Chapter-13.html">Chapter 13: Prefixes and suffixes</a></li><li class="chapter-item expanded affix "><a href="Chapter-14.html">Chapter 14: Suffix keys and compound words</a></li><li class="chapter-item expanded affix "><a href="Chapter-15.html">Chapter 15: Syllabic splitting</a></li><li class="chapter-item expanded affix "><a href="Chapter-16.html">Chapter 16: Top 200 common English words</a></li><li class="chapter-item expanded affix "><a href="Chapter-17.html">Chapter 17: Fingerspelling and numbers</a></li><li class="chapter-item expanded affix "><a href="Chapter-18.html">Chapter 18: Proper nouns</a></li><li class="chapter-item expanded affix "><a href="Chapter-19.html">Chapter 19: Punctuation and commands</a></li><li class="chapter-item expanded affix "><a href="Chapter-20.html">Chapter 20: UK spellings</a></li><li class="chapter-item expanded affix "><a href="Chapter-21.html">Chapter 21: Theory principles wrap-up</a></li><li class="chapter-item expanded affix "><a href="Chapter-22.html">Chapter 22: End of basic theory</a></li><li class="chapter-item expanded affix "><a href="Chapter-23.html">Chapter 23: Phrase briefs</a></li><li class="chapter-item expanded affix "><a href="Chapter-24.html">Chapter 24: Lapwing briefing techniques</a></li><li class="chapter-item expanded affix "><a href="Chapter-25.html">Chapter 25: Symbols and modifiers</a></li><li class="chapter-item expanded affix "><a href="Chapter-26.html">Chapter 26: Editing text</a></li><li class="chapter-item expanded affix "><a href="Appendix-A.html" class="active">Appendix A: Switching to Lapwing from Plover</a></li><li class="chapter-item expanded affix "><a href="Appendix-B.html">Appendix B: Setting up Lapwing manually</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Lapwing for Beginners</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <div class="content-wrap">
+                            <p>If you have learned Plover theory and are considering switching to Lapwing, have a read through of this page before deciding!</p>
+<h1 id="plover-theory"><a class="header" href="#plover-theory">Plover Theory</a></h1>
+<p>Plover theory is a perfectly capable theory. After all, Mirabai Knight, the founder of the Open Steno Project, uses it in her professional work as a stenocaptioner. She has graciously provided her own dictionary (<code>main.json</code>) for us hobbyists to use. As with all professional stenographers, she built the majority of this dictionary by herself, having added many of the entries over the years.</p>
+<p>However, everyone writes differently. In fact, no two stenographers' dictionaries are ever the same. Many of the entries in <code>main.json</code> are simply what made sense to Mirabai at the time. They do not always follow systematic and rigorous rules. Plover theory itself is not very well defined in some areas; to illustrate this, have a look at all the ways to write &quot;monotonous&quot; in <code>main.json</code>:</p>
+<pre><code>&quot;PHO/TPHOT/TPHOUS&quot;: &quot;monotonous&quot;,
+&quot;PHOE/TPHOT/TPHOUS&quot;: &quot;monotonous&quot;,
+&quot;PHOE/TPHOT/TPHUS&quot;: &quot;monotonous&quot;,
+&quot;PHOPB/OT/TPHOUS&quot;: &quot;monotonous&quot;,
+&quot;PHOPB/OT/TPHUS&quot;: &quot;monotonous&quot;,
+&quot;PHOPB/TOPB/TPHUS&quot;: &quot;monotonous&quot;,
+&quot;PHOPB/TPHOT/TPHOUS&quot;: &quot;monotonous&quot;,
+</code></pre>
+<p>There are many different ways to write this word simply because there are no simple rules when it comes to splitting multisyllable words. This would be fine if the dictionary contained every single valid combination, but it doesn't. After all, it is a very time consuming task to add multiple entries for every single word. In the above example, <code>PHOPB/TPHOT/TPHUS</code> is missing.</p>
+<p>The learning resources such as Learn Plover! and Art of Chording also do not mention any rules about doubling consonants between strokes or about using <code>OUS</code> vs <code>US</code>. While, I can advise against using <code>US</code> from having used <code>main.json</code> for a year, it is much harder for me to give a recommendation when it comes to doubling consonants in multisyllable words. It is just poorly defined, and the dictionary does not contain any easy to recognize patterns.</p>
+<p>One more issue with <code>main.json</code> that is illustrated in the example above is the fact that many write-out entries require briefing techniques. In this case, you must drop the third &quot;o&quot; in &quot;monotonous&quot; since it is unstressed in order to write it out. This is fine for speed, but can be confusing for learners.</p>
+<p>The common wisdom to work around these issues (if you would like to stick with Plover theory and <code>main.json</code>) is to simply just add entries to fill in these gaps. If you do not want to have to drop unstressed vowels, just add the entry yourself. If you disagree with the dictionary's preference towards <code>OUS</code>, it's trivial to add the alternative entries. After all, there is no such thing as a &quot;complete&quot; dictionary and stenographers constantly tweak their own.</p>
+<p>However, I disagree with the notion that learners should be doing this right from the start. This is my motivation behind creating Lapwing theory. It is basically &quot;Plover theory but more defined&quot; in that there is always one outline that is correct for a given pronunciation.</p>
+<p>I've also gone more into detail about my motivation behind creating Lapwing theory on my <a href="https://aerick.ca/steno/dictionary-building">personal website</a>.</p>
+<h1 id="lapwing-theory"><a class="header" href="#lapwing-theory">Lapwing theory</a></h1>
+<p>I created the initial Lapwing dictionary in early 2022 and have been refining it since then. So far, it is in a more or less stable state; I only add miscellaneous entries that I come across in my daily computer usage, or remove bad entries that I discover.</p>
+<h2 id="you-should-not-learn-lapwing-theory-if"><a class="header" href="#you-should-not-learn-lapwing-theory-if">You should not learn Lapwing theory if...</a></h2>
+<ol>
+<li>... you have your own rules to work around the inconsistencies of Plover.</li>
+<li>... you have added well over a few hundred entries already.</li>
+<li>... you brief quite heavily and have memorized many of those <code>main.json</code>.
+<ul>
+<li>Lapwing does contain many briefs, but it is still missing quite a few briefs from <code>main.json</code></li>
+</ul>
+</li>
+<li>... you prefer the openness of Plover theory and have adapted your dictionary to your writing style.</li>
+<li>... you dislike the notion of having a single &quot;correct&quot; way to write out a word.</li>
+<li>... you are looking for a theory that is not North American centric.
+<ul>
+<li>Sadly, there are currently no freely available steno theories (that I know of) based on non-North American variants of English.</li>
+</ul>
+</li>
+</ol>
+<h3 id="using-both-mainjson-and-lapwing-basejson"><a class="header" href="#using-both-mainjson-and-lapwing-basejson">Using both <code>main.json</code> and <code>lapwing-base.json</code></a></h3>
+<p>Some recommend using both <code>main.json</code> and <code>lapwing-base.json</code> in their dictionary stack. This is a great way to slowly teach yourself Lapwing without giving up all your progress on stock Plover. If you've memorized briefs in <code>main.json</code> that aren't in Lapwing, this is also a great way to address this issue should you wish to incorporate aspects of Lapwing theory.</p>
+<p>However, compound words in <code>main.json</code> are quite haphazard, so some users recommend using a derivative of <code>main.json</code> with these removed. You can download this dictionary <a href="https://cdn.discordapp.com/attachments/1034561356361367683/1189880098082525245/main-without-compounds.json">here</a>. Just make sure to keep <code>lapwing-base.json</code> at a higher priority.</p>
+<h2 id="differences"><a class="header" href="#differences">Differences</a></h2>
+<p>To switch to Lapwing theory from Plover theory, you do not necessarily need to work through every single chapter in Lapwing for Beginners. Below is a summary of the differences between Plover and Lapwing. The relevant chapters are also linked, and it is recommended you read these complete the exercises. You can assume anything not listed to be equivalent to Plover theory.</p>
+<p>If you would still like to switch to Lapwing theory, I recommend reading through this entire section (and skimming the linked chapters) before finally deciding if trying it out is for you.</p>
+<h3 id="top-s-number-key"><a class="header" href="#top-s-number-key">Top S number key</a></h3>
+<p>Lapwing theory uses the number key quite extensively for proper nouns (and sometimes as another disambiguator). The number bar on professional machines is in an inconvenient location. Furthermore, the finger you use differs depending on the other keys in the stroke. It is also not possible to include the number key in every single chord.</p>
+<p>Thumb number keys (thumber keys) aren't much better either. It is impossible to write <code>#AOEU</code>, for example. Instead, Lapwing theory relocates the number key to the top S key on the left.</p>
+<p><img src="img/2-key-positions.png" alt="" /></p>
+<p>Please see <a href="Chapter-05.html">chapter 5</a> to configure Plover to use this key.</p>
+<h3 id="kwr-for-y"><a class="header" href="#kwr-for-y"><code>KWR*</code> for y</a></h3>
+<p>Use <code>KWR*</code> for the initial &quot;y&quot; consonant.</p>
+<ul>
+<li>yes <code>KWR*ES</code></li>
+<li>yurt <code>KWR*URT</code></li>
+</ul>
+<p>Please see <a href="Chapter-06.html">chapter 6</a> for practice.</p>
+<p>Note that this only applies to words that are spelled with a y. Words spelled without a y use no initial consonant chord.</p>
+<ul>
+<li>use <code>AOUS</code></li>
+<li>utility <code>AOU/TEUL/TEU</code></li>
+</ul>
+<h3 id="tp-for-ph"><a class="header" href="#tp-for-ph"><code>TP*</code> for ph</a></h3>
+<p>Use <code>TP*</code> for the initial &quot;ph&quot; consonant.</p>
+<ul>
+<li>phone <code>TPO*EPB</code></li>
+<li>photo <code>TPO*E/TOE</code></li>
+</ul>
+<h3 id="wr-for-wr"><a class="header" href="#wr-for-wr"><code>WR</code> for wr</a></h3>
+<p>Use <code>WR</code> for the initial &quot;wr&quot; consonant.</p>
+<ul>
+<li>wrap <code>WRAP</code></li>
+<li>write <code>WRAOEUT</code></li>
+</ul>
+<h3 id="wh-for-wh"><a class="header" href="#wh-for-wh"><code>WH</code> for wh</a></h3>
+<p>Use <code>WH</code> for the initial &quot;wh-&quot; consonant.</p>
+<ul>
+<li>when <code>WHEPB</code></li>
+<li>white <code>WHAOEUT</code></li>
+</ul>
+<h3 id="usage-of-au"><a class="header" href="#usage-of-au">Usage of <code>AU</code></a></h3>
+<p>The <code>AU</code> vowel has the same sound as <code>O</code> as in &quot;b<ins>o</ins>t&quot;, but is used in words that are not spelled with a single o.</p>
+<ul>
+<li>bought <code>PWAUT</code></li>
+<li>watt <code>WAUT</code></li>
+</ul>
+<p>Please see <a href="Chapter-08.html">chapter 8</a> for practice.</p>
+<h3 id="pl-for-mp"><a class="header" href="#pl-for-mp"><code>*PL</code> for mp</a></h3>
+<p>Unlike Plover theory, Lapwing exclusively uses <code>*PL</code> for the ending &quot;-mp&quot; sound.</p>
+<ul>
+<li>bump <code>PW*UPL</code></li>
+<li>lamp <code>HRA*PL</code></li>
+</ul>
+<p>Please see <a href="Chapter-09.html">chapter 9</a> for practice.</p>
+<h3 id="-plt-for-ment"><a class="header" href="#-plt-for-ment"><code>-PLT</code> for ment</a></h3>
+<p>Use <code>-PLT</code> as a compound cluster for &quot;-ment&quot;.</p>
+<ul>
+<li>garment <code>TKPWARPLT</code></li>
+<li>torment <code>TORPLT</code></li>
+</ul>
+<p>Please see <a href="Chapter-11.html">chapter 11</a> for practice.</p>
+<h3 id="-lt-for-let"><a class="header" href="#-lt-for-let"><code>-LT</code> for let</a></h3>
+<p>Use <code>-LT</code> as a compound cluster for &quot;-let&quot;.</p>
+<ul>
+<li>starlet <code>STARLT</code></li>
+<li>roulette <code>RAOULT</code></li>
+</ul>
+<p>Please see <a href="Chapter-11.html">chapter 11</a> for practice.</p>
+<h3 id="kr-to-resolve-c-conflicts"><a class="header" href="#kr-to-resolve-c-conflicts"><code>KR</code> to resolve c conflicts</a></h3>
+<p>Use <code>KR</code> for the initial c consonant when there is a conflicting word.</p>
+<ul>
+<li>cent <code>KREPBT</code>
+<ul>
+<li>As <code>SEPBT</code> is already &quot;sent&quot;</li>
+</ul>
+</li>
+<li>cite <code>KRAOEUT</code>
+<ul>
+<li>As <code>SAOEUT</code> is already &quot;sight&quot;</li>
+</ul>
+</li>
+</ul>
+<h3 id="basic-words-miscellaneous-theory"><a class="header" href="#basic-words-miscellaneous-theory">Basic words miscellaneous theory</a></h3>
+<p>Make sure to read <a href="Chapter-12.html">chapter 12</a> for wrapping up basic words. It especially covers scenarios where you must write single syllable words with more than one stroke.</p>
+<h3 id="prefixes-and-suffixes"><a class="header" href="#prefixes-and-suffixes">Prefixes and suffixes</a></h3>
+<p>Lapwing theory prioritizes prefix and suffix strokes for the most &quot;obvious&quot; outlines. For example, <code>OUT</code> is given to the <code>{out^}</code> prefix so you must use <code>O*UT</code> or <code>AOUT</code> to write the word &quot;out&quot;.</p>
+<p>Suffixes usually use <code>KWR</code> as a linker chord. This chord signifies that the stroke should attach to the previous word. For example, to write the word &quot;flotation&quot;, you would write <code>TPHROET/KWRAEUGS</code>.</p>
+<p>You should also only use prefixes and suffixes when it semantically makes sense. For example, you would not write the &quot;er&quot; in the word &quot;coriander&quot; using the <code>{^er}</code> suffix since &quot;coriand&quot; is not a root word that the suffix is modifying.</p>
+<p>Make sure to read <a href="Chapter-13.html">chapter 13</a> for more detail on how prefixes and suffixes work.</p>
+<p>Here are some common prefix strokes that take precedence over words:</p>
+<div class="table-wrapper"><table><thead><tr><th>Prefix/word</th><th>Prefix Outline</th><th>Recommended word outline(s)</th><th>Explanation</th></tr></thead><tbody>
+<tr><td>a</td><td><code>A</code></td><td><code>AEU</code></td><td><code>A*</code> is already used.</td></tr>
+<tr><td>bi^ (by)</td><td><code>PWAOEU</code></td><td><code>PWEU</code></td><td>There is a three way conflict between &quot;by&quot;, &quot;bye&quot;, and &quot;buy&quot;.</td></tr>
+<tr><td>be</td><td><code>PWE</code></td><td><code>-B</code></td><td>Useful in phrase briefs.</td></tr>
+<tr><td>for</td><td><code>TPOR</code></td><td><code>TP-R</code> or <code>TPAURT</code></td><td>Useful in phrases like &quot;for the&quot; <code>TP-RT</code>.</td></tr>
+<tr><td>in</td><td><code>EUPB</code></td><td><code>TPH</code></td><td>Useful in phrases like &quot;in the&quot; <code>TPH-T</code>.</td></tr>
+<tr><td>or</td><td><code>OR</code></td><td><code>AOUR</code> or <code>AUR</code></td><td><code>O*R</code> is already used.</td></tr>
+<tr><td>out</td><td><code>OUT</code></td><td><code>O*UT</code> or <code>AOUT</code></td><td>Either works.</td></tr>
+<tr><td>on</td><td><code>OPB</code></td><td><code>O*PB</code> or <code>AUPB</code></td><td>Either works.</td></tr>
+<tr><td>tri^ (try)</td><td><code>TRAOEU</code></td><td><code>TRAO*EU</code> or <code>TREU</code></td><td>The first is the more &quot;formal&quot; outline, but the second matches the pattern with &quot;by&quot;.</td></tr>
+</tbody></table>
+</div>
+<p>Multistroke prefixes also take precedence over multistroke words (e.g., <code>UPB/TKER</code> is the prefix &quot;under-&quot;) and in these cases the word variant is written by using the asterisk key in the second stroke.</p>
+<h3 id="compound-words"><a class="header" href="#compound-words">Compound words</a></h3>
+<p>Compound words are written by including the asterisk in the first stroke of the second word.</p>
+<ul>
+<li>eyelash <code>AOEU/HRA*RB</code></li>
+<li>grasshopper <code>TKPWRAS/HO*P/*ER</code></li>
+</ul>
+<p>Please see <a href="Chapter-14.html">chapter 14</a> for more details.</p>
+<h3 id="syllabic-splitting"><a class="header" href="#syllabic-splitting">Syllabic splitting</a></h3>
+<p>Lapwing theory uses a strict method of splitting syllables. In short, every single stroke should start with a consonant (or <code>KWR</code>) and should not double the same consonant sound across two strokes.</p>
+<ul>
+<li>bunion <code>PWUPB/KWROPB</code></li>
+<li>conscientious <code>KOPB/SHEU/KWREPB/-RBS</code></li>
+<li>monotonous <code>PHO/TPHO/TO/TPHUS</code></li>
+<li>shatter <code>SHA/TER</code></li>
+<li>tomato <code>TO/PHAEU/TOE</code></li>
+<li>violet <code>SRAOEU/KWROLT</code></li>
+</ul>
+<p>This is one of Lapwing's key differences, so be sure to read <a href="Chapter-15.html">chapter 15</a>.</p>
+<h3 id="right-hand-numberpad"><a class="header" href="#right-hand-numberpad">Right hand numberpad</a></h3>
+<p>Numbers are written one digit at a time using a right hand numberpad and the number key.</p>
+<p><img src="img/17-numbers.png" alt="numbers" /></p>
+<p>Please see <a href="Chapter-17.html">chapter 17</a> for more details.</p>
+<h3 id="proper-nouns"><a class="header" href="#proper-nouns">Proper nouns</a></h3>
+<p>Proper nouns are written by including the number key in the first stroke of the proper noun.</p>
+<ul>
+<li>Bob <code>#PWOB</code></li>
+<li>Cameron <code>#KA/PHER/KWROPB</code></li>
+</ul>
+<h3 id="miscellaneous-theory-principles"><a class="header" href="#miscellaneous-theory-principles">Miscellaneous theory principles</a></h3>
+<p>Be sure to read <a href="Chapter-21.html">chapter 21</a>.</p>
+<h2 id="how-to-get-started"><a class="header" href="#how-to-get-started">How to get started</a></h2>
+<h3 id="setting-up-lapwing"><a class="header" href="#setting-up-lapwing">Setting up Lapwing</a></h3>
+<p>It is highly recommended that you use the <code>plover-lapwing-aio</code> plugin. This will automatically install the right plugins, dictionaries, and adds some other quality-of-life improvements such as relocating the number key for you and reverting the special number key behaviour. See <a href="Chapter-05.html">chapter 5</a> for setting up Lapwing with this plugin.</p>
+<p>However, if you already have several dictionaries with Plover theory, you can also just add the Lapwing dictionaries to your stack. All the Lapwing dictionaries are fully compatible with Plover without having to make any modifications. See <a href="Appendix-B.html">appendix B</a> for details.</p>
+<h3 id="transitioning-to-lapwing"><a class="header" href="#transitioning-to-lapwing">Transitioning to Lapwing</a></h3>
+<p>Keep this page bookmarked and refer back to it whenever you run into trouble. Chapters 12, 13, 14, and 15 are especially important and I recommend at least skimming through these before you go &quot;cold turkey&quot; with Lapwing.</p>
+<p>More tips to come...</p>
+
+                        </div>
+                        <div class="sidetoc">
+                            <nav class="pagetoc"></nav>
+                        </div>
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="Chapter-26.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="Appendix-B.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="Chapter-26.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="Appendix-B.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+        <script src="theme/pagetoc.js"></script>
+
+
+    </div>
+    </body>
+</html>

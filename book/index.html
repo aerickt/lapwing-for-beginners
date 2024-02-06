@@ -1,0 +1,309 @@
+<!DOCTYPE HTML>
+<html lang="en" class="light" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Chapter 1: Introduction - Lapwing for Beginners</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="theme/pagetoc.css">
+
+    </head>
+    <body class="sidebar-visible no-js">
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('light')
+            html.classList.add(theme);
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var body = document.querySelector('body');
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="Chapter-01.html" class="active">Chapter 1: Introduction</a></li><li class="chapter-item expanded affix "><a href="Chapter-02.html">Chapter 2: Steno hardware and software</a></li><li class="chapter-item expanded affix "><a href="Chapter-03.html">Chapter 3: How to learn steno</a></li><li class="chapter-item expanded affix "><a href="Chapter-04.html">Chapter 4: The layout</a></li><li class="chapter-item expanded affix "><a href="Chapter-05.html">Chapter 5: Lapwing setup and basics</a></li><li class="chapter-item expanded affix "><a href="Chapter-06.html">Chapter 6: Left hand consonants continued</a></li><li class="chapter-item expanded affix "><a href="Chapter-07.html">Chapter 7: Vowels</a></li><li class="chapter-item expanded affix "><a href="Chapter-08.html">Chapter 8: Vowels continued</a></li><li class="chapter-item expanded affix "><a href="Chapter-09.html">Chapter 9: Right hand chords</a></li><li class="chapter-item expanded affix "><a href="Chapter-10.html">Chapter 10: Right hand chords continued</a></li><li class="chapter-item expanded affix "><a href="Chapter-11.html">Chapter 11: Right hand compound clusters</a></li><li class="chapter-item expanded affix "><a href="Chapter-12.html">Chapter 12: Wrapping up basic words</a></li><li class="chapter-item expanded affix "><a href="Chapter-13.html">Chapter 13: Prefixes and suffixes</a></li><li class="chapter-item expanded affix "><a href="Chapter-14.html">Chapter 14: Suffix keys and compound words</a></li><li class="chapter-item expanded affix "><a href="Chapter-15.html">Chapter 15: Syllabic splitting</a></li><li class="chapter-item expanded affix "><a href="Chapter-16.html">Chapter 16: Top 200 common English words</a></li><li class="chapter-item expanded affix "><a href="Chapter-17.html">Chapter 17: Fingerspelling and numbers</a></li><li class="chapter-item expanded affix "><a href="Chapter-18.html">Chapter 18: Proper nouns</a></li><li class="chapter-item expanded affix "><a href="Chapter-19.html">Chapter 19: Punctuation and commands</a></li><li class="chapter-item expanded affix "><a href="Chapter-20.html">Chapter 20: UK spellings</a></li><li class="chapter-item expanded affix "><a href="Chapter-21.html">Chapter 21: Theory principles wrap-up</a></li><li class="chapter-item expanded affix "><a href="Chapter-22.html">Chapter 22: End of basic theory</a></li><li class="chapter-item expanded affix "><a href="Chapter-23.html">Chapter 23: Phrase briefs</a></li><li class="chapter-item expanded affix "><a href="Chapter-24.html">Chapter 24: Lapwing briefing techniques</a></li><li class="chapter-item expanded affix "><a href="Chapter-25.html">Chapter 25: Symbols and modifiers</a></li><li class="chapter-item expanded affix "><a href="Chapter-26.html">Chapter 26: Editing text</a></li><li class="chapter-item expanded affix "><a href="Appendix-A.html">Appendix A: Switching to Lapwing from Plover</a></li><li class="chapter-item expanded affix "><a href="Appendix-B.html">Appendix B: Setting up Lapwing manually</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Lapwing for Beginners</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <div class="content-wrap">
+                            <h1 id="chapter-1-introduction"><a class="header" href="#chapter-1-introduction">Chapter 1: Introduction</a></h1>
+<blockquote>
+<p>This series is work in progress!</p>
+</blockquote>
+<p>So you want to learn stenography! It's a very long road ahead, but I do hope this series will help guide you along the way. Thanks to Plover and the efforts from the Open Steno Project, stenography is no longer restricted to professionals and students. The hobbyist steno community is flourishing, and self-taught professional stenographers are becoming more and more common.</p>
+<h2 id="how-does-steno-work"><a class="header" href="#how-does-steno-work">How does steno work?</a></h2>
+<p><img src="img/1-layout.png" alt="steno layout" /></p>
+<p>Stenography (steno for short) is a method of text input that utilizes a chorded keyboard layout to write parts of words, entire words, or even phrases. Before delving into the details of how steno works, first think about regular keyboards—for example, how one would type the word &quot;complicate&quot;:</p>
+<p><img src="img/1-complicate-keyboard.gif" alt="typing &quot;complicate&quot; on a keyboard" /></p>
+<p>Every letter is simply pressed individually:</p>
+<pre><code>c/o/m/p/l/i/c/a/t/e
+</code></pre>
+<blockquote>
+<p>The slashes represent separators between key presses.</p>
+</blockquote>
+<p>This results in 10 successive key strokes. On the other hand, steno uses chords, or groups of keys that are pressed down all at once. This action of pressing down multiple keys simultaneously is called a stroke. By using chords the word &quot;complicate&quot; can be written using only three strokes:</p>
+<pre><code>com/pli/cate
+</code></pre>
+<p><img src="img/1-complicate-steno.gif" alt="writing &quot;complicate&quot; with steno" /></p>
+<p>We could notate writing this word using steno like so:</p>
+<pre><code>KOPL/PHREU/KAEUT
+</code></pre>
+<h3 id="why-koplphreukaeut"><a class="header" href="#why-koplphreukaeut">Why <code>KOPL/PHREU/KAEUT</code>?</a></h3>
+<p>At first glance, it appears that <code>KOPL/PHREU/KAEUT</code> has no bearing resemblance to the word it represents. The reason for this is that there are only so many keys on the steno layout. Arbitrary letter combinations have to be used in order to represent the sounds that are not represented by single keys.</p>
+<p><img src="img/1-layout.png" alt="steno layout" /></p>
+<p>In our example, <code>PL</code> in <code>KOPL</code> represents the ending &quot;m&quot; consonant; <code>HR</code> in <code>PHREU</code> represents the initial &quot;l&quot; consonant; <code>EU</code> in <code>PHREU</code> represents the &quot;i&quot; vowel, as in &quot;p<ins>i</ins>t&quot;; finally <code>AEU</code> in <code>KAEUT</code> represents the /eɪ/ diphthong (also called &quot;long a&quot; vowel) as in &quot;f<ins>a</ins>te&quot;.</p>
+<p>The following table illustrates the sounds that each key group represents in our example.</p>
+<div class="table-wrapper"><table><thead><tr><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th></tr></thead><tbody>
+<tr><td><strong>Steno Keys</strong></td><td><code>K</code></td><td><code>O</code></td><td><code>PL</code></td><td></td><td><code>P</code></td><td><code>HR</code></td><td><code>EU</code></td><td></td><td><code>K</code></td><td><code>AEU</code></td><td><code>T</code></td></tr>
+<tr><td><strong>Sounds</strong></td><td>c</td><td>o</td><td>m</td><td></td><td>p</td><td>l</td><td>i</td><td></td><td>c</td><td>ā</td><td>t</td></tr>
+</tbody></table>
+</div>
+<p>Essentially, <code>KOPL/PHREU/KAEUT</code> really just represents <code>KOM/PLI/KĀT</code> (where <code>Ā</code> represents the &quot;long a&quot; or /eɪ/ diphthong).</p>
+<p>And that's basically all there is in principle! Stenographers memorize a whole slew of chords for the missing sounds, and string multiple strokes together to write English.</p>
+<h3 id="raw-steno-terminology"><a class="header" href="#raw-steno-terminology">&quot;Raw steno&quot; terminology</a></h3>
+<p>Before we continue, it's important to be aware of some of the terminology surrounding key presses in steno.</p>
+<ul>
+<li>
+<p>Chord: a group of keys pressed all at once representing a single sound.</p>
+</li>
+<li>
+<p>Stroke: a group of keys pressed all at once representing a syllable.</p>
+</li>
+<li>
+<p>Outline: a group of one or more strokes that is mapped to a translation.</p>
+</li>
+</ul>
+<p>The terms &quot;stroke&quot; and &quot;chord&quot; are almost synonymous, but there is a subtle distinction between the two. Generally, &quot;stroke&quot; refers to a group of keys that make a complete sound: one that contains at least one vowel and one consonant. On the other hand, &quot;chord&quot; refers to a group of keys that make a single sound—like one consonant or one vowel.</p>
+<p>So, <code>KOPL/PHREU/KAEUT</code> would be considered an outline for the word &quot;complicate&quot;. It is made up of 3 strokes, one of which is <code>KOPL</code>. Within this stroke, there is the <code>PL</code> chord that represents the ending &quot;m&quot; consonant. Here is an excellent graphic from <a href="https://steno.sammdot.ca/steno-terminology.png">Jen's steno explainers</a>:</p>
+<p><img src="img/1-terminology.png" alt="steno terminology explainer" /></p>
+<p>Don't worry too much about the terminology right now, but it will become important later on.</p>
+<h3 id="steno-is-a-primarily-phonetic-system"><a class="header" href="#steno-is-a-primarily-phonetic-system">Steno is a primarily phonetic system.</a></h3>
+<p>Notice how so far sounds have been emphasized rather than spellings of words. In our example, &quot;complicate&quot; is not spelled with a &quot;k&quot; and yet it still uses the <code>K</code> key in the first stroke. The reason for this is that English spelling is quite complicated, but its phonetics are comparatively simple. Steno takes advantage of this by being a primarily phonetic system. In general, words are written based on their pronunciation. The <code>K</code> key represents all &quot;k&quot; sounds, regardless of spelling.</p>
+<p>However, if steno were completely phonetic, it would be impossible to differentiate between &quot;gait&quot; and &quot;gate&quot;, or &quot;site&quot;, &quot;cite&quot;, and &quot;sight&quot;, or any of the other numerous homophones that English has. For some words, we do have to take spelling into consideration. How exactly this is done is dictated by the rules found in a steno theory.</p>
+<h3 id="steno-theories"><a class="header" href="#steno-theories">Steno theories</a></h3>
+<p>A steno theory refers to the set of rules that govern how you write words. While the basics (such as everything I've mentioned so far) are more or less the same between theories, there are some subtle differences. If you're starting to learn English steno, it's not too important which theory you start with—it isn't difficult to switch between them.</p>
+<p>The primary way steno theories differ is in their philosophy. For example, Phoenix theory is based off of a comprehensive set of rules that you must be fluent with; the benefit is that you will be able to write any word that comes to mind regardless of if you have written it before. On the other side of the spectrum, Magnum theory places more emphasis on learning words themselves through rote memorization. In essence, you learn fewer rules, but you must memorize more words and exceptions.</p>
+<p>Most steno theories (like the previously mentioned ones) are not free and require you to purchase textbooks along with their dictionaries. The only free theories (as of this writing) are Lapwing theory, Plover theory, and Platinum theory.</p>
+<p>Unfortunately, most steno theories are also quite specific to one accent. In particular, all of the theories mentioned so far are all based on a General North American accent. It may be difficult to learn one of these theories if you speak a different variant of English; however, it is not impossible if you are comfortable with subvocalizing with an American accent.</p>
+<p>There has been one effort in the Open Steno community to create a theory based for non-rhotic accents (i.e., British English), but I cannot recommend it as the dictionary is not very complete.</p>
+<h3 id="how-steno-works-from-the-software-side"><a class="header" href="#how-steno-works-from-the-software-side">How steno works from the software side</a></h3>
+<p>I've been explaining how steno works in principle, but you might also be wondering how the keyboard &quot;knows&quot; what to output with any given steno outline. Translation occurs in a steno engine that is either a program on a computer, or in a keyboard's firmware. They use large files called dictionaries that simply contain 1-to-1 translations between steno outlines and their output. This makes steno entirely deterministic and predictable.</p>
+<p>For example, here is one section from Lapwing theory dictionary:</p>
+<pre><code>&quot;TKUR/KWRABLT&quot;: &quot;durability&quot;,
+&quot;TKUR/KWRES&quot;: &quot;duress&quot;,
+&quot;TKUR/KWRUPL&quot;: &quot;durum&quot;,
+&quot;TKUR/PWHREU&quot;: &quot;durably&quot;,
+&quot;TKUR/AEUGS&quot;: &quot;duration&quot;,
+&quot;TKUR/-BL&quot;: &quot;durable&quot;,
+&quot;TKUR/-BLT&quot;: &quot;durability&quot;,
+&quot;TKURPB&quot;: &quot;durn&quot;,
+&quot;TKURBL&quot;: &quot;durable&quot;,
+</code></pre>
+<p>Many steno dictionaries have upwards of hundreds of thousands of entries. It's important to remember that the majority of these  are predictable as they follow the rules governed in a steno theory. Stenographers don't simply just memorize every single entry in their dictionary—that would be insane!</p>
+<p>This, however, does bring up the concern of what to do when a word is not defined in a a stenographer's dictionary. In these cases, there is a technique for letter-by-letter input (called fingerspelling). This technique is rather slow (~40 WPM), but it is not a common occurrence. Furthermore, a good stenographer is expected to add any outlines they find missing according to their theory rules. There is no such thing as a word that is difficult to represent in steno strokes. A good theory will provide a set of rules that makes it very easy to break down a complicated word into simple steno strokes.</p>
+<p>Another important feature of steno (due in part to its usage of dictionaries) are abbreviated entries, or &quot;briefs&quot;. These are outlines that do not 100% follow basic theory rules. They contain fewer strokes and, as a result, are faster to write. This helps for building speed and are often used for the most common words in English.</p>
+<h4 id="non-word-translations"><a class="header" href="#non-word-translations">Non-word translations</a></h4>
+<p>Steno's usage of dictionaries also allows for non-word translations such as symbols, keyboard shortcuts, arrow keys, commands, and so on. It is a myth that steno can only be used to write English text; there are many systems that easily mesh with English steno theories that can allow you to write anything that a regular keyboard can. These systems do not use the phonetics of English steno theories, but rather shapes and chords that are simple and easy to remember. If you've memorized the locations of keys on a QWERTY keyboard (even just a few), you've easily got the mental flexibility to use steno for non-word translations.</p>
+<p>Some hobbyists can even use <a href="https://www.youtube.com/watch?v=T_kMd7rxYU0">steno for coding</a> and <a href="https://www.youtube.com/watch?v=8-oDPhmpN9g">steno with vim</a>! Of course, that's not to say that everyone should use steno for these purposes, but it is certainly possible and some people prefer it over using a regular keyboard. This series will focus on writing English prose, but in later chapters I will discuss tools that allow you to use steno for editing text, controlling your computer, and even a little coding!</p>
+<h2 id="conclusion"><a class="header" href="#conclusion">Conclusion</a></h2>
+<p>I hope this has helped to demystify stenography! In the next chapter, I will be discussing steno hardware and software to get you started on learning steno!</p>
+
+                        </div>
+                        <div class="sidetoc">
+                            <nav class="pagetoc"></nav>
+                        </div>
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+
+                            <a rel="next prefetch" href="Chapter-02.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+
+                    <a rel="next prefetch" href="Chapter-02.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+        <script src="theme/pagetoc.js"></script>
+
+
+    </div>
+    </body>
+</html>

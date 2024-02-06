@@ -1,0 +1,331 @@
+<!DOCTYPE HTML>
+<html lang="en" class="light" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Chapter 23: Phrase briefs - Lapwing for Beginners</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="theme/pagetoc.css">
+
+    </head>
+    <body class="sidebar-visible no-js">
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('light')
+            html.classList.add(theme);
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var body = document.querySelector('body');
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="Chapter-01.html">Chapter 1: Introduction</a></li><li class="chapter-item expanded affix "><a href="Chapter-02.html">Chapter 2: Steno hardware and software</a></li><li class="chapter-item expanded affix "><a href="Chapter-03.html">Chapter 3: How to learn steno</a></li><li class="chapter-item expanded affix "><a href="Chapter-04.html">Chapter 4: The layout</a></li><li class="chapter-item expanded affix "><a href="Chapter-05.html">Chapter 5: Lapwing setup and basics</a></li><li class="chapter-item expanded affix "><a href="Chapter-06.html">Chapter 6: Left hand consonants continued</a></li><li class="chapter-item expanded affix "><a href="Chapter-07.html">Chapter 7: Vowels</a></li><li class="chapter-item expanded affix "><a href="Chapter-08.html">Chapter 8: Vowels continued</a></li><li class="chapter-item expanded affix "><a href="Chapter-09.html">Chapter 9: Right hand chords</a></li><li class="chapter-item expanded affix "><a href="Chapter-10.html">Chapter 10: Right hand chords continued</a></li><li class="chapter-item expanded affix "><a href="Chapter-11.html">Chapter 11: Right hand compound clusters</a></li><li class="chapter-item expanded affix "><a href="Chapter-12.html">Chapter 12: Wrapping up basic words</a></li><li class="chapter-item expanded affix "><a href="Chapter-13.html">Chapter 13: Prefixes and suffixes</a></li><li class="chapter-item expanded affix "><a href="Chapter-14.html">Chapter 14: Suffix keys and compound words</a></li><li class="chapter-item expanded affix "><a href="Chapter-15.html">Chapter 15: Syllabic splitting</a></li><li class="chapter-item expanded affix "><a href="Chapter-16.html">Chapter 16: Top 200 common English words</a></li><li class="chapter-item expanded affix "><a href="Chapter-17.html">Chapter 17: Fingerspelling and numbers</a></li><li class="chapter-item expanded affix "><a href="Chapter-18.html">Chapter 18: Proper nouns</a></li><li class="chapter-item expanded affix "><a href="Chapter-19.html">Chapter 19: Punctuation and commands</a></li><li class="chapter-item expanded affix "><a href="Chapter-20.html">Chapter 20: UK spellings</a></li><li class="chapter-item expanded affix "><a href="Chapter-21.html">Chapter 21: Theory principles wrap-up</a></li><li class="chapter-item expanded affix "><a href="Chapter-22.html">Chapter 22: End of basic theory</a></li><li class="chapter-item expanded affix "><a href="Chapter-23.html" class="active">Chapter 23: Phrase briefs</a></li><li class="chapter-item expanded affix "><a href="Chapter-24.html">Chapter 24: Lapwing briefing techniques</a></li><li class="chapter-item expanded affix "><a href="Chapter-25.html">Chapter 25: Symbols and modifiers</a></li><li class="chapter-item expanded affix "><a href="Chapter-26.html">Chapter 26: Editing text</a></li><li class="chapter-item expanded affix "><a href="Appendix-A.html">Appendix A: Switching to Lapwing from Plover</a></li><li class="chapter-item expanded affix "><a href="Appendix-B.html">Appendix B: Setting up Lapwing manually</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Lapwing for Beginners</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <div class="content-wrap">
+                            <h1 id="chapter-23-phrase-briefs"><a class="header" href="#chapter-23-phrase-briefs">Chapter 23: Phrase briefs</a></h1>
+<h2 id="basic-phrase-briefs"><a class="header" href="#basic-phrase-briefs">Basic phrase briefs</a></h2>
+<p>One word briefs like <code>SKP</code>, <code>T</code>, <code>TPH</code>, and <code>-T</code> can be quite useful especially as they can also be used in phrases.</p>
+<p>Here is a non-exhaustive table of some common phrase briefs.</p>
+<div class="table-wrapper"><table><thead><tr><th>Brief</th><th>Outline</th><th>Mnemonic</th></tr></thead><tbody>
+<tr><td>&quot;is it&quot;</td><td><code>ST</code></td><td>&quot;is&quot; + &quot;it&quot;</td></tr>
+<tr><td>&quot;is the&quot;</td><td><code>S-T</code></td><td>&quot;is&quot; + &quot;the&quot;</td></tr>
+<tr><td>&quot;and the&quot;</td><td><code>SKP-T</code></td><td>&quot;and&quot; + &quot;the&quot;</td></tr>
+<tr><td>&quot;and he&quot;</td><td><code>SKPE</code></td><td>&quot;and&quot; + <code>E</code></td></tr>
+<tr><td>&quot;and I&quot;</td><td><code>SKPEU</code></td><td>&quot;and&quot; + <code>EU</code></td></tr>
+<tr><td>&quot;and you&quot;</td><td><code>SKPU</code></td><td>&quot;and&quot; + &quot;you&quot;</td></tr>
+<tr><td>&quot;at the&quot;</td><td><code>TE</code></td><td>a<strong>t</strong> th<strong>e</strong> (this one is quite arbitrary)</td></tr>
+<tr><td>&quot;it is&quot;</td><td><code>T-S</code></td><td>&quot;it&quot; + <code>-S</code></td></tr>
+<tr><td>&quot;in the&quot;</td><td><code>TPH-T</code></td><td>&quot;in&quot; + &quot;the&quot;</td></tr>
+</tbody></table>
+</div>
+<p>Again, if you come across a phrase that you think could be briefed, try looking it up first. If an outline is not available, this is where you should add your own!</p>
+<p>Lapwing doesn't contain many phrase briefs (compared to other theories), but this is because I recommend learning Jeff's phrasing. It is a very useful system that is already packaged in the <code>plover-lapwing-aio</code> plugin.</p>
+<h2 id="jeffs-phrasing"><a class="header" href="#jeffs-phrasing">Jeff's phrasing</a></h2>
+<p>Jeff's phrasing system enables writing many common phrases, especially those that involve pronouns and verbs. For example, have a look at the following monkeytype quote:</p>
+<blockquote>
+<p><strong>They used to</strong> tell me <strong>I was</strong> building a dream, and so I followed the mob. When there was earth to plow or guns to bear, <strong>I was</strong> always there, right on the job. <strong>They used to</strong> tell me <strong>I was</strong> building a dream with peace and glory ahead. Why should I be standing in line just waiting for bread? Once I built a railroad, <strong>I made</strong> it run. Made it race against time. Once I built a railroad, now it's done. Brother, <strong>can you</strong> spare a dime?</p>
+</blockquote>
+<p>Every bolded phrase can be written in one stroke using Jeff's phrasing. There are likely some that I have also missed, as I personally do not go beyond the basics of Jeff's phrasing.</p>
+<h3 id="setup"><a class="header" href="#setup">Setup</a></h3>
+<p>Make sure you are using the <code>plover-lapwing-aio</code> plugin, or you have manually configured your dictionary stack by following <a href="Appendix-B.html">these instructions</a>.</p>
+<h3 id="basics"><a class="header" href="#basics">Basics</a></h3>
+<p>Jeff's phrasing is a Magnum-esque phrasing system that allows you to write phrases involving pronouns and verbs.</p>
+<p>In its most basic form, these are some phrases you can write:</p>
+<ul>
+<li>I go</li>
+<li>she does</li>
+<li>he wants</li>
+<li>they need</li>
+<li>we find</li>
+<li>it runs</li>
+</ul>
+<p>Jeff's phrasing works by having pronoun chords on the left side, and verbs on the right side.</p>
+<p>While this does mean that a lot of the chords are quite arbitrary (since you don't have vowels to work with), the speed boost you can achieve is well worth it. This is especially the case as Jeff's phrasing is quite extensive.</p>
+<div class="table-wrapper"><table><thead><tr><th>Pronoun</th><th>Chord</th></tr></thead><tbody>
+<tr><td>I</td><td><code>SWR</code></td></tr>
+<tr><td>she</td><td><code>SKWHR</code></td></tr>
+<tr><td>he</td><td><code>KWHR</code></td></tr>
+<tr><td>they</td><td><code>TWH</code></td></tr>
+<tr><td>we</td><td><code>TWR</code></td></tr>
+<tr><td>it</td><td><code>KPWH</code></td></tr>
+</tbody></table>
+</div>
+<p>If you try these chords out on their own, you will find that they output the pronouns by themselves. However, these aren't particularly useful, so let's add in some right hand verbs.</p>
+<div class="table-wrapper"><table><thead><tr><th>Verb</th><th>Chord</th></tr></thead><tbody>
+<tr><td>go</td><td><code>-G</code></td></tr>
+<tr><td>find</td><td><code>-PBLG</code></td></tr>
+<tr><td>want</td><td><code>-P</code></td></tr>
+<tr><td>need</td><td><code>-RPG</code></td></tr>
+</tbody></table>
+</div>
+<p>To write a phrase, you just have to combine a pronoun chord and a verb chord. Try some of phrases out!</p>
+<ul>
+<li><code>SWR-RPG</code> I need</li>
+<li><code>SKWHR-RPG</code> she needs</li>
+<li><code>TWH-P</code> they want</li>
+<li><code>KPWH-P</code> it wants</li>
+</ul>
+<p>Notice how Jeff's phrasing automatically conjugates the verb by adding an ending &quot;s&quot; where appropriate.</p>
+<p>If you want to see all of the possible verbs and ending chords, take a look at <a href="https://github.com/jthlim/jeff-phrasing#verbs-and-suffix-words">the documentation</a>.</p>
+<h4 id="past-tense-verbs"><a class="header" href="#past-tense-verbs">Past tense verbs</a></h4>
+<p>If you want to write a phrase like &quot;I needed&quot;, you only need to add the <code>-D</code> key to indicate past tense.</p>
+<ul>
+<li><code>SWR-RPGD</code> I needed</li>
+<li><code>SKWHR-RPGD</code> she needed</li>
+<li><code>TWH-PD</code> they wanted</li>
+<li><code>KPWH-PD</code> it wanted</li>
+</ul>
+<h4 id="negation"><a class="header" href="#negation">Negation</a></h4>
+<p>If you want to negate a phrase, use the asterisk key. You can also combine this with the <code>-D</code> key.</p>
+<ul>
+<li><code>SWR*RPGD</code> I didn't need</li>
+<li><code>SKWHR*RPG</code> she doesn't need</li>
+<li><code>TWH*P</code> they don't want</li>
+<li><code>KPWH*PD</code> it didn't want</li>
+</ul>
+<h4 id="modifier-words"><a class="header" href="#modifier-words">Modifier words</a></h4>
+<p>You can add in some modifier words in addition to any of the other negation or tense features.</p>
+<div class="table-wrapper"><table><thead><tr><th>Modifier word</th><th>Chord</th></tr></thead><tbody>
+<tr><td>can</td><td><code>A</code></td></tr>
+<tr><td>shall</td><td><code>O</code></td></tr>
+<tr><td>will</td><td><code>AO</code></td></tr>
+</tbody></table>
+</div>
+<ul>
+<li><code>SWRORPGD</code> I should need</li>
+<li><code>SKWHRAORPG</code> she will need</li>
+<li><code>TWHO*PD</code> they shouldn't want</li>
+<li><code>KPWHOP</code> it shall want</li>
+</ul>
+<h3 id="advance-usage"><a class="header" href="#advance-usage">Advance usage</a></h3>
+<p><a href="https://github.com/jthlim/jeff-phrasing">The documentation</a> lists out a lot more features that I have not outlined in this page. I definitely recommend you keep it bookmarked if you want to learn this system. However, I myself have only learned what I have listed on this page plus a few more ending chords and I still find this system incredibly useful. If I get the time to learn the other features, I will update this page.</p>
+
+                        </div>
+                        <div class="sidetoc">
+                            <nav class="pagetoc"></nav>
+                        </div>
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="Chapter-22.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="Chapter-24.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="Chapter-22.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="Chapter-24.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+        <script src="theme/pagetoc.js"></script>
+
+
+    </div>
+    </body>
+</html>

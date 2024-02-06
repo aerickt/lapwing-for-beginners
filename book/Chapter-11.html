@@ -1,0 +1,381 @@
+<!DOCTYPE HTML>
+<html lang="en" class="light" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Chapter 11: Right hand compound clusters - Lapwing for Beginners</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="theme/pagetoc.css">
+
+    </head>
+    <body class="sidebar-visible no-js">
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('light')
+            html.classList.add(theme);
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var body = document.querySelector('body');
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="Chapter-01.html">Chapter 1: Introduction</a></li><li class="chapter-item expanded affix "><a href="Chapter-02.html">Chapter 2: Steno hardware and software</a></li><li class="chapter-item expanded affix "><a href="Chapter-03.html">Chapter 3: How to learn steno</a></li><li class="chapter-item expanded affix "><a href="Chapter-04.html">Chapter 4: The layout</a></li><li class="chapter-item expanded affix "><a href="Chapter-05.html">Chapter 5: Lapwing setup and basics</a></li><li class="chapter-item expanded affix "><a href="Chapter-06.html">Chapter 6: Left hand consonants continued</a></li><li class="chapter-item expanded affix "><a href="Chapter-07.html">Chapter 7: Vowels</a></li><li class="chapter-item expanded affix "><a href="Chapter-08.html">Chapter 8: Vowels continued</a></li><li class="chapter-item expanded affix "><a href="Chapter-09.html">Chapter 9: Right hand chords</a></li><li class="chapter-item expanded affix "><a href="Chapter-10.html">Chapter 10: Right hand chords continued</a></li><li class="chapter-item expanded affix "><a href="Chapter-11.html" class="active">Chapter 11: Right hand compound clusters</a></li><li class="chapter-item expanded affix "><a href="Chapter-12.html">Chapter 12: Wrapping up basic words</a></li><li class="chapter-item expanded affix "><a href="Chapter-13.html">Chapter 13: Prefixes and suffixes</a></li><li class="chapter-item expanded affix "><a href="Chapter-14.html">Chapter 14: Suffix keys and compound words</a></li><li class="chapter-item expanded affix "><a href="Chapter-15.html">Chapter 15: Syllabic splitting</a></li><li class="chapter-item expanded affix "><a href="Chapter-16.html">Chapter 16: Top 200 common English words</a></li><li class="chapter-item expanded affix "><a href="Chapter-17.html">Chapter 17: Fingerspelling and numbers</a></li><li class="chapter-item expanded affix "><a href="Chapter-18.html">Chapter 18: Proper nouns</a></li><li class="chapter-item expanded affix "><a href="Chapter-19.html">Chapter 19: Punctuation and commands</a></li><li class="chapter-item expanded affix "><a href="Chapter-20.html">Chapter 20: UK spellings</a></li><li class="chapter-item expanded affix "><a href="Chapter-21.html">Chapter 21: Theory principles wrap-up</a></li><li class="chapter-item expanded affix "><a href="Chapter-22.html">Chapter 22: End of basic theory</a></li><li class="chapter-item expanded affix "><a href="Chapter-23.html">Chapter 23: Phrase briefs</a></li><li class="chapter-item expanded affix "><a href="Chapter-24.html">Chapter 24: Lapwing briefing techniques</a></li><li class="chapter-item expanded affix "><a href="Chapter-25.html">Chapter 25: Symbols and modifiers</a></li><li class="chapter-item expanded affix "><a href="Chapter-26.html">Chapter 26: Editing text</a></li><li class="chapter-item expanded affix "><a href="Appendix-A.html">Appendix A: Switching to Lapwing from Plover</a></li><li class="chapter-item expanded affix "><a href="Appendix-B.html">Appendix B: Setting up Lapwing manually</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Lapwing for Beginners</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <div class="content-wrap">
+                            <h1 id="chapter-11-right-hand-compound-clusters"><a class="header" href="#chapter-11-right-hand-compound-clusters">Chapter 11: Right hand compound clusters</a></h1>
+<h2 id="recommended-pace"><a class="header" href="#recommended-pace">Recommended pace</a></h2>
+<p><strong>Recommended time to spend on this chapter: 2–5 days.</strong></p>
+<ol>
+<li>Read <a href="#right-hand-shun-kshun">right hand shun and kshun</a> and complete the drill (<strong>20 minutes</strong>)
+<ul>
+<li>Repeat the drill as needed</li>
+</ul>
+</li>
+<li>Read <a href="#right-hand-ment-and-let">right hand ment and let</a> and complete the drill (<strong>20 minutes</strong>)
+<ul>
+<li>Repeat the drill as needed</li>
+</ul>
+</li>
+<li>Read <a href="#right-hand-bl">right hand bl</a> and complete the drill (<strong>20 minutes</strong>)
+<ul>
+<li>Repeat the drill as needed</li>
+</ul>
+</li>
+<li>Attempt the <a href="#chapter-10-test">test</a> (<strong>20 minutes</strong>)
+<ul>
+<li>Practise as needed</li>
+</ul>
+</li>
+</ol>
+<p>Remember to take breaks!</p>
+<h2 id="useful-links"><a class="header" href="#useful-links">Useful links</a></h2>
+<ul>
+<li><a href="practice/11-rh-shun-kshun-and-x.txt">Right hand shun, kshun, and x words</a></li>
+<li><a href="practice/11-rh-ment-and-let.txt">Right hand ment and let words drill</a></li>
+<li><a href="practice/11-rh-bl.txt">Right hand bl words drill</a></li>
+<li><a href="practice/11-test.txt">Chapter 11 test</a></li>
+</ul>
+<h2 id="intro"><a class="header" href="#intro">Intro</a></h2>
+<p>So far, we have been looking at single sounds that make up single syllable words. In this chapter, we will look at <strong>compound clusters</strong> which are chords that can represent more than just a single consonant.</p>
+<h2 id="right-hand-shun-kshun-and-x"><a class="header" href="#right-hand-shun-kshun-and-x">Right hand shun, kshun, and x</a></h2>
+<ul>
+<li><code>-GS</code> is &quot;-shun&quot; as in &quot;o<ins>cean</ins>&quot;</li>
+<li><code>-BGS</code> represents two sounds:
+<ul>
+<li>&quot;-x&quot; as in &quot;ta<ins>x</ins>&quot;</li>
+<li>&quot;-kshun&quot; as in in &quot;fri<ins>ction</ins>&quot;</li>
+</ul>
+</li>
+</ul>
+<p><img src="img/11-shun-kshun.png" alt="" /></p>
+<h3 id="examples"><a class="header" href="#examples">Examples</a></h3>
+<ul>
+<li>motion <code>PHOEGS</code></li>
+<li>caution <code>KAUGS</code></li>
+<li>fax <code>TPABGS</code></li>
+<li>tex <code>TEBGS</code></li>
+</ul>
+<h3 id="-kshun-and--x-conflicts"><a class="header" href="#-kshun-and--x-conflicts">&quot;-kshun&quot; and &quot;-x&quot; conflicts</a></h3>
+<p>Some words like &quot;a<ins>x</ins>e&quot; and &quot;a<ins>ction</ins>&quot; conflict with the same outline: <code>ABGS</code>. In these cases, we give the &quot;-x&quot; sound higher priority and relegate the &quot;-kshun&quot; sound to <code>*BGS</code> (same chord, but with the asterisk key).</p>
+<h4 id="examples-1"><a class="header" href="#examples-1">Examples</a></h4>
+<ul>
+<li>faction <code>TPA*BGS</code> (since <code>TPABGS</code> is already &quot;fax&quot;)</li>
+<li>section <code>S*EBGS</code> (since <code>SEBGS</code> is already &quot;sex&quot;)</li>
+</ul>
+<h3 id="mnemonics"><a class="header" href="#mnemonics">Mnemonics:</a></h3>
+<blockquote>
+<p>Feel free to come up with your own or even suggest some!</p>
+</blockquote>
+<ol>
+<li>&quot;mu<ins>gs</ins> in the o<ins>cean</ins>&quot;</li>
+<li><code>-BGS</code> as the &quot;-x&quot; chord is simply just the combination of the &quot;-k&quot; chord <code>-BG</code> and the <code>-S</code> key</li>
+<li><code>-BGS</code> as the &quot;-kshun&quot; chord overlaps with the &quot;-k&quot; chord <code>-BG</code> and the &quot;-shun&quot; chord <code>-GS</code></li>
+</ol>
+<h3 id="section-practice"><a class="header" href="#section-practice">Section practice</a></h3>
+<p><a href="practice/11-rh-shun-kshun-and-x.txt">Right hand shun, kshun, and x words</a></p>
+<h2 id="right-hand-ment-and-let"><a class="header" href="#right-hand-ment-and-let">Right hand ment and let</a></h2>
+<ul>
+<li><code>-PLT</code> is &quot;-ment&quot; as in &quot;mo<ins>ment</ins>&quot;</li>
+<li><code>-LT</code> is &quot;-let&quot; as in &quot;scar<ins>let</ins>&quot;</li>
+</ul>
+<p><img src="img/11-ment-let.png" alt="ment, let" /></p>
+<h3 id="examples-2"><a class="header" href="#examples-2">Examples</a></h3>
+<ul>
+<li>garment <code>TKPWARPLT</code></li>
+<li>torment <code>TORPLT</code></li>
+<li>roulette <code>RAOULT</code></li>
+<li>wallet <code>WAULT</code></li>
+</ul>
+<h3 id="mnemonics-1"><a class="header" href="#mnemonics-1">Mnemonics:</a></h3>
+<blockquote>
+<p>Feel free to come up with your own or even suggest some!</p>
+</blockquote>
+<ol>
+<li>Taking the middle out of &quot;ment&quot; gives &quot;mt&quot; which is what <code>-PLT</code> represents</li>
+<li>Taking the middle out of &quot;let&quot; gives &quot;lt&quot; which is what <code>-LT</code> represents</li>
+</ol>
+<h3 id="section-practice-1"><a class="header" href="#section-practice-1">Section practice</a></h3>
+<p><a href="practice/11-rh-ment-and-let.txt">Right hand ment and let words</a></p>
+<p>Unfortunately, there is not a lot of practice material for single stroke words containing these chords.</p>
+<h2 id="right-hand-bl-and-bility"><a class="header" href="#right-hand-bl-and-bility">Right hand bl and bility</a></h2>
+<ul>
+<li><code>-BL</code> represents several different sounds:
+<ul>
+<li>&quot;-bl&quot; as in &quot;dou<ins>bl</ins>e&quot;</li>
+<li>&quot;-abl&quot; as in &quot;pli<ins>abl</ins>e&quot;</li>
+<li>&quot;-ibl&quot; as in &quot;poss<ins>ibl</ins>e&quot;</li>
+<li>&quot;-b_l&quot; as in &quot;glo<ins>bal</ins>&quot;, &quot;mo<ins>bil</ins>e&quot;, &quot;la<ins>bel</ins>&quot;</li>
+</ul>
+</li>
+</ul>
+<p>All these sounds are similar to one another in that they all contain &quot;bl&quot; and optionally an <strong>unstressed vowel</strong>. This refers to a vowel that isn't emphasized. Think about how you would say the phrase &quot;lay bell&quot; versus the word &quot;label&quot;. In the first case, the &quot;e&quot; is stressed while in the second case, it is not.</p>
+<p><img src="img/11-bl.png" alt="bl" /></p>
+<h3 id="examples-3"><a class="header" href="#examples-3">Examples</a></h3>
+<ul>
+<li>pebble <code>PEBL</code></li>
+<li>wobble <code>WOBL</code></li>
+<li>playable <code>PHRAEUBL</code></li>
+<li>chewable <code>KHAOUBL</code></li>
+<li>tribal <code>TRAOEUBL</code></li>
+<li>rebel <code>REBL</code></li>
+</ul>
+<blockquote>
+<p><strong>NOTE:</strong> the word &quot;rebel&quot; can be pronounced as <code>RAOE/PWEL</code> or <code>REBL</code> depending on if it is a verb or a noun. While the dictionary contains both, the single stroke variant is recommended as it is faster.</p>
+</blockquote>
+<h3 id="mnemonics-2"><a class="header" href="#mnemonics-2">Mnemonics:</a></h3>
+<blockquote>
+<p>Feel free to come up with your own or even suggest some!</p>
+</blockquote>
+<ol>
+<li><code>-BL</code> already looks a lot like the sounds it represents, you just have to remember that you can skip over unstressed vowels as well.</li>
+</ol>
+<h3 id="section-practice-2"><a class="header" href="#section-practice-2">Section practice</a></h3>
+<p><a href="practice/11-rh-bl.txt">right hand bl words drill</a></p>
+<p>Unfortunately, there is not a lot of practice material for single stroke words containing these chords.</p>
+<h2 id="chapter-11-test"><a class="header" href="#chapter-11-test">Chapter 11 test</a></h2>
+<p>This chapter's test consists of all the practice drills you have done in this chapter. Make sure your settings are configured as such:</p>
+<p><img src="img/5-test-settings.png" alt="test settings" /></p>
+<ul>
+<li>Limit word count: 45</li>
+<li>Start from word: 1</li>
+<li>Repetitions: 3</li>
+<li>Sort: random</li>
+<li>Show hint for every word: unchecked</li>
+<li>Hide hint on last repetition: unchecked</li>
+<li>Show hint on misstroke: checked</li>
+</ul>
+<p><a href="practice/11-test.txt">Click here to access the chapter 11 test</a></p>
+<h3 id="recommended-completion-goal"><a class="header" href="#recommended-completion-goal">Recommended completion goal</a></h3>
+<p>This is only a suggestion; it is not a requirement to move to the next chapter!</p>
+<p><strong>Aim for 10–30 WPM with 90% accuracy.</strong></p>
+<p><strong>You may use the test material as practice!</strong></p>
+
+                        </div>
+                        <div class="sidetoc">
+                            <nav class="pagetoc"></nav>
+                        </div>
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="Chapter-10.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="Chapter-12.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="Chapter-10.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="Chapter-12.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+        <script src="theme/pagetoc.js"></script>
+
+
+    </div>
+    </body>
+</html>
