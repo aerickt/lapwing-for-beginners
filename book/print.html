@@ -4222,29 +4222,29 @@
 <h3 id="basic-movement"><a class="header" href="#basic-movement">Basic movement</a></h3>
 <p>Here's a table of all basic movement commands:</p>
 <div class="table-wrapper"><table><thead><tr><th>Outline</th><th>Description</th></tr></thead><tbody>
-<tr><td><code>#TPH-R</code></td><td>Left arrow key <img src="img/26-left.png" alt="" /></td></tr>
-<tr><td><code>#TPH-P</code></td><td>Up arrow key <img src="img/26-up.png" alt="" /></td></tr>
-<tr><td><code>#TPH-B</code></td><td>Down arrow key <img src="img/26-down.png" alt="" /></td></tr>
-<tr><td><code>#TPH-G</code></td><td>Right arrow key <img src="img/26-right.png" alt="" /></td></tr>
-<tr><td><code>#TPH-FR</code></td><td>Home <img src="img/26-home.png" alt="" /></td></tr>
-<tr><td><code>#TPH-LG</code></td><td>End <img src="img/26-end.png" alt="" /></td></tr>
-<tr><td><code>#TPH-FPL</code></td><td>Top (Ctrl+Home) <img src="img/26-top.png" alt="" /></td></tr>
-<tr><td><code>#TPH-RBG</code></td><td>Bottom (Ctrl+End) <img src="img/26-bottom.png" alt="" /></td></tr>
-<tr><td><code>#TPH-RPG</code></td><td>Page up <img src="img/26-page-up.png" alt="" /></td></tr>
-<tr><td><code>#TPH-FBL</code></td><td>Page down <img src="img/26-page-down.png" alt="" /></td></tr>
+<tr><td><code>#TPH-R</code></td><td>Left arrow key <br> <img src="img/26-left.png" width="300px"/></td></tr>
+<tr><td><code>#TPH-P</code></td><td>Up arrow key <br> <img src="img/26-up.png" width="300px"/></td></tr>
+<tr><td><code>#TPH-B</code></td><td>Down arrow key <br> <img src="img/26-down.png" width="300px"/></td></tr>
+<tr><td><code>#TPH-G</code></td><td>Right arrow key <br> <img src="img/26-right.png" width="300px"/></td></tr>
+<tr><td><code>#TPH-FR</code></td><td>Home <br> <img src="img/26-home.png" width="300px"/></td></tr>
+<tr><td><code>#TPH-LG</code></td><td>End <br> <img src="img/26-end.png" width="300px"/></td></tr>
+<tr><td><code>#TPH-FPL</code></td><td>Top (Ctrl+Home) <br> <img src="img/26-top.png" width="300px"/></td></tr>
+<tr><td><code>#TPH-RBG</code></td><td>Bottom (Ctrl+End) <br> <img src="img/26-bottom.png" width="300px"/></td></tr>
+<tr><td><code>#TPH-RPG</code></td><td>Page up <br> <img src="img/26-page-up.png" width="300px"/></td></tr>
+<tr><td><code>#TPH-FBL</code></td><td>Page down <br> <img src="img/26-down.png" width="300px"/></td></tr>
 </tbody></table>
 </div>
-<p>You can think of the <code>-RPBG</code> as an arrow key cluster and <code>#TPH</code> as a starting chord.</p>
+<p>For arrow keys, you can think of the <code>-RPBG</code> as an arrow key cluster and <code>#TPH</code> as a starting chord.</p>
 <p><img src="img/26-arrow-keys.png" alt="" /></p>
 <h4 id="moving-word-by-word"><a class="header" href="#moving-word-by-word">Moving word by word</a></h4>
-<p>You can normally move word by word by pressing <code class="code-mono">Ctrl</code> and an arrow key on a regular keyboard. Using Lapwing, you can do this with <code>#TPH-RB</code> and <code>#TPH-BG</code>.</p>
+<p>On a regular keyboard, you can move the text cursor word by word by pressing <code class="code-mono">Ctrl</code> and an arrow key. Using Lapwing, you can do this with <code>#TPH-RB</code> and <code>#TPH-BG</code>.</p>
 <div class="table-wrapper"><table><thead><tr><th>Outline</th><th>Description</th></tr></thead><tbody>
-<tr><td><code>#TPH-RB</code></td><td>Left by one word <img src="img/26-left-word.png" alt="" /></td></tr>
-<tr><td><code>#TPH-BG</code></td><td>Right by one word <img src="img/26-right-word.png" alt="" /></td></tr>
+<tr><td><code>#TPH-RB</code></td><td>Left by one word <br> <img src="img/26-left-word.png" width="300px"/></td></tr>
+<tr><td><code>#TPH-BG</code></td><td>Right by one word <br> <img src="img/26-right-word.png" width="300px"/></td></tr>
 </tbody></table>
 </div>
 <h4 id="-ts-repetition"><a class="header" href="#-ts-repetition"><code>-TS</code> repetition</a></h4>
-<p>You can repeat a movement key command up to 4 times in one stroke by including a combination of <code>-T</code> and <code>-S</code>.</p>
+<p>By including a combination of <code>-T</code> and <code>-S</code>, you can repeat a movement key command up to 4 times in one stroke.</p>
 <div class="table-wrapper"><table><thead><tr><th>Repetition</th><th>Key</th></tr></thead><tbody>
 <tr><td>1</td><td><code> </code></td></tr>
 <tr><td>2</td><td><code>-S</code></td></tr>
@@ -4254,8 +4254,11 @@
 </div>
 <p>For example, <code>#TPH-GT</code> would move the cursor to the right by three characters and <code>#TPH-BGT</code> would move the cursor to the right by three words.</p>
 <h4 id="selection"><a class="header" href="#selection">Selection</a></h4>
-<p>To select text, simply include the <code>*</code> key in a movement command. Repeating the same command works for incrementing your selection. For example, <code>#TPH*R/#TPH*R/#TPH*R/#TPH*R</code> will select the 4 letters to the left.</p>
+<p>To select text, include the <code>*</code> key in a movement command. Repeating the same command works for incrementing your selection. For example, <code>#TPH*R/#TPH*R/#TPH*R/#TPH*R</code> will select the 4 letters to the left.</p>
 <h4 id="repeat-the-last-command"><a class="header" href="#repeat-the-last-command">Repeat the last command</a></h4>
+<blockquote>
+<p><strong>NOTE:</strong> for this to work, you will have to disable the <code class="code-mono">lapwing-prefixed-proper-nouns.json&gt;</code>.</p>
+</blockquote>
 <p>Instead of writing <code>#TPH*R/#TPH*R/#TPH*R/#TPH*R</code>, you can also use the number key to repeat the last outline: <code>#TPH*R/#/#/#</code>.</p>
 <blockquote>
 <p><strong>NOTE:</strong> this requires the <code class="code-mono">plover-last-translation</code> plugin if you are not using <code class="code-mono">plover-lapwing-aio</code>.</p>

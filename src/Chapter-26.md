@@ -10,33 +10,33 @@ Here's a table of all basic movement commands:
 
 | Outline | Description |
 | ---- | ---- |
-| `#TPH-R` | Left arrow key ![](img/26-left.png) |
-| `#TPH-P` | Up arrow key ![](img/26-up.png) |
-| `#TPH-B` | Down arrow key ![](img/26-down.png) |
-| `#TPH-G` | Right arrow key ![](img/26-right.png) |
-| `#TPH-FR` | Home ![](img/26-home.png) |
-| `#TPH-LG` | End ![](img/26-end.png) |
-| `#TPH-FPL` | Top (Ctrl+Home) ![](img/26-top.png) |
-| `#TPH-RBG` | Bottom (Ctrl+End) ![](img/26-bottom.png) |
-| `#TPH-RPG` | Page up ![](img/26-page-up.png) |
-| `#TPH-FBL` | Page down ![](img/26-page-down.png) |
+| `#TPH-R` | Left arrow key <br> <img src="img/26-left.png" width="300px"/> |
+| `#TPH-P` | Up arrow key <br> <img src="img/26-up.png" width="300px"/> |
+| `#TPH-B` | Down arrow key <br> <img src="img/26-down.png" width="300px"/> |
+| `#TPH-G` | Right arrow key <br> <img src="img/26-right.png" width="300px"/> |
+| `#TPH-FR` | Home <br> <img src="img/26-home.png" width="300px"/> |
+| `#TPH-LG` | End <br> <img src="img/26-end.png" width="300px"/> |
+| `#TPH-FPL` | Top (Ctrl+Home) <br> <img src="img/26-top.png" width="300px"/> |
+| `#TPH-RBG` | Bottom (Ctrl+End) <br> <img src="img/26-bottom.png" width="300px"/> |
+| `#TPH-RPG` | Page up <br> <img src="img/26-page-up.png" width="300px"/> |
+| `#TPH-FBL` | Page down <br> <img src="img/26-down.png" width="300px"/> |
 
-You can think of the `-RPBG` as an arrow key cluster and `#TPH` as a starting chord.
+For arrow keys, you can think of the `-RPBG` as an arrow key cluster and `#TPH` as a starting chord.
 
 ![](img/26-arrow-keys.png)
 
 #### Moving word by word
 
-You can normally move word by word by pressing <code class="code-mono">Ctrl</code> and an arrow key on a regular keyboard. Using Lapwing, you can do this with `#TPH-RB` and `#TPH-BG`.
+On a regular keyboard, you can move the text cursor word by word by pressing <code class="code-mono">Ctrl</code> and an arrow key. Using Lapwing, you can do this with `#TPH-RB` and `#TPH-BG`.
 
 | Outline | Description |
 | ---- | ---- |
-| `#TPH-RB` | Left by one word ![](img/26-left-word.png) |
-| `#TPH-BG` | Right by one word ![](img/26-right-word.png) |
+| `#TPH-RB` | Left by one word <br> <img src="img/26-left-word.png" width="300px"/> |
+| `#TPH-BG` | Right by one word <br> <img src="img/26-right-word.png" width="300px"/> |
 
 #### `-TS` repetition
 
-You can repeat a movement key command up to 4 times in one stroke by including a combination of `-T` and `-S`.
+By including a combination of `-T` and `-S`, you can repeat a movement key command up to 4 times in one stroke.
 
 | Repetition | Key |
 | ---- | ---- |
@@ -49,9 +49,11 @@ For example, `#TPH-GT` would move the cursor to the right by three characters an
 
 #### Selection
 
-To select text, simply include the `*` key in a movement command. Repeating the same command works for incrementing your selection. For example, `#TPH*R/#TPH*R/#TPH*R/#TPH*R` will select the 4 letters to the left.
+To select text, include the `*` key in a movement command. Repeating the same command works for incrementing your selection. For example, `#TPH*R/#TPH*R/#TPH*R/#TPH*R` will select the 4 letters to the left.
 
 #### Repeat the last command
+
+> **NOTE:** for this to work, you will have to disable the <code class="code-mono">lapwing-prefixed-proper-nouns.json></code>.
 
 Instead of writing `#TPH*R/#TPH*R/#TPH*R/#TPH*R`, you can also use the number key to repeat the last outline: `#TPH*R/#/#/#`.
 
