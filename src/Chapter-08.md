@@ -36,7 +36,7 @@ I'm making an effort to include IPA with the hopes that they will be useful for 
 
 ### What is a conflict?
 
-Throughout this page, you will see the word "conflict" thrown around a lot. Since steno is a primarily phonetic system, we will sometimes encounter pairs of words which would be written exactly the same. For example, we learned that `AEUR` represents the sound in "p<ins>air</ins>". However, this is also the same sound in the word "p<ins>ear</ins>". We would call this an example of a "conflict" (these two words conflict with the same outline). As you'll see, we usually resolve these conflicts by using different chords based on spellings.
+Since steno is a primarily phonetic system, homophones can be tricky to deal with. For example, the words "pair" and "pear" are pronounced exactly the same, but it is not possible to assign them both to `PAEUR`. We would call this an example of a "conflict"; two words conflict with the same outline. In Lapwing theory, spelling is the primary way to resolve conflicts. This particular example of "pair" and "pear" is covered later in this chapter.
 
 ## `AOE`
 
@@ -148,7 +148,7 @@ Words spelled with "awl" are also given `A*UL` when there is a conflict:
 * ball `PWAUL`
 * bawl `PWA*UL`
 
-These words will not be tested as there are so few of them; it would be pointless to drill these minor conflicts as you would be likely to forget about them in everyday writing. However, this conflict resolution technique is still useful to keep in mind.
+There aren't very many of these conflicts to warrant a practice drill, but it is important to keep this in mind when you encounter unexpected output in everyday writing.
 
 ### Section practice
 
@@ -163,9 +163,9 @@ Take a look at the following words:
 * pair
 * pear
 
-We can't assign the outline `PAEUR` to both of these words, so we will need a different vowel chord to differentiate the two. This is where `AE` comes into play. It is a secondary chord that can represent the same vowel as `AEU` when there is conflict.
+The `PAEUR` outline cannot be assigned to both of these words. This is where `AE` comes into play. It is a secondary chord that can represent the same vowel as `AEU` when there is conflict.
 
-In these conflicts involving the "long a" sound, one word will use `AEU`. This is the word with higher priority. The other word will use `AE`; this is the word with lower priority. We use spellings to determine the priority to assign to a word.
+In these conflicts involving the "long a" sound, one word will use `AEU`. This is the word with higher priority. The other word will use `AE`; this is the word with lower priority. Spelling is used to determine the priority to assign to a word.
 
 ### Highest priority: "ai" or "ei" spellings
 
@@ -178,7 +178,7 @@ Words spelled with "ai" or "ei" get the highest priority, and are always written
 
 ### Medium priority: "a_e" spellings
 
-These words get medium priority. Use `AE` for these words if there is a conflict with a word in the above category.
+These words receive medium priority. Use `AE` for these words if there is a conflict with a word in the above category.
 
 * `AET` ate (`AEUT` is already "eight")
 * `TPAER` fare (`TPAEUR` is already "fair")
@@ -193,7 +193,7 @@ These words get lowest priority. If there is a conflict with any of the two cate
 * `PAER` pear (`PAEUR` is already "pair")
 * `SWAEUR` swear ("swair" and "sware" are not words)
 
-Remember that `AE` is **only used to disambiguate**. Try not to associate this chord with any specific spelling or sound.
+> **NOTE:** remember that `AE` is **only used to resolve conflicts**. Try not to associate this chord with any specific spelling or sound.
 
 ### Flowchart Summary
 
@@ -203,7 +203,7 @@ Here's a flowchart to summarize the above:
 
 ## `AE` for `AOE`
 
-In addition to the `AEU` vowel, `AE` can also represent the `AOE` vowel when there is ambiguity. Again, we assign certain spellings to higher priority and use `AE` for lower priority spellings when there are homonyms.
+In addition to the `AEU` vowel, `AE` can also represent the `AOE` vowel when there are conflicts. Again, certain spellings are assigned to higher priority, while lower priority spellings use `AE`.
 
 ### Highest priority: "ee" spellings
 
@@ -222,6 +222,8 @@ All words spelled with "ee" use `AOE`
 
 * `TPAET` feat (`TPAOET` is already "feet")
 * `PAE` pea (`PAOE` is already "pee")
+* `PAES` peace (`PAOES` is already "piece")
+* `TAE` tea (`TAOE` is already "tee")
 
 ### Flowchart Summary
 
@@ -259,13 +261,13 @@ This chord has two uses:
    - hood `HAOD`
    - blood `PWHRAOD`
    - tool `TAOL`
-2. Words spelled with "oa" when there is a conflict
+2. Words spelled with "oa" to resolve conflicts
    - oar `AOR` (`OR` is already "or")
    - soar `SAOR` (`SOR` is already "sore")
    - boar `PWAOR` (`PWOR` is already "bore")
    - road `RAOD` (`ROED` is already "rode")
 
-> **NOTE:** you may be tempted to write "boat" as `PWAOT`, but this is incorrect. `AO` is primarily used for "oo" spellings. Therefore, `PWAOT` is actually the word "boot"; `PWOET` would be "boat".
+> **NOTE:** you may be tempted to write "boat" as `PWAOT`, but this is incorrect. The word "boat" should be written as `PWOET`, first and foremost (since there are no homophones with "boat"). Therefore, `PWAOT` is actually the word "boot".
 
 ### Section practice
 

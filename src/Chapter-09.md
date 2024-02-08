@@ -44,7 +44,7 @@ Remember to take breaks!
 
 ### Conflicts with f
 
-You may run into conflicts where it's ambiguous what the `-F` in a steno outline represents. For example, "safe" and "save" would both be written as `SAEUF`. In these cases, we reserve `-F` for the word spelled with "f" and instead use `*F` for the word spelled with "v":
+With `-F` as both "f" and "v", conflicts such as "safe" and "save" can arise; both of these would be written as `SAEUF`. In these cases, we reserve `-F` for the word spelled with "f" and instead use `*F` for the word spelled with "v":
 
 * safe `SAEUF`
 * save `SA*EUF`
@@ -57,17 +57,19 @@ You may run into conflicts where it's ambiguous what the `-F` in a steno outline
 
 ## Right hand st
 
-How would you write the word "fast" with Lapwing theory? We know the left hand initial "f" consonant is `TP` and the vowel is simply just `A`, but what do we do with the ending "-st" consonant? There are, of course, the `-S` and `-T` keys on the right side, but these are out of order. `TPATS` is the word "fats", not "fast".
+In chapter 5, and it was stated that "-st" in words like "past" cannot be written in a way that obeys steno order. In Lapwing theory, `-FT` can be used to represent this sound.
 
-Handling the ending "-st" consonant is one such situation where different steno theories disagree. In Lapwing theory, we use `-FT` primarily and `*S` when there is a conflict:
-
-![st](img/9-st.png)
-
+* cast `KAFT`
 * fast `TPAFT`
 * haste `HAEUFT`
-* cast `KAFT`
+* mast `PHAFT`
+
+For conflicts, `*S` is used as a secondary chord. Words with "-ft" are given higher priority than words with "-st".
+
 * lost `HRO*S` (`HROFT` is already "loft")
 * list `HR*EUS` (`HREUFT` is already "lift")
+
+![st](img/9-st.png)
   
 #### Section practice
 

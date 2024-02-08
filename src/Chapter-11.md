@@ -24,7 +24,7 @@ Remember to take breaks!
 
 ## Intro
 
-So far, we have been looking at single sounds that make up single syllable words. In this chapter, we will look at **compound clusters** which are chords that can represent more than just a single consonant.
+All the chords covered so far represent single sounds. However, there are some chords (particularly on the right hand) that can represent multiple syllables. These are referred to as compound clusters.
 
 ## Right hand shun, kshun, and x
 
@@ -42,7 +42,7 @@ So far, we have been looking at single sounds that make up single syllable words
 * tex `TEBGS`
 
 ### "-kshun" and "-x" conflicts
-Some words like "a<ins>x</ins>e" and "a<ins>ction</ins>" conflict with the same outline: `ABGS`. In these cases, we give the "-x" sound higher priority and relegate the "-kshun" sound to `*BGS` (same chord, but with the asterisk key).
+Some words like "a<ins>x</ins>e" and "a<ins>ction</ins>" conflict with the same outline: `ABGS`. In these cases, the "-x" sound is given higher priority and "-kshun" sound is relegated to `*BGS` (same chord, but with the asterisk key).
 
 #### Examples
 
@@ -95,7 +95,7 @@ Unfortunately, there is not a lot of practice material for single stroke words c
    - "-ibl" as in "poss<ins>ibl</ins>e"
    - "-b_l" as in "glo<ins>bal</ins>", "mo<ins>bil</ins>e", "la<ins>bel</ins>"
 
-All these sounds are similar to one another in that they all contain "bl" and optionally an **unstressed vowel**. This refers to a vowel that isn't emphasized. Think about how you would say the phrase "lay bell" versus the word "label". In the first case, the "e" is stressed while in the second case, it is not.
+All these sounds are similar to one another in that they all contain "bl" and optionally an **unstressed vowel**. This refers to a vowel that isn't emphasized. Think about how the phrase "lay bell" differs in sound to the word "label". In the first case, the "e" is stressed while in the second case, it is not.
 
 ![bl](img/11-bl.png)
 
