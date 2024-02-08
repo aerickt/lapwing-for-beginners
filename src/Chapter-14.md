@@ -42,11 +42,9 @@ One special type of suffix stroke is the suffix key; these are suffix strokes th
 
 ### Folding
 
-> This section on folding is mostly for your interest only. It is not a recommended technique at this point. A
+> This section on folding is mostly for your interest only. It is not a recommended technique at this point.
 
-Folding is an advanced technique of using these suffix keys. It refers to including the suffix key in the previous stroke. This is only possible on some words—for example, it would not be possible to fold `-G` into the word "ache" as it already contains the `-G` key.
-
-Of the examples listed above, you would fold the suffix keys into the previous stroke like so:
+*Folding* is an advanced technique where extra keys are included in a stroke regardless of steno order. Folding a suffix key into a stroke is only possible if they key is not already present in another chord. Of the examples above, the following can be written with folded suffix keys:
 
 * fasting `TPAFGT`
 * knives `TPHAOEUFZ`

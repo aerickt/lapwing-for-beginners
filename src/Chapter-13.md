@@ -34,7 +34,7 @@ Every translation we have been writing so far has been a regular word with no sp
 
 ![](img/13-add-translation-stroke.png)
 
-Now let's look at a **prefix stroke**. This is a stroke that tells Plover to suppress the next space after outputting a translation. If you write `PRAOE` into the <code class="code-mono">Strokes</code> field. You should see the following:
+Now let's look at a *prefix*. This is a stroke that tells Plover to suppress the next space after outputting a translation. If you write `PRAOE` into the <code class="code-mono">Strokes</code> field. You should see the following:
 
 ![](img/13-add-translation-pre.png)
 
@@ -92,17 +92,17 @@ There is no practice material for this section. It's not important to explicitly
 
 ## Suffix strokes
 
-Much like how a prefix stroke attaches to the next word, a suffix stroke attaches to the **previous** word—it's exactly what you might expect from the name. Unlike prefix strokes, however, suffixes tend to be less intuitive and most have to be memorized. This section is split into smaller subsections with different "families" of suffix strokes to hopefully make them easier to remember.
+Much like how a prefix stroke attaches to the next word, a *suffix* stroke attaches to the previous word. Unlike prefix strokes, however, suffixes tend to be less intuitive and most have to be memorized. This section is split into smaller subsections with different "families" of suffix strokes to hopefully make them easier to remember.
 
 It is very important that you understand when it is appropriate to use a suffix. Pay careful attention to the information in each subsection telling you when it is appropriate to use those suffix strokes.
 
 ### `EU` suffixes
 
-The suffixes in this subsection contain the `EU` vowel and some consonant on the left hand. While you've learned that `EU` represents the "short i" vowel as in "kiss", `EU` is also used for the "long e" vowel as in "tee" under some circumstances.
+The suffixes in this subsection contain the `EU` vowel and some consonant on the left hand. While you've learned that `EU` represents the *short i* vowel as in "kiss", `EU` is also used for the *long e* vowel as in "tee" under some circumstances.
 
 > This comes from Plover theory's main.json and it is unfortunately an arbitrary rule that would be difficult to change Lapwing theory.
 
-One such circumstance where `EU` represents the "long e" sound is in the following suffixes:
+One such circumstance where `EU` represents the *long e* sound is in the following suffixes:
 
 | Stroke | Suffix | Example outline | Example translation |
 | ------ | -------| --------------- | ------------------- |

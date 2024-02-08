@@ -175,9 +175,9 @@ For example, the word "carry" would be written in two strokes. As we must preser
 
 #### Why the `EU` chord?
 
-The examples above all end in the "long e" sound (/i/) as in "tee"—so why `EU`? Well, to be quite honest, I'm not entirely sure myself. This is simply what Plover theory sometimes does and it's just what I've gotten used to. This does, unfortunately, mean that Lapwing theory has inherited the quirk.
+The examples above all end in the *long e* sound (/i/) as in "tee"—so why `EU`? Well, to be quite honest, I'm not entirely sure myself. This is simply what Plover theory sometimes does and it's just what I've gotten used to. This does, unfortunately, mean that Lapwing theory has inherited the quirk.
 
-That being said, the usage of `EU` vs `AOE` is more defined in Lapwing theory and is less arbitrary. If a word has a "long e" sound, these are the rules you should follow for deciding between `EU` and `AOE`:
+That being said, the usage of `EU` vs `AOE` is more defined in Lapwing theory and is less arbitrary. If a word has a *long e* sound, these are the rules you should follow for deciding between `EU` and `AOE`:
 
 1. If the vowel is spelled with a single "i", use `EU`
    - petite `PE/TEUT`
@@ -238,7 +238,7 @@ In the three situations above, only the last one should be new to you.
 
 The `KWR` chord can also represent the "y" sound that occurs between two vowels. In my accent, the words "piano" or "aioli" have a subtle "y" sound in the second syllable ("pee-ya-no" and "ai-yo-lee").
 
-Linguistically, this sound is called a glide and is represented with `KWR` in Lapwing:
+Linguistically, this sound is called a *glide* and is represented with `KWR` in Lapwing:
 
 * piano `PEU/KWRA/TPHOE`
 * aioli `AOEU/KWROE/HREU`
@@ -266,7 +266,7 @@ If, in your accent, you cannot hear a glide, you can also just treat `KWR` as a 
 
 How would you write the word "alleviate"? With everything we've learned so far, you may be tempted to use `A/HRAOE/SREU/KWRAEUT` (a/lle/vi/ate). However, four strokes is quite a lot. We need to be able to compress this word into fewer strokes if we want to be fast at steno.
 
-To do this, we can let the `KWRAEU` stroke represent the entire "ia" sound. This sound is made up of two distinct vowels that are blended together. The "ia" pair is composed of the "long e" /i/ vowel as in "b<ins>ee</ins>t" and the "long a" /ei/ vowel as in "b<ins>ai</ins>t". These are blended together to form the sound "ee-ait" /iˌeɪt/.
+To do this, we can let the `KWRAEU` stroke represent the entire "ia" sound. This sound is made up of two distinct vowels that are blended together. The "ia" pair is composed of the *long e* /i/ vowel as in "b<ins>ee</ins>t" and the *long a* /ei/ vowel as in "b<ins>ai</ins>t". These are blended together to form the sound "ee-ait" /iˌeɪt/.
 
 Say "alleviate" out loud and see if you can identify this "ee-ait" vowel pair in the last syllable!
 
@@ -315,7 +315,7 @@ Therefore, it makes sense to assign a different stroke other than `PWAOEU` to th
   * Can be the word "bicycling"
   * Can be the phrase "by cycling" as in "We can achieve hover by cycling between engine modes."
 * `PWAOEU/HRA/TER/KWRAL`
-  * The word "bilateral"
+  * Can be the word "bilateral"
   * Can be the phrase "by lateral" as in "Love waves cause damage by lateral movement of the ground."
 
 Below is a table of some basic word/prefix conflicts. Prefixes will be given to the intuitive outline and the word variant will use the asterisk key or a different vowel chord. However, for some common words, it's useful to brief them as it is useful in phrases. You are free to add your own briefs for the word variants.

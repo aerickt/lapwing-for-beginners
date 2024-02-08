@@ -1,4 +1,5 @@
 # Summary
+-[Home](Home.md)
 -[Chapter 1: Introduction](Chapter-01.md)
 -[Chapter 2: Steno hardware and software](Chapter-02.md)
 -[Chapter 3: How to learn steno](Chapter-03.md)
@@ -27,3 +28,4 @@
 -[Chapter 26: Editing text](Chapter-26.md)
 -[Appendix A: Switching to Lapwing from Plover](Appendix-A.md)
 -[Appendix B: Setting up Lapwing manually](Appendix-B.md)
+-[Glossary](Glossary.md)

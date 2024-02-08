@@ -19,7 +19,7 @@ c/o/m/p/l/i/c/a/t/e
 
 > The slashes represent separators between key presses.
 
-This results in 10 successive key strokes. On the other hand, steno uses chords, or groups of keys that are pressed down all at once. This action of pressing down multiple keys simultaneously is called a stroke. By using chords the word "complicate" can be written using only three strokes:
+This results in 10 successive key strokes. On the other hand, steno uses *chords*, or groups of keys that are pressed down all at once. This action of pressing down multiple keys simultaneously is called a stroke. By using chords the word "complicate" can be written using only three strokes:
 
 ```
 com/pli/cate
@@ -39,7 +39,7 @@ At first glance, it appears that `KOPL/PHREU/KAEUT` has no bearing resemblance t
 
 ![steno layout](img/1-layout.png)
 
-In our example, `PL` in `KOPL` represents the ending "m" consonant; `HR` in `PHREU` represents the initial "l" consonant; `EU` in `PHREU` represents the "i" vowel, as in "p<ins>i</ins>t"; finally `AEU` in `KAEUT` represents the /eɪ/ diphthong (also called "long a" vowel) as in "f<ins>a</ins>te".
+In our example, `PL` in `KOPL` represents the ending "m" consonant; `HR` in `PHREU` represents the initial "l" consonant; `EU` in `PHREU` represents the "i" vowel, as in "p<ins>i</ins>t"; finally `AEU` in `KAEUT` represents the /eɪ/ diphthong (also called *long a* vowel) as in "f<ins>a</ins>te".
 
 The following table illustrates the sounds that each key group represents in our example.
 
@@ -48,7 +48,7 @@ The following table illustrates the sounds that each key group represents in our
 | **Steno Keys** | `K` | `O` | `PL` | | `P` | `HR` | `EU` | | `K` | `AEU` | `T` |
 | **Sounds** | k | o | m | | p | l | i | | k | ā | t |
 
-Essentially, `KOPL/PHREU/KAEUT` really just represents `KOM/PLI/KĀT` (where `Ā` represents the "long a" or /eɪ/ diphthong).
+Essentially, `KOPL/PHREU/KAEUT` really just represents `KOM/PLI/KĀT` (where `Ā` represents the *long a* vowel or /eɪ/ diphthong).
 
 And that's basically all there is in principle! Stenographers memorize a whole slew of chords for the missing sounds, and string multiple strokes together to write English.
 
@@ -56,19 +56,15 @@ And that's basically all there is in principle! Stenographers memorize a whole s
 
 Before we continue, it's important to be aware of some of the terminology surrounding key presses in steno.
 
-* Chord: a group of keys pressed all at once representing a single sound.
+* *Chord*: a group of keys that represent a sound.
 
-* Stroke: a group of keys pressed all at once representing a syllable.
+* *Stroke*: synonymous with chord; can also be a verb describing the action of pressing a chord.
 
-* Outline: a group of one or more strokes that is mapped to a translation.
+* *Outline*: a group of one or more strokes that is mapped to a translation.
 
-The terms "stroke" and "chord" are almost synonymous, but there is a subtle distinction between the two. Generally, "stroke" refers to a group of keys that make a complete sound: one that contains at least one vowel and one consonant. On the other hand, "chord" refers to a group of keys that make a single sound—like one consonant or one vowel.
-
-So, `KOPL/PHREU/KAEUT` would be considered an outline for the word "complicate". It is made up of 3 strokes, one of which is `KOPL`. Within this stroke, there is the `PL` chord that represents the ending "m" consonant. Here is an excellent graphic from [Jen's steno explainers](https://steno.sammdot.ca/steno-terminology.png):
+Here is an excellent graphic from [Jen's steno explainers](https://steno.sammdot.ca/steno-terminology.png):
 
 ![steno terminology explainer](img/1-terminology.png)
-
-Don't worry too much about the terminology right now, but it will become important later on.
 
 ### Steno is primarily phonetic
 
@@ -78,7 +74,7 @@ However, if steno were completely phonetic, it would be impossible to differenti
 
 ### Steno theories
 
-A steno theory refers to the set of rules that govern how words are broken down. While the basics (such as everything mentioned so far) are more or less the same between theories, there are some subtle differences. When it comes to learning English steno, it is not important which theory to start off with—it isn't difficult to switch between them.
+A *steno theory* refers to the set of rules that govern how words are broken down. While the basics (such as everything mentioned so far) are more or less the same between theories, there are some subtle differences. When it comes to learning English steno, it is not important which theory to start off with—it isn't difficult to switch between them.
 
 The primary way steno theories differ is in their philosophy. For example, Phoenix theory is based off of a comprehensive set of rules that make it easy to break down complicated words. On the other side of the spectrum, Magnum theory places more emphasis on learning words themselves through rote memorization. In essence, there are fewer strict rules, but more arbitrary outlines to remember.
 
@@ -90,7 +86,7 @@ There has been one effort in the Open Steno community to create a theory based f
 
 ### How steno works from the software side
 
-The keys pressed in an outline are translated to text that shows up on screen via a steno engine. This is a program on a computer, or is embedded in a keyboard's firmware. Steno engines use large files called dictionaries that simply contain 1-to-1 translations between steno outlines and their output. This makes steno entirely deterministic and predictable.
+The keys pressed in an outline are translated to text that shows up on screen via a *steno engine*. This is a program on a computer, or is embedded in a keyboard's firmware. Steno engines use large files called *dictionaries* that simply contain 1-to-1 translations between steno outlines and their output. This makes steno entirely deterministic and predictable.
 
 For example, here is one section from Lapwing theory dictionary:
 
@@ -106,11 +102,11 @@ For example, here is one section from Lapwing theory dictionary:
 "TKURBL": "durable",
 ```
 
-Many steno dictionaries have upwards of hundreds of thousands of entries. It's important to remember that the majority of these  are predictable as they follow the rules governed in a steno theory. Stenographers don't simply just memorize every single entry in their dictionary—that would be insane!
+Many steno dictionaries have upwards of hundreds of thousands of *entries*. It's important to remember that the majority of these  are predictable as they follow the rules governed in a steno theory. Stenographers don't simply just memorize every single entry in their dictionary—that would be insane!
 
-This, however, does bring up the concern of what to do when a word is not defined in a a stenographer's dictionary. In these cases, there is a technique for letter-by-letter input (called fingerspelling). This technique is rather slow (~40 WPM), but it is not a common occurrence. Furthermore, a good stenographer is expected to add any outlines they find missing according to their theory rules. There is no such thing as a word that is difficult to represent in steno strokes. A good theory will provide a set of rules that makes it very easy to break down a complicated word into simple steno strokes.
+This, however, does bring up the concern of what to do when a word is not defined in a a stenographer's dictionary. In these cases, there is a technique for letter-by-letter input (called *fingerspelling*). This technique is rather slow (~40 WPM), but it is not a common occurrence. Furthermore, a good stenographer is expected to add any outlines they find missing according to their theory rules. There is no such thing as a word that is difficult to represent in steno strokes. A good theory will provide a set of rules that makes it very easy to break down a complicated word into simple steno strokes.
 
-Another important feature of steno (due in part to its usage of dictionaries) are abbreviated entries, or "briefs". These are outlines that do not 100% follow basic theory rules. They contain fewer strokes and, as a result, are faster to write. This helps for building speed and are often used for the most common words in English.
+Another important feature of steno (due in part to its usage of dictionaries) are abbreviated entries, or *briefs*. These are outlines that do not 100% follow basic theory rules. They contain fewer strokes and, as a result, are faster to write. This helps for building speed and are often used for the most common words in English.
 
 #### Non-word translations
 

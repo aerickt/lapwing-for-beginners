@@ -135,7 +135,7 @@ Folding suffix keys was introduced in chapter 14, but there are also other keys 
 
 ### E-folding
 
-By inserting the `E` key into a vowel chord (called "folding"), you can add a "long e" /i/ vowel to the end of the stroke. This is typically only used for short vowel (`A`, `O`, and `U`) and is only valid if the resulting outline isn't already defined as a separate translation.
+By inserting the `E` key into a vowel chord (called "folding"), you can add a *long e* /i/ vowel to the end of the stroke. This is typically only used for short vowel (`A`, `O`, and `U`) and is only valid if the resulting outline isn't already defined as a separate translation.
 
 ### `AE`
 

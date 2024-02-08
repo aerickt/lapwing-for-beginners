@@ -36,13 +36,13 @@ I'm making an effort to include IPA with the hopes that they will be useful for 
 
 ### What is a conflict?
 
-Since steno is a primarily phonetic system, homophones can be tricky to deal with. For example, the words "pair" and "pear" are pronounced exactly the same, but it is not possible to assign them both to `PAEUR`. We would call this an example of a "conflict"; two words conflict with the same outline. In Lapwing theory, spelling is the primary way to resolve conflicts. This particular example of "pair" and "pear" is covered later in this chapter.
+Since steno is a primarily phonetic system, homophones can be tricky to deal with. For example, the words "pair" and "pear" are pronounced exactly the same, but it is not possible to assign them both to `PAEUR`. We would call this an example of a *conflict*; two words conflict with the same outline. In Lapwing theory, spelling is the primary way to resolve conflicts. This particular example of "pair" and "pear" is covered later in this chapter.
 
 ## `AOE`
 
 ![aoe](img/8-aoe.png)
 
-* `AOE` is the "long e" sound as in "b<ins>ee</ins>t"
+* `AOE` is the *long e* sound as in "b<ins>ee</ins>t"
   - /i/
 * `AOER` is the sound as in "p<ins>eer</ins>"
   - /ɪər/
@@ -66,8 +66,8 @@ Since steno is a primarily phonetic system, homophones can be tricky to deal wit
 
 > Feel free to come up with your own or even suggest some!
 
-1. If the notion of "long" and "short" vowels (as described in the previous chapter) is familiar, you can think of transforming the `E` key into a "long e" by combining it with the two keys on the other side
-    - "Long e" = `E` + (vowel keys on other hand)
+1. If the notion of *long vowels* and *short vowels* (as described in the previous chapter) is familiar, you can think of transforming the `E` key into a *long e* by combining it with the two keys on the other side
+    - *Long e* = `E` + (vowel keys on other hand)
 
 ### Section practice
 
@@ -77,7 +77,7 @@ Since steno is a primarily phonetic system, homophones can be tricky to deal wit
 
 ![aoeu](img/8-aoeu.png)
 
-* `AOEU` is the "long i" sound as in "<ins>i</ins>ce"
+* `AOEU` is the *long i* sound as in "<ins>i</ins>ce"
   - /aɪ/
 * `AOEUR` is the sound as in "<ins>ir</ins>e"
   - /aɪər/
@@ -101,8 +101,8 @@ Since steno is a primarily phonetic system, homophones can be tricky to deal wit
 
 > Feel free to come up with your own or even suggest some!
 
-1. If the notion of "long" and "short" vowels (as described in the previous chapter) is familiar, you can think of transforming the "i" chord into a "long i" by combining it with the two keys on the other side
-    - "Long i" = `EU` + (vowel keys on other hand)
+1. If the notion of *long vowel* and *short vowels* (as described in the previous chapter) is familiar, you can think of transforming the "i" chord into a *long i* by combining it with the two keys on the other side
+    - *Long i* = `EU` + (vowel keys on other hand)
 
 ### Section practice
 
@@ -165,7 +165,7 @@ Take a look at the following words:
 
 The `PAEUR` outline cannot be assigned to both of these words. This is where `AE` comes into play. It is a secondary chord that can represent the same vowel as `AEU` when there is conflict.
 
-In these conflicts involving the "long a" sound, one word will use `AEU`. This is the word with higher priority. The other word will use `AE`; this is the word with lower priority. Spelling is used to determine the priority to assign to a word.
+In these conflicts involving the *long a* sound, one word will use `AEU`. This is the word with higher priority. The other word will use `AE`; this is the word with lower priority. Spelling is used to determine the priority to assign to a word.
 
 ### Highest priority: "ai" or "ei" spellings
 

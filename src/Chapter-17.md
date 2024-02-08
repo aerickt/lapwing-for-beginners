@@ -17,10 +17,10 @@ Remember to take breaks!
 
 ## Intro
 
-There won't be any practice material for this chapter as these topics are easy to practise just by using steno in everyday writing. It may be helpful to keep the tables on this page in an easy to read place (i.e., printed out and taped to the wall).
+There won't be any practice material for this chapter as these topics are easy to practise in everyday writing. It may be helpful to keep the tables on this page in an easy to read place (i.e., printed out and taped to the wall).
 
 ## Fingerspelling
-To write a short acronym or a word that is not yet defined, a letter-by-letter spelling technique called fingerspelling can be used. This is done by pressing a letter chord plus the asterisk key with the right hand.
+To write a short acronym or a word that is not yet defined, a letter-by-letter spelling technique called *fingerspelling* can be used. This is done by pressing a letter chord plus the asterisk key with the right hand.
 
 ### Lowercase
 

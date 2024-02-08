@@ -102,7 +102,7 @@ Write the "-graph" part separately and then use the `KWREU` suffix to add the "-
 * `SREUD/KWRO/TKPWRAEF` videography
 
 
-This uses a briefing technique called "e-folding". The stroke `TKPWRAF` represents "graph", and the `E` key can indicate a "long e" sound on the end of the word.
+This uses a briefing technique called "e-folding". The stroke `TKPWRAF` represents "graph", and the `E` key can indicate a *long e* sound on the end of the word.
 
 In other words:
 
@@ -173,7 +173,7 @@ This is simply just a briefing pattern. These outlines are much shorter than the
 
 ## Ambiguous glide vowels
 
-In some words containing glides represented with `KWR` or `W`, the proceeding vowel sound is spelled with two letters. The sound itself is an unstressed schwa (a "short vowel"), and so the **second** vowel letter is what determines which key to use.
+In some words containing glides represented with `KWR` or `W`, the proceeding vowel sound is spelled with two letters. The sound itself is an unstressed schwa (a *short vowel*), and so the **second** vowel letter is what determines which key to use.
 
 Here are some examples to illustrate:
 

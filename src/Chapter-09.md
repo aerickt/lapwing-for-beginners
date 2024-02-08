@@ -44,7 +44,7 @@ Remember to take breaks!
 
 ### Conflicts with f
 
-With `-F` as both "f" and "v", conflicts such as "safe" and "save" can arise; both of these would be written as `SAEUF`. In these cases, we reserve `-F` for the word spelled with "f" and instead use `*F` for the word spelled with "v":
+With `-F` as both "f" and "v", conflicts such as "safe" and "save" can arise; both of these would be written as `SAEUF`. In these cases, `-F` is reserved for the word spelled with "f" and `*F` is used for the word spelled with "v":
 
 * safe `SAEUF`
 * save `SA*EUF`

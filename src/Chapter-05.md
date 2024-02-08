@@ -82,7 +82,7 @@ Here are some examples of some basic words that can be written just by knowing t
 * purr `PUR`
 * rough `RUF`
 
-Those last two words may have been a little bit tricky as their spellings contain multiple vowel letters. Here are some rules for dealing with short vowels:
+Those last two words may have been a little bit tricky as their spellings contain multiple vowel letters. Here are some rules for dealing with *short vowels*:
 
 1. **If a word is spelled using a single vowel, use the vowel key that spells the word.**
 
@@ -107,11 +107,11 @@ Remember that with short vowels, spellings are used instead of pronunciation (ru
 
 ## Steno order
 
-Looking at the steno layout, why is it that "car" *must* be written using the left `K`, and the right hand `-R`?
+Looking at the steno layout, why is it that "car" must be written using the left `K`, and the right hand `-R`?
 
 ![](img/1-layout.png)
 
-The answer is **steno order**.
+The answer is *steno order*.
 
 ![](img/5-order.png)
 

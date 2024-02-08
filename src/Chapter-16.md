@@ -18,11 +18,11 @@ Remember to take breaks!
 
 ## Introduction
 
-In English, the 200 most frequently used words account for something like 80% of all writing. Because of this, these words tend to be briefed heavily for speed and comfort. About a third of the top 200 English words are briefed in Lapwing theory and cannot be written using theory principles. It's important to be comfortable writing all of these words by the end of this chapter.
+In English, the 200 most frequently used words account for something like 80% of all writing. Because of this, these words tend to be written with abbreviated outlines heavily for speed and comfort. About 50 of the 200 most common English words need to be memorized; they cannot always be written with theory principles covered so far. It's important to be comfortable writing all of these words by the end of this chapter.
 
 ### Write-outs versus briefs
 
-A write-out refers to an outline that adheres to theory principles very closely. They are the canonical outline to use when in doubt. On the other hand, a brief is an outline that doesn't necessarily follow theory. It is an abbreviated entry that is used for greater speed.
+A *write-out* refers to an outline that adheres to theory principles very closely. They are the canonical outline to use when in doubt. On the other hand, a *brief* is an outline that doesn't necessarily follow theory. It is an abbreviated entry that is used for greater speed.
 
 Some words do not have a write-out entry and will only have a brief which needs to be memorized. On the other hand, some words may only have a write-out. Finally, some may also have a brief and a write-out. If no explanation is provided, you may use either one.
 
