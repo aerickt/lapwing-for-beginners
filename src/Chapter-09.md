@@ -19,10 +19,10 @@ Remember to take breaks!
 
 ## Useful links
 
-* [Single syllable right hand v words drill](practice/9-single-syllable-rh-v.txt)
-* [Single syllable right hand st words drill](practice/9-single-syllable-rh-st.txt)
-* [Single syllable right hand m and k words drill](practice/9-single-syllable-rh-m-and-k.txt)
-* [Single syllable right hand mp, th, and lk words drill](practice/9-single-syllable-rh-mp-th-lk.txt)
+* [Single syllable right hand v words drill](practice/9-right-v.txt)
+* [Single syllable right hand st words drill](practice/9-right-st.txt)
+* [Single syllable right hand m and k words drill](practice/9-right-m-and-k.txt)
+* [Single syllable right hand mp, th, and lk words drill](practice/9-right-mp-th-lk.txt)
 * [Chapter 9 test](practice/9-test.txt)
 
 ## Right hand v
@@ -53,7 +53,7 @@ You may run into conflicts where it's ambiguous what the `-F` in a steno outline
 
 ### Section practice
 
-[Single syllable v words](practice/9-single-syllable-rh-v.txt)
+[Single syllable v words](practice/9-right-v.txt)
 
 ## Right hand st
 
@@ -73,7 +73,7 @@ Handling the ending "-st" consonant is one such situation where different steno 
 
 This section's practice material also includes some "-ft" words like "loft" and "lift".
 
-[Single syllable -st words](practice/9-single-syllable-rh-st.txt)
+[Single syllable -st words](practice/9-right-st.txt)
 
 ## Right hand m and k
 
@@ -98,7 +98,7 @@ This section's practice material also includes some "-ft" words like "loft" and 
 
 ### Section practice
 
-[Single syllable m and k words](practice/9-single-syllable-rh-m-and-k.txt)
+[Single syllable m and k words](practice/9-right-m-and-k.txt)
 
 ## Right hand mp, th, and lk
 
@@ -126,7 +126,7 @@ This section's practice material also includes some "-ft" words like "loft" and 
 
 ### Section practice:
 
-[Single syllable mp, th, and lk words](practice/9-single-syllable-rh-mp-th-and-lk.txt)
+[Single syllable mp, th, and lk words](practice/9-right-mp-th-lk.txt)
 
 ## Chapter 9 test
 

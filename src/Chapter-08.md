@@ -21,11 +21,11 @@ Remember to take breaks!
 
 ## Useful links
 
-* [Single syllable `AOE` words drill](practice/8-single-syllable-aoe.txt)
-* [Single syllable `AOEU` words drill](practice/8-single-syllable-aoeu.txt)
-* [Single syllable `AU` words drill](practice/8-single-syllable-au.txt)
-* [Single syllable `AE` words drill](practice/8-single-syllable-ae.txt)
-* [Single syllable `AO` words drill](practice/8-single-syllable-ao.txt)
+* [Single syllable `AOE` words drill](practice/8-AOE.txt)
+* [Single syllable `AOEU` words drill](practice/8-AOEU.txt)
+* [Single syllable `AU` words drill](practice/8-AU.txt)
+* [Single syllable `AE` words drill](practice/8-AE.txt)
+* [Single syllable `AO` words drill](practice/8-AO.txt)
 * [Chapter 8 test](practice/8-test.txt)
 
 ## Intro
@@ -71,7 +71,7 @@ Throughout this page, you will see the word "conflict" thrown around a lot. Sinc
 
 ### Section practice
 
-[Single syllable `AOE` words drill](practice/8-single-syllable-aoe.txt)
+[Single syllable `AOE` words drill](practice/8-AOE.txt)
 
 ## `AOEU`
 
@@ -106,7 +106,7 @@ Throughout this page, you will see the word "conflict" thrown around a lot. Sinc
 
 ### Section practice
 
-[Single syllable `AOEU` words drill](practice/8-single-syllable-aoeu.txt)
+[Single syllable `AOEU` words drill](practice/8-AOEU.txt)
 
 ## `AU`
 
@@ -152,7 +152,7 @@ These words will not be tested as there are so few of them; it would be pointles
 
 ### Section practice
 
-[Single syllable `AU` words drill](practice/8-single-syllable-au.txt)
+[Single syllable `AU` words drill](practice/8-AU.txt)
 
 ## `AE` for `AEU`
 
@@ -246,7 +246,7 @@ By default the Lapwing dictionary assigns `PAER` to "pear" and `PA*EUR` to "pare
 
 ### Section practice
 
-[Single syllable `AE` words drill](practice/8-single-syllable-ae.txt)
+[Single syllable `AE` words drill](practice/8-AE.txt)
 
 ## `AO`
 
@@ -269,7 +269,7 @@ This chord has two uses:
 
 ### Section practice
 
-[Single syllable `AO` words drill](practice/8-single-syllable-ao.txt)
+[Single syllable `AO` words drill](practice/8-AO.txt)
 
 ## Chapter 8 test
 

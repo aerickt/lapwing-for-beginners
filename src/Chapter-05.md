@@ -21,9 +21,9 @@ Remember to take breaks!
 
 * [Typey Type custom lessons](https://didoesdigital.com/typey-type/lessons/custom/setup)
 * [Basic single syllable words drill](practice/5-cvc.txt)
-* [Basic left hand single syllable words drill](practice/5-single-syllable-basic-left-hand.txt)
-* [Single syllable words with `EU` drill](practice/5-single-syllable-EU.txt)
-* [Single syllable dbl words drill](practice/5-single-syllable-dbl.txt)
+* [Basic left hand single syllable words drill](practice/5-basic-left-hand.txt)
+* [Single syllable words with `EU` drill](practice/5-EU.txt)
+* [Single syllable dbl words drill](practice/5-dbl.txt)
 * [Chapter 5 test](practice/5-test.txt)
 
 ## Lapwing setup
@@ -160,7 +160,7 @@ Before even learning some of the more complicated chords, there are some sounds 
 
 ### Section practice
 
-[Basic left hand single syllable words](practice/5-single-syllable-basic-left-hand.txt)
+[Basic left hand single syllable words](practice/5-basic-left-hand.txt)
 
 ## The missing short vowel
 
@@ -178,7 +178,7 @@ There are 5 short vowels, and you may have noticed that there is no `I` key. It'
 > \*Phonetically, "sir" has a different vowel sound to all the other examples. However, remember that this is accepted with our short vowel rules; we don't necessarily care about the sound if it is a short vowel.
 
 ### Section practice
-[Single syllable words with `EU`](practice/5-single-syllable-EU.txt)
+[Single syllable words with `EU`](practice/5-EU.txt)
 
 ## Left hand d, b, and l
 
@@ -210,7 +210,7 @@ There are 5 short vowels, and you may have noticed that there is no `I` key. It'
    * <ins>d</ins>ata<ins>b</ins>ase <ins>l</ins>over
 
 ### Section practice
-[Single syllable dbl words](practice/5-single-syllable-dbl.txt)
+[Single syllable dbl words](practice/5-dbl.txt)
 
 ## Chapter 5 test
 

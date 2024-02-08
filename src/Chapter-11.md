@@ -17,9 +17,9 @@ Remember to take breaks!
 
 ## Useful links
 
-* [Right hand shun, kshun, and x words](practice/11-rh-shun-kshun-and-x.txt)
-* [Right hand ment and let words drill](practice/11-rh-ment-and-let.txt)
-* [Right hand bl words drill](practice/11-rh-bl.txt)
+* [Right hand shun, kshun, and x words](practice/11-right-shun-kshun-and-x.txt)
+* [Right hand ment and let words drill](practice/11-right-ment-and-let.txt)
+* [Right hand `-BL` words drill](practice/11-right-BL.txt)
 * [Chapter 11 test](practice/11-test.txt)
 
 ## Intro
@@ -59,7 +59,7 @@ Some words like "a<ins>x</ins>e" and "a<ins>ction</ins>" conflict with the same 
 
 ### Section practice
 
-[Right hand shun, kshun, and x words](practice/11-rh-shun-kshun-and-x.txt)
+[Right hand shun, kshun, and x words](practice/11-right-shun-kshun-and-x.txt)
 
 ## Right hand ment and let
 
@@ -83,11 +83,11 @@ Some words like "a<ins>x</ins>e" and "a<ins>ction</ins>" conflict with the same 
 
 ### Section practice
 
-[Right hand ment and let words](practice/11-rh-ment-and-let.txt)
+[Right hand ment and let words](practice/11-right-ment-and-let.txt)
 
 Unfortunately, there is not a lot of practice material for single stroke words containing these chords.
 
-## Right hand bl and bility
+## Right hand `-BL`
 
 * `-BL` represents several different sounds:
    - "-bl" as in "dou<ins>bl</ins>e"
@@ -114,11 +114,11 @@ All these sounds are similar to one another in that they all contain "bl" and op
 
 > Feel free to come up with your own or even suggest some!
 
-1. `-BL` already looks a lot like the sounds it represents, you just have to remember that you can skip over unstressed vowels as well.
+1. `-BL` already looks a lot like the sounds it represents; you just have to remember that you can skip over unstressed vowels as well.
 
 ### Section practice
 
-[right hand bl words drill](practice/11-rh-bl.txt)
+[Right hand `-BL` words drill](practice/11-right-BL.txt)
 
 Unfortunately, there is not a lot of practice material for single stroke words containing these chords.
 

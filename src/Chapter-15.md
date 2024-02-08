@@ -19,8 +19,8 @@ Remember to take breaks!
 ## Useful links
 
 * [Basic syllabic splitting drill](practice/15-basics.txt)
-* [`KWR` as a silent consonant drill](practice/15-kwr-silent.txt)
-* [`KWR` as "y" drill](practice/15-kwr-y.txt)
+* [`KWR` as a silent consonant drill](practice/15-KWR-silent.txt)
+* [`KWR` as "y" drill](practice/15-KWR-y.txt)
 * [Chapter 15 test](practice/15-test.txt)
 
 ## Syllabic splitting basics
@@ -206,7 +206,7 @@ The stroke after a prefix may start with a vowel if needed. However, you must us
 
 ### Section practice
 
-[`KWR` as a silent consonant drill](practice/15-kwr-silent.txt)
+[`KWR` as a silent consonant drill](practice/15-KWR-silent.txt)
 
 ## `KWR` as "y"
 
@@ -303,7 +303,7 @@ In the following examples, try to pronounce each word by approximating the vowel
 
 ### Section practice
 
-[`KWR` as "y" drill](practice/15-kwr-y.txt)
+[`KWR` as "y" drill](practice/15-KWR-y.txt)
 
 ## Prefix priority
 

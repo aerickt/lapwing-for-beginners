@@ -17,9 +17,9 @@ Remember to take breaks!
 
 ## Useful links
 
-* [Single syllable fqm words drill](practice/6-single-syllable-fqm.txt)
-* [Single syllable gny words drill](practice/6-single-syllable-gny.txt)
-* [Single syllable zvj words drill](practice/6-single-syllable-zvj.txt)
+* [Single syllable fqm words drill](practice/6-fqm.txt)
+* [Single syllable gny words drill](practice/6-gny.txt)
+* [Single syllable zvj words drill](practice/6-zvj.txt)
 * [Chapter 6 test](practice/6-test.txt)
 
 ## Left hand f, q, and m
@@ -57,7 +57,7 @@ Why not use `PH` for "f"?. After all, this would be easier to remember since "ph
 
 ### Section practice
 
-[Single syllable fqm words](practice/6-single-syllable-fqm.txt)
+[Single syllable fqm words](practice/6-fqm.txt)
 
 ## Left hand g, n, and y
 
@@ -95,7 +95,7 @@ Why not use `PH` for "f"?. After all, this would be easier to remember since "ph
    
 ### Section practice
 
-[Single syllable gny words](practice/6-single-syllable-gny.txt)
+[Single syllable gny words](practice/6-gny.txt)
 
 ## Left hand z, v, and j
 
@@ -124,7 +124,7 @@ Why not use `PH` for "f"?. After all, this would be easier to remember since "ph
 
 ### Section practice
 
-[Single syllable zvj words](practice/6-single-syllable-zvj.txt)
+[Single syllable zvj words](practice/6-zvj.txt)
 
 ## Chapter 6 test
 

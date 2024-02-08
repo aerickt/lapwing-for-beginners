@@ -33,7 +33,7 @@ One special type of suffix stroke is the suffix key; these are suffix strokes th
 ![](img/14-gsdz.png)
 
 #### Examples of correct usage
-* aching `AEUBG/-G`
+* fasting `TPAFT/-G`
 * wedging `WEPBLG/-G`
 * typed `TAOEUP/-D`
 * served `SEFRB/-D`
@@ -42,20 +42,22 @@ One special type of suffix stroke is the suffix key; these are suffix strokes th
 
 ### Folding
 
-**Folding** is an advanced technique of using these suffix keys. It refers to including the suffix key in the previous stroke. This is only possible on some words—for example, it would not be possible to fold `-G` into the word "ache" as it already contains the `-G` key.
+> This section on folding is mostly for your interest only. It is not a recommended technique at this point. A
+
+Folding is an advanced technique of using these suffix keys. It refers to including the suffix key in the previous stroke. This is only possible on some words—for example, it would not be possible to fold `-G` into the word "ache" as it already contains the `-G` key.
 
 Of the examples listed above, you would fold the suffix keys into the previous stroke like so:
 
-* typed `TAOEUPD`
-* served `SEFRBD`
-* faces `TPAEUSZ`
+* fasting `TPAFGT`
 * knives `TPHAOEUFZ`
+* served `SEFRBD`
+* typed `TAOEUPD`
 
-In some plural words where it would be impossible to fold `-Z`, we use `-S`. For example, the word "crate" is written as `KRAEUT`. Folding `-Z` into this stroke results in `KRAEUTZ`.
+To pluralize words ending in `-T`, normally the `-Z` key is used. For example, "crates" is `KRAEUT/-Z`. However, folding will result in the following stroke:
 
 ![](img/14-kraeutz.png)
 
-While some theories permit such a stroke by pressing the `-T` with your ring finger and the `-Z` with your pinkie finger, this is not a technique used in Lapwing theory. Therefore, we instead use the `-S` key: `KRAEUTS`.
+Some theories will dictate pressing the `-T` with the ring finger and the `-Z` with the pinkie finger. However, this is not a technique used in Lapwing. Instead, the proper way to pluralize the word in one stroke uses the `-S` key: `KRAEUTS`.
 
 #### Plover's steno engine and folded suffix keys
 
@@ -63,7 +65,7 @@ This technique of including a suffix key in the last stroke is "baked" into the 
 
 ![](img/14-haepz.png)
 
-What's happening is that Plover recognizes that the outline `HAEP` is defined as "happy" (this is a Lapwing/Plover brief) and so tries to fold the `-Z` suffix key into the translation. Because of the orthography rules built into the English steno engine, Plover removes the ending "y" and adds "ies" to the translation.
+Plover recognizes that the outline `HAEP` is defined as "happy" (this is a Lapwing/Plover brief) and so tries to fold the `-Z` suffix key into the translation. Because of the orthography rules built into the English steno engine, Plover removes the ending "y" and adds "ies" to the translation.
 
 This happens with all of the suffix keys—try out `HAEPD`, `HAEPS`, and `HAEPG`.
 
@@ -71,7 +73,7 @@ This happens with all of the suffix keys—try out `HAEPD`, `HAEPS`, and `HAEPG`
 
 Using the Plover lookup tool, you can find a lot of entries with folded suffix keys. In fact, you won't find many entries where the suffix keys aren't folded into the previous stroke. Despite this, **it is recommended that you do not fold suffix keys**.
 
-Folding only saves a minuscule amount of time as opposed to pressing the suffix key in a separate stroke. As this technique often requires more finger contortion, it may not even be faster in the end. Furthermore, folding can also lead to extra conflicts that are tricky to resolve.
+Folding only saves a minuscule amount of time as opposed to pressing the suffix key in a separate stroke. As this technique often requires more finger contortion, it may not even be faster in the end. Furthermore, folding also leads to extra conflicts that are tricky to resolve.
 
 ### Section practice
 

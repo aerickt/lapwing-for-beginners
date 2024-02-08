@@ -13,7 +13,7 @@ Remember to take breaks!
 
 ## Useful links
 
-* [Left hand single syllable orthographic chords drill](practice/12-left-hand-single-syllable-orthographic-chords.txt)
+* [Left hand single syllable orthographic chords drill](practice/12-left-orthographic-chords.txt)
 
 ## Great job!
 
@@ -93,7 +93,7 @@ If you encounter a word that has the "y" sound, only use `KWR*` if it is spelled
 
 ### Section practice
 
-[Left hand single syllable orthographic chords drill](practice/12-left-hand-single-syllable-orthographic-chords.txt)
+[Left hand single syllable orthographic chords drill](practice/12-left-orthographic-chords.txt)
 
 **It's very recommended that you complete this drill.**
 

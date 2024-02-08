@@ -18,9 +18,9 @@ Remember to take breaks!
 
 ## Useful links
 
-* [Single syllable right hand n, j, and lj words drill](practice/10-rh-n-j-lj.txt)
-* [Single syllable right hand rv, rf, ng, and nk words](practice/10-rh-rv-rf-ng-nk.txt)
-* [Single syllable right hand ch, sh, and rch/nch words](practice/10-ch-sh-rch.txt)
+* [Single syllable right hand n, j, and lj words drill](practice/10-right-n-j-lj.txt)
+* [Single syllable right hand rv, rf, ng, and nk words](practice/10-right-rv-rf-ng-nk.txt)
+* [Single syllable right hand ch, sh, and rch/nch words](practice/10-right-ch-sh-rch.txt)
 * [Chapter 10 test](practice/10-test.txt)
 
 ## Right hand n, j, and lj
@@ -52,7 +52,7 @@ Remember to take breaks!
 
 ### Section practice
 
-[Single syllable right hand n, j, and lj/lch words](practice/10-rh-n-j-lj.txt)
+[Single syllable right hand n, j, and lj/lch words](practice/10-right-n-j-lj.txt)
 
 ## Right hand rv, rf, ng, and nk
 
@@ -89,7 +89,7 @@ Remember to take breaks!
 
 ### Section practice
 
-[Single syllable right hand rv, rf, ng, and nk words](practice/10-rh-rv-rf-ng-nk.txt)
+[Single syllable right hand rv, rf, ng, and nk words](practice/10-right-rv-rf-ng-nk.txt)
 
 ## Right hand ch, sh, and rch
 
@@ -124,7 +124,7 @@ Remember to take breaks!
 
 ### Section practice
 
-[Single syllable right hand ch, sh, and rch/nch words](practice/10-rh-ch-sh-rch.txt)
+[Single syllable right hand ch, sh, and rch/nch words](practice/10-right-ch-sh-rch.txt)
 
 ## Chapter 10 test
 

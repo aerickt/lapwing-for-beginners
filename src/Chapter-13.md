@@ -15,13 +15,13 @@ Remember to take breaks!
 
 ## Useful links
 
-* [Words with -y and -ly suffixes drill](practice/13-eu.txt)
+* [Words with -y and -ly suffixes drill](practice/13-EU.txt)
 * [Words with -ar, -or, and -er suffixes drill](practice/13-ar-or-er.txt)
 * [Words with -ful and -ness suffixes drill](practice/13-ful-ness.txt)
-* [Right hand ment and let words](practice/11-rh-ment-and-let.txt)
-* [Right hand bl words drill](practice/11-rh-bl.txt)
-* [Right hand kwr suffix words drill](practice/13-kwr.txt)
-* [Right hand \*bility words drill](practice/13-rh-bility.txt)
+* [Right hand ment and let words](practice/11-right-ment-and-let.txt)
+* [Right hand `-BL` words drill](practice/11-right-BL.txt)
+* [Right hand `-BLT` words drill](practice/13-right-BLT.txt)
+* [Right hand `KWR` suffix words drill](practice/13-KWR.txt)
 * [Chapter 13 test](practice/13-test.txt)
 
 ## Intro
@@ -126,7 +126,7 @@ One such circumstance where `EU` represents the "long e" sound is in the followi
 
 #### Practice material
 
-[Words with -y and -ly suffixes drill](practice/13-eu.txt)
+[Words with -y and -ly suffixes drill](practice/13-EU.txt)
 
 > Since this only contains two suffixes, it is not necessary to spend too long on this drill. 5 minutes is sufficient.
 
@@ -262,17 +262,17 @@ The rest of the examples are not possible to write in one stroke:
 * omelet `OPL/-LT`
   - `-L` key overlaps in both strokes
 
-> **NOTE:** just because overlapping these strokes is not valid in Lapwing theory, if there are no prior definitions in your dictionaries, these could make perfectly valid briefs. Feel free to add `PROBLT`, `HUPBL`, or `OPLT` to your dictionary as briefs.
+> **NOTE:** although overlapping these strokes is not valid in Lapwing theory, they are perfectly valid briefs as long as there are no entries already existing in the dictionary. Feel free to add/use `PROBLT`, `HUPBL`, or `OPLT` as briefs.
 
 #### Practice material
 
-[Right hand *bility words drill](practice/13-rh-bility.txt)
+[Right hand `-BLT` words drill](practice/13-right-BLT.txt)
 
 You should already be familiar with the other chords from the chapter 11 practice material. If you need a refresher, you can find them here:
 
-[Right hand ment and let words](practice/11-rh-ment-and-let.txt)
+[Right hand ment and let words](practice/11-right-ment-and-let.txt)
 
-[Right hand bl words drill](practice/11-rh-bl.txt)
+[Right hand `-BL` words drill](practice/11-right-BL.txt)
 
 ### `KWR` suffixes
 
@@ -316,7 +316,7 @@ The `KWR` chord has many uses in Lapwing theory. It is widely used in suffixes w
 
 #### Practice material
 
-[Right hand kwr suffix words drill](#practice/13-kwr.txt)
+[Right hand `KWR` suffix words drill](practice/13-KWR.txt)
 
 ### Suffixes and orthography
 

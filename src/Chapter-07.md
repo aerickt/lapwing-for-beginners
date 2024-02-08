@@ -17,9 +17,9 @@ Remember to take breaks!
 
 ## Useful links
 
-* [Single syllable `OE`, `OU`, and `OEU` words drill](practice/7-single-syllable-oe-ou-and-oeu.txt)
-* [Single syllable `AEU` words drill](practice/7-single-syllable-aeu.txt)
-* [Single syllable `AOU` words drill](practice/7-single-syllable-aou.txt)
+* [Single syllable `OE`, `OU`, and `OEU` words drill](practice/7-OE-OU-OEU.txt)
+* [Single syllable `AEU` words drill](practice/7-AEU.txt)
+* [Single syllable `AOU` words drill](practice/7-AOU.txt)
 * [Chapter 7 test](practice/7-test.txt)
 
 ## Intro
@@ -73,7 +73,7 @@ I'm making an effort to include IPA with the hopes that they will be useful for 
 
 ### Section practice
 
-[Single syllable `OE`, `OU`, and `OEU` words drill](practice/7-single-syllable-oe-ou-and-oeu.txt)
+[Single syllable `OE`, `OU`, and `OEU` words drill](practice/7-OE-OU-OEU.txt)
 
 ## `AEU`
 
@@ -112,7 +112,7 @@ I'm making an effort to include IPA with the hopes that they will be useful for 
 
 ### Section practice
 
-[Single syllable `AEU` words drill](practice/7-single-syllable-aeu.txt)
+[Single syllable `AEU` words drill](practice/7-AEU.txt)
 
 ## `AOU`
 
@@ -154,7 +154,7 @@ I'm making an effort to include IPA with the hopes that they will be useful for 
 
 ### Section practice
 
-[Single syllable `AOU` words drill](practice/7-single-syllable-aou.txt)
+[Single syllable `AOU` words drill](practice/7-AOU.txt)
 
 ## Chapter 7 test
 
