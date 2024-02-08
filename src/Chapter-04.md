@@ -17,13 +17,11 @@
 
 ## Finger positions
 
-You may remember this graphic from chapter 2:
+Recall this graphic from chapter 2:
 
 ![](img/2-key-positions.png)
 
-Keep this bookmarked and handy throughout this chapter! The yellow circles indicate the resting "home position" of your fingers.
-
-You want to memorize this layout to the point that you are able to press the right key when prompted for.
+I recommend keeping this graphic in a convenient place to refer to. The yellow circles indicate the resting home position of your fingers. Your fingers should be curled and resting on the cracks of the keys. It's important to memorize this layout to the point that you are able to press the right key when prompted for.
 
 The best way to go about memorizing this layout is splitting it into memorable chunks and doing a lot of drills. It's one thing to know which finger is responsible for which key(s), but the most effective way of building muscle memory for the layout is simply drilling it.
 
@@ -61,9 +59,7 @@ In order to do the drills, you must disable all your dictionaries by unchecking 
 
 ![](img/4-main-window.png)
 
-Click on the checkmarks next to each dictionary to disable them.
-
-After you've done this, Plover will output raw steno when you write a key. Simply press the key that is prompted during the drills. If you make a mistake, press the asterisk key to backspace.
+Click on the checkmarks next to each dictionary to disable them. After you've done this, Plover will output raw steno when you write a key. Simply press the key that is prompted during the drills. If you make a mistake, press the asterisk key to backspace.
 
 ### Why does Plover output a hyphen?
 

@@ -27,7 +27,7 @@ Remember to take breaks!
 * [Chapter 5 test](practice/5-test.txt)
 
 ## Lapwing setup
-So far, we have just been using Plover without any modifications. As this series is about learning Lapwing theory, it's important that we set up Plover correctly. There are two options: you can install the <code class="code-mono">plover-lapwing-aio</code> plugin or you can add the Lapwing dictionaries manually. If you are a beginner, use the all-in-one plugin discussed below.
+The Plover app comes loaded with a default theory called Plover theory. As this series is for learning Lapwing theory, there are a few modifications needed before proceeding. There are two options: install the <code class="code-mono">plover-lapwing-aio</code> plugin, or add the Lapwing dictionaries manually (not recommended). If in doubt, follow the instructions below for the all-in-one plugin as discussed below.
 
 ### Using the all-in-one plugin
 
@@ -41,7 +41,7 @@ Once Plover has been restarted, in Plover's main window, click on <code class="c
 
 ![system settings](img/5-system.png)
 
-If you'd like to know more about the default dictionaries that come with the all-in-one plugin, have a look at the [homepage](https://github.com/aerickt/plover-lapwing-aio).
+> If you'd like to know more about the default dictionaries that come with the all-in-one plugin, have a look at the [homepage](https://github.com/aerickt/plover-lapwing-aio).
 
 ### Setting up Lapwing manually
 
@@ -49,21 +49,19 @@ If you do not want to use the all-in-one plugin, please see [Appendix B](Appendi
 
 ## Typey Type
 
-We will now use Typey Type for drilling. The benefit of Typey Type is that you can upload custom lessons with their own custom outlines.
+From this point on, exercises will be done on Typey Type. The benefit is that custom lessons with their own recommended outlines can be configured.
 
 ![Typey Type custom lessons](img/5-typeytype.png)
 
 ### [Click here to access Typey Type shown above](https://didoesdigital.com/typey-type/lessons/custom/setup)
 
-Lessons in this series will be provided as links to text files. Left clicking on these links will display the contents of each lesson. Copy and paste the entire file (<code class="code-mono">Ctrl + A</code> or <code class="code-mono">Cmd + A</code>  to select the whole page) into the text box above. After that, press "Start custom lesson".
+Lessons in this series will be provided as links to text files. Left clicking on these links will display the contents of each lesson. Copy and paste the entire file (<code class="code-mono">Ctrl + A</code> or <code class="code-mono">Cmd + A</code>  to select the whole page) into the text box above. After that, press <code class="code-mono">Start custom lesson</code>.
 
 **Make sure to sort the words randomly on the right hand side.**
 
 ![Typey Type custom drills settings](img/5-tt-random.png)
 
-You may tweak additional settings to your liking, but the defaults are perfectly fine.
-
-If you would like to try this out, here is one example of a lesson:
+You may tweak additional settings to your liking, but the defaults are perfectly fine. If you would like to try this out, here is one example of a lesson:
 
 [Click here to access a sample lesson](practice/5-cvc.txt)
 
@@ -77,16 +75,16 @@ The reason for this is:
 
 > This means that the `P` in `POT` represents the "p" sound. However, the `P` in `TPAUT` does not represent the "p" sound since it is part of the `TP` chord. Do not worry about identifying chords for now.
 
-Thus, here are some examples of some basic words you can write just by knowing the layout:
+Here are some examples of some basic words that can be written just by knowing the layout:
 
 * cat `KAT`
 * rub `RUB`
 * purr `PUR`
 * rough `RUF`
 
-Those last two words may have been a little bit tricky as they are spelled using multiple vowel letters. Here are some rules for dealing with short vowels:
+Those last two words may have been a little bit tricky as their spellings contain multiple vowel letters. Here are some rules for dealing with short vowels:
 
-1. **If a word is spelled using a single vowel, simply use the vowel key that spells the word.**
+1. **If a word is spelled using a single vowel, use the vowel key that spells the word.**
 
 2. **If a word is spelled using multiple vowel letters that (together) are pronounced as a single short vowel, use the vowel key that corresponds to the sound.**
 
@@ -101,7 +99,7 @@ This is not limited to the `U` vowel; for example, we see this in:
 * `ER` as in "p<ins>er</ins>"
 * `UR` as in "p<ins>urr</ins>"
 
-Remember that with short vowels, we care more about their spelling and not so much about how they are pronounced (rule 1 above). We essentially treat the `-R` as a consonant even though its inclusion with a vowel key subtly changes the sound.
+Remember that with short vowels, spellings are used instead of pronunciation (rule 1 above).
 
 ### Section practice material
 
@@ -109,7 +107,7 @@ Remember that with short vowels, we care more about their spelling and not so mu
 
 ## Steno order
 
-Looking at the steno layout, why is it that you *must* write the word "car" using the left `K`, and the right hand `-R`?
+Looking at the steno layout, why is it that "car" *must* be written using the left `K`, and the right hand `-R`?
 
 ![](img/1-layout.png)
 
@@ -125,15 +123,15 @@ Therefore, the only correct way to write the word "car" would be  `KAR`.
 
 **#ST<ins>K</ins>PWHR<ins>A</ins>O\*EUF<ins>R</ins>PBLGTSDZ**
 
-The following is not how you write `KAR`; it is actually `KRA`:
+The following is an incorrect way to write "car"; it is actually `KRA`:
 
 ![KRA](img/5-kra.png)
 
-While you don't have to memorize steno order explicitly, you should be able to break sounds into steno strokes that follow steno order. This may sound difficult, but with time and practice this will come quite naturally.
+It's not necessary to memorize steno order explicitly (as in the `#STKPWHRAO*EUFRPBLGTSDZ` string). However, it's important to internalize steno order with regard to the location of the keys. With enough practice, it should be immediately obvious that the "-st" sound as in "past", for example, cannot be represented in steno order.
 
 ### Impossible single syllable words
 
-Here are some examples of single syllable words that you cannot write in one stroke as the sounds do not fall in steno order.
+Below are two single syllable words that cannot be written in one stroke because of steno order.
 
 * trust
    - Closest would be `TRUTS`
@@ -142,7 +140,7 @@ Here are some examples of single syllable words that you cannot write in one str
    - Closest would be `TUFR`
    - #S<ins>T</ins>KPWHRAO*E<ins>UFR</ins>PBLGTSDZ
 
-Try to convince yourself that you cannot write these words in one stroke, despite the fact that all the sounds can be found on the layout. Do not worry about how to actually write these words right now—you will later learn theory that covers these situations.
+To represent a sound in a steno stroke, the sounds should be available on the layout and should fall in the correct order. Although the sounds are indeed available on the layout, they fail the second requirement. For now, do not worry about writing these words—they involve more advanced chords and concepts that will be introduced later.
 
 ## Combining single left hand keys
 
@@ -166,19 +164,18 @@ Before even learning some of the more complicated chords, there are some sounds 
 
 ## The missing short vowel
 
-There are 5 short vowels, and you may have noticed that there is no "I" key. It's instead chorded with `EU`.
+There are 5 short vowels, and you may have noticed that there is no `I` key. It's instead chorded with `EU`.
 
 ![](img/5-eu.png)
 
 ### Examples
 
+* krill `KREUL`
 * pit `PEUT`
-* kill `KEUL`
-* fit `TPEUT`
-* lip `HREUP`
-* fir `TPEUR`
+* sir `SEUR`*
+* tip `TEUP`
 
-> Again, with `TPEUR`, the addition of the `-R` key changes the vowel subtly, but that is accepted within our short vowel rules.
+> \*Phonetically, "sir" has a different vowel sound to all the other examples. However, remember that this is accepted with our short vowel rules; we don't necessarily care about the sound if it is a short vowel.
 
 ### Section practice
 [Single syllable words with `EU`](practice/5-single-syllable-EU.txt)

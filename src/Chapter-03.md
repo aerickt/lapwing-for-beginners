@@ -2,7 +2,7 @@
 
 ## Steno is difficult
 
-Before starting to learn steno, it is important to know that it is not something that can be easily picked up within a week. Personally, it took me about 3 months to achieve a consistent 30 WPM speed. While not nearly as difficult as learning a new language, the difficulty is definitely comparable to something like learning a musical instrument—I definitely agree with this as an individual who has learned several instruments in the past. Learning steno takes a lot of (good) practice and patience. You should not be expecting to double your typing speed in just a month.
+Before starting to learn steno, it is important to know that it is not something that can be easily picked up within a week. Personally, it took me about 3 months to achieve a consistent 30 WPM speed. While not nearly as difficult as learning a new language, the difficulty is definitely comparable to something like learning a musical instrument. Learning steno takes a lot of (good) practice and patience. You should not be expecting to double your typing speed in just a month.
 
 In fact, it took me 6 months to reach 150 WPM on some TypeRacer quotes, but my speed varied quite a lot as novel and unfamiliar words would throw me off. While my top speed was indeed quite fast during this period, my average speed of 90 WPM wasn't significantly faster than a good QWERTY typist. Another 6 months later, I was at a consistent 180 WPM on most Monkeytype quotes. Another year and a half after that, I completely switched to steno for all computer tasks.
 
@@ -28,11 +28,13 @@ Each chapter in this series follows the same basic format: new theory and practi
 
 Everyone's threshold of being "comfortable" differs and it is up to you to decide what this means for you. However, if you are unsure, the "recommended completion goal" is a good starting point.
 
-**As this series is very new, I have not been given any feedback. As such, it may be possible that the recommended completion goal is entirely unrealistic for each chapter. Please take it with a grain of salt!**
+**As this series is very new, I have not been given much feedback. As such, it may be possible that the recommended completion goal is entirely unrealistic for each chapter. Please take it with a grain of salt!**
 
 ### Chapter test recommendations
 
 These are only recommendations if you have no idea where to start! It may very well be the case that you start off following some of these recommendations, and find out later on that they do not work for you.
+
+Here are some tips for completing the tests:
 
 * Before you attempt each chapter test, complete as much practice material as you can
 * Space your chapter test attempt at least 2 hours after any previous practice
@@ -43,19 +45,15 @@ These are only recommendations if you have no idea where to start! It may very w
 
 ### Incorporating steno into your computer usage
 
-It's always a good idea to apply your learning rather than just completing exercises in a textbook. However, I would recommend only incorporating steno into your computer usage once you have reached chapter 18. Before this, there will be many instances where you will not be able to figure out how to write certain words. This will encourage usage of the lookup tool.
+It's always a good idea to apply your learning to complement exercises in a textbook. However, I would only recommend incorporating steno into your computer usage after reaching chapter 18. If not, you will have to make liberal use of the lookup tool. It is very iportant to know how to use this tool correctly. If you blindly follow the entries that show up, you may find yourself confused and frustrated as to why a word is written the way it is. You may also force yourself to inadvertently memorize more briefs.
 
-While not bad in and of itself, you have to learn how to use it properly. If you are lacking knowledge in theory, you may not understand how the outlines correlate with the word you are looking up. This may lead to frustration and confusion about core aspects of Lapwing theory. Also, you may be tempted to learn the shortest outline available; these outlines likely do not follow basic theory and instead use more advanced briefing techniques that you should be learning right from the start.
-
-### The lookup tool
-
-If you still would like to incorporate steno into your daily computer usage early on, here are a few tips to help you use the lookup tool effectively.
+Plover has a built-in tool to easily look up outlines. It can be found in <code class="code-mono">Tools → Lookup</code>. Make sure to read the tips below if you would like to use this tool.
 
 #### Use the longest outline available
 
-Lapwing is full of briefs and write-outs. A brief is an *abbreviated* outline that is used for speed. It may not follow theory at all and can be completely arbitrary. On the other hand, write-outs are outlines that are logical and follow theory 100%. If you have never seen a word before, you would use a write-out since your theory provides you with a set of rules that you can use to break it into a steno outline.
+Lapwing is full of briefs and write-outs. A brief is an *abbreviated* outline that is used for speed. It may not follow theory at all and can be completely arbitrary. On the other hand, write-outs are outlines that are logical and follow theory rules. Until you start speed building, you should focus on write-out entries.
 
-Due to the nature of briefs and write-outs, briefs tend to use fewer strokes and write-outs tend to use more. When you type in a word into the lookup tool, both briefs and write-out entries will be present. I recommend using the longest outline in the lookup tool as that is overwhelmingly likely to be a write-out.
+Due to the nature of briefs and write-outs, briefs tend to use fewer strokes and write-outs tend to use more. When you type in a word into the lookup tool, both types of entries will be present. I recommend using the longest outline in the lookup tool as that is overwhelmingly likely to be a write-out.
 
 In the following example, the first two entries are briefs, while the last two are write-outs. You should be using one of these two. Defaulting to the longest outline available is very safe.
 
@@ -63,15 +61,15 @@ In the following example, the first two entries are briefs, while the last two a
 
 #### Be careful of hidden affixes
 
-The Lapwing dictionary may not contain every single valid outline. You will later learn of affix strokes which attach to root words. For example, the word "thoroughly" contains "thorough" as a road word and "-ly" as a suffix. One way to write "thoroughly" is `THOR/KWROE/HREU`. However, it does not show up in the dictionary:
+The Lapwing dictionary may not contain every single valid outline. You will later learn of affix strokes which attach to root words. For example, the word "thoroughly" contains "thorough" as a road word and "^ly" as a suffix. One way to write "thoroughly" is `THOR/KWROE/HREU`. However, it does not show up in the dictionary:
 
 ![](img/3-thoroughly-lookup.png)
 
-Instead, remove the "-ly" suffix and look up the word "thorough". You will find `THOR/KWROE` as a valid outline:
+Instead, remove the "^ly" suffix and look up the word "thorough". You will find `THOR/KWROE` as a valid outline:
 
 ![](img/3-thorough-lookup.png)
 
-To write the "-ly", you could look this up too:
+To write the "^ly", you could look this up too:
 
 ![](img/3-ly-lookup.png)
 

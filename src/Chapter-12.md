@@ -107,7 +107,7 @@ For example, to write the outline `TPEUL/-PL`, you would press `TPEUL`, release 
 
 ## When sounds can't follow steno order
 
-Sometimes, it is impossible to write a single syllable word using in a single stroke (see the examples below). In these cases, write as much as the word as you can in a single stroke, and then complete the rest using the corresponding right hand key or chord that finishes the word. Note that some right chords are different to their canonical form when using this technique:
+Sometimes, it is impossible to write a single syllable word using in a single stroke (see the examples below). In these cases, write as much of the word as you can in a single stroke, and then complete the rest using the corresponding right hand key or chord that finishes the word. Note that some right chords are different to their canonical form when using this technique:
 
 * To end a word with "-t", use `*T`
 * To end a word with "-f" or "-v", use `*F`

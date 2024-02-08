@@ -258,7 +258,7 @@ The rest of the examples are not possible to write in one stroke:
 * probability `PROB/-BLT`
   - `-B` key overlaps in both strokes
 * humble `HUPL/-BL`
-  - `-B` key in the second stroke overlaps with the `-PL` chord in the first stroke
+  - `-L` key in the second stroke overlaps with the `-PL` chord in the first stroke
 * omelet `OPL/-LT`
   - `-L` key overlaps in both strokes
 
@@ -367,7 +367,7 @@ You can use Plover's lookup tool to find prefix and suffix strokes not listed in
 
 ## Chapter 13 test
 
-This chapter's test consists of all the practice drills you have done in this chapter. Make sure your settings are configured as such:
+This chapter's test consists of all the practice drills in this chapter. Make sure your settings are configured as such:
 
 ![test settings](img/5-test-settings.png)
 

@@ -361,7 +361,7 @@ Don't worry too much about trying to memorize these briefs just yet. It's just i
 
 ## Chapter 15 test
 
-This chapter's test consists of all the practice drills you have done in this chapter. Make sure your settings are configured as such:
+This chapter's test consists of all the practice drills in this chapter. Make sure your settings are configured as such:
 
 ![](img/5-test-settings.png)
 

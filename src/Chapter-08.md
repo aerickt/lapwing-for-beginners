@@ -273,7 +273,7 @@ This chord has two uses:
 
 ## Chapter 8 test
 
-This chapter's test consists of all the vowel drills you have done so far  (including chapter 7 material). Make sure your settings are configured as such:
+This chapter's test consists of all the vowel drills (including chapter 7 material). Make sure your settings are configured as such:
 
 ![test settings](img/5-test-settings.png)
 

@@ -8,7 +8,7 @@ I would highly recommend purchasing a steno keyboard before starting to learn st
 
 $100 is a little steep for a simple keyboard, but that is unfortunately the price point for custom keyboards which don't see much demand.
 
-There are two reasons why specialized keyboards are needed for steno. First of all, regular keyboards have row stagger which makes it really hard to vertically press two keys at once with the same finger. Second of all, most keyboards lack n-key rollover: the ability to detect multiple simultaneous key presses. Generally, you'll find keyboards are only able to detect two to six key presses at once.
+There are two reasons why specialized keyboards are needed for steno. First of all, regular keyboards have row stagger which makes it really hard to vertically press two keys at once with the same finger. Second of all, most keyboards lack n-key rollover: the ability to detect multiple simultaneous key presses. Standard keyboards are typically only able to detect two to six key presses at once.
 
 ![layout finger diagram.](img/2-key-positions.png)
 

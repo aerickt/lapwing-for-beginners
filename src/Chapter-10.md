@@ -128,7 +128,7 @@ Remember to take breaks!
 
 ## Chapter 10 test
 
-This chapter's test consists of all the practice drills you have done in this chapter. Make sure your settings are configured as such:
+This chapter's test consists of all the practice drills in this chapter. Make sure your settings are configured as such:
 
 ![test settings](img/5-test-settings.png)
 

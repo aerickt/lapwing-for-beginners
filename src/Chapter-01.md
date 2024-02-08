@@ -46,7 +46,7 @@ The following table illustrates the sounds that each key group represents in our
 | | | | | | | | | | | | |
 | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |
 | **Steno Keys** | `K` | `O` | `PL` | | `P` | `HR` | `EU` | | `K` | `AEU` | `T` |
-| **Sounds** | c | o | m | | p | l | i | | c | ā | t |
+| **Sounds** | k | o | m | | p | l | i | | k | ā | t |
 
 Essentially, `KOPL/PHREU/KAEUT` really just represents `KOM/PLI/KĀT` (where `Ā` represents the "long a" or /eɪ/ diphthong).
 
@@ -78,19 +78,19 @@ However, if steno were completely phonetic, it would be impossible to differenti
 
 ### Steno theories
 
-A steno theory refers to the set of rules that govern how words are broken down. While the basics (such as everything I've mentioned so far) are more or less the same between theories, there are some subtle differences. If you're starting to learn English steno, it's not too important which theory you start with—it isn't difficult to switch between them.
+A steno theory refers to the set of rules that govern how words are broken down. While the basics (such as everything mentioned so far) are more or less the same between theories, there are some subtle differences. When it comes to learning English steno, it is not important which theory to start off with—it isn't difficult to switch between them.
 
-The primary way steno theories differ is in their philosophy. For example, Phoenix theory is based off of a comprehensive set of rules that you must be fluent with; the benefit is that you will be able to write any word that comes to mind regardless of if you have written it before. On the other side of the spectrum, Magnum theory places more emphasis on learning words themselves through rote memorization. In essence, you learn fewer rules, but you must memorize more words and exceptions.
+The primary way steno theories differ is in their philosophy. For example, Phoenix theory is based off of a comprehensive set of rules that make it easy to break down complicated words. On the other side of the spectrum, Magnum theory places more emphasis on learning words themselves through rote memorization. In essence, there are fewer strict rules, but more arbitrary outlines to remember.
 
 Most steno theories (like the previously mentioned ones) are not free and require you to purchase textbooks along with their dictionaries. The only free theories (as of this writing) are Lapwing theory, Plover theory, and Platinum theory.
 
-Unfortunately, most steno theories are also quite specific to one accent. In particular, all of the theories mentioned so far are all based on a General North American accent. It may be difficult to learn one of these theories if you speak a different variant of English; however, it is not impossible if you are comfortable with subvocalizing with an American accent.
+Unfortunately, most steno theories are also quite specific to one accent. In particular, all of the mentioned theories are all based on a General North American accent. It may be difficult to learn one of these theories for those that speak a different variant of English; being able to comfortably subvocalize with an American accent is important.
 
 There has been one effort in the Open Steno community to create a theory based for non-rhotic accents (i.e., British English), but I cannot recommend it as the dictionary is not very complete.
 
 ### How steno works from the software side
 
-I've been explaining how steno works in principle, but you might also be wondering how the keyboard "knows" what to output with any given steno outline. Translation occurs in a steno engine that is either a program on a computer, or in a keyboard's firmware. They use large files called dictionaries that simply contain 1-to-1 translations between steno outlines and their output. This makes steno entirely deterministic and predictable.
+The keys pressed in an outline are translated to text that shows up on screen via a steno engine. This is a program on a computer, or is embedded in a keyboard's firmware. Steno engines use large files called dictionaries that simply contain 1-to-1 translations between steno outlines and their output. This makes steno entirely deterministic and predictable.
 
 For example, here is one section from Lapwing theory dictionary:
 

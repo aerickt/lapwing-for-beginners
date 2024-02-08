@@ -18,11 +18,11 @@ Remember to take breaks!
 
 ## Introduction
 
-In English, the 200 most frequently used words account for something like 80% of all writing. Because of this, these words tend to be briefed heavily for speed and comfort. About a third of the top 200 English words are briefed in Lapwing theory and cannot be written using theory principles. By the end of this chapter, you should be comfortable writing all of these words.
+In English, the 200 most frequently used words account for something like 80% of all writing. Because of this, these words tend to be briefed heavily for speed and comfort. About a third of the top 200 English words are briefed in Lapwing theory and cannot be written using theory principles. It's important to be comfortable writing all of these words by the end of this chapter.
 
 ### Write-outs versus briefs
 
-A write-out refers to an outline that adheres to theory principles very closely. They are the "canonical" outline you would use if you have never written the word before. On the other hand, a brief is an outline that doesn't necessarily follow theory. It is an abbreviated entry that is used for greater speed.
+A write-out refers to an outline that adheres to theory principles very closely. They are the canonical outline to use when in doubt. On the other hand, a brief is an outline that doesn't necessarily follow theory. It is an abbreviated entry that is used for greater speed.
 
 Some words do not have a write-out entry and will only have a brief which needs to be memorized. On the other hand, some words may only have a write-out. Finally, some may also have a brief and a write-out. If no explanation is provided, you may use either one.
 
@@ -41,7 +41,6 @@ It would be extremely hard to memorize many of these briefs just by reading this
 * Hide hint on last repetition: unchecked
 
 This way, you can learn the words by simply reading the hints provided. If you come across a brief that is confusing, check back on this page to see if there is an explanation.
-
 
 ### Practice material
 [Discover briefs](practice/16-briefs.txt)
