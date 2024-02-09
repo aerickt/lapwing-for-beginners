@@ -26,28 +26,26 @@ Remember to take breaks!
 
 ## Intro
 
-Every chapter up until now has been focusing on single syllable words. When it comes to words with more than one syllable, we simply just break these into multiple strokes. How exactly we do this depends on the situation. We will first look at more straightforward situations in this chapter.
+For words with more than one syllable, outlines with multiple strokes are used. There are two primary techniques: *affix strokes* (prefixes and suffixes) and *syllabic splitting*. The former is slightly more straightforward and is covered in this chapter.
 
 ## Prefix strokes
 
-Every translation we have been writing so far has been a regular word with no special formatting. This means that Plover will output a space before every word—this should be pretty familiar to you from the drills we have been practising. Let's take a look at how Plover parses these translations. In the main window of Plover, go to <code class="code-mono">Tools → Add Translation</code>. With your steno keyboard, write <code class="code-mono">STROEBG</code> into the <code class="code-mono">Strokes</code> field. You should see the following:
+Every translation so far found in examples or exercises have been regular words without any special formatting. For these words, Plover will insert a space before every word. To see how this works behind the scenes, open the main window of Plover, and go to <code class="code-mono">Tools → Add Translation</code>. Writing <code class="code-mono">STROEBG</code> into the <code class="code-mono">Strokes</code> field will show the following:
 
 ![](img/13-add-translation-stroke.png)
 
-Now let's look at a *prefix*. This is a stroke that tells Plover to suppress the next space after outputting a translation. If you write `PRAOE` into the <code class="code-mono">Strokes</code> field. You should see the following:
+Compare this to prefix strokes; writing `PRAOE` (the prefix stroke for "pre^") into the <code class="code-mono">Strokes</code> field results in:
 
 ![](img/13-add-translation-pre.png)
 
-Here, the curly braces denote that there is special formatting rules contained inside the braces. The caret tells Plover to suppress the space where it is located. Any translation of the form ___^ is a prefix.
+Here, the curly braces denote that there is special formatting rules contained inside the braces. The caret tells Plover to suppress the space where it is located; any translation of the form <code class="code-mono">{abc^}</code> is a prefix.
 
-If you were to write the word "preview", you would have to split this word into "pre^" + "view". Try it yourself—open a text document and write the strokes `PRAOE` and then `SRAOU`. In raw steno, this would be notated as `PRAOE/SRAOU` with the `/` character representing a stroke separator.
-
-Most prefix strokes are fairly intuitive and take precedence when they conflict with other translations. For example, the "for^" prefix as in "forget" `TPOR/TKPWET` is written as `TPOR` while the word "for" is briefed. Thus, it's not necessary to memorize many of these strokes.
+Prefix strokes enable writing words such as  "preview" like so: `PRAOE/SRAOU`. Most prefix strokes are fairly intuitive and take precedence when they conflict with other translations. For example, the "for^" prefix as in "forget" `TPOR/TKPWET` is written as `TPOR` while the word "for" is briefed. It's not necessary to memeorize many of these prefix strokes.
 
 ### Common Prefix Strokes
 
 * a^ `A`
-  - As in "<ins>a</ins>bout" `A/PWOUT`
+  - As in "<ins>a</ins>round" `A/ROUPBD`
 * co^ `KOE`
   - As in "<ins>co</ins>star" `KOE/STAR`
 * de^ `TKAOE`
@@ -69,13 +67,13 @@ Most prefix strokes are fairly intuitive and take precedence when they conflict 
 
 ### Prefix usage
 
-Let's say you are trying to write the word "confuse". You may be tempted to write `KOPB/TPAOUS`, but you would have to know if `KOPB` is a prefix stroke. Even if it were, it wouldn't make sense to use it since "fuse" isn't the root word of "confuse"—the two words aren't related in meaning. Instead, you will later learn another method you should actually be using to write this word.
+It is difficult to write certain words using prefixes alone. For example, `KOPB/TPAOUS` may be a valid outline for "confuse", but this requires knowing if `KOPB` is a prefix stroke. Furthermore, "fuse" is not the root word of "confuse"—the two words aren't related in meaning. Syllabic splitting is used for this word instead (covered in chapter 15).
 
 **For now, only use prefix strokes when they make sense semantically. A prefix stroke should modify a root word that can exist on its own.**
 
 ### Prefixes with different pronunciations
 
-English pronunciation differs from person to person, but even a single speaker may pronounce a word differently depending on the context. For example, you may pronounce the word "defect" as `TKAOE/TPEBGT` (as the noun) or `TKE/TPEBGT` (as the verb). Both of these outlines are valid and you will find this to be the case with many ambiguous situations.
+English pronunciation differs from person to person, but even a single speaker may pronounce a word differently depending on the context. For example, the word "defect" can be pronounced with a *long e* `TKAOE/TKEFBGT` or a *short e* `TKE/TKEFBGT` depending on if it is a noun or a verb.
 
 Here is a non-exhaustive list of some alternative prefix strokes:
 
@@ -88,47 +86,13 @@ This chapter later covers [looking up prefixes and suffixes](#looking-up-prefixe
 
 ### Practice material?
 
-There is no practice material for this section. It's not important to explicitly know and memorize prefix strokes as they tend to be implicitly used with the syllabic splitting technique, which you will learn in a later chapter.
+There is no practice material for this section. It's not important to explicitly know and memorize prefix strokes as they tend to be implicitly used with the syllabic splitting technique (to be covered later).
 
 ## Suffix strokes
 
 Much like how a prefix stroke attaches to the next word, a *suffix* stroke attaches to the previous word. Unlike prefix strokes, however, suffixes tend to be less intuitive and most have to be memorized. This section is split into smaller subsections with different "families" of suffix strokes to hopefully make them easier to remember.
 
-It is very important that you understand when it is appropriate to use a suffix. Pay careful attention to the information in each subsection telling you when it is appropriate to use those suffix strokes.
-
-### `EU` suffixes
-
-The suffixes in this subsection contain the `EU` vowel and some consonant on the left hand. While you've learned that `EU` represents the *short i* vowel as in "kiss", `EU` is also used for the *long e* vowel as in "tee" under some circumstances.
-
-> This comes from Plover theory's main.json and it is unfortunately an arbitrary rule that would be difficult to change Lapwing theory.
-
-One such circumstance where `EU` represents the *long e* sound is in the following suffixes:
-
-| Stroke | Suffix | Example outline | Example translation |
-| ------ | -------| --------------- | ------------------- |
-| `KWREU` | ^y | `KRAEUZ/KWREU` | crazy |
-| `HREU` | ^ly | `TPEURPL/HREU` | firmly |
-
-**Use these suffixes only to modify a root word. Ensure that the root word relates to the full word semantically.**
-
-#### Examples of correct usage
-
-* chatty `KHAT/KWREU`
-* earthy `*ERT/KWREU`
-* freely `TPRAOE/HREU`
-* mostly `PHOEFT/HREU`
-
-#### Examples of incorrect usage
-* city `SEUT/KWREU` ❌
-  - This would be "sitty"
-* lily `HREUL/KWREU` ❌
-  - "lil" is not the root word of "lily"
-
-#### Practice material
-
-[Words with -y and -ly suffixes drill](practice/13-EU.txt)
-
-> Since this only contains two suffixes, it is not necessary to spend too long on this drill. 5 minutes is sufficient.
+It is very important to understand when it is appropriate to use a suffix. In most cases, they can only be used to modify a root word (much like prefix strokes). Pay careful attention to the information in each subsection telling you when it is appropriate to use those suffix strokes.
 
 ### `*` suffixes
 
@@ -239,11 +203,11 @@ In these words, the suffix is used as a compound cluster; notice how the group o
 
 #### Compound clusters in a single stroke
 
-Several of these examples can be written in one stroke by putting the suffix chord into the first stroke (as you have done so in chapter 11). The above examples are only to illustrate these how these compound clusters have the second function of behaving as suffix strokes.
+Several of these examples can be written in one stroke by putting the suffix chord into the first stroke. The above examples are only to illustrate these how these compound clusters have the second function of behaving as suffix strokes.
 
-For these chords, it is recommended that you include the suffix chord in the first stroke for a slight speed advantage. To determine if an outline can be compressed into one stroke, take into account steno order and whether any keys are being overlapped.
+For these chords, it is recommended to include the suffix chord in the first stroke for a slight speed advantage. To determine if an outline can be compressed into one stroke, take into account steno order and whether any keys are being overlapped.
 
-For example, `SEPLT` is perfectly valid as none of the keys in `SE` overlap with the keys in `-PLT`. However, if you wanted to write "humble" in one stroke, you would have to overlap the `-BL` chord with the `-PL` chord in the first stroke as `-B` comes in between `-P` and `-L` in steno order.
+For example, `SEPLT` is perfectly valid as none of the keys in `SE` overlap with the keys in `-PLT`. However, to write "humble" in one stroke, the `-BL` chord would have to overlap with the `-PL` chord in the first stroke as `-B` comes in between `-P` and `-L` in steno order.
 
 The following are the same words from above but with the compound cluster in the first stroke:
 
@@ -268,7 +232,7 @@ The rest of the examples are not possible to write in one stroke:
 
 [Right hand `-BLT` words drill](practice/13-right-BLT.txt)
 
-You should already be familiar with the other chords from the chapter 11 practice material. If you need a refresher, you can find them here:
+The `-PLT`, `-LT`, and `-BL` compound clusters should already be already be familiar, however, the practice material is listed below as a refresher if needed.
 
 [Right hand ment and let words](practice/11-right-ment-and-let.txt)
 
@@ -318,11 +282,43 @@ The `KWR` chord has many uses in Lapwing theory. It is widely used in suffixes w
 
 [Right hand `KWR` suffix words drill](practice/13-KWR.txt)
 
+### `EU` suffixes
+
+The suffixes in this subsection contain the `EU` vowel and some consonant on the left hand. While the `EU` chord represents the *short i* vowel as in "kiss", `EU` is also used for the *long e* vowel as in "tee" under some circumstances.
+
+> This comes from Plover theory's main.json and it is unfortunately an arbitrary rule that would be difficult to change Lapwing theory. These rules are covered more formally in syllabic splitting.
+
+One such circumstance where `EU` represents the *long e* sound is in the following suffixes:
+
+| Stroke | Suffix | Example outline | Example translation |
+| ------ | -------| --------------- | ------------------- |
+| `KWREU` | ^y | `KRAEUZ/KWREU` | crazy |
+| `HREU` | ^ly | `TPEURPL/HREU` | firmly |
+
+**Use these suffixes only to modify a root word. Ensure that the root word relates to the full word semantically.**
+
+#### Examples of correct usage
+
+* chatty `KHAT/KWREU`
+* earthy `*ERT/KWREU`
+* freely `TPRAOE/HREU`
+* mostly `PHOEFT/HREU`
+
+#### Examples of incorrect usage
+* city `SEUT/KWREU` ❌
+  - This would be "sitty"
+* lily `HREUL/KWREU` ❌
+  - "lil" is not the root word of "lily"
+
+#### Practice material
+
+[Words with -y and -ly suffixes drill](practice/13-EU.txt)
+
+> Since this only contains two suffixes, it is not necessary to spend too long on this drill. 5 minutes is sufficient.
+
 ### Suffixes and orthography
 
-In some of the examples and drills you have been doing so far, you may have been wondering about the odd spelling quirks associated with these suffixes.
-
-For example, "purist" was listed in one of the examples above as `PWAOUR/KWREUFT`, but the root word is really spelled "pur<ins>e</ins>" with an "e" at the end.
+The spellings of some words in examples and exercises so far have not been entirely consistent with a prefix stroke modifying a root word. For example, "purist" was listed above as `PWAOUR/KWREUFT`, but the root word is really spelled "pur<ins>e</ins>" with an "e" at the end.
 
 Here are some other examples where adding a suffix to a root word changes its spelling:
 
@@ -333,9 +329,7 @@ Here are some other examples where adding a suffix to a root word changes its sp
 * "base" + "-ic" → "basic"
   - "e" is removed
 
-You do not have to think about these consciously when using suffix strokes in Lapwing theory. The dictionary is designed to handle these automatically.
-
-Thus, using the suffix strokes we have learned so far, we would write the above as:
+It is not necessary to think about these spelling differences  consciously with suffix strokes; the Lapwing dictionary and the Plover steno engine automatically handles these spelling quirks.
 
 * hasty `HAEUFT/KWREU`
 * luckily `HRUBG/KWREU/HREU`
@@ -343,7 +337,7 @@ Thus, using the suffix strokes we have learned so far, we would write the above 
 
 ## Prefix priority
 
-When there are conflicts between prefixes strokes and words, the former will be given higher priority for the primary outline. The words will instead be briefed. This allows you to write complicated words fairly intuitively without having to explicitly remember prefixes. Of course, this does come at the cost of having to memorize more arbitrary briefs. Since common words are often briefed, however, it does not require significantly more mental effort.
+When there are conflicts between prefixes strokes and words, the former will be given higher priority for the primary outline. The words will instead be briefed. This allows writing complicated words fairly intuitively without having to explicitly remember prefixes. Of course, this does come at the cost of having to memorize more arbitrary briefs. Since common words are often briefed, however, it does not require significantly more mental effort.
 
 | Prefix/word | Prefix Outline | Recommended word outline(s) | Explanation |
 | ---- | ---- | ---- | ---- |
@@ -361,7 +355,7 @@ You will see this table again in later chapters.
 
 ## Looking up prefixes and suffixes
 
-You can use Plover's lookup tool to find prefix and suffix strokes not listed in this chapter. Go to the main window, press tools, and then select "Lookup". Type in the letters that make up the translation and the tool will show outlines for prefixes, suffixes, and regular words; the dictionary formatting with the curly braces and carets is not required.
+The Plover's lookup tool can be used to find prefix and suffix strokes not listed in this chapter. In Plover's main window, press <code class="code-mono">Tools → Lookup</code>. Type in the letters that make up the translation and the tool will show outlines for prefixes, suffixes, and regular words; the dictionary formatting with the curly braces and carets is not required.
 
 ![looking up "in"](img/13-lookup.png)
 

@@ -22,7 +22,7 @@ Stress itself refers to emphasis in a syllable. Let's first go over a few exampl
 - mention
 - system
 
-The easiest way that I find useful in identifying stress is just pronouncing the word with emphasis on different syllables. To emphasize a syllable, speak it a little louder than the others and say it a bit longer in length.
+The easiest way that I find useful in identifying stress is just pronouncing the word with emphasis on different syllables. To emphasize a syllable, enunciate the vowel very strongly. It also helps to speak it a little louder and longer in duration than the others.
 
 Let's take the first word; which of the following sounds the the most natural?
 
@@ -30,15 +30,15 @@ Let's take the first word; which of the following sounds the the most natural?
 2. dis**ci**pline
 3. disci**pline**
 
-Hopefully it should be clear that the first way sounds the most natural and therefore we can conclude that "discipline" has its stress on the first syllable. 2 and 3 should sound like you are [putting the wrong em**pha**sis on the wrong syl**la**ble](https://youtu.be/pmh_6z9AWfc).
+Hopefully it should be clear that the first way sounds the most natural. We can conclude that "discipline" has its stress on the first syllable. 2 and 3 should sound like you are [putting the wrong em**pha**sis on the wrong syl**la**ble](https://youtu.be/pmh_6z9AWfc).
 
-You should also arrive at the conclusion that the other 3 words listed above have their stress on the first syllable. If you are ever unsure, you can always look up a word in a dictionary like Merriam Webster and find the IPA.
+The other 3 words listed above (foxtrot, mention, and system) also have their stress on the first syllable. If you are ever unsure, you can always look up a word in a dictionary like Merriam Webster and find the IPA.
 
 ![](img/24-mw.png)
 
 The boxed symbol denotes that the following syllable contains the primary stress and the circled symbol indicates that the next syllable has the secondary stress. Don't worry too much about primary vs secondary stress as later we will only be looking at unstressed syllables.
 
-Stress isn't always on the first syllable, of course. Here are some words with their stressed syllables bolded:
+Stress isn't always on the first syllable, of course. Here are some other words with their stressed syllables bolded:
 
 - a**pos**trophe
 - be**gin**
@@ -188,6 +188,8 @@ Folding `-T` can add the "-ity" or "-ty" clusters to the end of a word.
 
 - eternity `AOE/TERPBT`
 - porosity `POR/KWROFT`
+
+## `OEU` wildcard
 
 ## Dropping other non-important sounds
 

@@ -205,20 +205,19 @@
 <li><a href="practice/13-test.txt">Chapter 13 test</a></li>
 </ul>
 <h2 id="intro"><a class="header" href="#intro">Intro</a></h2>
-<p>Every chapter up until now has been focusing on single syllable words. When it comes to words with more than one syllable, we simply just break these into multiple strokes. How exactly we do this depends on the situation. We will first look at more straightforward situations in this chapter.</p>
+<p>For words with more than one syllable, outlines with multiple strokes are used. There are two primary techniques: <em>affix strokes</em> (prefixes and suffixes) and <em>syllabic splitting</em>. The former is slightly more straightforward and is covered in this chapter.</p>
 <h2 id="prefix-strokes"><a class="header" href="#prefix-strokes">Prefix strokes</a></h2>
-<p>Every translation we have been writing so far has been a regular word with no special formatting. This means that Plover will output a space before every word—this should be pretty familiar to you from the drills we have been practising. Let's take a look at how Plover parses these translations. In the main window of Plover, go to <code class="code-mono">Tools → Add Translation</code>. With your steno keyboard, write <code class="code-mono">STROEBG</code> into the <code class="code-mono">Strokes</code> field. You should see the following:</p>
+<p>Every translation so far found in examples or exercises have been regular words without any special formatting. For these words, Plover will insert a space before every word. To see how this works behind the scenes, open the main window of Plover, and go to <code class="code-mono">Tools → Add Translation</code>. Writing <code class="code-mono">STROEBG</code> into the <code class="code-mono">Strokes</code> field will show the following:</p>
 <p><img src="img/13-add-translation-stroke.png" alt="" /></p>
-<p>Now let's look at a <em>prefix</em>. This is a stroke that tells Plover to suppress the next space after outputting a translation. If you write <code>PRAOE</code> into the <code class="code-mono">Strokes</code> field. You should see the following:</p>
+<p>Compare this to prefix strokes; writing <code>PRAOE</code> (the prefix stroke for &quot;pre^&quot;) into the <code class="code-mono">Strokes</code> field results in:</p>
 <p><img src="img/13-add-translation-pre.png" alt="" /></p>
-<p>Here, the curly braces denote that there is special formatting rules contained inside the braces. The caret tells Plover to suppress the space where it is located. Any translation of the form ___^ is a prefix.</p>
-<p>If you were to write the word &quot;preview&quot;, you would have to split this word into &quot;pre^&quot; + &quot;view&quot;. Try it yourself—open a text document and write the strokes <code>PRAOE</code> and then <code>SRAOU</code>. In raw steno, this would be notated as <code>PRAOE/SRAOU</code> with the <code>/</code> character representing a stroke separator.</p>
-<p>Most prefix strokes are fairly intuitive and take precedence when they conflict with other translations. For example, the &quot;for^&quot; prefix as in &quot;forget&quot; <code>TPOR/TKPWET</code> is written as <code>TPOR</code> while the word &quot;for&quot; is briefed. Thus, it's not necessary to memorize many of these strokes.</p>
+<p>Here, the curly braces denote that there is special formatting rules contained inside the braces. The caret tells Plover to suppress the space where it is located; any translation of the form <code class="code-mono">{abc^}</code> is a prefix.</p>
+<p>Prefix strokes enable writing words such as  &quot;preview&quot; like so: <code>PRAOE/SRAOU</code>. Most prefix strokes are fairly intuitive and take precedence when they conflict with other translations. For example, the &quot;for^&quot; prefix as in &quot;forget&quot; <code>TPOR/TKPWET</code> is written as <code>TPOR</code> while the word &quot;for&quot; is briefed. It's not necessary to memeorize many of these prefix strokes.</p>
 <h3 id="common-prefix-strokes"><a class="header" href="#common-prefix-strokes">Common Prefix Strokes</a></h3>
 <ul>
 <li>a^ <code>A</code>
 <ul>
-<li>As in &quot;<ins>a</ins>bout&quot; <code>A/PWOUT</code></li>
+<li>As in &quot;<ins>a</ins>round&quot; <code>A/ROUPBD</code></li>
 </ul>
 </li>
 <li>co^ <code>KOE</code>
@@ -268,10 +267,10 @@
 </li>
 </ul>
 <h3 id="prefix-usage"><a class="header" href="#prefix-usage">Prefix usage</a></h3>
-<p>Let's say you are trying to write the word &quot;confuse&quot;. You may be tempted to write <code>KOPB/TPAOUS</code>, but you would have to know if <code>KOPB</code> is a prefix stroke. Even if it were, it wouldn't make sense to use it since &quot;fuse&quot; isn't the root word of &quot;confuse&quot;—the two words aren't related in meaning. Instead, you will later learn another method you should actually be using to write this word.</p>
+<p>It is difficult to write certain words using prefixes alone. For example, <code>KOPB/TPAOUS</code> may be a valid outline for &quot;confuse&quot;, but this requires knowing if <code>KOPB</code> is a prefix stroke. Furthermore, &quot;fuse&quot; is not the root word of &quot;confuse&quot;—the two words aren't related in meaning. Syllabic splitting is used for this word instead (covered in chapter 15).</p>
 <p><strong>For now, only use prefix strokes when they make sense semantically. A prefix stroke should modify a root word that can exist on its own.</strong></p>
 <h3 id="prefixes-with-different-pronunciations"><a class="header" href="#prefixes-with-different-pronunciations">Prefixes with different pronunciations</a></h3>
-<p>English pronunciation differs from person to person, but even a single speaker may pronounce a word differently depending on the context. For example, you may pronounce the word &quot;defect&quot; as <code>TKAOE/TPEBGT</code> (as the noun) or <code>TKE/TPEBGT</code> (as the verb). Both of these outlines are valid and you will find this to be the case with many ambiguous situations.</p>
+<p>English pronunciation differs from person to person, but even a single speaker may pronounce a word differently depending on the context. For example, the word &quot;defect&quot; can be pronounced with a <em>long e</em> <code>TKAOE/TKEFBGT</code> or a <em>short e</em> <code>TKE/TKEFBGT</code> depending on if it is a noun or a verb.</p>
 <p>Here is a non-exhaustive list of some alternative prefix strokes:</p>
 <ul>
 <li>&quot;de-&quot; <code>TKE</code></li>
@@ -281,47 +280,10 @@
 </ul>
 <p>This chapter later covers <a href="#looking-up-prefixes-and-suffixes">looking up prefixes and suffixes</a> which is handy for finding these alternative prefix strokes.</p>
 <h3 id="practice-material"><a class="header" href="#practice-material">Practice material?</a></h3>
-<p>There is no practice material for this section. It's not important to explicitly know and memorize prefix strokes as they tend to be implicitly used with the syllabic splitting technique, which you will learn in a later chapter.</p>
+<p>There is no practice material for this section. It's not important to explicitly know and memorize prefix strokes as they tend to be implicitly used with the syllabic splitting technique (to be covered later).</p>
 <h2 id="suffix-strokes"><a class="header" href="#suffix-strokes">Suffix strokes</a></h2>
 <p>Much like how a prefix stroke attaches to the next word, a <em>suffix</em> stroke attaches to the previous word. Unlike prefix strokes, however, suffixes tend to be less intuitive and most have to be memorized. This section is split into smaller subsections with different &quot;families&quot; of suffix strokes to hopefully make them easier to remember.</p>
-<p>It is very important that you understand when it is appropriate to use a suffix. Pay careful attention to the information in each subsection telling you when it is appropriate to use those suffix strokes.</p>
-<h3 id="eu-suffixes"><a class="header" href="#eu-suffixes"><code>EU</code> suffixes</a></h3>
-<p>The suffixes in this subsection contain the <code>EU</code> vowel and some consonant on the left hand. While you've learned that <code>EU</code> represents the <em>short i</em> vowel as in &quot;kiss&quot;, <code>EU</code> is also used for the <em>long e</em> vowel as in &quot;tee&quot; under some circumstances.</p>
-<blockquote>
-<p>This comes from Plover theory's main.json and it is unfortunately an arbitrary rule that would be difficult to change Lapwing theory.</p>
-</blockquote>
-<p>One such circumstance where <code>EU</code> represents the <em>long e</em> sound is in the following suffixes:</p>
-<div class="table-wrapper"><table><thead><tr><th>Stroke</th><th>Suffix</th><th>Example outline</th><th>Example translation</th></tr></thead><tbody>
-<tr><td><code>KWREU</code></td><td>^y</td><td><code>KRAEUZ/KWREU</code></td><td>crazy</td></tr>
-<tr><td><code>HREU</code></td><td>^ly</td><td><code>TPEURPL/HREU</code></td><td>firmly</td></tr>
-</tbody></table>
-</div>
-<p><strong>Use these suffixes only to modify a root word. Ensure that the root word relates to the full word semantically.</strong></p>
-<h4 id="examples-of-correct-usage"><a class="header" href="#examples-of-correct-usage">Examples of correct usage</a></h4>
-<ul>
-<li>chatty <code>KHAT/KWREU</code></li>
-<li>earthy <code>*ERT/KWREU</code></li>
-<li>freely <code>TPRAOE/HREU</code></li>
-<li>mostly <code>PHOEFT/HREU</code></li>
-</ul>
-<h4 id="examples-of-incorrect-usage"><a class="header" href="#examples-of-incorrect-usage">Examples of incorrect usage</a></h4>
-<ul>
-<li>city <code>SEUT/KWREU</code> ❌
-<ul>
-<li>This would be &quot;sitty&quot;</li>
-</ul>
-</li>
-<li>lily <code>HREUL/KWREU</code> ❌
-<ul>
-<li>&quot;lil&quot; is not the root word of &quot;lily&quot;</li>
-</ul>
-</li>
-</ul>
-<h4 id="practice-material-1"><a class="header" href="#practice-material-1">Practice material</a></h4>
-<p><a href="practice/13-EU.txt">Words with -y and -ly suffixes drill</a></p>
-<blockquote>
-<p>Since this only contains two suffixes, it is not necessary to spend too long on this drill. 5 minutes is sufficient.</p>
-</blockquote>
+<p>It is very important to understand when it is appropriate to use a suffix. In most cases, they can only be used to modify a root word (much like prefix strokes). Pay careful attention to the information in each subsection telling you when it is appropriate to use those suffix strokes.</p>
 <h3 id="-suffixes"><a class="header" href="#-suffixes"><code>*</code> suffixes</a></h3>
 <p>The following suffixes all contain a single vowel key, an asterisk, and the <code>-R</code>.</p>
 <div class="table-wrapper"><table><thead><tr><th>Stroke</th><th>Suffix</th><th>Example outline</th><th>Example translation</th></tr></thead><tbody>
@@ -331,7 +293,7 @@
 </tbody></table>
 </div>
 <p><strong>Use these suffixes only to modify a root word. Ensure that the root word relates to the full word semantically.</strong></p>
-<h4 id="examples-of-correct-usage-1"><a class="header" href="#examples-of-correct-usage-1">Examples of correct usage</a></h4>
+<h4 id="examples-of-correct-usage"><a class="header" href="#examples-of-correct-usage">Examples of correct usage</a></h4>
 <ul>
 <li>upper <code>UP/*ER</code></li>
 <li>player <code>PHRAEU/*ER</code></li>
@@ -374,7 +336,7 @@
 </li>
 </ul>
 <p>Do not worry about how to write these words correctly—you will soon learn about the technique you should instead be using in these scenarios.</p>
-<h4 id="practice-material-2"><a class="header" href="#practice-material-2">Practice material</a></h4>
+<h4 id="practice-material-1"><a class="header" href="#practice-material-1">Practice material</a></h4>
 <p><a href="practice/13-ar-or-er.txt">Words with -ar, -or, and -er suffixes drill</a></p>
 <p>5–10 minutes is sufficient for this drill.</p>
 <h3 id="right-hand-chord-suffixes"><a class="header" href="#right-hand-chord-suffixes">Right hand chord suffixes</a></h3>
@@ -385,7 +347,7 @@
 </tbody></table>
 </div>
 <p><strong>Use these suffixes only to modify a root word. Ensure that the root word relates to the full word semantically.</strong></p>
-<h4 id="examples-of-correct-usage-2"><a class="header" href="#examples-of-correct-usage-2">Examples of correct usage</a></h4>
+<h4 id="examples-of-correct-usage-1"><a class="header" href="#examples-of-correct-usage-1">Examples of correct usage</a></h4>
 <ul>
 <li>hopeful <code>HOEP/-FL</code></li>
 <li>rightful <code>RAOEUT/-FL</code></li>
@@ -395,7 +357,7 @@
 <blockquote>
 <p>Both &quot;ful&quot; and &quot;ness&quot; are rarely used in English as non-suffixes so it's difficult to find examples of incorrect usage.</p>
 </blockquote>
-<h4 id="practice-material-3"><a class="header" href="#practice-material-3">Practice material</a></h4>
+<h4 id="practice-material-2"><a class="header" href="#practice-material-2">Practice material</a></h4>
 <p><a href="practice/13-ful-ness.txt">Words with -ful and -ness suffixes drill</a></p>
 <h3 id="right-hand-compound-cluster-suffixes"><a class="header" href="#right-hand-compound-cluster-suffixes">Right hand compound cluster suffixes</a></h3>
 <p>Like the last subsection, these suffixes are also composed entirely of consonant keys on the right hand.</p>
@@ -432,9 +394,9 @@
 <li>bullet <code>PWU/-LT</code></li>
 </ul>
 <h4 id="compound-clusters-in-a-single-stroke"><a class="header" href="#compound-clusters-in-a-single-stroke">Compound clusters in a single stroke</a></h4>
-<p>Several of these examples can be written in one stroke by putting the suffix chord into the first stroke (as you have done so in chapter 11). The above examples are only to illustrate these how these compound clusters have the second function of behaving as suffix strokes.</p>
-<p>For these chords, it is recommended that you include the suffix chord in the first stroke for a slight speed advantage. To determine if an outline can be compressed into one stroke, take into account steno order and whether any keys are being overlapped.</p>
-<p>For example, <code>SEPLT</code> is perfectly valid as none of the keys in <code>SE</code> overlap with the keys in <code>-PLT</code>. However, if you wanted to write &quot;humble&quot; in one stroke, you would have to overlap the <code>-BL</code> chord with the <code>-PL</code> chord in the first stroke as <code>-B</code> comes in between <code>-P</code> and <code>-L</code> in steno order.</p>
+<p>Several of these examples can be written in one stroke by putting the suffix chord into the first stroke. The above examples are only to illustrate these how these compound clusters have the second function of behaving as suffix strokes.</p>
+<p>For these chords, it is recommended to include the suffix chord in the first stroke for a slight speed advantage. To determine if an outline can be compressed into one stroke, take into account steno order and whether any keys are being overlapped.</p>
+<p>For example, <code>SEPLT</code> is perfectly valid as none of the keys in <code>SE</code> overlap with the keys in <code>-PLT</code>. However, to write &quot;humble&quot; in one stroke, the <code>-BL</code> chord would have to overlap with the <code>-PL</code> chord in the first stroke as <code>-B</code> comes in between <code>-P</code> and <code>-L</code> in steno order.</p>
 <p>The following are the same words from above but with the compound cluster in the first stroke:</p>
 <ul>
 <li>cement <code>SEPLT</code></li>
@@ -464,9 +426,9 @@
 <blockquote>
 <p><strong>NOTE:</strong> although overlapping these strokes is not valid in Lapwing theory, they are perfectly valid briefs as long as there are no entries already existing in the dictionary. Feel free to add/use <code>PROBLT</code>, <code>HUPBL</code>, or <code>OPLT</code> as briefs.</p>
 </blockquote>
-<h4 id="practice-material-4"><a class="header" href="#practice-material-4">Practice material</a></h4>
+<h4 id="practice-material-3"><a class="header" href="#practice-material-3">Practice material</a></h4>
 <p><a href="practice/13-right-BLT.txt">Right hand <code>-BLT</code> words drill</a></p>
-<p>You should already be familiar with the other chords from the chapter 11 practice material. If you need a refresher, you can find them here:</p>
+<p>The <code>-PLT</code>, <code>-LT</code>, and <code>-BL</code> compound clusters should already be already be familiar, however, the practice material is listed below as a refresher if needed.</p>
 <p><a href="practice/11-right-ment-and-let.txt">Right hand ment and let words</a></p>
 <p><a href="practice/11-right-BL.txt">Right hand <code>-BL</code> words drill</a></p>
 <h3 id="kwr-suffixes"><a class="header" href="#kwr-suffixes"><code>KWR</code> suffixes</a></h3>
@@ -486,7 +448,7 @@
 </tbody></table>
 </div>
 <p><strong>Use these suffixes only to modify a root word. Ensure that the root word relates to the full word semantically.</strong></p>
-<h4 id="examples-of-correct-usage-3"><a class="header" href="#examples-of-correct-usage-3">Examples of correct usage</a></h4>
+<h4 id="examples-of-correct-usage-2"><a class="header" href="#examples-of-correct-usage-2">Examples of correct usage</a></h4>
 <ul>
 <li>coolant <code>KAOL/KWRAPBT</code></li>
 <li>bailout <code>PWAEUL/KWROUT</code></li>
@@ -499,7 +461,7 @@
 <li>cubic <code>KAOUB/KWREUBG</code></li>
 <li>rotten <code>ROT/KWREPB</code></li>
 </ul>
-<h4 id="examples-of-incorrect-usage-1"><a class="header" href="#examples-of-incorrect-usage-1">Examples of incorrect usage</a></h4>
+<h4 id="examples-of-incorrect-usage"><a class="header" href="#examples-of-incorrect-usage">Examples of incorrect usage</a></h4>
 <ul>
 <li>pedant <code>PED/KWRAPBT</code> ❌
 <ul>
@@ -512,11 +474,47 @@
 </ul>
 </li>
 </ul>
-<h4 id="practice-material-5"><a class="header" href="#practice-material-5">Practice material</a></h4>
+<h4 id="practice-material-4"><a class="header" href="#practice-material-4">Practice material</a></h4>
 <p><a href="practice/13-KWR.txt">Right hand <code>KWR</code> suffix words drill</a></p>
+<h3 id="eu-suffixes"><a class="header" href="#eu-suffixes"><code>EU</code> suffixes</a></h3>
+<p>The suffixes in this subsection contain the <code>EU</code> vowel and some consonant on the left hand. While the <code>EU</code> chord represents the <em>short i</em> vowel as in &quot;kiss&quot;, <code>EU</code> is also used for the <em>long e</em> vowel as in &quot;tee&quot; under some circumstances.</p>
+<blockquote>
+<p>This comes from Plover theory's main.json and it is unfortunately an arbitrary rule that would be difficult to change Lapwing theory. These rules are covered more formally in syllabic splitting.</p>
+</blockquote>
+<p>One such circumstance where <code>EU</code> represents the <em>long e</em> sound is in the following suffixes:</p>
+<div class="table-wrapper"><table><thead><tr><th>Stroke</th><th>Suffix</th><th>Example outline</th><th>Example translation</th></tr></thead><tbody>
+<tr><td><code>KWREU</code></td><td>^y</td><td><code>KRAEUZ/KWREU</code></td><td>crazy</td></tr>
+<tr><td><code>HREU</code></td><td>^ly</td><td><code>TPEURPL/HREU</code></td><td>firmly</td></tr>
+</tbody></table>
+</div>
+<p><strong>Use these suffixes only to modify a root word. Ensure that the root word relates to the full word semantically.</strong></p>
+<h4 id="examples-of-correct-usage-3"><a class="header" href="#examples-of-correct-usage-3">Examples of correct usage</a></h4>
+<ul>
+<li>chatty <code>KHAT/KWREU</code></li>
+<li>earthy <code>*ERT/KWREU</code></li>
+<li>freely <code>TPRAOE/HREU</code></li>
+<li>mostly <code>PHOEFT/HREU</code></li>
+</ul>
+<h4 id="examples-of-incorrect-usage-1"><a class="header" href="#examples-of-incorrect-usage-1">Examples of incorrect usage</a></h4>
+<ul>
+<li>city <code>SEUT/KWREU</code> ❌
+<ul>
+<li>This would be &quot;sitty&quot;</li>
+</ul>
+</li>
+<li>lily <code>HREUL/KWREU</code> ❌
+<ul>
+<li>&quot;lil&quot; is not the root word of &quot;lily&quot;</li>
+</ul>
+</li>
+</ul>
+<h4 id="practice-material-5"><a class="header" href="#practice-material-5">Practice material</a></h4>
+<p><a href="practice/13-EU.txt">Words with -y and -ly suffixes drill</a></p>
+<blockquote>
+<p>Since this only contains two suffixes, it is not necessary to spend too long on this drill. 5 minutes is sufficient.</p>
+</blockquote>
 <h3 id="suffixes-and-orthography"><a class="header" href="#suffixes-and-orthography">Suffixes and orthography</a></h3>
-<p>In some of the examples and drills you have been doing so far, you may have been wondering about the odd spelling quirks associated with these suffixes.</p>
-<p>For example, &quot;purist&quot; was listed in one of the examples above as <code>PWAOUR/KWREUFT</code>, but the root word is really spelled &quot;pur<ins>e</ins>&quot; with an &quot;e&quot; at the end.</p>
+<p>The spellings of some words in examples and exercises so far have not been entirely consistent with a prefix stroke modifying a root word. For example, &quot;purist&quot; was listed above as <code>PWAOUR/KWREUFT</code>, but the root word is really spelled &quot;pur<ins>e</ins>&quot; with an &quot;e&quot; at the end.</p>
 <p>Here are some other examples where adding a suffix to a root word changes its spelling:</p>
 <ul>
 <li>&quot;haste&quot; + &quot;-y&quot; → &quot;hasty&quot;
@@ -535,15 +533,14 @@
 </ul>
 </li>
 </ul>
-<p>You do not have to think about these consciously when using suffix strokes in Lapwing theory. The dictionary is designed to handle these automatically.</p>
-<p>Thus, using the suffix strokes we have learned so far, we would write the above as:</p>
+<p>It is not necessary to think about these spelling differences  consciously with suffix strokes; the Lapwing dictionary and the Plover steno engine automatically handles these spelling quirks.</p>
 <ul>
 <li>hasty <code>HAEUFT/KWREU</code></li>
 <li>luckily <code>HRUBG/KWREU/HREU</code></li>
 <li>basic <code>PWAEUS/KWREUBG</code></li>
 </ul>
 <h2 id="prefix-priority"><a class="header" href="#prefix-priority">Prefix priority</a></h2>
-<p>When there are conflicts between prefixes strokes and words, the former will be given higher priority for the primary outline. The words will instead be briefed. This allows you to write complicated words fairly intuitively without having to explicitly remember prefixes. Of course, this does come at the cost of having to memorize more arbitrary briefs. Since common words are often briefed, however, it does not require significantly more mental effort.</p>
+<p>When there are conflicts between prefixes strokes and words, the former will be given higher priority for the primary outline. The words will instead be briefed. This allows writing complicated words fairly intuitively without having to explicitly remember prefixes. Of course, this does come at the cost of having to memorize more arbitrary briefs. Since common words are often briefed, however, it does not require significantly more mental effort.</p>
 <div class="table-wrapper"><table><thead><tr><th>Prefix/word</th><th>Prefix Outline</th><th>Recommended word outline(s)</th><th>Explanation</th></tr></thead><tbody>
 <tr><td>a</td><td><code>A</code></td><td><code>AEU</code></td><td><code>A*</code> is already used.</td></tr>
 <tr><td>bi^ (by)</td><td><code>PWAOEU</code></td><td><code>PWEU</code></td><td>There is a three way conflict between &quot;by&quot;, &quot;bye&quot;, and &quot;buy&quot;.</td></tr>
@@ -558,7 +555,7 @@
 </div>
 <p>You will see this table again in later chapters.</p>
 <h2 id="looking-up-prefixes-and-suffixes"><a class="header" href="#looking-up-prefixes-and-suffixes">Looking up prefixes and suffixes</a></h2>
-<p>You can use Plover's lookup tool to find prefix and suffix strokes not listed in this chapter. Go to the main window, press tools, and then select &quot;Lookup&quot;. Type in the letters that make up the translation and the tool will show outlines for prefixes, suffixes, and regular words; the dictionary formatting with the curly braces and carets is not required.</p>
+<p>The Plover's lookup tool can be used to find prefix and suffix strokes not listed in this chapter. In Plover's main window, press <code class="code-mono">Tools → Lookup</code>. Type in the letters that make up the translation and the tool will show outlines for prefixes, suffixes, and regular words; the dictionary formatting with the curly braces and carets is not required.</p>
 <p><img src="img/13-lookup.png" alt="looking up &quot;in&quot;" /></p>
 <h2 id="chapter-13-test"><a class="header" href="#chapter-13-test">Chapter 13 test</a></h2>
 <p>This chapter's test consists of all the practice drills in this chapter. Make sure your settings are configured as such:</p>
