@@ -25,11 +25,11 @@ Remember to take breaks!
 
 ## Syllabic splitting basics
 
-In earlier chapters, you learned when and how to use affix strokes. You also learned how to write compound words. Syllabic splitting is the last technique for writing multisyllable words that cannot be written in one stroke. The rules are fairly simple.
+Earlier chapters covered affix strokes and compound words. Syllabic splitting is the last technique for writing multisyllable words that cannot be written in one stroke. Words are split roughly into their syllables based on the following rules:
 
 1. Split the word using other methods (prefixes, suffixes, and compound words)—even just partially
 2. Split each remaining part by its syllables so that every stroke after the first begins with a consonant
-3. Make sure to not double consonants across separate strokes
+3. Ensure not to double consonants across separate strokes
 4. With multiple ways of splitting syllables, preserve the natural sounds of the word
 
 It's best to learn these rules by examples.
@@ -38,31 +38,31 @@ It's best to learn these rules by examples.
 
 #### components
 
-1. We first notice that this word can be split into a root word and a suffix: component/s.
+1. First notice that this word can be split into a root word and a suffix: component/s.
 
 2. There are three possibilities for the first stroke: co/<ins>mp</ins>onent/s, com/<ins>p</ins>onent/s and comp/<ins>o</ins>nent/s. Take note of what the second stroke has to begin with in each of these scenarios (underlined letters).
 
 3. The first scenario is not correct as the second stroke would have to start with "mp" (not a valid left hand consonant). The third scenario is also incorrect since the second stroke begins with a vowel. Only the second method is valid: com/ponent/s.
 
-4. To split the remaining "ponent" group, we also remember that every stroke has to begin with a consonant. Remember that every stroke has to begin with a consonant. The only way to do this is by splitting it as: po/nent.
+4. To split the remaining "ponent" group, remember that every stroke must begin with a consonant. The only way to do this is by splitting it as: po/nent.
 
 Full outline: `KOPL/POE/TPHEPBT/-Z`
 
 #### shatterproof
 
-1. This word is clearly a compound of "shatter" and "proof". Our last stroke should therefore be `PRAO*F`.
+1. This word is clearly a compound of "shatter" and "proof". The last stroke should therefore be `PRAO*F`.
 
-2. It wouldn't make sense to use a suffix stroke, so we use syllabic splitting.
+2. It wouldn't make sense to use a suffix stroke for the "^er" part, so use syllabic splitting.
 
-3. If we want the second stroke to begin with a consonant, we must split this as: sha/tter.
+3. To begin the second stroke with a consonant, it must be split as: sha/tter.
 
 Full outline: `SHA/TER/PRAO*F`
 
 #### exam
 
-1. There are no prefixes, suffixes, or compound words we can use here.
+1. There are no prefixes, suffixes, or compound words that can be used.
 
-2. Since there is no consonant after the "x", we have to split the "x" across the two strokes.
+2. Since there is no consonant after the "x", it should be split across the two strokes.
 
 Full outline: `EBG/SAPL`
 
@@ -78,9 +78,9 @@ Full outline: `SEU/PHEU/HRAOE`
 
 #### dependent
 
-1. We can start by splitting this word into "depend" + "-ent"; thus, our last stroke is `KWREPBT`.
+1. First split this word into a root and a suffix: "depend" + "-ent"; the last stroke is `KWREPBT`.
 
-2. Since we cannot start any strokes with a vowel, there is only one way to split this: de/pend.
+2. There is only one way to split "depend" so that the second stroke begins with a consonant: de/pend.
 
 Full outline: `TKE/PEPBD/KWREPBT`
 
@@ -96,7 +96,7 @@ Full outline: `A/HRAOEU`
 
 1. No prefixes, suffixes, or compound words are available to use.
 
-2. We must start each stroke with with a consonant. The first stroke should therefore contain the first consonant and vowel: lu/dicrous.
+2. Since the second stroke must start with a consonant, the first stroke can only contain the first consonant and vowel: lu/dicrous.
 
 3. There are two ways of splitting the rest of the word: lu/dic/rous and lu/di/crous.
 
@@ -114,7 +114,7 @@ Full outline: `WR*EUPBG/-L/KWREU`
 
 #### efficient
 
-1. No prefixes, suffixes, or compound words are available to use.
+1. No affixes or compound words are available to use.
 
 2. There is only one way to split this word so that every stroke begins with a consonant: e/ffi/cient
 
@@ -138,7 +138,7 @@ Full outline: `AOE/TPEU/SHEPBT` or `E/TPEU/SHEPBT`
 
 ## `KWR` as a silent linker
 
-Sometimes it is not possible to start a stroke with a consonant as you may run out of consonants in a word. In these cases, use `KWR` as a silent linker chord to join a stroke to the previous.
+Sometimes it is not possible to start a stroke with a consonant. In these cases, use `KWR` as a silent linker chord to join a stroke to the previous.
 
 ### `KWR` with the `-R` key
 
@@ -161,7 +161,7 @@ In the list below, notice how each pair of words has a different vowel sound due
 
 In multistroke words, we also treat `-R` as a quasi-vowel key when appropriate.
 
-For example, the word "carry" would be written in two strokes. As we must preserve the vowel sound, we have to include the `-R` key in the first stroke: `KAEUR`. To start the next stroke, we cannot repeat the "r" consonant by using the left hand `R` key, so we use `KWR` as a silent linker.
+For example, the word "carry" would be written in two strokes. As the vowel sound must be preserved, the `-R` key must be included in the first stroke: `KAEUR`. To start the next stroke, the "r" consonant cannot be repeated by using the left hand `R` key, so  `KWR` is used as a silent linker.
 
 #### Examples
 * carry `KAEUR/KWREU`
@@ -177,7 +177,7 @@ For example, the word "carry" would be written in two strokes. As we must preser
 
 The examples above all end in the *long e* sound (/i/) as in "tee"—so why `EU`? Well, to be quite honest, I'm not entirely sure myself. This is simply what Plover theory sometimes does and it's just what I've gotten used to. This does, unfortunately, mean that Lapwing theory has inherited the quirk.
 
-That being said, the usage of `EU` vs `AOE` is more defined in Lapwing theory and is less arbitrary. If a word has a *long e* sound, these are the rules you should follow for deciding between `EU` and `AOE`:
+That being said, the usage of `EU` vs `AOE` is more defined in Lapwing theory and is less arbitrary. If a word has a *long e* sound, use the rules to decide between `EU` and `AOE`:
 
 1. If the vowel is spelled with a single "i", use `EU`
    - petite `PE/TEUT`
@@ -195,7 +195,7 @@ That being said, the usage of `EU` vs `AOE` is more defined in Lapwing theory an
 
 #### Prefix vowel exceptions
 
-The stroke after a prefix may start with a vowel if needed. However, you must use this prefix stroke appropriately; it should modify a root word that can exist on its own.
+The stroke after a prefix may start with a vowel if needed. However, remember to only use prefixes only when there is a semantic relation.
 
 ##### Examples
 
@@ -222,7 +222,7 @@ For completeness, here is a table listing the different situations involving the
 | Word begins with "y" sound (not spelled) | ` ` | use | `AOUS` |
 | "y" sound within a word | `KWR` | union | `AOUPB/KWROPB`
 
-In the three situations above, only the last one should be new to you.
+In the three situations above, only the last one should be new.
 
 #### Examples
 * bunion `PWUPB/KWROPB`
@@ -247,7 +247,7 @@ Linguistically, this sound is called a *glide* and is represented with `KWR` in 
 <source src="img/15-pronunciations-4.mp4" type="video/mp4">
 </video>
 
-If, in your accent, you cannot hear a glide, you can also just treat `KWR` as a silent linker just like in previous sections.
+> If, in your accent, you cannot hear a glide, you can also just treat `KWR` as a silent linker just like in previous sections.
 
 **Essentially, if there are two distinct vowel sounds next to each other which cannot be represented by a single vowel chord, use `KWR` to link them in separate strokes.**
 
@@ -264,19 +264,17 @@ If, in your accent, you cannot hear a glide, you can also just treat `KWR` as a 
 
 ### As a vowel pair
 
-How would you write the word "alleviate"? With everything we've learned so far, you may be tempted to use `A/HRAOE/SREU/KWRAEUT` (a/lle/vi/ate). However, four strokes is quite a lot. We need to be able to compress this word into fewer strokes if we want to be fast at steno.
+How is "alleviate" written? With everything covered so far, it may be tempting to use `A/HRAOE/SREU/KWRAEUT` (a/lle/vi/ate). However, four strokes is quite a lot. This outline needs to be compressed  into fewer strokes if the goal is to be fast at steno.
 
-To do this, we can let the `KWRAEU` stroke represent the entire "ia" sound. This sound is made up of two distinct vowels that are blended together. The "ia" pair is composed of the *long e* /i/ vowel as in "b<ins>ee</ins>t" and the *long a* /ei/ vowel as in "b<ins>ai</ins>t". These are blended together to form the sound "ee-ait" /iˌeɪt/.
+To do this, let the `KWRAEU` stroke represent the entire "ia" sound. This sound is made up of two distinct vowels that are blended together. The "ia" pair is composed of the *long e* /i/ vowel as in "b<ins>ee</ins>t" and the *long a* /ei/ vowel as in "b<ins>ai</ins>t". These are blended together to form the sound "ee-ait" /iˌeɪt/.
 
-Say "alleviate" out loud and see if you can identify this "ee-ait" vowel pair in the last syllable!
+> Say "alleviate" out loud and see if you can identify this "ee-ait" vowel pair in the last syllable!
 
-Instead of treating `KWR` as a silent linker chord, we can also treat it to represent the first vowel sound in this pair. We would write the second sound with the thumb keys. This way, we can let `KWRAEU` represent the "ia" sound. By doing so, we have effectively shifted where the last stroke begins: we went from a/lle/vi/ate to a/lle/v/iate
-
-Finally, if we move the "v" sound to the second stroke , we can split this word in only three strokes: a/llev/iate
+Instead of treating `KWR` as a silent linker chord, it can also be used to represent the first vowel sound in this pair. The second sound would be written with the thumb keys. This way, `KWRAEU` represents the "ia" sound. By doing so, the start of the last stroke has effectively been shifted: instead of a/lle/vi/ate, it can be split as a/lle/v/iate Finally, the "v" sound can also be shifted to the second stroke: a/llev/iate
 
 * alleviate `A/HRAOEF/KWRAEUT`
 
-Another way of thinking about this is that `KWR` is representing a subtle "y" sound just like in the previous section. If you can hear a "y" sound in alleviate (as in "a-leev-<ins>y</ins>ait"), then you can simply use `KWR` to represent this sound, and write the rest of the vowels using the thumbs.
+> Another way of thinking about this is that `KWR` is representing a subtle "y" sound just like in the previous section. If you can hear a "y" sound in alleviate (as in "a-leev-<ins>y</ins>ait"), then you can simply use `KWR` to represent this sound, and write the rest of the vowels using the thumbs.
 
 Thinking about vowel pairs is a great way of understanding how  `KWR` can be used in these situations. However, if it is a bit slow, I recommend thinking about `KWR` as a "y" sound. We can approximate complicated vowel sounds just by using a "y" sound and a vowel we've learned before.
 
@@ -307,9 +305,11 @@ In the following examples, try to pronounce each word by approximating the vowel
 
 ## Prefix priority
 
-Sometimes a given steno outline can have both a word and a prefix that it can represent. For example, to write the simple word "by" you may want to use `PWAOEU`. However, there also exists the "bi-" prefix as in the words "bicycle" `PWAOEU/SAOEUBG/-L`, "bifurcate" `PWAOEU/TPUR/KAEUT`, and "bilateral" `PWAOEU/HRA/TER/KWRAL`. From a prefix perspective, these are not used correctly since the prefixes are not altering a root word semantically. However, from a syllabic splitting perspective, these are correct.
+Sometimes a given steno outline can have both a word and a prefix that it can represent. For example, to write the simple word "by" the obvious steno outline is `PWAOEU`. However, there also exists the "bi-" prefix as in the words "bicycle" `PWAOEU/SAOEUBG/-L`, "bifurcate" `PWAOEU/TPUR/KAEUT`, and "bilateral" `PWAOEU/HRA/TER/KWRAL`.
 
-Therefore, it makes sense to assign a different stroke other than `PWAOEU` to the word "by". Otherwise, you may lead to conflicts like:
+> **NOTE:** these examples with the `PWAOEU` aren't all being used correctly from a prefix perspective (they aren't altering a root word semantically). However, from a syllabic splitting perspective, these are correct.
+
+Therefore, it makes sense to assign a different stroke other than `PWAOEU` to the word "by". Otherwise, if `PWAOEU` is used for the prefix and the word, conflicts such as the following can arise:
 
 * `PWAOEU/SAOEUBG/-L/-G`
   * Can be the word "bicycling"
@@ -318,7 +318,9 @@ Therefore, it makes sense to assign a different stroke other than `PWAOEU` to th
   * Can be the word "bilateral"
   * Can be the phrase "by lateral" as in "Love waves cause damage by lateral movement of the ground."
 
-Below is a table of some basic word/prefix conflicts. Prefixes will be given to the intuitive outline and the word variant will use the asterisk key or a different vowel chord. However, for some common words, it's useful to brief them as it is useful in phrases. You are free to add your own briefs for the word variants.
+Below is a table of some basic word/prefix conflicts. Prefixes will be given to the intuitive outline and the word variant will use the asterisk key or a different vowel chord. However, for some common words, it's useful to brief them as it is useful in phrases.
+
+> **NOTE:** you are free to add your own briefs for the word variants.
 
 | Prefix/word | Prefix Outline | Recommended word outline(s) | Explanation |
 | ---- | ---- | ---- | ---- |
@@ -357,7 +359,7 @@ Again, feel free to change around these outlines.
 
 ### Next chapter
 
-Don't worry too much about trying to memorize these briefs just yet. It's just important that you understand the motivation as to why some basic words aren't very intuitive. These briefs (along with others) are covered in the next chapter with practice material.
+Don't worry too much about trying to memorize these briefs just yet. It's only important that to understand the motivation as to why some basic words aren't very intuitive. These briefs (along with others) are covered in the next chapter with practice material.
 
 ## Chapter 15 test
 
