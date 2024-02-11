@@ -16,26 +16,36 @@ See the Plover wiki page on [installing plugins](https://github.com/openstenopro
 
 Note that you can install all four plugins before restarting Plover.
 
+### Enable <code class="code-mono">modal_update</code>
+
+In Plover's main window, go to <code class="code-mono">Configure → Plugins</code> and click on the <code class="code-mono">modal_update</code> box.
+
+![modal_update]()
+
+> If you don't see this box, make sure you've installed the <code class="code-mono">plover-modal-dictionary</code> plugin and restarted Plover.
+
 ## Download the dictionaries
 
 Download the dictionaries by right clicking the following links and pressing <code class="code-mono">Save link as</code> (or whatever the equivalent is for your browser):
 
-
-* [<code class="code-mono">movement.modal</code>](https://raw.githubusercontent.com/aerickt/steno-dictionaries/main/movement.modal)
 * [<code class="code-mono">jeff-phrasing.py</code>](https://raw.githubusercontent.com/jthlim/jeff-phrasing/main/jeff-phrasing.py)
 * [<code class="code-mono">abby-left-hand-modifiers.py</code>](https://raw.githubusercontent.com/Abkwreu/plover-left-hand-modifiers/main/abby-left-hand-modifiers.py)
 * [<code class="code-mono">emily-modifiers.py</code>](https://raw.githubusercontent.com/EPLHREU/emily-modifiers/master/emily-modifiers.py)
 * [<code class="code-mono">emily-symbols.py</code>](https://raw.githubusercontent.com/EPLHREU/emily-symbols/main/emily-symbols.py)
+* [<code class="code-mono">lapwing-movement.modal</code>](https://raw.githubusercontent.com/aerickt/steno-dictionaries/main/lapwing-movement.modal)
+* [<code class="code-mono">lapwing-commands.json</code>](https://raw.githubusercontent.com/aerickt/steno-dictionaries/main/lapwing-commands.json)
 * [<code class="code-mono">lapwing-numbers.json</code>](https://raw.githubusercontent.com/aerickt/steno-dictionaries/main/lapwing-numbers.json)
 * [<code class="code-mono">lapwing-uk-additions.json</code>](https://raw.githubusercontent.com/aerickt/steno-dictionaries/main/lapwing-uk-additions.json)
-* [<code class="code-mono">lapwing-prefixed-proper-nouns.json</code>](https://raw.githubusercontent.com/aerickt/steno-dictionaries/main/lapwing-prefixed-proper-nouns.json)
+* [<code class="code-mono">lapwing-proper-nouns.json</code>](https://raw.githubusercontent.com/aerickt/steno-dictionaries/main/lapwing-proper-nouns.json)
 * [<code class="code-mono">lapwing-base.json</code>](https://raw.githubusercontent.com/aerickt/steno-dictionaries/main/lapwing-base.json)
 
 Next, in the Plover main window, click on the green plus button:
 
 ![load dictionary button](img/5-load-dictionary.png)
 
-Select "Load dictionaries" and you will be greeted with a window to select all the dictionaries that you downloaded earlier. Next, click on <code class="code-mono">main.json</code> and press the red X button to delete it from your dictionary stack. Do the same for commands.json. You can now select each dictionary and make sure they are listed in your stack in the same order as above by using the blue arrow keys.
+Select "Load dictionaries" and you will be greeted with a window to select all the dictionaries that you downloaded earlier. Next, click on <code class="code-mono">main.json</code> and press the red X button to delete it from your dictionary stack. Do the same for commands.json.
+
+Now, select each dictionary and make sure they are listed in your stack in the same order as shown below by using the blue arrow keys or dragging them around.
 
 ![dictionary stack](img/B-dictionary-stack.png)
 
