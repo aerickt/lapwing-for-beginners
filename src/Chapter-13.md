@@ -92,7 +92,9 @@ There is no practice material for this section. It's not important to explicitly
 
 Much like how a prefix stroke attaches to the next word, a *suffix* stroke attaches to the previous word. Unlike prefix strokes, however, suffixes tend to be less intuitive and most have to be memorized. This section is split into smaller subsections with different "families" of suffix strokes to hopefully make them easier to remember.
 
-It is very important to understand when it is appropriate to use a suffix. In most cases, they can only be used to modify a root word (much like prefix strokes). Pay careful attention to the information in each subsection telling you when it is appropriate to use those suffix strokes.
+It is very important to understand when it is appropriate to use a suffix. In most cases, they can only be used to modify a root word (much like prefix strokes).
+
+> Pay careful attention to the information in each subsection telling you when it is appropriate to use those suffix strokes.
 
 ### `*` suffixes
 
@@ -130,7 +132,7 @@ The following suffixes all contain a single vowel key, an asterisk, and the `-R`
 * mentor `PHEPBT/O*R` ❌
   - "ment" is not the root of "mentor"
 
-Do not worry about how to write these words correctly—you will soon learn about the technique you should instead be using in these scenarios.
+> These are correctly written with syllabic splitting covered in chapter 15.
 
 #### Practice material
 
@@ -240,7 +242,7 @@ The `-PLT`, `-LT`, and `-BL` compound clusters should already be already be fami
 
 ### `KWR` suffixes
 
-The `KWR` chord has many uses in Lapwing theory. It is widely used in suffixes where it could be thought of as a linker chord without any associated sound; its job is simply to connect to the previous word. This subsection has many suffix strokes for you to memorize, but they should hopefully be somewhat intuitive as they resemble their phonetic sounds to some degree.
+The `KWR` chord has many uses in Lapwing theory. It is widely used in suffixes where it could be thought of as a linker chord without any associated sound; its job is simply to connect to the previous word. This subsection has many suffix strokes to memorize, but they should hopefully be somewhat intuitive as they resemble their phonetic sounds to some degree.
 
 | Stroke | Suffix | Example outline | Example translation |
 | ------ | -------| --------------- | ------------------- |
@@ -351,7 +353,7 @@ When there are conflicts between prefixes strokes and words, the former will be 
 | on | `OPB` | `O*PB` or `AUPB` | Either works. |
 | tri^ (try) | `TRAOEU` | `TRAO*EU` or `TREU` | The first is the more "formal" outline, but the second matches the pattern with "by". |
 
-You will see this table again in later chapters.
+> You will see this table again in later chapters.
 
 ## Looking up prefixes and suffixes
 

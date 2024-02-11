@@ -114,7 +114,7 @@ All these sounds are similar to one another in that they all contain "bl" and op
 
 > Feel free to come up with your own or even suggest some!
 
-1. `-BL` already looks a lot like the sounds it represents; you just have to remember that you can skip over unstressed vowels as well.
+1. `-BL` already looks a lot like the sounds it represents; remember to skip over any unstressed vowels as well.
 
 ### Section practice
 

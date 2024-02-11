@@ -59,7 +59,7 @@ Some theories will dictate pressing the `-T` with the ring finger and the `-Z` w
 
 #### Plover's steno engine and folded suffix keys
 
-This technique of including a suffix key in the last stroke is "baked" into the English steno engine in Plover. If you try to write the stroke `HAEPZ`, you will find that it outputs "happies". However, this isn't actually defined in the Lapwing dictionary:
+This technique of including a suffix key in the last stroke is "baked" into the English steno engine in Plover. To illustrate this, writing the stroke `HAEPZ`, will output "happies". However, this isn't actually defined in the Lapwing dictionary:
 
 ![](img/14-haepz.png)
 

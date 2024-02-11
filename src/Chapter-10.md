@@ -83,7 +83,7 @@ Remember to take breaks!
 > Feel free to come up with your own or even suggest some!
 
 1. `-FRB` contains the `-R` key and also looks like the letter "v" on its side
-2. The "v" and "f" sounds are quite similar and as long as you know the "-rv" chord, remember that the "-rf" chord is exactly the same but with the asterisk
+2. The "v" and "f" sounds are quite similar; the "-rf" chord is almost the same as the "-rv"  but with the asterisk
 3. `-PBG` is simply just the "n" chord and the `-G` key combined
 4. `*PBG` is just the "-ng" chord with the asterisk (the "-ng" and "-nk" sounds are quite similar)
 

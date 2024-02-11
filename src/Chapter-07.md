@@ -24,9 +24,11 @@ Remember to take breaks!
 
 ## Intro
 
-Vowels are reportedly the most difficult part of learning steno. Part of this is due to the fact that vowels are pronounced differently in different dialects of English. Unfortunately, I grew up learning General American English. This is the accent that Lapwing is based on. If you speak a different accent, you may have to subvocalize with an American accent.
+Vowels are reportedly the most difficult part of learning steno. Part of this is due to the fact that vowels are pronounced differently in different dialects of English. Unfortunately, I grew up learning General American English. This is the accent that Lapwing is based on.
 
-I'm making an effort to include *IPA* with the hopes that they will be useful for some. However, I must make the disclaimer that I have never taken a formal linguistics course nor am I an enthusiast. I apologize for any errors that may be present in this page—do reach out to me if you have corrections!
+> If you speak a different accent, you may have to subvocalize with an American accent (sorry).
+
+I'm making an effort to include IPA with the hopes that they will be useful for some. However, I must make the disclaimer that I have never taken a formal linguistics course nor am I an enthusiast. I apologize for any errors that may be present in this page—do reach out to me if you have corrections!
 
 ## `OE`, `OU`, and `OEU`
 
@@ -66,10 +68,10 @@ I'm making an effort to include *IPA* with the hopes that they will be useful fo
 
 > Feel free to come up with your own or even suggest some!
 
-1. The word "foe" uses `OE` which you can tell from its spelling
+1. The word "foe" is spelled with the letters `OE`.
     - Apply this to other words with the same vowel sound!
-2. The word "our" uses `OU` which, again, you can tell from its spelling
-3. You can think of `OEU` as `O` + `EU` or "oi" which resembles its pronunciation and spelling (as in the word "s**oi**l")
+2. The word "our" is spelled with `OU`.
+3. `OEU` can be thought of as `O` + `EU` or "oi" which resembles its pronunciation and spelling (as in the word "s**oi**l")
 
 ### Section practice
 
@@ -106,8 +108,8 @@ I'm making an effort to include *IPA* with the hopes that they will be useful fo
 
 > Feel free to come up with your own or even suggest some!
 
-1. You can think of `AEU` as `A` + `EU` or "ai" which resembles its pronunciation and spelling (as in the word "p<ins>ai</ins>d")
-2. If the notion of *long vowels* and *short vowels* (as described above) is familiar, you can think of transforming the `A` key into a *long a* by combining it with the two keys on the other side
+1. `AEU` can be thought as `A` + `EU` or "ai" which resembles its pronunciation and spelling (as in the word "p<ins>ai</ins>d")
+2. If the notion of *long vowels* and *short vowels* (as described above) is familiar, `AEU` can be thought of as transforming the `A` key into a *long a* by combining it with the two keys on the other side
     - *Long a* = `A`  + (vowel keys on other hand)
 
 ### Section practice
@@ -148,7 +150,7 @@ I'm making an effort to include *IPA* with the hopes that they will be useful fo
 
 > Feel free to come up with your own or even suggest some!
 
-1. If the notion of *long vowels* and *short vowels* (as described above) is familiar, you can think of transforming the `U` key into a *long u* by combining it with the two keys on the other side
+1. If the notion of *long vowels* and *short vowels* (as described above) is familiar, the `AOU` chord can be thought of as transforming the `U` key into a *long u* by combining it with the two keys on the other side
     - *Long u* = `U` + (vowel keys on other hand)
 2. The *long u* sound is also quite similar to the "oo" sound
 

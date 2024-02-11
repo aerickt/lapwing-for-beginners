@@ -28,7 +28,15 @@ Proper nouns in Lapwing theory are written exactly the same as regular words, ex
 
 ## Alternative proper nouns with a prefix stroke
 
-Some machines may not be compatible with remapping the top `S-` key. In this case, the number key can be used as a stroke on its own to indicate that subsequent strokes will be treated as a proper noun. This is handled through the <code class="code-mono">lapwing-prefixed-proper-nouns.json</code> dictionary. If you do not need this functionality, you can safely remove it from your stack.
+> If you have no complaints about using the number key in proper noun strokes, you can skill this section.
+
+Some machines may not be compatible with remapping the top `S-` key. In this case, it is also possible to use the number key as a prefix stroke for proper nouns. This is handled through the <code class="code-mono">lapwing-prefixed-proper-nouns.json</code> dictionary.
+
+To download it, right click the following link and press <code class="code-mono">Save link as</code>.
+
+[https://raw.githubusercontent.com/aerickt/steno-dictionaries/main/lapwing-prefixed-proper-nouns.json](https://raw.githubusercontent.com/aerickt/steno-dictionaries/main/lapwing-prefixed-proper-nouns.json)
+
+To add it to your dictionary stack, in Plover's main window, press the green plus button and <code class="code-mono">Load dictionaries</code>. Then, select the <code class="code-mono">lapwing-prefixed-proper-nouns.json</code> dictionary that you just downloaded.
 
 #### Examples
 
