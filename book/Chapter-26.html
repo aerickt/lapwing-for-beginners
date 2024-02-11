@@ -225,7 +225,7 @@
 <p>To select text, include the <code>*</code> key in a movement command. Repeating the same command works for incrementing the current selection. For example, <code>#TPH*R/#TPH*R/#TPH*R/#TPH*R</code> will select the 4 letters to the left.</p>
 <h4 id="repeat-the-last-command"><a class="header" href="#repeat-the-last-command">Repeat the last command</a></h4>
 <blockquote>
-<p><strong>NOTE:</strong> for this to work, you will have to disable the <code class="code-mono">lapwing-prefixed-proper-nouns.json&gt;</code>.</p>
+<p><strong>NOTE:</strong> for this to work, you will have to disable the <code class="code-mono">lapwing-prefixed-proper-nouns.json</code> dictionary.</p>
 </blockquote>
 <p>Instead of writing <code>#TPH*R/#TPH*R/#TPH*R/#TPH*R</code>, the number key can be pressed to repeat the last outline: <code>#TPH*R/#/#/#</code>.</p>
 <blockquote>
@@ -235,7 +235,9 @@
 <p>Replace all occurrences of &quot;Control&quot; with &quot;Alt&quot; in the movement commands if you are on macOS.</p>
 <h3 id="modal-movement"><a class="header" href="#modal-movement">Modal movement</a></h3>
 <h4 id="setup"><a class="header" href="#setup">Setup</a></h4>
-<p>Ensure that <code class="code-mono">plover-lapwing-aio</code> is installed and <code class="code-mono">Lapwing</code> is selected as the system. Alternatively, if you are setting up <a href="Appendix-B.html">Lapwing manually</a> (not recommended), ensure that <code class="code-mono">movement.modal</code> is in your dictionary stack.</p>
+<p>Ensure that <code class="code-mono">plover-lapwing-aio</code> is installed and <code class="code-mono">Lapwing</code> is selected as the system. Alternatively, if you are setting up <a href="Appendix-B.html">Lapwing manually</a> (not recommended), ensure that <code class="code-mono">lapwing-movement.modal</code> is in your dictionary stack.</p>
+<p>After verifying that <code class="code-mono">lapwing-movement.modal</code> is in the dictionary stack, go to <code class="code-mono">Configure → Plugins</code> and check the <code class="code-mono">modal_update</code> box as shown below.</p>
+<p><img src="img/B-modal_update.png" alt="modal update box" /></p>
 <h4 id="modal-dictionaries"><a class="header" href="#modal-dictionaries">Modal dictionaries</a></h4>
 <p>Moving around a document can be quite tedious especially with such a long starting chord like <code>#TPH</code>. One way to make movement easier is to use a modal dictionary. This is a temporary dictionary that can be turned on and off with a regular outline that also outputs a translation.</p>
 <p>A modal movement dictionary contains the regular movement strokes, but with the <code>#TPH</code> chord removed. Writing a normal movement stroke will turn this dictionary on, so that every subsequent movement stroke can be written using only the right hand. Writing a non-movement stroke will turn this dictionary back off.</p>

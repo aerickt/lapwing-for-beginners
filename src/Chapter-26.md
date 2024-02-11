@@ -62,7 +62,7 @@ To select text, include the `*` key in a movement command. Repeating the same co
 
 #### Repeat the last command
 
-> **NOTE:** for this to work, you will have to disable the <code class="code-mono">lapwing-prefixed-proper-nouns.json></code>.
+> **NOTE:** for this to work, you will have to disable the <code class="code-mono">lapwing-prefixed-proper-nouns.json</code> dictionary.
 
 Instead of writing `#TPH*R/#TPH*R/#TPH*R/#TPH*R`, the number key can be pressed to repeat the last outline: `#TPH*R/#/#/#`.
 
@@ -76,7 +76,11 @@ Replace all occurrences of "Control" with "Alt" in the movement commands if you 
 
 #### Setup
 
-Ensure that <code class="code-mono">plover-lapwing-aio</code> is installed and <code class="code-mono">Lapwing</code> is selected as the system. Alternatively, if you are setting up [Lapwing manually](Appendix-B.md) (not recommended), ensure that <code class="code-mono">movement.modal</code> is in your dictionary stack.
+Ensure that <code class="code-mono">plover-lapwing-aio</code> is installed and <code class="code-mono">Lapwing</code> is selected as the system. Alternatively, if you are setting up [Lapwing manually](Appendix-B.md) (not recommended), ensure that <code class="code-mono">lapwing-movement.modal</code> is in your dictionary stack.
+
+After verifying that <code class="code-mono">lapwing-movement.modal</code> is in the dictionary stack, go to <code class="code-mono">Configure → Plugins</code> and check the <code class="code-mono">modal_update</code> box as shown below.
+
+![modal update box](img/B-modal_update.png)
 
 #### Modal dictionaries
 

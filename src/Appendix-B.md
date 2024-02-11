@@ -28,10 +28,10 @@ In Plover's main window, go to <code class="code-mono">Configure → Plugins</co
 
 Download the dictionaries by right clicking the following links and pressing <code class="code-mono">Save link as</code> (or whatever the equivalent is for your browser):
 
-* [<code class="code-mono">jeff-phrasing.py</code>](https://raw.githubusercontent.com/jthlim/jeff-phrasing/main/jeff-phrasing.py)
-* [<code class="code-mono">abby-left-hand-modifiers.py</code>](https://raw.githubusercontent.com/Abkwreu/plover-left-hand-modifiers/main/abby-left-hand-modifiers.py)
-* [<code class="code-mono">emily-modifiers.py</code>](https://raw.githubusercontent.com/EPLHREU/emily-modifiers/master/emily-modifiers.py)
-* [<code class="code-mono">emily-symbols.py</code>](https://raw.githubusercontent.com/EPLHREU/emily-symbols/main/emily-symbols.py)
+* [<code class="code-mono">jeff-phrasing.py</code>](https://raw.githubusercontent.com/aerickt/steno-dictionaries/plover-lapwing-aio/jeff-phrasing.py)
+* [<code class="code-mono">abby-left-hand-modifiers.py</code>](https://raw.githubusercontent.com/aerickt/steno-dictionaries/plover-lapwing-aio/abby-left-hand-modifiers.py)
+* [<code class="code-mono">emily-modifiers.py</code>](https://raw.githubusercontent.com/aerickt/steno-dictionaries/plover-lapwing-aio/emily-modifiers.py)
+* [<code class="code-mono">emily-symbols.py</code>](https://raw.githubusercontent.com/aerickt/steno-dictionaries/plover-lapwing-aio/emily-symbols.py)
 * [<code class="code-mono">lapwing-movement.modal</code>](https://raw.githubusercontent.com/aerickt/steno-dictionaries/main/lapwing-movement.modal)
 * [<code class="code-mono">lapwing-commands.json</code>](https://raw.githubusercontent.com/aerickt/steno-dictionaries/main/lapwing-commands.json)
 * [<code class="code-mono">lapwing-numbers.json</code>](https://raw.githubusercontent.com/aerickt/steno-dictionaries/main/lapwing-numbers.json)
