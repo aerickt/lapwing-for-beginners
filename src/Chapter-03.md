@@ -26,26 +26,17 @@ This series is aimed at being a complete guide to learning steno. While you will
 
 Each chapter in this series follows the same basic format: new theory and practice material introduced in subsections followed by a chapter test. The purpose of this test is to ensure that you have learned the material well enough. It is crucial that you are comfortable and well acquainted with each chapter before moving onto the next.
 
-Everyone's threshold of being "comfortable" differs and it is up to you to decide what this means for you. However, if you are unsure, the "recommended completion goal" is a good starting point.
+Everyone's threshold of being "comfortable" differs and it is up to you to decide what this means for you. For some, maybe this just means reading through the chapter with a little practice. For others, maybe this means practising the drills for a week. It is completely up to you to decide when to proceed to the next chapter. However, if you are unsure, the "recommended completion goal" is a good starting point.
 
 **As this series is very new, I have not been given much feedback. As such, it may be possible that the recommended completion goal is entirely unrealistic for each chapter. Please take it with a grain of salt!**
 
-### Chapter test recommendations
+#### Daily practice
 
-These are only recommendations if you have no idea where to start! It may very well be the case that you start off following some of these recommendations, and find out later on that they do not work for you.
-
-Here are some tips for completing the tests:
-
-* Before you attempt each chapter test, complete as much practice material as you can
-* Space your chapter test attempt at least 2 hours after any previous practice
-   * This ensures you are not simply testing your short-term memory
-* If you don't meet your completion goal, self-reflect on whether this was due to a one-time careless mistake or not enough practice
-   * If the former is the case, you may be ready to proceed to the next chapter
-   * If the latter is the case, take a break and come back to the chapter another time!
+Try to aim for at least 15 minutes of practice a day. Ideally, one hour would be best. As mentioned, consistency is key to becoming fluent at steno. However, any more than three hours a day is approaching excessive. Steno is not simply something you can throw more time at to expect better results. By nature, it is something that has to be developed over a long period (like learning a musical instrument or a language). Remember to take breaks, and do not force yourself to practise more than you want to!
 
 ### Incorporating steno into your computer usage
 
-It's always a good idea to apply your learning to complement exercises in a textbook. However, I would only recommend incorporating steno into your computer usage after reaching chapter 18. If not, you will have to make liberal use of the lookup tool. It is very iportant to know how to use this tool correctly. If you blindly follow the entries that show up, you may find yourself confused and frustrated as to why a word is written the way it is. You may also force yourself to inadvertently memorize more briefs.
+It's always a good idea to apply your learning to complement exercises in a textbook. However, I would only recommend incorporating steno into your computer usage after reaching chapter 18. If not, you will have to make liberal use of the lookup tool. It is very important to know how to use this tool correctly. If you blindly follow the entries that show up, you may find yourself confused and frustrated as to why a word is written the way it is. You may also force yourself to inadvertently memorize more briefs.
 
 Plover has a built-in tool to easily look up outlines. It can be found in <code class="code-mono">Tools → Lookup</code>. Make sure to read the tips below if you would like to use this tool.
 
@@ -75,14 +66,12 @@ To write the "^ly", you could look this up too:
 
 The curly braces indicate that this word is special. In this case, the caret indicates that it will attach on that side. Putting these two outlines together, you would get `THOR/KWROE/HREU`. This is the canonical way you would write the word "thoroughly" even though it is not in the dictionary.
 
-## Cold turkey?
+## Switching to steno completely from day 1
 
-In this context, going "cold turkey" with steno refers to throwing out your regular keyboard and switching to steno right away no matter how slow you are.
+If you're familiar with learning alternative keyboard layouts such as Colemak and Dvorak, you may be tempted to try and use steno for everything right from day 1.
 
-**I would not recommend this at all**
+**I would not recommend this at all.**
 
-Going cold turkey might make sense if you're learning a new keyboard layout where you just have to learn the new key positions, but it doesn't work for steno. There are elements of theory that can only be learned from reading a book such as this one.
+In contrast to typing where you only need to know the location of the keys, there is much more complexity with steno. If you try to ditch regular typing too early on, you will constantly encounter concepts that won't make sense and will only fuel your frustration. Furthermore, to switch to steno full time, you need to be able to write things that are not just English words. This includes symbols, keyboard shortcuts, editing text, and more. Trying to learn all of this at once is unwise.
 
-Ultimately, if you go cold turkey, you will find yourself looking up words very frequently. As a result, you will only be learning words by memorizing their outlines. While it is possible to deduce theory from these look ups, you will likely be frustrated and confused when it comes to less intuitive theory principles.
-
-Instead, treat learning steno like a hobby on the side. Your ultimate goal may be to replace your regular keyboard with steno, but you need to at least be familiar with basic theory before doing so. Rushing will not get you anywhere in learning steno.
+Instead, I would highly encourage you to follow the structure of this book; the concepts are spread out over 26 chapters which makes the learning curve much less steep. Treat learning steno as a hobby on the side. Your ultimate goal may be to replace your regular keyboard with steno, but you need to at least be familiar with basic theory before doing so. Rushing will not get you anywhere.
