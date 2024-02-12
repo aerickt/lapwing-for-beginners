@@ -52,6 +52,12 @@ Essentially, `KOPL/PHREU/KAEUT` really just represents `KOM/PLI/KĀT` (where `Ā
 
 And that's basically all there is in principle! Stenographers memorize a whole slew of chords for the missing sounds, and string multiple strokes together to write English.
 
+Here's a demo of what it looks like to write at 224 WPM with steno:
+
+<video controls>
+<source src="img/1-demo.mp4" type="video/mp4">
+</video>
+
 ### "Raw steno" terminology
 
 Before we continue, it's important to be aware of some of the terminology surrounding key presses in steno.

@@ -76,13 +76,23 @@ A steno engine embedded on a keyboard's firmware; allows for plug-and-play steno
 
 A keyboard made primarily by hobbyists and for hobbyists for use with stenography.
 
+<img width='300px' src='https://nolltronics.com/wp-content/uploads/2022/05/DSC03181-Multi-Main-1200x1200.jpg'/>
+
+*[A Nolltronics Multisteno](https://nolltronics.com/product/multisteno/)*
+
 ## steno machine
 
 A machine (can be standalone requiring no host machine) for stenography by professional court reporters and captioners.
 
+> **NOTE:** some use "steno machine" to refer to any stenographic input device (such as hobbyist steno keyboards).
+
+<img width='300px' src='https://www.stenograph.com/product/image/large/45009_wave.jpg'/>
+
+*[A Stenograph Wave](https://www.stenograph.com/wave-information)*
+
 ## steno writer
 
-Any device that can be connected to a computer to use for stenography.
+Any stenographic input device.
 
 ## steno order
 
