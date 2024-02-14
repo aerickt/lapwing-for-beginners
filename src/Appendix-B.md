@@ -2,7 +2,7 @@
 
 This page describes how to manually configure Plover to use Lapwing theory. This is not a recommended method for two reasons: there is a lot of manual work required, and Plover will have a tendency to modify the number key entries, thereby making lookups difficult.
 
-If any change is made directly to a Lapwing dictionary, Plover will change all entries with the number key so that they contain numbers in the steno strokes (i.e. `#PWOB` → `3W0B`). To revert this, you will have to redownload the dictionary and update the dictionary in your stack. Therefore, I highly recommend simply the <code class="code-mono">plover-lapwing-aio</code> plugin instead of following the instructions on this page.
+If any change is made directly to a Lapwing dictionary, Plover will change all entries with the number key so that they contain numbers in the steno strokes (i.e. `#PWOB` → `3W0B`). To revert this, you will have to redownload the dictionary and update the dictionary in your stack. Therefore, I would suggest installing the <code class="code-mono">plover-lapwing-aio</code> plugin instead of following the instructions on this page.
 
 ## Install required plugins
 
