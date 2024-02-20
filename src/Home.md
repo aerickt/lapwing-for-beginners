@@ -7,6 +7,8 @@ To get started:
 * as a complete beginner: [Chapter 1](Chapter-01.md)
 * as a current Plover user thinking about switching to Lapwing: [Appendix A](Appendix-A.md)
 
+> **NOTE:** setting up Lapwing with the Plover app is covered in [Chapter 5](Chapter-05.md).
+
 This resource is still in development and feedback is highly appreciated. You can reach out to me by:
 
 * posting a message on the [Plover Discord server's <code class="code-mono">lapwing-theory</code> channel](https://discord.gg/rvKuMeem7k)
