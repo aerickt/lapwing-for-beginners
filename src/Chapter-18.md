@@ -28,7 +28,7 @@ Proper nouns in Lapwing theory are written exactly the same as regular words, ex
 
 ## Alternative proper nouns with a prefix stroke
 
-> If you have no complaints about using the number key in proper noun strokes, you can skill this section.
+> If you have no complaints with using the number key in proper noun strokes, you can skip this section.
 
 Some machines may not be compatible with remapping the top `S-` key. In this case, it is also possible to use the number key as a prefix stroke for proper nouns. This is handled through the <code class="code-mono">lapwing-prefixed-proper-nouns.json</code> dictionary.
 
