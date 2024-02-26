@@ -149,3 +149,44 @@ This is only a suggestion; it is not a requirement to move to the next chapter!
 **Aim for 10–20 WPM with 90% accuracy.**
 
 **You may use the test material as practice!**
+
+## Chapter briefs
+
+> This section is completely optional, but recommended. If you prefer to learn these all at once, they will be covered in chapter 16.
+
+| Translation | Brief | Explanation |
+| ---- | ---- | ---- |
+| be | `-B` | Single key brief for a common word |
+| been | `PW-PB` | Drops the vowel |
+| differ | `TKEUFR` | Drops the second vowel <br>*using `-FR` for the "f_r" sound is a common briefing technique* |
+| even | `AOEFPB` | Drops the second vowel |
+| of | `-F` | Single key brief for a common word |
+| one | `WUPB` | Not so much a brief as just an odd word |
+| only | `OEPBL` | <ins>onl</ins>y |
+| self | `SEFL` | Uses an inversion of steno order |
+| they | `THE` | <ins>the</ins>y |
+| think | `THEU` | <ins>thi</ins>nk (easier to write than `TH*EUPBG`) |
+| . | `TP-PL` | The stroke for a period/full stop is a symmetrical shape |
+
+
+> **NOTE:** remember that these are briefs; the explanations are not applicable to any arbitrary word.
+
+### Practice sentences
+1. they even think of mulch.
+1. hat and cat differ only in one thing.
+1. I have been very well.
+1. self love is a must.
+
+#### Answers
+1. `THE/AOEFPB/THEU/-F/PHULG/TP-PL`
+1. `HAT/SKP/KAT/TKEUFR/OEPBL/TPH/WUPB/THEUPBG/TP-PL`
+1. `EU/SR/PW-PB/SRE/WEL/TP-PL`
+1. `SEFL/HROF/S/AEU/PHUFT/TP-PL`
+
+### Extra briefs
+
+| Brief | Outline | Explanation |
+| ---- | ---- | ---- |
+| they are | `THER` | `THE` + `-R` |
+| they're | `TH*ER` | `THE` + `-R` + `*` |
+| one of | `WUFPB` | `WUPB` + `-F` |
