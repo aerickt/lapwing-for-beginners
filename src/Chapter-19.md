@@ -54,6 +54,9 @@ The following table lists several common punctuation marks along with the name, 
 
 Situations may arise where Plover will have to be explicitly told how to format a word. The following section goes over some useful formatting commands.
 
+### Enter
+#### Outline: `R-R`
+
 ### Insert a space
 #### Outline: `S-P`
 
