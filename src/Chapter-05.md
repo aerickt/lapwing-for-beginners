@@ -235,3 +235,46 @@ This is only a suggestion; it is not a requirement to move to the next chapter!
 **Aim for 10–20 WPM with 90% accuracy.**
 
 **You may use the test material as practice!**
+
+## Chapter briefs
+
+> This section is completely optional, but recommended. If you prefer to learn these all at once, they will be covered in chapter 16.
+
+| Word | Brief | Explanation |
+| ---- | ---- | ---- |
+| are | `R` or `-R` | Sounds like the letter "R" |
+| did | `TK` | Common word for a single key brief |
+| do | `TKO` | Matches the spelling |
+| I | `EU` | Matches the spelling |
+| is | `S` | Common word for a single key brief |
+| so | `SO` | Matches the spelling |
+| the | `-T` | Common word for a single key brief |
+| you | `U` | Sounds like the letter "U" |
+
+
+> **NOTE:** remember that these are briefs; the explanations are not applicable to any arbitrary word.
+
+### Practice sentences
+
+1. I do tip the lad
+1. you are so rad
+1. is the dip bad
+1. did you pat the cat
+
+
+#### Answers
+1. `EU/TKO/TEUP/-T/HRAD`
+1. `U/-R/SO/RAD`
+1. `S/-T/TKEUP/PWAD`
+1. `TK/U/PAT/-T/KAT`
+
+### Extra briefs
+
+| Brief | Outline | Explanation |
+| ---- | ---- | ---- |
+| did you | `TKU` | `TK` + `U` |
+| do you | `TKOU` | `TKO` + `U` |
+| is the | `S-T` | `S` + `-T` |
+| so the | `SOT` | `SO` + `-T` |
+| are the | `R-T` | `R` + `-T` |
+| are you | `RU` | `R` + `U` |

@@ -149,3 +149,50 @@ This is only a suggestion; it is not a requirement to move to the next chapter!
 **Aim for 10–20 WPM with 90% accuracy.**
 
 **You may use the test material as practice!**
+
+## Chapter briefs
+
+> This section is completely optional, but recommended. If you prefer to learn these all at once, they will be covered in chapter 16.
+
+| Word | Brief | Explanation |
+| ---- | ---- | ---- |
+| again | `TKPWEPB` | Drops the first vowel |
+| and | `SKP` | Completely arbitrary, but useful in phrases |
+| ask | `SK` | Drops the first vowel |
+| before | `PW-FR` | Drops all vowels |
+| have | `SR` | ha<ins>v</ins>e |
+| it | `T` | i<ins>t</ins> |
+| no | `TPHO` | Matches the spelling |
+| said | `SED` | Completely phonetic |
+| very | `SRE` | <ins>ve</ins>ry |
+
+
+> **NOTE:** remember that these are briefs; the explanations are not applicable to any arbitrary word.
+
+### Practice sentences
+1. I ask the mod again and again
+1. before you said you quit
+1. is it fit
+1. yes I got it
+1. no it is very well
+
+#### Answers
+1. `EU/SK/-T/PHOD/TKPWEPB/SKP/TKPWEPB`
+1. `PW-FR/U/SED/U/KWEUT`
+1. `S/T/TPEUT`
+1. `KWR*ES/EU/TKPWOT/T`
+1. `TPHO/T/S/SRE/WEL`
+
+### Extra briefs
+
+| Brief | Outline | Explanation |
+| ---- | ---- | ---- |
+| and you | `SKPU` | `SKP` + `U` |
+| and I | `SKPEU` | `SKP` + `EU` |
+| and the | `SKP-T` | `SKP` + `-T` |
+| so the | `SOT` | `SO` + `-T` |
+| are the | `R-T` | `R` + `-T` |
+| are you | `RU` | `R` + `U` |
+| have you | `SR` | `SR` + `U` |
+| is it | `ST` | `S` + `T` |
+| it is | `T-S` | `T` + `-S` (for "is") |
