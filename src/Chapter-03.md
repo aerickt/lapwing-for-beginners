@@ -30,6 +30,12 @@ Everyone's threshold of being "comfortable" differs and it is up to you to decid
 
 **As this series is very new, I have not been given much feedback. As such, it may be possible that the recommended completion goal is entirely unrealistic for each chapter. Please take it with a grain of salt!**
 
+#### Optional briefs
+
+Lapwing is full of briefs and write-outs. A brief is an *abbreviated* outline that is used for speed. It may not follow theory at all and can be completely arbitrary. On the other hand, write-outs are outlines that are logical and follow theory rules. Until you start speed building, you should focus on write-out entries.
+
+This book will emphasize learning the rules behind write-outs, but a lot of common words are written using briefs. Many of these briefs are covered gradually in each chapter. It's not important to explicitly memorize them, but I would suggest at least skimming through them at the end of your practice. After all, these briefs will be covered again in a later chapter; you are free to ignore the optional briefs at the end of each chapter if you wish to learn them all at once in chapter 16.
+
 #### Daily practice
 
 Try to aim for at least 15 minutes of practice a day. Ideally, one hour would be best. As mentioned, consistency is key to becoming fluent at steno. However, any more than three hours a day is approaching excessive. Steno is not simply something you can throw more time at to expect better results. By nature, it is something that has to be developed over a long period (like learning a musical instrument or a language). Remember to take breaks, and do not force yourself to practise more than you want to!
@@ -41,8 +47,6 @@ It's always a good idea to apply your learning to complement exercises in a text
 Plover has a built-in tool to easily look up outlines. It can be found in <code class="code-mono">Tools → Lookup</code>. Make sure to read the tips below if you would like to use this tool.
 
 #### Use the longest outline available
-
-Lapwing is full of briefs and write-outs. A brief is an *abbreviated* outline that is used for speed. It may not follow theory at all and can be completely arbitrary. On the other hand, write-outs are outlines that are logical and follow theory rules. Until you start speed building, you should focus on write-out entries.
 
 Due to the nature of briefs and write-outs, briefs tend to use fewer strokes and write-outs tend to use more. When you type in a word into the lookup tool, both types of entries will be present. I recommend using the longest outline in the lookup tool as that is overwhelmingly likely to be a write-out.
 
