@@ -144,3 +144,42 @@ There are only a handful of words in English that end in "-xt" and only two that
 * next `TPHEGT`
 
 ## No test this chapter!
+
+## Chapter briefs
+
+> This section is completely optional, but recommended. If you prefer to learn these all at once, they will be covered in chapter 16.
+
+| Translation | Brief | Explanation |
+| ---- | ---- | ---- |
+| also | `HR-S` | <ins>als</ins>o |
+| animal | `PHAPBL` | Various vowels dropped and steno order out the wazoo ("anml" → "manl")
+| any | `TPHEU` | First vowel dropped and `EU` used as the *long e* sound
+| help | `HEP` | Dropped "l" consonant |
+| other | `OER` | Dropped "th" consonant |
+| mother | `PHO*RT` | Folded `-R` key is in the middle of the word, but represents a sound on the end |
+| your | `KWRAOUR` |  |
+| many | `PHA*EPB` | |
+| ! | `TP-BG` | Rotationally symmetric shape |
+
+
+
+> **NOTE:** remember that these are briefs; the explanations are not applicable to any arbitrary word.
+
+### Practice sentences
+1. it is also an animal!
+1. I will help him.
+1. mother will not like it.
+1. many do not need your stuff.
+
+#### Answers
+1. `T/S/HR-S/APB/PHAPBL/TP-BG`
+1. `EU/HR/HEP/HEUPL/TP-PL`
+1. `PHO*RT/HR/TPHOT/HRAOEUBG/T/TP-PL`
+1. `PHA*EPB/TKO/TPHOT/TPHAOED/KWRAOUR/STUF/TP-PL`
+
+### Extra briefs
+
+| Brief | Outline | Explanation |
+| ---- | ---- | ---- |
+| anyone | `TPHEUPB` | `TPHEU` + `-PB` |
+| anything | `TPHEUG` | `TPHEU` + `-G` (`-G` is used for "-ing") |
