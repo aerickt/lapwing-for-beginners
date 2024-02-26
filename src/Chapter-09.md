@@ -153,3 +153,49 @@ This is only a suggestion; it is not a requirement to move to the next chapter!
 **Aim for 10–20 WPM with 90% accuracy.**
 
 **You may use the test material as practice!**
+
+## Chapter briefs
+
+> This section is completely optional, but recommended. If you prefer to learn these all at once, they will be covered in chapter 16.
+
+| Word | Brief | Explanation |
+| ---- | ---- | ---- |
+| about | `PW` | a<ins>b</ins>out |
+| after | `AF` | <ins>af</ins>ter |
+| that | `THA` | Drops the last consonant to be useful in phrases |
+| their | `THAEUR` |  |
+| were | `WR` | <ins>w</ins>e<ins>r</ins>e |
+| what | `WHA` | Drops the last consonant to be useful in phrases |
+| which | `WEU` | Drops the last consonant |
+| who | `WHO` | Matches the spelling |
+
+> **NOTE:** remember that these are briefs; the explanations are not applicable to any arbitrary word.
+
+### Practice sentences
+1. after that the dog will trust you
+1. were you in their room
+1. it is what it is
+1. who were you with
+1. it is with which I rest about
+1. what is in there
+
+#### Answers
+1. `AF/THA/-T/TKOG/HR/TRUFT/U`
+1. `WR/U/TPH/THAEUR/RAOPL`
+1. `T/S/WHA/T/S`
+1. `WHO/WR/U/W`
+1. `T/S/W/WEU/EU/REFT/PW`
+1. `WHA/S/TPH/THR`
+
+### Extra briefs
+
+| Brief | Outline | Explanation |
+| ---- | ---- | ---- |
+| about the | `PW-T` | `PW` + `-T` |
+| that the | `THAT` | `THA` + `-T` |
+| that you | `THAU` | `THA` + `U` |
+| what the | `WHAT` | `WHA` + `-T` |
+| what you | `WHAU` | `WHA` + `U` |
+| were the | `WR-T` | `WR` + `-T` |
+| were you | `WRU` | `WR` + `U` |
+| who the | `WHOT` | `WHO` + `T` |
