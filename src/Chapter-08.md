@@ -337,10 +337,14 @@ This is only a suggestion; it is not a requirement to move to the next chapter!
 | had the | `H-T` | `H` + `-T` |
 | this is | `TH-S` | `TH` + `-S` |
 | there is | `THR-S` | `THR` + `-S` |
+| there's | `THR*S` | `THR` + `-S` + `*` |
 | there are | `THR-R` | `THR` + `-R` |
+| there're | `THR*R` | `THR` + `-R` + `*` |
 | when is | `WH-S` | `WH` + `-S` |
+| when's | `WH*S` | `WH` + `-S` + `*` |
 | when are | `WH-R` | `WH` + `-R` |
 | why is | `KWR-S` | `KWR` + `-S` |
+| why's | `KWR*S` | `KWR` + `-S` + `*` |
 | why are | `KWR-R` | `KWR` + `R` |
 | will the | `HR-T` | `HR` + `-T` |
 | will you | `HRU` | `HR` + `U` |
