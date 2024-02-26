@@ -181,3 +181,42 @@ This is only a suggestion; it is not a requirement to move to the next chapter!
 **Aim for 10–20 WPM with 90% accuracy.**
 
 **You may use the test material as practice!**
+
+## Chapter briefs
+
+> This section is completely optional, but recommended. If you prefer to learn these all at once, they will be covered in chapter 16.
+
+| Word | Brief | Explanation |
+| ---- | ---- | ---- |
+| a | `AEU` | Sounds like the letter "A" |
+| can | `K` | Single key brief for a common word |
+| for | `TP-R` | Drops the vowel |
+| in | `TPH` | i<ins>n</ins> |
+| if | `TP` | i<ins>f</ins> |
+| new | `TPHU` | The proper *long u* `TPHAOU` vowel is reserved for the word "knew" |
+| to | `TO` | Matches the spelling |
+| two | `TWO` | Matches the spelling |
+
+> **NOTE:** remember that these are briefs; the explanations are not applicable to any arbitrary word.
+
+### Practice sentences
+1. can you see two
+1. I paid for a can
+1. I got a new car in the ice
+1. if you trade can I pay for the rice
+
+#### Answers
+1. `K/U/SAOE/TWO`
+1. `EU/PAEUD/TP-R/AEU/K`
+1. `EU/TKPWOT/AEU/TPHU/KAR/TPH/-T/AOEUS`
+1. `TP/U/TRAEUD/K/EU/PAEU/TP-R/-T/RAOEUS`
+
+### Extra briefs
+
+| Brief | Outline | Explanation |
+| ---- | ---- | ---- |
+| for the | `TP-RT` | `TP-R` + `-t` |
+| can you | `KU` | `K` + `U` |
+| in the | `TPH-T` | `TPH` + `-T` |
+| if the | `TP-T` | `TP` + `-T` |
+| to the | `TOT` | `TO` + `-T` |
