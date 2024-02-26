@@ -145,3 +145,43 @@ This is only a suggestion; it is not a requirement to move to the next chapter!
 **Aim for 10–30 WPM with 90% accuracy.**
 
 **You may use the test material as practice!**
+
+## Chapter briefs
+
+> This section is completely optional, but recommended. If you prefer to learn these all at once, they will be covered in chapter 16.
+
+| Translation | Brief | Explanation |
+| ---- | ---- | ---- |
+| every | `EFR` | <ins>ev</ins>e<ins>r</ins>y |
+| first | `TPEUFRT` | Uses an inversion of steno order (`-R` and `-F` are swapped) with the `-F` representing "s" |
+| follow | `TPOL` | <ins>fol</ins>low |
+| where | `W-R` | <ins>w</ins>he<ins>r</ins>e |
+| could | `KUD` | |
+| would | `WUD` | |
+| should | `SHUD` | |
+| through | `THRU` | `THRAOU` is the word "threw" |
+| ? | `H-F` or `KW-PL` |
+
+
+> **NOTE:** remember that these are briefs; the explanations are not applicable to any arbitrary word.
+
+### Practice sentences
+1. should you follow them?
+1. could we first pass through?
+1. would you know every place?
+1. where are they?
+
+#### Answers
+1. `SHUD/U/TPOL/THEPL/KW-PL`
+1. `KUD/WAOE/TPEUFRT/PAS/THRU/H-F`
+1. `WUD/U/TPHOE/EFR/PHRAEUS/KW-PL`
+1. `W-R/-R/THE/H-F`
+
+### Extra briefs
+
+| Brief | Outline | Explanation |
+| ---- | ---- | ---- |
+| everyone | `EFRPB` | `EFR` + `-PB` |
+| everywhere | `WEFRB` | `EFR` + `W-R` |
+| where the | `W-RT` | `W-R` + `-T` |
+| through the | `THRUT` | `THRU` + `-T` |
