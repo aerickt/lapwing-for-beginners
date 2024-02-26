@@ -157,6 +157,7 @@ There are only a handful of words in English that end in "-xt" and only two that
 | help | `HEP` | Dropped "l" consonant |
 | other | `OER` | Dropped "th" consonant |
 | mother | `PHO*RT` | Folded `-R` key is in the middle of the word, but represents a sound on the end |
+| mother | `PHOER` | Drops the "th" consonant |
 | your | `KWRAOUR` |  |
 | many | `PHA*EPB` | |
 | ! | `TP-BG` | Rotationally symmetric shape |

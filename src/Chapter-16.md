@@ -765,7 +765,7 @@ The one-stroke brief completely violates steno order. The two-stroke brief drops
 **Write-out: `POEUPBT`**
 
 ### mother
-**Brief: `PHOER`**
+**Brief: `PHOER` or `PHO*RT`**
 
 **Write-out: `PHO/THER`**
 

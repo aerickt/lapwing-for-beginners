@@ -51,7 +51,7 @@ Lapwing is somewhat strict in using `OU` only phonetically. However, for cases w
   * `TPOR` is already "for^"
 * `SOUL` soul
   * `SOEL` is already "sole"
-* `PHOURPB` morn*
+* `PHOURPB` mourn*
   * `PHORPB` is already "morn"
 
 \* Not in the Lapwing dictionary

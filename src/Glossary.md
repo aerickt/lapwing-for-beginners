@@ -152,7 +152,7 @@ An informal term referring to one of the following sounds:
 | "Short E" | /ɛ/ | p<ins>e</ins>t |
 | "Short I" | /ɪ/ | tw<ins>i</ins>n |
 | "Short O" | /ɒ/ | n<ins>o</ins>t |
-| "Short U" | /ʌ/ | m<ins>a</ins>t |
+| "Short U" | /ʌ/ | m<ins>u</ins>tt |
 | Schwa | /ə/ | <ins>a</ins>bout |
 
 

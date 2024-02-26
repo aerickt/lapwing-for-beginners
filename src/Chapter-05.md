@@ -243,7 +243,7 @@ This is only a suggestion; it is not a requirement to move to the next chapter!
 | Word | Brief | Explanation |
 | ---- | ---- | ---- |
 | are | `R` or `-R` | Sounds like the letter "R" |
-| did | `TK` | Common word for a single key brief |
+| did | `TK` | <ins>d</ins>id |
 | do | `TKO` | Matches the spelling |
 | I | `EU` | Matches the spelling |
 | is | `S` | Common word for a single key brief |

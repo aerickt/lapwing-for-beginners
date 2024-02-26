@@ -193,6 +193,6 @@ This is only a suggestion; it is not a requirement to move to the next chapter!
 | so the | `SOT` | `SO` + `-T` |
 | are the | `R-T` | `R` + `-T` |
 | are you | `RU` | `R` + `U` |
-| have you | `SR` | `SR` + `U` |
+| have you | `SRU` | `SR` + `U` |
 | is it | `ST` | `S` + `T` |
 | it is | `T-S` | `T` + `-S` (for "is") |
