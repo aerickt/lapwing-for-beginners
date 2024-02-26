@@ -298,3 +298,49 @@ This is only a suggestion; it is not a requirement to move to the next chapter!
 **Aim for 10–20 WPM with 90% accuracy.**
 
 **You may use the test material as practice!**
+
+## Chapter briefs
+
+> This section is completely optional, but recommended. If you prefer to learn these all at once, they will be covered in chapter 16.
+
+| Word | Brief | Explanation |
+| ---- | ---- | ---- |
+| had | `H` | Single key brief for a common word |
+| people | `P` | Single key brief for a common word |
+| this | `TH` | <ins>th</ins>is |
+| there | `THR` | <ins>th</ins>e<ins>r</ins>e |
+| when | `WH` | <ins>wh</ins>en |
+| why | `KWR` | `KWR` is (sometimes) used for the "Y" letter |
+| will | `HR` | wi<ins>ll</ins> |
+| with | `W` | Single key brief for a common word |
+
+> **NOTE:** remember that these are briefs; the explanations are not applicable to any arbitrary word.
+
+### Practice sentences
+1. when are the people here
+1. this is why we fight
+1. there are no moose
+1. will you sleep now
+1. I have had it with you
+
+#### Answers
+1. `WH/R/-T/P/HAOER`
+1. `TH/S/KWR/WAOE/TPAOEUT`
+1. `THR/-R/TPHO/PHAOS`
+1. `HR/U/SHRAOEP/TPHOU`
+1. `EU/SR/H/T/W/U`
+
+### Extra briefs
+
+| Brief | Outline | Explanation |
+| ---- | ---- | ---- |
+| had the | `H-T` | `H` + `-T` |
+| this is | `TH-S` | `TH` + `-S` |
+| there is | `THR-S` | `THR` + `-S` |
+| there are | `THR-R` | `THR` + `-R` |
+| when is | `WH-S` | `WH` + `-S` |
+| when are | `WH-R` | `WH` + `-R` |
+| why is | `KWR-S` | `KWR` + `-S` |
+| why are | `KWR-R` | `KWR` + `R` |
+| will the | `HR-T` | `HR` + `-T` |
+| will you | `HRU` | `HR` + `U` |
