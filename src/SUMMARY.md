@@ -28,4 +28,5 @@
 -[Chapter 26: Editing text](Chapter-26.md)
 -[Appendix A: Switching to Lapwing from Plover](Appendix-A.md)
 -[Appendix B: Setting up Lapwing manually](Appendix-B.md)
+-[Appendix C: Lapwing with Javelin](Appendix-C.md)
 -[Glossary](Glossary.md)

@@ -43,6 +43,8 @@ For now, this isn't very crucial as the majority of the words you will be writin
 
 ## Steno Jig
 
+> If you are using Javelin, make sure to read [Appendix C](Appendix-C.md#chapter-4) for instructions on setting up your keyboard with these drills.
+
 For learning the layout, Steno Jig has some helpful ["Learn the Steno Keyboard"](https://joshuagrams.github.io/steno-jig/learn-keyboard.html) drills.
 
 For each drill, you may choose to enable hints, which show where each key is located on the steno layout. Ultimately, you want to be able to do these drills without using any hints. Do not worry about the "Speed (strokes per minute)" parameter just yet.

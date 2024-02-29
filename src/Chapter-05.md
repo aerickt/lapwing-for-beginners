@@ -29,6 +29,8 @@ Remember to take breaks!
 ## Lapwing setup
 The Plover app comes loaded with a default theory called Plover theory. As this series is for learning Lapwing theory, there are a few modifications needed before proceeding. There are two options: install the <code class="code-mono">plover-lapwing-aio</code> plugin, or add the Lapwing dictionaries manually (not recommended). If in doubt, follow the instructions below for the all-in-one plugin as discussed below.
 
+> If you are using Javelin, make sure to read [Appendix C](Appendix-C.md#chapter-5) for instructions on setting up your keyboard with Lapwing.
+
 ### Using the all-in-one plugin
 
 In Plover's main window, click on <code class="code-mono">Tools → Plugins Manager</code>. Scroll down until you see <code class="code-mono">plover-lapwing-aio</code> and select it. Press <code class="code-mono">Install/Update</code> and make sure to press the <code class="code-mono">Restart</code> button afterwards.
