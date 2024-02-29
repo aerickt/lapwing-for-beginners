@@ -47,7 +47,7 @@ I created the initial Lapwing dictionary in early 2022 and have been refining it
 
 Some recommend using both <code class="code-mono">main.json</code> and <code class="code-mono">lapwing-base.json</code> in their dictionary stack. This is a great way to slowly teach yourself Lapwing without giving up all your progress on stock Plover. If you've memorized briefs in `main.json` that aren't in Lapwing, this is also a great way to address this issue should you wish to incorporate aspects of Lapwing theory.
 
-However, compound words in <code class="code-mono">main.json</code> are quite haphazard, so some users recommend using a derivative of <code class="code-mono">main.json</code> with these removed. You can download this dictionary [here](https://cdn.discordapp.com/attachments/1034561356361367683/1189880098082525245/main-without-compounds.json). Just make sure to keep <code class="code-mono">lapwing-base.json</code> at a higher priority.
+However, compound words in <code class="code-mono">main.json</code> are quite haphazard, so some users recommend using a derivative of <code class="code-mono">main.json</code> with these removed. You can download this dictionary [here](https://raw.githubusercontent.com/StenoHarri/steno-Json-dictionaries/main/Plover_main_without_compound_words.json). Just make sure to keep <code class="code-mono">lapwing-base.json</code> at a higher priority.
 
 ## Differences
 
