@@ -74,6 +74,8 @@ Replace all occurrences of "Control" with "Alt" in the movement commands if you 
 
 ### Modal movement
 
+> **NOTE:** this movement method is not compatible with Javelin. See [Appendix C](Appendix-C.md#chapter-26) for more details.
+
 #### Setup
 
 Ensure that <code class="code-mono">plover-lapwing-aio</code> is installed and <code class="code-mono">Lapwing</code> is selected as the system. Alternatively, if you are setting up [Lapwing manually](Appendix-B.md) (not recommended), ensure that <code class="code-mono">lapwing-movement.modal</code> is in your dictionary stack.
@@ -94,7 +96,7 @@ A modal movement dictionary contains the regular movement strokes, but with the 
 
 #### Semi-modal movement
 
-If you do not want to use modal dictionaries, you can also use the [semi-modal movement dictionary](https://github.com/aerickt/steno-dictionaries/blob/main/semi-modal-movement.json). This also contains movement strokes without the left hand starting chord.
+If you do not want to use modal dictionaries, you can also use the [semi-modal movement dictionary](https://github.com/aerickt/steno-dictionaries/blob/main/lapwing-semi-modal-movement.json). This also contains movement strokes without the left hand starting chord.
 
 You can download the dictionary from the link above and make sure you add it to the top of your stack. Uncheck the box so that it is disabled by default. The idea is that you can enable this dictionary only when you need to move the text cursor.
 
