@@ -330,8 +330,8 @@ Below is a table of some basic word/prefix conflicts. Prefixes will be given to 
 | for | `TPOR` | `TP-R` or `TPAURT` | Useful in phrases like "for the" `TP-RT`. |
 | in | `EUPB` | `TPH` | Useful in phrases like "in the" `TPH-T`. |
 | or | `OR` | `AOUR` or `AUR` | `O*R` is already used. |
-| out | `OUT` | `O*UT` or `AOUT` | Either works. |
-| on | `OPB` | `O*PB` or `AUPB` | Either works. |
+| out | `OUT` | `AOUT` | Alternative vowel chord. |
+| on | `OPB` | `AUPB` | Alternative vowel chord. |
 | tri- (try) | `TRAOEU` | `TRAO*EU` or `TREU` | The first is the more "formal" outline, but the second matches the pattern with "by". |
 
 ### Multistroke prefixes

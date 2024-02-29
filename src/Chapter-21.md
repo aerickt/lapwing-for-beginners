@@ -257,8 +257,8 @@ Here are once again the tables from chapter 12 and 15:
 | for | `TPOR` | `TP-R` or `TPAURT` | Useful in phrases like "for the" `TP-RT`. |
 | in | `EUPB` | `TPH` | Useful in phrases like "in the" `TPH-T`. |
 | or | `OR` | `AOUR` or `AUR` | `O*R` is already used (see below). |
-| out | `OUT` | `O*UT` or `AOUT` | Either works (see below). |
-| on | `OPB` | `O*PB` or `AUPB` | Either works (see below). |
+| out | `OUT` | `AOUT` | Alternative vowel chord. |
+| on | `OPB` | `AUPB` | Alternative vowel chord. |
 | tri^ (try) | `TRAOEU` | `TRAO*EU` or `TREU` | The first is the more "formal" outline, but the second matches the pattern with "by". |
 
 #### Three way conflict between "by", "bye", and "buy":
