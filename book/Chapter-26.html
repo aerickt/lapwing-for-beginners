@@ -179,7 +179,7 @@
 <p>Lapwing contains some limited movement commands by default. However, if you want to switch to steno full time, you will have to incorporate another method for movement. This chapter goes over the default movement commands in <code class="code-mono">lapwing-base.json</code> as well as some additional methods you can use.</p>
 <h2 id="movement"><a class="header" href="#movement">Movement</a></h2>
 <h3 id="basic-movement"><a class="header" href="#basic-movement">Basic movement</a></h3>
-<p>Here's a table of all basic movement commands:</p>
+<p>Here’s a table of all basic movement commands:</p>
 <div class="table-wrapper"><table><thead><tr><th>Outline</th><th>Description</th></tr></thead><tbody>
 <tr><td><code>#TPH-R</code></td><td>Left arrow key <br> <img src="img/26-left.png" width="300px"/></td></tr>
 <tr><td><code>#TPH-P</code></td><td>Up arrow key <br> <img src="img/26-up.png" width="300px"/></td></tr>
@@ -232,7 +232,7 @@
 <p><strong>NOTE:</strong> this requires the <code class="code-mono">plover-last-translation</code> plugin if you are not using <code class="code-mono">plover-lapwing-aio</code>.</p>
 </blockquote>
 <h4 id="macos-commands"><a class="header" href="#macos-commands">MacOS commands</a></h4>
-<p>Replace all occurrences of &quot;Control&quot; with &quot;Alt&quot; in the movement commands if you are on macOS.</p>
+<p>Replace all occurrences of “Control” with “Alt” in the movement commands if you are on macOS.</p>
 <h3 id="modal-movement"><a class="header" href="#modal-movement">Modal movement</a></h3>
 <blockquote>
 <p><strong>NOTE:</strong> this movement method is not compatible with Javelin. See <a href="Appendix-C.html#chapter-26">Appendix C</a> for more details.</p>
@@ -249,40 +249,40 @@
 <p><strong>NOTE:</strong> this plugin is incompatible with some plugins such as plover-clippy. The creator has expressed that it is a bit of a hacky plugin.</p>
 </blockquote>
 <h4 id="semi-modal-movement"><a class="header" href="#semi-modal-movement">Semi-modal movement</a></h4>
-<p>If you do not want to use modal dictionaries, you can also use the <a href="https://github.com/aerickt/steno-dictionaries/blob/main/lapwing-semi-modal-movement.json">semi-modal movement dictionary</a>. This also contains movement strokes without the left hand starting chord.</p>
+<p>If you do not want to use modal dictionaries, you can also use the <a href="https://github.com/aerickt/steno-dictionaries/blob/main/lapwing-semi-modal-movement.json" title="" target="_blank">semi-modal movement dictionary</a>. This also contains movement strokes without the left hand starting chord.</p>
 <p>You can download the dictionary from the link above and make sure you add it to the top of your stack. Uncheck the box so that it is disabled by default. The idea is that you can enable this dictionary only when you need to move the text cursor.</p>
 <p>To achieve this, you will need to add a toggling entry to one of your dictionaries:</p>
 <pre><code>{PLOVER:TOGGLE_DICT:!semi-modal-movement.json}
 </code></pre>
 <p><img src="img/26-semi-modal-movement-entry.png" alt="" /></p>
-<p>Now, whenever you want to move the text cursor without having to use a left hand starting chord, just write <code>SKWR</code> (or whatever stroke you chose) and then <code>SKWR</code> again when you're done.</p>
+<p>Now, whenever you want to move the text cursor without having to use a left hand starting chord, just write <code>SKWR</code> (or whatever stroke you chose) and then <code>SKWR</code> again when you’re done.</p>
 <h3 id="first-up-chord-send-and-chord-repeat"><a class="header" href="#first-up-chord-send-and-chord-repeat">First-up chord send and chord repeat</a></h3>
-<p>Quick video introducing these two firmware mods: <a href="https://youtu.be/UMGT-qyJeJk">https://youtu.be/UMGT-qyJeJk</a>.</p>
+<p>Quick video introducing these two firmware mods: <a href="https://youtu.be/UMGT-qyJeJk" title="" target="_blank">https://youtu.be/UMGT-qyJeJk</a>.</p>
 <h4 id="first-up-chord-send"><a class="header" href="#first-up-chord-send">First-up chord send</a></h4>
 <p>Steno keyboards send stroke information to Plover once all keys have been released. You can test this out for yourself. Hold down <code>S</code> and press other keys on the steno layout. Plover will not receive any strokes as long as <code>S</code> (or any other key) is being held down. Once every key has been released, Plover will register the stroke.</p>
-<p>Alternatively, you could have your keyboard send stroke information once the first key has been released. This is what &quot;first-up chord send&quot; refers to: stroke information is sent to Plover as soon as the first key has been released. This is very useful for repeating movement keys without using a separate dictionary or pressing the entire stroke each time.</p>
+<p>Alternatively, you could have your keyboard send stroke information once the first key has been released. This is what “first-up chord send” refers to: stroke information is sent to Plover as soon as the first key has been released. This is very useful for repeating movement keys without using a separate dictionary or pressing the entire stroke each time.</p>
 <p>By holding down the left hand starter chord, you can tap a right hand key repeatedly to move the cursor multiple times. In fact, as long as the left hand starter chord is being held, you can tap any of the right hand movement chords.</p>
 <p><img src="img/26-first-up-movement.gif" alt="" /></p>
-<p>However, there are two caveats with this technique: firstly, it involves modifying your keyboard's firmware. Secondly, it may cause your accuracy to drop if you're writing fast. Personally, wrong strokes are very often detected by Plover when I try to use first-up chord send. It may be that my writing is sloppy and I am not too careful and deliberate about my stroke actions, but I have not been able to get used to this firmware mod.</p>
+<p>However, there are two caveats with this technique: firstly, it involves modifying your keyboard’s firmware. Secondly, it may cause your accuracy to drop if you’re writing fast. Personally, wrong strokes are very often detected by Plover when I try to use first-up chord send. It may be that my writing is sloppy and I am not too careful and deliberate about my stroke actions, but I have not been able to get used to this firmware mod.</p>
 <h4 id="chord-repeat"><a class="header" href="#chord-repeat">Chord repeat</a></h4>
 <p>Chord repeat works a lot like holding down a key on a regular keyboard. However, as we often hold chords when we hesitate, it is more useful to double tap a chord and hold to signify that we want to repeat the chord.</p>
 <p><img src="img/26-chord-repeat.gif" alt="" /></p>
-<p>This technique also requires modifying your keyboard's firmware. Unlike first-up chord send, I do recommend this and find it very useful.</p>
+<p>This technique also requires modifying your keyboard’s firmware. Unlike first-up chord send, I do recommend this and find it very useful.</p>
 <h4 id="ecosteno-multisteno-splitography-uni-v3"><a class="header" href="#ecosteno-multisteno-splitography-uni-v3">Ecosteno, Multisteno, Splitography, Uni v3</a></h4>
-<p>For these keyboards, prebuilt firmware binaries for these mods are available at Josh Gram's <a href="https://github.com/JoshuaGrams/steno-firmware">steno-firmware</a> repository.</p>
+<p>For these keyboards, prebuilt firmware binaries for these mods are available at Josh Gram’s <a href="https://github.com/JoshuaGrams/steno-firmware" title="" target="_blank">steno-firmware</a> repository.</p>
 <p>Flashing these firmware files are beyond the scope of this page, and instructions differ from keyboard to keyboard and machine to machine. On Linux, flashing the Multisteno is relatively straightforward as long as <code class="code-mono">dfu-util</code> is installed. I use the following command (where <code class="code-mono">noll_multisteno.bin</code> is the binary):</p>
 <pre><code>sudo dfu-util -d 1eaf:0003 -a 2 -D &quot;noll_multisteno.bin&quot;
 </code></pre>
 <h4 id="javelin-compatible-devices"><a class="header" href="#javelin-compatible-devices">Javelin compatible devices</a></h4>
-<p><a href="https://lim.au/#/software/javelin-steno">Javelin</a> is a steno engine that is contained within a keyboard's firmware. This allows the keyboard to act a steno writer without having to install Plover on the host machine. It is very useful for using steno on multiple devices without having to worry about installing Plover or syncing dictionaries; the entirety of the translation from steno strokes to text happens on the keyboard itself.</p>
-<p>Javelin is compatible with several steno keyboards such as the Uni v4 and the Polyglot. It is much easier to create custom firmware builds and flash binaries to these keyboards via the Javelin Steno Firmware Builder. By checking the &quot;Show expert options&quot; at the very top of the page, you have the option of enabling first up chord send and/or repeat.</p>
-<p>If you don't intend to use Javelin's embedded steno capability, you can also still use Plover with keyboards that have Javelin firmware. For each keyboard, you will have to press a key combination to switch it into Gemini PR for usage with Plover.</p>
+<p><a href="https://lim.au/#/software/javelin-steno" title="" target="_blank">Javelin</a> is a steno engine that is contained within a keyboard’s firmware. This allows the keyboard to act a steno writer without having to install Plover on the host machine. It is very useful for using steno on multiple devices without having to worry about installing Plover or syncing dictionaries; the entirety of the translation from steno strokes to text happens on the keyboard itself.</p>
+<p>Javelin is compatible with several steno keyboards such as the Uni v4 and the Polyglot. It is much easier to create custom firmware builds and flash binaries to these keyboards via the Javelin Steno Firmware Builder. By checking the “Show expert options” at the very top of the page, you have the option of enabling first up chord send and/or repeat.</p>
+<p>If you don’t intend to use Javelin’s embedded steno capability, you can also still use Plover with keyboards that have Javelin firmware. For each keyboard, you will have to press a key combination to switch it into Gemini PR for usage with Plover.</p>
 <h2 id="copying-pasting-and-deleting-text"><a class="header" href="#copying-pasting-and-deleting-text">Copying, pasting, and deleting text</a></h2>
-<p>Copying and pasting of text is done by simply emulating the <code class="code-mono">Ctrl+C</code> and <code class="code-mono">Ctrl+V</code> shortcuts. Using Abby's left hand modifiers, this would be <code>KHR/KR</code> and <code>KHR/SR</code> respectively. The same goes for cutting text.</p>
+<p>Copying and pasting of text is done by simply emulating the <code class="code-mono">Ctrl+C</code> and <code class="code-mono">Ctrl+V</code> shortcuts. Using Abby’s left hand modifiers, this would be <code>KHR/KR</code> and <code>KHR/SR</code> respectively. The same goes for cutting text.</p>
 <p>The following table lists a few helpful strokes for deleting text. It is important to note that using these strokes will mess up any undo history with the <code>*</code>.</p>
 <div class="table-wrapper"><table><thead><tr><th>Outline</th><th>Translation</th><th>Description</th></tr></thead><tbody>
 <tr><td><code>PW-FP</code></td><td><code class="code-mono">{#BackSpace}{^}</code></td><td>Backspace</td></tr>
-<tr><td><code>PW*FP</code></td><td><code class="code-mono">{#Control(BackSpace)}{^}</code></td><td>Backspace the last word (change translation if you're on Mac)</td></tr>
+<tr><td><code>PW*FP</code></td><td><code class="code-mono">{#Control(BackSpace)}{^}</code></td><td>Backspace the last word (change translation if you’re on Mac)</td></tr>
 <tr><td><code>TKHR</code></td><td><code class="code-mono">{#Delete}{^}</code></td><td>Delete the next character</td></tr>
 <tr><td><code>TKHR*</code></td><td><code class="code-mono">{#Control(Delete)}{^}</code></td><td>Delete the next word</td></tr>
 </tbody></table>
