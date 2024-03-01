@@ -5000,58 +5000,23 @@
 <p>Triple click on the cell next to the key to open the dropdown. From there, you will be able to change the action to <code>#</code>.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="lapwing-with-javelin"><a class="header" href="#lapwing-with-javelin">Lapwing with Javelin</a></h1>
 <p>Javelin is an embedded steno engine that runs on several hobbyist steno keyboards. Embedded steno allows a keyboard to act as a steno machine without requiring any software installed on the host device. This is useful for using steno with locked down computers (i.e., school/work machines) or devices that do not support Plover (such as Chromebooks, iOS devices, Linux distros running Wayland, etc).</p>
-<h2 id="learning-lapwing-with-javelin"><a class="header" href="#learning-lapwing-with-javelin">Learning Lapwing with Javelin</a></h2>
-<p>The chapters in this book are aimed towards Plover users. As such, there are cases where instructions are meant for the Plover app. This section covers the changes you will need to make when it comes to learning Lapwing with Javelin.</p>
-<h3 id="chapter-4"><a class="header" href="#chapter-4">Chapter 4</a></h3>
+<p>As this book is aimed towards Plover users, instructions specific to the Plover app will be found throughout the chapters. This page contains the afferent instructions for Javelin users in each chapter.</p>
+<h2 id="chapter-3"><a class="header" href="#chapter-3">Chapter 3</a></h2>
+<p>Chapter 3 provides instructions on using the Plover lookup tool. The <a href="https://www.lim.au/#/software/steno-lookup/lapwing/" title="" target="_blank">Javelin lookup tool</a> can also be used; follow the same tips for affix strokes.</p>
+<p>There is also a <a href="https://lim.au/#/software/javelin-steno-tools/lookup" title="" target="_blank">Javelin lookup tool for the onboard dictionaries</a> in your steno keyboard. Although this requires connecting your steno keyboard, any translations you have added will show up here too.</p>
+<h2 id="chapter-4"><a class="header" href="#chapter-4">Chapter 4</a></h2>
 <p>Chapter 4 covers using Steno Jig to learn the layout. To use the Steno Jig layout drills with Javelin, go to the <a href="https://lim.au/#/software/javelin-steno-tools/active-dictionaries" title="" target="_blank">active dictionaries</a> and uncheck all the boxes:</p>
 <p><img src="img/C-javelin-active-dictionaries.png" alt="dictionaries all unchecked with Javelin" /></p>
+<blockquote>
+<p><strong>NOTE:</strong> it does not matter if the dictionaries for your device are different than those in the image above. Simply uncheck every single one.</p>
+</blockquote>
 <p>This will make the steno keyboard output the raw keys (rather than any translations), which is necessary for these exercises. Once you have completed chapter 4, make sure to enable the dictionaries again.</p>
-<h3 id="chapter-5"><a class="header" href="#chapter-5">Chapter 5</a></h3>
-<p>Chapter 5 goes over setting up Lapwing with the Plover app. To set up Lapwing with Javelin, make sure to read <a href="Appendix-C.html#setting-up-javelin">Setting up Javelin</a></p>
-<h3 id="chapter-26"><a class="header" href="#chapter-26">Chapter 26</a></h3>
+<h2 id="chapter-5"><a class="header" href="#chapter-5">Chapter 5</a></h2>
+<p>Chapter 5 goes over setting up Lapwing with the Plover app. To set up Lapwing with Javelin, first go to the <a href="https://lim.au/#/software/javelin-steno" title="" target="_blank">Javelin Firmware Builder</a>.</p>
+<p><img src="img/C-javelin-setup.png" alt="javelin firmware builder" /></p>
+<p>First select your hardware in the dropdown menu, and then press the <code class="code-mono">Default Lapwing</code> button. Scroll down to the very bottom of the page for specific instructions on flashing the firmware to your keyboard.</p>
+<h2 id="chapter-26"><a class="header" href="#chapter-26">Chapter 26</a></h2>
 <p>Chapter 26 discusses editing text, and brings up modal dictionaries. These are unfortunately not supported by Javelin. If you follow the set up instructions below, you will by default use the <code class="code-mono">lapwing-semi-modal-movement.json</code> dictionary. You can also experiment with first-up chord send or creating movement key layers.</p>
-<h2 id="setting-up-javelin"><a class="header" href="#setting-up-javelin">Setting up Javelin</a></h2>
-<h3 id="download-the-dictionaries-1"><a class="header" href="#download-the-dictionaries-1">Download the dictionaries</a></h3>
-<p>Download the following dictionaries by right clicking the links and pressing <code class="code-mono">Save link as</code> (or whatever the equivalent is for your browser):</p>
-<ul>
-<li><a href="/javelin_dictionaries/lapwing-javelin-additions.json"><code class="code-mono">lapwing-javelin-additions.json</code></a></li>
-<li><a href="/javelin_dictionaries/abby-left-hand-modifiers.json"><code class="code-mono">abby-left-hand-modifiers.json</code></a></li>
-<li><a href="/javelin_dictionaries/emily-modifiers.json"><code class="code-mono">emily-modifiers.json</code></a></li>
-<li><a href="https://raw.githubusercontent.com/aerickt/steno-dictionaries/main/lapwing-semi-modal-movement.json" title="" target="_blank"><code class="code-mono">lapwing-semi-modal-movement.json</code></a></li>
-<li><a href="https://raw.githubusercontent.com/aerickt/steno-dictionaries/main/lapwing-commands.json" title="" target="_blank"><code class="code-mono">lapwing-commands.json</code></a></li>
-<li><a href="https://raw.githubusercontent.com/aerickt/steno-dictionaries/main/lapwing-numbers.json" title="" target="_blank"><code class="code-mono">lapwing-numbers.json</code></a></li>
-<li><a href="https://raw.githubusercontent.com/aerickt/steno-dictionaries/main/lapwing-uk-additions.json" title="" target="_blank"><code class="code-mono">lapwing-uk-additions.json</code></a></li>
-<li><a href="https://raw.githubusercontent.com/aerickt/steno-dictionaries/main/lapwing-proper-nouns.json" title="" target="_blank"><code class="code-mono">lapwing-proper-nouns.json</code></a></li>
-<li><a href="https://raw.githubusercontent.com/aerickt/steno-dictionaries/main/lapwing-base.json" title="" target="_blank"><code class="code-mono">lapwing-base.json</code></a></li>
-</ul>
-<h3 id="configure-and-build-firmware"><a class="header" href="#configure-and-build-firmware">Configure and build firmware</a></h3>
-<p>Go to the <a href="https://lim.au/#/software/javelin-steno" title="" target="_blank">Javelin Firmware Builder</a>.</p>
-<p>Select your hardware (1), enable expert options (2), and change the unicode mode (3) to whichever is applicable to your use case.</p>
-<p><img src="img/C-javelin-setup-1.png" alt="Javelin" /></p>
-<p>Scroll down to options, and select <code class="code-mono">Enable Repeat</code>(4).</p>
-<p><img src="img/C-javelin-setup-2.png" alt="Javelin" /></p>
-<p>In dictionaries, uncheck <code class="code-mono">Jeff’s modifiers dictionary</code> (6), and enable <code class="code-mono">Jeff’s phrasing dictionary</code> (7) as well as <code class="code-mono">Emily’s symbols dictionary</code> (8).</p>
-<p><img src="img/C-javelin-setup-3.png" alt="Javelin" /></p>
-<p>In the dictionary list, add all the json dictionaries you downloaded earlier. Arrange them like shown below by dragging on the dictionary names.</p>
-<p><img src="img/C-javelin-setup-4.png" alt="Javelin" /></p>
-<p>In the key map settings, check <code class="code-mono">Use S1 as a #key</code> (8).</p>
-<p><img src="img/C-javelin-setup-5.png" alt="Javelin" /></p>
-<p>Finally, click on <code class="code-mono">Create Standalone</code> and follow the <code class="code-mono">Update Firmware</code> instructions in the section below. Note the instructions differ depending on the hardware you are using.</p>
-<p><img src="img/C-javelin-setup-6.png" alt="Javelin" /></p>
-<h3 id="settings-summary"><a class="header" href="#settings-summary">Settings summary</a></h3>
-<div class="table-wrapper"><table><thead><tr><th>Number</th><th>Setting</th></tr></thead><tbody>
-<tr><td>1</td><td>Select the keyboard you want to use with Javelin</td></tr>
-<tr><td>2</td><td>Enable <code class="code-mono">Show expert options</code></td></tr>
-<tr><td>3</td><td>Change the default unicode mode (depends on the OS you use most often)</td></tr>
-<tr><td>4</td><td>Check <code class="code-mono">Enable repeat</code></td></tr>
-<tr><td>5</td><td>Uncheck <code class="code-mono">Jeff’s modifiers dictionary</code></td></tr>
-<tr><td>6</td><td>Check <code class="code-mono">Jeff’s modifiers dictionary</code></td></tr>
-<tr><td>7</td><td>Check <code class="code-mono">Emily’s symbols dictionary</code></td></tr>
-<tr><td>8</td><td>Check <code class="code-mono">Use S1 as a #key</code></td></tr>
-</tbody></table>
-</div>
-<h3 id="tweaking-settings-after-the-fact"><a class="header" href="#tweaking-settings-after-the-fact">Tweaking settings after the fact</a></h3>
-<p>Javelin has several useful <a href="https://lim.au/#/software/javelin-steno-tools" title="" target="_blank">steno tools</a> you can use to change various settings even after flashing the firmware. There is also a lookup tool and add translation tool just like with Plover.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="glossary"><a class="header" href="#glossary">Glossary</a></h1>
 <h2 id="brief"><a class="header" href="#brief">brief</a></h2>
 <p>An abbreviated outline used for greater speed that does not follow basic theory.</p>
