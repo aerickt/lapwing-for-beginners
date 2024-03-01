@@ -158,7 +158,7 @@ This is only a suggestion; it is not a requirement to move to the next chapter!
 | ---- | ---- | ---- |
 | be | `-B` | Single key brief for a common word |
 | been | `PW-PB` | Drops the vowel |
-| differ | `TKEUFR` | Drops the second vowel <br>*using `-FR` for the "f_r" sound is a common briefing technique* |
+| differ | `TKEUFR` | Drops the second vowel (*using `-FR` for the "f_r" sound is a common briefing technique*) |
 | even | `AOEFPB` | Drops the second vowel |
 | of | `-F` | Single key brief for a common word |
 | one | `WUPB` | Not so much a brief as just an odd word |
