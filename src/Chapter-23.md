@@ -26,7 +26,7 @@ Lapwing doesn't contain many phrase briefs (compared to other theories), but thi
 
 Jeff's phrasing system enables writing many common phrases, especially those that involve pronouns and verbs. For example, have a look at the following monkeytype quote:
 
-> **They used to** tell me **I was** building a dream, and so I followed the mob. When there was earth to plow or guns to bear, **I was** always there, right on the job. **They used to** tell me **I was** building a dream with peace and glory ahead. Why should I be standing in line just waiting for bread? Once I built a railroad, **I made** it run. Made it race against time. Once I built a railroad, now it's done. Brother, **can you** spare a dime?
+> **They used to** tell me **I was** building a dream, and so I followed the mob. **When there** was earth to plow or guns to bear, **I was** always there, right on the job. **They used to** tell me **I was** building a dream with peace and glory ahead. Why **should I be** standing in line just waiting for bread? Once I built a railroad, **I made** it run. Made it race against time. Once I built a railroad, now it's done. Brother, **can you** spare a dime?
 
 Every bolded phrase can be written in one stroke using Jeff's phrasing. There are likely some that I have also missed, as I personally do not go beyond the basics of Jeff's phrasing.
 
