@@ -30,10 +30,6 @@ Remember to take breaks!
 
 ![f, q, and m on the steno layout](img/6-fqm.png)
 
-### Wouldn't `PH` as "f" make more sense? 
-
-Why not use `PH` for "f"?. After all, this would be easier to remember since "ph" has the same sound as "f". However, it would be impossible to chord "fl" sounds as the `PH` and `HR` chords overlap. `PHR` already represents the initial "pl" consonants. We would run into ambiguity if we also defined `PHR` to be the "fl" consonants (e.g., "plat" and flat").
-
 ### Examples
 
 * far `TPAR`
@@ -42,6 +38,10 @@ Why not use `PH` for "f"?. After all, this would be easier to remember since "ph
 * quip `KWEUP`
 * met `PHET`
 * more `PHOR`
+
+### Wouldn't `PH` as "f" make more sense? 
+
+Why not use `PH` for "f"? After all, this would be easier to remember since "ph" has the same sound as "f". However, it would be impossible to chord "fl" sounds as the `PH` and `HR` chords overlap. `PHR` already represents the initial "pl" consonants. We would run into ambiguity if we also defined `PHR` to be the "fl" consonants (e.g., "plat" and "flat").
 
 ### Mnemonics
 
@@ -63,7 +63,7 @@ Why not use `PH` for "f"?. After all, this would be easier to remember since "ph
 
 * `TKPW` is "g" as in "<ins>g</ins>et"
 
-> **NOTE:** `TKPW` is only used for the "hard g" sound. For example, the word "gel" would not use `TKPW` as the initial consonant is not a "soft g" (a "j" sound).
+> **NOTE:** `TKPW` is only used for the "hard g" sound. For example, the word "gel" would not use `TKPW` as the initial consonant is a "soft g" (a "j" sound).
 
 * `TPH` is "n" as in "<ins>n</ins>ot"
 * `KWR*` is "y" as in "<ins>y</ins>et"
