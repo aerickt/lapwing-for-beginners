@@ -84,7 +84,7 @@ Here are some examples of some basic words that can be written just by knowing t
 * purr `PUR`
 * rough `RUF`
 
-Those last two words may have been a little bit tricky as their spellings contain multiple vowel letters. Here are some rules for dealing with *short vowels*:
+This last word may have been a little bit tricky because of the multiple vowel letters it is spelled with. Here are two rules for dealing with *short vowels*:
 
 1. **If a word is spelled using a single vowel, use the vowel key that spells the word.**
 
@@ -94,14 +94,14 @@ Those last two words may have been a little bit tricky as their spellings contai
 
 The words "purr" and "rub" have phonetically different vowels and yet still use the same vowel keys.
 
-This is not limited to the `U` vowel; for example, we see this in:
+This is not limited to the `U` vowel; for example:
 
 * `AR` as in "c<ins>ar</ins>"
 * `OR` as in "t<ins>or</ins>e"
 * `ER` as in "p<ins>er</ins>"
 * `UR` as in "p<ins>urr</ins>"
 
-Remember that with short vowels, spellings are used instead of pronunciation (rule 1 above).
+With these vowel sounds, spelling is used instead of pronunciation (rule 1 above).
 
 ### Section practice material
 
