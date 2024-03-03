@@ -5,7 +5,6 @@ still	STEUL
 skiff	SKEUF
 skip	SKEUP
 skill	SKEUL
-skiing	SKEUG
 skit	SKEUT
 skid	SKEUD
 spiff	SPEUF
