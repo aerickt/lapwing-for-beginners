@@ -146,7 +146,6 @@ flinch	TPHREUFRPB
 finch	TPEUFRPB
 tranche	TRAUFRPB
 trench	TREFRPB
-tavern	TAFRPB
 quench	KWEFRPB
 clinch	KHREUFRPB
 clench	KHREFRPB
