@@ -89,9 +89,10 @@ Why not use `PH` for "f"? After all, this would be easier to remember since "ph"
 
 > Feel free to come up with your own or even suggest some!
 
+1. Grapes nourish you
 1. `TKPW` is a group of 4 keys pressed by the ring and middle fingers
-2. `TPH` is a row of 3 keys pressed by the ring, middle, and index fingers
-3. `KWR*` is a row of 4 keys composed of the left hand ring, middle, and index fingers and the right hand index finger (optional)
+1. `TPH` is a row of 3 keys pressed by the ring, middle, and index fingers
+1. `KWR*` is a row of 4 keys composed of the left hand ring, middle, and index fingers and the right hand index finger (optional)
    
 ### Section practice
 
