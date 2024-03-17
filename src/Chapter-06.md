@@ -68,6 +68,7 @@ Why not use `PH` for "f"? After all, this would be easier to remember since "ph"
 * `TPH` is "n" as in "<ins>n</ins>ot"
 * `KWR*` is "y" as in "<ins>y</ins>et"
   * `KWR` is pressed using the left hand ring, middle, and index fingers
+  * `*` can be pressed with either the left or right index finger (whichever is more comfortable)
 
 > If you use Plover's lookup tool, you will notice that a lot of words beginning with "y" can be written using `KWR` (without the asterisk). It's recommended that you **don't** use these outlines.
 
