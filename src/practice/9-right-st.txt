@@ -11,7 +11,6 @@ vest	SREFT
 soft	SOFT
 sift	SEUFT
 graft	TKPWRAFT
-grist	TKPWREUFT
 ghost	TKPWOEFT
 gift	TKPWEUFT
 guest	TKPWEFT
