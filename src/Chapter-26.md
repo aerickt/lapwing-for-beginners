@@ -19,7 +19,7 @@ Here's a table of all basic movement commands:
 | `#TPH-FPL` | Top (Ctrl+Home) <br> <img src="img/26-top.png" width="300px"/> |
 | `#TPH-RBG` | Bottom (Ctrl+End) <br> <img src="img/26-bottom.png" width="300px"/> |
 | `#TPH-RPG` | Page up <br> <img src="img/26-page-up.png" width="300px"/> |
-| `#TPH-FBL` | Page down <br> <img src="img/26-down.png" width="300px"/> |
+| `#TPH-FBL` | Page down <br> <img src="img/26-page-down.png" width="300px"/> |
 
 The `-RPBG` cluster can be thought of as arrow keys:
 
