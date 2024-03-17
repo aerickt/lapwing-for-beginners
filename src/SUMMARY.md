@@ -23,7 +23,7 @@
 -[Chapter 21: Theory principles wrap-up](Chapter-21.md)
 -[Chapter 22: End of basic theory](Chapter-22.md)
 -[Chapter 23: Phrase briefs](Chapter-23.md)
--[Chapter 24: Lapwing briefing techniques](Chapter-24.md)
+-[Chapter 24: Shortening techniques](Chapter-24.md)
 -[Chapter 25: Symbols and modifiers](Chapter-25.md)
 -[Chapter 26: Editing text](Chapter-26.md)
 -[Appendix A: Switching to Lapwing from Plover](Appendix-A.md)
