@@ -57,7 +57,7 @@ With `-F` as both "f" and "v", conflicts such as "safe" and "save" can arise; bo
 
 ## Right hand st
 
-In chapter 5, and it was stated that "-st" in words like "past" cannot be written in a way that obeys steno order. In Lapwing theory, `-FT` can be used to represent this sound.
+In chapter 5, it was stated that "-st" in words like "past" cannot be written in a way that obeys steno order. In Lapwing theory, `-FT` can be used to represent this sound.
 
 * cast `KAFT`
 * fast `TPAFT`
@@ -70,6 +70,8 @@ For conflicts, `*S` is used as a secondary chord. Words with "-ft" are given hig
 * list `HR*EUS` (`HREUFT` is already "lift")
 
 ![st](img/9-st.png)
+
+> **Note:** the `-F` key can be used for "s" in general when steno order cannot be followed.
   
 #### Section practice
 
