@@ -33,13 +33,13 @@ What's important to note is that doing so **does not delete the last word** nece
 
 What you've just done is write a multistroke outline for the word "python"; to delete this, you will need to press the asterisk key twice. Try it out!
 
-If you're having trouble pressing the strokes, you can also just watch this GIF:
+You can also watch this GIF:
 
 ![](img/4-python.gif)
 
 Notice how pressing the asterisk once doesn't delete the word—it only deletes the last stroke and therefore leaves the `PAOEU` (pie) stroke alone.
 
-For now, this isn't very crucial as the majority of the words you will be writing contain only single syllables. However, do keep in mind that the asterisk does not behave like a backspace key in the traditional sense.
+For now, this isn't very crucial at the moment as the majority of words covered in these early chapters are written with one stroke. However, do keep in mind that the asterisk does not behave like a backspace key in the traditional sense.
 
 ## Steno Jig
 
@@ -61,13 +61,13 @@ In order to do the drills, you must disable all your dictionaries by unchecking 
 
 ![](img/4-main-window.png)
 
-Click on the checkmarks next to each dictionary to disable them. After you've done this, Plover will output raw steno when you write a key. Simply press the key that is prompted during the drills. If you make a mistake, press the asterisk key to backspace.
+Click on the check marks next to each dictionary to disable them. After you've done this, Plover will output raw steno when you write a key. Simply press the key that is prompted during the drills. If you make a mistake, press the asterisk key to backspace.
 
 ### Why does Plover output a hyphen?
 
-With your dictionaries unchecked, try pressing the right side "T" key (or really any nonvowel on the right side). You'll notice that Plover outputs `-T` with a hyphen. The hyphen indicates that this "T" is on the right side of the keyboard. If you are prompted to press `S`, you must press the "S" key on the left side. If you see `-S`, this indicates that the S is on the right side and so you must press the right side "S" key.
+With your dictionaries unchecked, try pressing the right side "T" key (or really any consonant key on the right side). You'll notice that Plover outputs `-T` with a hyphen. The hyphen indicates that this "T" is on the right side of the keyboard. If you are prompted to press `S`, you must press the "S" key on the left side. If you see `-S`, this indicates that the S is on the right side and so you must press the right side "S" key.
 
-This hyphen is included in all strokes that contain only right hand keys. If you were to press the right hand "R", "P", and "L" keys, Plover would output `-RPL`. If a stroke contains a vowel or the asterisk, however, the hyphen is omitted.
+This hyphen is included in all strokes that contain only right hand consonant keys. If you were to press the right hand "R", "P", and "L" keys, Plover would output `-RPL`. If a stroke contains a vowel or the asterisk, however, the hyphen is omitted. This syntax of raw steno makes it easy to differentiate repeat letter keys on both sides of the keyboard.
 
 ### How should I start?
 
