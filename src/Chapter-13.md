@@ -183,7 +183,7 @@ In these words, the suffix is used to "modify" a root word.
 
 * basement `PWAEUS/-PLT`
 * movement `PHAOUF/-PLT`
-* usability `AOUS/-BLT`
+* possibility `POS/-BLT`
 * sensibility `SEPBS/-BLT`
 * readable `RAED/-BL`
 * viewable `SRAOU/-BL`
