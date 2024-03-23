@@ -1,5 +1,7 @@
 # Chapter 16: Top 200 common English words
 
+> **You can skip this if you've already been learning the briefs in each chapter!**
+
 ## Recommended pace
 
 **Recommended time to spend on this chapter: 2 days.**
