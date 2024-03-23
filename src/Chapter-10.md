@@ -166,8 +166,6 @@ This is only a suggestion; it is not a requirement to move to the next chapter!
 | self | `SEFL` | Uses an inversion of steno order |
 | they | `THE` | <ins>the</ins>y |
 | think | `THEU` | <ins>thi</ins>nk (easier to write than `TH*EUPBG`) |
-| . | `TP-PL` | The stroke for a period/full stop is a symmetrical shape |
-
 
 > **NOTE:** remember that these are briefs; the explanations are not applicable to any arbitrary word.
 

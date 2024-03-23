@@ -160,8 +160,6 @@ This is only a suggestion; it is not a requirement to move to the next chapter!
 | would | `WUD` | |
 | should | `SHUD` | |
 | through | `THRU` | `THRAOU` is the word "threw" |
-| ? | `H-F` or `KW-PL` |
-
 
 > **NOTE:** remember that these are briefs; the explanations are not applicable to any arbitrary word.
 
@@ -173,9 +171,9 @@ This is only a suggestion; it is not a requirement to move to the next chapter!
 
 #### Answers
 1. `SHUD/U/TPOL/THEPL/KW-PL`
-1. `KUD/WAOE/TPEUFRT/PAS/THRU/H-F`
+1. `KUD/WAOE/TPEUFRT/PAS/THRU/KW-PL`
 1. `WUD/U/TPHOE/EFR/PHRAEUS/KW-PL`
-1. `W-R/-R/THE/H-F`
+1. `W-R/-R/THE/KW-PL`
 
 ### Extra briefs
 

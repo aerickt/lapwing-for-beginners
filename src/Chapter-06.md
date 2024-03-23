@@ -172,11 +172,11 @@ This is only a suggestion; it is not a requirement to move to the next chapter!
 > **NOTE:** remember that these are briefs; the explanations are not applicable to any arbitrary word.
 
 ### Practice sentences
-1. I ask the mod again and again
-1. before you said you quit
-1. is it fit
-1. yes I got it
-1. no it is very well
+1. I ask the mod again and again.
+1. before you said you quit.
+1. is it fit?
+1. yes I got it.
+1. no it is very well.
 
 #### Answers
 1. `EU/SK/-T/PHOD/TKPWEPB/SKP/TKPWEPB`

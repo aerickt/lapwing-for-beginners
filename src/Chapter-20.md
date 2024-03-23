@@ -57,6 +57,9 @@ Situations may arise where Plover will have to be explicitly told how to format 
 ### Enter
 #### Outline: `R-R`
 
+### Enter (capitalize next word)
+#### Outline: `R*R`
+
 ### Insert a space
 #### Outline: `S-P`
 

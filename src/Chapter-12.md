@@ -160,9 +160,6 @@ There are only a handful of words in English that end in "-xt" and only two that
 | mother | `PHOER` | Drops the "th" consonant |
 | your | `KWRAOUR` |  |
 | many | `PHA*EPB` | |
-| ! | `TP-BG` | Rotationally symmetric shape |
-
-
 
 > **NOTE:** remember that these are briefs; the explanations are not applicable to any arbitrary word.
 

@@ -313,22 +313,24 @@ This is only a suggestion; it is not a requirement to move to the next chapter!
 | why | `KWR` | `KWR` is (sometimes) used for the "Y" letter |
 | will | `HR` | wi<ins>ll</ins> |
 | with | `W` | Single key brief for a common word |
+| <code class="code-mono">Enter</code> or <code class="code-mono">Return</code> | `R-R` | <ins>r</ins>etu<ins>r</ins>n (equivalent to pressing <code class="code-mono">Enter</code> or <code class="code-mono">Return</code> on a keyboard). |
+| <code class="code-mono">Capitalize the next word and suppress a space</code> | `KPA*` | This useful for starting new sentences in text fields where you don't want a leading space. |
 
 > **NOTE:** remember that these are briefs; the explanations are not applicable to any arbitrary word.
 
 ### Practice sentences
-1. when are the people here
-1. this is why we fight
-1. there are no moose
-1. will you sleep now
-1. I have had it with you
+1. When are the people here?
+1. This is why we fight.
+1. There are no moose!
+1. Will you sleep now?
+1. I have had it with you!
 
 #### Answers
-1. `WH/R/-T/P/HAOER`
-1. `TH/S/KWR/WAOE/TPAOEUT`
-1. `THR/-R/TPHO/PHAOS`
-1. `HR/U/SHRAOEP/TPHOU`
-1. `EU/SR/H/T/W/U`
+1. `KPA*/WH/R/-T/P/HAOER/KW-PL`
+1. `KPA*/TH/S/KWR/WAOE/TPAOEUT/TP-PL`
+1. `KPA*/THR/-R/TPHO/PHAOS/TP-BG`
+1. `KPA*/HR/U/SHRAOEP/TPHOU/KW-PL`
+1. `KPA*/EU/SR/H/T/W/U/TP-BG`
 
 ### Extra briefs
 

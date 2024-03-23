@@ -170,24 +170,25 @@ This is only a suggestion; it is not a requirement to move to the next chapter!
 | what | `WHA` | Drops the last consonant to be useful in phrases |
 | which | `WEU` | Drops the last consonant |
 | who | `WHO` | Matches the spelling |
+| <code class="code-mono">Enter (and capitalize next word)</code> | `R*R` | |
 
 > **NOTE:** remember that these are briefs; the explanations are not applicable to any arbitrary word.
 
 ### Practice sentences
-1. after that the dog will trust you
-1. were you in their room
-1. it is what it is
-1. who were you with
-1. it is with which I rest about
-1. what is in there
+1. after that, the dog will trust you.
+1. were you in their room?
+1. it is what it is.
+1. who were you with?
+1. it is with which I rest about.
+1. what is in there?
 
 #### Answers
-1. `AF/THA/-T/TKOG/HR/TRUFT/U`
-1. `WR/U/TPH/THAEUR/RAOPL`
-1. `T/S/WHA/T/S`
-1. `WHO/WR/U/W`
-1. `T/S/W/WEU/EU/REFT/PW`
-1. `WHA/S/TPH/THR`
+1. `AF/THA/KW-BG/-T/TKOG/HR/TRUFT/U/TP-PL`
+1. `WR/U/TPH/THAEUR/RAOPL/KW-PL`
+1. `T/S/WHA/T/S/TP-PL`
+1. `WHO/WR/U/W/KW-PL`
+1. `T/S/W/WEU/EU/REFT/PW/TP-PL`
+1. `WHA/S/TPH/THR/KW-PL`
 
 ### Extra briefs
 

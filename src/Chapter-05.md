@@ -252,23 +252,25 @@ This is only a suggestion; it is not a requirement to move to the next chapter!
 | so | `SO` | Matches the spelling |
 | the | `-T` | Common word for a single key brief |
 | you | `U` | Sounds like the letter "U" |
+| . | `TP-PL` | Symmetrical shape for the period/full stop. |
+| ? | `KW-PL` | Shape resembles a rising intonation. |
 
 
 > **NOTE:** remember that these are briefs; the explanations are not applicable to any arbitrary word.
 
 ### Practice sentences
 
-1. I do tip the lad
-1. you are so rad
-1. is the dip bad
-1. did you pat the cat
+1. I do tip the lad.
+1. you are so rad.
+1. is the dip bad?
+1. did you pat the cat?
 
 
 #### Answers
-1. `EU/TKO/TEUP/-T/HRAD`
-1. `U/-R/SO/RAD`
-1. `S/-T/TKEUP/PWAD`
-1. `TK/U/PAT/-T/KAT`
+1. `EU/TKO/TEUP/-T/HRAD/TP-PL`
+1. `U/-R/SO/RAD/TP-PL`
+1. `S/-T/TKEUP/PWAD/KW-PL`
+1. `TK/U/PAT/-T/KAT/KW-PL`
 
 ### Extra briefs
 
