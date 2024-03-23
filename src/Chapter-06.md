@@ -179,11 +179,11 @@ This is only a suggestion; it is not a requirement to move to the next chapter!
 1. no it is very well.
 
 #### Answers
-1. `EU/SK/-T/PHOD/TKPWEPB/SKP/TKPWEPB`
-1. `PW-FR/U/SED/U/KWEUT`
-1. `S/T/TPEUT`
-1. `KWR*ES/EU/TKPWOT/T`
-1. `TPHO/T/S/SRE/WEL`
+1. `EU/SK/-T/PHOD/TKPWEPB/SKP/TKPWEPB/TP-PL`
+1. `PW-FR/U/SED/U/KWEUT/TP-PL`
+1. `S/T/TPEUT/KW-PL`
+1. `KWR*ES/EU/TKPWOT/T/TP-PL`
+1. `TPHO/T/S/SRE/WEL/TP-PL`
 
 ### Extra briefs
 
