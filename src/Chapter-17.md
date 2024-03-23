@@ -1,76 +1,377 @@
-# Chapter 17: Fingerspelling and numbers
+
+# Chapter 17: Shortening techniques
 
 ## Recommended pace
 
-**Recommended time to spend on this chapter: 1 day.**
+**Recommended time to spend on this chapter: 1–2 days.**
 
-1. Read [fingerspelling](#fingerspelling) (**10 minutes**)
-2. Read [numbers](#numbers) (**10 minutes**)
+1. Read [folding](#folding) and complete the drills (**20 minutes**)
+   - Repeat the drills as needed
+1. Read [dropping unstressed vowels](#dropping-unstressed-vowels) and complete the drill (**20 minutes**)
+   - Repeat the drill as needed
+1. Read [inversions](#inversions) and complete the drill (**10 minutes**)
+   - Repeat the drill as needed
+1. Read [left hand compound clusters](#left-hand-compound-clusters) and complete the drill (**15 minutes**)
+   - Repeat the drill as needed
+1. Read [dropping other sounds](#dropping-other-sounds) (**10 minutes**)
 
 Remember to take breaks!
 
+## Introduction
+
+All the techniques covered up until this point will allow writing almost any word. However, words are usually split into outlines such that one stroke corresponds to one syllable. This is not terribly efficient. To put this into perspective, professional stenographers have to write 225 WPM (or 5.25 syllables per second) to graduate. Even for professionals, 5 strokes per second is almost too fast.
+
+Instead of relying entirely on finger speed, steno outlines can be shortened. This is done through various techniques that either compress more sounds into each stroke, or drop unnecessary sounds altogether. Shortening techniques are not applicable to any arbitrary word (nor are they entirely conflict free), but they can still be extremely helpful for whole families of words. The techniques listed on this page are low in conflicts and it may also be the case that some words cannot be written without one or more of these techniques. It is very recommended to learn these.
+
 ## Useful links
 
-* [Fingerspelling graphic (lowercase)](img/17-fingerspelling-lower.png)
-* [Fingerspelling graphic (uppercase)](img/17-fingerspelling-upper.png)
-* [Numbers graphic](img/17-numbers.png)
 
-## Intro
+* [R-folding drill](practice/17-r-folding.txt)
+* [L-folding drill](practice/17-l-folding.txt)
+* [T-folding drill](practice/17-t-folding.txt)
+* [E-folding drill](practice/17-e-folding.txt)
+* [Folding drill (combined)](practice/17-folding.txt)
+* [Left hand clusters drill](practice/17-left-clusters.txt)
+* [Dropping unstressed vowels with folding drill](practice/17-unstressed-folding.txt)
+* \[Inversions](17-inversions.txt)
+* [Left hand clusters drill](practice/17-left-clusters.txt)
 
-There won't be any practice material for this chapter as these topics are easy to practise in everyday writing. It may be helpful to keep the tables on this page in an easy to read place (i.e., printed out and taped to the wall).
+> **NOTE:** it is recommended to complete these in order as some of the later drills incorporate techniques from the previous exercises.
 
-## Fingerspelling
-To write a short acronym or a word that is not yet defined, a letter-by-letter spelling technique called *fingerspelling* can be used. This is done by pressing a letter chord plus the asterisk key with the right hand.
+## Folding
 
-### Lowercase
+Folding is a technique where a key (or chord) is inserted into a stroke to represent a sound that is typically found at the end of a word.
 
-| | | | | |
-| ---- | ---- | ---- | ---- | ---- |
-| a <br> ![](img/17-a.png) | b <br> ![](img/17-b.png) | c <br> ![](img/17-c.png) | d <br> ![](img/17-d.png) | e <br> ![](img/17-e.png) |
-| f <br> ![](img/17-f.png) | g <br> ![](img/17-g.png) | h <br> ![](img/17-h.png) | i <br> ![](img/17-i.png) | j <br> ![](img/17-j.png) |
-| k <br> ![](img/17-k.png) | l <br> ![](img/17-l.png) | m <br> ![](img/17-m.png) | n <br> ![](img/17-n.png) | o <br> ![](img/17-o.png) |
-| p <br> ![](img/17-p.png) | q <br> ![](img/17-q.png) | r <br> ![](img/17-r.png) | s <br> ![](img/17-s.png) | t <br> ![](img/17-t.png) |
-| u <br> ![](img/17-u.png) | v <br> ![](img/17-v.png) | w <br> ![](img/17-w.png) | x <br> ![](img/17-x.png) | y <br> ![](img/17-y.png) |
-|  |  | z <br> ![](img/17-z.png) |  |  |
+### R-folding
 
-### Uppercase
-To write uppercase letters, use `-P` on the right hand.
+Folding `-R` into a stroke can add an ending "r" sound like in the following examples:
 
-| | | | | |
-| ---- | ---- | ---- | ---- | ---- |
-| A <br> ![](img/17-A.png) | B <br> ![](img/17-B.png) | C <br> ![](img/17-C.png) | D <br> ![](img/17-D.png) | E <br> ![](img/17-E.png) |
-| F <br> ![](img/17-F.png) | G <br> ![](img/17-G.png) | H <br> ![](img/17-H.png) | I <br> ![](img/17-I.png) | J <br> ![](img/17-J.png) |
-| K <br> ![](img/17-K.png) | L <br> ![](img/17-L.png) | M <br> ![](img/17-M.png) | N <br> ![](img/17-N.png) | O <br> ![](img/17-O.png) |
-| P <br> ![](img/17-P.png) | Q <br> ![](img/17-Q.png) | R <br> ![](img/17-R.png) | S <br> ![](img/17-S.png) | T <br> ![](img/17-T.png) |
-| U <br> ![](img/17-U.png) | V <br> ![](img/17-V.png) | W <br> ![](img/17-W.png) | X <br> ![](img/17-X.png) | Y <br> ![](img/17-Y.png) |
-|  |  | Z <br> ![](img/17-Z.png) |  |  |
+- equator `AOE/KWAEURT` = `AOE/KWAEUT` + `-R`
+- humor `HAOURPL` = `HAOUPL` + `-R`
+- modulator `PHO/SKWRAOU/HRAEURT` = `PHO/SKWRAOU/HRAEUT` + `-R`
+- shimmer `SHEURPL` = `SHEUPL` + `-R`
 
-### Attachment behaviour
-Fingerspelling uses glue (<code class="code-mono">&</code>) formatting. These translations stick to other translations that also have glue. For example, writing `HE/HROE/A*/PW*/KR*` will result in <code class="code-mono">hello abc</code>. Since the translation for `HE/HROE` contains no glue, the subsequent fingerspelling chord inserts a space after <code class="code-mono">hello</code>. However, as the subsequent fingerspelling chords all contain glue, they stick together.
+Some outlines using this technique would conflict with preexisting words (e.g., `TARP` for "tarp" or "tapper"). In cases where `A` is the vowel, `AE` can be used as an alternative vowel chord.
 
-## Numbers
+- hammer `HAERPL` = `HAPL` + `ER`
+- tapper `TAERP` = `HAPL` + `ER`
 
-With Lapwing, numbers are written with a numberpad system much like the ones found on regular keyboards and calculators. The number key is pressed with the left hand, and the right hand is responsible for the number. Since there are only two rows on the steno layout, we use vertical chords to represent the middle row.
+> R-folding is **high in conflicts for single stroke outlines** but **low in conflicts for multistroke outlines**. It is safe to use this technique for ending multistroke words.
 
-| | | |
-| ---- | ---- | ---- |
-| 1 <br> ![](img/17-1.png) | 2 <br> ![](img/17-2.png) | 3 <br> ![](img/17-3.png) |
-| 4 <br> ![](img/17-4.png) | 5 <br> ![](img/17-5.png) | 6 <br> ![](img/17-6.png) |
-| 7 <br> ![](img/17-7.png) | 8 <br> ![](img/17-8.png) | 9 <br> ![](img/17-9.png) |
-| 0 <br> ![](img/17-0.png) | 00 <br> ![](img/17-00.png) | 000 <br> ![](img/17-000.png) |
+### L-folding
 
-The right hand vowel keys can be combined with a number chord to add some trailing zeros:
+Folding `-L` into a stroke can add a sound containing the "l" consonant on the end of the word. Usually this is the "-ly" or "l" sound as in the following examples:
 
-* `#ER` 10
-* `#EUPB` 5000
-* `#UP` 800
-* `#EB` 20
+- mostly `PHOEFLT` = `PHOEFT` + `-L`
+- portal `PORLT` = `PORT` + `-L`
+- final `TPAOEUPBL` = `TPAOEUPB` + `-L`
+- funnel `TPUPBL` = `TPUPB` + `-L`
 
-### Attachment behaviour
-Numbers use the same glue formatting as fingerspelling by default. To prevent numbers from sticking to other glued translations, include `T` with the chord.
+This technique mostly fails whenever the steno outline already has the `-L` key in it, or if the stroke is too difficult to press. In these cases, folding the initial `HR` can sometimes work.
 
-#### Examples
-* `A*/PW*/KR*/#-R/#-B/#-G` abc123
-* `A*/PW*/KR*/#T-R/#T-B/#T-G` abc 1 2 3
+- finally `TPHRAOEUPBL` = `TPAOEUPB` + `-L` + `HR`
+- basically `PWHRAEUFBG` = `PWAEUFBG`\* + `HR`
 
-## No test this chapter!
+\**See section below on dropping unstressed vowels.*
+
+> L-folding is **low in conflicts**; use it whenever possible.
+
+### T-folding
+
+Folding `-T` can add the "-ity" or "-ty" sounds to the end of a word:
+
+- entirety `EPB/TAOEURT` = `EPB/TAOEUR` + `-T`
+- eternity `AOE/TERPBT` = `AOE/TERPB` + `-T`
+- porosity `POR/KWROFT` = `POR/KWROF` + `-T`
+- sanity `SAPBT` = `SAPB` + `-T`
+
+> T-folding is **low in conflicts**; use it whenever possible.
+
+> Using this technique might lead to difficult chords to press like `-TD`. Do not feel obliged to use T-folding in these scenarios.
+
+### E-folding
+
+A *long e* /i/ vowel at the end of a word can be represented by folding the `E` key into a stroke:
+
+- auditory `AU/TKEU/TOER` = `AU/TKEU/TOR` + `E`
+- respiratory `RES/PRA/TOER` = `RES/PRA/TOR` + `E`
+- antimony `APB/TEU/PHOEPB` = `APB/TEU/PHOPB` + `E`
+- coffee `KOEF` = `KOF` + `E`
+- crumbly `KRUPL/EBL` = `KRUPL/-BL` + `E`
+- humbly `HUPL/EBL` = `HUPL/-BL` + `E`
+- numerically `TPHAOU/PHER/KAEL` = `TPHAOU/PHER/KAL` + `E`
+- symbolically `SOPL/PWOL/KAEL` = `SEUPL/PWOL/KAL` + `E`
+- carefully `KAEUR/EFL` = `KAEUR/-FL` + `E`
+- dreadfully `TKRED/EFL` = `TKRED/-FL` + `E`
+- happy `HAEP` = `HAP` + `E`
+  * happier `HAERP` (`E` and `-R` folding)
+- fancy `TPAEPBS` = `TPAPBS` + `E`
+  * fancier `TPAERPBS` (`E` and `-R` folding)
+
+### E-folding with `AEU`
+
+Instead of writing two strokes for words ending in "-ary", `...AER` can represent this sound in one stroke:
+
+- carry `KAER`
+- estuary `ES/KHAOU/KWRAER`
+- corollary `KOR/KWRO/HRAER`
+- solitary `SO/HREU/TAER`
+
+> E-folding is **high in conflicts for single stroke outlines** but **low in conflicts for multistroke outlines**. It is safe to use this technique for ending multistroke words.
+
+### Practice material
+
+* [R-folding drill](practice/17-r-folding.txt)
+* [L-folding drill](practice/17-l-folding.txt)
+* [T-folding drill](practice/17-t-folding.txt)
+* [E-folding drill](practice/17-e-folding.txt)
+* [Folding drill (combined)](practice/17-folding.txt)
+
+## Dropping unstressed vowels
+
+> Keep in mind the examples may only apply to General North American English.
+
+In conversational speech, a lot of vowels typically aren't emphasized. For example, the first "e" in the word "elephant" is enunciated very clearly, but the second is not. This second "e" can be dropped without affecting the pronunciation significantly. For example, listen to the two ways of saying "elephant":
+
+<video controls>
+<source src="img/17-pronunciations-1.mp4" type="video/mp4">
+</video>
+
+Dropping the second "e" in "elephant" is advantageous; it is now now possible to write this word in two strokes instead of one: `EL/TPA*PBT`.
+
+This technique can be tricky, and it doesn't always work with any arbitrary word. A great way to learn stress identification is to practice it in everyday life. When reading a word, pay attention to the vowels that aren't emphasized. In particular, try dropping vowels from a word and observing if the word is still intelligible. For example, try saying "elephant" out loud in the two ways shown above. When reading the next few examples, try this out yourself.
+
+### definite
+
+Write-out: `TKE/TPEU/TPHEUT`
+
+Unstressed vowel(s) dropped: def<s>i</s>nite → defnit
+
+The first "i" is unstressed and the "f" can be moved to the right hand.
+
+Shorter outline: `TKEF/TPHEUT`
+
+### demand
+
+Write-out: `TKE/PHAPBD`
+
+Unstressed vowel(s) dropped: d<s>e</s>mand → dmand
+
+The "e" is unstressed and the "dm" cluster can be moved to the left hand with `TKPH`.
+
+Shorter outline: `TKPHAPBD`
+
+### deplorable
+
+Write-out: `TKE/PHROR/-BL`
+
+Unstressed vowel(s) dropped: d<s>e</s>plor<s>a</s>ble → dplorbl
+
+Every vowel except the "o" can be dropped. The resulting consonants can easily fit on the steno layout.
+
+Shorter outline: `TKPHROBL`
+
+### derivative
+
+Write-out: `TKE/REU/SRA/TEUF`
+
+Unstressed vowel(s) dropped: d<s>e</s>riv<s>a</s>tive → drivtive
+
+The "e" and the "a" are dropped.
+
+Shorter outline: `TKREUF/TEUF`
+
+### electric
+
+Write-out: `E/HREBG/TREUBG`
+
+Unstressed vowel(s) dropped: <s>e</s>lectric → lectric
+
+First vowel can be dropped.
+
+Shorter outline: `HREBG/TREUBG`
+
+### differ
+
+Write-out: `TKEU/TPER`
+
+Unstressed vowel(s) dropped: diff<s>e</s>r → difr
+
+The "e" can be dropped and the "f" and "r" can be moved to the right hand with `-FR`.
+
+Shorter outline: `TKEUFR`
+
+### engineer
+
+Write-out: `EPB/SKWREU/TPHAOER`
+
+Unstressed vowel(s) dropped: eng<s>i</s>neer
+
+The "i" can be dropped so that the "ng" sound can represented with `-PBG` on the right hand.
+
+Shorter outline: `EPBG/TPHAOER`
+
+### geology
+
+Write-out: `SKWRAOE/KWRO/HRO/SKWREU`
+
+Unstressed vowel(s) dropped: geol<s>o</s>gy → geolgy
+
+The second "o" can be dropped and the "l" can be moved to the right hand.
+
+Shorter outline: `SKWRAOE/KWROL/SKWREU`
+
+### modulator
+
+Write-out: `PHO/SKWRAOU/HRAEUT/O*R`
+
+Unstressed vowel (s) dropped: mod<s>u</s>lator → modlator
+
+The "u" can be dropped and the j sound can be moved to the right hand.
+
+Shorter outline: `PHOPBLG/HRAEUT/O*R`
+
+> **NOTE:** this can be combined with R-folding: `PHOPBLG/HRAEURT`!
+
+### possible
+
+Write-out: `PO/SEUBL`
+
+Unstressed vowel(s) dropped: poss<s>i</s>ble → posbl
+
+The "i" is unstressed, and the "s" can be represented with `-F`.
+
+Shorter outline: `POFBL`
+
+### suppose
+
+Write-out: `SU/POES`
+
+Unstressed vowel(s) dropped: s<s>u</s>ppose → sppose
+
+The "u" is unstressed.
+
+Shorter outline: `SPOES`
+
+### Tom Scott and schwa
+
+In many of these examples, the unstressed vowel is a schwa. This sound is always unstressed, and therefore can be dropped whenever possible. Identifying schwas quickly can therefore be very beneficial to automatically dropping unstressed vowels. Tom Scott has created a helpful video on understanding this sound which I highly encourage watching:
+
+<iframe width="640" height="360"
+src="https://www.youtube.com/embed/qu4zyRqILYM">
+</iframe> 
+
+> At 2:41, Tom mentions three words where the schwa is dropped entirely in spoken word. Instead of writing these words in three strokes like, `SE/PAR/KWRAT`, `KHO/KO/HRAT`, and `KA/PHER/KWRA`, can you think of two stroke outlines for each?
+
+> As an exercise, you can try looking back at the previous examples and identify the schwas. Note that not all unstressed vowels are schwas, and not all schwas in the examples are necessarily dropped.
+
+### Caveats
+
+Sometimes this technique doesn't work for a few reasons. First of all, the shortened outline might already conflict with another valid word. Here are some examples:
+
+- `PWOUT` can be "bout" or "about"
+
+
+This technique may also fail if there are too many consonants in the shortened word. For example, in the word "consonant", every other vowel after the first "o" is unstressed:
+
+- cons<s>o</s>n<s>a</s>nt → consnnt
+
+However, it is not possible to include the "n" two times on the right side of the steno layout. We can, however, write it in two strokes as `KOPBS/TPHAPBT`.
+
+> If you're brave, `KOFPBT` could be a valid outline!
+
+### Practice material
+
+* [Dropping unstressed vowels with folding drill](17-unstressed-folding.txt)
+
+## Inversions
+
+It is sometimes acceptable to break steno order when shortening outlines. It is especially helpful to invert the order of two keys for some words where dropping unstressed vowels is not enough. For example, in the word "fabricate", the "i" can be dropped:
+
+* fabr<s>i</s>cate → fabrcate
+
+Despite this, it is still not possible to represent the resulting sound in two strokes; the "br" cluster is problematic and forces the use of three: `TPAB/R/KAEUT`. This is where an inversion can be helpful—if the `R` key moved to the previous stroke, this word can be written in two strokes: `TPARB/KAEUT`.
+
+### Examples
+
+* migr<s>a</s>tory `PHAOEURG/TOER`
+* secr<s>e</s>tary `SERBG/TAER`
+* patr<s>i</s>mony `PART/PHOEPB`
+* b<s>e</s>side `SPWAOEUD`
+
+*\*crossing out indicates dropped unstressed vowels.*
+
+### Practice material
+
+\[Inversions](17-inversions.txt)
+
+*work-in-progress*
+
+## Left hand compound clusters
+
+In addition to the left hand chords learned in the very early chapters, there are also more advanced chords that can represent more than just a single consonant.
+
+* `SPW` is "int" or "ent" as in "<ins>ent</ins>ire" or "<ins>int</ins>ern"
+* `KP` is "comp" as in "<ins>comp</ins>lement"
+* `KPW` is "comb" as in "<ins>comb</ins>ine"
+* `KPH` is "com" as in "<ins>comm</ins>ent"
+* `W` is "v" as in "di<ins>v</ins>ine"
+* `STK` is "d_s" as in "<ins>des</ins>ign" or "<ins>dis</ins>arm"
+
+> `KPW`, `KPH`, and `STK` technically aren't compound clusters, but are the result of other shortening techniques. However, it is easy to explicitly remember these as compound clusters as they are quite common.
+
+### Examples
+
+* entire `SPWAOEUR`
+* intern `SPWERPB`
+* compli<s>a</s>nt `KPHRAOEUPBT`
+* compliment `KPHREUPLT`
+* commend `KPHEPBD`
+* commit `KPHEUT`
+* d<s>e</s>vice `TKWAOEUS`
+* d<s>i</s>vide `TKWAOEUD`
+* decide `STKAOEUD`
+* dis<s>a</s>ppear `STKPAOER`
+
+*\*crossing out indicates dropped unstressed vowels.*
+
+### Practice material
+
+[Left hand clusters drill](practice/17-left-clusters.txt)
+
+> **NOTE:** many of the words in this drill also utilize other techniques.
+
+## Dropping other sounds
+
+Sometimes it may be convenient to arbitrarily drop more sounds to shorten steno outlines. For example, the "n" in "assignment" is not really enunciated, allowing it to be written in two strokes instead of three:
+
+* assignment `A/SAOEUPLT`
+  - Instead of `A/SAOEUPB/-PLT`
+
+This technique can also be applied to the following words:
+
+* confinement `KOPB/TPAOEUPLT`
+* consignment `KOPB/SAOEUPLT`
+
+> The words that work with this technique depend a lot on your accent and even personal speech patterns. If you find an intuitive outline missing from `lapwing-base.json`, you should not hesitate to add it to your personal dictionary.
+
+While these last few examples may have been somewhat intuitive, it is also valid to drop sounds arbitrarily whenever a stroke can be saved:
+
+* abutment `A/PWUPLT`
+  - first "t" is dropped
+* amb<s>i</s>guity `APL/TKPWAOUT`
+  - "b" is dropped
+* discard `STKARD`
+  - "c" is dropped
+* fragment `TPRAPLT`
+  - "g" is dropped
+* <s>e</s>fficient `TPEURBT`
+  - "n" is dropped
+* patient `PAEURBT`
+  - "n" is dropped
+
+*\*crossing out indicates dropped unstressed vowels.*
+
+> **NOTE:** this technique depends heavily on if there are existing words the resulting outline may conflict with.
+
+As this technique is highly personal to each individual, it is not particularly useful to drill the words that can be found in the dictionary. Instead, cater this method to your own personal accent and speech patterns when adding new entries to your dictionary. Feel free to learn the shortened outlines in the dictionary that utilize this technique, but you are not at all obliged to follow them.

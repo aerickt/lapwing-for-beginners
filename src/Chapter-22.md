@@ -1,98 +1,318 @@
-# Chapter 22: End of basic theory
+# Chapter 22: Theory principles wrap-up
 
-## End of basic theory!
+## Intro
+This page serves as a reference for all the miscellaneous theory principles that only apply to a few words. It's not important to explicitly memorize the content on this page, as it is very likely these situations will arise in everyday writing.
 
-Congratulations on making it this far! If your goal was to be able to write English text with steno, you've certainly achieved it!
+When you do find odd entries via the lookup tool, first consult this page. If you cannot find an explanation, free to contact me on Discord (@aerbg) or [start a discussion on GitHub](https://github.com/aerickt/lapwing-for-beginners/discussions) (login required). It may be that I have not yet documented the oddity here or that the entry itself may be incorrect.
 
-From here on out, there are only about two or three more things you should be thinking about in your steno journey.
+## Acronyms
 
-1. Being comfortable with your own dictionary
-2. Writing shorter and building finger speed
-3. Switching to steno full time (optional)
+For capitalized acronyms, Lapwing treats these as regular words for the most part. Write the first stroke with the asterisk and the number key, but continue the rest of the acronym with regular theory rules. It is generally okay to break steno order. Usually writing an acronym involves spelling the letters it is made up of. For short acronyms, it can also be faster to fingerspell.
 
-This page will give a quick summary of how to achieve these 3 goals. Later chapters will discuss these in more detail, and are recommended that you read them. However, these chapters will be more like reference pages for you to read and check every so often.
+- AWOL `#A*EU/WOL`
+- LAN `#HRA*PB`
+- PDF `#P*FD`
 
-## Being comfortable with your own dictionary
+## Contractions
 
-### Looking up words
+Contractions are written like regular words, but with the asterisk key.
 
-English is a complicated language and it would be very difficult to create a theory that covers every single edge case. Furthermore, ensuring that a dictionary is complete and contains *every* single word is also practically impossible.
 
-As such, you may come across words that are just impossible to write using the default Lapwing dictionary. This may be because it does not exist in the dictionary, or the theory is lacking rules that dictate how it should be written.
+Some common contractions:
 
-This is where Plover's lookup tool comes in handy. If you are struggling to write a tricky word, don't be afraid to just look it up. If several outlines show up in the lookup tool, I would first recommend trying the write-out entry which is the **longest outline available**. You can also identify the write-out entry as the one that follows theory rules. I will discuss later why you might want to look at any of the shorter outlines later.
-
-### Adding new words
-
-If you've used the lookup tool and found that none of the outlines make sense, first try looking at any relevant pages and see if you've missed any theory. If you are on Discord, feel free to ask in the <code class="code-mono">#lapwing-theory</code> channel.
-
-However, it is possible that these outlines aren't covered under basic Lapwing theory—you've encountered a theory gap! At this point, you can decide to learn one of these outlines, or add your own.
-
-To add your own entry, stroke `TKUPT` to bring up the add translation tool. In the strokes field, start writing the outline you want to add. Then, move to the translation field by pressing `TA*B` and fingerspelling the word you want to add.
-
-![](img/22-add-translation.png)
-
-**It is also very important that you don't add new outlines to <code class="code-mono">lapwing-base.json</code>. If you intend to update the Lapwing dictionary, you will have to replace this entire file which will throw away any edits you have made.**
-
-### An example of a theory gap
-
-We know that prefix strokes generally take precedence over word strokes when there is a conflict. However, sometimes there are more than just one conflicting entry. Here are some examples:
-
-| Word/prefix | Outline |
+| Contraction | Outline |
 | ---- | ---- |
-| bi- | `PWAOEU` |
-| buy | `PWAO*EU` |
+| he's | `HAO*ES` |
+| he'll | `HAO*EL` |
+| we're | `WAO*ER` |
+| who's | `WHO*S` |
+
+Some contractions that are based off of common words that are briefed in Lapwing are written a bit less intuitively:
+
+| Contraction | Outline |
+| ---- | ---- |
+| what's | `WHA*S` |
+| that's | `THA*S` |
+
+## `-RB` for "-rb" vs "-sh"
+
+Sometimes it can be ambiguous whether `-RB` represents "-rb" or "-sh" as in the following pair of words:
+
+* cash
+* carb
+
+In these cases, "-sh" gets precedence and the word with "-rb" is instead asterisked.
+
+## Disambiguating "ou" with `OU`
+
+Lapwing is somewhat strict in using `OU` only phonetically. However, for cases where where existing outlines with `OU` do not exist, it is generally okay to use this chord for disambiguation.
+
+* `TPOUR` four
+  * `TPOR` is already "for^"
+* `SOUL` soul
+  * `SOEL` is already "sole"
+* `PHOURPB` mourn*
+  * `PHORPB` is already "morn"
+
+\* Not in the Lapwing dictionary
+
+## Tricky "ou" words
+
+In some accents, the words "tour" and "mourn" would be written like `TOR` and `PHORPB`. However, since these two outlines already exist as other words, Lapwing uses `AOUR` instead. The reasoning for this is that this pronunciation of "tour" is more standard in a North American accent.
+
+* `PHAOURPB` mourn
+* `TAOUR` tour
+
+## `W` for glides
+
+For some words, using `W` for a glide might be closer phonetically:
+
+* `EBG/WEU/TEU` equity
+* `EBGS/TEUPBG/WEURB` extinguish
+* `EUPB/TAOU/WEU/TEUF` intuitive
+* `AOU/PWEUBG/WEU/TEU` ubiquity
+
+## "-graph" words
+
+### "-graph"
+
+Write the first part as if it is its own standalone word and then use `TKPWRAF` to write the "-graph" part separately:
+
+* `AU/TOE/TKPWRAF` autograph
+* `PAEUR/KWRA/TKPWRAF` paragraph
+* `PHEUPL/KWROE/TKPWRAF` mimeograph
+* `TE/HRE/TKPWRAF` telegraph
+
+### "-graphy"
+
+Write the "-graph" part separately and then use the `KWREU` suffix to add the "-y":
+
+* `SKWRAOE/KWRO/TKPWRAF/KWREU` geography
+* `OR/THO/TKPWRAF/KWREU` orthography
+* `STE/TPHO/TKPWRAF/KWREU` stenography
+* `SREUD/KWRO/TKPWRAF/KWREU` videography
+
+### Alternative "-graphy" outline
+
+`TKPWRAEF` can be used as a shorter stroke for "-graphy":
+
+* `SKWRAOE/KWRO/TKPWRAEF` geography
+* `OR/THO/TKPWRAEF` orthography
+* `STE/TPHO/TKPWRAEF` stenography
+* `SREUD/KWRO/TKPWRAEF` videography
+
+
+This uses a briefing technique called "e-folding". The stroke `TKPWRAF` represents "graph", and the `E` key can indicate a *long e* sound on the end of the word.
+
+In other words:
+
+* `TKPWRAF` + `E` = `TKPWRAEF` can be thought of as:
+*  graph + "ee" = graphy.
+
+
+E-folding is covered further in [chapter 24](Chapter-24.md#e-folding)
+
+### "-grapher"
+
+Write the "-graph" part separately and then use the `*ER` suffix to add the "-er":
+
+* `KAR/TO/TKPWRAF/*ER` cartographer
+* `KHOR/KWRO/TKPWRAF/*ER` choreographer
+* `HREBG/SEU/KO/TKPWRAF/*ER` lexicographer
+* `OEGS/KWRO/TKPWRAF/*ER` oceanographer
+
+### Alternative "-grapher" outline
+
+Instead of `TKPWRAF/*ER`, you can also use `TKPWRAFR`:
+
+* `KAR/TO/TKPWRAFR` cartographer
+* `KHOR/KWRO/TKPWRAFR` choreographer
+* `HREBG/SEU/KO/TKPWRAFR` lexicographer
+* `OEGS/KWRO/TKPWRAFR` oceanographer
+
+This uses a briefing technique where `-FR` can represent the "fer" sound.
+
+### "-graphic"
+
+Write the "-graph" part separately and then use the `KWREUBG` suffix to add the "-ic":
+
+* `*ET/TPHOE/TKPWRAF/KWREUBG` ethnographic
+* `HO/HRO/TKPWRA*F/KWREUBG` holographic
+* `EUPB/TPOE/TKPWRAF/KWREUBG` infographic
+* `PEUBG/TO/TKPWRAF/KWREUBG` pictographic
+
+### Alternative "-graphic" outline
+
+Instead of `TKPWRAF/KWREUBG`, you can also use `TKPWRAFBG`:
+
+* `*ET/TPHOE/TKPWRAFBG` ethnographic
+* `HO/HRO/TKPWRAFBG` holographic
+* `EUPB/TPOE/TKPWRAFBG` infographic
+* `PEUBG/TO/TKPWRAFBG` pictographic
+
+This uses a briefing technique where the unstressed vowels such as the "i" in graph**i**c is dropped.
+
+## "-ology" words
+These are written using regular syllabic splitting:
+
+* `ARBG/KWRO/HRO/SKWREU` archaeology
+* `A/STRO/HRO/SKWREU` astrology
+* `AOE/KO/HRO/SKWREU` ecology
+* `OR/TPHEU/THO/HRO/SKWREU` ornithology
+
+### Alternative "-ology" chord
+
+Instead of writing the `O/HRO/SKWREU` cluster, you can instead use the `OLG` chord.
+
+* `ARBG/KWROLG` archaeology
+* `A/STROLG` astrology
+* `AOE/KOLG` ecology
+* `OR/TPHEU/THOLG` ornithology
+
+This is simply just a briefing pattern. These outlines are much shorter than the write-outs and are highly recommended.
+
+## Ambiguous glide vowels
+
+In some words containing glides represented with `KWR` or `W`, the proceeding vowel sound is spelled with two letters. The sound itself is an unstressed schwa (a *short vowel*), and so the **second** vowel letter is what determines which key to use.
+
+Here are some examples to illustrate:
+
+* `KAF/KWRAT` cave**a**t
+* `KORPB/KWRAL` corne**a**l
+* `HRAOEPB/KWREPBS` leni**e**nce
+* `PHA/TREU/HREUPB/KWRAL` matriline**a**l
+
+Another way of thinking about this is that the `KWR` or the `W` glide represents the first vowel letter and the second vowel letter is represented by the vowel key in the steno stroke.
+
+## "-ual" words
+
+It is very difficult to write the "-ual" sound using regular syllabic splitting rules. For example, to write the word "manual" in a way that the second stroke begins with a consonant is only possible as `PHA/TPHAOU`. It is possible to finish the word with `WAL`, but three strokes for such a short word is not very fast indeed. Instead, the `WAL` stroke on its own can represent the entire "-ual" cluster. Thus, by including the "n" consonant in the first stroke, it is possible to write this word with only two: `PHAPB/WAL`.
+
+### `WAL`
+
+Another way of thinking of the `WAL` stroke is that the `W` key represents the "u", and the `AL` represents the "al".
+
+* `AOEBG/WAL` equal
+* `HA/PWEUFP/WAL` habitual
+* `PER/PEFP/WAL` perpetual
+* `AOURB/WAL` usual
+
+It can also be used like a suffix:
+
+* `KOPB/TRABGT/WAL` contractual
+* `KOPB/TEGT/WAL` contextual
+* `HA/PWEUT/WAL` habitual
+* `SEBGS/WAL` sexual
+
+### `TWAL`
+
+You can also use `TWAL` as the "chwal" cluster like in the following words:
+
+* `TPABG/TWAL` factual
+* `HA/PWEU/TWAL` habitual
+* `EUPB/TE/HREBG/TWAL` intellectual
+* `SREUR/TWAL` virtual
+
+I prefer using `TWAL` over `WAL` (when possible) as it more closely resembles the pronunciation it is supposed to represent.
+
+### `KWRAOUL`
+
+You are also free to come up with your own strokes for dealing with these words. In hindsight, `KWRAOUL` would be a better fit to some of these words, however, as I am already accustomed to `WAL`, I am not about to change these around. Furthermore, if `PHA/TPHAOU/WAL` or `PHA/TPHAOUL` do, in fact, make more sense to you, you should absolutely make changes to your dictionary.
+
+## Doubling consonants with prefixes
+
+With prefix strokes, doubling consonants between two strokes is allowed if it makes sense to do so.
+
+- `EUPL/PHOE/PWAOEUL` immobile
+   - `EUPL` is the "im-" prefix
+- need more examples
+
+There can also be alternative strokes that exist in the dictionary (for example, `EUPL/KWROE/PWAOEUL`). Use whichever makes the most sense to you, or add your own!
+
+## Splitting a sound at "ng"
+
+To split a word at "ng", use `...PBG/TKPW...`
+
+There are also two other alternative splitting methods:
+
+1. `...PB/TKPW...`
+2. `...PBG/KWR...`
+
+### Examples
+
+* bingo `PWEUPBG/TKPWOE` or `PWEUPB/TKPWOE` or `PWEUPBG/KWROE`
+* tango `TAPBG/TKPWOE` or `TAPB/TKPWOE` or `TAPBG/KWROE`
+
+## Prefix outline conflicts
+
+### Single stroke briefed prefixes
+
+Here are once again the tables from chapter 12 and 15:
+
+| Prefix/word | Prefix Outline | Recommended word outline(s) | Explanation |
+| ---- | ---- | ---- | ---- |
+| a | `A` | `AEU` | `A*` is already used. |
+| bi^ (by) | `PWAOEU` | `PWEU` | There is a three way conflict between "by", "bye", and "buy". |
+| be | `PWE` | `-B` | Useful in phrase briefs. |
+| for | `TPOR` | `TP-R` or `TPAURT` | Useful in phrases like "for the" `TP-RT`. |
+| in | `EUPB` | `TPH` | Useful in phrases like "in the" `TPH-T`. |
+| or | `OR` | `AOUR` or `AUR` | `O*R` is already used (see below). |
+| out | `OUT` | `AOUT` | Alternative vowel chord. |
+| on | `OPB` | `AUPB` | Alternative vowel chord. |
+| tri^ (try) | `TRAOEU` | `TRAO*EU` or `TREU` | The first is the more "formal" outline, but the second matches the pattern with "by". |
+
+#### Three way conflict between "by", "bye", and "buy":
+
+| Word | Outline |
+| ---- | ---- |
 | by | `PWEU` |
 | bye | `PW*EU` |
+| buy | `PWAO*EU` |
 
-| Word/prefix | Outline |
-| ---- | ---- |
-| di^ | `TKAOEU` or `TKEU` |
-| die | `TKAO*EU` |
-| dye | `TK*EU` |
+Again, feel free to change around these outlines.
 
-| Word/prefix | Outline |
-| ---- | ---- |
-| tri^ | `TRAOEU` |
-| try | `TREU`  or `TRAO*EU` |
+### Generic way of dealing with multisyllable prefix outlines
 
-At the moment, I have not thought of a consistent way of resolving these conflicts. This is one area where you may want to move around some outlines or come up with your own.
+Press the asterisk in the last stroke of a multisyllable outline to get the word variant.
 
-## How do I build speed?
-
-### Practice
-
-You need lots and lots of practice. At this point, it's a good idea to try out sites that aren't steno-specific. Personally, I spent about an hour or two everyday on typing sites like [TypeRacer](https://play.typeracer.com) and [Monkeytype](https://monkeytype.com) after I had learned basic theory. 3 months of practice later, and I was frequently hitting 150 WPM on short TypeRacer quotes. on Monkeytype, I was reaching 180 WPM on the 60 second test.
-
-Using these sites are a great way of increasing your finger speed. If you would like to track exactly how fast your finger speed is, I would recommend using a metronome. You can use an app on your phone or a website on desktop. Start the metronome at a speed that you can handle (say, 30 BPM) and try writing some material either through a website (like any of the ones linked) or just writing into a text document.
-
-You can then gradually increase the tempo of the metronome until you find your maximum stroke speed. For me, I find this to be where going any faster results in a drop in accuracy. Three to four strokes per second (180 to 240 BPM) is quite fast and adequate for most hobbyists, though professional stenographers often reach five.
-
-Some people have also found listening to music and stroking on beat quite effective. If you're familiar with subdivision, you could get some effective practice even from slow songs.
-
-### Learning briefs
-
-The other way of writing faster is by learning briefs. These abbreviated outlines are very nice because they allow you to increase your speed without having to move your fingers any quicker—you just have to be able to remember them! Obviously, it's impossible to learn a brief for every single word, so how do you decide when you want to learn a brief? 
-
-This is highly personal, but I think a good starting point is whenever you run into a word that is awkward to write. To me, this includes words that have long outlines requiring your fingers to move a lot.
-
-Here are some of the briefs I used in the last paragraph:
-
-| Translation | Brief | Mnemonic |
+| Prefix/word | Prefix Outline | Word Outline |
 | ---- | ---- | ---- |
-| personal | `PERPBL` | <ins>per</ins>so<ins>n</ins>a<ins>l</ins> |
-| I think | `SWR-PBG` | Uses Jeff's phrasing |
-| whenever | `WH-FR` | The briefs of "when" +  "ever" |
-| you | `U` |  |
-| that is | `THAS` | |
-| this | `TH` | |
-| into | `TPHAO` | <ins>in</ins>t<ins>o</ins> |
-| requiring | `RAOEUR/-G` | <ins>r</ins>equ<ins>ir</ins>ing |
-| finger | `TPEURPBG` | `-R` folding |
-| syllable | `SEUBL` | <ins>sy</ins>lla<ins>bl</ins>e |
+| auto | `AU/TOE` | `AU/TO*E` |
+| intro | `EUPB/TROE` | `EUPB/TRO*E` |
+| over | `OE/SRER` | `OE/SR*ER` |
+| under | `UPB/TKER` | `UPB/TK*ER` |
 
-Many of these might seem quite arbitrary, but that's only because the you have not learned some of the techniques yet! Also, the process of memorizing briefs is quite a lot easier than you might think. Compared to, say, learning vocabulary of another language, learning briefs is much easier.
+Some of these can also be briefed. Feel free to use the look up and discover briefs.
 
-#### How to learn briefs
+### Special conflicts
 
-The easiest way to learn briefs is just by looking them up with Plover's lookup tool. Whenever you feel like a word or phrase should be briefed, just look it up! Some people also like to learn briefs using [Anki](https://github.com/openstenoproject/plover/wiki/Using-Anki-for-Learning-Stenography) and plugins like plover-clippy-2.
+Another technique for disambiguating between prefixes and words is using alternative vowels. One common case is using `AU` instead of `OE` and `O`. This is sometimes recommended over using the asterisk key as it is much easier to press:
+
+| Prefix/word | Prefix Outline | Word outline |
+| ---- | ---- | ---- |
+| on | `OPB` | `AUPB` |
+| or | `OR` | `AUR` |
+| over | `OEFR` | `AUFR` |
+| off |`OF` | `AUF` |
+
+### Prefix strokes vs compound words
+
+Sometimes it can be arbitrary to determine whether a word should be written as a compound word rather than a word with a prefix. For example, the Lapwing dictionary by default treats words like "upright" and "downwards" as compound words; they can be only be written as `UP/RAO*EUT` and `TKOUPB/WA*RD/-Z`. It is perfectly reasonable to make changes and add extra prefix strokes if desired.
+
+## Problematic words
+
+This table contains words that don't quite follow main theory principles.
+
+| Word | Recommended outline | Explanation |
+| ---- | ---- | ---- |
+| cache | `KAERB` | `KARB` and `KA*RB` are both already used as "cash" and "carb" so the `E` key is used to disambiguate. |
+| fore | `TPOER` | `TPOR` and `TPO*R` are already used so we use the `E` as a disambiguation key. |
+| herein | `HAOER/KWREUPB` or `HAOERPB` | It's not recommended to treat this as a compound word as it would use a fingerspelling stroke: `HAOER/TPH*`.
+| hi | `HEU` | `HAOEU` is the word "high" already. |
+| hour | `HOUR` | `OUR` is already used so the `H` key is added even though it is silent. |
+| lunch | `HRUFRPBLG` | `HRUFRPB` is already used so `-LG` is used as a disambiguation chord. This is recommended over `HR*UFRPB` as it is slightly easier to press.|
+| nought | `TPHA*UT` | `TPHAUT`, `TPHOT`, and `TPHO*T` are already used. |
+| poll/pole | `POL`/`POEL` | No real reason. Feel free to change things around and/or use the asterisk key for disambiguation. |
+| scene | `SKAOEPB` | `SAOEPB` is already the word "seen" so "scene" is written with the `K` to disambiguate. |
+| wolf | `WOEFL` or `WOFL` | While you could write this as `WOEL/*F` or `WOL/*F`, it's just much faster to learn one of these briefs. |
+| werewolf | lots of outlines | You can use `WAEUR` or `WER` for the first stroke. However, if you use `WER`, you will have to to asterisk the second word since there is a potential conflict between the phrase "were wolves" and the word "werewolves". |

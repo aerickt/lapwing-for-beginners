@@ -1,118 +1,98 @@
-# Chapter 23: Phrase briefs
+# Chapter 23: End of basic theory
 
-## Basic phrase briefs
+## End of basic theory!
 
-One word briefs like `SKP`, `T`, `TPH`, and `-T` can be quite useful especially as they can also be used in phrases.
+Congratulations on making it this far! If your goal was to be able to write English text with steno, you've certainly achieved it!
 
-Here is a non-exhaustive table of some common phrase briefs.
+From here on out, there are only about two or three more things you should be thinking about in your steno journey.
 
-| Brief | Outline | Mnemonic |
+1. Being comfortable with your own dictionary
+2. Writing shorter and building finger speed
+3. Switching to steno full time (optional)
+
+This page will give a quick summary of how to achieve these 3 goals. Later chapters will discuss these in more detail, and are recommended that you read them. However, these chapters will be more like reference pages for you to read and check every so often.
+
+## Being comfortable with your own dictionary
+
+### Looking up words
+
+English is a complicated language and it would be very difficult to create a theory that covers every single edge case. Furthermore, ensuring that a dictionary is complete and contains *every* single word is also practically impossible.
+
+As such, you may come across words that are just impossible to write using the default Lapwing dictionary. This may be because it does not exist in the dictionary, or the theory is lacking rules that dictate how it should be written.
+
+This is where Plover's lookup tool comes in handy. If you are struggling to write a tricky word, don't be afraid to just look it up. If several outlines show up in the lookup tool, I would first recommend trying the write-out entry which is the **longest outline available**. You can also identify the write-out entry as the one that follows theory rules. I will discuss later why you might want to look at any of the shorter outlines later.
+
+### Adding new words
+
+If you've used the lookup tool and found that none of the outlines make sense, first try looking at any relevant pages and see if you've missed any theory. If you are on Discord, feel free to ask in the <code class="code-mono">#lapwing-theory</code> channel.
+
+However, it is possible that these outlines aren't covered under basic Lapwing theory—you've encountered a theory gap! At this point, you can decide to learn one of these outlines, or add your own.
+
+To add your own entry, stroke `TKUPT` to bring up the add translation tool. In the strokes field, start writing the outline you want to add. Then, move to the translation field by pressing `TA*B` and fingerspelling the word you want to add.
+
+![](img/23-add-translation.png)
+
+**It is also very important that you don't add new outlines to <code class="code-mono">lapwing-base.json</code>. If you intend to update the Lapwing dictionary, you will have to replace this entire file which will throw away any edits you have made.**
+
+### An example of a theory gap
+
+We know that prefix strokes generally take precedence over word strokes when there is a conflict. However, sometimes there are more than just one conflicting entry. Here are some examples:
+
+| Word/prefix | Outline |
+| ---- | ---- |
+| bi- | `PWAOEU` |
+| buy | `PWAO*EU` |
+| by | `PWEU` |
+| bye | `PW*EU` |
+
+| Word/prefix | Outline |
+| ---- | ---- |
+| di^ | `TKAOEU` or `TKEU` |
+| die | `TKAO*EU` |
+| dye | `TK*EU` |
+
+| Word/prefix | Outline |
+| ---- | ---- |
+| tri^ | `TRAOEU` |
+| try | `TREU`  or `TRAO*EU` |
+
+At the moment, I have not thought of a consistent way of resolving these conflicts. This is one area where you may want to move around some outlines or come up with your own.
+
+## How do I build speed?
+
+### Practice
+
+You need lots and lots of practice. At this point, it's a good idea to try out sites that aren't steno-specific. Personally, I spent about an hour or two everyday on typing sites like [TypeRacer](https://play.typeracer.com) and [Monkeytype](https://monkeytype.com) after I had learned basic theory. 3 months of practice later, and I was frequently hitting 150 WPM on short TypeRacer quotes. on Monkeytype, I was reaching 180 WPM on the 60 second test.
+
+Using these sites are a great way of increasing your finger speed. If you would like to track exactly how fast your finger speed is, I would recommend using a metronome. You can use an app on your phone or a website on desktop. Start the metronome at a speed that you can handle (say, 30 BPM) and try writing some material either through a website (like any of the ones linked) or just writing into a text document.
+
+You can then gradually increase the tempo of the metronome until you find your maximum stroke speed. For me, I find this to be where going any faster results in a drop in accuracy. Three to four strokes per second (180 to 240 BPM) is quite fast and adequate for most hobbyists, though professional stenographers often reach five.
+
+Some people have also found listening to music and stroking on beat quite effective. If you're familiar with subdivision, you could get some effective practice even from slow songs.
+
+### Learning briefs
+
+The other way of writing faster is by learning briefs. These abbreviated outlines are very nice because they allow you to increase your speed without having to move your fingers any quicker—you just have to be able to remember them! Obviously, it's impossible to learn a brief for every single word, so how do you decide when you want to learn a brief? 
+
+This is highly personal, but I think a good starting point is whenever you run into a word that is awkward to write. To me, this includes words that have long outlines requiring your fingers to move a lot.
+
+Here are some of the briefs I used in the last paragraph:
+
+| Translation | Brief | Mnemonic |
 | ---- | ---- | ---- |
-| "is it" | `ST` | "is" + "it" |
-| "is the" | `S-T` | "is" + "the" |
-| "and the" | `SKP-T` | "and" + "the" |
-| "and he" | `SKPE` | "and" + `E` |
-| "and I" | `SKPEU` | "and" + `EU` |
-| "and you" | `SKPU` | "and" + "you" |
-| "at the" | `TE` | a**t** th**e** (this one is quite arbitrary) |
-| "it is" | `T-S` | "it" + `-S` |
-| "in the" | `TPH-T` | "in" + "the" |
+| personal | `PERPBL` | <ins>per</ins>so<ins>n</ins>a<ins>l</ins> |
+| I think | `SWR-PBG` | Uses Jeff's phrasing |
+| whenever | `WH-FR` | The briefs of "when" +  "ever" |
+| you | `U` |  |
+| that is | `THAS` | |
+| this | `TH` | |
+| into | `TPHAO` | <ins>in</ins>t<ins>o</ins> |
+| requiring | `RAOEUR/-G` | <ins>r</ins>equ<ins>ir</ins>ing |
+| finger | `TPEURPBG` | `-R` folding |
+| syllable | `SEUBL` | <ins>sy</ins>lla<ins>bl</ins>e |
 
-Again, if you come across a phrase that you think could be briefed, try looking it up first. If an outline is not available, this is where you should add your own!
+Many of these might seem quite arbitrary, but that's only because the you have not learned some of the techniques yet! Also, the process of memorizing briefs is quite a lot easier than you might think. Compared to, say, learning vocabulary of another language, learning briefs is much easier.
 
-Lapwing doesn't contain many phrase briefs (compared to other theories), but this is because I recommend learning Jeff's phrasing. It is a very useful system that is already packaged in the <code class="code-mono">plover-lapwing-aio</code> plugin.
+#### How to learn briefs
 
-## Jeff's phrasing
-
-Jeff's phrasing system enables writing many common phrases, especially those that involve pronouns and verbs. For example, have a look at the following monkeytype quote:
-
-> **They used to** tell me **I was** building a dream, and so I followed the mob. **When there** was earth to plow or guns to bear, **I was** always there, right on the job. **They used to** tell me **I was** building a dream with peace and glory ahead. Why **should I be** standing in line just waiting for bread? Once I built a railroad, **I made** it run. Made it race against time. Once I built a railroad, now it's done. Brother, **can you** spare a dime?
-
-Every bolded phrase can be written in one stroke using Jeff's phrasing. There are likely some that I have also missed, as I personally do not go beyond the basics of Jeff's phrasing.
-
-### Setup
-
-Ensure that <code class="code-mono">plover-lapwing-aio</code> is installed and <code class="code-mono">Lapwing</code> is selected as the system. Alternatively, if you are setting up [Lapwing manually](Appendix-B.md) (not recommended), ensure that <code class="code-mono">jeff-phrasing.json</code> is in your dictionary stack.
-
-### Basics
-
-Jeff's phrasing is a Magnum-esque phrasing system that allows you to write phrases involving pronouns and verbs.
-
-In its most basic form, these are some phrases you can write:
-
- - I go
- - she does
- - he wants
- - they need
- - we find
- - it runs
-
-Jeff's phrasing works by having pronoun chords on the left side, and verbs on the right side.
-
-While this does mean that a lot of the chords are quite arbitrary (since you don't have vowels to work with), the speed boost you can achieve is well worth it. This is especially the case as Jeff's phrasing is quite extensive.
-
-| Pronoun | Chord |
-| ---- | ---- |
-| I | `SWR` |
-| she | `SKWHR` |
-| he | `KWHR` |
-| they | `TWH` |
-| we | `TWR` |
-| it | `KPWH` |
-
-If you try these chords out on their own, you will find that they output the pronouns by themselves. However, these aren't particularly useful, so let's add in some right hand verbs.
-
-| Verb | Chord |
-| ---- | ---- |
-| go | `-G` |
-| find | `-PBLG` |
-| want | `-P` |
-| need | `-RPG` |
-
-To write a phrase, you just have to combine a pronoun chord and a verb chord. Try some of phrases out!
-
-* `SWR-RPG` I need
-* `SKWHR-RPG` she needs
-* `TWH-P` they want
-* `KPWH-P` it wants
-
-Notice how Jeff's phrasing automatically conjugates the verb by adding an ending "s" where appropriate.
-
-If you want to see all of the possible verbs and ending chords, take a look at [the documentation](https://github.com/jthlim/jeff-phrasing#verbs-and-suffix-words).
-
-#### Past tense verbs
-
-If you want to write a phrase like "I needed", you only need to add the `-D` key to indicate past tense.
-
-* `SWR-RPGD` I needed
-* `SKWHR-RPGD` she needed
-* `TWH-PD` they wanted
-* `KPWH-PD` it wanted
-
-#### Negation
-
-If you want to negate a phrase, use the asterisk key. You can also combine this with the `-D` key.
-
-* `SWR*RPGD` I didn't need
-* `SKWHR*RPG` she doesn't need
-* `TWH*P` they don't want
-* `KPWH*PD` it didn't want
-
-#### Modifier words
-
-You can add in some modifier words in addition to any of the other negation or tense features.
-
-| Modifier word | Chord |
-| ---- | ---- |
-| can | `A` |
-| shall | `O` |
-| will | `AO` |
-
-* `SWRORPGD` I should need
-* `SKWHRAORPG` she will need
-* `TWHO*PD` they shouldn't want
-* `KPWHOP` it shall want
-
-### Advance usage
-
-[The documentation](https://github.com/jthlim/jeff-phrasing) lists out a lot more features that I have not outlined in this page. I definitely recommend you keep it bookmarked if you want to learn this system. However, I myself have only learned what I have listed on this page plus a few more ending chords and I still find this system incredibly useful. If I get the time to learn the other features, I will update this page.
+The easiest way to learn briefs is just by looking them up with Plover's lookup tool. Whenever you feel like a word or phrase should be briefed, just look it up! Some people also like to learn briefs using [Anki](https://github.com/openstenoproject/plover/wiki/Using-Anki-for-Learning-Stenography) and plugins like plover-clippy-2.
