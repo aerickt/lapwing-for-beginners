@@ -24,7 +24,7 @@ The following table lists several common punctuation marks along with the name, 
 
 | Character | Name | Formatting | Steno outline | Mnemonic |
 | ---- | ---- | ---- | ---- | ---- |
-| <code class="code-mono">.</code>  | Period | Attaches to the previous word and capitalizes the next word. | `TP-PL` | Written by the top index and middle finger on both hands. |
+| <code class="code-mono">.</code>  | Period | Attaches to the previous word and capitalizes the next word. | `TP-PL` | Top row ring and middle fingers on both hands. |
 | <code class="code-mono">?</code> | Question mark | Attaches to the previous word and capitalizes the next word. | `KW-PL` | This is like the outline for a period, but the shape resembles a rising intonation as would happen in a question. |
 | <code class="code-mono">!</code> | Exclamation mark | Attaches to the previous word and capitalizes the next word. | `TP-BG` | This is like the period outline, but sloped downwards to mirror the question mark outline.|
 | <code class="code-mono">.</code> | Decimal point | Attaches to the previous word and the next word. | `P-P` | This is like the period outline but is only pressed with the middle fingers. |
