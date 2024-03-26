@@ -81,10 +81,8 @@ prod	PROD
 pref	PREF
 prep	PREP
 press	PRES
-shrill	SHREUL
 shrub	SHRUB
 throb	THROB
-thrill	THREUL
 threat	THRET
 thread	THRED
 
