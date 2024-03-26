@@ -132,7 +132,6 @@ hush	HURB
 rash	RARB
 rush	RURB
 ash	ARB
-starddch	STRAFRPB
 staunch	STAUFRPB
 starch	STAFRPB
 stench	STEFRPB
