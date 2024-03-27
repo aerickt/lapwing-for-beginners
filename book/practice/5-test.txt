@@ -46,7 +46,6 @@ hig	HEUG
 hit	HEUT
 his	HEUS
 hid	HEUD
-hiss	HEUZ
 riff	REUF
 rip	REUP
 rib	REUB
