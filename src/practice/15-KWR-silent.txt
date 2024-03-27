@@ -62,6 +62,5 @@ irritate	EUR/KWREU/TAEUT
 interrupt	EUPB/TER/KWRUPT
 inherit	EUPB/HER/KWREUT
 immense	EUPL/KWREPBS
-illusion	EUL/KWRAOUGS
 ignorance	EUG/TPHOR/KWRAPBS
 exasperate	EBG/SAS/PER/KWRAEUT
