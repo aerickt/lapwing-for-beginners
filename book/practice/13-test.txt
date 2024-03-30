@@ -62,7 +62,6 @@ phony	TPO*EPB/KWREU
 nosy	TPHOES/KWREU
 knotty	TPHO*T/KWREU
 hoggy	HOG/KWREU
-giddy	TKPWEUD/KWREU
 vaguely	SRAEUG/HREU
 wimpy	W*EUPL/KWREU
 quickly	KWEUBG/HREU
