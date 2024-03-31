@@ -80,7 +80,6 @@ cape	KAEUP
 kale	KAEUL
 case	KAEUS
 blare	PWHRAEUR
-blase	PWHRAEUS
 blade	PWHRAEUD
 blaze	PWHRAEUZ
 braille	PWRAEUL
