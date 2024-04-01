@@ -389,7 +389,9 @@ Useful in phrases like `TK-T` "did the" and `TKU` "did you".
 `WHAOU` is the word "whew".
 
 ### over
-**Write-out: `OE/SRER`**
+**Brief: `AUFR`**
+
+`OEFR` is the prefix and `AU` is an easy to press alternative chord.
 
 ### know
 **Write-out: `TPHOE`**
