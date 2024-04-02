@@ -730,7 +730,9 @@ If you feel that "lite" should be written `HRAOEUT`, feel free to swap these aro
 **Write-out: `KAOEUPBD`**
 
 ### off
-**Write-out: `OF`**
+**Brief: `AUF`**
+
+`OF` is the prefix.
 
 ### need
 **Write-out: `TPHAOED`**
