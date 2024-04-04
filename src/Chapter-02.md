@@ -16,7 +16,7 @@ That being said, the first steno board I ever used was an NKRO keyboard that I b
 
 If you do choose to use a regular keyboard for learning steno, make sure you know where the correct key positions are. I'd recommend printing out or keeping a graphic like this handy:
 
-![steno keys on QWERTY layout](https://cdn.discordapp.com/attachments/136953735426473984/856464615469875200/Keyboard_Mapping.png)
+![steno keys on QWERTY layout](img/2-keyboard_mapping.png)
 
 If possible, I would also recommend flipping the top row of keycaps to bring the top row a little closer to the bottom row. This helps a lot with pressing two keys vertically:
 
