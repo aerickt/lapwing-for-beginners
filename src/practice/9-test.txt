@@ -34,7 +34,6 @@ scram	SKRAPL
 scrim	SKREUPL
 scrum	SKRUPL
 scheme	SKAOEPL
-scalp	SKAUPL
 scam	SKAPL
 skim	SKEUPL
 scum	SKUPL
