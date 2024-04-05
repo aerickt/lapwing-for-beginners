@@ -6,7 +6,7 @@ If any change is made directly to a Lapwing dictionary, Plover will change all e
 
 ## Install required plugins
 
-See the Plover wiki page on [installing plugins](https://github.com/openstenoproject/plover/wiki/installing-plugins) for instructions. Install the following plugins:
+See the Plover wiki page on [installing plugins](https://plover.wiki/index.php/Plugins#How_to_Install_Plugins) for instructions. Install the following plugins:
 
 * <code class="code-mono">plover-dict-commands</code>
 * <code class="code-mono">plover-last-translation</code>

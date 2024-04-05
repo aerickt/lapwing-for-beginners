@@ -4,7 +4,7 @@ Steno is unlike alternative keyboard layouts that can easily be switched in your
 
 ## Steno hardware
 
-I would highly recommend purchasing a *steno keyboard* before starting to learn steno. Any of the ones listed on the [supported hardware wiki page](https://github.com/openstenoproject/plover/wiki/Supported-Hardware#commercially-available-hobbyist-machines) are really good; they will work for many years as you get faster.
+I would highly recommend purchasing a *steno keyboard* before starting to learn steno. Any of the ones listed on the [supported hardware wiki page](https://plover.wiki/index.php/Supported_Hardware#Commercially_Available_Hobbyist_Machines) are really good; they will work for many years as you get faster.
 
 $100 is a little steep for a simple keyboard, but that is unfortunately the price point for custom keyboards which don't see much demand.
 
@@ -28,4 +28,4 @@ It is definitely possible to learn theory with a regular keyboard (even one that
 
 This series requires you to use *Plover*; a free and open source steno engine available on Linux, macOS, and Windows. Follow the instructions in the Plover wiki (link below) to set up the app and your machine. If you are using a QWERTY keyboard, make sure to read over the page and the relevant sections.
 
-### [Beginner's Guide to Plover](https://github.com/openstenoproject/plover/wiki/Beginner's-Guide:-Get-Started-with-Plover#connect-a-compatible-keyboard-or-stenography-machine)
+### [Beginner's Guide to Plover](https://plover.wiki/index.php/Beginner%27s_Guide)

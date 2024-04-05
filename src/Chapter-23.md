@@ -95,4 +95,4 @@ Many of these might seem quite arbitrary, but that's only because the you have n
 
 #### How to learn briefs
 
-The easiest way to learn briefs is just by looking them up with Plover's lookup tool. Whenever you feel like a word or phrase should be briefed, just look it up! Some people also like to learn briefs using [Anki](https://github.com/openstenoproject/plover/wiki/Using-Anki-for-Learning-Stenography) and plugins like plover-clippy-2.
+The easiest way to learn briefs is just by looking them up with Plover's lookup tool. Whenever you feel like a word or phrase should be briefed, just look it up! Some people also like to learn briefs using [Anki](https://plover.wiki/index.php/Using_Anki_for_Learning_Stenography) and plugins like plover-clippy-2.

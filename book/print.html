@@ -280,7 +280,7 @@
 <div style="break-before: page; page-break-before: always;"></div><h1 id="chapter-2-steno-hardware-and-software"><a class="header" href="#chapter-2-steno-hardware-and-software">Chapter 2: Steno hardware and software</a></h1>
 <p>Steno is unlike alternative keyboard layouts that can easily be switched in your operating system’s settings. Steno requires specialized hardware and a steno engine that translates the keys you press into the words to be outputted. This chapter will go over both steno keyboards (hardware) and the software required.</p>
 <h2 id="steno-hardware"><a class="header" href="#steno-hardware">Steno hardware</a></h2>
-<p>I would highly recommend purchasing a <em>steno keyboard</em> before starting to learn steno. Any of the ones listed on the <a href="https://github.com/openstenoproject/plover/wiki/Supported-Hardware#commercially-available-hobbyist-machines" title="" target="_blank">supported hardware wiki page</a> are really good; they will work for many years as you get faster.</p>
+<p>I would highly recommend purchasing a <em>steno keyboard</em> before starting to learn steno. Any of the ones listed on the <a href="https://plover.wiki/index.php/Supported_Hardware#Commercially_Available_Hobbyist_Machines" title="" target="_blank">supported hardware wiki page</a> are really good; they will work for many years as you get faster.</p>
 <p>$100 is a little steep for a simple keyboard, but that is unfortunately the price point for custom keyboards which don’t see much demand.</p>
 <p>There are two reasons why specialized keyboards are needed for steno. First of all, regular keyboards have row stagger making it difficult to press two keys at once with the same finger. Second of all, most keyboards lack <em>n-key rollover</em>: the ability to detect multiple simultaneous key presses. Standard keyboards are typically only able to detect two to six key presses at once.</p>
 <p><img src="img/2-key-positions.png" alt="layout finger diagram." /></p>
@@ -292,7 +292,7 @@
 <p>It is definitely possible to learn theory with a regular keyboard (even one that doesn’t support n-key rollover), but it might be frustrating depending on your patience.</p>
 <h2 id="steno-software"><a class="header" href="#steno-software">Steno software</a></h2>
 <p>This series requires you to use <em>Plover</em>; a free and open source steno engine available on Linux, macOS, and Windows. Follow the instructions in the Plover wiki (link below) to set up the app and your machine. If you are using a QWERTY keyboard, make sure to read over the page and the relevant sections.</p>
-<h3 id="beginners-guide-to-plover"><a class="header" href="#beginners-guide-to-plover"><a href="https://github.com/openstenoproject/plover/wiki/Beginner's-Guide:-Get-Started-with-Plover#connect-a-compatible-keyboard-or-stenography-machine" title="" target="_blank">Beginner’s Guide to Plover</a></a></h3>
+<h3 id="beginners-guide-to-plover"><a class="header" href="#beginners-guide-to-plover"><a href="https://plover.wiki/index.php/Beginner%27s_Guide" title="" target="_blank">Beginner’s Guide to Plover</a></a></h3>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="chapter-3-how-to-learn-steno"><a class="header" href="#chapter-3-how-to-learn-steno">Chapter 3: How to learn steno</a></h1>
 <h2 id="steno-is-difficult"><a class="header" href="#steno-is-difficult">Steno is difficult</a></h2>
 <p>Before starting to learn steno, it is important to know that it is not something that can be easily picked up within a week. Personally, it took me about 3 months to achieve a consistent 30 WPM speed. While not nearly as difficult as learning a new language, the difficulty is definitely comparable to something like learning a musical instrument. Learning steno takes a lot of (good) practice and patience. You should not be expecting to double your typing speed in just a month.</p>
@@ -4726,7 +4726,7 @@ src="https://www.youtube.com/embed/qu4zyRqILYM">
 </div>
 <p>Many of these might seem quite arbitrary, but that’s only because the you have not learned some of the techniques yet! Also, the process of memorizing briefs is quite a lot easier than you might think. Compared to, say, learning vocabulary of another language, learning briefs is much easier.</p>
 <h4 id="how-to-learn-briefs"><a class="header" href="#how-to-learn-briefs">How to learn briefs</a></h4>
-<p>The easiest way to learn briefs is just by looking them up with Plover’s lookup tool. Whenever you feel like a word or phrase should be briefed, just look it up! Some people also like to learn briefs using <a href="https://github.com/openstenoproject/plover/wiki/Using-Anki-for-Learning-Stenography" title="" target="_blank">Anki</a> and plugins like plover-clippy-2.</p>
+<p>The easiest way to learn briefs is just by looking them up with Plover’s lookup tool. Whenever you feel like a word or phrase should be briefed, just look it up! Some people also like to learn briefs using <a href="https://plover.wiki/index.php/Using_Anki_for_Learning_Stenography" title="" target="_blank">Anki</a> and plugins like plover-clippy-2.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="chapter-24-phrase-briefs"><a class="header" href="#chapter-24-phrase-briefs">Chapter 24: Phrase briefs</a></h1>
 <h2 id="basic-phrase-briefs"><a class="header" href="#basic-phrase-briefs">Basic phrase briefs</a></h2>
 <p>One word briefs like <code>SKP</code>, <code>T</code>, <code>TPH</code>, and <code>-T</code> can be quite useful especially as they can also be used in phrases.</p>
@@ -5166,7 +5166,7 @@ src="https://www.youtube.com/embed/qu4zyRqILYM">
 <p>This page describes how to manually configure Plover to use Lapwing theory. This is not a recommended method for two reasons: there is a lot of manual work required, and Plover will have a tendency to modify the number key entries, thereby making lookups difficult.</p>
 <p>If any change is made directly to a Lapwing dictionary, Plover will change all entries with the number key so that they contain numbers in the steno strokes (i.e. <code>#PWOB</code> → <code>3W0B</code>). To revert this, you will have to redownload the dictionary and update the dictionary in your stack. Therefore, I would suggest installing the <code class="code-mono">plover-lapwing-aio</code> plugin instead of following the instructions on this page.</p>
 <h2 id="install-required-plugins"><a class="header" href="#install-required-plugins">Install required plugins</a></h2>
-<p>See the Plover wiki page on <a href="https://github.com/openstenoproject/plover/wiki/installing-plugins" title="" target="_blank">installing plugins</a> for instructions. Install the following plugins:</p>
+<p>See the Plover wiki page on <a href="https://plover.wiki/index.php/Plugins#How_to_Install_Plugins" title="" target="_blank">installing plugins</a> for instructions. Install the following plugins:</p>
 <ul>
 <li><code class="code-mono">plover-dict-commands</code></li>
 <li><code class="code-mono">plover-last-translation</code></li>
