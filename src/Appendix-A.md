@@ -45,9 +45,9 @@ I created the initial Lapwing dictionary in early 2022 and have been refining it
 
 ### Using both <code class="code-mono">main.json</code> and <code class="code-mono">lapwing-base.json</code>
 
-Some recommend using both <code class="code-mono">main.json</code> and <code class="code-mono">lapwing-base.json</code> in their dictionary stack. This is a great way to slowly teach yourself Lapwing without giving up all your progress on stock Plover. If you've memorized briefs in `main.json` that aren't in Lapwing, this is also a great way to address this issue should you wish to incorporate aspects of Lapwing theory.
+If you are used to many of the briefs in Plover's default <code class="code-mono">main.json</code> dictionary, you can use this dictionary in conjunction with Lapwing. Both Plover and Lapwing theory are very similar, and you might benefit from having both dictionaries in your stack. Whether you would like to have <code class="code-mono">lapwing-base</code> above or below <code class="code-mono">main.json</code> is up to you; if you'd like to use Lapwing write-outs as a base and keep Plover briefs secondary, make sure Lapwing is higher up in your stack. On the other hand, if you'd like to prioritize Plover briefs, put <code class="code-mono">main.json</code> above Lapwing.
 
-However, compound words in <code class="code-mono">main.json</code> are quite haphazard, so some users recommend using a derivative of <code class="code-mono">main.json</code> with these removed. You can download this dictionary [here](https://raw.githubusercontent.com/StenoHarri/steno-Json-dictionaries/main/Plover_main_without_compound_words.json). Just make sure to keep <code class="code-mono">lapwing-base.json</code> at a higher priority.
+However, <code class="code-mono">main.json</code> has a few issues (mainly compound words) which make it slightly troublesome to use with Lapwing. Therefore, instead of using the stock dictionary, I reccommend using Harri's Lapwing compatible version of <code class="code-mono">[main.json](https://raw.githubusercontent.com/StenoHarri/steno-Json-dictionaries/main/Plover_main_but_Lapwing_compatible.json)</code>.
 
 ## Differences
 
