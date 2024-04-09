@@ -71,7 +71,20 @@ This happens with all of the suffix keys—try out `HAEPD`, `HAEPS`, and `HAEPG`
 
 Using the Plover lookup tool, you can find a lot of entries with folded suffix keys. In fact, you won't find many entries where the suffix keys aren't folded into the previous stroke. Despite this, **it is recommended that you do not fold suffix keys**.
 
-Folding only saves a minuscule amount of time as opposed to pressing the suffix key in a separate stroke. As this technique often requires more finger contortion, it may not even be faster in the end. Furthermore, folding also leads to extra conflicts that are tricky to resolve.
+Folding can lead to conflicts such as:
+
+| Outline | Canonical Word | Folding Conflict |
+| - | - | - |
+| `SAOES` | cease | sees |
+| `KRAEUZ` | craze | crays |
+| `HRAEUZ` | laze | lays |
+| `PHRAEUG` | plague | playing |
+| `RAEUZ` | raise | rays |
+| `SAOEZ` | seize | sees |
+
+While folding can save a stroke for several words, it may not always be faster. Trying to remember any potential conflicts may introduce hesitation; the resulting folded outline may be harder to press (taking longer to stroke); and folding one of these keys may make it easier to accidentally misstroke.
+
+Pressing `-G`, `-S`, `-D`, or `-Z` as a separate stroke is only slightly slower than folding these keys (or just as fast if considering previously mentioned disadvantages). Since `-G`, `-S`, `-D`, or `-Z` are single key strokes, they are quite fast to press. That being said, folding these keys is more of a personal choice and you are more than welcome to try it out.
 
 ### Section practice
 
