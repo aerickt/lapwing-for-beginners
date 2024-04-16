@@ -361,6 +361,18 @@ The Plover's lookup tool can be used to find prefix and suffix strokes not liste
 
 ![looking up "in"](img/13-lookup.png)
 
+## Tailoring your own dictionary to your understanding of etymology
+
+Trying to use affix strokes only when they make sense semantically can be tricky. It is unreasonable to require learning the etymology of every word before one can write it. In some words, it is somewhat obvious when a suffix stroke shouldn't be used, but this should be up to the individual's discretion.
+
+For example, the Lapwing dictionary doesn't view "cop" as the root word of "copper". This is because "cop" refers to a police officer, and "copper" is an element. This reasoning is very obvious to me. However, "copper" has another meaning; [it is also slang for police officer](https://en.m.wiktionary.org/wiki/cop#Etymology_2). "Cop" is simply just a shortened version of "copper". That being said, this usage is not part of my dialect—I have never heard anyone in speech say "copper" to mean police officer. Therefore, I don't consider "cop" and "copper" to be related semantically, and I don't use affix strokes.
+
+> Maybe for you, these two words are very related. In this case, you should definitely add `KOP/*ER` for "copper"! Although, this particular word already works (without being explicitly defined) because of the orthography rules.
+
+It is completely acceptable bend the rules about modifying root words with affixes. It is not necessary to add entries that only follow the "correct etymology". Outlines should be quick to recall. Having to look up origin and history of a word defeats this purpose. Steno is highly personal—one should use their own understanding and intuition.
+
+> **NOTE:** before adding your own entries, I highly encourage you to read past chapter 15. It covers the other method for writing multisyllable words. Most words in the default Lapwing dictionary can be written with this technique, while affix stroke usage tends to be more strict.
+
 ## Chapter 13 test
 
 This chapter's test consists of all the practice drills in this chapter. Make sure your settings are configured as such:
