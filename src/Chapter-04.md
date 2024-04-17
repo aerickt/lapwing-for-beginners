@@ -107,7 +107,7 @@ Clearly some of these mnemonics are rather silly (and also very specific), but t
 
 ### Other drills
 
-If, after a few days, you feel pretty comfortable practising the previous drills, you may want to try other practice material. The other Steno Jig drills are fair game:
+If, after a few days, you feel pretty comfortable practising the [previous drills](#steno-jig), you may want to try other practice material. The [other Steno Jig drills](https://joshuagrams.github.io/steno-jig/learn-keyboard.html) are fair game:
 
 ![](img/4-supplemental-drills.png)
 
