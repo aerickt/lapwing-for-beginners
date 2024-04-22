@@ -179,13 +179,13 @@
 <h1 id="plover-theory"><a class="header" href="#plover-theory">Plover Theory</a></h1>
 <p>Plover theory is a perfectly capable theory. After all, Mirabai Knight, the founder of the Open Steno Project, uses it in her professional work as a stenocaptioner. She has graciously provided her own dictionary (<code class="code-mono">main.json</code>) for us hobbyists to use. As with all professional stenographers, she built the majority of this dictionary by herself, having added many of the entries over the years.</p>
 <p>However, everyone writes differently. In fact, no two stenographers’ dictionaries are ever the same. Many of the entries in <code class="code-mono">main.json</code> are simply what made sense to Mirabai at the time. They do not always follow systematic and rigorous rules. Plover theory itself is not very well defined in some areas; to illustrate this, have a look at all the ways to write “monotonous” in <code class="code-mono">main.json</code>:</p>
-<pre><code>&quot;PHO/TPHOT/TPHOUS&quot;: &quot;monotonous&quot;,
-&quot;PHOE/TPHOT/TPHOUS&quot;: &quot;monotonous&quot;,
-&quot;PHOE/TPHOT/TPHUS&quot;: &quot;monotonous&quot;,
-&quot;PHOPB/OT/TPHOUS&quot;: &quot;monotonous&quot;,
-&quot;PHOPB/OT/TPHUS&quot;: &quot;monotonous&quot;,
-&quot;PHOPB/TOPB/TPHUS&quot;: &quot;monotonous&quot;,
-&quot;PHOPB/TPHOT/TPHOUS&quot;: &quot;monotonous&quot;,
+<pre><code>"PHO/TPHOT/TPHOUS": "monotonous",
+"PHOE/TPHOT/TPHOUS": "monotonous",
+"PHOE/TPHOT/TPHUS": "monotonous",
+"PHOPB/OT/TPHOUS": "monotonous",
+"PHOPB/OT/TPHUS": "monotonous",
+"PHOPB/TOPB/TPHUS": "monotonous",
+"PHOPB/TPHOT/TPHOUS": "monotonous",
 </code></pre>
 <p>There are many different ways to write this word simply because there are no simple rules when it comes to splitting multisyllable words. This would be fine if the dictionary contained every single valid combination, but it doesn’t. After all, it is a very time consuming task to add multiple entries for every single word. In the above example, <code>PHOPB/TPHOT/TPHUS</code> is missing.</p>
 <p>The learning resources such as Learn Plover! and Art of Chording also do not mention any rules about doubling consonants between strokes or about using <code>OUS</code> vs <code>US</code>. While, I can advise against using <code>US</code> from having used <code class="code-mono">main.json</code> for a year, it is much harder for me to give a recommendation when it comes to doubling consonants in multisyllable words. It is just poorly defined, and the dictionary does not contain any easy to recognize patterns.</p>

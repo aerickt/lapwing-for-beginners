@@ -259,15 +259,15 @@
 <h3 id="how-steno-works-from-the-software-side"><a class="header" href="#how-steno-works-from-the-software-side">How steno works from the software side</a></h3>
 <p>The keys pressed in an outline are translated to text that shows up on screen via a <em>steno engine</em>. This is a program on a computer, or is embedded in a keyboard’s firmware. Steno engines use large files called <em>dictionaries</em> that simply contain 1-to-1 translations between steno outlines and their output. This makes steno entirely deterministic and predictable.</p>
 <p>For example, here is one section from Lapwing theory dictionary:</p>
-<pre><code>&quot;TKUR/KWRABLT&quot;: &quot;durability&quot;,
-&quot;TKUR/KWRES&quot;: &quot;duress&quot;,
-&quot;TKUR/KWRUPL&quot;: &quot;durum&quot;,
-&quot;TKUR/PWHREU&quot;: &quot;durably&quot;,
-&quot;TKUR/AEUGS&quot;: &quot;duration&quot;,
-&quot;TKUR/-BL&quot;: &quot;durable&quot;,
-&quot;TKUR/-BLT&quot;: &quot;durability&quot;,
-&quot;TKURPB&quot;: &quot;durn&quot;,
-&quot;TKURBL&quot;: &quot;durable&quot;,
+<pre><code>"TKUR/KWRABLT": "durability",
+"TKUR/KWRES": "duress",
+"TKUR/KWRUPL": "durum",
+"TKUR/PWHREU": "durably",
+"TKUR/AEUGS": "duration",
+"TKUR/-BL": "durable",
+"TKUR/-BLT": "durability",
+"TKURPB": "durn",
+"TKURBL": "durable",
 </code></pre>
 <p>Many steno dictionaries have upwards of hundreds of thousands of <em>entries</em>. It’s important to remember that the majority of these  are predictable as they follow the rules governed in a steno theory. Stenographers don’t simply just memorize every single entry in their dictionary—that would be insane!</p>
 <p>This, however, does bring up the concern of what to do when a word is not defined in a a stenographer’s dictionary. In these cases, there is a technique for letter-by-letter input (called <em>fingerspelling</em>). This technique is rather slow (~40 WPM), but it is not a common occurrence. Furthermore, a good stenographer is expected to add any outlines they find missing according to their theory rules. There is no such thing as a word that is difficult to represent in steno strokes. A good theory will provide a set of rules that makes it very easy to break down a complicated word into simple steno strokes.</p>
@@ -4364,7 +4364,7 @@ src="https://www.youtube.com/embed/qu4zyRqILYM">
 <h3 id="examples-40"><a class="header" href="#examples-40">Examples</a></h3>
 <ul>
 <li>aetiology <code>AET/KWROLG</code></li>
-<li>encyclopaedia <code>EPB/SAOEU/KHROE/PAE/TKEU/KWRA</code> </li>
+<li>encyclopaedia <code>EPB/SAOEU/KHROE/PAE/TKEU/KWRA</code></li>
 <li>haemoglobin <code>HAE/PHOE/TKPWHROE/PWEUPB</code></li>
 <li>leukaemia <code>HRAOU/KAEPL/KWRA</code></li>
 </ul>
@@ -4729,7 +4729,7 @@ src="https://www.youtube.com/embed/qu4zyRqILYM">
 <p>You can then gradually increase the tempo of the metronome until you find your maximum stroke speed. For me, I find this to be where going any faster results in a drop in accuracy. Three to four strokes per second (180 to 240 BPM) is quite fast and adequate for most hobbyists, though professional stenographers often reach five.</p>
 <p>Some people have also found listening to music and stroking on beat quite effective. If you’re familiar with subdivision, you could get some effective practice even from slow songs.</p>
 <h3 id="learning-briefs"><a class="header" href="#learning-briefs">Learning briefs</a></h3>
-<p>The other way of writing faster is by learning briefs. These abbreviated outlines are very nice because they allow you to increase your speed without having to move your fingers any quicker—you just have to be able to remember them! Obviously, it’s impossible to learn a brief for every single word, so how do you decide when you want to learn a brief? </p>
+<p>The other way of writing faster is by learning briefs. These abbreviated outlines are very nice because they allow you to increase your speed without having to move your fingers any quicker—you just have to be able to remember them! Obviously, it’s impossible to learn a brief for every single word, so how do you decide when you want to learn a brief?</p>
 <p>This is highly personal, but I think a good starting point is whenever you run into a word that is awkward to write. To me, this includes words that have long outlines requiring your fingers to move a lot.</p>
 <p>Here are some of the briefs I used in the last paragraph:</p>
 <div class="table-wrapper"><table><thead><tr><th>Translation</th><th>Brief</th><th>Mnemonic</th></tr></thead><tbody>
@@ -4990,7 +4990,7 @@ src="https://www.youtube.com/embed/qu4zyRqILYM">
 <h4 id="ecosteno-multisteno-splitography-uni-v3"><a class="header" href="#ecosteno-multisteno-splitography-uni-v3">Ecosteno, Multisteno, Splitography, Uni v3</a></h4>
 <p>For these keyboards, prebuilt firmware binaries for these mods are available at Josh Gram’s <a href="https://github.com/JoshuaGrams/steno-firmware" title="" target="_blank">steno-firmware</a> repository.</p>
 <p>Flashing these firmware files are beyond the scope of this page, and instructions differ from keyboard to keyboard and machine to machine. On Linux, flashing the Multisteno is relatively straightforward as long as <code class="code-mono">dfu-util</code> is installed. I use the following command (where <code class="code-mono">noll_multisteno.bin</code> is the binary):</p>
-<pre><code>sudo dfu-util -d 1eaf:0003 -a 2 -D &quot;noll_multisteno.bin&quot;
+<pre><code>sudo dfu-util -d 1eaf:0003 -a 2 -D "noll_multisteno.bin"
 </code></pre>
 <h4 id="javelin-compatible-devices"><a class="header" href="#javelin-compatible-devices">Javelin compatible devices</a></h4>
 <p><a href="https://lim.au/#/software/javelin-steno" title="" target="_blank">Javelin</a> is a steno engine that is contained within a keyboard’s firmware. This allows the keyboard to act a steno writer without having to install Plover on the host machine. It is very useful for using steno on multiple devices without having to worry about installing Plover or syncing dictionaries; the entirety of the translation from steno strokes to text happens on the keyboard itself.</p>
@@ -5009,13 +5009,13 @@ src="https://www.youtube.com/embed/qu4zyRqILYM">
 <h1 id="plover-theory"><a class="header" href="#plover-theory">Plover Theory</a></h1>
 <p>Plover theory is a perfectly capable theory. After all, Mirabai Knight, the founder of the Open Steno Project, uses it in her professional work as a stenocaptioner. She has graciously provided her own dictionary (<code class="code-mono">main.json</code>) for us hobbyists to use. As with all professional stenographers, she built the majority of this dictionary by herself, having added many of the entries over the years.</p>
 <p>However, everyone writes differently. In fact, no two stenographers’ dictionaries are ever the same. Many of the entries in <code class="code-mono">main.json</code> are simply what made sense to Mirabai at the time. They do not always follow systematic and rigorous rules. Plover theory itself is not very well defined in some areas; to illustrate this, have a look at all the ways to write “monotonous” in <code class="code-mono">main.json</code>:</p>
-<pre><code>&quot;PHO/TPHOT/TPHOUS&quot;: &quot;monotonous&quot;,
-&quot;PHOE/TPHOT/TPHOUS&quot;: &quot;monotonous&quot;,
-&quot;PHOE/TPHOT/TPHUS&quot;: &quot;monotonous&quot;,
-&quot;PHOPB/OT/TPHOUS&quot;: &quot;monotonous&quot;,
-&quot;PHOPB/OT/TPHUS&quot;: &quot;monotonous&quot;,
-&quot;PHOPB/TOPB/TPHUS&quot;: &quot;monotonous&quot;,
-&quot;PHOPB/TPHOT/TPHOUS&quot;: &quot;monotonous&quot;,
+<pre><code>"PHO/TPHOT/TPHOUS": "monotonous",
+"PHOE/TPHOT/TPHOUS": "monotonous",
+"PHOE/TPHOT/TPHUS": "monotonous",
+"PHOPB/OT/TPHOUS": "monotonous",
+"PHOPB/OT/TPHUS": "monotonous",
+"PHOPB/TOPB/TPHUS": "monotonous",
+"PHOPB/TPHOT/TPHOUS": "monotonous",
 </code></pre>
 <p>There are many different ways to write this word simply because there are no simple rules when it comes to splitting multisyllable words. This would be fine if the dictionary contained every single valid combination, but it doesn’t. After all, it is a very time consuming task to add multiple entries for every single word. In the above example, <code>PHOPB/TPHOT/TPHUS</code> is missing.</p>
 <p>The learning resources such as Learn Plover! and Art of Chording also do not mention any rules about doubling consonants between strokes or about using <code>OUS</code> vs <code>US</code>. While, I can advise against using <code>US</code> from having used <code class="code-mono">main.json</code> for a year, it is much harder for me to give a recommendation when it comes to doubling consonants in multisyllable words. It is just poorly defined, and the dictionary does not contain any easy to recognize patterns.</p>
@@ -5299,7 +5299,7 @@ src="https://www.youtube.com/embed/qu4zyRqILYM">
 <h2 id="steno-writer"><a class="header" href="#steno-writer">steno writer</a></h2>
 <p>Any stenographic input device.</p>
 <h2 id="steno-order-1"><a class="header" href="#steno-order-1">steno order</a></h2>
-<p>The order in which sounds should fall on </p>
+<p>The order in which sounds should fall on</p>
 <h2 id="stroke"><a class="header" href="#stroke">stroke</a></h2>
 <p>Synonymous with chord as a noun; can also be used as a verb to describe the action of pressing a chord.</p>
 <h2 id="affix-stroke"><a class="header" href="#affix-stroke">affix stroke</a></h2>

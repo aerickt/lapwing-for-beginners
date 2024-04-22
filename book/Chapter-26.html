@@ -271,7 +271,7 @@
 <h4 id="ecosteno-multisteno-splitography-uni-v3"><a class="header" href="#ecosteno-multisteno-splitography-uni-v3">Ecosteno, Multisteno, Splitography, Uni v3</a></h4>
 <p>For these keyboards, prebuilt firmware binaries for these mods are available at Josh Gram’s <a href="https://github.com/JoshuaGrams/steno-firmware" title="" target="_blank">steno-firmware</a> repository.</p>
 <p>Flashing these firmware files are beyond the scope of this page, and instructions differ from keyboard to keyboard and machine to machine. On Linux, flashing the Multisteno is relatively straightforward as long as <code class="code-mono">dfu-util</code> is installed. I use the following command (where <code class="code-mono">noll_multisteno.bin</code> is the binary):</p>
-<pre><code>sudo dfu-util -d 1eaf:0003 -a 2 -D &quot;noll_multisteno.bin&quot;
+<pre><code>sudo dfu-util -d 1eaf:0003 -a 2 -D "noll_multisteno.bin"
 </code></pre>
 <h4 id="javelin-compatible-devices"><a class="header" href="#javelin-compatible-devices">Javelin compatible devices</a></h4>
 <p><a href="https://lim.au/#/software/javelin-steno" title="" target="_blank">Javelin</a> is a steno engine that is contained within a keyboard’s firmware. This allows the keyboard to act a steno writer without having to install Plover on the host machine. It is very useful for using steno on multiple devices without having to worry about installing Plover or syncing dictionaries; the entirety of the translation from steno strokes to text happens on the keyboard itself.</p>
