@@ -107,14 +107,12 @@ pail	PAEUL
 pate	PAEUT
 pace	PAEUS
 paid	PAEUD
-whale	WHAEUL
 waif	WAEUF
 ware	WAEUR
 wabe	WAEUB
 wail	WAEUL
 wait	WAEUT
 wade	WAEUD
-labor	HRAEUB
 late	HRAEUT
 lace	HRAEUS
 laid	HRAEUD
