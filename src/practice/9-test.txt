@@ -251,7 +251,6 @@ book	PWAOBG
 bake	PWAEUBG
 beam	PWAEPL
 balm	PWAUPL
-balk	PWAUBG
 bam	PWAPL
 back	PWABG
 bomb	PWOPL
@@ -338,7 +337,6 @@ huck	HUBG
 rhyme	RAOEUPL
 ream	RAOEPL
 reek	RAOEBG
-resume	RAOUPL
 room	RAOPL
 rook	RAOBG
 rake	RAEUBG
