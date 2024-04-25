@@ -23,6 +23,10 @@ All the techniques covered up until this point will allow writing almost any wor
 
 Instead of relying entirely on finger speed, steno outlines can be shortened. This is done through various techniques that either compress more sounds into each stroke, or drop unnecessary sounds altogether. Shortening techniques are not applicable to any arbitrary word (nor are they entirely conflict free), but they can still be extremely helpful for whole families of words. The techniques listed on this page are low in conflicts and it may also be the case that some words cannot be written without one or more of these techniques. It is very recommended to learn these.
 
+Keep in mind, however, that several of the outlines listed on this page may not be in the default Lapwing dictionary. Many of the outlines are suggestions and examples of how these techniques can be used.
+
+> As you build speed and proficiency with steno, you'll want to tailor your dictionary to how you write. It is very crucial to become comfortable with adding to your dictionary, especially if you decide to use these shortening techniques very heavily. Adding entries that use these techniques is completely normal and to be expected.
+
 ## Useful links
 
 
@@ -54,7 +58,7 @@ Folding `-R` into a stroke can add an ending "r" sound like in the following exa
 Some outlines using this technique would conflict with preexisting words (e.g., `TARP` for "tarp" or "tapper"). In cases where `A` is the vowel, `AE` can be used as an alternative vowel chord.
 
 - hammer `HAERPL` = `HAPL` + `ER`
-- tapper `TAERP` = `HAPL` + `ER`
+- tapper `TAERP` = `TAP` + `ER`
 
 > R-folding is **high in conflicts for single stroke outlines** but **low in conflicts for multistroke outlines**. It is safe to use this technique for ending multistroke words.
 
@@ -100,7 +104,7 @@ A *long e* /i/ vowel at the end of a word can be represented by folding the `E` 
 - crumbly `KRUPL/EBL` = `KRUPL/-BL` + `E`
 - humbly `HUPL/EBL` = `HUPL/-BL` + `E`
 - numerically `TPHAOU/PHER/KAEL` = `TPHAOU/PHER/KAL` + `E`
-- symbolically `SOPL/PWOL/KAEL` = `SEUPL/PWOL/KAL` + `E`
+- symbolically `SEUPL/PWOL/KAEL` = `SEUPL/PWOL/KAL` + `E`
 - carefully `KAEUR/EFL` = `KAEUR/-FL` + `E`
 - dreadfully `TKRED/EFL` = `TKRED/-FL` + `E`
 - happy `HAEP` = `HAP` + `E`
@@ -110,7 +114,7 @@ A *long e* /i/ vowel at the end of a word can be represented by folding the `E` 
 
 ### E-folding with `AEU`
 
-Instead of writing two strokes for words ending in "-ary", `...AER` can represent this sound in one stroke:
+Words like "carry" would normally be written like `KAEUR/KWREU`. The ending *long e* sound can't be represented with E-folding normally, since the previous stroke already contains the `E` key. Instead, `AER` can be used to represent this sound in one stroke.
 
 - carry `KAER`
 - estuary `ES/KHAOU/KWRAER`
@@ -282,7 +286,7 @@ However, it is not possible to include the "n" two times on the right side of th
 
 ### Practice material
 
-* [Dropping unstressed vowels with folding drill](17-unstressed-folding.txt)
+* [Dropping unstressed vowels with folding drill](practice/17-unstressed-folding.txt)
 
 ## Inversions
 

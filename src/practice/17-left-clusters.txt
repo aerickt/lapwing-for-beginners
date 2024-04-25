@@ -81,7 +81,6 @@ dispute	STKPAOUT
 decision	STKEUGS
 disturb	STKURB
 deceit	STKAOET
-dissent	STKEPBT
 dismay	STKPHAEU
 disappoint	STKPOEUPBT
 disappear	STKPAOER
