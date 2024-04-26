@@ -48,7 +48,6 @@ soups	SAOUP/-Z
 pears	PAER/-Z
 glands	TKPWHRAPBD/-Z
 pitched	PEUFP/-D
-singed	SAOEPBG/-D
 skis	SKEU/-Z
 washes	WAURB/-Z
 hearings	HAER/-G/-Z
