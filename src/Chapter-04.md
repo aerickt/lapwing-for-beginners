@@ -141,9 +141,7 @@ Select "Shuffle words" and make sure your dictionaries are also unchecked just l
 
 This is only a suggestion; it is not a requirement to move to the next chapter!
 
-**You should be able to complete this test in 15 minutes or fewer with an accuracy of at least 90%.**
-
-This bar for completion is quite high, relatively speaking. However, do keep in mind that spending a week or more on the layout is recommended! It is very important that you internalize the layout as much as possible.
+**You should be able to complete this test in 7 minutes or fewer with an accuracy of at least 90%.**
 
 ### Extra practice
 
