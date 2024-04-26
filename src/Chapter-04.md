@@ -126,7 +126,7 @@ For this test, we will also be using Steno Jig. This time, we will be making a c
 Copy and paste the following into the text box:
 
 ```
-SAF SAR SAP SAB SAL SAG SAT SAS SAD SAZ SOF SOR SOP SOB SOL SOG SOT SOS SOD SOZ SEF SER SEP SEB SEL SEG SET SES SED SEZ SUF SUR SUP SUB SUL SUG SUT SUS SUD SUZ TAF TAR TAP TAB TAL TAG TAT TAS TAD TAZ TOF TOR TOP TOB TOL TOG TOT TOS TOD TOZ TEF TER TEP TEB TEL TEG TET TES TED TEZ TUF TUR TUP TUB TUL TUG TUT TUS TUD TUZ KAF KAR KAP KAB KAL KAG KAT KAS KAD KAZ KOF KOR KOP KOB KOL KOG KOT KOS KOD KOZ KEF KER KEP KEB KEL KEG KET KES KED KEZ KUF KUR KUP KUB KUL KUG KUT KUS KUD KUZ PAF PAR PAP PAB PAL PAG PAT PAS PAD PAZ POF POR POP POB POL POG POT POS POD POZ PEF PER PEP PEB PEL PEG PET PES PED PEZ PUF PUR PUP PUB PUL PUG PUT PUS PUD PUZ WAF WAR WAP WAB WAL WAG WAT WAS WAD WAZ WOF WOR WOP WOB WOL WOG WOT WOS WOD WOZ WEF WER WEP WEB WEL WEG WET WES WED WEZ WUF WUR WUP WUB WUL WUG WUT WUS WUD WUZ HAF HAR HAP HAB HAL HAG HAT HAS HAD HAZ HOF HOR HOP HOB HOL HOG HOT HOS HOD HOZ HEF HER HEP HEB HEL HEG HET HES HED HEZ HUF HUR HUP HUB HUL HUG HUT HUS HUD HUZ RAF RAR RAP RAB RAL RAG RAT RAS RAD RAZ ROF ROR ROP ROB ROL ROG ROT ROS ROD ROZ REF RER REP REB REL REG RET RES RED REZ RUF RUR RUP RUB RUL RUG RUT RUS RUD RUZ
+SAP HUD SOG TOD WET POG ROD KUS PEB ROR WEZ WEL TER TAT WEF KAB WES SAP TAS RET TAD PEP SEB KOF TUZ PEF HEL PUB RAT WAF TAB RAS HUP WUP PEZ SOF HUR PUZ SOB POT KED WUD SAG RAP RAL ROL WOZ KAD KAT KOB RAD TAR SAL ROF SOR WOT HUF TUR KAF HOR SOD KOT SEF RED HAP PAP KEG KOZ TUS SOZ TAG HAS TAF HES HOL WUR TEB HAB HER PER TOP HAZ POL WOS HOP SUT TOR REL PAT SER WUS PUP KAG POD SUB HED SAB SUL TEF SOL
 ```
 
 This test is a little different to previous drills in that you are writing entire strokes rather than single keys. Consonants on the left side of a vowel should be pressed with the left hand, and consonants on the right side should be pressed with the right hand. So `SAP` would be written like:
@@ -137,7 +137,7 @@ This test is a little different to previous drills in that you are writing entir
 
 Select "Shuffle words" and make sure your dictionaries are also unchecked just like in previous drills. Once you have done so, you are ready to go!
 
-#### Recommended completion goal
+### Recommended completion goal
 
 This is only a suggestion; it is not a requirement to move to the next chapter!
 
@@ -145,4 +145,12 @@ This is only a suggestion; it is not a requirement to move to the next chapter!
 
 This bar for completion is quite high, relatively speaking. However, do keep in mind that spending a week or more on the layout is recommended! It is very important that you internalize the layout as much as possible.
 
-**You are encouraged to use this test material as practice!**
+### Extra practice
+
+```
+KEP SAT TEP REF PUT KUR RAB KUF RAG WUT KUB ROB TUF TOT WUL WUF KEZ ROT KAZ KEF RUT PUG RAF SUR REP TUD TOS SEZ SUD KUL KAP TOZ ROZ PAB KUT PUS KOD RUG TED HOT SAS HAG HEZ SUZ WAT KUP HAT PAL HOZ POS PAD PUR KOR PAZ TEZ REZ ROS KUZ WOL TUP HUG HOB HAR RER TOG REG TUB HUL PAR TOF WUZ PUL HEG POR RUL SEL TOB KER HOF SUF RUF WUG WER RUR SAD SOT TUG REB SES HAD HOG KEB POP TES KOG HUZ KAS SAF HEB
+```
+
+```
+TEL KOL POB KUD HAL TUT ROP WAD WAL TAP RES SEG WOG RUB WOP PUD WAG PED WAS PUF HET KOS WEP HOS KAR SOP RUD KOP TET HUS TOL PET HAF HEF SAZ WAR SEP SUG TUL RUP KET WOF KEL SOS HOD RAZ PES KAL WAB SUS HEP WEG SUP PEG HUB WOD KES PAF SAR PEL WEB TEG SET WOB PAS POF RAR WOR WUB POZ ROG HUT WAZ WED KUG TAZ SED RUZ TAL RUS WAP PAG
+```
