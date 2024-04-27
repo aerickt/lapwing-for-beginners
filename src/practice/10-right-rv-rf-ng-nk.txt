@@ -62,7 +62,6 @@ tinge	TEUPBG
 tung	TUPBG
 young	KWR*UPBG
 clang	KHRAPBG
-cloning	KHROEPBG
 cling	KHREUPBG
 clung	KHRUPBG
 change	KHAEUPBG

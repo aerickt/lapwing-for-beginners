@@ -213,7 +213,6 @@ sludge	SHRUPBLG
 siege	SAOEPBLG
 sage	SAEUPBLG
 sadge	SAPBLG
-single	SEUPBLG
 sedge	SEPBLG
 grudge	TKPWRUPBLG
 gauge	TKPWAEUPBLG

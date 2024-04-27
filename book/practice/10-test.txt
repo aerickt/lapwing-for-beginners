@@ -392,7 +392,6 @@ sludge	SHRUPBLG
 siege	SAOEPBLG
 sage	SAEUPBLG
 sadge	SAPBLG
-single	SEUPBLG
 sedge	SEPBLG
 grudge	TKPWRUPBLG
 gauge	TKPWAEUPBLG
@@ -492,7 +491,6 @@ tinge	TEUPBG
 tung	TUPBG
 young	KWR*UPBG
 clang	KHRAPBG
-cloning	KHROEPBG
 cling	KHREUPBG
 clung	KHRUPBG
 change	KHAEUPBG
