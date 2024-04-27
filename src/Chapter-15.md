@@ -142,26 +142,20 @@ Sometimes it is not possible to start a stroke with a consonant. In these cases,
 
 ### `KWR` with the `-R` key
 
-In single syllable words, the inclusion of the `-R` key can sometimes change the pronunciation of the vowel.
+In North American English, the letter "r" sometimes alters the sound of the vowel such as in the following examples:
 
-In the list below, notice how each pair of words has a different vowel sound due to the presence of the `-R` key.
-
-* car `KAR`
-* cat `KAT`
-* pay `PAEU`
-* pair `PAEUR`
-* cue `KAOU`
-* cure `KAOUR`
-* hem `HEPL`
-* her `HER`
+| | |
+| - | - |
+| car `KAR` | cat `KAT` |
+| pay `PAEU` | pair `PAEUR` |
+| cue `KAOU` | cure `KAOUR` |
+| hem `HEPL` | her `HER` |
 
 <video controls>
 <source src="img/15-pronunciations-1.mp4" type="video/mp4">
 </video>
 
-In multistroke words, we also treat `-R` as a quasi-vowel key when appropriate.
-
-For example, the word "carry" would be written in two strokes. As the vowel sound must be preserved, the `-R` key must be included in the first stroke: `KAEUR`. To start the next stroke, the "r" consonant cannot be repeated by using the left hand `R` key, so  `KWR` is used as a silent linker.
+When this occurs in multistroke words, treat the `-R` key as a vowel that is included in the previous stroke. Since the next stroke cannot start with `R`, use `KWR`.
 
 #### Examples
 * carry `KAEUR/KWREU`
@@ -177,7 +171,7 @@ For example, the word "carry" would be written in two strokes. As the vowel soun
 
 The examples above all end in the *long e* sound (/i/) as in "tee"—so why `EU`? Well, to be quite honest, I'm not entirely sure myself. This is simply what Plover theory sometimes does and it's just what I've gotten used to. This does, unfortunately, mean that Lapwing theory has inherited the quirk.
 
-That being said, the usage of `EU` vs `AOE` is more defined in Lapwing theory and is less arbitrary. If a word has a *long e* sound, use the rules to decide between `EU` and `AOE`:
+That being said, the usage of `EU` vs `AOE` is more defined in Lapwing theory and is less arbitrary. If a word has a *long e* sound, use these rules to decide between `EU` and `AOE`:
 
 1. If the vowel is spelled with a single "i", use `EU`
    - petite `PE/TEUT`
@@ -192,6 +186,17 @@ That being said, the usage of `EU` vs `AOE` is more defined in Lapwing theory an
    - spleen `SPHRAOEPB`
    - here `HAOER`
    - hear `HAER`
+
+#### Exceptions
+
+For words that treat "r" as a consonant, it is acceptable (and sometimes the only way in the default Lapwing dictionary) to split the word before the "r" letter.
+
+* arose `A/ROES`
+* derive `TKE/RAOEUF`
+* prerogative `PRE/RO/TKPWA/TEUF`
+* reroute `RE/RAOUT`
+
+> If you are having trouble with these exceptions, a good rule of thumb is to treat "r" as a consonant if it is preceded by a prefix stroke. This is not always 100% accurate, but it can be helpful if you are having trouble with these quirks of North American English.
 
 #### Prefix vowel exceptions
 
