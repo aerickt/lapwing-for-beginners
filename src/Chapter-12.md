@@ -143,6 +143,15 @@ There are only a handful of words in English that end in "-xt" and only two that
 * text `TEGT`
 * next `TPHEGT`
 
+## Conflicts between chords and individual keys
+
+Some groups of words like "slug" and "shrug" would normally be given the same steno outline without any additional rules: `SHRUG`. In this case, the `HR` chord can either represent "l" or "hr"—Lapwing generally assigns lower priority to the word where the keys match one to one with the letters. The asterisk is used to different between the two:
+
+- slug `SHRUG`
+- shrug `SHR*UG`
+
+> **NOTE:** you may occasionally run into inconsistencies in the default dictionary that contradict this rule. If you spot any, please let me know! However, do keep in mind that you're at a stage where you should be tailoring your own dictionary. If you'd like to change this rule and switch around the priorities, go for it!
+
 ## No test this chapter!
 
 ## Chapter briefs

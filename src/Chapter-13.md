@@ -297,18 +297,22 @@ One such circumstance where `EU` represents the *long e* sound is in the followi
 | `KWREU` | ^y | `KRAEUZ/KWREU` | crazy |
 | `HREU` | ^ly | `TPEURPL/HREU` | firmly |
 
-**Use these suffixes only to modify a root word. Ensure that the root word relates to the full word semantically.**
+**Use these suffixes only to modify a root word.**
+
+> Remember to not double consonants between strokes. If you are writing a word that already ends in "l", use `KWREU` instead of `HREU` (see "hilly" example below).
 
 #### Examples of correct usage
 
 * chatty `KHAT/KWREU`
-* earthy `*ERT/KWREU`
+* hilly `HEUL/KWREU`
 * freely `TPRAOE/HREU`
 * mostly `PHOEFT/HREU`
 
 #### Examples of incorrect usage
 * city `SEUT/KWREU` ❌
   - This would be "sitty"
+* hilly `HEUL/HREU` ❌
+  - Cannot double the "l"
 * lily `HREUL/KWREU` ❌
   - "lil" is not the root word of "lily"
 

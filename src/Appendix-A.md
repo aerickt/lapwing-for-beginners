@@ -81,21 +81,21 @@ Note that this only applies to words that are spelled with a y. Words spelled wi
 
 ### `TP*` for ph
 
-Use `TP*` for the initial "ph" consonant.
+Use `TP*` for the left hand "ph" consonant.
 
 - phone `TPO*EPB`
-- photo `TPO*E/TOE`
+- morphology `PHOR/TPO*/HRO/SKWREU`
 
 ### `WR` for wr
 
-Use `WR` for the initial "wr" consonant.
+Use `WR` for the left hand "wr" consonant.
 
 - wrap `WRAP`
 - write `WRAOEUT`
 
 ### `WH` for wh
 
-Use `WH` for the initial "wh-" consonant.
+Use `WH` for the left hand "wh-" consonant.
 
 - when `WHEPB`
 - white `WHAOEUT`
