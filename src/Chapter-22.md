@@ -305,6 +305,7 @@ This table contains words that don't quite follow main theory principles.
 
 | Word | Recommended outline | Explanation |
 | ---- | ---- | ---- |
+| alt | `ALT` | `AULT` is the canonical outline, but "all the" is a more useful phrase and is given priority. |
 | cache | `KAERB` | `KARB` and `KA*RB` are both already used as "cash" and "carb" so the `E` key is used to disambiguate. |
 | fore | `TPOER` | `TPOR` and `TPO*R` are already used so we use the `E` as a disambiguation key. |
 | herein | `HAOER/KWREUPB` or `HAOERPB` | It's not recommended to treat this as a compound word as it would use a fingerspelling stroke: `HAOER/TPH*`.
