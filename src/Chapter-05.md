@@ -5,14 +5,15 @@
 **Recommended time to spend on this chapter: 2–5 days.**
 
 1. Set up [Lapwing](#lapwing-setup) (**5 minutes**)
-2. Familiarize yourself with [Typey Type](#typey-type) (**5 minutes**)
+1. Familiarize yourself with [Typey Type](#typey-type) (**5 minutes**)
    * Play around with various settings if you'd like
-3. Read [Basic phonetics—single syllable words](#basic-phoneticssingle-syllable-words) and complete the drill (**20 minutes**)
-   * Repeat the drill as needed.
-4. Read [The missing short vowel](#the-missing-short-vowel) and complete the drill (**15 minutes**)
+1. Read [Single key basics](#single-key-basics) and complete the drill (**30 minutes**)
    * Repeat the drill as needed
-5. Read [Left hand d, b, and l](#left-hand-d-b-and-l) and complete the drill (**20 minutes**)
-6. Attempt the [test](#chapter-5-test) (**20 minutes**)
+1. Read [Consonant keys](#consonant-keys) (**2 minutes**)
+1. Read [The missing short vowel](#the-missing-short-vowel) and complete the drill (**15 minutes**)
+   * Repeat the drill as needed
+1. Read [Left hand d, b, and l](#left-hand-d-b-and-l) and complete the drill (**20 minutes**)
+1. Attempt the [test](#chapter-5-test) (**20 minutes**)
    * Practise as needed
 
 Remember to take breaks!
@@ -22,7 +23,6 @@ Remember to take breaks!
 * [Typey Type custom lessons](https://didoesdigital.com/typey-type/lessons/custom/setup)
 * [Basic single syllable words drill](practice/5-cvc.txt)
 * [Basic left hand single syllable words drill](practice/5-basic-left-hand.txt)
-* [Single syllable words with ](practice/5-EU.txt)`EU` drill
 * [Single syllable dbl words drill](practice/5-dbl.txt)
 * [Chapter 5 test](practice/5-test.txt)
 
@@ -78,15 +78,15 @@ Each steno stroke is made up of three main parts: the initial consonant, the vow
 
 For example, the strokes `TAP` and `HUT` from the previous chapter's test represent the words "tap" and "hut" respectively. The stroke `KAT` represents the word "cat".
 
-> **NOTE:** most consonants are phonetic, meaning that we care about the pronunciation rather than the spelling. This is why the initial consonant in "cat" is given the `K` key. You will later see that not all steno aspects are phonetic—some are orthographic meaning that they are based upon spelling instead.
+> **NOTE:** most consonants are phonetic, meaning that we care about the pronunciation rather than the spelling. This is why the initial consonant in "cat" is given the `K` key. You will later see that not all steno aspects are phonetic—some are orthographic (meaning that they are based upon spelling instead).
 
 If one of these parts of the steno stroke is not a single key (i.e. it is a chord), it will not necessarily represent the combination of the individual letter sounds. Sometimes this does work; combining the left hand `S` and `H` keys can represent the initial "sh" sound as in "<ins>sh</ins>ut".
 
 However, sometimes the individual keys in a chord have nothing to do with the actual sound it represents. For example, the right hand `-PB` chord represents the ending "n" sound as in "su<ins>n</ins>".
 
-> These chords are covered later on, so do not worry too much about this for now. The main takeaway of this section is being able to parts of strokes that are only made of a single key.
+> These chords are covered later on, so do not worry too much about this for now. The main takeaway of this section is understanding what to do for simple words whose parts can be composed of single keys.
 
-## Consonant keys
+### Consonant keys
 
 Some consonants may represent multiple sounds. This table will clear up any ambiguities.
 
@@ -111,7 +111,7 @@ Some consonants may represent multiple sounds. This table will clear up any ambi
 
 \*`-S` is used whenever the ending sound is spelled with the letter "s". This is why "has" and "pass" both use `-S`, despite having a different sound.
 
-## Short vowel sounds
+### Short vowel sounds
 
 Vowel keys are more tricky than consonants because they are not entirely phonetic or orthographic. We will first look at what *short vowels* are in Lapwing.
 
@@ -119,7 +119,7 @@ The term *short vowel* is an informal term that is often taught in North America
 
 > Throughout the vowel sections, the IPA (International Phonetic Alphabet) for each sound is listed. This is only intended for those who are already familiar with it. Do not worry at all if you are not familiar with IPA!
 
-### *Short a*
+#### *Short a*
 
 IPA: /æ/
 
@@ -130,7 +130,7 @@ IPA: /æ/
 <source src="img/5-pronunciations-short-a.mp4" type="video/mp4">
 </video>
 
-### *Short e*
+#### *Short e*
 
 IPA: /ɛ/
 
@@ -141,7 +141,7 @@ IPA: /ɛ/
 <source src="img/5-pronunciations-short-e.mp4" type="video/mp4">
 </video>
 
-### *Short i*
+#### *Short i*
 
 IPA: /ɪ/
 
@@ -152,7 +152,7 @@ IPA: /ɪ/
 <source src="img/5-pronunciations-short-i.mp4" type="video/mp4">
 </video>
 
-### *Short o*
+#### *Short o*
 
 IPA: /ɑ/
 
@@ -165,7 +165,7 @@ IPA: /ɑ/
 <source src="img/5-pronunciations-short-o.mp4" type="video/mp4">
 </video>
 
-### *Short u*
+#### *Short u*
 
 There are two sounds associated with this term.
 
@@ -183,7 +183,7 @@ IPA: /ʊ/
 <source src="img/5-pronunciations-short-u.mp4" type="video/mp4">
 </video>
 
-## The schwa
+### The schwa
 
 Schwa is an English sound that all vowel letters can sometimes represent. For example, the underlined letters in the following words are all pronounced as schwas—they are not enunciated like any of the vowel sounds above.
 
@@ -193,19 +193,18 @@ Schwa is an English sound that all vowel letters can sometimes represent. For ex
 * p<ins>o</ins>tato
 * s<ins>u</ins>pport
 
-## Simple vowels rule #1:
+### Simple vowels rule #1:
 
 **Short vowel sounds and schwa spelled with a single letter use the key/chord that matches the spelling.**
 
-### Examples:
+#### Examples
 
 * hat `HAT`
 * pet `PET`
 * cot `KOT`
 * hut `HUT`
-* sit `SEUT` (see below)
 
-> **NOTE:** *short vowels* are almost always spelled with the sound they represent (i.e. *short u* being spelled with "u"). One such exception is the word "son" which has a *short u* in the first vowel. However, it is spelled with "o", and therefore would be written with the `O` key.
+> **NOTE:** *short vowels* are almost always spelled with the sound they represent. However, one exception is the word "son", which has a *short u* vowel. Remember that we care about spelling for *short vowels*, this word would be written using the `O` key.
 
 ### The i chord
 
@@ -213,20 +212,26 @@ There is no "i" key on the steno layout; it is instead represented by the `EU` c
 
 ![](img/5-eu.png)
 
-## Simple values rule #2:
+#### Examples
+
+* hit `HEUT`
+* pill `PEUL`
+* pit `PEUT`
+* tip `TEUP`
+
+### Simple values rule #2:
 
 **Short vowel sounds spelled with multiple letters use the key/chord that matches the sound.**
 
 > Schwa sounds that are spelled with multiple letters are fairly uncommon. If you encounter any, you are meant to use any of the vowel letters that spell part of the sound. If you run into a missing entry, just add it to your personal dictionary.
 
-### Examples:
-
+#### Examples
 * could `KUD`
 * head `HED`
 * said `SED`
 * tough `TUF`
 
-## Vowels with r
+### Vowels with r
 
 In a General North American accent, inclusion of the letter "r" after a vowel can alter the pronunciation of the vowel. Take, for example, the following pairs of words:
 
@@ -242,7 +247,7 @@ These sounds are also considered to be in the same group as *short vowels*, so r
 
 > **NOTE:** keep in mind that you still have to identify *short vowels* before using rule 1. For example, the vowel in "cure" is **not** a *short vowel* and **cannot** be written like `KUR`.
 
-### Examples
+#### Examples
 
 * car `KAR`
 * her `HER`
@@ -250,7 +255,7 @@ These sounds are also considered to be in the same group as *short vowels*, so r
 * pore `POR`
 * purr `PUR`
 
-## Section practice material
+### Section practice material
 
 [Basic single syllable words drill](practice/5-cvc.txt)
 
@@ -272,7 +277,7 @@ Therefore, the only correct way to write the word "car" would be  `KAR`.
 
 **\#ST<ins>K</ins>PWHR<ins>A</ins>O\*EUF<ins>R</ins>PBLGTSDZ**
 
-The following is an incorrect way to write "car"; it is actually `KRA`:
+The following is an incorrect way to write "car"; it is actually notated like `KRA`:
 
 ![KRA](img/5-kra.png)
 

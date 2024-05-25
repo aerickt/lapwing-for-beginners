@@ -114,18 +114,17 @@ Since steno is a primarily phonetic system, homophones can be tricky to deal wit
 
 ![au](img/8-au.png)
 
-We learned the following in chapter 5 (rule 2 of short vowels):
+In chapter 5, the short vowel rules suggest that words like "bought" and "caught" would use the `O` key.
 
-> If a word is spelled using multiple vowel letters that (together) are pronounced as a single short vowel, use the vowel key that corresponds to the sound.
+> **Short vowel rule #1: short vowel sounds and schwa spelled with a single letter use the key/chord that matches the spelling.**
 
-The `AU` chord is one exception to this rule. It is used in words like "bought", and "caught". These have the same sound as the `O` key by itself. However, `AU` is used in these words as they are **not spelled** with a single "o".
+> **Short vowel rule #2: Short vowel sounds spelled with multiple letters use the key/chord that matches the sound.**
 
-So while the following are written using `O`:
+However, "bought" and "caught" are homophones with "bot" and "cot" (at least with the accent Lapwing assumes). Therefore, we instead give an exception to the *short o* sound with regard to the two rules above.
 
-* bot `PWOT`
-* cot `KOT`
+**The *short o* sound is only written with `O` if it is spelled with a single "o". Any other spellings of the *short o* sound are written with `AU`.**
 
-The words below are written using `AU`:
+So while "bot" and "cot" are written as `PWOT` and `KOT`, respectively, "bought" and "caught" are written like so:
 
 * bought `PWAUT`
 * caught `KAUT`
@@ -150,7 +149,7 @@ Words spelled with "awl" are also given `A*UL` when there is a conflict:
 * ball `PWAUL`
 * bawl `PWA*UL`
 
-There aren't very many of these conflicts to warrant a practice drill, but it is important to keep this in mind when you encounter unexpected output in everyday writing.
+> There aren't very many of these conflicts to warrant a practice drill, but it is important to keep this in mind when you encounter unexpected output in everyday writing. This is also one area where it is completely safe to change the logic and remap words in your own personal dictionary.
 
 ### Section practice
 
