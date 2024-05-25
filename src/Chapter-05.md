@@ -22,11 +22,12 @@ Remember to take breaks!
 * [Typey Type custom lessons](https://didoesdigital.com/typey-type/lessons/custom/setup)
 * [Basic single syllable words drill](practice/5-cvc.txt)
 * [Basic left hand single syllable words drill](practice/5-basic-left-hand.txt)
-* [Single syllable words with `EU` drill](practice/5-EU.txt)
+* [Single syllable words with ](practice/5-EU.txt)`EU` drill
 * [Single syllable dbl words drill](practice/5-dbl.txt)
 * [Chapter 5 test](practice/5-test.txt)
 
 ## Lapwing setup
+
 The Plover app comes loaded with a default theory called Plover theory. As this series is for learning Lapwing theory, there are a few modifications needed before proceeding. There are two options: install the <code class="code-mono">plover-lapwing-aio</code> plugin, or add the Lapwing dictionaries manually (not recommended). If in doubt, follow the instructions below for the all-in-one plugin as discussed below.
 
 > If you are using Javelin, make sure to read [Appendix C](Appendix-C.md#chapter-5) for instructions on setting up your keyboard with Lapwing.
@@ -67,43 +68,189 @@ You may tweak additional settings to your liking, but the defaults are perfectly
 
 [Click here to access a sample lesson](practice/5-cvc.txt)
 
-## Basic phonetics—single syllable words
+## Single key basics
 
-In the previous chapter's test, you had to write all the different combinations of strokes that involve a left hand consonant, a vowel, and a right hand consonant. You may have noticed that some of these strokes actually resemble words like `POT`, `TAP`, and `HUT`. In Lapwing theory, this is exactly how you would write the words "pot", "tap", and "hut", respectively.
+Each steno stroke is made up of three main parts: the initial consonant, the vowel, and the ending consonant.
 
-The reason for this is:
+![](img/5-layout-groups.png)
 
-**Every key represents the sound it is labelled with (unless it is part of a chord).**
+**If a single key makes up one of these parts, it will represent the sound that the letter is associated with.**
 
-> This means that the `P` in `POT` represents the "p" sound. However, the `P` in `TPAUT` does not represent the "p" sound since it is part of the `TP` chord. Do not worry about identifying chords for now.
+For example, the strokes `TAP` and `HUT` from the previous chapter's test represent the words "tap" and "hut" respectively. The stroke `KAT` represents the word "cat".
 
-Here are some examples of some basic words that can be written just by knowing the layout:
+> **NOTE:** most consonants are phonetic, meaning that we care about the pronunciation rather than the spelling. This is why the initial consonant in "cat" is given the `K` key. You will later see that not all steno aspects are phonetic—some are orthographic meaning that they are based upon spelling instead.
 
-* cat `KAT`
-* rub `RUB`
+If one of these parts of the steno stroke is not a single key (i.e. it is a chord), it will not necessarily represent the combination of the individual letter sounds. Sometimes this does work; combining the left hand `S` and `H` keys can represent the initial "sh" sound as in "<ins>sh</ins>ut".
+
+However, sometimes the individual keys in a chord have nothing to do with the actual sound it represents. For example, the right hand `-PB` chord represents the ending "n" sound as in "su<ins>n</ins>".
+
+> These chords are covered later on, so do not worry too much about this for now. The main takeaway of this section is being able to parts of strokes that are only made of a single key.
+
+## Consonant keys
+
+Some consonants may represent multiple sounds. This table will clear up any ambiguities.
+
+| Steno key | Examples                         |
+|-----------|----------------------------------|
+| `S`         | <ins>s</ins>at <ins>s</ins>ill   |
+| `T`         | <ins>t</ins>en </ins>t</ins>ap   |
+| `K`         | <ins>k</ins>ing <ins>c</ins>ar   |
+| `P`         | <ins>p</ins>at <ins>p</ins>ull   |
+| `W`         | <ins>w</ins>in <ins>w</ins>att   |
+| `H`         | <ins>h</ins>ot <ins>h</ins>um    |
+| `R`         | <ins>r</ins>ed <ins>r</ins>an    |
+| `-F`        | pu<ins>ff</ins> cou<ins>gh</ins> |
+| `-P`        | hi<ins>p</ins> sa<ins>p</ins>    |
+| `-B`        | lo<ins>b</ins> hu<ins>b</ins>    |
+| `-L`        | fa<ins>ll</ins> lo<ins>l</ins>   |
+| `-G`        | sa<ins>g</ins> tu<ins>g</ins>    |
+| `-T`        | righ<ins>t</ins> pi<ins>t</ins>  |
+| `-S`*       | pa<ins>ss</ins> ha<ins>s</ins>   |
+| `-D`        | ta<ins>d</ins> ri<ins>d</ins>    |
+| `-Z`        | ja<ins>zz</ins> fi<ins>zz</ins>  |
+
+\*`-S` is used whenever the ending sound is spelled with the letter "s". This is why "has" and "pass" both use `-S`, despite having a different sound.
+
+## Short vowel sounds
+
+Vowel keys are more tricky than consonants because they are not entirely phonetic or orthographic. We will first look at what *short vowels* are in Lapwing.
+
+The term *short vowel* is an informal term that is often taught in North American classrooms. It is not very linguistically sound, so the next few sections will attempt to define them more rigorously.
+
+> Throughout the vowel sections, the IPA (International Phonetic Alphabet) for each sound is listed. This is only intended for those who are already familiar with it. Do not worry at all if you are not familiar with IPA!
+
+### *Short a*
+
+IPA: /æ/
+
+* <ins>c</ins>at
+* h<ins>a</ins>t
+
+<video controls>
+<source src="img/5-pronunciations-short-a.mp4" type="video/mp4">
+</video>
+
+### *Short e*
+
+IPA: /ɛ/
+
+* p<ins>e</ins>t
+* s<ins>e</ins>ll
+
+<video controls>
+<source src="img/5-pronunciations-short-e.mp4" type="video/mp4">
+</video>
+
+### *Short i*
+
+IPA: /ɪ/
+
+* w<ins>i</ins>ll
+* s<ins>i</ins>t
+
+<video controls>
+<source src="img/5-pronunciations-short-i.mp4" type="video/mp4">
+</video>
+
+### *Short o*
+
+IPA: /ɑ/
+
+* c<ins>o</ins>t
+* r<ins>o</ins>d
+
+> In my accent, /ɑ/, /ɔ/, and /ɒ/ all are merged. If they are distinct in your accent, they can all be considered as *short o*.
+
+<video controls>
+<source src="img/5-pronunciations-short-o.mp4" type="video/mp4">
+</video>
+
+### *Short u*
+
+There are two sounds associated with this term.
+
+IPA: /ʌ/
+
+* c<ins>u</ins>p
+* h<ins>u</ins>t
+
+IPA: /ʊ/
+
+* c<ins>ou</ins>ld
+* p<ins>u</ins>ll
+
+<video controls>
+<source src="img/5-pronunciations-short-u.mp4" type="video/mp4">
+</video>
+
+## The schwa
+
+Schwa is an English sound that all vowel letters can sometimes represent. For example, the underlined letters in the following words are all pronounced as schwas—they are not enunciated like any of the vowel sounds above.
+
+* <ins>a</ins>bout
+* p<ins>e</ins>tition
+* def<ins>i</ins>nite
+* p<ins>o</ins>tato
+* s<ins>u</ins>pport
+
+## Simple vowels rule #1:
+
+**Short vowel sounds and schwa spelled with a single letter use the key/chord that matches the spelling.**
+
+### Examples:
+
+* hat `HAT`
+* pet `PET`
+* cot `KOT`
+* hut `HUT`
+* sit `SEUT` (see below)
+
+> **NOTE:** *short vowels* are almost always spelled with the sound they represent (i.e. *short u* being spelled with "u"). One such exception is the word "son" which has a *short u* in the first vowel. However, it is spelled with "o", and therefore would be written with the `O` key.
+
+### The i chord
+
+There is no "i" key on the steno layout; it is instead represented by the `EU` chord.
+
+![](img/5-eu.png)
+
+## Simple values rule #2:
+
+**Short vowel sounds spelled with multiple letters use the key/chord that matches the sound.**
+
+> Schwa sounds that are spelled with multiple letters are fairly uncommon. If you encounter any, you are meant to use any of the vowel letters that spell part of the sound. If you run into a missing entry, just add it to your personal dictionary.
+
+### Examples:
+
+* could `KUD`
+* head `HED`
+* said `SED`
+* tough `TUF`
+
+## Vowels with r
+
+In a General North American accent, inclusion of the letter "r" after a vowel can alter the pronunciation of the vowel. Take, for example, the following pairs of words:
+
+| Normal | r | IPA |
+| - | - | - |
+| cat | car | /ɑɹ/ |
+| head | her | /ɝ/ or /ɚ/ |
+| sit | sir | /ɝ/ or /ɚ/ |
+| pot | pore | /ɔɹ/  |
+| pull | purr | /ɝ/ or /ɚ/ |
+
+These sounds are also considered to be in the same group as *short vowels*, so rule 1 applies. We will still write these words with the key that spells the vowel, even if it is phonetically a different sound.
+
+> **NOTE:** keep in mind that you still have to identify *short vowels* before using rule 1. For example, the vowel in "cure" is **not** a *short vowel* and **cannot** be written like `KUR`.
+
+### Examples
+
+* car `KAR`
+* her `HER`
+* sir `SEUR`
+* pore `POR`
 * purr `PUR`
-* rough `RUF`
 
-This last word may have been a little bit tricky because of the multiple vowel letters it is spelled with. Here are two rules for dealing with *short vowels*:
-
-1. **If a word is spelled using a single vowel, use the vowel key that spells the word.**
-
-2. **If a word is spelled using multiple vowel letters that (together) are pronounced as a single short vowel, use the vowel key that corresponds to the sound.**
-
-### Different vowels with `-R`?
-
-The words "purr" and "rub" have phonetically different vowels and yet still use the same vowel keys.
-
-This is not limited to the `U` vowel; for example:
-
-* `AR` as in "c<ins>ar</ins>"
-* `OR` as in "t<ins>or</ins>e"
-* `ER` as in "p<ins>er</ins>"
-* `UR` as in "p<ins>urr</ins>"
-
-With these vowel sounds, spelling is used instead of pronunciation (rule 1 above).
-
-### Section practice material
+## Section practice material
 
 [Basic single syllable words drill](practice/5-cvc.txt)
 
@@ -119,11 +266,11 @@ The answer is *steno order*.
 
 Sounds you make on the layout are supposed to follow this order.
 
-**#STKPWHRAO\*EUFRPBLGTSDZ**
+**\#STKPWHRAO\*EUFRPBLGTSDZ**
 
 Therefore, the only correct way to write the word "car" would be  `KAR`.
 
-**#ST<ins>K</ins>PWHR<ins>A</ins>O\*EUF<ins>R</ins>PBLGTSDZ**
+**\#ST<ins>K</ins>PWHR<ins>A</ins>O\*EUF<ins>R</ins>PBLGTSDZ**
 
 The following is an incorrect way to write "car"; it is actually `KRA`:
 
@@ -135,18 +282,18 @@ It's not necessary to memorize steno order explicitly (as in the `#STKPWHRAO*EUF
 
 Below are two single syllable words that cannot be written in one stroke because of steno order.
 
-* trust
-   - Closest would be `TRUTS`
-   - #S<ins>T</ins>KPWH<ins>R</ins>AO*E<ins>U</ins>PBLG<ins>TS</ins>DZ
-* turf
-   - Closest would be `TUFR`
-   - #S<ins>T</ins>KPWHRAO*E<ins>UFR</ins>PBLGTSDZ
+* trust 
+  - Closest would be `TRUTS`
+  - \#S<ins>T</ins>KPWH<ins>R</ins>AO*E<ins>U</ins>PBLG<ins>TS</ins>DZ
+* turf 
+  - Closest would be `TUFR`
+  - \#S<ins>T</ins>KPWHRAO*E<ins>UFR</ins>PBLGTSDZ
 
 To represent a sound in a steno stroke, the sounds should be available on the layout and should fall in the correct order. Although the sounds are indeed available on the layout, they fail the second requirement. For now, do not worry about writing these words—they involve more advanced chords and concepts that will be introduced later.
 
 ## Combining single left hand keys
 
-Before even learning some of the more complicated chords, there are some sounds on the left hand that can be combined together quite intuitively.
+On the initial consonants side, there are several chords whose sounds are simply just the combination of the individual keys. Some of these are:
 
 * `ST` as in "<ins>st</ins>op"
 * `SK` as in "<ins>sc</ins>ar"
@@ -160,27 +307,11 @@ Before even learning some of the more complicated chords, there are some sounds 
 
 > `KH` for "ch" might not be immediately obvious, but just remember that `K` is used for the "hard c" sound. Thus, if you accept that `K` can represent the letter "c", then combining it with the `H` key makes some sense.
 
+This does not just apply to chords with two keys. For example, `THR` can represent the "thr" sound as in "thread". Chances are, if a chord makes sense based on the individual keys it is made of, it is valid.
+
 ### Section practice
 
 [Basic left hand single syllable words](practice/5-basic-left-hand.txt)
-
-## The missing short vowel
-
-There are 5 short vowels, and you may have noticed that there is no `I` key. It's instead chorded with `EU`.
-
-![](img/5-eu.png)
-
-### Examples
-
-* krill `KREUL`
-* pit `PEUT`
-* sir `SEUR`*
-* tip `TEUP`
-
-> \*Phonetically, "sir" has a different vowel sound to all the other examples. However, remember that this is accepted with our short vowel rules; we don't necessarily care about the sound if it is a short vowel.
-
-### Section practice
-[Single syllable words with `EU`](practice/5-EU.txt)
 
 ## Left hand d, b, and l
 
@@ -206,12 +337,13 @@ There are 5 short vowels, and you may have noticed that there is no `I` key. It'
    * `PW` is pressed by the left hand middle finger
    * `HR` is pressed by the left hand index finger
 2. Think "DBL"
-   * <ins>d</ins>ou<ins>bl</ins>e (these are *double* keys)
+   * <ins>d</ins>ou<ins>bl</ins>e (these are *double* keys) 
      * From [Art of Chording](https://www.artofchording.com)
    * <ins>d</ins>eci<ins>b</ins>e<ins>l</ins>
    * <ins>d</ins>ata<ins>b</ins>ase <ins>l</ins>over
 
 ### Section practice
+
 [Single syllable dbl words](practice/5-dbl.txt)
 
 ## Chapter 5 test
@@ -242,43 +374,42 @@ This is only a suggestion; it is not a requirement to move to the next chapter!
 
 > This section is completely optional, but recommended. If you prefer to learn these all at once, they will be covered in chapter 16.
 
-| Word | Brief | Explanation |
-| ---- | ---- | ---- |
-| are | `R` or `-R` | Sounds like the letter "R" |
-| did | `TK` | <ins>d</ins>id |
-| do | `TKO` | Matches the spelling |
-| I | `EU` | Matches the spelling |
-| is | `S` | Common word for a single key brief |
-| so | `SO` | Matches the spelling |
-| the | `-T` | Common word for a single key brief |
-| you | `U` | Sounds like the letter "U" |
-| . | `TP-PL` | Symmetrical shape for the period/full stop. |
-| ? | `KW-PL` | Shape resembles a rising intonation. |
-
+| Word | Brief   | Explanation                                 |
+|------|---------|---------------------------------------------|
+| are  | `R` or `-R` | Sounds like the letter "R"                  |
+| did  | `TK`      | <ins>d</ins>id                              |
+| do   | `TKO`     | Matches the spelling                        |
+| I    | `EU`      | Matches the spelling                        |
+| is   | `S`       | Common word for a single key brief          |
+| so   | `SO`      | Matches the spelling                        |
+| the  | `-T`      | Common word for a single key brief          |
+| you  | `U`       | Sounds like the letter "U"                  |
+| .    | `TP-PL`   | Symmetrical shape for the period/full stop. |
+| ?    | `KW-PL`   | Shape resembles a rising intonation.        |
 
 > **NOTE:** remember that these are briefs; the explanations are not applicable to any arbitrary word.
 
 ### Practice sentences
 
 1. I do tip the lad.
-1. you are so rad.
-1. is the dip bad?
-1. did you pat the cat?
-
+2. you are so rad.
+3. is the dip bad?
+4. did you pat the cat?
 
 #### Answers
+
 1. `EU/TKO/TEUP/-T/HRAD/TP-PL`
-1. `U/-R/SO/RAD/TP-PL`
-1. `S/-T/TKEUP/PWAD/KW-PL`
-1. `TK/U/PAT/-T/KAT/KW-PL`
+2. `U/-R/SO/RAD/TP-PL`
+3. `S/-T/TKEUP/PWAD/KW-PL`
+4. `TK/U/PAT/-T/KAT/KW-PL`
 
 ### Extra briefs
 
-| Brief | Outline | Explanation |
-| ---- | ---- | ---- |
-| did you | `TKU` | `TK` + `U` |
-| do you | `TKOU` | `TKO` + `U` |
-| is the | `S-T` | `S` + `-T` |
-| so the | `SOT` | `SO` + `-T` |
-| are the | `R-T` | `R` + `-T` |
-| are you | `RU` | `R` + `U` |
+| Brief   | Outline | Explanation |
+|---------|---------|-------------|
+| did you | `TKU`     | `TK` + `U`      |
+| do you  | `TKOU`    | `TKO` + `U`     |
+| is the  | `S-T`     | `S` + `-T`      |
+| so the  | `SOT`     | `SO` + `-T`     |
+| are the | `R-T`     | `R` + `-T`      |
+| are you | `RU`      | `R` + `U`       |
