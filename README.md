@@ -8,7 +8,7 @@ Install `mdbook` and the [external links preprocessor](https://crates.io/crates/
 cargo install mdbook mdbook-external-links
 ```
 
-Inside the in the root folder, build with:
+Inside in the root folder, build with:
 
 ```
 mdbook build
