@@ -19,3 +19,5 @@ This resource is still in development and feedback is highly appreciated. You ca
 In early 2022, I was dissatisfied with the state of learning resources for Plover theory and started working on a new dictionary. However, throughout this process, I realized that Plover theory itself had many gaps and adding all the valid outlines would be impossible. I added more and more rules to account for these theory gaps, and slowly the entire project diverged far enough from Plover to be considered its own theory.
 
 Over two years later, Lapwing is used by several community members and is a regarded as a viable theory to learn. I created this resource to make stenography more accessible to hobbyists.
+
+[![paypal](https://img.shields.io/badge/-Buy%20me%20a%20coffee%20%3AD-informational?logo=paypal)](https://www.paypal.com/donate/?hosted_button_id=VNMUULBPTQGMC)
