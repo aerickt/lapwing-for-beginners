@@ -56,7 +56,7 @@ In the following example, the first two entries are briefs, while the last two a
 
 #### Be careful of hidden affixes
 
-The Lapwing dictionary may not contain every single valid outline. You will later learn of *affix strokes* which attach to root words. For example, the word "thoroughly" contains "thorough" as a road word and "^ly" as a *suffix*. One way to write "thoroughly" is `THOR/KWROE/HREU`. However, it does not show up in the dictionary:
+The Lapwing dictionary may not contain every single valid outline. You will later learn of *affix strokes* which attach to root words. For example, the word "thoroughly" contains "thorough" as a root word and "^ly" as a *suffix*. One way to write "thoroughly" is `THOR/KWROE/HREU`. However, it does not show up in the dictionary:
 
 ![](img/3-thoroughly-lookup.png)
 
