@@ -40,7 +40,6 @@ revalue	RAOE/SRA/HRAOU
 redirect	RAOE/TKAOEU/REBGT
 reproduce	RAOE/PRO/TKAOUS
 reestablish	RAOE/ES/TAB/HREURB
-reupholster	RAOE/UP/HO*EL/STER
 rapture	RAP/KHUR
 reciprocation	RE/SEUP/ROE/KAEUGS
 reluctant	RE/HRUBG/TAPBT
