@@ -375,7 +375,6 @@ glove	TKPWHROF
 groove	TKPWRAOF
 grave	TKPWRAEUF
 grove	TKPWROEF
-grieve	TKPWREF
 gave	TKPWAEUF
 give	TKPWEUF
 drive	TKRAOEUF
