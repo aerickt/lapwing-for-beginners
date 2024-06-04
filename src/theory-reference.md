@@ -1,166 +1,683 @@
-# Chapter 26: Editing text
+> Some of the content on this page is outdated, incomplete, and inaccurate. It is being worked on.
 
-Lapwing contains some limited movement commands by default. However, if you want to switch to steno full time, you will have to incorporate another method for movement. This chapter goes over the default movement commands in <code class="code-mono">lapwing-base.json</code> as well as some additional methods you can use.
+# Compound words
 
-## Movement
+Compound words are always written with the asterisk on the first stroke of the second word.
+ - `KAOE/PWAO*RD` → keyboard
+ - `TEGT/PWAO*BG` → textbook
+ - `PHOUS/PA*D` → mousepad
+ - `STOR/KWREU/PWAO*BG/-S` → storybooks
+
+# Proper nouns
+
+Proper nouns are always written with the number key on the first stroke. Everything else is written with the same rules.
+ - `#A/HREU/SA` → Alyssa
+ - `#PWOB` → Bob
+ - `#PAOE/TER` → Peter
+ - `#AP/-L` → Apple
+ - `#AUS/TRAEUL/KWRA` → Australia
+ - `#HART/PHAPB` → Hartman
+
+> I highly recommend mapping the top `S-` key to the number key to make it easier to stroke. This also opens up the possibility for more briefs and decreases hesitation when deciding which finger to use for the number key.
+
+Unfortunately, due to how Plover handles the number key entries using the number key will not be displayed as shown above. When using the number key, the top row of keys plus `A` and `O` are converted to numbers and are stored as such in the dictionary. Looking up "Bob" in the dictionary will result in `3W0B` instead of `#PWOB`
+
+## Alternative proper noun dictionaries
+
+If you use something like plover-stenotype-extended where you can map the top `S-` key to its own key, you can find this other dictionary for proper nouns:
+
+https://github.com/AshenColors/lapwing-dict-converter/releases/tag/latest_update
+
+If you'd like to use a proper noun prefix stroke instead of a proper noun key, you can use this dictionary and perform a find and replace to insert a prefix stroke.
+
+# Movement keys, keyboard shortcuts, commands
+
+See [commands.json](https://github.com/aerickt/steno-dictionaries#commandsjson). Lapwing contains everything from this dictionary by default.
+
+# Punctuation
+
+The following is a list of commonly used punctuation marks characters.
+ - `H-F` → `?` question mark
+ - `KW-PL` → `?` shape can be thought of rising inflection as if asking a question
+ - `TP-BG` → `!` shape can be thought of as falling inflection when exclaiming
+ - `TP-PL` → `.` period
+ - `P-P` → `.` period with no space on either side (when writing decimals)
+ - `KW-BG` → `,` comma
+ - `KW-GS` → `"` opening quotation mark
+ - `KW*GS` → `"` closing quotation mark
+ - `KH-FG` → `` ` `` opening backtick
+ - `KH*FG` → `` ` `` closing backtick
+ - `PREPB` → `(` opening parenthesis
+ - `PR*EPB` → `)` closing parenthesis
+ - `TPR-BGT` → `{` opening French bracket
+ - `TPR*BGT` → `}` closing French bracket
+ - `PWR-BGT` → `[` opening bracket
+ - `PWR*BGT` → `]` closing bracket
+ - `KHR-PB` → `:` colon with no spacing
+ - `STPH-FPLT` → `:` regular colon with a space on the right
+ - `STPH*FPLT` → `;` regular semicolon with a space on the right
+ - `TR*PL` → `™` trademark symbol with a space on the right
+
+For symbols beyond these where you might require different spacing and capitalization, I recommend [Emily's symbols dictionary](https://github.com/EPLHREU/emily-symbols).
+
+# Right hand number pad
+
+> The conventional number system does not work in lapwing-base.json. You will have to delete all entries containing the glue operator and a number (e.g. `{&8}`) if you want to use the conventional number system.
+
+lapwing-base.json has this system by default. See [rh-numpad.json](https://github.com/aerickt/steno-dictionaries#rh-numpadjson).
+
+# Fingerspelling
+
+In addition to normal fingerspelling with `*`, using `-FPLT` instead of `*` will put a period after the letter. `*FPLT` will capitalize the word. `-RBGS` is used for stitching (requires `plover-stitching` plugin).
+
+Examples:
+ - `PW*FPLT/KR*FPLT/*EFPLT` → B.C.E.
+ - `AFPLT/P-FPLT/P-FPLT/HR-FPLT/EFPLT` → a.p.p.l.e.
+ - `PW*RBGS/KR*RBGS/*ERBGS` → B-C-E
+ - `ARBGS/P-RBGS/P-RBGS/HR-RBGS/ERBGS` → a-p-p-l-e
+
+Stroking `-FPLT` and `-RBGS` n times will stitch the n words with periods and hyphens retroactively.
+
+Examples
+ - `AP/-L/-FPLT` → a.p.p.l.e
+ - `PHEU/TPHAEUPL/S/#TOD/-RBGS/-RBGS/-RBGS/-RBGS` → M-y n-a-m-e i-s T-o-d-d
+
+> Note: stroking `-FPLT` does not leave a trailing period.
+
+# Phonetics
+
+The main principles of Plover theory have been left unchanged and Learn Plover! or Art of Chording are fully compatible with this dictionary (apart from word breaks as well as suffixes and prefixes). Although this list is quite long, a lot of these principles are actually part of stock Plover theory which I thought were worth mentioning.
+ - `*PL` is used as the -mp cluster intsead of `-FRP`
+ - Ending sounds that fall out of steno order can be written using right hand consonant strokes
+   - `HEL/-P` → help
+   - `STRAPBG/-L` → strangle
+   - `HEL/-PL` → helm
+   - For `-F` and `-T`, asterisk is used to prevent conflicts
+     - `TKEL/*F` → delve
+     - `HREUPL/*F` → lymph
+     - `WURS/*T` → wurst
+   - Briefer outlines using compound clusters and inversions are also available and should be preferred
+ - `OR` is used for the "or" sound, never `OER`
+ - `KWR` is used in certain diphthongs such as:
+   - `SREUD/KWROE` → video
+   - `AEUR/KWRA` → area
+   - `EUPB/SOPL/TPHEU/KWRA` → insomnia
+   - `RAOE/KWRAL/TEU` → reality
+   - `#PHAR/KWROE` → Mario
+   - `HAUP/KWRA` → haupia
+     - Entries such as `HAU/PEU/KWRA` (haupia) can be found in the dictionary as fallbacks but are not recommended due to being longer to write.
+   - Essentially, `KWR` is used if the vowel can be approximated with "Y"
+ - `KHUR` is always used for the "chur" sound
+   - `HREBG/KHUR` → lecture
+   - `KAP/KHUR` → capture
+   - `PHA/KHUR` → mature
+ - `TWAL` is used for "chwal" sounds found in words like the following that are usually spelled as "-tual":
+   - `SPEU/REU/TWAL` → spiritual
+   - `AOE/SREPB/TWAL` → eventual
+   - `EUPB/TE/HREBG/TWAL` → intellectual
+ - Alternatively, `WAL` can be used to represent "-ual" with the T being left to the previous stroke:
+   - `SPEU/REUT/WAL` → spiritual
+   - `AOE/SREPBT/WAL` → eventual
+   - `EUPB/TE/HREBGT/WAL` → intellectual
+ - `TK*EU` is always used for the initial `TKEU` sound when starting a word. `TKEU` is reserved for the phrase "did I"
+   - `TK*EU/REBGT` → direct
+   - `TK*EU/HREU/SKWREPBT` → diligent
+ - `TP*EU` is used for sounds spelled with "ph" that are pronounced as "F"
+   - `TP*EU/SEUBGS` → physics
+   - `TP*EU/HRO/SO/TP*EU` → philosophy
+ - `EU` is used for long E when it is spelled with an "I" or a "Y"
+   - `AR/PE/SKWREU/KWROE` → arpegg**i**o
+   - `KUFRB/KWREU` → curvy
+   - `PEU/KWRA/TPHOE` → piano
+ - `-RBL` is used for the "shl" sound
+   - `TK*EU/TPE/REPB/-RBL` → differential
+   - `TPAOEU/TPHAPB/-RBL` → financial
+ - Non-initial "X" can be written using `-BGS` or some variation of `-BG/S`
+   - `EBG/SE/KAOUGS` → execution
+   - `EBG/SEU/SKWREPBS` exigence
+     - Can also be written `EBG/S*EU/SKWREPBS` with `S*` representing "Z"
+   - `EBG/SULT` → exult
+     - Can also be written `EBG/S*ULT` with `S*` representing "Z"
+   - `EBG/SES` → excess
+   - `EBGS/TEPBD` → extend
+   - `EBGS` cannot be used universally due to syllabic splitting constraints (see [Syllabic splitting](#Syllabic-splitting))
+ - `-PLT` is used for the "-ment" cluster in addition to be being a suffix
+   - `SE/-PLT` → cement
+   - `KAFP/-PLT` → catchment
+   - `EBGS/PE/REUPLT` → experiment
+ - `-LT` is used for the "-let" cluster in addition to being a suffix
+   - `A/PHAOULT` → amulet
+   - `KHEUBG/-LT` → chiclet
+   - `SKARLT` → scarlet
+ - `-BL` can be used for the "-able" or "-ible" cluster in addition to being a suffix
+   - `KRAOUS/-BL` → crucible
+   - `PAEURBL` → parable
+   - `A/HROUBL` → allowable
+ - `TEU` can be used for the "-ity" cluster in addition to being a suffix
+   - `SKAEURS/TEU` → scarcity
+   - `STEU` → city
+   - `EUPB/SAPB/TEU` → insanity
+ - Some variation of `US` is used for the "us" sound whether it is spelled "ous" or "us"
+   - `PHO/TPHO/TO/TPHUS` → monotonous
+   - `STAOU/PEPB/TKUS` → stupendous
+   - `TOR/KWRUS` → torus
+   - `RAOEUT/KHUS` → righteous
+ - `AU` is used for the "aw" vowel when not spelled with "O"
+   - `PWAUT` → bought
+   - `PWRAUD` → broad
+   - `PAUPL` → palm
+
+# Orthography
+
+Orthography has also largely been preserved with a few exceptions.
+ - Much like stock Plover theory, short vowels and schwas are represented with the vowel they are spelt with despite their sound
+   - `SKO/HRAR` → scholar
+   - `PWE/TER` → better
+   - `WORS` → worse
+   - `SU/PORT` → support
+   - `PHO/TPHEU/TOR` → monitor
+ - Final Z sounds are represented with `-Z` if they are spelt as such or help to get around a conflict
+   - `SREUS/-BL` → visible
+   - `PHEUS/RABL` → miserable
+   - `TPHAOEZ` → knees (`TPHAOES` is niece)
+   - `SAOEZ` → seize
+ - Words beginning with "al" are written with `AL` despite their pronunciations
+   - `AL/SOE` → also
+   - `AL/SA` → alsa
+   - `AL/TKER` → alder
+ - Initial "ph" is represented with `TP*` to differentiate from regular "f"
+   - `TPO*E/TOE` → photo
+   - `TP*EU/HRO/SO/TP*ER` → philosopher
+ - Words starting with "X" are always written with `KP`
+   - `KPAOEU/HRO/TPO*EPB` → xylophone
+   - `KPEU` → xi
+ - Words beginning with "Y" use `KWR` (if there's a conflict, use `KWR*` instead)
+   - `KWREP` → yep
+   - `KWRERPB` → yearn
+   - Other words drop `KWR`
+     - `AOU/TPO*R/KWRA` → euphoria
+     - `AOUS` → use
+     - `UR/KWREUPB` → urine
+ - Ending "ie" uses `AOE`
+   - `KAO/KAOE` → cookie
+   - `WAUBG/KWRAOE` → walkie
+ - Words beginning with capital "J" can use `#STKPW` as an alternative to `#SKWR`
+   - `#STKPW/TPHEUS` → Janice
+   - `#STKPW/PHAEU/KA` → Jamaica
+ - Common contractions use asterisk when there's a conflict
+   - `WAOER` → weir
+   - `WAO*ER` → we're
+   - `HAOEL` → heel
+   - `HAO*EL` → he'll
+   - For the most part, contractions are just written phonetically, but asterisked variants do exists for most of them as well
+
+# Syllabic splitting
+
+main.json relies a lot on dropping unstressed vowels in order to break up words which is a bit of a challenge to learn especially for non-native speakers.
+
+For write-outs, this dictionary does not rely as heavily on dropping unstressed vowels, though, this principle is still used for briefer entries.
+
+In order to split a word into multiple strokes syllabically, the following rules should be used:
+ - Consonants should not be doubled across strokes
+   - e.g., `PHE/PHOR/RAOEUZ` would not be correct as it doubles the R
+ - Strokes after the initial one should not begin with a vowel
+   - e.g., `PHEPL/OR/AOEUZ` is incorrect, the last two strokes begin with vowels
+   - Apart from suffix strokes which are special
+     - e.g., `A*R` → "-ar"
+
+In essence, every stroke should begin with a consonant and represent a different syllable of a word. There are, of course, exceptions to these rules which are covered later.
+
+Examples of using the syllabic splitting method:
+ - `PHE/PHO/RAOEUZ` → memorize
+ - `TPO*E/TPHE/TEUBG` → phonetic
+ - `PEUBG/KHUR` → picture
+ - `KAL/KAOU/HRAEU/TOR` → calculator
+ - `RE/KOG/TPHEUGS` → recognition
+ - `ABG/TEUF` → active
+ - `AD/HAOE/SEUF` → adhesive
+ - `EUPL/POR/TAPBT` → important
+ - `OE/PWAEU` → obey
+ - `ABG/SES` → access
+
+Sometimes vowels might have to be spread across multiple strokes and it may be impossible to start a stroke with a consonant. If this is the case, use `KWR` as a linker between vowels.
+ - `AOEU/KWROE/HREU` → aioli
+ - `PEU/KWRA/TPHOE` → piano
+
+Depending on pronuncation, `W` can also begin a consecutive vowel stroke:
+ - `AL/TRAOU/WEUS/TEUBG` → altruistic
+ - `KOPB/TKAOU/WEUT` → conduit
+
+When it is ambiguous as to whether to use `W` or `KWR`, outlines containing both should be available.
+
+> Add alternatives to your dictionary if none of the available are intuitive to you.
+
+However, beware of attempting to rely too heavily on linker chords as this dictionary does not use them universally. Attempting to use them excessively will result in thousands of entries needing to be added.
+
+The following are words that unnecessarily use the `KWR` linker:
+ - `TPRAFRPB/KWRAOEUZ` (franchise) ❌
+   - `TPRAPB/KHAOEUS` ✔️
+ - `EUPB/SAOUL/KWREUPB`(insulin) ❌
+   - `EUPB/SAOU/HREUPB` ✔️
+ - `HARPS/KWREU/KORD` (harpsichord) ❌
+   - `HARP/SEU/KORD` ✔️
+ - `TKPWAL/KWROPB` (gallon) ❌
+   - `TKPWA/HROPB` ✔️
+
+# Exceptions to syllabic splitting
+
+**A Plover Discord user harrri#2137 compiled a detailed table of rules to use when splitting syllables. If you are having trouble with splitting syllables, definitely [check it out](https://docs.google.com/spreadsheets/d/1BN-h7AcdPtPUdP2og0USWxpm1DWgLcllTArudPj4i38/edit#gid=775933946)!** 
+
+## Words that can be written using prefix and/or suffix strokes
+
+Before you attempt to write a word syllabically, it is important to determine if a word can instead be split differently using prefixes and suffixes.
+
+Here are some examples:
+
+ - `TAOEFP/*ER` (teacher)
+ - `HRURBG/*ER` (lurker)
+ - `SEPB/TEPBS/-S` (sentences)
+
+However, do not be too quick to use suffix strokes (especially `*ER`) on previous translations that are not words on their own.
+
+For example, these would be incorrect outlines that *should* be written using syllabic splitting:
+
+ - `SHREPBD/*ER` (slender) ❌
+   - `SHREPB/TKER` ✔️
+ - `AOE/RAT/KWREUBG` (erratic) ❌
+   - `AOE/RA/TEUBG` ✔️
+
+## `KWR` linker with prefix strokes
+
+If the first stroke of an outline is a prefix, there is no need to use a linker chord such as `KWR` on the next stroke:
+ - `KOE/OR/TKEU/TPHAEUT` → coordinate
+ - `PRE/EPLT` → preempt
+ - `TKEU/AOE/HREBG/TREUBG` - dielectric
+ - `TKEUS/AEUBL` → disable
+
+## Consonant doubling with prefixes
+
+Consonants can be doubled if the previous stroke is a prefix and the strokes that follow form a valid word on their own:
+ - `TKEUS/SOFLS` → dissolves
+ - `TKEUS/SEU/PHEU/HRAR` → dissimilar
+
+> Of course, if it makes sense to you to disregard this exception then feel free to add entries such as `TK*EU/SEU/PHEU/HRAR` → dissimilar to your dictionary.
+
+## Consonant doubling with "ng"
+
+Words with "ng" such as "mango" would not be able to be defined accurately if consonants could not be doubled across strokes. Thus it is acceptable for these words to double the "G" across strokes:
+ - `PHAPBG/TKPWOE` → mango
+ - `TPEUPBG/TKPWER` → finger
+ - `SEUPBG/TKPWAOU/HRAR` → singular
+
+## The problem of the vowel/consonant "R"
+
+When it comes to vowels that are combined with a final `-R`, it may be necessary to use suffix strokes and/or the `KWR` linker in order to preserve the phonetics of the vowel. For example, the word "carry" would have to be written as `KAEUR/KWREU` as the R changes the sound of the vowel and thus should be kept in the first stroke.
+
+If the R was treated as a consonant it was instead split as "ca|rry", the outline could only be `KAEU/REU` or `KA/REU`  which are not completely accurate to the pronunciation. Thus, if an R changes the sound of a vowel in a word, it is recommended to keep it with the vowel to preserve its sound and instead use the `KWR` linker to complete the next stroke.
+
+The following are some other examples of words where `-R` should be kept in the initial stroke:
+ - `#HRAEUR/KWREU` → Larry
+ - `#TER/KWREU` → Terry
+ - `TOR/KWRUS` → torus
+ - `TPHROR/KWREUFT` → florist
+
+>  NOTE: Ending a stroke with `-R` and starting the next stroke with `KWR` is preferred in ambiguous situations.
+
+## Situations that benefit from dropping unstressed vowels
+
+As previously mentioned in [phonetics](#Phonetics), `TEU` can be used to represent -ity even if not used as a suffix. This is very much a situation that is actually dropping an unstressed vowel in disguise. Consider the two outlines of writing "felicity":
+ - `TPE/HREUS/TEU`
+ - `TPE/HREU/SEU/TEU`
+
+Notice that in the first outline, the second "i" was dropped as it is unstressed. The second outline is not recommended as it uses an extra stroke, making it slower to write.
+
+Furthermore, entries with strokes that take the shape of `EU/TEU` are not necessarily complete as I may have been too tired or lazy when trying to add these in. Thus, try to not use an extra stroke when it comes to `TEU`.
+
+Other examples of when to drop an "i" in such a manner:
+ - `EBGS/TRE/PHEU/TEU` → extremity
+   - Can instead be `EBGS/TREPL/TEU`
+ - `EUPB/TPEU/TPHEU/TEU` → infinity
+   - Can instead be `EUPB/TPEUPB/TEU`
+ - `SEPB/SEU/TEUF` → sensitive
+   - Can instead be `SEPBS/TEUF`
+
+Another situation where you should really drop a vowel is where you'll see a word end with -ly.
+ - `HAUT/KWREU/HREU` → haughtily
+   - Can instead be `HAUT/HREU` ("i" is dropped)
+ - `TRAO*UT/-FL/KWREU` → truthfully
+   - Can instead be `TRAO*UT/TPHREU` (second "u" is dropped)
+ - `PER/SO*PB/A*L/KWREU` → personally
+   - Can instead be `PER/SO*PB/HREU` ("a" is dropped)
+
+# Using prefixes and suffixes
+
+It is also important to use prefixes and suffixes.
+
+A good rule of thumb to determine whether or not it is appropriate to use suffix strokes is to examine what will be written before the suffix stroke.
+
+For example, it should be apparent that the word "tester" can be broken into the root word "test" and the suffix "-er" and thus should be written `TEFT/*ER` as opposed to `TES/TER`. On the other hand, the word "termite" should be written syllabically since it can't be broken into smaller parts: `TER/PHAOEUT`.
+
+> NOTE: With `KWRAOEUT` being the "-ite" suffix, it is technically possible to write "termite" as `TERPL/KWRAOEUT` but that is against the principles of this dictionary. If it is desirable to you to write in this manner, then this dictionary is probably not for you.
+
+The following list of words are other examples where suffixes should be used instead of syllabic splitting:
+ - `HRERPB/*ER` → learner
+   - `*ER` → "-er"
+ - `SE/HREBGT/-BL` → selectable
+   - `-BL` → "-able"
+ - `KUT/-G` → cutting
+   - `-G` → "-ing"
+ - `TPHAOEUF/-S` → knives
+   - `-S` → "-s"
+ - `KAFP/-PLT` → catchment
+   - `-PLT` → "-ment"
+ - `RE/SPOPBD/KWREPBT` → respondent
+   - `KWREPBT` → "-ent"
+ - `TKEUBGS/KWRAEUR/KWREU` → dictionary
+   - `KWRAEUR/KWREU` → "-ary"
+
+On the other hand, the following are examples of incorrect suffix usage:
+ - `STAOUD/KWREPBT` (student) ❌
+   - `STAOU/TKEPBT` ✔️
+ - `WAUT/*ER` (water) ❌
+   - `WAU/TER` ✔️
+ - `SKOL/A*R` (scholar) ❌
+   - `SKO/HRAR` ✔️
+
+For ambiguous situations where it is not clear whether to use suffixes or split a word syllabically, both options should be available to use. And of course, don't be afraid to add your own alternatives.
+
+# Prefixes
+
+As previously mentioned, prefix strokes are not outlines that usually have to be memorized. Most common prefix strokes come about when splitting words syllabically and don't need much thought. For example, "ex-", "super-", and "hetero-" are written as `EBGS`, `SAOU/PER`, and `HE/TER/KWROE`, respectively, as if they were just regular words. With a basic grasp of syllabic splitting, most prefixes should be fairly straightforward.
+
+There can also sometimes be multiple entries for the same prefix such as `PRE` and `PRAOE` for "pre-" or `UL/TRA` and `ULT/RA` for "ultra-". Whichever works best for a given situation should be used and multiple options are available if there is ambiguity.
+
+## Prefixes by themselves
+
+Sometimes it is needed to write a prefix outline as a regular word. Take, for example, "super". This can be a prefix as in "supernatural" or a regular word as in "super awesome". Since syllabic splitting will go to the prefix form, asterisk is used on the last stroke to obtain the word form.
+
+Thus, `SAOU/PER/AU/SOPL` would output "superawesome" while `SAOU/P*ER/AU/SOPL` would output "super awesome".
+
+> As you write more and more using this dictionary, you will encounter many situations where you intended a word instead of a prefix stroke to be written. When this happens, take note of the prefix and remember the usage of asterisk to prevent this in future.
+
+If the prefix form of an outline is accidentally written when the word form was intended, [asterisk can be toggled retroactively](https://github.com/openstenoproject/plover/wiki/Dictionary-Format#toggle-asterisk) using `#*` instead of deleting the whole word and starting over.
+
+For example, consider the attempt to write "super awesome":
+
+`SAOU/PER/AU/SOPL`
+
+Instead of pressing the asterisk 4 times and rewriting the entire word, an alternative would be to backspace the last two strokes, toggle asterisk with `#*` to get the word form, and continue with "awesome":
+
+`SAOU/PER/AU/SOPL/*/*/#*/AU/SOPL` (9 strokes)
+
+`SAOU/PER/AU/SOPL/*/*/*/*/SAOU/P*ER/AU/SOPL` (12 strokes)
+
+# Suffixes
+
+Unlike prefixes, most suffixes do have to be memorized but are quite predictable with many following patterns.
+
+The following inexhaustive list contains common suffix strokes that should be sufficient for most everyday writing:
+ - `KWREU` → -y
+   - `KRAEUZ/KWREU` → crazy
+ - `KWREUF` → -ive
+   - `KRAOE/KWRAEUT/KWREUF` → creative
+ - `KWREUFPL` → -ism
+   - `PHAG/TPHET/KWREUFPL` → magnetism
+ - `KWREUPB` → -in
+   - `PHRUG/KWREUPB` → plugin
+ - `KWREUBG` → -ic
+   - `AOEU/KWROPB/KWREUBG` → ionic
+ - `KWREUFT` → -ist
+   - `ART/KWREUFT` → artist
+ - The following outlines are primarily used in syllabic splitting with `KWR` representing a diphthong like in words such as "obsidian" (`OB/SEUD/KWRAPB`). However, by themselves, these outlines are defined without an initial "I" as shown below:
+   - `KWROPB` → -on
+   - `KWRAPB` → -an
+   - `KWRAPBT` → -ant
+   - `KWREPB` → -en
+   - `KWREPBT` → -ent
+
+> If you come across a word that needs to be defined using one of the above suffixes, use them as is regardless of if a diphthong is present in its pronunciation. For example, "harden" and "alien" would be defined as `HARD/KWREPB` and `AEUL/KWREPB`, respectively. The suffix is still the same regardless of if an "I" is present in their spelling. However, if you need to end an arbitrary word with one of the above suffixes with a leading "I", use an asterisk on the suffix stroke. For example, "hardan" would be written as `HARD/KWRAPB` while "hardian" would be written as `HARD/KWRA*PB`.
+
+ - `A*R` → -ar
+ - `A*L` → -al
+ - `AEUGS` → -ation
+ - `O*R` → -or
+ - `*ER` → -er
+ - `-PLT` → -ment
+ - `-PBS` → -ness
+ - `-BL` → -able
+ - `-BLT` → -ability
+ - `-L` → -le
+ - `-LT` → -let
+ - `-G` → -ing
+ - `-S` → -s
+ - `-Z` → -s
+ - `ST-BG` → -istic
+ - `SH-PBS` → -ishness
+ - `SH*EUP` → -ship
+
+# Conflict resolution
+
+If two homophones must be resolved using asterisk, there are a few aspects of each word that will decide which word gets precedence.
+
+If there are repeat letters in a word, that will use asterisk
+ - `#HART/PHAPB` → Hartman
+ - `#HART/PHA*PB` → Hartmann
+
+If two words differ in a vowel, (especially with Y or I), the asterisk will go to the word that doesn't match the vowel as spelt
+ - `#HREUPB` → Lin
+ - `#HR*EUPB` → Lynn
+
+ "kr" gets precedence over "chr" and "cr" in `KR-` as it matches the keys more
+ - `#KREUS/TEU` → Kristy
+ - `#KR*EUS/TEU` → Christy
+   - Also can be written `#KHREUS/TEU`
+
+"x" and "ks" gets precedence over "kshun" in" `-BGS`
+ - `TRABGS` → tracks
+ - `TRA*BGS` → traction
+ - `RE/TPHREBGS` → reflex
+ - `RE/TPHR*EBGS` → reflection
+ - > The one exception to this rule is `TKEUBGS` → diction; I like being able to write "dictionary" as `TKEUBGS/KWRAER`. Seeing "dicks" show up before writing `KWRAER` seems silly.
+
+For conflicts with words ending "i" vs "y", use `EU` and `KWREU` respectively
+ - `#TE/REU` → Terri
+ - `#TER/KWREU` → Terry
+ - `#SAPL/KWREU` → Sammy
+ - `#SA/PHEU` → Sammi
+
+# Beyond writing out
+
+It's no secret that writing out syllabically can be quite slow. This dictionary does have some techniques for writing significantly shorter.
+
+## Dropping unstressed vowels
+
+This technique has already been somewhat illustrated in [Situations that benefit from dropping unstressed vowels](#situations-that-benefit-from-dropping-unstressed-vowels). Figuring out stress can be a bit of a challenge within a word and I unfortunately do not have any tips at this moment, apart from showing a few examples:
+ - `PHEPL/RAOEUZ` → memorize ("o" is dropped)
+ - `T*EPL/RAEUR/KWREU` → temporary ("o" is dropped)
+ - `TPOFRPB/TPHAT` → fortunate ("u" is dropped)
+ - `KPHAPBD` → command ("o" is dropped and remaining word is fit into one stroke)
+ - `KPHAOUPB/KAEUT` → communicate (both the "o" and the "i" are dropped)
+ - `STKAOEUR` → desire ("e" is dropped, and `STK` serves as "ds" using an inversion)
+ - `STKPAOER` → disappear ("i" and first "a" are both dropped, `STK` serving as "ds" using an inversion)
+ - `RUFR` → rougher ("e" is dropped, `-FR` representing the "fer" sound)
+ - `TKEUFRPBT` → different (both "e"'s are dropped, remaining consonants fit into single stroke)
+ - `EBGS/PERPLT` → experiment ("i" is dropped)
+
+## Using shorter prefixes and suffixes
+
+Most prefixes are simple to determine but may take multiple strokes. For example, `PHE/TKPWA` is the mega- prefix which is logical and predictable. However, a stroke can be saved by using `PH*EG` instead.
+
+A few examples are listed below:
+ - `PHEU/HREU` → milli-
+   - `PH*EUL` can instead be used
+ - `KEU/HROE` → kilo-
+   - `K*EUL` can instead be used
+ - `RE/TROE` → retro-
+   - `RERT` can instead be used
+
+Suffixes can be shortened in much the same way.
+
+For example, the canonical way of writing "dictionary" is `TKEUBGS/KWRAEUR/KWREU` with `KWRAEUR/KWREU` representing the -ary suffix. `KWRAER` serves as a shorter alternative as seen in the following examples:
+ - `TKO/KAOU/-PLT/KWRAER` → documentary
+ - `TKEUS/PEPBS/KWRAER` → dispensary
+ - `SREUGS/KWRAER` → visionary
+
+-ory can also be shortened to `KWROER`:
+ - `TPABGT/KWROER` → factory
+ - `PRE/EPLT/KWROER` → preemptory
+ - `STA/KHAOUT/KWROER` → statutory
+
+`AER` and `OER` are also special in that they are not just parts of suffixes, but can represent the sounds of  -ary and -ory when combined with other consonants.
+
+ - `EUPB/SREPB/TOER` → inventory
+ - `OB/HREU/TKPWA/TOER` → obligatory
+ - `UPB/TPHE/SE/SAER` → unnecessary
+ - `ES/KHAOU/WAER` → estuary
+
+> Using `AER` and `OER` are great ways to shorten your writing! Whenever you write `____AEUR` or `____OR` followed by `KWREU`, remember that these can all be compressed into one stroke!
+
+## Folding and stacking sounds on ending strokes
+
+Ending consonants on the right hand can be combined with ending strokes to fit more sounds into one stroke. For example, `-T` can be used to represent -ity conjunction with other chords:
+ - `PRAOEU/KWRORT` → priority
+ - `SAOEPB/KWRORT` → seniority
+ - `EUPB/SAPBT` → insanity
+ - `PHOE/HRAERT` → molarity
+
+`-L` can be used in a similar manner to represent -al or -ly:
+ - `EBGS/TERPBL` → external
+ - `EUPL/PHORL` → immoral
+ - `EUPL/PEURBL` → impishly
+ - `RAOE/SPEBG/TEUFL` → respectively
+
+`-R` can be used to represent an ending R sound:
+ - `SOFT/KWRERPB` → softener
+ - `OERPB` → owner
+ - `KHRAOERPB` → cleaner
+ - `TKAOEURPB` → diner
+
+## Folding suffix keys
+
+Folding suffix keys can come with unintended conflicts (for example, `SPEUGT` for "spitting" vs "spigot") but it is an easy way to reduce how many strokes you use. That said, hitting `-G`, `-S`, `-D`, or `-Z` separately is already quite fast. Folding these keys often requires more finger contortions. Do not feel obliged to fold suffix keys, despite the dictionary containing these entries.
+
+## Examples of short entries that I might use
+
+The following words are a few examples of some of using two or more techniques above to form short entries. They should demonstrate how you can write shorter without having to memorize a bunch of briefs or suffix strokes.
+ - `T*EPL/RAERL` → temporarily
+   - Dropping the unstressed "o", using the "AER" compound cluster, and folding a `-L` to represent "-ly"
+   - Written-out form: `TEPL/POR/KWRAEUR/KWREU/HREU`
+ - `KA*LG/HRAEUGT` → calculating
+   - Dropping the unstressed "u" and folding the `-G` suffix key
+   - Written-out form: `KAL/KAOU/HRAEUT/-G`
+ - `TAEURLG` → tailoring
+   - Dropping the unstressed "o" and folding the `-G` suffix key
+   - Written-out form: `TAEU/HROR/-G` or `TAEUL/O*R/-G`
+ - `KOR/KWRARPBD` → coriander
+   - Using `KWR` to represent the "i" and folding in `-R` to represent the "er"
+   - Written-out form: `KOR/KWREU/KWRAPB/TKER`
+ - `AL/TERPB/TEUFL` → alternatively
+   - Dropping the unstressed second "a" and folding a `-L` to represent "-ly"
+   - Written-out form: `AL/TER/TPHA/TEUF/HREU`
+ - `ERTD` → editor
+  - Dropping the unstressed "i" and folding in `-R` to represent the "or"
+  - Written-out form: `ED/KWREUT/O*R`
+
+
+# UK Spellings
+
+By default `lapwing-base.json` mainly only contains American spellings of words. `lapwing-uk-additions.json` adds UK spellings which is fully compatible and conflict free (with a few exceptions) to `lapwing-base.json`. It allows writing of UK spellings without having to turn dictionaries on and off.
+
+> I made this dictionary mainly with Australian and Canadian English in mind. If you primarily write British English and wish to replace all American spellings, then this dictionary might not be ideal for you.
+
+## Dictionary contents
+
+ - [Switching with `#TPH`](switching-with-tph)
+ - [ae spellings](#ae-spellings)
+ - [ise spellings](#ise-spellings)
+ - [ll spellings](#ll-spellings)
+ - [oe spellings](#oe-spellings)
+ - [ou spellings](#ou-spellings)
+ - [re spellings](#re-spellings)
+ - [Miscellaneous briefs](#miscellaneous-briefs)
+
+## Switching with `#TPH`
+
+Writing `#TPH` after any translation will switch the previous word into its British variant (if it exists in the dictionary).
+
+Unfortunately, there is currently a limitation that requires all suffix keys (`-G`, `-S`,`-D` and `-Z`) to either be folded into the last stroke or written after the `#TPH` chord.
+
+For example, the following attempt to write "accessorising" will not work:
+ - `ABG/SE/SOR/KWRAOEUZ/-G/#TPH`
+
+Instead write it as either of the following:
+ - `ABG/SE/SOR/KWRAOEUZ/#TPH/-G`
+ - `ABG/SES/KWROR/KWRAOEUGZ/#TPH`
+
+Using `#TPH` is the recommended method that will always work when switching to British spellings. There are a few shorter models listed below, but they are not guaranteed to always work.
+
+## ae spellings
+
+Regardless of pronunciation, words that are spelled with "ae" can be written with `AE`
+
+Examples:
+ - `EPB/SAOEU/KHROE/PAE/TKEU/KWRA` → encyclopaedia
+ - `AET/KWROLG` → aetiology
+
+## ise spellings
+
+Words spelled with "ise" use `AOEUS` or `AOEUF` (when folding in ending sounds).
+
+Examples:
+ - `PHAG/PHE/TAOEUS` → magnetise
+ - `STAEUBL/KWRAOEUFR` → stabiliser
+ - `AOUT/HRAOEUFG` → utilising
+
+## ll spellings
+
+The rule discussed in [conflict resolution](#conflict-resolution) is utilized where asterisk is used on the stroke with the double "L".
+
+Examples:
+ - `RAOE/TPAO*ULG` → refuelling
+ - `RE/SR*EL/*ER` → reveller
+
+> NOTE: because of this rule, single l spellings such as "instal" or "fulfil" are not possible using any method other than `#TPH`
+
+## oe spellings
+
+Words spelled with "oe" are written with `OE`
+
+Examples:
+ - `OES/TROE/SKWREPB` → oestrogen
+ - `HOEPL/KWROE/PA*T` → homoeopath
+ - `AOE/TKOE/PHA` → edoema
+
+## ou spellings
+
+Any spellings with "ou" instead of "o" can be written using `OU`.
+
+Examples:
+ - `TPHAEU/PWOUR` → neighbour
+ - `KAPB/TKOUR` → candour
+ - `KOL/O*UR` → colour
+
+## re spellings
+
+The stroke with `ER` is asterisked. There is no "-re" suffix currently and so any outlines normally written with `*ER` does not fall under this method.
+
+Examples:
+ - `KA/HREU/PW*ER` → calibre
+ - `PHAOEU/T*ER` → mitre
+ - `HREU/T*ER` → litre
+
+## Miscellaneous briefs
+
+~~Asterisk extravaganza!~~
+
+Just asterisk whenever possible.
+
+Examples:
+ - `PHAO*ERT` → metre
+ - `*ORG` → organise
+ - `HRA*EUBLG` → labelling
+ - `TPHA*EURB` → neighbour
 
-### Basic movement
-
-Here's a table of all basic movement commands:
-
-| Outline | Description |
-| ---- | ---- |
-| `#TPH-R` | Left arrow key <br> <img src="img/26-left.png" width="300px"/> |
-| `#TPH-P` | Up arrow key <br> <img src="img/26-up.png" width="300px"/> |
-| `#TPH-B` | Down arrow key <br> <img src="img/26-down.png" width="300px"/> |
-| `#TPH-G` | Right arrow key <br> <img src="img/26-right.png" width="300px"/> |
-| `#TPH-FR` | Home <br> <img src="img/26-home.png" width="300px"/> |
-| `#TPH-LG` | End <br> <img src="img/26-end.png" width="300px"/> |
-| `#TPH-FPL` | Top (Ctrl+Home) <br> <img src="img/26-top.png" width="300px"/> |
-| `#TPH-RBG` | Bottom (Ctrl+End) <br> <img src="img/26-bottom.png" width="300px"/> |
-| `#TPH-RPG` | Page up <br> <img src="img/26-page-up.png" width="300px"/> |
-| `#TPH-FBL` | Page down <br> <img src="img/26-page-down.png" width="300px"/> |
-
-The `-RPBG` cluster can be thought of as arrow keys:
-
-![](img/26-arrow-keys.png)
-
-Furthermore, other chords have distinctive shapes reminiscent of their purpose.
-
-* Page up (arrow pointing up)
-* Page down (arrow pointing down)
-* Home (left column)
-* End (right column)
-* Top (top row)
-* Bottom (bottom row)
-
-#### Moving word by word
-
-On a regular keyboard, the text cursor can be moved word by word by pressing <code class="code-mono">Ctrl</code> and an arrow key. This can also be done by pressing `#TPH-RB` and `#TPH-BG`.
-
-| Outline | Description |
-| ---- | ---- |
-| `#TPH-RB` | Left by one word <br> <img src="img/26-left-word.png" width="300px"/> |
-| `#TPH-BG` | Right by one word <br> <img src="img/26-right-word.png" width="300px"/> |
-
-#### `-TS` repetition
-
-By including a combination of `-T` and `-S`, a movement key command up to 4 times in one stroke.
-
-| Repetition | Key |
-| ---- | ---- |
-| 1 | ` ` |
-| 2 | `-S` |
-| 3 | `-T` |
-| 4 | `-TS` |
-
-For example, `#TPH-GT` would move the cursor to the right by three characters and `#TPH-BGT` would move the cursor to the right by three words.
-
-#### Selection
-
-To select text, include the `*` key in a movement command. Repeating the same command works for incrementing the current selection. For example, `#TPH*R/#TPH*R/#TPH*R/#TPH*R` will select the 4 letters to the left.
-
-#### Repeat the last command
-
-> **NOTE:** for this to work, you will have to disable the <code class="code-mono">lapwing-prefixed-proper-nouns.json</code> dictionary.
-
-Instead of writing `#TPH*R/#TPH*R/#TPH*R/#TPH*R`, the number key can be pressed to repeat the last outline: `#TPH*R/#/#/#`.
-
-> **NOTE:** this requires the <code class="code-mono">plover-last-translation</code> plugin if you are not using <code class="code-mono">plover-lapwing-aio</code>.
-
-#### MacOS commands
-
-Replace all occurrences of "Control" with "Alt" in the movement commands if you are on macOS.
-
-### Modal movement
-
-> **NOTE:** this movement method is not compatible with Javelin. See [Appendix C](Appendix-C.md#chapter-26) for more details.
-
-#### Setup
-
-Ensure that <code class="code-mono">plover-lapwing-aio</code> is installed and <code class="code-mono">Lapwing</code> is selected as the system. Alternatively, if you are setting up [Lapwing manually](Appendix-B.md) (not recommended), ensure that <code class="code-mono">lapwing-movement.modal</code> is in your dictionary stack.
-
-After verifying that <code class="code-mono">lapwing-movement.modal</code> is in the dictionary stack, go to <code class="code-mono">Configure → Plugins</code> and check the <code class="code-mono">modal_update</code> box as shown below.
-
-![modal update box](img/B-modal_update.png)
-
-#### Modal dictionaries
-
-Moving around a document can be quite tedious especially with such a long starting chord like `#TPH`. One way to make movement easier is to use a modal dictionary. This is a temporary dictionary that can be turned on and off with a regular outline that also outputs a translation.
-
-A modal movement dictionary contains the regular movement strokes, but with the `#TPH` chord removed. Writing a normal movement stroke will turn this dictionary on, so that every subsequent movement stroke can be written using only the right hand. Writing a non-movement stroke will turn this dictionary back off.
-
-![](img/26-modal-movement.gif)
-
-> **NOTE:** this plugin is incompatible with some plugins such as plover-clippy. The creator has expressed that it is a bit of a hacky plugin.
-
-#### Semi-modal movement
-
-If you do not want to use modal dictionaries, you can also use the [semi-modal movement dictionary](https://github.com/aerickt/steno-dictionaries/blob/main/lapwing-semi-modal-movement.json). This also contains movement strokes without the left hand starting chord.
-
-You can download the dictionary from the link above and make sure you add it to the top of your stack. Uncheck the box so that it is disabled by default. The idea is that you can enable this dictionary only when you need to move the text cursor.
-
-To achieve this, you will need to add a toggling entry to one of your dictionaries:
-
-```
-{PLOVER:TOGGLE_DICT:!semi-modal-movement.json}
-```
-
-![](img/26-semi-modal-movement-entry.png)
-
-Now, whenever you want to move the text cursor without having to use a left hand starting chord, just write `SKWR` (or whatever stroke you chose) and then `SKWR` again when you're done.
-
-### First-up chord send and chord repeat
-
-Quick video introducing these two firmware mods: [https://youtu.be/UMGT-qyJeJk](https://youtu.be/UMGT-qyJeJk).
-
-#### First-up chord send
-
-Steno keyboards send stroke information to Plover once all keys have been released. You can test this out for yourself. Hold down `S` and press other keys on the steno layout. Plover will not receive any strokes as long as `S` (or any other key) is being held down. Once every key has been released, Plover will register the stroke.
-
-Alternatively, you could have your keyboard send stroke information once the first key has been released. This is what "first-up chord send" refers to: stroke information is sent to Plover as soon as the first key has been released. This is very useful for repeating movement keys without using a separate dictionary or pressing the entire stroke each time.
-
-By holding down the left hand starter chord, you can tap a right hand key repeatedly to move the cursor multiple times. In fact, as long as the left hand starter chord is being held, you can tap any of the right hand movement chords.
-
-![](img/26-first-up-movement.gif)
-
-However, there are two caveats with this technique: firstly, it involves modifying your keyboard's firmware. Secondly, it may cause your accuracy to drop if you're writing fast. Personally, wrong strokes are very often detected by Plover when I try to use first-up chord send. It may be that my writing is sloppy and I am not too careful and deliberate about my stroke actions, but I have not been able to get used to this firmware mod.
-
-#### Chord repeat
-
-Chord repeat works a lot like holding down a key on a regular keyboard. However, as we often hold chords when we hesitate, it is more useful to double tap a chord and hold to signify that we want to repeat the chord.
-
-![](img/26-chord-repeat.gif)
-
-This technique also requires modifying your keyboard's firmware. Unlike first-up chord send, I do recommend this and find it very useful.
-
-#### Ecosteno, Multisteno, Splitography, Uni v3
-
-For these keyboards, prebuilt firmware binaries for these mods are available at Josh Gram's [steno-firmware](https://github.com/JoshuaGrams/steno-firmware) repository.
-
-Flashing these firmware files are beyond the scope of this page, and instructions differ from keyboard to keyboard and machine to machine. On Linux, flashing the Multisteno is relatively straightforward as long as <code class="code-mono">dfu-util</code> is installed. I use the following command (where <code class="code-mono">noll_multisteno.bin</code> is the binary):
-
-```
-sudo dfu-util -d 1eaf:0003 -a 2 -D "noll_multisteno.bin"
-```
-
-#### Javelin compatible devices
-
-[Javelin](https://lim.au/#/software/javelin-steno) is a steno engine that is contained within a keyboard's firmware. This allows the keyboard to act a steno writer without having to install Plover on the host machine. It is very useful for using steno on multiple devices without having to worry about installing Plover or syncing dictionaries; the entirety of the translation from steno strokes to text happens on the keyboard itself.
-
-Javelin is compatible with several steno keyboards such as the Uni v4 and the Polyglot. It is much easier to create custom firmware builds and flash binaries to these keyboards via the Javelin Steno Firmware Builder. By checking the "Show expert options" at the very top of the page, you have the option of enabling first up chord send and/or repeat.
-
-If you don't intend to use Javelin's embedded steno capability, you can also still use Plover with keyboards that have Javelin firmware. For each keyboard, you will have to press a key combination to switch it into Gemini PR for usage with Plover.
-
-## Copying, pasting, and deleting text
-
-Copying and pasting of text is done by simply emulating the <code class="code-mono">Ctrl+C</code> and <code class="code-mono">Ctrl+V</code> shortcuts. Using Abby's left hand modifiers, this would be `KHR/KR` and `KHR/SR` respectively. The same goes for cutting text.
-
-The following table lists a few helpful strokes for deleting text. It is important to note that using these strokes will mess up any undo history with the `*`.
-
-| Outline | Translation | Description |
-| ---- | ---- | ---- |
-| `PW-FP` | <code class="code-mono">{#BackSpace}{^}</code> | Backspace |
-| `PW*FP` | <code class="code-mono">{#Control(BackSpace)}{^}</code> | Backspace the last word (change translation if you're on Mac) |
-| `TKHR` | <code class="code-mono">{#Delete}{^}</code> | Delete the next character |
-| `TKHR*` | <code class="code-mono">{#Control(Delete)}{^}</code> | Delete the next word |
