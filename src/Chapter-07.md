@@ -202,13 +202,13 @@ This is only a suggestion; it is not a requirement to move to the next chapter!
 > **NOTE:** remember that these are briefs; the explanations are not applicable to any arbitrary word.
 
 ### Practice sentences
-1. can you see two?
+1. can you say two?
 1. I paid for a can!
 1. I got a new car in the ice.
 1. if you trade, can I pay for the rice?
 
 #### Answers
-1. `K/U/SAOE/TWO/KW-PL`
+1. `K/U/SAEU/TWO/KW-PL`
 1. `EU/PAEUD/TP-R/AEU/K/TP-BG`
 1. `EU/TKPWOT/AEU/TPHU/KAR/TPH/-T/AOEUS/TP-PL`
 1. `TP/U/TRAEUD/KW-BG/K/EU/PAEU/TP-R/-T/RAOEUS/KW-PL`
