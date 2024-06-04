@@ -101,16 +101,7 @@ Write the "-graph" part separately and then use the `KWREU` suffix to add the "-
 * `STE/TPHO/TKPWRAEF` stenography
 * `SREUD/KWRO/TKPWRAEF` videography
 
-
-This uses a briefing technique called "e-folding". The stroke `TKPWRAF` represents "graph", and the `E` key can indicate a *long e* sound on the end of the word.
-
-In other words:
-
-* `TKPWRAF` + `E` = `TKPWRAEF` can be thought of as:
-*  graph + "ee" = graphy.
-
-
-E-folding is covered further in [chapter 24](Chapter-24.md#e-folding)
+This alternative outline uses e-folding.
 
 ### "-grapher"
 
@@ -150,7 +141,7 @@ Instead of `TKPWRAF/KWREUBG`, you can also use `TKPWRAFBG`:
 * `EUPB/TPOE/TKPWRAFBG` infographic
 * `PEUBG/TO/TKPWRAFBG` pictographic
 
-This uses a briefing technique where the unstressed vowels such as the "i" in graph**i**c is dropped.
+This alternative outline employs dropping the unstressed "i" in "graph<s>i</s>c".
 
 ## "-ology" words
 These are written using regular syllabic splitting:
@@ -217,7 +208,7 @@ I prefer using `TWAL` over `WAL` (when possible) as it more closely resembles th
 
 ### `KWRAOUL`
 
-You are also free to come up with your own strokes for dealing with these words. In hindsight, `KWRAOUL` would be a better fit to some of these words, however, as I am already accustomed to `WAL`, I am not about to change these around. Furthermore, if `PHA/TPHAOU/WAL` or `PHA/TPHAOUL` do, in fact, make more sense to you, you should absolutely make changes to your dictionary.
+You are also free to come up with your own strokes for dealing with these words. In hindsight, `KWRAOUL` would be a better fit to some of these words. I am already accustomed to `WAL`, so I am not about to change these around. That said, if `PHA/TPHAOU/WAL` or `PHA/TPHAOUL` make more sense to you, add it to your dictionary!
 
 ## Doubling consonants with prefixes
 
