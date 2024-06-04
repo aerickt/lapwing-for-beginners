@@ -10,8 +10,7 @@
    - Repeat the drill as needed
 1. Read [`KWR` as y](#kwr-as-y) and complete the drill (**20 minutes**)
    - Repeat the drill as needed
-1. Read [Words starting with `EU`](#words-starting-with-eu) and complete the drill (**20 minutes**)
-   - Repeat the drill as needed
+1. Read [Words starting with `EU`](#words-starting-with-eu) (**5 minutes**)
 1. Read [prefix priority](#prefix-priority) (**10 minutes**)
 1. Attempt the [test](#chapter-15-test) (**20 minutes**)
    * Practise as needed
