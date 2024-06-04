@@ -6,12 +6,14 @@
 
 1. Read [syllabic splitting basics](#syllabic-splitting-basics) and complete the drill (**20 minutes**)
    - Repeat the drill as needed
-2. Read [`KWR` as a silent linker](#kwr-as-a-silent-linker) and complete the drill (**20 minutes**)
+1. Read [`KWR` as a silent linker](#kwr-as-a-silent-linker) and complete the drill (**20 minutes**)
    - Repeat the drill as needed
-3. Read [`KWR` as y](#kwr-as-y) and complete the drill (**20 minutes**)
+1. Read [`KWR` as y](#kwr-as-y) and complete the drill (**20 minutes**)
    - Repeat the drill as needed
-4. Read [prefix priority](#prefix-priority) (**10 minutes**)
-5. Attempt the [test](#chapter-15-test) (**20 minutes**)
+1. Read [Words starting with `EU`](#words-starting-with-eu) and complete the drill (**20 minutes**)
+   - Repeat the drill as needed
+1. Read [prefix priority](#prefix-priority) (**10 minutes**)
+1. Attempt the [test](#chapter-15-test) (**20 minutes**)
    * Practise as needed
 
 Remember to take breaks!
@@ -308,6 +310,17 @@ In the following examples, try to pronounce each word by approximating the vowel
 
 [`KWR` as "y" drill](practice/15-KWR-y.txt)
 
+## Words starting with `EU`
+
+If the first stroke of a word starts with the `EU` vowel, include the next consonant in the right hand, even if it means the next has to start with `KWR`.
+
+* illusion `EUL/KWRAOUGS`
+* immense `EUPL/KWREPBS`
+* inundate `EUPB/KWRUPB/TKAEUT`
+* irrigate `EUR/KWREU/TKPWAEUT`
+
+> This rule exists because there can potentially be conflicts since `EU` by itself is the word "I". However, a quick look at the words starting with `EU[FRPBLGTSDZ]/KWR` seems to suggest that this may not be an issue. Therefore, this rule may be removed in the near future.
+
 ## Prefix priority
 
 Sometimes a given steno outline can have both a word and a prefix that it can represent. For example, to write the simple word "by" the obvious steno outline is `PWAOEU`. However, there also exists the "bi-" prefix as in the words "bicycle" `PWAOEU/SAOEUBG/-L`, "bifurcate" `PWAOEU/TPUR/KAEUT`, and "bilateral" `PWAOEU/HRA/TER/KWRAL`.
@@ -352,7 +365,7 @@ There are also conflicts between words and prefixes that are more than one strok
 
 Some of these can also be briefed. Feel free to use the look up and discover briefs.
 
-##### Three way conflict between "by", "bye", and "buy":
+#### Three way conflict between "by", "bye", and "buy":
 
 | Word | Outline |
 | ---- | ---- |
