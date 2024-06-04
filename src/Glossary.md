@@ -130,32 +130,6 @@ The principles of Lapwing theory that encompass the rules for writing English te
 
 The output (text, keyboard shortcut, etc) of a steno outline.
 
-## long vowel
-
-An informal term referring to one of the following sounds:
-
-| Name | IPA | Example |
-| ---- | ---- | ---- |
-| "Long A" | /eɪ/ | m<ins>a</ins>te |
-| "Long E" | /iː/ | P<ins>e</ins>te |
-| "Long I" | /aɪ/ | tw<ins>i</ins>ne |
-| "Long O" | /oʊ/ | n<ins>o</ins>te |
-| "Long U" | /juː/ | c<ins>u</ins>be |
-
-## short vowel
-
-An informal term referring to one of the following sounds:
-
-| Name | IPA | Example |
-| ---- | ---- | ---- |
-| "Short A" | /æ/ | m<ins>a</ins>t |
-| "Short E" | /ɛ/ | p<ins>e</ins>t |
-| "Short I" | /ɪ/ | tw<ins>i</ins>n |
-| "Short O" | /ɒ/ | n<ins>o</ins>t |
-| "Short U" | /ʌ/ | m<ins>u</ins>tt |
-| Schwa | /ə/ | <ins>a</ins>bout |
-
-
 ## write-out
 
 An outline that follows basic theory.
