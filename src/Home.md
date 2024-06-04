@@ -20,4 +20,8 @@ In early 2022, I was dissatisfied with the state of learning resources for Plove
 
 Over two years later, Lapwing is used by several community members and is a regarded as a viable theory to learn. I created this resource to make stenography more accessible to hobbyists.
 
-[![paypal](https://img.shields.io/badge/-Buy%20me%20a%20coffee%20%3AD-informational?logo=paypal)](https://www.paypal.com/donate/?hosted_button_id=VNMUULBPTQGMC)
+## Contributing
+
+This book is compiled with [mdbook](https://rust-lang.github.io/mdBook/). The source can be found on [GitHub](https://github.com/aerickt/lapwing-for-beginners), and pull requests are welcome (build instructions are in the repository's README).
+
+If you like my work, maybe consider [buying me a coffee](https://www.paypal.com/donate/?hosted_button_id=VNMUULBPTQGMC) 😄.
