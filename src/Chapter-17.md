@@ -284,6 +284,14 @@ However, it is not possible to include the "n" two times on the right side of th
 
 > If you're brave, `KOFPBT` could be a valid outline!
 
+### Consonant group splitting quirks
+
+After dropping an unstressed vowel, a word can typically be split at the point where the vowel used to be. For example, the word "literal" would be split like `HREUT/RAL` rather than `HREU/TRAL`—even if that pronunciation is more natural to you.
+
+However, if a vowel is completely silent, like the second "e" in "vet<ins>e</ins>rinarian", it is often preferred to treat the remaining consonants as one sound (just like it was shown in chapter 15).
+
+> This is one place where you may want to tweak your dictionary.
+
 ### Practice material
 
 * [Dropping unstressed vowels with folding drill](practice/17-unstressed-folding.txt)
