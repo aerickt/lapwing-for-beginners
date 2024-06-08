@@ -33,7 +33,13 @@ Earlier chapters covered affix strokes and compound words. Syllabic splitting is
 3. Ensure not to double consonants across separate strokes
 4. With multiple ways of splitting syllables, preserve the natural sounds of the word
 
-It's best to learn these rules by examples.
+### Consonant group ambiguity
+
+With the rules above, some consonant groups will be ambiguous as to where to split them. For example, the word "hydrate" can be written as `HAOEUD/RAEUT` or `HAOEU/TKRAEUT` depending on where the "dr" consonant cluster is split. **In these scenarios, use the outline that represents how the sounds are grouped.** When saying this word, the "dr" group sounds less like two distinct consonants, and more like a single consonant. Therefore, "hydrate" should be written like `HAOEU/TKRAEUT`.
+
+> The strokes `HAOEUD/RAEUT` would instead be the phrase "hide rate".
+
+In a word like "guardrail", the "dr" consonants are spoken more like two distinct sounds. Therefore, this word would be split in between the "d" and "r" (even putting aside the fact that this is a compound word).
 
 ### Basic examples and explanations
 
@@ -101,7 +107,7 @@ Full outline: `A/HRAOEU`
 
 3. There are two ways of splitting the rest of the word: lu/dic/rous and lu/di/crous.
 
-4. The latter is more natural as the "cr" in "ludi<ins>cr</ins>ous" is pronounced as one sound.
+4. The latter is more natural as the "cr" in "ludi<ins>cr</ins>ous" is closer to one sound than two distinct ones.
 
 Full outline: `HRAOU/TKEU/KRUS`
 
