@@ -308,3 +308,34 @@ This table contains words that don't quite follow main theory principles.
 | scene | `SKAOEPB` | `SAOEPB` is already the word "seen" so "scene" is written with the `K` to disambiguate. |
 | wolf | `WOEFL` or `WOFL` | While you could write this as `WOEL/*F` or `WOL/*F`, it's just much faster to learn one of these briefs. |
 | werewolf | lots of outlines | You can use `WAEUR` or `WER` for the first stroke. However, if you use `WER`, you will have to to asterisk the second word since there is a potential conflict between the phrase "were wolves" and the word "werewolves". |
+
+## Strokes starting with `EU`
+
+For words like "illuminate" and "immense", there are multiple way valid outlines.
+
+### Syllabically
+
+First, these words can be written using the same syllabic splitting rules in chapter 15.
+
+* illuminate `EU/HRAOU/PHEU/TPHAEUT`
+* immense `EU/PHEPBS`
+
+### Prefixes
+
+For some words like "illuminate" and "immobilize", it is natural to use predictions:
+
+* illuminate `EUL/HRAOU/PHEU/TPHAEUT`
+* immobilize `EUPL/PHOEBL/KWRAOEUZ`
+
+Normally, two consonant chords cannot be doubled across two strokes. In the "immobilize" outline, the `-PL` and `PH` chords are next to each other in the first and second strokes. However, since the first stroke `EUPL` is a prefix, this is allowed.
+
+### Incorrect prefixes
+
+For some other words like "immense" and "immune", using a prefix would not make much sense since the remaining letters would not form a word ("mense" and "mune" are not words). However, words starting with `EU` are exempt from this rule. Therefore, the following outlines are all valid:
+
+* immense `EUPL/KWREPBS` or `EUPL/PHEPBS`
+* immune `EUPL/KWRAOUPB` or `EUPL/PHAOUPB`
+
+### Why
+
+Since `EU` on its own is the word "I", I originally had concerns that outlines like `EU/HREUFT` and `EU/SHAOU` would cause some issues. Therefore, I opted to make all of these words not adhere to syllabic splitting, and instead force them to be written with prefixes. However, upon closer examination, there are not very many conflicts. Therefore, I've added the syllabic splitting outlines, and am keeping the others as fallbacks. Eventually, the incorrect prefixes may be removed.
