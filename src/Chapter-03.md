@@ -6,7 +6,7 @@ Before starting to learn steno, it is important to know that it is not something
 
 In fact, it took me 6 months to reach 150 WPM on some TypeRacer quotes, but my speed varied quite a lot as novel and unfamiliar words would throw me off. While my top speed was indeed quite fast during this period, my average speed of 90 WPM wasn't significantly faster than a good QWERTY typist. Another 6 months later, I was at a consistent 180 WPM on most Monkeytype quotes. Another year and a half after that, I completely switched to steno for all computer tasks.
 
-I hope reading this has not discouraged you from picking up steno, but I do have to honest and straightforward about it. If you are not discouraged, however, I do believe you have the right mindset to succeed!
+I hope reading this has not discouraged you from picking up steno, but I do have to be honest and straightforward about it. If you are not discouraged, however, I do believe you have the right mindset to succeed!
 
 ## Take steno as a challenge!
 
