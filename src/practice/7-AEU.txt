@@ -94,8 +94,6 @@ base	PWAEUS
 bade	PWAEUD
 plate	PHRAEUT
 place	PHRAEUS
-mayor	PHAEUR
-maybe	PHAEUB
 mail	PHAEUL
 mate	PHAEUT
 mace	PHAEUS

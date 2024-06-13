@@ -1,6 +1,5 @@
 snide	STPHAOEUD
 snipe	STPAOEUP
-suffice	STPAOEUS
 strife	STRAOEUF
 stripe	STRAOEUP
 stride	STRAOEUD
@@ -60,7 +59,6 @@ tide	TAOEUD
 choir	KWAOEUR
 quite	KWAOEUT
 chive	KHAOEUF
-chile	KHAOEUL
 chide	KHAOEUD
 cried	KRAOEUD
 kite	KAOEUT

@@ -94,8 +94,6 @@ base	PWAEUS
 bade	PWAEUD
 plate	PHRAEUT
 place	PHRAEUS
-mayor	PHAEUR
-maybe	PHAEUB
 mail	PHAEUL
 mate	PHAEUT
 mace	PHAEUS
@@ -315,7 +313,6 @@ gale	TKPWAEL
 gate	TKPWAET
 dear	TKAER
 dale	TKAEL
-data	TKAET
 flare	TPHRAER
 fare	TPAER
 feat	TPAET
@@ -481,7 +478,6 @@ eat	AOET
 ease	AOES
 snipe	STPHAOEUP
 snide	STPHAOEUD
-suffice	STPAOEUS
 strife	STRAOEUF
 stripe	STRAOEUP
 stride	STRAOEUD
@@ -541,7 +537,6 @@ tide	TAOEUD
 choir	KWAOEUR
 quite	KWAOEUT
 chive	KHAOEUF
-chile	KHAOEUL
 chide	KHAOEUD
 cried	KRAOEUD
 kite	KAOEUT

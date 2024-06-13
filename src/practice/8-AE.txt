@@ -9,7 +9,6 @@ gale	TKPWAEL
 gate	TKPWAET
 dear	TKAER
 dale	TKAEL
-data	TKAET
 flare	TPHRAER
 fare	TPAER
 feat	TPAET
