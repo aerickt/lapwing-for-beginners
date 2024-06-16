@@ -120,7 +120,6 @@ mosh	PHORB
 mesh	PHERB
 mush	PHURB
 posh	PORB
-perish	PERB
 push	PURB
 wash	WAURB
 wish	WEURB
