@@ -2,7 +2,7 @@
 
 ## Recommended pace
 
-**Recommended time to spend on this chapter: 2–5 days.**
+**Recommended time to spend on this chapter: 1–2 days.**
 
 1. Read [Prefix strokes](#prefix-strokes) (**20 minutes**)
 2. Read [Suffix strokes](#suffix-strokes) and complete the drills (**60 minutes**)

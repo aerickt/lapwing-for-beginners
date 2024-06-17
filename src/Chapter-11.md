@@ -2,7 +2,7 @@
 
 ## Recommended pace
 
-**Recommended time to spend on this chapter: 2–5 days.**
+**Recommended time to spend on this chapter: 1–3 days.**
 
 1. Read [right hand shun and kshun](#right-hand-shun-kshun) and complete the drill (**20 minutes**)
    - Repeat the drill as needed
@@ -142,7 +142,7 @@ This chapter's test consists of all the practice drills in this chapter. Make su
 
 This is only a suggestion; it is not a requirement to move to the next chapter!
 
-**Aim for 10–30 WPM with 90% accuracy.**
+**Aim for 10–20 WPM with 90% accuracy.**
 
 **You may use the test material as practice!**
 

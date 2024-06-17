@@ -2,10 +2,10 @@
 
 ## Recommended pace
 
-**Recommended time to spend on this chapter: 5–9 days**
+**Recommended time to spend on this chapter: 1–3 days**
 
 1. Read this page (**10 minutes**)
-2. Drill as much as possible over the course of several days (**1–3 hours**)
+2. Drill until you are comfortable (ideally over multiple days) (**1–3 hours**)
 3. Attempt the [test](#chapter-4-test) (**20 minutes**)
    * Keep practising the test until you meet the requirements (**1 hour**)
 
@@ -141,7 +141,7 @@ Select "Shuffle words" and make sure your dictionaries are also unchecked just l
 
 This is only a suggestion; it is not a requirement to move to the next chapter!
 
-**You should be able to complete this test in 7 minutes or fewer with an accuracy of at least 90%.**
+**You should be able to complete this test in 10 minutes or fewer with an accuracy of at least 90%.**
 
 ### Extra practice
 

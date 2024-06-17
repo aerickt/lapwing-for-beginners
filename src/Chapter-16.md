@@ -4,7 +4,7 @@
 
 ## Recommended pace
 
-**Recommended time to spend on this chapter: 2 days.**
+**Recommended time to spend on this chapter: 2 days** (assuming all these briefs are brand new).
 
 1. Read the [introduction](#introduction) (**5 minutes**)
 3. Skim the rest of this page (**10 minutes**)

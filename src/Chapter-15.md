@@ -2,7 +2,7 @@
 
 ## Recommended pace
 
-**Recommended time to spend on this chapter: 2–5 days.**
+**Recommended time to spend on this chapter: 2–6 days.**
 
 1. Read [syllabic splitting basics](#syllabic-splitting-basics) and complete the drill (**20 minutes**)
    - Repeat the drill as needed

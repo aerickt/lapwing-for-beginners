@@ -2,7 +2,7 @@
 
 ## Recommended pace
 
-**Recommended time to spend on this chapter: 2–5 days.**
+**Recommended time to spend on this chapter: 1–3 days.**
 
 1. Set up [Lapwing](#lapwing-setup) (**5 minutes**)
 1. Familiarize yourself with [Typey Type](#typey-type) (**5 minutes**)

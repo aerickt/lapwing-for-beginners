@@ -2,7 +2,7 @@
 
 ## Recommended pace
 
-**Recommended time to spend on this chapter: 2–5 days.**
+**Recommended time to spend on this chapter: 1–3 days.**
 
 1. Read [Left hand f, q, and m](#left-hand-f-q-and-m) and complete the drill (**20 minutes**)
    - Repeat the drill as needed

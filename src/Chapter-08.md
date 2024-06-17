@@ -2,7 +2,7 @@
 
 ## Recommended pace
 
-**Recommended time to spend on this chapter: 2–3 days.**
+**Recommended time to spend on this chapter: 2–6 days.**
 
 1. Read [`AOE`](#aoe)and complete the drill (**15 minutes**)
    - Repeat the drill as needed
@@ -294,7 +294,7 @@ This chapter's test consists of all the vowel drills (including chapter 7 materi
 
 This is only a suggestion; it is not a requirement to move to the next chapter!
 
-**Aim for 10–20 WPM with 90% accuracy.**
+**Aim for 5–20 WPM with 90% accuracy.**
 
 **You may use the test material as practice!**
 
