@@ -5,7 +5,6 @@ vale	SRAEL
 sear	SAER
 sale	SAEL
 great	TKPWRAET
-gale	TKPWAEL
 gate	TKPWAET
 dear	TKAER
 dale	TKAEL
@@ -29,7 +28,6 @@ peat	PAET
 peace	PAES
 wear	WAER
 lead	HRAED
-lazy	HRAEZ
 hear	HAER
 heal	HAEL
 real	RAEL
