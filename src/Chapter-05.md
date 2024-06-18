@@ -219,7 +219,7 @@ There is no "i" key on the steno layout; it is instead represented by the `EU` c
 * pit `PEUT`
 * tip `TEUP`
 
-### Simple values rule #2:
+### Simple vowels rule #2:
 
 **Short vowel sounds spelled with multiple letters use the key/chord that matches the sound.**
 
