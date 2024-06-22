@@ -66,13 +66,10 @@ Why not use `PH` for "f"? After all, this would be easier to remember since "ph"
 > **NOTE:** `TKPW` is only used for the "hard g" sound. For example, the word "gel" would not use `TKPW` as the initial consonant is a "soft g" (a "j" sound).
 
 * `TPH` is "n" as in "<ins>n</ins>ot"
-* `KWR*` is "y" as in "<ins>y</ins>et"
-  * `KWR` is pressed using the left hand ring, middle, and index fingers
-  * `*` can be pressed with either the left or right index finger (whichever is more comfortable)
+* `KWH` is "y" as in "<ins>y</ins>et"
+  * `KWH` is pressed using the left hand ring, middle, and index fingers
 
-> If you use Plover's lookup tool, you will notice that a lot of words beginning with "y" can be written using `KWR` (without the asterisk). It's recommended that you **don't** use these outlines.
-
-**`KWR*` is only used when the word starts with the letter "y"; if a word has a "y" sound but doesn't start with a "y", simply don't use a left hand consonant chord.**
+**`KWH` is only used when the word starts with the letter "y"; if a word has a "y" sound but doesn't start with a "y", simply don't use a left hand consonant chord.**
 
 ![](img/6-gny.png)
 
@@ -82,8 +79,8 @@ Why not use `PH` for "f"? After all, this would be easier to remember since "ph"
 * gull `TKPWUL`
 * nap `TPHAP`
 * net `TPHET`
-* yeet `KWRAO*ET`
-* yes `KWR*ES`
+* yet `KWHET`
+* yes `KWHES`
 * use `AOUS`
 
 ### Mnemonics
@@ -93,7 +90,7 @@ Why not use `PH` for "f"? After all, this would be easier to remember since "ph"
 1. Grapes nourish you
 1. `TKPW` is a group of 4 keys pressed by the ring and middle fingers
 1. `TPH` is a row of 3 keys pressed by the ring, middle, and index fingers
-1. `KWR*` is a row of 4 keys composed of the left hand ring, middle, and index fingers and the right hand index finger (optional)
+1. `KWH` is three keys in a rising shape, like the intonation when asking "why?"
    
 ### Section practice
 

@@ -31,9 +31,9 @@ net	TPHET
 nub	TPHUB
 null	TPHUL
 nut	TPHUT
-yip	KWR*EUP
-yep	KWR*EP
-yell	KWR*EL
-yet	KWR*ET
-yes	KWR*ES
-yup	KWR*UP
+yip	KWHEUP
+yep	KWHEP
+yell	KWHEL
+yet	KWHET
+yes	KWHES
+yup	KWHUP
