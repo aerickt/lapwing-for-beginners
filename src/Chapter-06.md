@@ -67,7 +67,6 @@ Why not use `PH` for "f"? After all, this would be easier to remember since "ph"
 
 * `TPH` is "n" as in "<ins>n</ins>ot"
 * `KWH` is "y" as in "<ins>y</ins>et"
-  * `KWH` is pressed using the left hand ring, middle, and index fingers
 
 **`KWH` is only used when the word starts with the letter "y"; if a word has a "y" sound but doesn't start with a "y", simply don't use a left hand consonant chord.**
 

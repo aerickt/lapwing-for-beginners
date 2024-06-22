@@ -203,6 +203,12 @@ Schwa is an English sound that all vowel letters can sometimes represent. For ex
 * p<ins>o</ins>tato
 * s<ins>u</ins>pport
 
+It's not too important to understand what a schwa is—it's basically just another short vowel sound. However, if you'd like to know more, I recommend watching Tom Scott's video on the subject:
+
+<iframe width="640" height="360"
+src="https://www.youtube.com/embed/qu4zyRqILYM">
+</iframe> 
+
 ### Simple vowels rule #1:
 
 **Short vowel sounds and schwa spelled with a single letter use the key/chord that matches the spelling.**
