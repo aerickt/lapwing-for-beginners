@@ -46,6 +46,16 @@ Once Plover has been restarted, in Plover's main window, click on <code class="c
 
 > If you'd like to know more about the default dictionaries that come with the all-in-one plugin, have a look at the [homepage](https://github.com/aerickt/plover-lapwing-aio).
 
+### Dictionary updates
+
+The Lapwing dictionary and theory are pretty stable, but the dictionary is updated on a weekly basis to fix mistakes and typos. Occasionally there are also changes to the theory itself to make it more consistent and easier to learn. This book is always in sync with the latest version of the dictionary. However, the plugin (and therefore the dictionary) do not autoupdate. To update the plugin and dictionaries:
+
+1. Open the plugins manager and find <code class="code-mono">plover-lapwing-aio</code>.
+1. Press the update button.
+1. In Plover's main window, go to <code class="code-mono">File → Open Config Folder</code>.
+1. Delete the dictionary you want to update (e.g. <code class="code-mono">lapwing-base.json</code>)
+1. Restart Plover
+
 ### Setting up Lapwing manually
 
 If you do not want to use the all-in-one plugin, please see [Appendix B](Appendix-B.md) if you wish to set up Lapwing dictionaries manually (not recommended).
