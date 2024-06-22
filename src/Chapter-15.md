@@ -33,14 +33,6 @@ Earlier chapters covered affix strokes and compound words. Syllabic splitting is
 3. Ensure not to double consonants across separate strokes
 4. With multiple ways of splitting syllables, preserve the natural sounds of the word
 
-### Consonant group ambiguity
-
-With the rules above, some consonant groups will be ambiguous as to where to split them. For example, the word "hydrate" can be written as `HAOEUD/RAEUT` or `HAOEU/TKRAEUT` depending on where the "dr" consonant cluster is split. **In these scenarios, use the outline that represents how the sounds are grouped.** When saying this word, the "dr" group sounds less like two distinct consonants, and more like a single consonant. Therefore, "hydrate" should be written like `HAOEU/TKRAEUT`.
-
-> The strokes `HAOEUD/RAEUT` would instead be the phrase "hide rate".
-
-In a word like "guardrail", the "dr" consonants are spoken more like two distinct sounds. Therefore, this word would be split in between the "d" and "r" (even putting aside the fact that this is a compound word).
-
 ### Basic examples and explanations
 
 #### components
@@ -138,6 +130,14 @@ Full outline: `AOE/TPEU/SHEPBT` or `E/TPEU/SHEPBT`
 * reassured `RE/A/SHUR/-D` or `RAOE/A/SHUR/-D`
 * sentiment `SEPB/TEUPLT`
 * example `EBG/SA*PL/-L`
+
+### Consonant group ambiguity
+
+With the rules above, some consonant groups will be ambiguous as to where to split them. For example, the word "hydrate" can be written as `HAOEUD/RAEUT` or `HAOEU/TKRAEUT` depending on where the "dr" consonant cluster is split. **In these scenarios, use the outline that represents how the sounds are grouped.** When saying this word, the "dr" group sounds less like two distinct consonants, and more like a single consonant. Therefore, "hydrate" should be written like `HAOEU/TKRAEUT`.
+
+> The strokes `HAOEUD/RAEUT` would instead be the phrase "hide rate".
+
+In a word like "guardrail", the "dr" consonants are spoken more like two distinct sounds. Therefore, this word would be split in between the "d" and "r" (even putting aside the fact that this is a compound word).
 
 ### Section practice
 
