@@ -309,7 +309,7 @@ This is only a suggestion; it is not a requirement to move to the next chapter!
 | this | `TH` | <ins>th</ins>is |
 | there | `THR` | <ins>th</ins>e<ins>r</ins>e |
 | when | `WH` | <ins>wh</ins>en |
-| why | `KWR` | `KWR` is (sometimes) used for the "Y" letter |
+| why | `KWH` | `KWH` is the initial "y" chord |
 | will | `HR` | wi<ins>ll</ins> |
 | with | `W` | Single key brief for a common word |
 | <code class="code-mono">Enter</code> or <code class="code-mono">Return</code> | `R-R` | <ins>r</ins>etu<ins>r</ins>n (equivalent to pressing <code class="code-mono">Enter</code> or <code class="code-mono">Return</code> on a keyboard). |
@@ -326,7 +326,7 @@ This is only a suggestion; it is not a requirement to move to the next chapter!
 
 #### Answers
 1. `KPA*/WH/R/-T/P/HAOER/KW-PL`
-1. `KPA*/TH/S/KWR/WAOE/TPAOEUT/TP-PL`
+1. `KPA*/TH/S/KWH/WAOE/TPAOEUT/TP-PL`
 1. `KPA*/THR/-R/TPHO/PHAOS/TP-BG`
 1. `KPA*/HR/U/SHRAOEP/TPHOU/KW-PL`
 1. `KPA*/EU/SR/H/T/W/U/TP-BG`
@@ -344,8 +344,8 @@ This is only a suggestion; it is not a requirement to move to the next chapter!
 | when is | `WH-S` | `WH` + `-S` |
 | when's | `WH*S` | `WH` + `-S` + `*` |
 | when are | `WH-R` | `WH` + `-R` |
-| why is | `KWR-S` | `KWR` + `-S` |
-| why's | `KWR*S` | `KWR` + `-S` + `*` |
-| why are | `KWR-R` | `KWR` + `R` |
+| why is | `KWH-S` | `KWH` + `-S` |
+| why's | `KWH*S` | `KWH` + `-S` + `*` |
+| why are | `KWH-R` | `KWH` + `R` |
 | will the | `HR-T` | `HR` + `-T` |
 | will you | `HRU` | `HR` + `U` |

@@ -84,7 +84,7 @@ Folding can lead to conflicts such as:
 
 While folding can save a stroke for several words, it may not always be faster. Trying to remember any potential conflicts may introduce hesitation; the resulting folded outline may be harder to press (taking longer to stroke); and folding one of these keys may make it easier to accidentally misstroke.
 
-Pressing `-G`, `-S`, `-D`, or `-Z` as a separate stroke is only slightly slower than folding these keys (or just as fast if considering previously mentioned disadvantages). Since `-G`, `-S`, `-D`, or `-Z` are single key strokes, they are quite fast to press. That being said, folding these keys is more of a personal choice and you are more than welcome to try it out.
+Pressing `-G`, `-S`, `-D`, or `-Z` as a separate stroke is not significantly slower than folding; single key strokes are fast to write and much less error prone than folding. That being said, folding is a personal choice, and you are more than welcome to try it out.
 
 ### Section practice
 

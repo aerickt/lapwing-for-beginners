@@ -33,7 +33,7 @@ try	TREU
 too	TAO
 to	TO
 can	K
-why	KWR
+why	KWH
 your	KWRAOUR
 could	KUD
 people	P

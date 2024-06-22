@@ -242,7 +242,7 @@ The `-PLT`, `-LT`, and `-BL` compound clusters should already be already be fami
 
 ### `KWR` suffixes
 
-The `KWR` chord has many uses in Lapwing theory. It is widely used in suffixes where it could be thought of as a linker chord without any associated sound; its job is simply to connect to the previous word. This subsection has many suffix strokes to memorize, but they should hopefully be somewhat intuitive as they resemble their phonetic sounds to some degree.
+The `KWR` chord has two uses in Lapwing theory. It is widely used in suffixes where it could be thought of as a linker chord without any associated sound; its job is simply to connect to the previous word. This subsection has many suffix strokes to memorize, but they should hopefully be somewhat intuitive as they resemble their phonetic sounds to some degree.
 
 | Stroke | Suffix | Example outline | Example translation |
 | ------ | -------| --------------- | ------------------- |

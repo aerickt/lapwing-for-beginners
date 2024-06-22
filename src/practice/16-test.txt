@@ -74,7 +74,7 @@ to	TO
 tell	TEL
 turn	TURPB
 can	K
-why	KWR
+why	KWH
 year	KWRAO*ER
 your	KWRAOUR
 change	KHAEUPBG

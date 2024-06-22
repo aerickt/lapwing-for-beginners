@@ -224,13 +224,11 @@ The stroke after a prefix may start with a vowel if needed. However, remember to
 
 ### To start a vowel
 
-We've learned that `KWR*` is the beginning "y" consonant, but within multisyllable words, `KWR` itself can represent "y" as well.
-
-For completeness, here is a table listing the different situations involving the "y" sound:
+In addition to being a silent linker chord, `KWR` can also represent a joining "y" sound in multisyllable words. For completeness, here is a table listing the different situations involving the "y" sound:
 
 | Situation | Appropriate chord | Example | Example outline |
 | ---- | ---- | ---- | ---- |
-| Word begins with "y" | `KWR*` | yell | `KWR*EL` |
+| Word begins with "y" | `KWH` | yell | `KWHEL` |
 | Word begins with "y" sound (not spelled) | ` ` | use | `AOUS` |
 | "y" sound within a word | `KWR` | union | `AOUPB/KWROPB`
 
@@ -259,7 +257,7 @@ Linguistically, this sound is called a *glide* and is represented with `KWR` in 
 <source src="img/15-pronunciations-4.mp4" type="video/mp4">
 </video>
 
-> If, in your accent, you cannot hear a glide, you can also just treat `KWR` as a silent linker just like in previous sections.
+> If if explanation of a glide doesn't make sense to you, you can also just treat `KWR` as a silent linker just like in previous sections.
 
 **Essentially, if there are two distinct vowel sounds next to each other which cannot be represented by a single vowel chord, use `KWR` to link them in separate strokes.**
 

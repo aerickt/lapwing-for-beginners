@@ -703,9 +703,9 @@ If you're having trouble with the awkward write-out, use the brief instead.
 **Write-out: `ABGT`**
 
 ### why
-**Brief: `KWR`**
+**Brief: `KWH`**
 
-Useful in phrases such as `KWR-R` "why are" and `KWR-T` "why the"
+Useful in phrases such as `KWH-R` "why are" and `KWH-T` "why the"
 
 ### ask
 **Brief: `SK`**
