@@ -106,6 +106,8 @@ The following suffixes all contain a single vowel key, an asterisk, and the `-R`
 | `O*R` | ^or | `ABGT/O*R` | actor |
 | `*ER` | ^er | `TAOEFP/*ER` | teacher |
 
+> In chapter 15, you will learn that `KWR` can also represent a glide. `KWRAR`, `KWROR`, and `KWRER` would actually represent ^iar, ^ior, and ^ier, respectively. For all other suffixes, these are merged in the same stroke starting with `KWR`. However, these three suffixes have a lot more potential conflicts, so they are kept separate, so these suffixes follow a different pattern.
+
 **Use these suffixes only to modify a root word. Ensure that the root word relates to the full word semantically.**
 
 #### Examples of correct usage
