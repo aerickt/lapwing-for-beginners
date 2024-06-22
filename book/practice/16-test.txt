@@ -75,8 +75,8 @@ tell	TEL
 turn	TURPB
 can	K
 why	KWH
-year	KWRAO*ER
-your	KWRAOUR
+year	KWHAOER
+your	KWHUR
 change	KHAEUPBG
 kind	KAOEUPBD
 came	KAEUPL

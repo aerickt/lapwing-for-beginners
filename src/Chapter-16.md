@@ -222,11 +222,7 @@ The brief is useful in phrases such as `WR-T` "were the" and `WRU` "were you".
 **Write-out: `AUL`**
 
 ### your
-**Brief: `KWRAOUR` or `KWROR` or `KWROUR`**
-
-**Write-out: `KWRAO*UR`**
-
-The write-out is somewhat awkward so it is recommended you use one of the briefs.
+**Write-out: `KWHUR`**
 
 ### when
 **Brief: `WH`**

@@ -181,7 +181,7 @@ For some American speakers, the "l" in words like "palm" aren't audible at all. 
 | other | `OER` | Dropped "th" consonant |
 | mother | `PHO*RT` | Folded `-R` key is in the middle of the word, but represents a sound on the end |
 | mother | `PHOER` | Drops the "th" consonant |
-| your | `KWRAOUR` |  |
+| your | `KWRUR` |  |
 | many | `PHA*EPB` | |
 
 > **NOTE:** remember that these are briefs; the explanations are not applicable to any arbitrary word.
