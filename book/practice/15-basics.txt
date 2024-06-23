@@ -15,7 +15,7 @@ denizen	TKE/TPHEU/S*EPB
 destine	TKES/TEUPB
 negates	TPHE/TKPWAEUT/-Z
 philosopher	TP*EU/HRO/SO/TP*ER
-firmament	TPEUR/PHAPLT
+firmament	TPEUR/PHA/-PLT
 traditionally	TRA/TKEUGS/KWRAL/KWREU
 transfusion	TRAPBS/TPAOUGS
 tobogganing	TO/PWO/TKPWAPB/-G
