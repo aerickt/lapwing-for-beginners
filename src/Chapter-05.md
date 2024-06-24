@@ -10,7 +10,7 @@
 1. Read [Single key basics](#single-key-basics) and complete the drill (**30 minutes**)
    * Repeat the drill as needed
 1. Read [Consonant keys](#consonant-keys) (**2 minutes**)
-1. Read [The missing short vowel](#the-missing-short-vowel) and complete the drill (**15 minutes**)
+1. Read [The missing short vowel](#the-missing-short-vowel) and complete the drill (**15 minutes**) __(deprecated)__
    * Repeat the drill as needed
 1. Read [Left hand d, b, and l](#left-hand-d-b-and-l) and complete the drill (**20 minutes**)
 1. Attempt the [test](#chapter-5-test) (**20 minutes**)
@@ -199,7 +199,7 @@ Schwa is an English sound that all vowel letters can sometimes represent. For ex
 
 * <ins>a</ins>bout
 * p<ins>e</ins>tition
-* def<ins>i</ins>nite
+* defin<ins>i</ins>te
 * p<ins>o</ins>tato
 * s<ins>u</ins>pport
 
