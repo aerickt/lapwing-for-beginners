@@ -196,7 +196,6 @@ This is only a suggestion; it is not a requirement to move to the next chapter!
 | ---- | ---- | ---- |
 | about the | `PW-T` | `PW` + `-T` |
 | that the | `THAT` | `THA` + `-T` |
-| that you | `THAU` | `THA` + `U` |
 | what the | `WHAT` | `WHA` + `-T` |
 | what you | `WHAU` | `WHA` + `U` |
 | were the | `WR-T` | `WR` + `-T` |
