@@ -5,10 +5,11 @@
 **Recommended time to spend on this chapter: 1–2 days.**
 
 1. Read [Prefix strokes](#prefix-strokes) (**20 minutes**)
-2. Read [Suffix strokes](#suffix-strokes) and complete the drills (**60 minutes**)
+1. Read [Suffix strokes](#suffix-strokes) and complete the drills (**60 minutes**)
    - Repeat the drills as needed
-3. Read [Prefix priority](#prefix-priority) (**5 minutes**)
-4. Attempt the [test](#chapter-13-test) (**20 minutes**)
+1. Read [Prefix priority](#prefix-priority) (**5 minutes**)
+1. Read [Seemingly incorrect prefix usage](#Seemingly-incorrect-prefix-usage) (**5 minutes**)
+1. Attempt the [test](#chapter-13-test) (**20 minutes**)
    * Practise as needed
 
 Remember to take breaks!
@@ -70,6 +71,8 @@ Prefix strokes enable writing words such as  "preview" like so: `PRAOE/SRAOU`. M
 It is difficult to write certain words using prefixes alone. For example, `KOPB/TPAOUS` may be a valid outline for "confuse", but this requires knowing if `KOPB` is a prefix stroke. Furthermore, "fuse" is not the root word of "confuse"—the two words aren't related in meaning. Syllabic splitting is used for this word instead (covered in chapter 15).
 
 **For now, only use prefix strokes when they make sense semantically. A prefix stroke should modify a root word that can exist on its own.**
+
+> In this context, a **root word** is any group of letters that can exist by itself as a word; "do" would be considered the root word in "redo", but "tain" in "contain" would not be considered one ("tain" is not a word).
 
 ### Prefixes with different pronunciations
 
@@ -378,6 +381,22 @@ For example, the Lapwing dictionary doesn't view "cop" as the root word of "copp
 It is completely acceptable bend the rules about modifying root words with affixes. It is not necessary to add entries that only follow the "correct etymology". Outlines should be quick to recall. Having to look up origin and history of a word defeats this purpose. Steno is highly personal—one should use their own understanding and intuition.
 
 > **NOTE:** before adding your own entries, I highly encourage you to read past chapter 15. It covers the other method for writing multisyllable words. Most words in the default Lapwing dictionary can be written with this technique, while affix stroke usage tends to be more strict.
+
+## Seemingly incorrect prefix usage
+
+This section mentions topics that have not yet been covered, but if you tend to use the lookup tool a lot, make sure to read it over. There are several outlines in the dictionary that may seem like they are using prefix strokes incorrectly.
+
+### Regular prefixes in syllabic splitting
+
+In chapter 15, you will learn to write words like "trident" as `TRAOEU/TKEPBT`. It may seem like this is violating prefix usage since "dent" is not the root word of "trident"—the two are unrelated in meaning. However, this outline is actually just a a result of the syllabic splitting method covered in chapter 15. Syllabic splitting does not care if `TRAOEU` is a prefix or not.
+
+Keep this in mind when you use the lookup tool. If you spot an outline that uses an affix incorrectly, the outline in question is just using syllabic splitting. It's not that prefix rules are being broken; the outline has just been constructed use an entirely different method.
+
+### Brief versions of multistroke prefixes
+
+Prefix outlines do not have to be one stroke long. Using syllabic splitting, it is actually possible to construct prefix outlines with multiple strokes. For example, the prefix auto^ is written as `AU/TOE`. Again, you may sometimes see outlines like `AU/TOE/PHAEUT` for "automate" when using the lookup tool. This may seem incorrect, but remember that these outlines aren't actually using a prefix stroke, only syllabic splitting.
+
+For these multistroke prefixes, there are sometimes briefer one-stroke versions that can be used instead. For `AU/TOE`, there is `OEUT` as in `OEUT/PHAEUT` for "automate". This may also seem like incorrect usage of a prefix stroke. However, keep in mind that `OEUT` is a brief-y prefix stroke. Regular one-stroke or multistroke prefixes that are not briefs are still supposed to be used strictly to alter a root word.
 
 ## Chapter 13 test
 
