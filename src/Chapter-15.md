@@ -133,11 +133,33 @@ Full outline: `AOE/TPEU/SHEPBT` or `E/TPEU/SHEPBT`
 
 ### Consonant group ambiguity
 
-With the rules above, some consonant groups will be ambiguous as to where to split them. For example, the word "hydrate" can be written as `HAOEUD/RAEUT` or `HAOEU/TKRAEUT` depending on where the "dr" consonant cluster is split. **In these scenarios, use the outline that represents how the sounds are grouped.** When saying this word, the "dr" group sounds less like two distinct consonants, and more like a single consonant. Therefore, "hydrate" should be written like `HAOEU/TKRAEUT`.
+Some consonant groups contain two or more distinct consonants, and it becomes ambiguous as to how to split them. For example, the word "hydrate" can be written as `HAOEUD/RAEUT` or `HAOEU/TKRAEUT` depending on where the "dr" consonant cluster is split. **In these scenarios, use the outline that represents how the sounds are grouped.** When saying this word, the "dr" group sounds less like two distinct consonants, and more like a single consonant. Therefore, "hydrate" should be written like `HAOEU/TKRAEUT`.
 
 > The strokes `HAOEUD/RAEUT` would instead be the phrase "hide rate".
 
 In a word like "guardrail", the "dr" consonants are spoken more like two distinct sounds. Therefore, this word would be split in between the "d" and "r" (even putting aside the fact that this is a compound word).
+
+Unfortunately, there is no standardized method for dealing with this ambiguity. A lot of it is based on my own intuition as a speaker of North American English. For example, I would split "astronomy" as `A/STRO/TPHO/PHEU` and "astronaut" as `AS/TRO/TPHAUT` just based on the stress and how the consonant groups sound.
+
+Here are some tips that may be helpful for understanding where to split consonant groups:
+
+- \_r consonant groups are kept together on the left hand
+  - be<ins>tr</ins>ay `PWE/TRAEU`
+  - ma<ins>dr</ins>igal `PHA/TKREU/TKPWAL`
+  - o<ins>kr</ins>a `OE/KRA`
+  - re<ins>gr</ins>ess `RE/TKPWRES`
+- consonant groups with two sounds are split in the middle (balanced between the two strokes)
+  - discover `TKEUS/KO/SRER`
+    - `TKEU/SKO/SRER` ❌
+  - pastor `PAS/TOR`
+    - `PA/STOR` ❌
+- consonant groups with three or more sounds are dependent on stress
+  - astray `A/STRAEU`
+  - astronaut `AS/TRO/TPHAUT`  
+  - astronomy `A/STRO/TPHO/PHEU`
+  - distribute `TKEUS/TREU/PWAOUT`
+
+> **NOTE:** these rules are not entirely consistent. If none of the outlines in the lookup tool work for you, add your own!
 
 ### Section practice
 
