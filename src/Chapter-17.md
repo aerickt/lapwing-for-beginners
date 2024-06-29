@@ -5,6 +5,7 @@
 
 **Recommended time to spend on this chapter: 1–2 days.**
 
+1. Read [shortened prefixes](#shortened-prefixes) (**20 minutes**)
 1. Read [folding](#folding) and complete the drills (**20 minutes**)
    - Repeat the drills as needed
 1. Read [dropping unstressed vowels](#dropping-unstressed-vowels) and complete the drill (**20 minutes**)
@@ -387,3 +388,22 @@ While these last few examples may have been somewhat intuitive, it is also valid
 > **NOTE:** this technique depends heavily on if there are existing words the resulting outline may conflict with.
 
 As this technique is highly personal to each individual, it is not particularly useful to drill the words that can be found in the dictionary. Instead, cater this method to your own personal accent and speech patterns when adding new entries to your dictionary. Feel free to learn the shortened outlines in the dictionary that utilize this technique, but you are not at all obliged to follow them.
+
+## Shortened prefix strokes
+
+In chapter 13, shortened prefix strokes were introduced. Instead of writing `AU/TOE/PHAEUT` for the word "automate", you can instead write `OEUT/PHAEUT` with `OEUT` representing the auto^ prefix. While "mate" is not the root word of "automate" (making this seem like an incorrect usage of a prefix stroke), this outline is really just using syllabic splitting. `OEUT` is being used to represent the "auto" sound and it just so happens to be mapped to the auto^ prefix.
+
+> **NOTE:** `OEU` is a pretty uncommon vowel sound in the English language. Therefore, it is often used in Lapwing theory (and Plover theory) as a wildcard sound in a lot of briefs.
+
+Some examples of shortened outlines using these briefer prefix strokes:
+
+- internet `EURPBT/TPHET`
+  - `EURPBT` in place of `EUPB/TER`
+- paradise `PA*R/TKAOEUS`
+  - `PA*R` in place of `PAEUR/KWRA`
+- supermarket `SAOURP/PHARBGT`
+  - `SAOURP` in place of `SAOU/PER`
+- telecommunication `T*EL/KPHAOUPB/KAEUGS`
+  - `T*EL` in place of `TE/HRE`
+
+> Until a list of some useful shortened prefix strokes can be created, I suggest using the lookup tool whenever you encounter a multistroke prefix outline.
