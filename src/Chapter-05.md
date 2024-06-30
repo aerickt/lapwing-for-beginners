@@ -42,7 +42,7 @@ Once Plover has been restarted, in Plover's main window, click on <code class="c
 
 ![system settings](img/5-system.png)
 
-> If you'd like to know more about the default dictionaries that come with the all-in-one plugin, have a look at the [homepage](https://github.com/aerickt/plover-lapwing-aio).
+> If you'd like to know more about the default dictionaries that come with the all-in-one plugin, have a look at the [homepage](https://github.com/aerickt/plover-lapwing-aio). Many of these plugins are useful if you would like to use steno for computer tasks other than just writing. You are completely free to delete these from your dictionary stack if you do not require them.
 
 ### Dictionary updates
 
