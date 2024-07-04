@@ -91,6 +91,8 @@ If you encounter a word that has the "y" sound, only use `KWH` if it is spelled 
 * usual `AOURB/WAL`
   - There aren't, unfortunately, a lot of single stroke words to demonstrate this
 
+> **NOTE:** `AOURB` is also defined as "usual" in the default dictionary. This is a briefing style where the first stroke(s) of a write-out is defined as the full word.
+
 ### Section practice
 
 [Left hand single syllable orthographic chords drill](practice/12-left-orthographic-chords.txt)
