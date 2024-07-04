@@ -70,6 +70,8 @@ Why not use `PH` for "f"? After all, this would be easier to remember since "ph"
 
 **`KWH` is only used when the word starts with the letter "y"; if a word has a "y" sound but doesn't start with a "y", simply don't use a left hand consonant chord.**
 
+> The initial "y" consonant was recently changed. Check [chapter 5](Chapter-05.md#dictionary-updates) for instructions to update your dictionary if you have a different outline for "y" words.
+
 ![](img/6-gny.png)
 
 ### Examples
