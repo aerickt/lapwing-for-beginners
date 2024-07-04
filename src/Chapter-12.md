@@ -82,11 +82,11 @@ This illustrates how messy the English language can be and how designing a theor
 
 ### y sound without the letter y
 
-If you encounter a word that has the "y" sound, only use `KWR*` if it is spelled with a "y". If it isn't spelled with a "y" don't use any left hand consonant chord.
+If you encounter a word that has the "y" sound, only use `KWH` if it is spelled with a "y". If it isn't spelled with a "y" don't use any left hand consonant chord.
 
 #### Examples
-* yes `KWR*ES`
-* yep `KWR*EP`
+* yes `KWHES`
+* yep `KWHEP`
 * use `AOUS`
 * usual `AOURB/WAL`
   - There aren't, unfortunately, a lot of single stroke words to demonstrate this
