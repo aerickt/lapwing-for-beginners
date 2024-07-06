@@ -224,6 +224,8 @@ The brief is useful in phrases such as `WR-T` "were the" and `WRU` "were you".
 ### your
 **Write-out: `KWHUR`**
 
+> The initial "y" consonant was recently changed. If `KWHUR` does not output correctly, you can either use the lookup tool to learn a different brief, or [update your dictionary](Chapter-05.md#updating-your-dictionary) and relearn the initial "y" chord as `KWH`.
+
 ### when
 **Brief: `WH`**
 

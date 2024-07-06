@@ -183,7 +183,7 @@ For some American speakers, the "l" in words like "palm" aren't audible at all. 
 | other | `OER` | Dropped "th" consonant |
 | mother | `PHO*RT` | Folded `-R` key is in the middle of the word, but represents a sound on the end |
 | mother | `PHOER` | Drops the "th" consonant |
-| your | `KWHUR` |  |
+| your | `KWHUR` | The initial "y" consonant was recently changed. If `KWHUR` does not output correctly, you can either use the lookup tool to learn a different brief, or [update your dictionary](Chapter-05.md#updating-your-dictionary) and relearn the initial "y" chord as `KWH`. |
 | many | `PHA*EPB` | |
 
 > **NOTE:** remember that these are briefs; the explanations are not applicable to any arbitrary word.
