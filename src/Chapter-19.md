@@ -26,6 +26,8 @@ Proper nouns in Lapwing theory are written exactly the same as regular words, ex
 * `#STKPWHRER/PHA/TPHEU` Germany
 * `#STKPWHRO/TPHO/THAPB` Jonathan
 
+> The initial j consonant for proper nouns was recently changed. Check [chapter 5](Chapter-05.md#dictionary-updates) for instructions to update your dictionary if you have a different outline for "j" proper nouns.
+
 ## Alternative proper nouns with a prefix stroke
 
 > If you have no complaints with using the number key in proper noun strokes, you can skip this section.
