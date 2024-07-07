@@ -11,7 +11,7 @@ gossiping	TKPWO/SEUP/-G
 doctored	TKOBG/TOR/-D
 deceivingly	TKE/SAOEF/-G/HREU
 denouncement	TKE/TPHOUPBS/-PLT
-denizen	TKE/TPHEU/S*EPB
+denizen	TKE/TPHEU/STKPWEPB
 destine	TKES/TEUPB
 negates	TPHE/TKPWAEUT/-Z
 philosopher	TP*EU/HRO/SO/TP*ER

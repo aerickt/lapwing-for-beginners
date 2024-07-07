@@ -108,6 +108,6 @@ vis	SREUS
 vid	SREUD
 ver	SRER
 vet	SRET
-zip	S*EUP
-zig	S*EUG
-zit	S*EUT
+zip	STKPWEUP
+zig	STKPWEUG
+zit	STKPWEUT

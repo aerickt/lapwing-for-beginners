@@ -21,10 +21,10 @@ Proper nouns in Lapwing theory are written exactly the same as regular words, ex
 
 ### Proper nouns starting with "j"
 
-`#SKWR` is a difficult chord to press, especially when writing at speed. `#STKPW` can be used as an alternative chord for proper nouns starting with "j".
+`#SKWR` is a difficult chord to press, especially when writing at speed. `#STKPWHR` can be used as an alternative chord for proper nouns starting with "j".
 
-* `#STKPWER/PHA/TPHEU` Germany
-* `#STKPWO/TPHO/THAPB` Jonathan
+* `#STKPWHRER/PHA/TPHEU` Germany
+* `#STKPWHRO/TPHO/THAPB` Jonathan
 
 ## Alternative proper nouns with a prefix stroke
 

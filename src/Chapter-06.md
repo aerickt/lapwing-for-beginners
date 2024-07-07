@@ -99,9 +99,11 @@ Why not use `PH` for "f"? After all, this would be easier to remember since "ph"
 
 ## Left hand z, v, and j
 
-* `S*` is "z" as in "zit"
+* `STKPW` is "z" as in "zit"
 * `SR` is "v" as in "vat"
 * `SKWR` is "j" as in "job"
+
+> The initial "y" consonant was recently changed. Check [chapter 5](Chapter-05.md#dictionary-updates) for instructions to update your dictionary if you have a different outline for "y" words.
 
 ![](img/6-zvj.png)
 
@@ -109,14 +111,14 @@ Why not use `PH` for "f"? After all, this would be easier to remember since "ph"
 
 > Feel free to come up with your own or even suggest some!
 
-1. The "z" sound is similar to the "s" sound and thus they only differ in the asterisk key
+1. Zits are '<ins>sg</ins>usting!
 2. The chemical element strontium (symbol <ins>Sr</ins>) is not <ins>v</ins>anadium
 3. `SKWR` is just the bottom row of the left hand
 
 ### Examples
 
-* zap `SA*P`
-* zip `S*EUP`
+* zap `STKPWAP`
+* zip `STKPWEUP`
 * var `SRAR`
 * ver `SRER`
 * jib `SKWREUB`
