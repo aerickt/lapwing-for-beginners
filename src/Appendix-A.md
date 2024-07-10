@@ -65,12 +65,12 @@ Thumb number keys (thumber keys) aren't much better either. It is impossible to 
 
 Please see [chapter 5](Chapter-05.md) to configure Plover to use this key.
 
-### `KWR*` for y
+### `KWH` for y
 
-Use `KWR*` for the initial "y" consonant.
+Use `KWH` for the initial "y" consonant.
 
-- yes `KWR*ES`
-- yurt `KWR*URT`
+- yes `KWHES`
+- yurt `KWHURT`
 
 Please see [chapter 6](Chapter-06.md) for practice.
 
