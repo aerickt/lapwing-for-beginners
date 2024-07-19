@@ -488,7 +488,7 @@ tang	TAPBG
 tong	TOPBG
 tinge	TEUPBG
 tung	TUPBG
-young	KWR*UPBG
+young	KWHUPBG
 clang	KHRAPBG
 cling	KHREUPBG
 clung	KHRUPBG
