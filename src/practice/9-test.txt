@@ -178,11 +178,11 @@ tim	TEUPL
 tick	TEUBG
 tech	TEBG
 tuck	TUBG
-yike	KWRAO*EUBG
-yam	KWRA*PL
-yak	KWRA*BG
-yoke	KWRO*EBG
-yuck	KWR*UBG
+yike	KWHAOEUBG
+yam	KWHAPL
+yak	KWHABG
+yoke	KWHOEBG
+yuck	KWHUBG
 quake	KWAEUBG
 qualm	KWAUPL
 quack	KWABG
