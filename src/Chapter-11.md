@@ -6,27 +6,30 @@
 
 1. Read [right hand shun and kshun](#right-hand-shun-kshun) and complete the drill (**20 minutes**)
    - Repeat the drill as needed
-2. Read [right hand ment and let](#right-hand-ment-and-let) and complete the drill (**20 minutes**)
+1. Read [right hand ment and let](#right-hand-ment-and-let) and complete the drill (**20 minutes**)
    - Repeat the drill as needed
-3. Read [right hand bl](#right-hand-bl) and complete the drill (**20 minutes**)
+1. Read [right hand bl](#right-hand-bl) and complete the drill (**20 minutes**)
    - Repeat the drill as needed
-6. Attempt the [test](#chapter-10-test) (**20 minutes**)
+1. Read [right hand shus and shal](#right-hand-shus-and-shal) and complete the drill (**20 minutes**)
+   - Repeat the drill as needed
+1. Attempt the [test](#chapter-10-test) (**20 minutes**)
    * Practise as needed
 
 Remember to take breaks!
 
 ## Useful links
 
-* [Right hand shun, kshun, and x words](practice/11-right-shun-kshun-and-x.txt)
-* [Right hand ment and let words drill](practice/11-right-ment-and-let.txt)
+* [Right hand -shun, -kshun, and -x words](practice/11-right-shun-kshun-and-x.txt)
+* [Right hand -ment and -let words drill](practice/11-right-ment-and-let.txt)
 * [Right hand `-BL` words drill](practice/11-right-BL.txt)
+* [Right hand -shus and -shal words drill](practice/11-right-shus-and-shal.txt)
 * [Chapter 11 test](practice/11-test.txt)
 
 ## Intro
 
 All the chords covered so far represent single sounds. However, there are some chords (particularly on the right hand) that can represent multiple syllables. These are referred to as compound clusters.
 
-## Right hand shun, kshun, and x
+## Right hand -shun, -kshun, and -x
 
 * `-GS` is "-shun" as in "o<ins>cean</ins>"
 * `-BGS` represents two sounds:
@@ -41,7 +44,7 @@ All the chords covered so far represent single sounds. However, there are some c
 * fax `TPABGS`
 * tex `TEBGS`
 
-### "-kshun" and "-x" conflicts
+### -kshun and -x conflicts
 Some words like "a<ins>x</ins>e" and "a<ins>ction</ins>" conflict with the same outline: `ABGS`. In these cases, the "-x" sound is given higher priority and "-kshun" sound is relegated to `*BGS` (same chord, but with the asterisk key).
 
 #### Examples
@@ -61,7 +64,7 @@ Some words like "a<ins>x</ins>e" and "a<ins>ction</ins>" conflict with the same 
 
 [Right hand shun, kshun, and x words](practice/11-right-shun-kshun-and-x.txt)
 
-## Right hand ment and let
+## Right hand -ment and -let
 
 * `-PLT` is "-ment" as in "mo<ins>ment</ins>"
 * `-LT` is "-let" as in "scar<ins>let</ins>"
@@ -83,7 +86,7 @@ Some words like "a<ins>x</ins>e" and "a<ins>ction</ins>" conflict with the same 
 
 ### Section practice
 
-[Right hand ment and let words](practice/11-right-ment-and-let.txt)
+[Right hand -ment and -let words](practice/11-right-ment-and-let.txt)
 
 Unfortunately, there is not a lot of practice material for single stroke words containing these chords.
 
@@ -119,6 +122,26 @@ All these sounds are similar to one another in that they all contain "bl" and op
 ### Section practice
 
 [Right hand `-BL` words drill](practice/11-right-BL.txt)
+
+Unfortunately, there is not a lot of practice material for single stroke words containing these chords.
+
+## Right hand -shus and -shal
+
+* `-RBS` is the "shus" sound as in "cau<ins>tious</ins>"
+* `-RBL` is the "shal" sound as in "so<ins>cial</ins>"
+
+![shus shal](img/11-shus-shal.png)
+
+### Examples
+
+* nauseous `TPHAURBS`
+* precious `PRERBS`
+* facial `TPAEURBL`
+* special `SPERBL`
+
+### Section practice
+
+[Right hand -shus and -shal words drill](practice/11-right-shus-and-shal.txt)
 
 Unfortunately, there is not a lot of practice material for single stroke words containing these chords.
 
