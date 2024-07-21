@@ -134,6 +134,31 @@ There will be no practice material for this section, but do keep this technique 
 
 > **NOTE:** remember that `*S` can be used to represent the "-st" cluster when `-F` is not available. It is highly recommended you use `*S` instead of splitting these words into two strokes.
 
+## Overlapping compound clusters
+
+Some words end in a compound cluster that was covered in the previous chapter. However, there may be another sound that prevents the compound cluster chord from being included. For example, the word "partial" ends in a "-shal" sound which can be written with `-RBL`. However, it preceded by an "r". Therefore, the first stroke has to be `PAR`. Since this already contains the `-R` key, it's not possible to insert `-RBL` into this stroke.
+
+> **NOTE:** `PARBL` is defined as "partial" in the default dictionary. You're free to use this, but keep in mind it is considered more of a brief since the "r" is dropped.
+
+There are two ways to deal with these scenarios. The first method involves writing as much as the word as possible, and then splitting the remaining compound cluster as a separate stroke. For the word "partial", this results in `PAR/-RBL`. This is a lot like the previous section where sounds break steno order.
+
+The second method uses the syllabic splitting technique found in chapter 15. However, instead of using a compound cluster, the second stroke utilizes the whole keyboard to represent an entire syllable. This results in `PAR/SHAL`.
+
+Either method is valid, but given that syllabic splitting has not been introduced yet, I would recommend using the first method for now.
+
+### Examples
+
+* rumble `RUPL/-BL`
+* possible `POS/-BL`
+* bracelet `PWRAEUS/-LT`
+* pamphlet `PAPL/*F/-LT`
+* fragment `TPRAG/-PLT`
+* parchment `PAFRPB/-PLT`
+* martial `PHAR/-RBL`
+* partial `PAR/-RBL`
+* conscious `KOPB/-RBS`
+* noxious `TPHOBG/-RBS`
+
 ## Right hand xt
 
 * `-GT` is "-xt" as in te<ins>xt</ins>

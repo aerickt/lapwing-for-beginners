@@ -4,13 +4,13 @@
 
 **Recommended time to spend on this chapter: 1–3 days.**
 
-1. Read [right hand shun and kshun](#right-hand-shun-kshun) and complete the drill (**20 minutes**)
+1. Read [right hand -shun, -kshun, and -x](#right-hand--shun--kshun-and--x) and complete the drill (**20 minutes**)
    - Repeat the drill as needed
-1. Read [right hand ment and let](#right-hand-ment-and-let) and complete the drill (**20 minutes**)
+1. Read [right hand -ment and -let](#right-hand--ment-and--let) and complete the drill (**20 minutes**)
    - Repeat the drill as needed
 1. Read [right hand bl](#right-hand-bl) and complete the drill (**20 minutes**)
    - Repeat the drill as needed
-1. Read [right hand shus and shal](#right-hand-shus-and-shal) and complete the drill (**20 minutes**)
+1. Read [right hand -shus and -shal](#right-hand--shus-and--shal) and complete the drill (**20 minutes**)
    - Repeat the drill as needed
 1. Attempt the [test](#chapter-10-test) (**20 minutes**)
    * Practise as needed
