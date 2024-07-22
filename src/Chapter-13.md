@@ -184,7 +184,7 @@ Like the last subsection, these suffixes are also composed entirely of consonant
 
 #### Examples: as a root word + suffix
 
-In these words, the suffix is used to "modify" a root word.
+In these words, the suffix is used to modify a root word.
 
 * basement `PWAEUS/-PLT`
 * movement `PHAOUF/-PLT`

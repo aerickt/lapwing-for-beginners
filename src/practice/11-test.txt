@@ -143,4 +143,20 @@ fascial	TPARBL
 crucial	KRAOURBL
 casual	KARBL
 racial	RAEURBL
+stoppable	STOPBL
+stoppable	STOPBL
+stability	STABLT
+viability	SRAOEUBLT
+variability	SRAEURBLT
+visibility	SREUFBLT
+nobility	TPHOEBLT
+feasibility	TPAOEFBLT
+pliability	PHRAOEUBLT
+plausibility	PHRAUFBLT
+movability	PHAOUFBLT
+mobility	PHOEBLT
+provability	PRAOUFBLT
+possibility	POFBLT
+livability	HREUFBLT
+ability	ABLT
 

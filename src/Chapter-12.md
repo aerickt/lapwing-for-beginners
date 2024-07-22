@@ -136,7 +136,7 @@ There will be no practice material for this section, but do keep this technique 
 
 ## Overlapping compound clusters
 
-Some words end in a compound cluster that was covered in the previous chapter. However, there may be another sound that prevents the compound cluster chord from being included. For example, the word "partial" ends in a "-shal" sound which can be written with `-RBL`. However, it preceded by an "r". Therefore, the first stroke has to be `PAR`. Since this already contains the `-R` key, it's not possible to insert `-RBL` into this stroke.
+Some words end in a compound cluster that was covered in the previous chapter. However, there may be another sound that prevents the compound cluster chord from being included. For example, the word "partial" ends in a "-shal" sound which can be written with `-RBL`. However, it is preceded by an "r". Therefore, the first stroke has to be `PAR`. Since this already contains the `-R` key, it's not possible to insert `-RBL` into this stroke.
 
 > **NOTE:** `PARBL` is defined as "partial" in the default dictionary. You're free to use this, but keep in mind it is considered more of a brief since the "r" is dropped.
 
@@ -150,6 +150,8 @@ Either method is valid, but given that syllabic splitting has not been introduce
 
 * rumble `RUPL/-BL`
 * possible `POS/-BL`
+* credibility `KRED/-BLT`
+* solubility `SOL/-BLT`
 * bracelet `PWRAEUS/-LT`
 * pamphlet `PAPL/*F/-LT`
 * fragment `TPRAG/-PLT`

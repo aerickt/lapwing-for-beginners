@@ -21,7 +21,7 @@ Remember to take breaks!
 
 * [Right hand -shun, -kshun, and -x words](practice/11-right-shun-kshun-and-x.txt)
 * [Right hand -ment and -let words drill](practice/11-right-ment-and-let.txt)
-* [Right hand `-BL` words drill](practice/11-right-BL.txt)
+* [Right hand `-BL` words drill](practice/11-right-BL-BLT.txt)
 * [Right hand -shus and -shal words drill](practice/11-right-shus-and-shal.txt)
 * [Chapter 11 test](practice/11-test.txt)
 
@@ -90,40 +90,38 @@ Some words like "a<ins>x</ins>e" and "a<ins>ction</ins>" conflict with the same 
 
 Unfortunately, there is not a lot of practice material for single stroke words containing these chords.
 
-## Right hand `-BL`
+## Right hand `-BL` and `-BLT`
 
-* `-BL` represents several different sounds:
-   - "-bl" as in "dou<ins>bl</ins>e"
-   - "-abl" as in "pli<ins>abl</ins>e"
-   - "-ibl" as in "poss<ins>ibl</ins>e"
-   - "-b_l" as in "glo<ins>bal</ins>", "mo<ins>bil</ins>e", "la<ins>bel</ins>"
+* `-BL` represents the "-bl" sound as in "glo<ins>bal</ins>"
+   - When this sound is preceded by a vowel, the `-BL` chord can be extended to represent the whole sound as in:
+      - "pli<ins>able</ins>"
+      - "poss<ins>ible</ins>"
+* `-BLT` represents the "-bility" sound as in "sta<ins>bility</ins>"
+   - When this sound is preceded by a vowel, the `-BLT` chord can be extended it represent the whole sound as in:
+      - "cap<ins>ability</ins>"
+      - "feas<ins>ibility</ins>"
 
-All these sounds are similar to one another in that they all contain "bl" and optionally an **unstressed vowel**. This refers to a vowel that isn't emphasized. Think about how the phrase "lay bell" differs in sound to the word "label". In the first case, the "e" is stressed while in the second case, it is not.
-
-![bl](img/11-bl.png)
+![bl and blt](img/11-bl-blt.png)
 
 ### Examples
 
-* pebble `PEBL`
-* wobble `WOBL`
-* playable `PHRAEUBL`
-* chewable `KHAOUBL`
-* tribal `TRAOEUBL`
 * rebel `REBL`
-
-> **NOTE:** the word "rebel" can be pronounced as `RAOE/PWEL` or `REBL` depending on if it is a verb or a noun. While the dictionary contains both, the single stroke variant is recommended as it is faster.
+* playable `PHRAEUBL`
+* terrible `TERBL`
+* mobility `PHOEBLT`
+* viability `SRAOEUBLT`
+* visibility `SREUFBLT`
 
 ### Mnemonics:
 
 > Feel free to come up with your own or even suggest some!
 
-1. `-BL` already looks a lot like the sounds it represents; remember to skip over any unstressed vowels as well.
+1. `-BL` already looks a lot like the sounds it represents, it just sometimes skips over an unemphasized vowel.
+1. `-BLT` is just building off of `-BL` with a "i**t**y" sound.
 
 ### Section practice
 
-[Right hand `-BL` words drill](practice/11-right-BL.txt)
-
-Unfortunately, there is not a lot of practice material for single stroke words containing these chords.
+[Right hand `-BL` and `-BLT` words drill](practice/11-right-BL-BLT.txt)
 
 ## Right hand -shus and -shal
 
