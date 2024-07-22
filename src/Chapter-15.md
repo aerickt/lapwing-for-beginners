@@ -1,22 +1,5 @@
 # Chapter 15: Syllabic splitting
 
-## Recommended pace
-
-**Recommended time to spend on this chapter: 2–6 days.**
-
-1. Read [syllabic splitting basics](#syllabic-splitting-basics) and complete the drill (**20 minutes**)
-   - Repeat the drill as needed
-1. Read [`KWR` as a silent linker](#kwr-as-a-silent-linker) and complete the drill (**20 minutes**)
-   - Repeat the drill as needed
-1. Read [`KWR` as y](#kwr-as-y) and complete the drill (**20 minutes**)
-   - Repeat the drill as needed
-1. Read [Words starting with `EU`](#words-starting-with-eu) (**5 minutes**)
-1. Read [prefix priority](#prefix-priority) (**10 minutes**)
-1. Attempt the [test](#chapter-15-test) (**20 minutes**)
-   * Practise as needed
-
-Remember to take breaks!
-
 ## Useful links
 
 * [Basic syllabic splitting drill](practice/15-basics.txt)
@@ -411,7 +394,7 @@ This chapter's test consists of all the practice drills in this chapter. Make su
 
 ### Recommended completion goal
 
-This is only a suggestion; it is not a requirement to move to the next chapter!
+This is only a suggestion if you are unsure of when to move on to the next chapter; it is not a strict requirement!
 
 **Aim for 10–40 WPM with 90% accuracy.**
 

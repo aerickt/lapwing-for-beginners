@@ -1,14 +1,5 @@
 # Chapter 4: The layout
 
-## Recommended pace
-
-**Recommended time to spend on this chapter: 1–3 days**
-
-1. Read this page (**10 minutes**)
-2. Drill until you are comfortable (ideally over multiple days) (**1–3 hours**)
-3. Attempt the [test](#chapter-4-test) (**20 minutes**)
-   * Keep practising the test until you meet the requirements (**1 hour**)
-
 ## Useful links
 
   * [Steno Jig's "Learn the Steno Keyboard" Drills](https://joshuagrams.github.io/steno-jig/learn-keyboard.html)
@@ -139,7 +130,7 @@ Select "Shuffle words" and make sure your dictionaries are also unchecked just l
 
 ### Recommended completion goal
 
-This is only a suggestion; it is not a requirement to move to the next chapter!
+This is only a suggestion if you are unsure of when to move on to the next chapter; it is not a strict requirement!
 
 **You should be able to complete this test in 10 minutes or fewer with an accuracy of at least 90%.**
 

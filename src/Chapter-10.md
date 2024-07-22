@@ -1,21 +1,6 @@
 
 # Chapter 10: Right hand chords continued
 
-## Recommended pace
-
-**Recommended time to spend on this chapter: 1–3 days.**
-
-1. Read [right hand n, j, and lj](#right-hand-n-j-and-lj) and complete the drill (**20 minutes**)
-   - Repeat the drill as needed
-2. Read [right hand rv, rf, ng, and nk](#right-hand-rv-rf-ng-and-nk) and complete the drill (**20 minutes**)
-   - Repeat the drill as needed
-3. Read [right hand ch, sh and rch](#right-hand-ch-sh-and-rch) and complete the drill (**20 minutes**)
-   - Repeat the drill as needed
-4. Attempt the [test](#chapter-10-test) (**20 minutes**)
-   * Practise as needed
-
-Remember to take breaks!
-
 ## Useful links
 
 * [Single syllable right hand n, j, and lj words drill](practice/10-right-n-j-lj.txt)
@@ -144,7 +129,7 @@ This chapter's test consists of all the practice drills in this chapter. Make su
 
 ### Recommended completion goal
 
-This is only a suggestion; it is not a requirement to move to the next chapter!
+This is only a suggestion if you are unsure of when to move on to the next chapter; it is not a strict requirement!
 
 **Aim for 5–20 WPM with 90% accuracy.**
 

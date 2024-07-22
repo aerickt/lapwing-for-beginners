@@ -1,14 +1,5 @@
 # Chapter 18: Fingerspelling and numbers
 
-## Recommended pace
-
-**Recommended time to spend on this chapter: 1 day.**
-
-1. Read [fingerspelling](#fingerspelling) (**10 minutes**)
-2. Read [numbers](#numbers) (**10 minutes**)
-
-Remember to take breaks!
-
 ## Useful links
 
 * [Fingerspelling graphic (lowercase)](img/18-fingerspelling-lower.png)

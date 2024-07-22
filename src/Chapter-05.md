@@ -1,21 +1,5 @@
 # Chapter 5: Lapwing setup and basics
 
-## Recommended pace
-
-**Recommended time to spend on this chapter: 1–3 days.**
-
-1. Set up [Lapwing](#lapwing-setup) (**5 minutes**)
-1. Familiarize yourself with [Typey Type](#typey-type) (**5 minutes**)
-   * Play around with various settings if you'd like
-1. Read [Single key basics](#single-key-basics) and complete the drill (**30 minutes**)
-   * Repeat the drill as needed
-1. Read [Consonant keys](#consonant-keys) (**2 minutes**)
-1. Read [Left hand d, b, and l](#left-hand-d-b-and-l) and complete the drill (**20 minutes**)
-1. Attempt the [test](#chapter-5-test) (**20 minutes**)
-   * Practise as needed
-
-Remember to take breaks!
-
 ## Useful links
 
 * [Typey Type custom lessons](https://didoesdigital.com/typey-type/lessons/custom/setup)
@@ -383,7 +367,7 @@ This chapter's test consists of all the practice drills you have done so far in 
 
 ### Recommended completion goal
 
-This is only a suggestion; it is not a requirement to move to the next chapter!
+This is only a suggestion if you are unsure of when to move on to the next chapter; it is not a strict requirement!
 
 **Aim for 10–20 WPM with 90% accuracy.**
 

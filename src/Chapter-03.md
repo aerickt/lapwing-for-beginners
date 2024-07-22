@@ -26,9 +26,7 @@ This series is aimed at being a complete guide to learning steno. While you will
 
 Each chapter in this series follows the same basic format: new theory and practice material introduced in subsections followed by a chapter test. The purpose of this test is to ensure that you have learned the material well enough. It is crucial that you are comfortable and well acquainted with each chapter before moving onto the next.
 
-Everyone's threshold of being "comfortable" differs and it is up to you to decide what this means for you. For some, maybe this just means reading through the chapter with a little practice. For others, maybe this means practising the drills for a week. It is completely up to you to decide when to proceed to the next chapter. However, if you are unsure, the "recommended completion goal" is a good starting point.
-
-**As this series is very new, I have not been given much feedback. As such, it may be possible that the recommended completion goal is entirely unrealistic for each chapter. Please take it with a grain of salt!**
+Everyone's threshold of being "comfortable" differs and it is up to you to decide what this means for you. For some, maybe this just means reading through the chapter with a little practice. For others, maybe this means practising the drills for a week. It is completely up to you to decide when to proceed to the next chapter. However, if you have no idea when you should move on, I recommend following the recommended passing requirement at the end of each chapter test.
 
 #### Optional briefs
 
@@ -53,6 +51,8 @@ Due to the nature of briefs and write-outs, briefs tend to use fewer strokes and
 In the following example, the first two entries are briefs, while the last two are write-outs. You should be using one of these two. Defaulting to the longest outline available is very safe.
 
 ![](img/3-sufficient-lookup.png)
+
+That being said, if one of the shorter outlines makes sense to you, then by all means use it!
 
 #### Be careful of hidden affixes
 

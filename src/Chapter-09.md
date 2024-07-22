@@ -1,31 +1,14 @@
 # Chapter 9: Right hand chords
 
-## Recommended pace
-
-**Recommended time to spend on this chapter: 1–4 days.**
-
-1. Read [right hand v](#right-hand-v) and complete the drill (**10 minutes**)
-   - Repeat the drill as needed
-2. Read [right hand st](#right-hand-st) and complete the drill (**10 minutes**)
-   - Repeat the drill as needed
-3. Read [right hand m and k](#right-hand-m-and-k) and complete the drill (**20 minutes**)
-   - Repeat the drill as needed
-4. Read [right hand mp, th, and lk](#right-hand-mp-th-and-lk) and complete the drill (**20 minutes**)
-   - Repeat the drill as needed
-5. Attempt the [test](#chapter-9-test) (**20 minutes**)
-   * Practise as needed
-
-Remember to take breaks!
-
 ## Useful links
 
-* [Single syllable right hand v words drill](practice/9-right-v.txt)
-* [Single syllable right hand st words drill](practice/9-right-st.txt)
-* [Single syllable right hand m and k words drill](practice/9-right-m-and-k.txt)
-* [Single syllable right hand mp, th, and lk words drill](practice/9-right-mp-th-lk.txt)
+* [Single syllable right hand -v words drill](practice/9-right-v.txt)
+* [Single syllable right hand -st words drill](practice/9-right-st.txt)
+* [Single syllable right hand -m and -k words drill](practice/9-right-m-and-k.txt)
+* [Single syllable right hand -mp, -th, and -lk words drill](practice/9-right-mp-th-lk.txt)
 * [Chapter 9 test](practice/9-test.txt)
 
-## Right hand v
+## Right hand -v
 
 * "v" as in  in "ca<ins>v</ins>e" is `-F`
 
@@ -150,7 +133,7 @@ This chapter's test consists of all the practice drills in this chapter. Make su
 
 ### Recommended completion goal
 
-This is only a suggestion; it is not a requirement to move to the next chapter!
+This is only a suggestion if you are unsure of when to move on to the next chapter; it is not a strict requirement!
 
 **Aim for 5–20 WPM with 90% accuracy.**
 

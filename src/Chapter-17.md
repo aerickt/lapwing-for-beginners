@@ -1,23 +1,6 @@
 
 # Chapter 17: Shortening techniques
 
-## Recommended pace
-
-**Recommended time to spend on this chapter: 1–2 days.**
-
-1. Read [shortened prefixes](#shortened-prefixes) (**20 minutes**)
-1. Read [folding](#folding) and complete the drills (**20 minutes**)
-   - Repeat the drills as needed
-1. Read [dropping unstressed vowels](#dropping-unstressed-vowels) and complete the drill (**20 minutes**)
-   - Repeat the drill as needed
-1. Read [inversions](#inversions) and complete the drill (**10 minutes**)
-   - Repeat the drill as needed
-1. Read [left hand compound clusters](#left-hand-compound-clusters) and complete the drill (**15 minutes**)
-   - Repeat the drill as needed
-1. Read [dropping other sounds](#dropping-other-sounds) (**10 minutes**)
-
-Remember to take breaks!
-
 ## Introduction
 
 All the techniques covered up until this point will allow writing almost any word. However, words are usually split into outlines such that one stroke corresponds to one syllable. This is not terribly efficient. To put this into perspective, professional stenographers have to write 225 WPM (or 5.25 syllables per second) to graduate. Even for professionals, 5 strokes per second is almost too fast.
@@ -407,3 +390,4 @@ Some examples of shortened outlines using these briefer prefix strokes:
   - `T*EL` in place of `TE/HRE`
 
 > Until a list of some useful shortened prefix strokes can be created, I suggest using the lookup tool whenever you encounter a multistroke prefix outline.
+

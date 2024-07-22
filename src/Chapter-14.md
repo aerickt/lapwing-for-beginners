@@ -1,17 +1,5 @@
 # Chapter 14: Suffix keys and compound words
 
-## Recommended pace
-
-**Recommended time to spend on this chapter: <1 day.**
-
-1. Read [suffix keys](#suffix-keys) and complete the drill (**20 minutes**)
-   - Repeat the drill as needed
-2. Read [The `A` "prefix" key](#the-a-prefix-key) (**10 minutes**)
-2. Read [Compound words](#compound-words) and complete the drill (**20 minutes**)
-   - Repeat the drill as needed
-
-Remember to take breaks!
-
 ## Useful links
 
 * [Compound words drill](practice/14-compound-words.txt)

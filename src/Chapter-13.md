@@ -1,19 +1,5 @@
 # Chapter 13: Prefixes and suffixes
 
-## Recommended pace
-
-**Recommended time to spend on this chapter: 1–2 days.**
-
-1. Read [Prefix strokes](#prefix-strokes) (**20 minutes**)
-1. Read [Suffix strokes](#suffix-strokes) and complete the drills (**60 minutes**)
-   - Repeat the drills as needed
-1. Read [Prefix priority](#prefix-priority) (**5 minutes**)
-1. Read [Seemingly incorrect prefix usage](#Seemingly-incorrect-prefix-usage) (**5 minutes**)
-1. Attempt the [test](#chapter-13-test) (**20 minutes**)
-   * Practise as needed
-
-Remember to take breaks!
-
 ## Useful links
 
 * [Words with -y and -ly suffixes drill](practice/13-EU.txt)
@@ -416,7 +402,7 @@ This chapter's test consists of all the practice drills in this chapter. Make su
 
 ### Recommended completion goal
 
-This is only a suggestion; it is not a requirement to move to the next chapter!
+This is only a suggestion if you are unsure of when to move on to the next chapter; it is not a strict requirement!
 
 **Aim for 10–40 WPM with 90% accuracy.**
 

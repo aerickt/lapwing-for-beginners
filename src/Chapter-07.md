@@ -1,20 +1,5 @@
 # Chapter 7: Vowels
 
-## Recommended pace
-
-**Recommended time to spend on this chapter: 2–6 days.**
-
-1. Read [`OE`, `OU`, and `OEU`](#oe-ou-and-oeu) and complete the drill (**25 minutes**)
-   - Repeat the drill as needed
-2. Read [`AEU`](#aeu) and complete the drill (**15 minutes**)
-   - Repeat the drill as needed
-3. Read [`AOU`](#aou) and complete the drill (**15 minutes**)
-   - Repeat the drill as needed
-4. Attempt the [test](#chapter-7-test) (**20 minutes**)
-   * Practise as needed
-
-Remember to take breaks!
-
 ## Useful links
 
 * [Single syllable `OE`, `OU`, and `OEU` words drill](practice/7-OE-OU-OEU.txt)
@@ -176,7 +161,7 @@ This chapter's test consists of all the practice drills you have done in this ch
 
 ### Recommended completion goal
 
-This is only a suggestion; it is not a requirement to move to the next chapter!
+This is only a suggestion if you are unsure of when to move on to the next chapter; it is not a strict requirement!
 
 **Aim for 5-20 WPM with 90% accuracy.**
 

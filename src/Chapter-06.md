@@ -1,20 +1,5 @@
 # Chapter 6: Left hand consonants continued
 
-## Recommended pace
-
-**Recommended time to spend on this chapter: 1–3 days.**
-
-1. Read [Left hand f, q, and m](#left-hand-f-q-and-m) and complete the drill (**20 minutes**)
-   - Repeat the drill as needed
-2. Read [left hand g, n, and y](#left-hand-g-n-and-y) and complete the drill (**20 minutes**)
-   - Repeat the drill as needed
-3. Read [left hand z, v, and j](#left-hand-z-v-and-j) and complete the drill (**20 minutes**)
-   - Repeat the drill as needed
-4. Attempt the [test](#chapter-6-test) (**20 minutes**)
-   * Practise as needed
-
-Remember to take breaks!
-
 ## Useful links
 
 * [Single syllable fqm words drill](practice/6-fqm.txt)
@@ -146,7 +131,7 @@ This chapter's test consists of all the practice drills in this chapter. Make su
 
 ### Recommended completion goal
 
-This is only a suggestion; it is not a requirement to move to the next chapter!
+This is only a suggestion if you are unsure of when to move on to the next chapter; it is not a strict requirement!
 
 **Aim for 10–20 WPM with 90% accuracy.**
 

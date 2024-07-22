@@ -1,16 +1,5 @@
 # Chapter 12: Wrapping up basic words
 
-## Recommended pace
-
-**Recommended time to spend on this chapter: <1 day.**
-
-1. Read [Miscellaneous orthographic chords](#miscellaneous-orthographic-chords) and complete the drill (**10 minutes**)
-2. Read [The stroke separator](#the-stroke-separator) (**5 minutes**)
-3. Read [When sounds can't follow steno order](#when-sounds-cant-follow-steno-order) (**5 minutes**)
-4. Read [right hand xt](#right-hand-xt) (**5 minutes**)
-
-Remember to take breaks!
-
 ## Useful links
 
 * [Left hand single syllable orthographic chords drill](practice/12-left-orthographic-chords.txt)

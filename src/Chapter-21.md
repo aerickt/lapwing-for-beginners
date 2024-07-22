@@ -1,11 +1,5 @@
 # Chapter 21: UK spellings
 
-## Recommended pace
-
-**Recommended time to spend on this chapter: <1 day.**
-
-Remember to take breaks!
-
 ## Intro
 
 Lapwing theory is very North American centred as that is the dialect of English I am familiar with. However, being from Canada, I often need to use both American and British spellings of words in writing. I've created a dictionary that adds in British spellings with alternative outlines. Unfortunately, this dictionary does not account for pronunciation differences, and it also prioritises the American forms of words—there may not always be short briefs available for British spellings.

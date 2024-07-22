@@ -1,14 +1,5 @@
 # Chapter 20: Punctuation and Commands
 
-## Recommended pace
-
-**Recommended time to spend on this chapter: 1 day.**
-
-1. Read [punctuation](#punctuation) (**10 minutes**)
-2. Read [commands](#commands) (**10 minutes**)
-
-Remember to take breaks!
-
 ## Useful links
 
 * [Punctuation graphic (outdated)](img/20-punctuation.png)

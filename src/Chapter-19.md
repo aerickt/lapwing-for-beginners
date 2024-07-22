@@ -1,13 +1,5 @@
 # Chapter 19: Proper nouns
 
-## Recommended pace
-
-**Recommended time to spend on this chapter: <1 day.**
-
-1. Read [proper nouns](#proper-nouns) (**10 minutes**)
-
-Remember to take breaks!
-
 ## Proper nouns
 
 Proper nouns in Lapwing theory are written exactly the same as regular words, except with the addition of the number key in the first stroke. Proper nouns can be multiple words long, but only the first stroke has to contain the number key (see examples below). The inclusion of the number key reduces conflicts, such as between "mat" and "Mat".

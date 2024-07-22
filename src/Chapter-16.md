@@ -2,17 +2,6 @@
 
 > **You can skip this if you've already been learning the briefs in each chapter!**
 
-## Recommended pace
-
-**Recommended time to spend on this chapter: 2 days** (assuming all these briefs are brand new).
-
-1. Read the [introduction](#introduction) (**5 minutes**)
-3. Skim the rest of this page (**10 minutes**)
-2. Attempt the [test](#chapter-16-test) (**20 minutes**)
-   * Practise as needed
-
-Remember to take breaks!
-
 ## Useful links
 
 * [All 200 words drill](practice/16-test.txt)
@@ -815,7 +804,7 @@ This chapter's test consists of the words listed on this page. Use the following
 
 ### Recommended completion goal
 
-This is only a suggestion; it is not a requirement to move to the next chapter!
+This is only a suggestion if you are unsure of when to move on to the next chapter; it is not a strict requirement!
 
 **Aim for 10–40 WPM with 90% accuracy.**
 

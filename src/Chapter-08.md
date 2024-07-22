@@ -1,24 +1,5 @@
 # Chapter 8: Vowels continued
 
-## Recommended pace
-
-**Recommended time to spend on this chapter: 2–6 days.**
-
-1. Read [`AOE`](#aoe)and complete the drill (**15 minutes**)
-   - Repeat the drill as needed
-1. Read [`AOEU`](#aoeu) and complete the drill (**15 minutes**)
-   - Repeat the drill as needed
-2. Read [`AU`](#au) and complete the drill (**15 minutes**)
-   - Repeat the drill as needed
-2. Read [`AE`](#ae) and complete the drill (**15 minutes**)
-   - Repeat the drill as needed
-2. Read [`AO`](#ao) and complete the drill (**15 minutes**)
-   - Repeat the drill as needed
-3. Attempt the [test](#chapter-8-test) (**20 minutes**)
-   * Practise as needed
-
-Remember to take breaks!
-
 ## Useful links
 
 * [Single syllable `AOE` words drill](practice/8-AOE.txt)
@@ -292,7 +273,7 @@ This chapter's test consists of all the vowel drills (including chapter 7 materi
 
 ### Recommended completion goal
 
-This is only a suggestion; it is not a requirement to move to the next chapter!
+This is only a suggestion if you are unsure of when to move on to the next chapter; it is not a strict requirement!
 
 **Aim for 5–20 WPM with 90% accuracy.**
 
