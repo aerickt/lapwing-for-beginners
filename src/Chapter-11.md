@@ -8,7 +8,7 @@
    - Repeat the drill as needed
 1. Read [right hand -ment and -let](#right-hand--ment-and--let) and complete the drill (**20 minutes**)
    - Repeat the drill as needed
-1. Read [right hand bl](#right-hand-bl) and complete the drill (**20 minutes**)
+1. Read [right hand bl](#right-hand--bl-and--blt) and complete the drill (**20 minutes**)
    - Repeat the drill as needed
 1. Read [right hand -shus and -shal](#right-hand--shus-and--shal) and complete the drill (**20 minutes**)
    - Repeat the drill as needed
@@ -97,7 +97,7 @@ Unfortunately, there is not a lot of practice material for single stroke words c
       - "pli<ins>able</ins>"
       - "poss<ins>ible</ins>"
 * `-BLT` represents the "-bility" sound as in "sta<ins>bility</ins>"
-   - When this sound is preceded by a vowel, the `-BLT` chord can be extended it represent the whole sound as in:
+   - When this sound is preceded by a vowel, the `-BLT` chord can be extended to represent the whole sound as in:
       - "cap<ins>ability</ins>"
       - "feas<ins>ibility</ins>"
 
