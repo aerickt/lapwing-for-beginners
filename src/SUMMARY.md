@@ -31,3 +31,4 @@
 -[Appendix C: Lapwing with Javelin](Appendix-C.md)
 -[Theory Reference Guide](theory-reference.md)
 -[Glossary](Glossary.md)
+-[Changes](Changes.md)
