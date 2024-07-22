@@ -88,7 +88,7 @@ Why not use `PH` for "f"? After all, this would be easier to remember since "ph"
 * `SR` is "v" as in "vat"
 * `SKWR` is "j" as in "job"
 
-> The initial "y" consonant was recently changed. Check [chapter 5](Chapter-05.md#dictionary-updates) for instructions to update your dictionary if you have a different outline for "z" words.
+> The initial "z" consonant was recently changed. Check [chapter 5](Chapter-05.md#dictionary-updates) for instructions to update your dictionary if you have a different outline for "z" words.
 
 ![](img/6-zvj.png)
 
