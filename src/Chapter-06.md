@@ -55,8 +55,6 @@ Why not use `PH` for "f"? After all, this would be easier to remember since "ph"
 
 **`KWH` is only used when the word starts with the letter "y"; if a word has a "y" sound but doesn't start with a "y", simply don't use a left hand consonant chord.**
 
-> The initial "y" consonant was recently changed. Check [chapter 5](Chapter-05.md#dictionary-updates) for instructions to update your dictionary if you have a different outline for "y" words.
-
 ![](img/6-gny.png)
 
 ### Examples
@@ -82,13 +80,13 @@ Why not use `PH` for "f"? After all, this would be easier to remember since "ph"
 
 [Single syllable gny words](practice/6-gny.txt)
 
+> **The initial "y" consonant was recently changed. Check [chapter 5](Chapter-05.md#dictionary-updates) for instructions to update your dictionary if you have a different outline for "y" words.**
+
 ## Left hand z, v, and j
 
 * `STKPW` is "z" as in "zit"
 * `SR` is "v" as in "vat"
 * `SKWR` is "j" as in "job"
-
-> The initial "z" consonant was recently changed. Check [chapter 5](Chapter-05.md#dictionary-updates) for instructions to update your dictionary if you have a different outline for "z" words.
 
 ![](img/6-zvj.png)
 
@@ -112,6 +110,8 @@ Why not use `PH` for "f"? After all, this would be easier to remember since "ph"
 ### Section practice
 
 [Single syllable zvj words](practice/6-zvj.txt)
+
+> **The initial "z" consonant was recently changed. Check [chapter 5](Chapter-05.md#dictionary-updates) for instructions to update your dictionary if you have a different outline for "z" words.**
 
 ## Chapter 6 test
 
