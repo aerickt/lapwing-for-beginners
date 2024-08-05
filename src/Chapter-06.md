@@ -167,7 +167,7 @@ This is only a suggestion if you are unsure of when to move on to the next chapt
 1. `EU/SK/-T/PHOD/TKPWEPB/SKP/TKPWEPB/TP-PL`
 1. `PW-FR/U/SED/U/KWEUT/TP-PL`
 1. `S/T/TPEUT/KW-PL`
-1. `KWR*ES/EU/TKPWOT/T/TP-PL`
+1. `KWHES/EU/TKPWOT/T/TP-PL`
 1. `TPHO/T/S/SRE/WEL/TP-PL`
 
 ### Extra briefs
