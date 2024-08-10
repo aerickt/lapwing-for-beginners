@@ -693,7 +693,6 @@ yacht	KWRA*UT
 quad	KWAUD
 clause	KHRAUS
 crawl	KRAUL
-kraut	KRAUT
 cough	KAUF
 call	KAUL
 caught	KAUT
