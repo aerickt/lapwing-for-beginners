@@ -1,3 +1,11 @@
+# 2024-08-09
+
+[New_commit](https://github.com/aerickt/lapwing-for-beginners/tree/b25df90b1916a219c3a0acd9efdcdd0cb898c83c)
+
+* Removed "kraut" from chapter 8 drills
+
+[Old commit](https://github.com/aerickt/lapwing-for-beginners/tree/090774b3c299b9ff1158d43944e9d20697017d0e)
+
 # 2024-07-21
 
 [New commit](https://github.com/aerickt/lapwing-for-beginners/tree/0a5693a42ecf89bcf0f99ee3541b1cc2d477bea0)
