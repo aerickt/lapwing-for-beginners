@@ -47,15 +47,15 @@ In chapter 5, it was stated that "-st" in words like "past" cannot be written in
 * haste `HAEUFT`
 * mast `PHAFT`
 
+> **Note:** the `-F` key can be used for "s" in general when steno order cannot be followed.
+
 For conflicts, `*S` is used as a secondary chord. Words with "-ft" are given higher priority than words with "-st".
 
 * lost `HRO*S` (`HROFT` is already "loft")
 * list `HR*EUS` (`HREUFT` is already "lift")
 
 ![st](img/9-st.png)
-
-> **Note:** the `-F` key can be used for "s" in general when steno order cannot be followed.
-  
+ 
 #### Section practice
 
 This section's practice material also includes some "-ft" words like "loft" and "lift".
