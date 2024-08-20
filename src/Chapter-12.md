@@ -2,6 +2,7 @@
 
 ## Useful links
 
+* [Words with `-F` as s](practice/12-words-with-f-as-s.txt)
 * [Left hand single syllable orthographic chords drill](practice/12-left-orthographic-chords.txt)
 
 ## Great job!
@@ -11,6 +12,30 @@ If you've been following the recommended pacing, you should now be anywhere from
 ## What we've learned so far
 
 You should be pretty familiar with the steno layout and you should also understand how to write most single syllable words—even if you're not very fast yet. We will finally wrap up single syllable words in this chapter before moving onto other topics.
+
+## `-F` as s
+
+Some words end in consonant groups that start with an "s" sound, such as "trust". In these cases, we would not be able to use `-S` since it comes after the right hand `-T` key in steno order. We can instead use `-F` to represent these "s" sounds.
+
+### Examples
+
+* bask `PWAFBG`
+* spasm `SPAFPL`
+* task `TAFBG`
+* trust `TRUFT`
+
+### Conflicts
+
+This rule occasionally conflicts with words ending in "-ft" and "-st". In these cases, the "-ft" word is given priority, and `*s` is used as a secondary chord for "-st".
+
+* lift `HREUFT`
+* list `HR*EUS`
+* loft `HROFT`
+* lost `HRO*S`
+
+### Section practice
+
+[Words with `-F` as s](practice/12-words-with-f-as-s.txt)
 
 ## Miscellaneous orthographic chords
 

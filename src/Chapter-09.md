@@ -3,7 +3,6 @@
 ## Useful links
 
 * [Single syllable right hand -v words drill](practice/9-right-v.txt)
-* [Single syllable right hand -st words drill](practice/9-right-st.txt)
 * [Single syllable right hand -m and -k words drill](practice/9-right-m-and-k.txt)
 * [Single syllable right hand -mp, -th, and -lk words drill](practice/9-right-mp-th-lk.txt)
 * [Chapter 9 test](practice/9-test.txt)
@@ -37,30 +36,6 @@ With `-F` as both "f" and "v", conflicts such as "safe" and "save" can arise; bo
 ### Section practice
 
 [Single syllable v words](practice/9-right-v.txt)
-
-## Right hand st
-
-In chapter 5, it was stated that "-st" in words like "past" cannot be written in a way that obeys steno order. In Lapwing theory, `-FT` can be used to represent this sound.
-
-* cast `KAFT`
-* fast `TPAFT`
-* haste `HAEUFT`
-* mast `PHAFT`
-
-> **Note:** the `-F` key can be used for "s" in general when steno order cannot be followed.
-
-For conflicts, `*S` is used as a secondary chord. Words with "-ft" are given higher priority than words with "-st".
-
-* lost `HRO*S` (`HROFT` is already "loft")
-* list `HR*EUS` (`HREUFT` is already "lift")
-
-![st](img/9-st.png)
- 
-#### Section practice
-
-This section's practice material also includes some "-ft" words like "loft" and "lift".
-
-[Single syllable -st words](practice/9-right-st.txt)
 
 ## Right hand m and k
 
@@ -158,19 +133,19 @@ This is only a suggestion if you are unsure of when to move on to the next chapt
 > **NOTE:** remember that these are briefs; the explanations are not applicable to any arbitrary word.
 
 ### Practice sentences
-1. after that, the dog will trust you.
+1. after that, the dog will like you.
 1. were you in their room?
 1. it is what it is.
 1. who were you with?
-1. it is with which I rest about.
+1. it is with which I come about.
 1. what is in there?
 
 #### Answers
-1. `AF/THA/KW-BG/-T/TKOG/HR/TRUFT/U/TP-PL`
+1. `AF/THA/KW-BG/-T/TKOG/HR/HRAOEUBG/U/TP-PL`
 1. `WR/U/TPH/THAEUR/RAOPL/KW-PL`
 1. `T/S/WHA/T/S/TP-PL`
 1. `WHO/WR/U/W/KW-PL`
-1. `T/S/W/WEU/EU/REFT/PW/TP-PL`
+1. `T/S/W/WEU/EU/KOPL/PW/TP-PL`
 1. `WHA/S/TPH/THR/KW-PL`
 
 ### Extra briefs
