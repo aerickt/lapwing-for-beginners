@@ -22,7 +22,7 @@ These chords start a syllable.
 | `SK` | sk- | Phonetic | <ins>sch</ins>ool `SKAOL`, ob<ins>sc</ins>ure `OB/SKAOUR` |
 | `SP` | sp- | Phonetic | <ins>sp</ins>ew `SPAOU`, retro<ins>sp</ins>ect `RE/TROE/SPEBGT` |
 | `SH` | sh- | Phonetic | <ins>sh</ins>oe `SHAOU`, con<ins>sci</ins>ous `KOPB/SHUS` |
-| `SR` | sr- | Phonetic | <ins>v</ins>oice `SROEUS`, de<ins>v</ins>ote `TKE/SROET` |
+| `SR` | v- | Phonetic | <ins>v</ins>oice `SROEUS`, de<ins>v</ins>ote `TKE/SROET` |
 | `TK` | d- | Phonetic | <ins>d</ins>ad `TKAD`, mea<ins>d</ins>ow, `PHE/TKOE` |
 | `TP` | f- | Orthographic (see `TP*` below) | <ins>f</ins>ar `TPAR`, con<ins>f</ins>ess `KOPB/TPES` |
 | `TP*` | ph- | Orthographic | <ins>ph</ins>i `TPAO*EU`, ci<ins>ph</ins>er `SAOEU/TP*ER` |
