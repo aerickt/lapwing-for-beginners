@@ -81,7 +81,7 @@ These chords end a syllable
 | `-FP` | -ch and -sp | Phonetic | su<ins>ch</ins> `SUFP`, li<ins>sp</ins> `HREUFP` |
 | `-FL` | -f_l and -v_l | Phonetic | play<ins>ful</ins> `PHRAEUFL`, va<ins>lv</ins>e `SRAFL` |
 | `-FT` | -ft and -st | Phonetic | lo<ins>ft</ins> `HROFT`, ho<ins>st</ins> `HOEFT` |
-| `*S` | -st (secondary chord) | Phonetic | lo<ins>st</ins> `HRO*S`, li<ins>st</ins> `HR*EUS` |
+| `*S` | -st (secondary chord) | Phonetic | lift `HREUFT`, li<ins>st</ins> `HR*EUS` |
 | `-RP` | -rp | Phonetic | ha<ins>rp</ins> `HARP`, co<ins>rp</ins> `KORP` |
 | `-RB` | -rb and -sh | Phonetic | cu<ins>rb</ins> `KURB`, fla<ins>sh</ins> `TPHRARB` |
 | `-RL` | -r_l | Phonetic | vi<ins>ral</ins> `SRAOEURL`, cu<ins>rl</ins> `KURL` |
@@ -96,12 +96,105 @@ These chords end a syllable
 | `*LG` | -lk | Phonetic | e<ins>lk</ins> `*ELG`, su<ins>lk</ins> `S*ULG` |
 | `-LT` | -l_t | Phonetic | ti<ins>lt</ins> `TEULT`, rou<ins>lette</ins> `RAOULT` |
 | `-LD` | -ld | Phonetic | so<ins>ld</ins> `SOELD`, co<ins>ld</ins> `KOELD` |
-| `-GT` | -xt | Phonetic | te<ins>xt</ins>, conte<ins>xt</ins> `KOPB/TEGT` |
+| `-GT` | -xt | Phonetic | te<ins>xt</ins> `TEGT`, conte<ins>xt</ins> `KOPB/TEGT` |
+| `-GS` | -shun | Phonetic | o<ins>cean</ins> `OEGS`, mo<ins>tion</ins> `PHOEGS`
 | `-FRB` | -rv | Phonetic | ca<ins>rv</ins>e `KAFRB`, se<ins>rv</ins>e `SEFRB` |
+| `-PBG` | -ng and -nj | Phonetic | si<ins>ng</ins> `SEUPBG`, hi<ins>ng</ins> `HEUPBG` |
+| `-PBT` | -nt | Phonetic | hi<ins>nt</ins> `HEUPBT`, sai<ins>nt</ins> `SAEUPBT` |
+| `-PBS` | -ns | Phonetic | dan<ins>c</ins>e `TKAPBS`, rin<ins>s</ins>e `REUPBS` |
+| `-PBD` | -nd | Phonetic | sa<ins>nd</ins> `SAPBD`, ki<ins>nd</ins> `KAOEUPBD` |
+| `-BGT` | -kt | Phonetic | pa<ins>ct</ins> `PABGT`, expe<ins>ct</ins> `EBGS/PEBGT` |
+| `-BGS` | -x and -kshun | Phonetic | ta<ins>x</ins> `TABGS`, tra<ins>ction</ins> `TRABGS` |
+| `*BGS` | -kshun (secondary chord) | Phoentic | sex `SEBGS`, se<ins>ction</ins> `SE*BGS` |
+| `-FRPB` | -rch and -nch | Phonetic | sea<ins>rch</ins> `SEFRPB`, be<ins>nch</ins> `PWEFRPB` |
+| `-FRPBLG` | -nch (secondary chord) | Phonetic | lurch `HRUFRPB`, lunch `HRUFRPBLG` |
+| `-PBLG` | -j | Phonetic | gau<ins>g</ins>e `TKPWAEUPBLG`, sur<ins>g</ins>e `SURPBLG` |
 
 ## Vowels
 
-*shrugs*
+> TODO: add IPA, pronunciation guides, more examples.
+
+### Short vowels
+
+There are 5 short vowels defined in Lapwing, one for each letter. There are only 4 vowel keys: `A`, `O`, `E`, and `U`. Therefore, the `EU` chord is used to represent the 5th vowel: i.
+
+**If a short vowel is spelled with a single letter, the corresponding vowel key/chord is used.**
+
+**If a short vowel is spelled with multiple letters, the vowel key/chord closest in pronunciation is used.**
+
+> **NOTE:** this rule has some leeway. The dictionary may contain multiple entries if there is ambiguity.
+
+Below is a table of short vowels as defined in Lapwing.
+
+| Sound | Example | IPA | Steno outline |
+| - | - | - | - |
+| Short a | c<ins>a</ins>t |  | `KAT` |
+| Short e | p<ins>e</ins>t |  | `PET` |
+| Short i | s<ins>i</ins>t |  | `SEUT` |
+| Short o | l<ins>o</ins>t |  | `HROT` |
+| Short u | h<ins>u</ins>t |  | `HUT` |
+
+#### Examples
+
+* asdf
+* jk;l
+* plaid `PHRAD`
+* said `SED`
+
+#### Short o exception
+
+Since there are a lot of homophones with short o vowels, any short o sound that isn't spelled with a single "o" is written with the `AU` chord.
+
+* bot `PWOT`
+* bought `PWAUT`
+* cot `KOT`
+* caught `KAUT`
+* spa `SPAU`
+
+> **NOTE:** Lapwing is based on North American English, specifically my accent of English. To me, all of the words above (as well as the first vowel in "f<ins>a</ins>ther" and "bother") are exactly the same ([cot-caught merger](https://en.m.wikipedia.org/wiki/Cot%E2%80%93caught_merger), [father-bother merger](https://en.m.wikipedia.org/wiki/Phonological_history_of_English_open_back_vowels#)). If your accent is closer to British English, see [Warbler Theory](https://github.com/peaceknight05/warbler-dictionaries).
+
+### Short vowels with `-R`
+
+The following sounds are also considered short vowels (and therefore follow previously mentioned short vowel rules), but are distinct to the 5 sounds listed above.
+
+| Sound | Example | IPA | Steno outline |
+| - | - | - | - |
+| Short a | c<ins>ar</ins>t |  | `KART` |
+| Short e | h<ins>er</ins>d |  | `HERD` |
+| Short i | s<ins>i</ins>r |  | `SEUR` |
+| Short o | l<ins>or</ins>e |  | `HROR` |
+| Short u | h<ins>ur</ins>t |  | `HURT` |
+
+> **NOTE:** "herd", "sir", and "hurt" actually have the same vowel.
+
+### Long vowels
+
+Below is a list of long vowels as defined by Lapwing.
+
+| Sound | Example | IPA | Steno outline |
+| - | - | - | - |
+| Long a | c<ins>a</ins>ne |  | `KAEUPB` |
+| Long e | h<ins>ee</ins>d |  | `HAOED` |
+| Long i | s<ins>i</ins>gh |  | `SAOEU` |
+| Long o | l<ins>ow</ins> |  | `HROE` |
+| Long u | h<ins>ue</ins> |  | `HAOU` |
+
+These vowels are purely phonetic. Their steno chords correspond to sounds.
+
+### Long vowels with `-R`
+
+The following sounds are also considered long vowels (and are therefore entirely phonetic), but are distinct to the 5 previously discussed long vowels.
+
+| Sound | Example | IPA | Steno outline |
+| - | - | - | - |
+| Long a | c<ins>air</ins>n |  | `KAEURPB` |
+| Long e | h<ins>ere</ins> |  | `HAOER` |
+| Long i | s<ins>i</ins>re |  | `SAOEUR` |
+| Long u | c<ins>ure</ins> |  | `KAOUR` |
+
+### Long a exception
+
+The sound listed as a long a can sometimes be spelled with a single e, such as in the word "herr". In these cases spelled with a single e, the `ER` chord should be used. `AEUR` is reserved for all other spellings.
 
 # Out of order syllables
 
@@ -110,8 +203,11 @@ Despite all the chords listed above, some syllables cannot be written in one str
 - kiln `KEUL/-PB`
 
 For words ending in -v or -t, the `-F` or `-T` keys would normally be used. However, these keys on their own are briefs for the common words "of" and "the". To prevent any potential conflicts, use `*F` and `*T` instead to end these words.
+
 - elf `EL/*F`
 - list `HREUS/*T`
+
+> **NOTE:** using the `-FT` or `*S` chords is preferred for ending a a syllable with -st.
 
 # Compound words
 
