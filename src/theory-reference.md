@@ -209,23 +209,16 @@ For words ending in -v or -t, the `-F` or `-T` keys would normally be used. Howe
 
 > **NOTE:** using the `-FT` or `*S` chords is preferred for ending a a syllable with -st.
 
-# Compound words
-
-Compound words are written with the asterisk on the first stroke of the second word.
-- keyboard `KEU/PWAO*RD`
-- mousepad `PHOUS/PA*D`
-- storybook `STOR/KWREU/PWAO*RBG`
-- textbook `TEGT/PWAO*BG`
-
 # Affix strokes
 
-Normally, words are separated by spaces. However, affix strokes suppress spaces either before or after their translation. These are defined using curly braces `{}` and carets `^`.
+Most strokes are defined as words, meaning they are separated by spaces. However, affix strokes suppress spaces either before or after their translation. These are defined using curly braces `{}` and carets `^`.
 
-For example, the non^ prefix stroke is defined as `{non^}`. The curly braces indicate special formatting lays inside, and the caret indicates where the space is ignored.
+For example, the `TPHOPB` stroke is defined as `{non^}`. The curly braces indicate that they contain special formatting, and the caret indicates where the space is ignored. Therefore, writing `TPHOPB/KAT` would result in "noncat".
 
 ## Prefixes
 
-Prefix strokes suppress spaces so that the next stroke written sticks to the prefix.
+Prefix strokes suppress spaces such that they are attached to the next stroke stroke.
+
 - onlook `OPB/HRAOBG`
    - {on^} `OPB`
 - relearn `RAOE/HRERPB`
@@ -235,11 +228,34 @@ Common prefixes are written as if they were regular words (e.g. pre^ and on^ are
 
 ## Suffixes
 
-## Standalone right hand suffixes
+Suffix strokes suppress spaces such that they are attached to the next stroke.
 
-## `KWR` suffixes
+* 
 
-## `_*R` suffixes
+### Standalone right hand suffixes
+
+### `KWR` suffixes
+
+### `_*R` suffixes
+
+### Suffix keys
+
+The following keys by themselves are defined as suffixes.
+
+* {^ing} `-G`
+* {^s} `-S`
+* {^ed} `-D`
+* {^s} `-Z`
+
+
+
+# Compound words
+
+Compound words are written with the asterisk on the first stroke of the second word.
+- keyboard `KEU/PWAO*RD`
+- mousepad `PHOUS/PA*D`
+- storybook `STOR/KWREU/PWAO*RBG`
+- textbook `TEGT/PWAO*BG`
 
 # Syllabic splitting
 
