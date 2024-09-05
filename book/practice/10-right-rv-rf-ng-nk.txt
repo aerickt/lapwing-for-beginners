@@ -132,7 +132,7 @@ think	TH*EUPBG
 thunk	TH*UPBG
 trunk	TR*UPBG
 tank	TA*PBG
-yank	KWRA*PBG
+yank	KWHA*PBG
 clank	KHRA*PBG
 clink	KHR*EUPBG
 clunk	KHR*UPBG
