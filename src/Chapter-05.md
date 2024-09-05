@@ -85,7 +85,7 @@ Some consonants may represent multiple sounds. This table will clear up any ambi
 | Steno key | Examples                         |
 |-----------|----------------------------------|
 | `S`         | <ins>s</ins>at <ins>s</ins>ill   |
-| `T`         | <ins>t</ins>en </ins>t</ins>ap   |
+| `T`         | <ins>t</ins>en <ins>t</ins>ap   |
 | `K`         | <ins>k</ins>ing <ins>c</ins>ar   |
 | `P`         | <ins>p</ins>at <ins>p</ins>ull   |
 | `W`         | <ins>w</ins>in <ins>w</ins>att   |
