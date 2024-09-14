@@ -204,10 +204,10 @@ For some American speakers, the "l" in words like "palm" aren't audible at all. 
 ### Examples
 
 * calm `KAUPL`
-* halt `HAULT`
+* chalk `KHAUBG`
 * psalm `SAUPL`
 	- Note that the "p" is silent
-* salt `SAULT`
+* stalk `STAUBG`
 
 ## No test this chapter!
 
