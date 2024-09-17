@@ -104,7 +104,7 @@ Mnemonic: **s**u**pp**ress **l**ast **s**pace
 Mnemonic: the word "cap" but with the "a" and "p" out of order
 
 #### Example
-* `-T/KPA/AOEU/HRAPBD` the island
+* `-T/KPA/AOEU/HRAPBD` the Island
 
 ### Retroactively capitalize the next word
 #### Outline: `KA*PD`
