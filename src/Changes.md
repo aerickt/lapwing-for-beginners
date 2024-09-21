@@ -1,6 +1,15 @@
+# 2024-09-21
+
+[New commit]()
+
+* Fixed typo in chapter 20
+* Added a section in chapter 3 going over discovering problematic words
+
+[Old commit](https://github.com/aerickt/lapwing-for-beginners/commit/7557f39a43df83b283843c24c9bda8d28e983ffa)
+
 # 2024-08-09
 
-[New_commit](https://github.com/aerickt/lapwing-for-beginners/tree/b25df90b1916a219c3a0acd9efdcdd0cb898c83c)
+[New commit](https://github.com/aerickt/lapwing-for-beginners/tree/b25df90b1916a219c3a0acd9efdcdd0cb898c83c)
 
 * Removed "kraut" from chapter 8 drills
 

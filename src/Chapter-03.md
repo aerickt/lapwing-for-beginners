@@ -70,6 +70,12 @@ To write the "^ly", you could look this up too:
 
 The curly braces indicate that this word is special. In this case, the caret indicates that it will attach on that side. Putting these two outlines together, you would get `THOR/KWROE/HREU`. This is the canonical way you would write the word "thoroughly" even though it is not in the dictionary.
 
+### Problematic words
+
+In grade school English, we learn of rules that allow us to pronounce words. However, as you may have realized, there are exceptions to almost every rule. Lapwing is no different, and you may encounter words in the default dictionary that are unintuitive and go against a rule.
+
+There is a table in [chapter 22](#Chapter-22.md#problematic-words) which aims to list these words. If you've come across a word whose outlines don't make sense to you, I suggest checking this table or even using the search bar to see if it is mentioned anywhere else in this book.
+
 ## Switching to steno completely from day 1
 
 If you're familiar with learning alternative keyboard layouts such as Colemak and Dvorak, you may be tempted to try and use steno for everything right from day 1.
