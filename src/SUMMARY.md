@@ -29,6 +29,6 @@
 -[Appendix A: Switching to Lapwing from Plover](Appendix-A.md)
 -[Appendix B: Setting up Lapwing manually](Appendix-B.md)
 -[Appendix C: Lapwing with Javelin](Appendix-C.md)
--[Theory Reference Guide](theory-reference.md)
+-[Appendix D: Theory Reference Guide](Appendix-D.md)
 -[Glossary](Glossary.md)
 -[Changes](Changes.md)

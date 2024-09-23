@@ -2,7 +2,11 @@
 
 Basic punctuation and Plover commands were covered in [chapter 19](Chapter-19.md) but writing other symbols was not. Lapwing theory really only covers writing English prose, and so symbols is beyond its scope. However, instead of adding every symbol to your dictionary, there are preexisting ones that you can download and use. The same goes for writing keyboard shortcuts, also called "modifiers".
 
-On this page, I've listed other dictionaries that I use for symbols and shortcuts. It's difficult to learn these by drilling them, so instead I recommend referring back to the documentation pages or the graphics made by @sammdot whenever you need to. Printing the graphics out and attaching them to your wall is also very handy.
+On this page, I've listed other dictionaries that I use for symbols and shortcuts. It's difficult to learn these by drilling them, so instead I recommend referring back to this page you need to. Printing out the graphics on this page and pinning them to your wall can also come in handy.
+
+> **NOTE:** the original dictionaries listed on this page have been altered slightly in the Lapwing plugin. Please keep this in mind if you seek official documentation on any of these dictionaries on their source pages.
+
+> I would like to expanding this page and make it the only necessary documentation to learn these dictionaries. If you would like to see this happen sooner, [consider contributing](https://www.paypal.com/donate/?hosted_button_id=VNMUULBPTQGMC) :)
 
 ## Python dictionaries
 
@@ -52,7 +56,7 @@ Breaking down this stroke looks like this:
 2. `-FR` chord for Ctrl and Shift
 3. `KR` chord for C
 
-> **NOTE:** if you downloaded Emily's modifiers dictionary, you will find that the unique ending chord is actually `-LTZ` by default. It was changed to `-LGTS` in Lapwing. Keep this in mind if you seek out official documentation on the system.
+> **NOTE:** Emily's modifiers in the Lapwing plugin was changed recently. The above graphic is consistent with the latest dictionary. If you are encountering issues with the graphic not being accurate, see chapter 5 on [updating your dictionary](Chapter-05.md#dictionary-updates).
 
 ## Abby's left hand modifiers dictionary
 
@@ -68,6 +72,8 @@ Breaking down this outline looks like:
 2. `SR` chord for V
 
 See the [readme](https://github.com/Abkwreu/plover-left-hand-modifiers/#abbys-left-hand-modifiers-dictionary) for more details.
+
+> **NOTE:** numbers and function keys have been altered in the Lapwing version of Abby's left hand modifiers to match Emily's modifiers. Better standalone documentation on this site for Abby's left hand modifiers is work-in-progress.
 
 ## Learning these systems
 

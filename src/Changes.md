@@ -1,6 +1,17 @@
-# 2024-09-21
+# 2024-09-22
 
 [New commit]()
+
+* Update Emily's modifiers graphic in chapter 25
+   * Matches plugin v1.3.1 (removed mirroring of Emily's symbols to Emily's modifiers)
+* Add tasks list on home page
+* Rename theory reference to appendix D
+
+[Old commit](https://github.com/aerickt/lapwing-for-beginners/commit/18a16b3dab1416f9c61656f30486a9d82a4d1a5f)
+
+# 2024-09-21
+
+[New commit](https://github.com/aerickt/lapwing-for-beginners/commit/18a16b3dab1416f9c61656f30486a9d82a4d1a5f)
 
 * Fixed typo in chapter 20
 * Added a section in chapter 3 going over discovering problematic words
