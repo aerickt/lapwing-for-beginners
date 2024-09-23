@@ -15,26 +15,32 @@ To write a short acronym or a word that is not yet defined, a letter-by-letter s
 
 ### Lowercase
 
-| | | | | |
-| ---- | ---- | ---- | ---- | ---- |
-| a <br> ![](img/18-a.png) | b <br> ![](img/18-b.png) | c <br> ![](img/18-c.png) | d <br> ![](img/18-d.png) | e <br> ![](img/18-e.png) |
-| f <br> ![](img/18-f.png) | g <br> ![](img/18-g.png) | h <br> ![](img/18-h.png) | i <br> ![](img/18-i.png) | j <br> ![](img/18-j.png) |
-| k <br> ![](img/18-k.png) | l <br> ![](img/18-l.png) | m <br> ![](img/18-m.png) | n <br> ![](img/18-n.png) | o <br> ![](img/18-o.png) |
-| p <br> ![](img/18-p.png) | q <br> ![](img/18-q.png) | r <br> ![](img/18-r.png) | s <br> ![](img/18-s.png) | t <br> ![](img/18-t.png) |
-| u <br> ![](img/18-u.png) | v <br> ![](img/18-v.png) | w <br> ![](img/18-w.png) | x <br> ![](img/18-x.png) | y <br> ![](img/18-y.png) |
-|  |  | z <br> ![](img/18-z.png) |  |  |
+| | | |
+| ---- | ---- | ---- |
+| a <br> ![](img/18-a.png) | b <br> ![](img/18-b.png) | c <br> ![](img/18-c.png) |
+| d <br> ![](img/18-d.png) | e <br> ![](img/18-e.png) | f <br> ![](img/18-f.png) |
+| g <br> ![](img/18-g.png) | h <br> ![](img/18-h.png) | i <br> ![](img/18-i.png) |
+| j <br> ![](img/18-j.png) | k <br> ![](img/18-k.png) | l <br> ![](img/18-l.png) |
+| m <br> ![](img/18-m.png) | n <br> ![](img/18-n.png) | o <br> ![](img/18-o.png) |
+| p <br> ![](img/18-p.png) | q <br> ![](img/18-q.png) | r <br> ![](img/18-r.png) |
+| s <br> ![](img/18-s.png) | t <br> ![](img/18-t.png) | u <br> ![](img/18-u.png) |
+| v <br> ![](img/18-v.png) | w <br> ![](img/18-w.png) | x <br> ![](img/18-x.png) |
+| y <br> ![](img/18-y.png) | z <br> ![](img/18-z.png) |  |
 
 ### Uppercase
 To write uppercase letters, use `-P` on the right hand.
 
-| | | | | |
-| ---- | ---- | ---- | ---- | ---- |
-| A <br> ![](img/18-A.png) | B <br> ![](img/18-B.png) | C <br> ![](img/18-C.png) | D <br> ![](img/18-D.png) | E <br> ![](img/18-E.png) |
-| F <br> ![](img/18-F.png) | G <br> ![](img/18-G.png) | H <br> ![](img/18-H.png) | I <br> ![](img/18-I.png) | J <br> ![](img/18-J.png) |
-| K <br> ![](img/18-K.png) | L <br> ![](img/18-L.png) | M <br> ![](img/18-M.png) | N <br> ![](img/18-N.png) | O <br> ![](img/18-O.png) |
-| P <br> ![](img/18-P.png) | Q <br> ![](img/18-Q.png) | R <br> ![](img/18-R.png) | S <br> ![](img/18-S.png) | T <br> ![](img/18-T.png) |
-| U <br> ![](img/18-U.png) | V <br> ![](img/18-V.png) | W <br> ![](img/18-W.png) | X <br> ![](img/18-X.png) | Y <br> ![](img/18-Y.png) |
-|  |  | Z <br> ![](img/18-Z.png) |  |  |
+| | | |
+| ---- | ---- | ---- |
+| A <br> ![](img/18-A.png) | B <br> ![](img/18-B.png) | C <br> ![](img/18-C.png) |
+| D <br> ![](img/18-D.png) | E <br> ![](img/18-E.png) | F <br> ![](img/18-F.png) |
+| G <br> ![](img/18-G.png) | H <br> ![](img/18-H.png) | I <br> ![](img/18-I.png) |
+| J <br> ![](img/18-J.png) | K <br> ![](img/18-K.png) | L <br> ![](img/18-L.png) |
+| M <br> ![](img/18-M.png) | N <br> ![](img/18-N.png) | O <br> ![](img/18-O.png) |
+| P <br> ![](img/18-P.png) | Q <br> ![](img/18-Q.png) | R <br> ![](img/18-R.png) |
+| S <br> ![](img/18-S.png) | T <br> ![](img/18-T.png) | U <br> ![](img/18-U.png) |
+| V <br> ![](img/18-V.png) | W <br> ![](img/18-W.png) | X <br> ![](img/18-X.png) |
+| Y <br> ![](img/18-Y.png) | Z <br> ![](img/18-Z.png) |  |
 
 ### Attachment behaviour
 Fingerspelling uses glue (<code class="code-mono">&</code>) formatting. These translations stick to other translations that also have glue. For example, writing `HE/HROE/A*/PW*/KR*` will result in <code class="code-mono">hello abc</code>. Since the translation for `HE/HROE` contains no glue, the subsequent fingerspelling chord inserts a space after <code class="code-mono">hello</code>. However, as the subsequent fingerspelling chords all contain glue, they stick together.
