@@ -83,7 +83,6 @@ Unfortunately, there is not a lot of practice material for single stroke words c
    - When this sound is preceded by a vowel, the `-BLT` chord can be extended to represent the whole sound as in:
       - "cap<ins>ability</ins>"
       - "feas<ins>ibility</ins>"
-         - Remember that [`-F` can represent an "s" sound](Chapter-09#right-hand-st.md)
 
 ![bl and blt](img/11-bl-blt.png)
 
@@ -94,7 +93,6 @@ Unfortunately, there is not a lot of practice material for single stroke words c
 * terrible `TERBL`
 * mobility `PHOEBLT`
 * viability `SRAOEUBLT`
-* visibility `SREUFBLT`
 
 ### Mnemonics:
 
