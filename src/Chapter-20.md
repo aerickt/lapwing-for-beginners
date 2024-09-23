@@ -44,7 +44,18 @@ The following table lists several common punctuation marks along with the name, 
 | <code class="code-mono">‽</code> | Interrobang | Attaches to the previous word and capitalizes the next word | `TRAPBG` | Resembles the word "in**t**e**rr**ob**ang**". |
 | <code class="code-mono">/</code> | Slash | Attaches to the previous word and the next word | `OEU` |
 
-![](img/20-punctuation.png)
+<br>
+
+| | | |
+| ---- | ---- | ---- |
+| . <br> ![](img/20-period.png) | ? <br> ![](img/20-question.png) | ! <br> ![](img/20-exclamation.png) |
+| . <br> ![](img/20-decimal.png) | , <br> ![](img/20-comma.png) | " <br> ![](img/20-opening-quotation.png) |
+| " <br> ![](img/20-closing-quotation.png) | ` <br> ![](img/20-opening-backtick.png) | \` <br> ![](img/20-closing-backtick.png) |
+| ‽ <br> ![](img/20-interrobang.png) | ( <br> ![](img/20-opening-parenthesis.png) | ) <br> ![](img/20-closing-parenthesis.png) |
+| { <br> ![](img/20-opening-brace.png) | } <br> ![](img/20-closing-brace.png) | / <br> ![](img/20-slash.png) |
+| \[ <br> ![](img/20-opening-bracket.png) | ] <br> ![](img/20-closing-bracket.png) | : <br> ![](img/20-colon.png) |
+| ; <br> ![](img/20-semicolon.png) | : <br> ![](img/20-colon-time.png) | — <br> ![](img/20-emdash.png) |
+| – <br> ![](img/20-endash.png) | - <br> ![](img/20-hyphen.png) |  |
 
 ## Commands
 
