@@ -1,3 +1,4 @@
+{
 "TKPWHR":"{#}",
 "KHR":"{#control_l}",
 "THRA":"{#alt_l}",
@@ -1497,4 +1498,5 @@
 "STKPWHRAO/STPH":"{#control_l(alt_l(shift_l(super_l(insert))))}",
 "STKPWHRAO/SKPR":"{#control_l(alt_l(shift_l(super_l(print))))}",
 "STKPWHRAO/PH*":"{#control_l(alt_l(shift_l(super_l(menu))))}",
-"STKPWHRAO/TPHO":"{#control_l(alt_l(shift_l(super_l)))}",
+"STKPWHRAO/TPHO":"{#control_l(alt_l(shift_l(super_l)))}"
+}
