@@ -290,25 +290,6 @@ Another technique for disambiguating between prefixes and words is using alterna
 
 Sometimes it can be arbitrary to determine whether a word should be written as a compound word rather than a word with a prefix. For example, the Lapwing dictionary by default treats words like "upright" and "downwards" as compound words; they can be only be written as `UP/RAO*EUT` and `TKOUPB/WA*RD/-Z`. It is perfectly reasonable to make changes and add extra prefix strokes if desired.
 
-## Problematic words
-
-This table contains words that don't quite follow main theory principles.
-
-| Word | Recommended outline | Explanation |
-| ---- | ---- | ---- |
-| alt | `ALT` | `AULT` is the canonical outline, but "all the" is a more useful phrase and is given priority. |
-| cache | `KAERB` | `KARB` and `KA*RB` are both already used as "cash" and "carb" so the `E` key is used to disambiguate. |
-| fore | `TPOER` | `TPOR` and `TPO*R` are already used so we use the `E` as a disambiguation key. |
-| herein | `HAOER/KWREUPB` or `HAOERPB` | It's not recommended to treat this as a compound word as it would use a fingerspelling stroke: `HAOER/TPH*`.
-| hi | `HEU` | `HAOEU` is the word "high" already. |
-| hour | `HOUR` | `OUR` is already used so the `H` key is added even though it is silent. |
-| lunch | `HRUFRPBLG` | `HRUFRPB` is already used so `-LG` is used as a disambiguation chord. This is recommended over `HR*UFRPB` as it is slightly easier to press.|
-| nought | `TPHA*UT` | `TPHAUT`, `TPHOT`, and `TPHO*T` are already used. |
-| poll/pole | `POL`/`POEL` | No real reason. Feel free to change things around and/or use the asterisk key for disambiguation. |
-| scene | `SKAOEPB` | `SAOEPB` is already the word "seen" so "scene" is written with the `K` to disambiguate. |
-| wolf | `WOEFL` or `WOFL` | While you could write this as `WOEL/*F` or `WOL/*F`, it's just much faster to learn one of these briefs. |
-| werewolf | lots of outlines | You can use `WAEUR` or `WER` for the first stroke. However, if you use `WER`, you will have to to asterisk the second word since there is a potential conflict between the phrase "were wolves" and the word "werewolves". |
-
 ## Strokes starting with `EU`
 
 For words like "illuminate" and "immense", there are multiple way valid outlines.
@@ -339,3 +320,32 @@ For some other words like "immense" and "immune", using a prefix would not make 
 ### Why
 
 Since `EU` on its own is the word "I", I originally had concerns that outlines like `EU/HREUFT` and `EU/SHAOU` would cause some issues. Therefore, I opted to make all of these words not adhere to syllabic splitting, and instead force them to be written with prefixes. However, upon closer examination, there are not very many conflicts. Therefore, I've added the syllabic splitting outlines, and am keeping the others as fallbacks. Eventually, the incorrect prefixes may be removed.
+
+## Words ending in "h"
+
+The asterisk `*` key is used for words ending in "h".
+
+* hah `HA*`
+* heh `H*E`
+* meh `PH*E`
+
+## Problematic words
+
+This table contains words that don't quite follow main theory principles.
+
+| Word | Recommended outline | Explanation |
+| ---- | ---- | ---- |
+| ah | `A*E` | `A*` is already used for fingerspelling, so `AE` is used to disambiguate. |
+| alt | `ALT` | `AULT` is the canonical outline, but "all the" is a more useful phrase and is given priority. |
+| cache | `KAERB` | `KARB` and `KA*RB` are both already used as "cash" and "carb" so the `E` key is used to disambiguate. |
+| doth | `TKA*UT` | `TKO*T` is assigned to the more common phrase "do the". |
+| fore | `TPOER` | `TPOR` and `TPO*R` are already used so we use the `E` as a disambiguation key. |
+| herein | `HAOER/KWREUPB` or `HAOERPB` | It's not recommended to treat this as a compound word as it would use a fingerspelling stroke: `HAOER/TPH*`.
+| hi | `HEU` | `HAOEU` is the word "high" already. |
+| hour | `HOUR` | `OUR` is already used so the `H` key is added even though it is silent. |
+| lunch | `HRUFRPBLG` | `HRUFRPB` is already used so `-LG` is used as a disambiguation chord. This is recommended over `HR*UFRPB` as it is slightly easier to press.|
+| nought | `TPHA*UT` | `TPHAUT`, `TPHOT`, and `TPHO*T` are already used. |
+| poll/pole | `POL`/`POEL` | No real reason. Feel free to change things around and/or use the asterisk key for disambiguation. |
+| scene | `SKAOEPB` | `SAOEPB` is already the word "seen" so "scene" is written with the `K` to disambiguate. |
+| wolf | `WOEFL` or `WOFL` | While you could write this as `WOEL/*F` or `WOL/*F`, it's just much faster to learn one of these briefs. |
+| werewolf | lots of outlines | You can use `WAEUR` or `WER` for the first stroke. However, if you use `WER`, you will have to to asterisk the second word since there is a potential conflict between the phrase "were wolves" and the word "werewolves". |
