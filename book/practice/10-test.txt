@@ -597,4 +597,4 @@ vicious	SREURBS
 nauseous	TPHAURBS
 cautious	KAURBS
 precious	PRERBS
-luscious	HRAOURBS
+luscious	HRURBS
