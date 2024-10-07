@@ -35,7 +35,7 @@ trust	TRUFT
 taste	TAEUFT
 toast	TOEFT
 test	TEFT
-yeast	KWRAO*EFT
+yeast	KWHAOEFT
 quest	KWEFT
 cleft	KHREFT
 chest	KHEFT
