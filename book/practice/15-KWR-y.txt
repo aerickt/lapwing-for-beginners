@@ -7,7 +7,6 @@ satirical	SA/TEUR/KWREU/KAL
 cyclopean	SAOEU/KHROP/KWRAPB
 sapien	SAEUP/KWREPB
 sassier	SAS/KWRER
-seditious	SE/TKEURB/KWRUS
 scenario	SE/TPHAEUR/KWROE
 synovia	SEU/TPHOEF/KWRA
 siesta	SEU/KWRES/TA
