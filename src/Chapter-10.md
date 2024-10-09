@@ -92,7 +92,7 @@
 * patch `PAFP`
 * mash `PHARB`
 * sash `SARB`
-* luscious `HRAOURBS`
+* luscious `HRURBS`
 * spacious `SPAEURBS`
 * larch `HRAFRPB`
 * parch `PAFRPB`
