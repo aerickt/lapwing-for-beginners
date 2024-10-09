@@ -16,7 +16,7 @@ One special type of suffix stroke is the suffix key; these are suffix strokes th
 | `-D` | ^ed | `TKPWHRAOU/-D` | glued |
 | `-Z` | ^s | `SAOEUD/-Z` | sides |
 
-> **NOTE:** while `-S` and `-Z` have the same definition, you are expected to use `-Z` exclusively.
+> **NOTE:** while `-S` and `-Z` have the same definition, you are expected to use `-Z` exclusively as a suffix key.
 
 ![](img/14-gsdz.png)
 
