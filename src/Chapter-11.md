@@ -17,7 +17,7 @@ All the chords covered so far represent single sounds. However, there are some c
 * `-GS` is "-shun" as in "o<ins>cean</ins>"
 * `-BGS` represents two sounds:
   - "-x" as in "ta<ins>x</ins>"
-  - "-kshun" as in in "fri<ins>ction</ins>"
+  - "-kshun" as in "fri<ins>ction</ins>"
 
 ![](img/11-shun-kshun.png)
 
