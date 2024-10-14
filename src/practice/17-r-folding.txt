@@ -7,7 +7,7 @@ elevator	E/HRE/SRAEURT
 mediator	PHAOED/KWRAEURT
 fabricator	TPAB/REU/KAEURT
 percolator	PER/KO/HRAEURT
-spectators	SPEBG/TAEURT
+spectators	SPEBG/TAEURTS
 skater	SKAEURT
 hater	HAEURT
 crater	KRAEURT

@@ -19,7 +19,6 @@ Keep in mind, however, that several of the outlines listed on this page may not 
 * [T-folding drill](practice/17-t-folding.txt)
 * [E-folding drill](practice/17-e-folding.txt)
 * [Folding drill (combined)](practice/17-folding.txt)
-* [Left hand clusters drill](practice/17-left-clusters.txt)
 * [Dropping unstressed vowels with folding drill](practice/17-unstressed-folding.txt)
 * \[Inversions](17-inversions.txt)
 * [Left hand clusters drill](practice/17-left-clusters.txt)
