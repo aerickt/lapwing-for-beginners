@@ -16,7 +16,7 @@ comprise	KPRAOEUS
 compartment	KPARPLT
 compass	KPAS
 compete	KPAOET
-extra	KPRA/PO/HRAEUGT
+extrapolate	KPRA/PO/HRAEUGT
 community	KPHAOUPB/TEU
 commodity	KPHOD/TEU
 compare	KPAEUR
