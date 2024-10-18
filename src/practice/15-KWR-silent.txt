@@ -28,7 +28,6 @@ blurry	PWHRUR/KWREU
 burglary	PWURG/HRAR/KWREU
 plural	PHRUR/KWRAL
 maceration	PHA/SER/KWRAEUGS
-malicious	PHA/HREURB/KWRUS
 mandatory	PHAPB/TKA/TOR/KWREU
 moderate	PHO/TKER/KWRAT
 misery	PHEU/SER/KWREU
