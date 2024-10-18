@@ -262,7 +262,7 @@ Linguistically, this sound is called a *glide* and is represented with `KWR` in 
 <source src="img/15-pronunciations-4.mp4" type="video/mp4">
 </video>
 
-> If if explanation of a glide doesn't make sense to you, you can also just treat `KWR` as a silent linker just like in previous sections.
+> If explanation of a glide doesn't make sense to you, you can also just treat `KWR` as a silent linker just like in previous sections.
 
 **Essentially, if there are two distinct vowel sounds next to each other which cannot be represented by a single vowel chord, use `KWR` to link them in separate strokes.**
 
