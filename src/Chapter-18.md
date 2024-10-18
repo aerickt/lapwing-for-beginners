@@ -32,15 +32,15 @@ To write uppercase letters, use `-P` on the right hand.
 
 | | | |
 | ---- | ---- | ---- |
-| A <br> ![](img/18-A.png) | B <br> ![](img/18-B.png) | C <br> ![](img/18-C.png) |
-| D <br> ![](img/18-D.png) | E <br> ![](img/18-E.png) | F <br> ![](img/18-F.png) |
-| G <br> ![](img/18-G.png) | H <br> ![](img/18-H.png) | I <br> ![](img/18-I.png) |
-| J <br> ![](img/18-J.png) | K <br> ![](img/18-K.png) | L <br> ![](img/18-L.png) |
-| M <br> ![](img/18-M.png) | N <br> ![](img/18-N.png) | O <br> ![](img/18-O.png) |
-| P <br> ![](img/18-P.png) | Q <br> ![](img/18-Q.png) | R <br> ![](img/18-R.png) |
-| S <br> ![](img/18-S.png) | T <br> ![](img/18-T.png) | U <br> ![](img/18-U.png) |
-| V <br> ![](img/18-V.png) | W <br> ![](img/18-W.png) | X <br> ![](img/18-X.png) |
-| Y <br> ![](img/18-Y.png) | Z <br> ![](img/18-Z.png) |  |
+| A <br> ![](img/18-capital-a.png) | B <br> ![](img/18-capital-b.png) | C <br> ![](img/18-capital-c.png) |
+| D <br> ![](img/18-capital-d.png) | E <br> ![](img/18-capital-e.png) | F <br> ![](img/18-capital-f.png) |
+| G <br> ![](img/18-capital-g.png) | H <br> ![](img/18-capital-h.png) | I <br> ![](img/18-capital-i.png) |
+| J <br> ![](img/18-capital-j.png) | K <br> ![](img/18-capital-k.png) | L <br> ![](img/18-capital-l.png) |
+| M <br> ![](img/18-capital-m.png) | N <br> ![](img/18-capital-n.png) | O <br> ![](img/18-capital-o.png) |
+| P <br> ![](img/18-capital-p.png) | Q <br> ![](img/18-capital-q.png) | R <br> ![](img/18-capital-r.png) |
+| S <br> ![](img/18-capital-s.png) | T <br> ![](img/18-capital-t.png) | U <br> ![](img/18-capital-u.png) |
+| V <br> ![](img/18-capital-v.png) | W <br> ![](img/18-capital-w.png) | X <br> ![](img/18-capital-x.png) |
+| Y <br> ![](img/18-capital-y.png) | Z <br> ![](img/18-capital-z.png) |  |
 
 ### Attachment behaviour
 Fingerspelling uses glue (<code class="code-mono">&</code>) formatting. These translations stick to other translations that also have glue. For example, writing `HE/HROE/A*/PW*/KR*` will result in <code class="code-mono">hello abc</code>. Since the translation for `HE/HROE` contains no glue, the subsequent fingerspelling chord inserts a space after <code class="code-mono">hello</code>. However, as the subsequent fingerspelling chords all contain glue, they stick together.
