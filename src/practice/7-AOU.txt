@@ -3,7 +3,6 @@ juice	SKWRAOUS
 spruce	SPRAOUS
 sluice	SHRAOUS
 shrewd	SHRAOUD
-sure	SHAOUR
 chute	SHAOUT
 sewer	SAOUR
 soup	SAOUP
