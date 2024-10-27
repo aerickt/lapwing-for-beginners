@@ -6,6 +6,7 @@
 * [Single syllable `AOEU` words drill](practice/8-AOEU.txt)
 * [Single syllable `AU` words drill](practice/8-AU.txt)
 * [Single syllable `AE` words drill](practice/8-AE.txt)
+* [Single syllable `AE`, `AEU`, and `AOE`  words drill](practice/8-AE-AEU-AOE.txt)
 * [Single syllable `AO` words drill](practice/8-AO.txt)
 * [Chapter 8 test](practice/8-test.txt)
 
@@ -231,6 +232,8 @@ By default the Lapwing dictionary assigns `PAER` to "pear" and `PA*EUR` to "pare
 ### Section practice
 
 [Single syllable `AE` words drill](practice/8-AE.txt)
+
+[Single syllable `AE`, `AEU`, and `AOE` words drill](practice/8-AE-AEU-AOE.txt)
 
 ## `AO`
 

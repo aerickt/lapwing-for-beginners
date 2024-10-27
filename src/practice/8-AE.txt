@@ -7,7 +7,6 @@ sale	SAEL
 great	TKPWRAET
 gate	TKPWAET
 dear	TKAER
-dale	TKAEL
 flare	TPHRAER
 fare	TPAER
 feat	TPAET
@@ -24,7 +23,6 @@ made	PHAED
 maze	PHAEZ
 pear	PAER
 pale	PAEL
-peat	PAET
 peace	PAES
 wear	WAER
 lead	HRAED
