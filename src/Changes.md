@@ -1,6 +1,12 @@
+# 2024-11-07
+
+[New commit](#)
+
+* Switched most graphics to [@IllustratedMan-code](https://github.com/IllustratedMan-code)'s SVG generator
+
 # 2024-09-29
 
-[New commit]()
+[New commit](https://github.com/aerickt/lapwing-for-beginners/commit/1c55d41e335cf5197578284dbb1acfe50a9f637d)
 
 * Add section in chapter 22 on words ending in "h"
 * Add "ah" and "doth" to problematic words

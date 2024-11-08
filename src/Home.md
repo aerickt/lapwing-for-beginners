@@ -45,10 +45,14 @@ The theory reference guide is currently work-in-progress, and very incomplete.
 
 #### Switching steno outline graphics to SVG
 
-I would like to switch all the outline graphics to SVG so that the colours can be tweaked depending on the theme. This is a relatively low priority change, however, it can help with accessibility as the current colour theme does not have a lot of contrast.
+<s>I would like to switch all the outline graphics to SVG so that the colours can be tweaked depending on the theme. This is a relatively low priority change, however, it can help with accessibility as the current colour theme does not have a lot of contrast.
 
 The original graphics are screenshots created with the `plover-svg-layout-display` plugin. Creating these graphics manually was a bit time consuming, but having to create SVG files for each stroke will be even more tedious. This can be helped by:
 
 * Getting more people onboard to help with creating the graphics.
 or
-* Writing a program to generate SVG graphics on demand.
+* Writing a program to generate SVG graphics on demand.</s>
+
+This has mostly been implemented by [@IllustratedMan-code](https://github.com/IllustratedMan-code). Thanks!
+
+There are still a few graphics and animations using the old PNGs generated via the `plover-svg-layout-display` plugin. I'm not sure what would be the best course of action to migrate these, so I'm just leaving them for now. If you have an idea, do reach out!
