@@ -25,7 +25,7 @@ This results in 10 successive key strokes. On the other hand, steno uses *chords
 com/pli/cate
 ```
 
-![writing "complicate" with steno](img/1-complicate-steno.gif)
+<steno-outline stroke="KOPL/PHREU/KAEUT" width="100%" alt="writing 'complicate' with steno"></steno-outline>
 
 We could notate writing this word using steno like so:
 

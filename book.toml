@@ -7,6 +7,6 @@ title = "Lapwing for Beginners"
 
 [output.html]
 additional-css = ["theme/pagetoc.css"]
-additional-js = ["theme/pagetoc.js"]
+additional-js = ["theme/pagetoc.js", "theme/steno-viz.js"]
 
 [preprocessor.external-links]
