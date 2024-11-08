@@ -15,11 +15,14 @@ All the chords covered so far represent single sounds. However, there are some c
 ## Right hand -shun, -kshun, and -x
 
 * `-GS` is "-shun" as in "o<ins>cean</ins>"
+
+<steno-outline stroke="-GS" width="100%" alt="-GS on the steno layout"></steno-outline>
+
 * `-BGS` represents two sounds:
   - "-x" as in "ta<ins>x</ins>"
   - "-kshun" as in "fri<ins>ction</ins>"
 
-![](img/11-shun-kshun.png)
+<steno-outline stroke="-BGS" width="100%" alt="-BGS on the steno layout"></steno-outline>
 
 ### Examples
 * motion `PHOEGS`
@@ -50,9 +53,12 @@ Some words like "a<ins>x</ins>e" and "a<ins>ction</ins>" conflict with the same 
 ## Right hand -ment and -let
 
 * `-PLT` is "-ment" as in "mo<ins>ment</ins>"
+
+<steno-outline stroke="-PLT" width="100%" alt="-PLT on the steno layout"></steno-outline>
+
 * `-LT` is "-let" as in "scar<ins>let</ins>"
 
-![ment, let](img/11-ment-let.png)
+<steno-outline stroke="-LT" width="100%" alt="-LT on the steno layout"></steno-outline>
 
 ### Examples
 * garment `TKPWARPLT`
@@ -79,12 +85,15 @@ Unfortunately, there is not a lot of practice material for single stroke words c
    - When this sound is preceded by a vowel, the `-BL` chord can be extended to represent the whole sound as in:
       - "pli<ins>able</ins>"
       - "poss<ins>ible</ins>"
+
+<steno-outline stroke="-BL" width="100%" alt="-BL on the steno layout"></steno-outline>
+
 * `-BLT` represents the "-bility" sound as in "sta<ins>bility</ins>"
    - When this sound is preceded by a vowel, the `-BLT` chord can be extended to represent the whole sound as in:
       - "cap<ins>ability</ins>"
       - "feas<ins>ibility</ins>"
 
-![bl and blt](img/11-bl-blt.png)
+<steno-outline stroke="-BLT" width="100%" alt="-BLT on the steno layout"></steno-outline>
 
 ### Examples
 
@@ -108,9 +117,12 @@ Unfortunately, there is not a lot of practice material for single stroke words c
 ## Right hand -shus and -shal
 
 * `-RBS` is the "shus" sound as in "cau<ins>tious</ins>"
+
+<steno-outline stroke="-RBS" width="100%" alt="-RBS on the steno layout"></steno-outline>
+
 * `-RBL` is the "shal" sound as in "so<ins>cial</ins>"
 
-![shus shal](img/11-shus-shal.png)
+<steno-outline stroke="-RBL" width="100%" alt="-RBL on the steno layout"></steno-outline>
 
 ### Examples
 

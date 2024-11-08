@@ -48,14 +48,14 @@ The following table lists several common punctuation marks along with the name, 
 
 | | | |
 | ---- | ---- | ---- |
-| . <br> ![](img/20-period.png) | ? <br> ![](img/20-question.png) | ! <br> ![](img/20-exclamation.png) |
-| . <br> ![](img/20-decimal.png) | , <br> ![](img/20-comma.png) | " <br> ![](img/20-opening-quotation.png) |
-| " <br> ![](img/20-closing-quotation.png) | ` <br> ![](img/20-opening-backtick.png) | \` <br> ![](img/20-closing-backtick.png) |
-| ‽ <br> ![](img/20-interrobang.png) | ( <br> ![](img/20-opening-parenthesis.png) | ) <br> ![](img/20-closing-parenthesis.png) |
-| { <br> ![](img/20-opening-brace.png) | } <br> ![](img/20-closing-brace.png) | / <br> ![](img/20-slash.png) |
-| \[ <br> ![](img/20-opening-bracket.png) | ] <br> ![](img/20-closing-bracket.png) | : <br> ![](img/20-colon.png) |
-| ; <br> ![](img/20-semicolon.png) | : <br> ![](img/20-colon-time.png) | — <br> ![](img/20-emdash.png) |
-| – <br> ![](img/20-endash.png) | - <br> ![](img/20-hyphen.png) |  |
+| . <br> <steno-outline stroke="TP-PL" width="100%" alt="TP-PL on the steno layout"></steno-outline> | ? <br> <steno-outline stroke="KW-PL" width="100%" alt="KW-PL on the steno layout"></steno-outline> | ! <br> <steno-outline stroke="TP-BG" width="100%" alt="TP-BG on the steno layout"></steno-outline> |
+| . <br> <steno-outline stroke="P-P" width="100%" alt="P-P on the steno layout"></steno-outline> | , <br> <steno-outline stroke="KW-BG" width="100%" alt="KW-BG on the steno layout"></steno-outline> | " <br> <steno-outline stroke="KW-GS" width="100%" alt="KW-GS on the steno layout"></steno-outline> |
+| " <br> <steno-outline stroke="KW*GS" width="100%" alt="KW*GS on the steno layout"></steno-outline> | ` <br> <steno-outline stroke="KH-FG" width="100%" alt="KH-FG on the steno layout"></steno-outline> | \` <br> <steno-outline stroke="KH*FG" width="100%" alt="KH*FG on the steno layout"></steno-outline> |
+| ‽ <br> <steno-outline stroke="TRAPBG" width="100%" alt="TRAPBG on the steno layout"></steno-outline> | ( <br> <steno-outline stroke="PREPB" width="100%" alt="PREPB on the steno layout"></steno-outline> | ) <br> <steno-outline stroke="PR*EPB" width="100%" alt="PR*EPB on the steno layout"></steno-outline> |
+| { <br> <steno-outline stroke="TPR-BGT" width="100%" alt="TPR-BGT on the steno layout"></steno-outline> | } <br> <steno-outline stroke="TPR*BGT" width="100%" alt="TPR*BGT on the steno layout"></steno-outline> | / <br> <steno-outline stroke="OEU" width="100%" alt="OEU on the steno layout"></steno-outline> |
+| \[ <br> <steno-outline stroke="PWR-BGT" width="100%" alt="PWR-BGT on the steno layout"></steno-outline> | ] <br> <steno-outline stroke="PWR*BGT" width="100%" alt="PWR*BGT on the steno layout"></steno-outline> | : <br> <steno-outline stroke="STPH-FPLT" width="100%" alt="STPH-FPLT on the steno layout"></steno-outline> |
+| ; <br> <steno-outline stroke="STPH*FPLT" width="100%" alt="STPH*FPLT on the steno layout"></steno-outline> | : <br> <steno-outline stroke="KHR-PB" width="100%" alt="KHR-PB on the steno layout"></steno-outline> | — <br> <steno-outline stroke="TPH-RB" width="100%" alt="TPH-RB on the steno layout"></steno-outline> |
+| – <br> <steno-outline stroke="PH-RB" width="100%" alt="PH-RB on the steno layout"></steno-outline> | - <br> <steno-outline stroke="H-PB" width="100%" alt="H-PB on the steno layout"></steno-outline> |  |
 
 ## Commands
 

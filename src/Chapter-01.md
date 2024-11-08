@@ -6,7 +6,7 @@ So you want to learn stenography! It's a very long road ahead, but I do hope thi
 
 ## How does steno work?
 
-![steno layout](img/1-layout.png)
+<steno-outline stroke="#STKPWHRAO*EUFRPBLGTSDZ" width="100%" alt="steno layout"></steno-outline>
 
 Stenography (steno for short) is a method of text input that utilizes a chorded keyboard layout to write parts of words, entire words, or even phrases. Before delving into the details of how steno works, first think about regular keyboards—for example, how one would type the word "complicate":
 
@@ -37,7 +37,7 @@ KOPL/PHREU/KAEUT
 
 At first glance, it appears that `KOPL/PHREU/KAEUT` has no bearing resemblance to the word it represents. The reason for this is that there are only so many keys on the steno layout. Arbitrary letter combinations have to be used in order to represent the sounds that are not represented by single keys.
 
-![steno layout](img/1-layout.png)
+<steno-outline stroke="#STKPWHRAO*EUFRPBLGTSDZ" width="100%" alt="steno layout"></steno-outline>
 
 In our example, `PL` in `KOPL` represents the ending "m" consonant; `HR` in `PHREU` represents the initial "l" consonant; `EU` in `PHREU` represents the "i" vowel, as in "p<ins>i</ins>t"; finally `AEU` in `KAEUT` represents the /eɪ/ diphthong (also called *long a* vowel) as in "f<ins>a</ins>te".
 

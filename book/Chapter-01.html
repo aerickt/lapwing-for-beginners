@@ -181,7 +181,7 @@
 </blockquote>
 <p>So you want to learn stenography! It’s a very long road ahead, but I do hope this series will help guide you along the way. Thanks to Plover and the efforts from the Open Steno Project, stenography is no longer restricted to professionals and students. The hobbyist steno community is flourishing, and self-taught professional stenographers are becoming more and more common.</p>
 <h2 id="how-does-steno-work"><a class="header" href="#how-does-steno-work">How does steno work?</a></h2>
-<p><img src="img/1-layout.png" alt="steno layout" /></p>
+<p><steno-outline stroke="#STKPWHRAO*EUFRPBLGTSDZ" width="100%" alt="steno layout"></steno-outline></p>
 <p>Stenography (steno for short) is a method of text input that utilizes a chorded keyboard layout to write parts of words, entire words, or even phrases. Before delving into the details of how steno works, first think about regular keyboards—for example, how one would type the word “complicate”:</p>
 <p><img src="img/1-complicate-keyboard.gif" alt="typing “complicate” on a keyboard" /></p>
 <p>Every letter is simply pressed individually:</p>
@@ -193,13 +193,13 @@
 <p>This results in 10 successive key strokes. On the other hand, steno uses <em>chords</em>, or groups of keys that are pressed down all at once. This action of pressing down multiple keys simultaneously is called a stroke. By using chords the word “complicate” can be written using only three strokes:</p>
 <pre><code>com/pli/cate
 </code></pre>
-<p><img src="img/1-complicate-steno.gif" alt="writing “complicate” with steno" /></p>
+<p><steno-outline stroke="KOPL/PHREU/KAEUT" width="100%" alt="writing 'complicate' with steno"></steno-outline></p>
 <p>We could notate writing this word using steno like so:</p>
 <pre><code>KOPL/PHREU/KAEUT
 </code></pre>
 <h3 id="why-koplphreukaeut"><a class="header" href="#why-koplphreukaeut">Why <code>KOPL/PHREU/KAEUT</code>?</a></h3>
 <p>At first glance, it appears that <code>KOPL/PHREU/KAEUT</code> has no bearing resemblance to the word it represents. The reason for this is that there are only so many keys on the steno layout. Arbitrary letter combinations have to be used in order to represent the sounds that are not represented by single keys.</p>
-<p><img src="img/1-layout.png" alt="steno layout" /></p>
+<p><steno-outline stroke="#STKPWHRAO*EUFRPBLGTSDZ" width="100%" alt="steno layout"></steno-outline></p>
 <p>In our example, <code>PL</code> in <code>KOPL</code> represents the ending “m” consonant; <code>HR</code> in <code>PHREU</code> represents the initial “l” consonant; <code>EU</code> in <code>PHREU</code> represents the “i” vowel, as in “p<ins>i</ins>t”; finally <code>AEU</code> in <code>KAEUT</code> represents the /eɪ/ diphthong (also called <em>long a</em> vowel) as in “f<ins>a</ins>te”.</p>
 <p>The following table illustrates the sounds that each key group represents in our example.</p>
 <div class="table-wrapper"><table><thead><tr><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th></tr></thead><tbody>
@@ -310,6 +310,7 @@
 
         <!-- Custom JS scripts -->
         <script src="theme/pagetoc.js"></script>
+        <script src="theme/steno-viz.js"></script>
 
 
     </div>

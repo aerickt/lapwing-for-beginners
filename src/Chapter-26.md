@@ -10,20 +10,20 @@ Here's a table of all basic movement commands:
 
 | Outline | Description |
 | ---- | ---- |
-| `#TPH-R` | Left arrow key <br> <img src="img/26-left.png" width="300px"/> |
-| `#TPH-P` | Up arrow key <br> <img src="img/26-up.png" width="300px"/> |
-| `#TPH-B` | Down arrow key <br> <img src="img/26-down.png" width="300px"/> |
-| `#TPH-G` | Right arrow key <br> <img src="img/26-right.png" width="300px"/> |
-| `#TPH-FR` | Home <br> <img src="img/26-home.png" width="300px"/> |
-| `#TPH-LG` | End <br> <img src="img/26-end.png" width="300px"/> |
-| `#TPH-FPL` | Top (Ctrl+Home) <br> <img src="img/26-top.png" width="300px"/> |
-| `#TPH-RBG` | Bottom (Ctrl+End) <br> <img src="img/26-bottom.png" width="300px"/> |
-| `#TPH-RPG` | Page up <br> <img src="img/26-page-up.png" width="300px"/> |
-| `#TPH-FBL` | Page down <br> <img src="img/26-page-down.png" width="300px"/> |
+| `#TPH-R` | Left arrow key <br> <steno-outline stroke="#TPH-R" width="100%" alt="#TPH-R on the steno layout"></steno-outline> |
+| `#TPH-P` | Up arrow key <br> <steno-outline stroke="#TPH-P" width="100%" alt="#TPH-P on the steno layout"></steno-outline> |
+| `#TPH-B` | Down arrow key <br> <steno-outline stroke="#TPH-B" width="100%" alt="#TPH-B on the steno layout"></steno-outline> |
+| `#TPH-G` | Right arrow key <br> <steno-outline stroke="#TPH-G" width="100%" alt="#TPH-G on the steno layout"></steno-outline> |
+| `#TPH-FR` | Home <br> <steno-outline stroke="#TPH-FR" width="100%" alt="#TPH-FR on the steno layout"></steno-outline> |
+| `#TPH-LG` | End <br> <steno-outline stroke="#TPH-LG" width="100%" alt="#TPH-LG on the steno layout"></steno-outline> |
+| `#TPH-FPL` | Top (Ctrl+Home) <br> <steno-outline stroke="#TPH-FPL" width="100%" alt="#TPH-FPL on the steno layout"></steno-outline> |
+| `#TPH-RBG` | Bottom (Ctrl+End) <br> <steno-outline stroke="#TPH-RBG" width="100%" alt="#TPH-RBG on the steno layout"></steno-outline> |
+| `#TPH-RPG` | Page up <br> <steno-outline stroke="#TPH-RPG" width="100%" alt="#TPH-RPG on the steno layout"></steno-outline> |
+| `#TPH-FBL` | Page down <br> <steno-outline stroke="#TPH-FBL" width="100%" alt="#TPH-FBL on the steno layout"></steno-outline> |
 
 The `-RPBG` cluster can be thought of as arrow keys:
 
-![](img/26-arrow-keys.png)
+<steno-outline stroke="#TPH-R/#TPH-P/#TPH-B/#TPH-G" width="100%" alt="#TPH-R/#TPH-P/#TPH-B/#TPH-G"></steno-outline>
 
 Furthermore, other chords have distinctive shapes reminiscent of their purpose.
 
@@ -40,8 +40,8 @@ On a regular keyboard, the text cursor can be moved word by word by pressing <co
 
 | Outline | Description |
 | ---- | ---- |
-| `#TPH-RB` | Left by one word <br> <img src="img/26-left-word.png" width="300px"/> |
-| `#TPH-BG` | Right by one word <br> <img src="img/26-right-word.png" width="300px"/> |
+| `#TPH-RB` | Left by one word <br> <steno-outline stroke="#TPH-RB" width="100%" alt="#TPH-RB on the steno layout"></steno-outline> |
+| `#TPH-BG` | Right by one word <br> <steno-outline stroke="#TPH-BG" width="100%" alt="#TPH-BG on the steno layout"></steno-outline> |
 
 #### `-TS` repetition
 

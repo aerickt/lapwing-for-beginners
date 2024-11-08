@@ -122,7 +122,7 @@ SAP HUD SOG TOD WET POG ROD KUS PEB ROR WEZ WEL TER TAT WEF KAB WES SAP TAS RET 
 
 This test is a little different to previous drills in that you are writing entire strokes rather than single keys. Consonants on the left side of a vowel should be pressed with the left hand, and consonants on the right side should be pressed with the right hand. So `SAP` would be written like:
 
-![](img/4-SAP.png)
+<steno-outline stroke="SAP" width="100%" alt="SAP on the steno layout"></steno-outline>
 
 **It is important that you press all three keys all at once for every stroke you are prompted to write (do not press each key letter by letter).**
 

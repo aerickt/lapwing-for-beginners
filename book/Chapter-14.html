@@ -193,7 +193,7 @@
 <blockquote>
 <p><strong>NOTE:</strong> while <code>-S</code> and <code>-Z</code> have the same definition, you are expected to use <code>-Z</code> exclusively as a suffix key.</p>
 </blockquote>
-<p><img src="img/14-gsdz.png" alt="" /></p>
+<p><steno-outline stroke="-GSDZ" width="100%" alt="-GSDZ on the steno layout"></steno-outline></p>
 <h4 id="examples-of-correct-usage"><a class="header" href="#examples-of-correct-usage">Examples of correct usage</a></h4>
 <ul>
 <li>fasting <code>TPAFT/-G</code></li>
@@ -215,11 +215,11 @@
 <li>typed <code>TAOEUPD</code></li>
 </ul>
 <p>To pluralize words ending in <code>-T</code>, normally the <code>-Z</code> key is used. For example, “crates” is <code>KRAEUT/-Z</code>. However, folding will result in the following stroke:</p>
-<p><img src="img/14-kraeutz.png" alt="" /></p>
+<p><steno-outline stroke="KRAEUTZ" width="100%" alt="KRAEUTZ on the steno layout"></steno-outline></p>
 <p>Some theories will dictate pressing the <code>-T</code> with the ring finger and the <code>-Z</code> with the pinkie finger. However, this is not a technique used in Lapwing. Instead, the proper way to pluralize the word in one stroke uses the <code>-S</code> key: <code>KRAEUTS</code>.</p>
 <h4 id="plovers-steno-engine-and-folded-suffix-keys"><a class="header" href="#plovers-steno-engine-and-folded-suffix-keys">Plover’s steno engine and folded suffix keys</a></h4>
 <p>This technique of including a suffix key in the last stroke is “baked” into the English steno engine in Plover. To illustrate this, writing the stroke <code>HAEPZ</code>, will output “happies”. However, this isn’t actually defined in the Lapwing dictionary:</p>
-<p><img src="img/14-haepz.png" alt="" /></p>
+<p><steno-outline stroke="HAEPZ" width="100%" alt="HAEPZ on the steno layout"></steno-outline></p>
 <p>Plover recognizes that the outline <code>HAEP</code> is defined as “happy” (this is a Lapwing/Plover brief) and so tries to fold the <code>-Z</code> suffix key into the translation. Because of the orthography rules built into the English steno engine, Plover removes the ending “y” and adds “ies” to the translation.</p>
 <p>This happens with all of the suffix keys—try out <code>HAEPD</code>, <code>HAEPS</code>, and <code>HAEPG</code>.</p>
 <h4 id="should-you-use-folding"><a class="header" href="#should-you-use-folding">Should you use folding?</a></h4>
@@ -311,6 +311,7 @@
 
         <!-- Custom JS scripts -->
         <script src="theme/pagetoc.js"></script>
+        <script src="theme/steno-viz.js"></script>
 
 
     </div>

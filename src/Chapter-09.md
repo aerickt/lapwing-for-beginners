@@ -40,9 +40,13 @@ With `-F` as both "f" and "v", conflicts such as "safe" and "save" can arise; bo
 ## Right hand m and k
 
 * `-PL` is "-m" as in "cal<ins>m</ins>"
+
+<steno-outline stroke="-PL" width="100%" alt="-PL on the steno layout"></steno-outline>
+
 * `-BG` is "k" as in "ba<ins>ck</ins>"
 
-![m and k](img/9-m-k.png)
+<steno-outline stroke="-BG" width="100%" alt="-BG on the steno layout"></steno-outline>
+
 
 ### Examples
 
@@ -65,10 +69,16 @@ With `-F` as both "f" and "v", conflicts such as "safe" and "save" can arise; bo
 ## Right hand mp, th, and lk
 
 * `*PL` is "-mp" as in "bu<ins>mp</ins>"
+
+<steno-outline stroke="*PL" width="100%" alt="*PL on the steno layout"></steno-outline>
+
 * `*T` is "-th" as in "pa<ins>th</ins>"
+
+<steno-outline stroke="*T" width="100%" alt="*T on the steno layout"></steno-outline>
+
 * `*LG` is "-lk" as in "ca<ins>lc</ins>"
 
-![mp th and lk](img/9-mp-th-lk.png)
+<steno-outline stroke="*LG" width="100%" alt="*LG on the steno layout"></steno-outline>
 
 ### Examples
 

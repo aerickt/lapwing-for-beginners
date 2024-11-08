@@ -11,12 +11,18 @@
 ## Right hand n, j, and lj
 
 * `-PB` is "-n" as in "law<ins>n</ins>"
+
+<steno-outline stroke="-PB" width="100%" alt="-PB on the steno layout"></steno-outline>
+
 * `-PBLG` is "-j" as in "gru<ins>dg</ins>e"
+
+<steno-outline stroke="-PBLG" width="100%" alt="-PBLG on the steno layout"></steno-outline>
+
 * `-LG` represents two two sounds:
   * "-lj" as in "bu<ins>lg</ins>e"
   * "-lch" as in "mu<ins>lch</ins>"
 
-![n, j, lj](img/10-n-j-lj.png)
+<steno-outline stroke="-LG" width="100%" alt="-LG on the steno layout"></steno-outline>
 
 ### Examples
 * fin `TPEUPB`
@@ -42,16 +48,24 @@
 ## Right hand rv, rf, ng, and nk
 
 * `-FRB` is "-rv" as in "swe<ins>rv</ins>e"
+
+<steno-outline stroke="-FRB" width="100%" alt="-FRB on the steno layout"></steno-outline>
+
 * `*FRB` is "-rf" as in "tu<ins>rf</ins>"
+
+<steno-outline stroke="*FRB" width="100%" alt="*FRB on the steno layout"></steno-outline>
 
 > The reason `-FRB` is "-rv" and not "-rf" is that the former is a bit more common.
 
 * `-PBG` represents two sounds:
   * "-ng" as in "ta<ins>ng</ins>"
   * "-nj" as in "stra<ins>ng</ins>e"
+
+<steno-outline stroke="-PBG" width="100%" alt="-PBG on the steno layout"></steno-outline>
+
 * `*PBG` is "-nk" as in "pla<ins>nk</ins>"
 
-![rv, rf, ng, nk](img/10-rv-rf-ng-nk.png)
+<steno-outline stroke="*PBG" width="100%" alt="*PBG on the steno layout"></steno-outline>
 
 ### Examples
 * curve `KUFRB`
@@ -79,13 +93,19 @@
 ## Right hand ch, sh, and rch
 
 * `-FP` is "-ch" as in "cou<ins>ch</ins>"
+
+<steno-outline stroke="-FP" width="100%" alt="-FP on the steno layout"></steno-outline>
+
 * `-RB` is "-sh" as in "tra<ins>sh</ins>"
   - `-RBS` is the "shus" sound as in "cau<ins>tious</ins>"
+
+<steno-outline stroke="-RB" width="100%" alt="-RB on the steno layout"></steno-outline>
+
 * `-FRPB` represents two sounds:
   - "-rch" as in "a<ins>rch</ins>"
   - "-nch" as in "hu<ins>nch</ins>"
 
-![ch, sh, rch](img/10-ch-sh-rch.png)
+<steno-outline stroke="-FRPB" width="100%" alt="-FRPB on the steno layout"></steno-outline>
 
 ### Examples
 * hitch `HEUFP`

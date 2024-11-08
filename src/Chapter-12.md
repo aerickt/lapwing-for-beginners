@@ -119,7 +119,7 @@ So far we have only been looking at single stroke words. We will soon look at wo
 
 For example, to write the outline `TPEUL/-PL`, you would press `TPEUL`, release all the keys, and then press `-PL`.
 
-![](img/12-TPEUL_PL.gif)
+<steno-outline stroke="TPEUL/-PL" width="100%" alt="TPEUL/-PL"></steno-outline>
 
 ## When sounds can't follow steno order
 

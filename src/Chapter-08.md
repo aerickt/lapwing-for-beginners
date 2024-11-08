@@ -24,7 +24,7 @@ Since steno is a primarily phonetic system, homophones can be tricky to deal wit
 
 ## `AOE`
 
-![aoe](img/8-aoe.png)
+<steno-outline stroke="AOE" width="100%" alt="AOE on the steno layout"></steno-outline>
 
 * `AOE` is the *long e* sound as in "b<ins>ee</ins>t"
   - /i/
@@ -59,7 +59,7 @@ Since steno is a primarily phonetic system, homophones can be tricky to deal wit
 
 ## `AOEU`
 
-![aoeu](img/8-aoeu.png)
+<steno-outline stroke="AOEU" width="100%" alt="AOEU on the steno layout"></steno-outline>
 
 * `AOEU` is the *long i* sound as in "<ins>i</ins>ce"
   - /aɪ/
@@ -94,7 +94,7 @@ Since steno is a primarily phonetic system, homophones can be tricky to deal wit
 
 ## `AU`
 
-![au](img/8-au.png)
+<steno-outline stroke="AU" width="100%" alt="AU on the steno layout"></steno-outline>
 
 In chapter 5, the short vowel rules suggest that words like "bought" and "caught" would use the `O` key.
 
@@ -139,7 +139,7 @@ Words spelled with "awl" are also given `A*UL` when there is a conflict:
 
 ## `AE` for `AEU`
 
-![ae](img/8-ae.png)
+<steno-outline stroke="AE" width="100%" alt="AE on the steno layout"></steno-outline>
 
 Take a look at the following words:
 
@@ -237,7 +237,7 @@ By default the Lapwing dictionary assigns `PAER` to "pear" and `PA*EUR` to "pare
 
 ## `AO`
 
-![](img/8-ao.png)
+<steno-outline stroke="AO" width="100%" alt="AO on the steno layout"></steno-outline>
 
 This chord has two uses:
 

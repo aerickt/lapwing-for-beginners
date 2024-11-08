@@ -18,7 +18,7 @@ One special type of suffix stroke is the suffix key; these are suffix strokes th
 
 > **NOTE:** while `-S` and `-Z` have the same definition, you are expected to use `-Z` exclusively as a suffix key.
 
-![](img/14-gsdz.png)
+<steno-outline stroke="-GSDZ" width="100%" alt="-GSDZ on the steno layout"></steno-outline>
 
 #### Examples of correct usage
 * fasting `TPAFT/-G`
@@ -41,7 +41,7 @@ One special type of suffix stroke is the suffix key; these are suffix strokes th
 
 To pluralize words ending in `-T`, normally the `-Z` key is used. For example, "crates" is `KRAEUT/-Z`. However, folding will result in the following stroke:
 
-![](img/14-kraeutz.png)
+<steno-outline stroke="KRAEUTZ" width="100%" alt="KRAEUTZ on the steno layout"></steno-outline>
 
 Some theories will dictate pressing the `-T` with the ring finger and the `-Z` with the pinkie finger. However, this is not a technique used in Lapwing. Instead, the proper way to pluralize the word in one stroke uses the `-S` key: `KRAEUTS`.
 
@@ -49,7 +49,7 @@ Some theories will dictate pressing the `-T` with the ring finger and the `-Z` w
 
 This technique of including a suffix key in the last stroke is "baked" into the English steno engine in Plover. To illustrate this, writing the stroke `HAEPZ`, will output "happies". However, this isn't actually defined in the Lapwing dictionary:
 
-![](img/14-haepz.png)
+<steno-outline stroke="HAEPZ" width="100%" alt="HAEPZ on the steno layout"></steno-outline>
 
 Plover recognizes that the outline `HAEP` is defined as "happy" (this is a Lapwing/Plover brief) and so tries to fold the `-Z` suffix key into the translation. Because of the orthography rules built into the English steno engine, Plover removes the ending "y" and adds "ies" to the translation.
 

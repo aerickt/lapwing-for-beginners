@@ -10,10 +10,16 @@
 ## Left hand f, q, and m
 
 * `TP` is "f" as in "<ins>f</ins>ad"
+
+<steno-outline stroke="TP" width="100%" alt="TP on the steno layout"></steno-outline>
+
 * `KW` is "q" as in "<ins>q</ins>uit"
+
+<steno-outline stroke="KW" width="100%" alt="KW on the steno layout"></steno-outline>
+
 * `PH` is "m" as in "<ins>m</ins>od"
 
-![f, q, and m on the steno layout](img/6-fqm.png)
+<steno-outline stroke="PH" width="100%" alt="PH on the steno layout"></steno-outline>
 
 ### Examples
 
@@ -48,14 +54,19 @@ Why not use `PH` for "f"? After all, this would be easier to remember since "ph"
 
 * `TKPW` is "g" as in "<ins>g</ins>et"
 
+<steno-outline stroke="TKPW" width="100%" alt="TKPW on the steno layout"></steno-outline>
+
 > **NOTE:** `TKPW` is only used for the "hard g" sound. For example, the word "gel" would not use `TKPW` as the initial consonant is a "soft g" (a "j" sound).
 
 * `TPH` is "n" as in "<ins>n</ins>ot"
+
+<steno-outline stroke="TPH" width="100%" alt="TPH on the steno layout"></steno-outline>
+
 * `KWH` is "y" as in "<ins>y</ins>et"
 
-**`KWH` is only used when the word starts with the letter "y"; if a word has a "y" sound but doesn't start with a "y", simply don't use a left hand consonant chord.**
+<steno-outline stroke="KWH" width="100%" alt="KWH on the steno layout"></steno-outline>
 
-![](img/6-gny.png)
+**`KWH` is only used when the word starts with the letter "y"; if a word has a "y" sound but doesn't start with a "y", simply don't use a left hand consonant chord.**
 
 ### Examples
 
@@ -85,10 +96,16 @@ Why not use `PH` for "f"? After all, this would be easier to remember since "ph"
 ## Left hand z, v, and j
 
 * `STKPW` is "z" as in "zit"
+
+<steno-outline stroke="STKPW" width="100%" alt="STKPW on the steno layout"></steno-outline>
+
 * `SR` is "v" as in "vat"
+
+<steno-outline stroke="SR" width="100%" alt="SR on the steno layout"></steno-outline>
+
 * `SKWR` is "j" as in "job"
 
-![](img/6-zvj.png)
+<steno-outline stroke="SKWR" width="100%" alt="SKWR on the steno layout"></steno-outline>
 
 ### Mnemonics
 

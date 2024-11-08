@@ -17,20 +17,27 @@ I'm making an effort to include IPA with the hopes that they will be useful for 
 
 ## `OE`, `OU`, and `OEU`
 
-![oe ou and oeu](img/7-oe-ou-and-oeu.png)
-
 * `OE` is the *long o* vowel as in "t<ins>o</ins>te"
    - /oʊ/
+   
+<steno-outline stroke="OE" width="100%" alt="OE on the steno layout"></steno-outline>
 
 > Linguistically, calling this a *long vowel* is incorrect (this is actually a diphthong), but it's what most people would be familiar with ([see here](https://en.m.wikipedia.org/wiki/Vowel_length#%22Long%22_and_%22short%22_vowel_letters_in_spelling_and_the_classroom_teaching_of_reading)).
 
 * `OU` is the "ow" sound as in "c<ins>ow</ins>"
    - /aʊ/
+
+<steno-outline stroke="OU" width="100%" alt="OU on the steno layout"></steno-outline>
+
 * `OUR` is the sound as in "h<ins>our</ins>"
    - /aʊ ər/
 
+<steno-outline stroke="OUR" width="100%" alt="OUR on the steno layout"></steno-outline>
+
 * `OEU` is the sound as in "t<ins>oy</ins>"
   - /ɔɪ/
+
+<steno-outline stroke="OEU" width="100%" alt="OEU on the steno layout"></steno-outline>
 
 <video controls>
 <source src="img/7-pronunciations-1.mp4" type="video/mp4">
@@ -38,12 +45,14 @@ I'm making an effort to include IPA with the hopes that they will be useful for 
 
 ### Examples
 
-* foe `TPOE`
+* foe `TPOE`\*
 * sow `SOE`
-* now `TPHOU`
+* foul `TPOUL`\*
 * power `POUR`
 * coil `KOEUL`
 * soy `SOEU`
+
+> If you're having trouble associating the `OE` and `OU` chords, I suggest remembering the words marked with \*.
 
 <video controls>
 <source src="img/7-pronunciations-2.mp4" type="video/mp4">
@@ -64,7 +73,7 @@ I'm making an effort to include IPA with the hopes that they will be useful for 
 
 ## `AEU`
 
-![aeu](img/7-aeu.png)
+<steno-outline stroke="AEU" width="100%" alt="AEU on the steno layout"></steno-outline>
 
 * `AEU` is the *long a* vowel as in "p<ins>ay</ins>"
    - /eɪ/
@@ -103,7 +112,7 @@ I'm making an effort to include IPA with the hopes that they will be useful for 
 
 ## `AOU`
 
-![aou](img/7-aou.png)
+<steno-outline stroke="AOU" width="100%" alt="AOU on the steno layout"></steno-outline>
 
 * `AOU` represents two different sounds:
    1. The *long u* sound as in "c<ins>u</ins>be"

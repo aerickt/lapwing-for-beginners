@@ -208,7 +208,7 @@ src="https://www.youtube.com/embed/qu4zyRqILYM">
 
 There is no "i" key on the steno layout; it is instead represented by the `EU` chord.
 
-![](img/5-eu.png)
+<steno-outline stroke="EU" width="100%" alt="EU on the steno layout"></steno-outline>
 
 #### Examples
 
@@ -261,7 +261,7 @@ These sounds are also considered to be in the same group as *short vowels*, so r
 
 Looking at the steno layout, why is it that "car" must be written using the left `K`, and the right hand `-R`?
 
-![](img/1-layout.png)
+<steno-outline stroke="#STKPWHRAO*EUFRPBLGTSDZ" width="100%" alt="steno layout"></steno-outline>
 
 The answer is *steno order*.
 
@@ -277,7 +277,7 @@ Therefore, the only correct way to write the word "car" would be  `KAR`.
 
 The following is an incorrect way to write "car"; it is actually notated like `KRA`:
 
-![KRA](img/5-kra.png)
+<steno-outline stroke="KRA" width="100%" alt="KRA on the steno layout"></steno-outline>
 
 It's not necessary to memorize steno order explicitly (as in the `#STKPWHRAO*EUFRPBLGTSDZ` string). However, it's important to internalize steno order with regard to the location of the keys. With enough practice, it should be immediately obvious that the "-st" sound as in "past", for example, cannot be represented in steno order.
 

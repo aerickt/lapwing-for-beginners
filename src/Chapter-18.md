@@ -17,30 +17,30 @@ To write a short acronym or a word that is not yet defined, a letter-by-letter s
 
 | | | |
 | ---- | ---- | ---- |
-| a <br> ![](img/18-a.png) | b <br> ![](img/18-b.png) | c <br> ![](img/18-c.png) |
-| d <br> ![](img/18-d.png) | e <br> ![](img/18-e.png) | f <br> ![](img/18-f.png) |
-| g <br> ![](img/18-g.png) | h <br> ![](img/18-h.png) | i <br> ![](img/18-i.png) |
-| j <br> ![](img/18-j.png) | k <br> ![](img/18-k.png) | l <br> ![](img/18-l.png) |
-| m <br> ![](img/18-m.png) | n <br> ![](img/18-n.png) | o <br> ![](img/18-o.png) |
-| p <br> ![](img/18-p.png) | q <br> ![](img/18-q.png) | r <br> ![](img/18-r.png) |
-| s <br> ![](img/18-s.png) | t <br> ![](img/18-t.png) | u <br> ![](img/18-u.png) |
-| v <br> ![](img/18-v.png) | w <br> ![](img/18-w.png) | x <br> ![](img/18-x.png) |
-| y <br> ![](img/18-y.png) | z <br> ![](img/18-z.png) |  |
+| a <br> <steno-outline stroke="A*" width="100%" alt="A* on the steno layout"></steno-outline> | b <br> <steno-outline stroke="PW*" width="100%" alt="PW* on the steno layout"></steno-outline> | c <br> <steno-outline stroke="KR*" width="100%" alt="KR* on the steno layout"></steno-outline> |
+| d <br> <steno-outline stroke="TK*" width="100%" alt="TK* on the steno layout"></steno-outline> | e <br> <steno-outline stroke="*E" width="100%" alt="*E on the steno layout"></steno-outline> | f <br> <steno-outline stroke="TP*" width="100%" alt="TP* on the steno layout"></steno-outline> |
+| g <br> <steno-outline stroke="TKPW*" width="100%" alt="TKPW* on the steno layout"></steno-outline> | h <br> <steno-outline stroke="H*" width="100%" alt="H* on the steno layout"></steno-outline> | i <br> <steno-outline stroke="*EU" width="100%" alt="*EU on the steno layout"></steno-outline> |
+| j <br> <steno-outline stroke="SKWR*" width="100%" alt="SKWR* on the steno layout"></steno-outline> | k <br> <steno-outline stroke="K*" width="100%" alt="K* on the steno layout"></steno-outline> | l <br> <steno-outline stroke="HR*" width="100%" alt="HR* on the steno layout"></steno-outline> |
+| m <br> <steno-outline stroke="PH*" width="100%" alt="PH* on the steno layout"></steno-outline> | n <br> <steno-outline stroke="TPH*" width="100%" alt="TPH* on the steno layout"></steno-outline> | o <br> <steno-outline stroke="O*" width="100%" alt="O* on the steno layout"></steno-outline> |
+| p <br> <steno-outline stroke="P*" width="100%" alt="P* on the steno layout"></steno-outline> | q <br> <steno-outline stroke="KW*" width="100%" alt="KW* on the steno layout"></steno-outline> | r <br> <steno-outline stroke="R*" width="100%" alt="R* on the steno layout"></steno-outline> |
+| s <br> <steno-outline stroke="S*" width="100%" alt="S* on the steno layout"></steno-outline> | t <br> <steno-outline stroke="T*" width="100%" alt="T* on the steno layout"></steno-outline> | u <br> <steno-outline stroke="*U" width="100%" alt="*U on the steno layout"></steno-outline> |
+| v <br> <steno-outline stroke="SR*" width="100%" alt="SR* on the steno layout"></steno-outline> | w <br> <steno-outline stroke="W*" width="100%" alt="W* on the steno layout"></steno-outline> | x <br> <steno-outline stroke="KP*" width="100%" alt="KP* on the steno layout"></steno-outline> |
+| y <br> <steno-outline stroke="KWH*" width="100%" alt="KWH* on the steno layout"></steno-outline> | z <br> <steno-outline stroke="STKPW*" width="100%" alt="STKPW* on the steno layout"></steno-outline> |  |
 
 ### Uppercase
 To write uppercase letters, use `-P` on the right hand.
 
 | | | |
 | ---- | ---- | ---- |
-| A <br> ![](img/18-capital-a.png) | B <br> ![](img/18-capital-b.png) | C <br> ![](img/18-capital-c.png) |
-| D <br> ![](img/18-capital-d.png) | E <br> ![](img/18-capital-e.png) | F <br> ![](img/18-capital-f.png) |
-| G <br> ![](img/18-capital-g.png) | H <br> ![](img/18-capital-h.png) | I <br> ![](img/18-capital-i.png) |
-| J <br> ![](img/18-capital-j.png) | K <br> ![](img/18-capital-k.png) | L <br> ![](img/18-capital-l.png) |
-| M <br> ![](img/18-capital-m.png) | N <br> ![](img/18-capital-n.png) | O <br> ![](img/18-capital-o.png) |
-| P <br> ![](img/18-capital-p.png) | Q <br> ![](img/18-capital-q.png) | R <br> ![](img/18-capital-r.png) |
-| S <br> ![](img/18-capital-s.png) | T <br> ![](img/18-capital-t.png) | U <br> ![](img/18-capital-u.png) |
-| V <br> ![](img/18-capital-v.png) | W <br> ![](img/18-capital-w.png) | X <br> ![](img/18-capital-x.png) |
-| Y <br> ![](img/18-capital-y.png) | Z <br> ![](img/18-capital-z.png) |  |
+| a <br> <steno-outline stroke="A*P" width="100%" alt="A*P on the steno layout"></steno-outline> | b <br> <steno-outline stroke="PW*P" width="100%" alt="PW*P on the steno layout"></steno-outline> | c <br> <steno-outline stroke="KR*P" width="100%" alt="KR*P on the steno layout"></steno-outline> |
+| d <br> <steno-outline stroke="TK*P" width="100%" alt="TK*P on the steno layout"></steno-outline> | e <br> <steno-outline stroke="*EP" width="100%" alt="*EP on the steno layout"></steno-outline> | f <br> <steno-outline stroke="TP*P" width="100%" alt="TP*P on the steno layout"></steno-outline> |
+| g <br> <steno-outline stroke="TKPW*P" width="100%" alt="TKPW*P on the steno layout"></steno-outline> | h <br> <steno-outline stroke="H*P" width="100%" alt="H*P on the steno layout"></steno-outline> | i <br> <steno-outline stroke="*EUP" width="100%" alt="*EUP on the steno layout"></steno-outline> |
+| j <br> <steno-outline stroke="SKWR*P" width="100%" alt="SKWR*P on the steno layout"></steno-outline> | k <br> <steno-outline stroke="K*P" width="100%" alt="K*P on the steno layout"></steno-outline> | l <br> <steno-outline stroke="HR*P" width="100%" alt="HR*P on the steno layout"></steno-outline> |
+| m <br> <steno-outline stroke="PH*P" width="100%" alt="PH*P on the steno layout"></steno-outline> | n <br> <steno-outline stroke="TPH*P" width="100%" alt="TPH*P on the steno layout"></steno-outline> | o <br> <steno-outline stroke="O*P" width="100%" alt="O*P on the steno layout"></steno-outline> |
+| p <br> <steno-outline stroke="P*P" width="100%" alt="P*P on the steno layout"></steno-outline> | q <br> <steno-outline stroke="KW*P" width="100%" alt="KW*P on the steno layout"></steno-outline> | r <br> <steno-outline stroke="R*P" width="100%" alt="R*P on the steno layout"></steno-outline> |
+| s <br> <steno-outline stroke="S*P" width="100%" alt="S*P on the steno layout"></steno-outline> | t <br> <steno-outline stroke="T*P" width="100%" alt="T*P on the steno layout"></steno-outline> | u <br> <steno-outline stroke="*UP" width="100%" alt="*UP on the steno layout"></steno-outline> |
+| v <br> <steno-outline stroke="SR*P" width="100%" alt="SR*P on the steno layout"></steno-outline> | w <br> <steno-outline stroke="W*P" width="100%" alt="W*P on the steno layout"></steno-outline> | x <br> <steno-outline stroke="KP*P" width="100%" alt="KP*P on the steno layout"></steno-outline> |
+| y <br> <steno-outline stroke="KWH*P" width="100%" alt="KWH*P on the steno layout"></steno-outline> | z <br> <steno-outline stroke="STKPW*P" width="100%" alt="STKPW*P on the steno layout"></steno-outline> |  |
 
 ### Attachment behaviour
 Fingerspelling uses glue (<code class="code-mono">&</code>) formatting. These translations stick to other translations that also have glue. For example, writing `HE/HROE/A*/PW*/KR*` will result in <code class="code-mono">hello abc</code>. Since the translation for `HE/HROE` contains no glue, the subsequent fingerspelling chord inserts a space after <code class="code-mono">hello</code>. However, as the subsequent fingerspelling chords all contain glue, they stick together.
@@ -51,10 +51,10 @@ With Lapwing, numbers are written with a numberpad system much like the ones fou
 
 | | | |
 | ---- | ---- | ---- |
-| 1 <br> ![](img/18-1.png) | 2 <br> ![](img/18-2.png) | 3 <br> ![](img/18-3.png) |
-| 4 <br> ![](img/18-4.png) | 5 <br> ![](img/18-5.png) | 6 <br> ![](img/18-6.png) |
-| 7 <br> ![](img/18-7.png) | 8 <br> ![](img/18-8.png) | 9 <br> ![](img/18-9.png) |
-| 0 <br> ![](img/18-0.png) | 00 <br> ![](img/18-00.png) | 000 <br> ![](img/18-000.png) |
+| 1 <br> <steno-outline stroke="#-R" width="100%" alt="#-R on the steno layout"></steno-outline> | 2 <br> <steno-outline stroke="#-B" width="100%" alt="#-B on the steno layout"></steno-outline> | 3 <br> <steno-outline stroke="#-G" width="100%" alt="#-G on the steno layout"></steno-outline> |
+| 4 <br> <steno-outline stroke="#-FR" width="100%" alt="#-FR on the steno layout"></steno-outline> | 5 <br> <steno-outline stroke="#-PB" width="100%" alt="#-PB on the steno layout"></steno-outline> | 6 <br> <steno-outline stroke="#-LG" width="100%" alt="#-LG on the steno layout"></steno-outline> |
+| 7 <br> <steno-outline stroke="#-F" width="100%" alt="#-F on the steno layout"></steno-outline> | 8 <br> <steno-outline stroke="#-P" width="100%" alt="#-P on the steno layout"></steno-outline> | 9 <br> <steno-outline stroke="#-L" width="100%" alt="#-L on the steno layout"></steno-outline> |
+| 0 <br> <steno-outline stroke="#E" width="100%" alt="#E on the steno layout"></steno-outline> | 00 <br> <steno-outline stroke="#U" width="100%" alt="#U on the steno layout"></steno-outline> | 000 <br> <steno-outline stroke="#EU" width="100%" alt="#EU on the steno layout"></steno-outline> |
 
 The right hand vowel keys can be combined with a number chord to add some trailing zeros:
 
