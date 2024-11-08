@@ -11,7 +11,6 @@ To get started:
 
 This resource is still in development and feedback is highly appreciated. You can reach out to me by:
 
-* posting a message on the [Plover Discord server's <code class="code-mono">lapwing-theory</code> channel](https://discord.gg/rvKuMeem7k)
 * creating a new post on [GitHub discussions](https://github.com/aerickt/lapwing-for-beginners/discussions/new/choose)
 
 ## Motivation
