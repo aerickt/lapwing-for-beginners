@@ -117,7 +117,7 @@ Mnemonic: the word "cap" but with the "a" and "p" out of order
 #### Example
 * `-T/KPA/AOEU/HRAPBD` the Island
 
-### Retroactively capitalize the next word
+### Retroactively capitalize the last word
 #### Outline: `KA*PD`
 
 Mnemonic: the word "capped" but with the asterisk
