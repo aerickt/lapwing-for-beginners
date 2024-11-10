@@ -33,8 +33,8 @@ The following table lists several common punctuation marks along with the name, 
 | <code class="code-mono">}</code> | Closing curly brace | Attaches to the previous word. | `TPR*BGT` | Same as the opening curly brace outline, but with the asterisk. |
 | <code class="code-mono">[</code> | Opening square bracket | Attaches to the next word. | `PWR-BGT` | Resembles "**br**a**ck**e**t**". |
 | <code class="code-mono">]</code> | Closing square bracket | Attaches to the previous word. | `PWR*BGT` | Same as the opening square bracket outline, but with the asterisk.
-| <code class="code-mono">:</code> | Colon (for writing) | Attaches to the previous word | `STPH-FPLT` | The entire top row of keys apart from left hand `S`. |
-| <code class="code-mono">;</code> | Semicolon | Attaches to the previous word. | `STPH*FPLT` | Same as the colon outline, but with the asterisk. |
+| <code class="code-mono">:</code> | Colon (for writing) | Attaches to the previous word | `#TPH-FPLT` | The entire top row of keys except the asterisk. |
+| <code class="code-mono">;</code> | Semicolon | Attaches to the previous word. | `#TPH*FPLT` | Same as the colon outline, but with the asterisk. |
 | <code class="code-mono">:</code> | Colon (for time) | Attaches to the previous word and the next word. | `KHR-PB` | Resembles the word "**c**o**l**o**n**". |
 | <code class="code-mono">—</code> | Emdash | Attaches to the previous word and the next word. | `PH-RB` | Resembles "e**m**da**sh**". |
 | <code class="code-mono">–</code> | Endash | Attaches to the previous word and the next word. | `TPH-RB` | Resembles "e**n**da**sh**". |
@@ -43,6 +43,8 @@ The following table lists several common punctuation marks along with the name, 
 | <code class="code-mono">-</code> | Hyphen | Space before and after. | `H*PB` | Same as the regular hyphen outline, but with the asterisk. |
 | <code class="code-mono">‽</code> | Interrobang | Attaches to the previous word and capitalizes the next word | `TRAPBG` | Resembles the word "in**t**e**rr**ob**ang**". |
 | <code class="code-mono">/</code> | Slash | Attaches to the previous word and the next word | `OEU` |
+
+> **NOTE:** the colon and semicolon outlines were recently changed from `STPH-FPLT` and `STPH*FPLT` to `#TPH-FPLT` and `#TPH*FPLT`. If the latter outlines are not working, make sure to [update your dictionaries](https://lapwing.aerick.ca/Chapter-05.html#dictionary-updates).
 
 <br>
 
@@ -53,9 +55,11 @@ The following table lists several common punctuation marks along with the name, 
 | " <br> <steno-outline stroke="KW*GS" width="100%" alt="KW*GS on the steno layout"></steno-outline> | ` <br> <steno-outline stroke="KH-FG" width="100%" alt="KH-FG on the steno layout"></steno-outline> | \` <br> <steno-outline stroke="KH*FG" width="100%" alt="KH*FG on the steno layout"></steno-outline> |
 | ‽ <br> <steno-outline stroke="TRAPBG" width="100%" alt="TRAPBG on the steno layout"></steno-outline> | ( <br> <steno-outline stroke="PREPB" width="100%" alt="PREPB on the steno layout"></steno-outline> | ) <br> <steno-outline stroke="PR*EPB" width="100%" alt="PR*EPB on the steno layout"></steno-outline> |
 | { <br> <steno-outline stroke="TPR-BGT" width="100%" alt="TPR-BGT on the steno layout"></steno-outline> | } <br> <steno-outline stroke="TPR*BGT" width="100%" alt="TPR*BGT on the steno layout"></steno-outline> | / <br> <steno-outline stroke="OEU" width="100%" alt="OEU on the steno layout"></steno-outline> |
-| \[ <br> <steno-outline stroke="PWR-BGT" width="100%" alt="PWR-BGT on the steno layout"></steno-outline> | ] <br> <steno-outline stroke="PWR*BGT" width="100%" alt="PWR*BGT on the steno layout"></steno-outline> | : <br> <steno-outline stroke="STPH-FPLT" width="100%" alt="STPH-FPLT on the steno layout"></steno-outline> |
-| ; <br> <steno-outline stroke="STPH*FPLT" width="100%" alt="STPH*FPLT on the steno layout"></steno-outline> | : <br> <steno-outline stroke="KHR-PB" width="100%" alt="KHR-PB on the steno layout"></steno-outline> | — <br> <steno-outline stroke="TPH-RB" width="100%" alt="TPH-RB on the steno layout"></steno-outline> |
+| \[ <br> <steno-outline stroke="PWR-BGT" width="100%" alt="PWR-BGT on the steno layout"></steno-outline> | ] <br> <steno-outline stroke="PWR*BGT" width="100%" alt="PWR*BGT on the steno layout"></steno-outline> | : <br> <steno-outline stroke="#TPH-FPLT" width="100%" alt="#TPH-FPLT on the steno layout"></steno-outline> |
+| ; <br> <steno-outline stroke="#TPH*FPLT" width="100%" alt="#TPH*FPLT on the steno layout"></steno-outline> | : <br> <steno-outline stroke="KHR-PB" width="100%" alt="KHR-PB on the steno layout"></steno-outline> | — <br> <steno-outline stroke="TPH-RB" width="100%" alt="TPH-RB on the steno layout"></steno-outline> |
 | – <br> <steno-outline stroke="PH-RB" width="100%" alt="PH-RB on the steno layout"></steno-outline> | - <br> <steno-outline stroke="H-PB" width="100%" alt="H-PB on the steno layout"></steno-outline> |  |
+
+> **NOTE:** the colon and semicolon outlines were recently changed from `STPH-FPLT` and `STPH*FPLT` to `#TPH-FPLT` and `#TPH*FPLT`. If the latter outlines are not working, make sure to [update your dictionaries](https://lapwing.aerick.ca/Chapter-05.html#dictionary-updates).
 
 ## Commands
 

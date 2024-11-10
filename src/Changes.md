@@ -1,6 +1,12 @@
-# 2024-11-07
+# 2024-11-10
 
 [New commit](#)
+
+* Changed recommended colon outlines to `#TPH-FPLT` and `#TPH*FPLT`
+
+# 2024-11-07
+
+[New commit](https://github.com/aerickt/lapwing-for-beginners/commit/819517108ee327578a4fd707a4fb45d4d3e5dd68)
 
 * Switched most graphics to [@IllustratedMan-code](https://github.com/IllustratedMan-code)'s SVG generator
 
@@ -8,17 +14,17 @@
 
 [New commit](https://github.com/aerickt/lapwing-for-beginners/commit/1c55d41e335cf5197578284dbb1acfe50a9f637d)
 
-* Add section in chapter 22 on words ending in "h"
-* Add "ah" and "doth" to problematic words
+* Added section in chapter 22 on words ending in "h"
+* Added "ah" and "doth" to problematic words
 
 # 2024-09-22
 
 [New commit](https://github.com/aerickt/lapwing-for-beginners/commit/f38bd1fe98da533ae78b516fdf8a211af5f38ad4)
 
-* Update Emily's modifiers graphic in chapter 25
-   * Matches plugin v1.3.1 (removed mirroring of Emily's symbols to Emily's modifiers)
-* Add tasks list on home page
-* Rename theory reference to appendix D
+* Updated Emily's modifiers graphic in chapter 25
+   * Matched plugin v1.3.1 (removed mirroring of Emily's symbols to Emily's modifiers)
+* Added tasks list on home page
+* Renamed theory reference to appendix D
 
 # 2024-09-21
 
