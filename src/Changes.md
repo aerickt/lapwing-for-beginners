@@ -1,6 +1,13 @@
-# 2024-11-10
+# 2024-12-28
 
 [New commit](#)
+
+* Added section in chapter 12 to explain "I'll" vs "aisle" discrepancy
+* Added note in chapter 12 to explain non-asterisked contractions
+
+# 2024-11-10
+
+[New commit](https://github.com/aerickt/lapwing-for-beginners/commit/637fd1fb00c25bf4de362d4816e2fb55828e9560)
 
 * Changed recommended colon outlines to `#TPH-FPLT` and `#TPH*FPLT`
 

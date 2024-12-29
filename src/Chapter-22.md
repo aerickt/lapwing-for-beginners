@@ -27,12 +27,18 @@ Some common contractions:
 | we're | `WAO*ER` |
 | who's | `WHO*S` |
 
+> **NOTE:** there are several outlines for contractions that do not have the asterisk key, and these can be used at your convenience (since outlines without the asterisk key are generally easier to press). However, due to conflicts, not all contractions can be written without the asterisk key.
+
 Some contractions that are based off of common words that are briefed in Lapwing are written a bit less intuitively:
 
 | Contraction | Outline |
 | ---- | ---- |
 | what's | `WHA*S` |
 | that's | `THA*S` |
+
+#### I'll and aisle
+
+"I'll" and "aisle" are assigned contrary to this rule by default (`AOEUL` and `AO*EUL`, respectively). This is done since "I'll" is a much more common word, and is given the easier outline. It's perfectly reasonable to swap these around to match the general contractions rule.
 
 ## `-RB` for "-rb" vs "-sh"
 
