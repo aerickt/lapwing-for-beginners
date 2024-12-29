@@ -14,7 +14,7 @@ Earlier chapters covered affix strokes and compound words. Syllabic splitting is
 1. Split the word using other methods (prefixes, suffixes, and compound words)—even just partially
 2. Split each remaining part by its syllables so that every stroke after the first begins with a consonant
 3. Ensure not to double consonants across separate strokes
-4. With multiple ways of splitting syllables, preserve the natural sounds of the word
+4. With multiple ways of splitting syllables, preserve the natural sounds of the word (tip: think of where the iserted pauses would better maintain the original sound).
 
 ### Basic examples and explanations
 
