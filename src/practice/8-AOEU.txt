@@ -69,7 +69,7 @@ slight  SHRAOEUT
 smile   SPHAOEUL
 smite   SPHAOEUT
 snide   STPHAOEUD
-snipe   STPAOEUP
+snipe   STPHAOEUP
 spice   SPAOEUS
 spire   SPAOEUR
 spite   SPAOEUT

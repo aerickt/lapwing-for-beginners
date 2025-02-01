@@ -22,7 +22,6 @@ crease   KRAOES
 creed    KRAOED
 creel    KRAOEL
 creep    KRAOEP
-deal     STKAOEL
 deal     TKAOEL
 deed     TKAOED
 deep     TKAOEP

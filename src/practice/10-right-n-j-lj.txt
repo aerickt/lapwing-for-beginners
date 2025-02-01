@@ -247,4 +247,4 @@ wine     WAOEUPB
 win      WEUPB
 wodge    WOPBLG
 won      WOPB
-yawn     KWRA*UPB
+yawn     KWHAUPB

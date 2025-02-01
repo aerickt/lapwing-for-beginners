@@ -16,7 +16,7 @@ fable         TPAEUBL
 feasibility   TPAOEFBLT
 feeble        TPAOEBL
 gabble        TKPWABL
-gable         TKPWAEUBLs
+gable         TKPWAEUBL
 global        TKPWHROEBL
 gobble        TKPWOBL
 hobble        HOBL

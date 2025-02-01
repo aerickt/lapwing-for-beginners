@@ -11,4 +11,4 @@ percolator    PER/KO/HRAEURT
 refrigerator  RE/TPREUPBLG/RAEURT
 resonator     RE/SO/TPHAEURT
 skater        SKAEURT
-spectators    SPEBG/TAEURT
+spectator     SPEBG/TAEURT

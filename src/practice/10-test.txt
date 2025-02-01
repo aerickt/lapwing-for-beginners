@@ -596,5 +596,5 @@ wonk      WO*PBG
 won       WOPB
 wrench    WREFRPB
 yank      KWHA*PBG
-yawn      KWRA*UPB
+yawn      KWHAUPB
 young     KWHUPBG

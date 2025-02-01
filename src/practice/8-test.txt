@@ -125,7 +125,6 @@ date      TKAEUT
 daub      TKAUB
 dawg      TKAUG
 daze      TKAEUZ
-deal      STKAOEL
 deal      TKAOEL
 dear      TKAER
 deed      TKAOED
@@ -712,4 +711,4 @@ woof      WAOF
 wool      WAOL
 woop      WAOP
 woot      WAOT
-yacht     KWRA*UT
+yacht     KWHAUT

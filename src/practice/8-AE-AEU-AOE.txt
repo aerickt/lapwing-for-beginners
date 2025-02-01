@@ -28,12 +28,11 @@ hear   HAER
 heel   HAOEL
 here   HAOER
 lead   HRAED
-Leed   HRAOED
 made   PHAED
 maid   PHAEUD
+mail   PHAEUL
 maize  PHAEUZ
 male   PHAEL
-Male   PHAEUL
 maze   PHAEZ
 meat   PHAET
 meet   PHAOET

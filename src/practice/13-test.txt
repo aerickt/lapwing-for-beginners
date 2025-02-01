@@ -180,7 +180,7 @@ paunchy        PAUFRPB/KWREU
 peaceful       PAES/-FL
 phony          TPO*EPB/KWREU
 pitiful        PEUT/-FL
-planar         PHRAEPB/A*R
+planar         PHRAEUPB/A*R
 planner        PHRAPB/*ER
 plantation     PHRAPBT/KWRAEUGS
 plausibility   PHRAUS/-BLT

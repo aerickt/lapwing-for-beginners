@@ -108,7 +108,6 @@ tusk     TUFBG
 twist    TWEUFT
 vast     SRAFT
 vest     SREFT
-waft     WAFT
 waft     WAUFT
 waist    WAEUFT
 waste    WAEFT

@@ -93,11 +93,11 @@ entreat        SPWRAOET
 entropy        SPWROEP
 entrust        SPWRUFT
 entry          SPWREU
-extrapolate    KPRA/PO/HRAEUGT
+extrapolate    KPRA/PO/HRAEUT
 intelligence   SPWELGS
 intense        SPWEPBS
 intensity      SPWEPBS/TEU
-intentional    SPWEPBGLS
+intentional    SPWEPBLGS
 intention      SPWEPBGS
 interaction    SPWRABGS
 intern         SPWERPB

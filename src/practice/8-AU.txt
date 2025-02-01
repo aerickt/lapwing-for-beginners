@@ -54,4 +54,4 @@ trough   TRAUF
 wad      WAUD
 wall     WAUL
 watt     WAUT
-yacht    KWRA*UT
+yacht    KWHAUT

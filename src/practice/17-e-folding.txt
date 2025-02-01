@@ -11,7 +11,7 @@ biliary         PWEU/HREU/KWRAER
 boundary        PWOUPB/TKAER
 cavitary        KA/SREU/TAER
 celebratory     SE/HRE/PWRA/TOER
-ceremony        SER/KWRE/PHOEPB
+ceremony        SER/PHOE/TPHEU
 circulatory     SEUR/KAOU/HRA/TOER
 commentary      KO/PHEPB/TAER
 complementary   KOPL/PHREPLT/KWRAER

@@ -19,7 +19,7 @@ lunar      HRAOUPB/A*R
 mugger     PHUG/*ER
 opener     OEP/*ER
 owner      OEPB/*ER
-planar     PHRAEPB/A*R
+planar     PHRAEUPB/A*R
 planner    PHRAPB/*ER
 poster     POEFT/*ER
 prouder    PROUD/*ER
