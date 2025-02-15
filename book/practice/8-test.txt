@@ -337,7 +337,6 @@ real	RAEL
 read	RAED
 ale	AEL
 ate	AET
-deal	STKAOEL
 sneer	STPHAOER
 sneeze	STPHAOEZ
 street	STRAOET
@@ -689,7 +688,7 @@ trough	TRAUF
 trawl	TRAUL
 tall	TAUL
 taught	TAUT
-yacht	KWRA*UT
+yacht	KWHAUT
 quad	KWAUD
 clause	KHRAUS
 crawl	KRAUL

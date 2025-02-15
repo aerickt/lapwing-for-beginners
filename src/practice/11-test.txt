@@ -144,7 +144,6 @@ crucial	KRAOURBL
 casual	KARBL
 racial	RAEURBL
 stoppable	STOPBL
-stoppable	STOPBL
 stability	STABLT
 viability	SRAOEUBLT
 variability	SRAEURBLT

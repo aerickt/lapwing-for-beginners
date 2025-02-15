@@ -1,4 +1,3 @@
-deal	STKAOEL
 sneer	STPHAOER
 sneeze	STPHAOEZ
 street	STRAOET

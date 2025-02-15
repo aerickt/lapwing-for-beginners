@@ -16,7 +16,6 @@ cheep	KHAOEP
 bare	PWAEUR
 bail	PWAEUL
 beet	PWAOET
-Male	PHAEUL
 meet	PHAOET
 maid	PHAEUD
 maize	PHAEUZ

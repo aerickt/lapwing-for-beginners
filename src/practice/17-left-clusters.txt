@@ -101,7 +101,6 @@ diversify	TKWERS/TPAOEU
 divide	TKWAOEUD
 devout	TKWOUT
 divert	TKWERT
-devolve	TKWOFL
 device	TKWAOEUS
 devotee	TKWOET/KWRAOE
 devoted	TKWOETD
