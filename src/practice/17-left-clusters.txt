@@ -16,7 +16,7 @@ comprise	KPRAOEUS
 compartment	KPARPLT
 compass	KPAS
 compete	KPAOET
-extrapolate	KPRA/PO/HRAEUGT
+extrapolate	KPRA/PO/HRAEUT
 community	KPHAOUPB/TEU
 commodity	KPHOD/TEU
 compare	KPAEUR
@@ -44,7 +44,7 @@ interaction	SPWRABGS
 intoxicate	SPWOBGS/KAEUT
 intensity	SPWEPBS/TEU
 intention	SPWEPBGS
-intentional	SPWEPBGLS
+intentional	SPWEPBLGS
 enthrall	SPWRAUL
 enter	SPWER
 entropy	SPWROEP
