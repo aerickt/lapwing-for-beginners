@@ -2,7 +2,7 @@ sellar	SEL/A*R
 cellar	KREL/A*R
 bulbar	PWUL/-B/A*R
 beggar	PWEG/A*R
-planar	PHRAEPB/A*R
+planar	PHRAEUPB/A*R
 lunar	HRAOUPB/A*R
 hangar	HAPBG/A*R
 vendor	SREPBD/O*R

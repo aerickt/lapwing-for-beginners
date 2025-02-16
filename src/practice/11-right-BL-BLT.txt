@@ -7,7 +7,7 @@ viable	SRAOEUBL
 viewable	SRAOUBL
 seeable	SAOEBL
 global	TKPWHROEBL
-gable	TKPWAEUBLs
+gable	TKPWAEUBL
 gabble	TKPWABL
 gobble	TKPWOBL
 dryable	TKRAOEUBL
