@@ -194,9 +194,6 @@ This is only a suggestion if you are unsure of when to move on to the next chapt
 | and you | `SKPU` | `SKP` + `U` |
 | and I | `SKPEU` | `SKP` + `EU` |
 | and the | `SKP-T` | `SKP` + `-T` |
-| so the | `SOT` | `SO` + `-T` |
-| are the | `R-T` | `R` + `-T` |
-| are you | `RU` | `R` + `U` |
 | have you | `SRU` | `SR` + `U` |
 | is it | `ST` | `S` + `T` |
 | it is | `T-S` | `T` + `-S` (for "is") |
