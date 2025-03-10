@@ -293,7 +293,7 @@ ton	TOPB
 tin	TEUPB
 ten	TEPB
 tun	TUPB
-yawn	KWRA*UPB
+yawn	KWHAUPB
 queen	KWAOEPB
 quin	KWEUPB
 clean	KHRAOEPB
