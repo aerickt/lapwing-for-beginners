@@ -217,7 +217,7 @@ For some American speakers, the "l" in words like "palm" aren't audible at all. 
 
 | Translation | Brief | Explanation |
 | ---- | ---- | ---- |
-| also | `HR-S` | <ins>als</ins>o |
+| also | `HR-S` | a<ins>ls</ins>o |
 | animal | `PHAPBL` | Various vowels dropped and steno order out the wazoo ("anml" → "manl")
 | any | `TPHEU` | First vowel dropped and `EU` used as the *long e* sound
 | help | `HEP` | Dropped "l" consonant |
