@@ -60,6 +60,8 @@ For example, `#TPH-GT` would move the cursor to the right by three characters an
 
 To select text, include the `*` key in a movement command. Repeating the same command works for incrementing the current selection. For example, `#TPH*R/#TPH*R/#TPH*R/#TPH*R` will select the 4 letters to the left.
 
+> **NOTE:** on some systems (particularly Windows machines), selection does not work with numlock enabled. If selection strokes fail, try **disabling numlock**. For keyboards without a physical numlock key, try [this](https://community.acer.com/en/kb/articles/15744-how-to-disable-numlock-if-your-computer-does-not-have-a-numlock-key).
+
 #### Repeat the last command
 
 > **NOTE:** for this to work, you will have to disable the <code class="code-mono">lapwing-prefixed-proper-nouns.json</code> dictionary.
