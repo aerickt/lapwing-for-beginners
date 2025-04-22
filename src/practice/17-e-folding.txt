@@ -46,7 +46,6 @@ fragmentary	TPRAG/-PLT/KWRAER
 sanitary	SA/TPHEU/TAER
 summary	SU/PHAER
 proprietary	PROE/PRAOEU/KWRE/TAER
-secretary	SE/KRE/TAER
 momentary	PHOEPLT/KWRAER
 temporary	TEPL/POR/KWRAER
 boundary	PWOUPB/TKAER
@@ -59,11 +58,9 @@ monetary	PHO/TPHE/TAER
 adversary	AD/SRER/SAER
 arbitrary	AR/PWEU/TRAER
 synchrony	SEUPB/KROEPB
-patrimony	PAT/REU/PHOEPB
 disharmony	TKEUS/HAR/PHOEPB
 lobectomy	HROE/PWEBG/TOEPL
 testimony	TES/TEU/PHOEPB
-ceremony	SER/KWRE/PHOEPB
 antimony	APB/TEU/PHOEPB
 parsimony	PAR/SEU/PHOEPB
 matrimony	PHA/TREU/PHOEPB
