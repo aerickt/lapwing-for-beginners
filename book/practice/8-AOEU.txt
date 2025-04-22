@@ -1,5 +1,5 @@
 snide	STPHAOEUD
-snipe	STPAOEUP
+snipe	STPHAOEUP
 strife	STRAOEUF
 stripe	STRAOEUP
 stride	STRAOEUD
