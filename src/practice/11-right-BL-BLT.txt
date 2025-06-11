@@ -31,7 +31,6 @@ kibble	KEUBL
 bauble	PWAUBL
 babble	PWABL
 bobble	PWOBL
-bulb	PW*UBL
 bubble	PWUBL
 pliable	PHRAOEUBL
 playable	PHRAEUBL
