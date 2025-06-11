@@ -1,4 +1,3 @@
-stahp	STAUP
 stall	STAUL
 squab	SKWAUB
 squall	SKWAUL

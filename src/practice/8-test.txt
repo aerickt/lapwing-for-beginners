@@ -143,7 +143,6 @@ group	TKPWRAOUP
 gruel	TKPWRAOUL
 ghoul	TKPWAOUL
 drupe	TKRAOUP
-druid	TKRAOUD
 dure	TKAOUR
 dupe	TKAOUP
 dual	TKAOUL
@@ -655,7 +654,6 @@ road	RAOD
 oof	AOF
 oar	AOR
 ooze	AOZ
-stahp	STAUP
 stall	STAUL
 squab	SKWAUB
 squall	SKWAUL

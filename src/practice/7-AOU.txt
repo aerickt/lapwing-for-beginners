@@ -12,7 +12,6 @@ group	TKPWRAOUP
 gruel	TKPWRAOUL
 ghoul	TKPWAOUL
 drupe	TKRAOUP
-druid	TKRAOUD
 dure	TKAOUR
 dupe	TKAOUP
 dual	TKAOUL
