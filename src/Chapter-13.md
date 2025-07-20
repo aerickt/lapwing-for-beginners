@@ -62,7 +62,7 @@ It is difficult to write certain words using prefixes alone. For example, `KOPB/
 
 ### Prefixes with different pronunciations
 
-English pronunciation differs from person to person, but even a single speaker may pronounce a word differently depending on the context. For example, the word "defect" can be pronounced with a *long e* `TKAOE/TKEFBGT` or a *short e* `TKE/TKEFBGT` depending on if it is a noun or a verb.
+English pronunciation differs from person to person, but even a single speaker may pronounce a word differently depending on the context. For example, the word "defect" can be pronounced with a *long e* `TKAOE/TPEBGT` or a *short e* `TKE/TPEBGT` depending on if it is a noun or a verb.
 
 Here is a non-exhaustive list of some alternative prefix strokes:
 
@@ -341,7 +341,7 @@ When there are conflicts between prefixes strokes and words, the former will be 
 | a | `A` | `AEU` | `A*` is already used. |
 | bi^ (by) | `PWAOEU` | `PWEU` | There is a three way conflict between "by", "bye", and "buy". |
 | be | `PWE` | `-B` | Useful in phrase briefs. |
-| for | `TPOR` | `TP-R` or `TPAURT` | Useful in phrases like "for the" `TP-RT`. |
+| for | `TPOR` | `TP-R` | Useful in phrases like "for the" `TP-RT`. |
 | in | `EUPB` | `TPH` | Useful in phrases like "in the" `TPH-T`. |
 | or | `OR` | `AOUR` or `AUR` | `O*R` is already used. |
 | out | `OUT` | `AOUT` | Alternative vowel chord. |
