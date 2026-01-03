@@ -1,12 +1,16 @@
+# mdBook version: 0.5.2
 [book]
 authors = ["aerick"]
 language = "en"
-multilingual = false
 src = "src"
 title = "Lapwing for Beginners"
 
+# https://rust-lang.github.io/mdBook/format/configuration/renderers.html
 [output.html]
-additional-css = ["theme/pagetoc.css"]
+additional-css = ["theme/pagetoc.css", "theme/custom.css"]
 additional-js = ["theme/pagetoc.js", "theme/steno-viz.js"]
+sidebar-header-nav = false # prefer pagetoc on the right side
 
-[preprocessor.external-links]
+# TODO: support this plugin again
+# https://github.com/jonahgoldwastaken/mdbook-external-links
+# [preprocessor.external-links]

@@ -1,0 +1,41 @@
+/* Custom styles to the builtin mdBook theme */
+
+/* variables.css */
+.ayu {
+    --steno-background-color: #506477;
+    --code-background-color: #191f26;
+}
+
+.coal {
+    --steno-background-color: #506477;
+    --code-background-color: #1d1f21;
+}
+
+.light {
+    --steno-background-color: #dae0f5;
+    --code-background-color: #f6f7f6;
+}
+
+.navy {
+    --inline-code-color: #e7eae7;
+    --steno-background-color: #506477;
+    --code-background-color: #1d1f21;
+}
+
+.rust {
+    --inline-code-color: #4C493;
+    --steno-background-color: #C4B5A8;
+    --code-background-color: #f6f7f6;
+}
+
+:not(pre) > .hljs {
+     background-color: var(--steno-background-color);
+}
+
+.code-mono {
+    background-color: var(--code-background-color) !important;
+}
+
+/* general.css */
+.content a { text-decoration: none; font-weight: bold; }
+.content a:hover { text-decoration: underline; font-weight: bold; }
