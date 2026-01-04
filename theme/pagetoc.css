@@ -22,7 +22,7 @@
     }
 
     @media (max-width: 1179px) {
-        .sidebar-hidden .sidetoc {
+        :not(.sidebar-visible) .sidetoc {
             display: none;
         }
     }
@@ -34,7 +34,7 @@
     }
 
     @media (1180px <= width <= 1439px) {
-        .sidebar-hidden main {
+        :not(.sidebar-visible) main {
             position: relative;
             left: var(--center-content-toc-shift);
         }
