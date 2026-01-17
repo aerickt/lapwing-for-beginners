@@ -315,7 +315,7 @@ One such circumstance where `EU` represents the *long e* sound is in the followi
 
 ### Suffixes and orthography
 
-The spellings of some words in examples and exercises so far have not been entirely consistent with a prefix stroke modifying a root word. For example, "purist" was listed above as `PWAOUR/KWREUFT`, but the root word is really spelled "pur<ins>e</ins>" with an "e" at the end.
+The spellings of some words in examples and exercises so far have not been entirely consistent with a prefix stroke modifying a root word. For example, "purist" was listed above as `PAOUR/KWREUFT`, but the root word is really spelled "pur<ins>e</ins>" with an "e" at the end.
 
 Here are some other examples where adding a suffix to a root word changes its spelling:
 
