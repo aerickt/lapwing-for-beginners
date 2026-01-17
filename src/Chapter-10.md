@@ -18,7 +18,7 @@
 
 <steno-outline stroke="-PBLG" width="100%" alt="-PBLG on the steno layout"></steno-outline>
 
-* `-LG` represents two two sounds:
+* `-LG` represents two sounds:
   * "-lj" as in "bu<ins>lg</ins>e"
   * "-lch" as in "mu<ins>lch</ins>"
 
