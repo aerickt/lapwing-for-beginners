@@ -3,6 +3,7 @@
 ## Useful links
 
 * [Typey Type custom lessons](https://didoesdigital.com/typey-type/lessons/custom/setup)
+* [Plover Drills for Lapwing Theory](https://toyboot4e.github.io/plover-drills/)
 * [Basic single syllable words drill](practice/5-cvc.txt)
 * [Basic left hand single syllable words drill](practice/5-basic-left-hand.txt)
 * [Single syllable dbl words drill](practice/5-dbl.txt)
@@ -59,6 +60,14 @@ Lessons in this series will be provided as links to text files. Left clicking on
 You may tweak additional settings to your liking, but the defaults are perfectly fine. If you would like to try this out, here is one example of a lesson:
 
 [Click here to access a sample lesson](practice/5-cvc.txt)
+
+## Plover Drills for Lapwing Theory
+
+Another option is [Plover Drills for Lapwing Theory](https://toyboot4e.github.io/plover-drills/). It's specifically made for Lapwing, so you can practice immediately without setup.
+
+![Typey Type custom drills settings](img/5-plover-drills.png)
+
+### [Click here to access Plover Drills for Lapwing Theory shown above](https://toyboot4e.github.io/plover-drills/)
 
 ## Single key basics
 
