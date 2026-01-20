@@ -207,7 +207,7 @@ For words ending in -v or -t, the `-F` or `-T` keys would normally be used. Howe
 - elf `EL/*F`
 - list `HREUS/*T`
 
-> **NOTE:** using the `-FT` or `*S` chords is preferred for ending a a syllable with -st.
+> **NOTE:** using the `-FT` or `*S` chords is preferred for ending a syllable with -st.
 
 # Affix strokes
 

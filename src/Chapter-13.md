@@ -374,7 +374,7 @@ This section mentions topics that have not yet been covered, but if you tend to 
 
 ### Regular prefixes in syllabic splitting
 
-In chapter 15, you will learn to write words like "trident" as `TRAOEU/TKEPBT`. It may seem like this is violating prefix usage since "dent" is not the root word of "trident"—the two are unrelated in meaning. However, this outline is actually just a a result of the syllabic splitting method covered in chapter 15. Syllabic splitting does not care if `TRAOEU` is a prefix or not.
+In chapter 15, you will learn to write words like "trident" as `TRAOEU/TKEPBT`. It may seem like this is violating prefix usage since "dent" is not the root word of "trident"—the two are unrelated in meaning. However, this outline is actually just a result of the syllabic splitting method covered in chapter 15. Syllabic splitting does not care if `TRAOEU` is a prefix or not.
 
 Keep this in mind when you use the lookup tool. If you spot an outline that uses an affix incorrectly, the outline in question is just using syllabic splitting. It's not that prefix rules are being broken; the outline has just been constructed use an entirely different method.
 
