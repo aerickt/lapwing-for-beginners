@@ -74,7 +74,7 @@ The curly braces indicate that this word is special. In this case, the caret ind
 
 In grade school English, we learn of rules that allow us to pronounce words. However, as you may have realized, there are exceptions to almost every rule. Lapwing is no different, and you may encounter words in the default dictionary that are unintuitive and go against a rule.
 
-There is a table in [chapter 22](#Chapter-22.md#problematic-words) which aims to list these words. If you've come across a word whose outlines don't make sense to you, I suggest checking this table or even using the search bar to see if it is mentioned anywhere else in this book.
+There is a table in [chapter 22](Chapter-22.md#problematic-words) which aims to list these words. If you've come across a word whose outlines don't make sense to you, I suggest checking this table or even using the search bar to see if it is mentioned anywhere else in this book.
 
 ## Switching to steno completely from day 1
 
