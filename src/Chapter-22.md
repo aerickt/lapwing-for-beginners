@@ -3,7 +3,7 @@
 ## Intro
 This page serves as a reference for all the miscellaneous theory principles that only apply to a few words. It's not important to explicitly memorize the content on this page, as it is very likely these situations will arise in everyday writing.
 
-When you do find odd entries via the lookup tool, first consult this page. If you cannot find an explanation, free to contact me on Discord (@aerbg) or [start a discussion on GitHub](https://github.com/aerickt/lapwing-for-beginners/discussions) (login required). It may be that I have not yet documented the oddity here or that the entry itself may be incorrect.
+When you do find odd entries via the lookup tool, first consult this page. If you cannot find an explanation, [start a discussion on GitHub](https://github.com/aerickt/lapwing-for-beginners/discussions) (login required) or discussion in  [#lapwing-theory on the Open Steno Discord](https://discord.gg/jYx7A6yDUj) or if you are shy feel free to contact  the maintainers on Discord (@harrri or @fieldchicken). It may be that the oddity is not yet documented here or that the entry itself may be incorrect.
 
 ## Acronyms
 
