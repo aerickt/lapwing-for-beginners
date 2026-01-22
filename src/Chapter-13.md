@@ -6,8 +6,8 @@
 * [Words with -ar, -or, and -er suffixes drill](practice/13-ar-or-er.txt)
 * [Words with -ful and -ness suffixes drill](practice/13-ful-ness.txt)
 * [Right hand `-BLT` words drill](practice/13-right-BLT.txt)
-* [Right hand ment and let words drill (one-stroke drill)](practice/11-right-ment-and-let.txt)
-* [Right hand `-BL` and `-BLT` words drill (one-stroke drill)](practice/11-right-BL-BLT.txt)
+* [Right hand ment and let words drill](practice/11-right-ment-and-let.txt)
+* [Right hand `-BL` and `-BLT` words drill](practice/11-right-BL-BLT.txt)
 * [Right hand `KWR` suffix words drill](practice/13-KWR.txt)
 * [Chapter 13 test](practice/13-test.txt)
 
@@ -227,9 +227,9 @@ The rest of the examples are not possible to write in one stroke:
 
 The `-PLT`, `-LT`, and `-BL` compound clusters should already be already be familiar, however, the practice material is listed below as a refresher if needed.
 
-[Right hand ment and let words drill (one-stroke drill)](practice/11-right-ment-and-let.txt)
+[Right hand ment and let words drill](practice/11-right-ment-and-let.txt)
 
-[Right hand `-BL` and `-BLT` words drill (one-stroke drill)](practice/11-right-BL-BLT.txt)
+[Right hand `-BL` and `-BLT` words drill](practice/11-right-BL-BLT.txt)
 
 ### `KWR` suffixes
 
