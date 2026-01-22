@@ -5,9 +5,9 @@
 * [Words with -y and -ly suffixes drill](practice/13-EU.txt)
 * [Words with -ar, -or, and -er suffixes drill](practice/13-ar-or-er.txt)
 * [Words with -ful and -ness suffixes drill](practice/13-ful-ness.txt)
-* [Right hand ment and let words](practice/11-right-ment-and-let.txt)
-* [Right hand `-BL` words drill](practice/11-right-BL.txt)
 * [Right hand `-BLT` words drill](practice/13-right-BLT.txt)
+* [Right hand ment and let words drill](practice/11-right-ment-and-let.txt)
+* [Right hand `-BL` and `-BLT` words drill](practice/11-right-BL-BLT.txt)
 * [Right hand `KWR` suffix words drill](practice/13-KWR.txt)
 * [Chapter 13 test](practice/13-test.txt)
 
@@ -227,9 +227,9 @@ The rest of the examples are not possible to write in one stroke:
 
 The `-PLT`, `-LT`, and `-BL` compound clusters should already be already be familiar, however, the practice material is listed below as a refresher if needed.
 
-[Right hand ment and let words](practice/11-right-ment-and-let.txt)
+[Right hand ment and let words drill](practice/11-right-ment-and-let.txt)
 
-[Right hand `-BL` words drill](practice/11-right-BL.txt)
+[Right hand `-BL` and `-BLT` words drill](practice/11-right-BL-BLT.txt)
 
 ### `KWR` suffixes
 
@@ -374,7 +374,7 @@ This section mentions topics that have not yet been covered, but if you tend to 
 
 ### Regular prefixes in syllabic splitting
 
-In chapter 15, you will learn to write words like "trident" as `TRAOEU/TKEPBT`. It may seem like this is violating prefix usage since "dent" is not the root word of "trident"—the two are unrelated in meaning. However, this outline is actually just a a result of the syllabic splitting method covered in chapter 15. Syllabic splitting does not care if `TRAOEU` is a prefix or not.
+In chapter 15, you will learn to write words like "trident" as `TRAOEU/TKEPBT`. It may seem like this is violating prefix usage since "dent" is not the root word of "trident"—the two are unrelated in meaning. However, this outline is actually just a result of the syllabic splitting method covered in chapter 15. Syllabic splitting does not care if `TRAOEU` is a prefix or not.
 
 Keep this in mind when you use the lookup tool. If you spot an outline that uses an affix incorrectly, the outline in question is just using syllabic splitting. It's not that prefix rules are being broken; the outline has just been constructed use an entirely different method.
 

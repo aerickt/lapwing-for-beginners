@@ -202,9 +202,9 @@ This is one of Lapwing's key differences, so be sure to read [chapter 15](Chapte
 
 Numbers are written one digit at a time using a right hand numberpad and the number key.
 
-![numbers](img/17-numbers.png)
+![numbers](img/18-numbers.png)
 
-Please see [chapter 17](Chapter-17.md) for more details.
+Please see [chapter 18](Chapter-18.md) for more details.
 
 ### Proper nouns
 
