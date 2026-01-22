@@ -215,7 +215,6 @@ crack	KRABG
 chrome	KROEPL
 croak	KROEBG
 crock	KROBG
-cripple	KREUPL
 crick	KREUBG
 creme	KREPL
 crumb	KRUPL
@@ -300,7 +299,6 @@ weak	WAEBG
 walk	WAUBG
 wack	WABG
 woke	WOEBG
-woman	WOPL
 wok	WOBG
 wick	WEUBG
 lime	HRAOEUPL
