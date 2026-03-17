@@ -25,6 +25,11 @@ This book is compiled with [mdbook](https://rust-lang.github.io/mdBook/). The so
 
 If you like my work, maybe consider [buying me a coffee](https://www.paypal.com/donate/?hosted_button_id=VNMUULBPTQGMC) 😄.
 
+Thanks to:
+- [@IllustratedMan-code](https://github.com/IllustratedMan-code) for implementing the SVG steno graphics!
+- [@toyboot4e](https://github.com/toyboot4e) for switching mdbook to GitHub actions and various bug fixes!
+- [@Harri](https://github.com/StenoHarri) and [@Field](https://github.com/field-chicken) for maintaining Lapwing!
+
 ### Current tasks
 
 This section covers a few shortcomings to this book I would like to address. If you want to see these realized faster, consider contributing!
@@ -42,17 +47,3 @@ The symbols and modifiers dictionaries that Lapwing uses are customized, and som
 Some people prefer learning by using a reference guide instead of working their way through structured chapters. This is the motivation behind the appendix D. It also provides a convenient place to look up any forgotten rules.
 
 The theory reference guide is currently work-in-progress, and very incomplete.
-
-#### Switching steno outline graphics to SVG
-
-~~I would like to switch all the outline graphics to SVG so that the colours can be tweaked depending on the theme. This is a relatively low priority change, however, it can help with accessibility as the current colour theme does not have a lot of contrast.~~
-
-~~The original graphics are screenshots created with the `plover-svg-layout-display` plugin. Creating these graphics manually was a bit time consuming, but having to create SVG files for each stroke will be even more tedious. This can be helped by:~~
-
-* ~~Getting more people onboard to help with creating the graphics.~~
-or
-* ~~Writing a program to generate SVG graphics on demand.~~
-
-This has mostly been implemented by [@IllustratedMan-code](https://github.com/IllustratedMan-code). Thanks!
-
-There are still a few graphics and animations using the old PNGs generated via the `plover-svg-layout-display` plugin. I'm not sure what would be the best course of action to migrate these, so I'm just leaving them for now. If you have an idea, do reach out!
