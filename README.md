@@ -4,10 +4,10 @@
 
 > This is only for contributors!
 
-Install `mdbook` and the [external links preprocessor](https://crates.io/crates/mdbook-external-links).
+Install `mdbook` and the [external links preprocessor](https://crates.io/crates/mdbook-external-links2).
 
 ```
-cargo install mdbook mdbook-external-links
+cargo install mdbook mdbook-external-links2
 ```
 
 In the root folder, build with:

@@ -11,6 +11,5 @@ additional-css = ["theme/pagetoc.css", "theme/custom.css"]
 additional-js = ["theme/pagetoc.js", "theme/steno-viz.js"]
 sidebar-header-nav = false # prefer pagetoc on the right side
 
-# TODO: support this plugin again
-# https://github.com/jonahgoldwastaken/mdbook-external-links
-# [preprocessor.external-links]
+# https://github.com/avivace/mdbook-external-links
+[preprocessor.external-links2]
