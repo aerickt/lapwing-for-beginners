@@ -13,3 +13,4 @@ sidebar-header-nav = false # prefer pagetoc on the right side
 
 # https://github.com/avivace/mdbook-external-links
 [preprocessor.external-links2]
+optional = true
