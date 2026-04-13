@@ -156,7 +156,7 @@ Unstressed vowel(s) dropped: d<s>e</s>plor<s>a</s>ble → dplorbl
 
 Every vowel except the "o" can be dropped. The resulting consonants can easily fit on the steno layout.
 
-Shorter outline: `TKPHROBL`
+Shorter outline: `TKPHRORBL`
 
 ### derivative
 
