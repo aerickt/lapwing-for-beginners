@@ -32,12 +32,12 @@ Download the dictionaries by right clicking the following links and pressing <co
 * [<code class="code-mono">abby-left-hand-modifiers.py</code>](https://raw.githubusercontent.com/aerickt/steno-dictionaries/plover-lapwing-aio/abby-left-hand-modifiers.py)
 * [<code class="code-mono">emily-modifiers.py</code>](https://raw.githubusercontent.com/aerickt/steno-dictionaries/plover-lapwing-aio/emily-modifiers.py)
 * [<code class="code-mono">emily-symbols.py</code>](https://raw.githubusercontent.com/aerickt/steno-dictionaries/plover-lapwing-aio/emily-symbols.py)
-* [<code class="code-mono">lapwing-movement.modal</code>](https://raw.githubusercontent.com/aerickt/steno-dictionaries/main/lapwing-movement.modal)
-* [<code class="code-mono">lapwing-commands.json</code>](https://raw.githubusercontent.com/aerickt/steno-dictionaries/main/lapwing-commands.json)
-* [<code class="code-mono">lapwing-numbers.json</code>](https://raw.githubusercontent.com/aerickt/steno-dictionaries/main/lapwing-numbers.json)
-* [<code class="code-mono">lapwing-uk-additions.json</code>](https://raw.githubusercontent.com/aerickt/steno-dictionaries/main/lapwing-uk-additions.json)
-* [<code class="code-mono">lapwing-proper-nouns.json</code>](https://raw.githubusercontent.com/aerickt/steno-dictionaries/main/lapwing-proper-nouns.json)
-* [<code class="code-mono">lapwing-base.json</code>](https://raw.githubusercontent.com/aerickt/steno-dictionaries/main/lapwing-base.json)
+* [<code class="code-mono">lapwing-movement.modal</code>](https://github.com/aerickt/plover-lapwing-aio/blob/main/plover_lapwing/dictionaries/lapwing-movement.modal)
+* [<code class="code-mono">lapwing-commands.json</code>](https://github.com/aerickt/plover-lapwing-aio/blob/main/plover_lapwing/dictionaries/lapwing-commands.json)
+* [<code class="code-mono">lapwing-numbers.json</code>](https://github.com/aerickt/plover-lapwing-aio/blob/main/plover_lapwing/dictionaries/lapwing-numbers.json)
+* [<code class="code-mono">lapwing-uk-additions.json</code>](https://github.com/aerickt/plover-lapwing-aio/blob/main/plover_lapwing/dictionaries/lapwing-uk-additions.json)
+* [<code class="code-mono">lapwing-proper-nouns.json</code>](https://github.com/aerickt/plover-lapwing-aio/blob/main/plover_lapwing/dictionaries/lapwing-proper-nouns.json)
+* [<code class="code-mono">lapwing-base.json</code>](https://github.com/aerickt/plover-lapwing-aio/blob/main/plover_lapwing/dictionaries/lapwing-base.json)
 
 Next, in the Plover main window, click on the green plus button:
 

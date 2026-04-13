@@ -28,7 +28,7 @@ Some machines may not be compatible with remapping the top `S-` key. In this cas
 
 To download it, right click the following link and press <code class="code-mono">Save link as</code>.
 
-[https://raw.githubusercontent.com/aerickt/steno-dictionaries/main/lapwing-prefixed-proper-nouns.json](https://raw.githubusercontent.com/aerickt/steno-dictionaries/main/lapwing-prefixed-proper-nouns.json)
+[https://github.com/aerickt/plover-lapwing-aio/blob/main/plover_lapwing/dictionaries/lapwing-prefixed-proper-nouns.json](https://github.com/aerickt/plover-lapwing-aio/blob/main/plover_lapwing/dictionaries/lapwing-prefixed-proper-nouns.json)
 
 To add it to your dictionary stack, in Plover's main window, press the green plus button and <code class="code-mono">Load dictionaries</code>. Then, select the <code class="code-mono">lapwing-prefixed-proper-nouns.json</code> dictionary that you just downloaded.
 

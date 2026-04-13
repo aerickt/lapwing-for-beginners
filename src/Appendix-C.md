@@ -43,12 +43,12 @@ Download the following dictionaries by right clicking the links and pressing <co
 * [<code class="code-mono">lapwing-javelin-additions.json</code>](/javelin_dictionaries/lapwing-javelin-additions.json)
 * [<code class="code-mono">abby-left-hand-modifiers.json</code>](/javelin_dictionaries/abby-left-hand-modifiers.json)
 * [<code class="code-mono">emily-modifiers.json</code>](/javelin_dictionaries/emily-modifiers.json)
-* [<code class="code-mono">lapwing-semi-modal-movement.json</code>](https://raw.githubusercontent.com/aerickt/steno-dictionaries/main/lapwing-semi-modal-movement.json)
-* [<code class="code-mono">lapwing-commands.json</code>](https://raw.githubusercontent.com/aerickt/steno-dictionaries/main/lapwing-commands.json)
-* [<code class="code-mono">lapwing-numbers.json</code>](https://raw.githubusercontent.com/aerickt/steno-dictionaries/main/lapwing-numbers.json)
-* [<code class="code-mono">lapwing-uk-additions.json</code>](https://raw.githubusercontent.com/aerickt/steno-dictionaries/main/lapwing-uk-additions.json)
-* [<code class="code-mono">lapwing-proper-nouns.json</code>](https://raw.githubusercontent.com/aerickt/steno-dictionaries/main/lapwing-proper-nouns.json)
-* [<code class="code-mono">lapwing-base.json</code>](https://raw.githubusercontent.com/aerickt/steno-dictionaries/main/lapwing-base.json)
+* [<code class="code-mono">lapwing-semi-modal-movement.json</code>](https://github.com/aerickt/plover-lapwing-aio/blob/main/plover_lapwing/dictionaries/lapwing-semi-modal-movement.json)
+* [<code class="code-mono">lapwing-commands.json</code>](https://github.com/aerickt/plover-lapwing-aio/blob/main/plover_lapwing/dictionaries/lapwing-commands.json)
+* [<code class="code-mono">lapwing-numbers.json</code>](https://github.com/aerickt/plover-lapwing-aio/blob/main/plover_lapwing/dictionaries/lapwing-numbers.json)
+* [<code class="code-mono">lapwing-uk-additions.json</code>](https://github.com/aerickt/plover-lapwing-aio/blob/main/plover_lapwing/dictionaries/lapwing-uk-additions.json)
+* [<code class="code-mono">lapwing-proper-nouns.json</code>](https://github.com/aerickt/plover-lapwing-aio/blob/main/plover_lapwing/dictionaries/lapwing-proper-nouns.json)
+* [<code class="code-mono">lapwing-base.json</code>](https://github.com/aerickt/plover-lapwing-aio/blob/main/plover_lapwing/dictionaries/lapwing-base.json)
 
 ## Configure and build firmware
 
