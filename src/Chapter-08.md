@@ -37,6 +37,9 @@ Since steno is a primarily phonetic system, homophones can be tricky to deal wit
 
 ### Examples
 
+* bee `PWAOE`
+* she `SHAOE`
+* tree `TRAOE`
 * peel `PAOEL`
 * teal `TAOEL`
 * here `HAOER`
@@ -72,6 +75,9 @@ Since steno is a primarily phonetic system, homophones can be tricky to deal wit
 
 ### Examples
 
+* die `TKAOEU`
+* pie `PAOEU`
+* my `PHAOEU`
 * light `HRAOEUT`
 * tile `TAOEUL`
 * liar `HRAOEUR`
@@ -242,10 +248,16 @@ By default the Lapwing dictionary assigns `PAER` to "pear" and `PA*EUR` to "pare
 This chord has two uses:
 
 1. Words spelled with "oo", regardless of their pronunciation
+   - boo `PWAO`
+   - loo `HRAO`
+   - too `TAO`
    - wood `WAOD`
    - hood `HAOD`
    - blood `PWHRAOD`
    - tool `TAOL`
+
+> **NOTE:** "loo", "boo", and "too" are the words excluded from `AOU` in chapter 7 due to their "oo" spelling.
+
 2. Words spelled with "oa" to resolve conflicts
    - oar `AOR` (`OR` is already "or")
    - soar `SAOR` (`SOR` is already "sore")
