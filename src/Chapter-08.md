@@ -77,7 +77,7 @@ Since steno is a primarily phonetic system, homophones can be tricky to deal wit
 
 * die `TKAOEU`
 * pie `PAOEU`
-* my `PHAOEU`
+* eye `AOEU`
 * light `HRAOEUT`
 * tile `TAOEUL`
 * liar `HRAOEUR`
