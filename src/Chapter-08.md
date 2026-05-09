@@ -117,11 +117,21 @@ So while "bot" and "cot" are written as `PWOT` and `KOT`, respectively, "bought"
 * bought `PWAUT`
 * caught `KAUT`
 
+This rule also covers words spelled with "aw":
+
+* jaw `SKWRAU`
+* law `HRAU`
+* draw `TKRAU`
+* thaw `THAU`
+* claw `KHRAU`
+
 <video controls>
 <source src="img/8-pronunciations-5.mp4" type="video/mp4">
 </video>
 
 ### Minor conflicts
+
+> **NOTE:** In the following practice, you may encounter two words which would produce the same stroke. In these cases, the less common word uses `*`. This will be covered in more detail in [chapter 13](Chapter-13.md).
 
 Words spelled with "au" are given `A*UL` when there is a conflict:
 
