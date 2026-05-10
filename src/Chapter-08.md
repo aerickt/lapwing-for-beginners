@@ -83,6 +83,8 @@ Since steno is a primarily phonetic system, homophones can be tricky to deal wit
 * liar `HRAOEUR`
 * tire `TAOEUR`
 
+> **NOTE:** very common short words may have briefs that override the full phonetic outline. For example, "my" is written `PHEU` rather than `PHAOEU`. If a word produces unexpected output, check whether it has a brief.
+
 <video controls>
 <source src="img/8-pronunciations-4.mp4" type="video/mp4">
 </video>
