@@ -6,6 +6,7 @@
 
 * [All 200 words drill](practice/16-test.txt)
 * [Briefs only drill](practice/16-briefs.txt)
+* [Function words drill](practice/16-function.txt)
 
 ## Introduction
 
@@ -785,6 +786,19 @@ Remember to use `*F` when [ending a word](Chapter-12.md#when-sounds-cant-follow-
 **Brief: `TPA*URT`**
 
 **Write-out: `TPAU/THER`**
+
+## Function words drill
+
+Function words appear constantly in everyday writing. This drill covers the function words introduced in this chapter, organized by category:
+
+| Category | Words |
+|---|---|
+| Subject | I, you, he, she, it, we, they |
+| Object | me, you, him, her, it, us, them |
+| Possessive | my, your, his, her, our, their |
+| Demonstrative | this, that, these, those |
+| Interrogative/relative | who, which, what, how, why |
+| Indefinite | one, any, some, all, each |
 
 ## Chapter 16 test
 
