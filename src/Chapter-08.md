@@ -85,7 +85,7 @@ Since steno is a primarily phonetic system, homophones can be tricky to deal wit
 
 > Feel free to come up with your own or even suggest some!
 
-1. If the notion of *long vowel* and *short vowels* (as described in the previous chapter) is familiar, you can think of transforming the "i" chord into a *long i* by combining it with the two keys on the other side
+1. If the notion of *long vowels* and *short vowels* (as described in the previous chapter) is familiar, you can think of transforming the "i" chord into a *long i* by combining it with the two keys on the other side
     - *Long i* = `EU` + (vowel keys on other hand)
 
 ### Section practice

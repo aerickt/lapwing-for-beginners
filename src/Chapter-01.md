@@ -35,7 +35,7 @@ KOPL/PHREU/KAEUT
 
 ### Why `KOPL/PHREU/KAEUT`?
 
-At first glance, it appears that `KOPL/PHREU/KAEUT` has no bearing resemblance to the word it represents. The reason for this is that there are only so many keys on the steno layout. Arbitrary letter combinations have to be used in order to represent the sounds that are not represented by single keys.
+At first glance, it appears that `KOPL/PHREU/KAEUT` bears no resemblance to the word it represents. The reason for this is that there are only so many keys on the steno layout. Arbitrary letter combinations have to be used in order to represent the sounds that are not represented by single keys.
 
 <steno-outline stroke="#STKPWHRAO*EUFRPBLGTSDZ" width="100%" alt="steno layout"></steno-outline>
 

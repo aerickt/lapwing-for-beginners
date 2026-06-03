@@ -124,7 +124,7 @@ In conversational speech, a lot of vowels typically aren't emphasized. For examp
 <source src="img/17-pronunciations-1.mp4" type="video/mp4">
 </video>
 
-Dropping the second "e" in "elephant" is advantageous; it is now now possible to write this word in two strokes instead of one: `EL/TPA*PBT`.
+Dropping the second "e" in "elephant" is advantageous; it is now possible to write this word in two strokes instead of one: `EL/TPA*PBT`.
 
 This technique can be tricky, and it doesn't always work with any arbitrary word. A great way to learn stress identification is to practice it in everyday life. When reading a word, pay attention to the vowels that aren't emphasized. In particular, try dropping vowels from a word and observing if the word is still intelligible. For example, try saying "elephant" out loud in the two ways shown above. When reading the next few examples, try this out yourself.
 
