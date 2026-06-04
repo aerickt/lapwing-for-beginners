@@ -23,7 +23,6 @@ vowel	SROUL
 soap	SOEP
 sour	SOUR
 globe	TKPWHROEB
-grove	TKPWROEF
 grouse	TKPWROUS
 goal	TKPWOEL
 goad	TKPWOED

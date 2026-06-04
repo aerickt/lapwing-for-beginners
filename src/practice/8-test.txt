@@ -209,7 +209,6 @@ vowel	SROUL
 soap	SOEP
 sour	SOUR
 globe	TKPWHROEB
-grove	TKPWROEF
 grouse	TKPWROUS
 goal	TKPWOEL
 goad	TKPWOED
@@ -408,7 +407,6 @@ teal	TAOEL
 teat	TAOET
 queer	KWAOER
 quease	KWAOES
-cleave	KHRAOEF
 clear	KHRAOER
 cleat	KHRAOET
 chief	KHAOEF
@@ -465,7 +463,6 @@ reap	RAOEP
 reel	RAOEL
 rete	RAOET
 reed	RAOED
-eve	AOEF
 ear	AOER
 eep	AOEP
 eel	AOEL
@@ -502,7 +499,6 @@ size	SAOEUZ
 glide	TKPWHRAOEUD
 gripe	TKPWRAOEUP
 guide	TKPWAOEUD
-drive	TKRAOEUF
 dryer	TKRAOEUR
 dire	TKAOEUR
 dial	TKAOEUL
@@ -513,7 +509,6 @@ night	TPHAOEUT
 nice	TPHAOEUS
 fright	TPRAOEUT
 fried	TPRAOEUD
-five	TPAOEUF
 fire	TPAOEUR
 file	TPAOEUL
 fight	TPAOEUT
@@ -531,7 +526,6 @@ tight	TAOEUT
 tide	TAOEUD
 choir	KWAOEUR
 quite	KWAOEUT
-chive	KHAOEUF
 chide	KHAOEUD
 cried	KRAOEUD
 kite	KAOEUT
@@ -662,7 +656,6 @@ squad	SKWAUD
 scrawl	SKRAUL
 small	SPHAUL
 sprawl	SPRAUL
-suave	SWAUF
 swap	SWAUP
 swab	SWAUB
 swat	SWAUT

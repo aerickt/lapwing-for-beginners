@@ -29,7 +29,6 @@ size	SAOEUZ
 glide	TKPWHRAOEUD
 gripe	TKPWRAOEUP
 guide	TKPWAOEUD
-drive	TKRAOEUF
 dryer	TKRAOEUR
 dire	TKAOEUR
 dial	TKAOEUL
@@ -40,7 +39,6 @@ night	TPHAOEUT
 nice	TPHAOEUS
 fright	TPRAOEUT
 fried	TPRAOEUD
-five	TPAOEUF
 fire	TPAOEUR
 file	TPAOEUL
 fight	TPAOEUT
@@ -58,7 +56,6 @@ tight	TAOEUT
 tide	TAOEUD
 choir	KWAOEUR
 quite	KWAOEUT
-chive	KHAOEUF
 chide	KHAOEUD
 cried	KRAOEUD
 kite	KAOEUT
