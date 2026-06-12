@@ -53,3 +53,17 @@ hall	HAUL
 rawr	RAUR
 all	AUL
 aught	AUT
+awe	AU
+jaw	SKWRAU
+law	HRAU
+raw	RAU
+saw	SAU
+maw	PHAU
+paw	PAU
+thaw	THAU
+draw	TKRAU
+claw	KHRAU
+flaw	TPHRAU
+slaw	SHRAU
+straw	STRAU
+gnaw	TPHAU
