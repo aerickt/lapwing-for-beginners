@@ -27,7 +27,7 @@ Compare this to prefix strokes; writing `PRAOE` (the prefix stroke for "pre^") i
 
 Here, the curly braces denote that there is special formatting rules contained inside the braces. The caret tells Plover to suppress the space where it is located; any translation of the form <code class="code-mono">{abc^}</code> is a prefix.
 
-Prefix strokes enable writing words such as  "preview" like so: `PRAOE/SRAOU`. Most prefix strokes are fairly intuitive and take precedence when they conflict with other translations. For example, the "for^" prefix as in "forget" `TPOR/TKPWET` is written as `TPOR` while the word "for" is briefed. It's not necessary to memeorize many of these prefix strokes.
+Prefix strokes enable writing words such as  "preview" like so: `PRAOE/SRAOU`. Most prefix strokes are fairly intuitive and take precedence when they conflict with other translations. For example, the "for^" prefix as in "forget" `TPOR/TKPWET` is written as `TPOR` while the word "for" is briefed. It's not necessary to memorize many of these prefix strokes.
 
 ### Common Prefix Strokes
 
@@ -225,7 +225,7 @@ The rest of the examples are not possible to write in one stroke:
 
 [Right hand `-BLT` words drill](practice/13-right-BLT.txt)
 
-The `-PLT`, `-LT`, and `-BL` compound clusters should already be already be familiar, however, the practice material is listed below as a refresher if needed.
+The `-PLT`, `-LT`, and `-BL` compound clusters should already be familiar, however, the practice material is listed below as a refresher if needed.
 
 [Right hand ment and let words drill](practice/11-right-ment-and-let.txt)
 

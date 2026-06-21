@@ -12,7 +12,7 @@ Recall this graphic from chapter 2:
 
 ![](img/2-key-positions.png)
 
-I recommend keeping this graphic in a convenient place to refer to. The yellow circles indicate the resting home position of your fingers. Your fingers should be curled and resting on the cracks of the keys. It's important to memorize this layout to the point that you are able to press the right key when prompted for.
+I recommend keeping this graphic in a convenient place to refer to. The yellow circles indicate the resting home position of your fingers. Your fingers should be curled and resting on the cracks of the keys. It's important to memorize this layout to the point that you are able to press the right key when prompted.
 
 The best way to go about memorizing this layout is splitting it into memorable chunks and doing a lot of drills. It's one thing to know which finger is responsible for which key(s), but the most effective way of building muscle memory for the layout is simply drilling it.
 
@@ -132,7 +132,7 @@ Select "Shuffle words" and make sure your dictionaries are also unchecked just l
 
 This is only a suggestion if you are unsure of when to move on to the next chapter; it is not a strict requirement!
 
-**You should be able to complete this test in 10 minutes or fewer with an accuracy of at least 90%.**
+**You should be able to complete this test in 10 minutes or less with an accuracy of at least 90%.**
 
 ### Extra practice
 

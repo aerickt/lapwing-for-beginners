@@ -9,7 +9,7 @@
 
 ## Right hand -v
 
-* "v" as in  in "ca<ins>v</ins>e" is `-F`
+* "v" as in "ca<ins>v</ins>e" is `-F`
 
 ![v](img/9-v.png)
 

@@ -96,7 +96,7 @@ Any stenographic input device.
 
 ## steno order
 
-The order in which sounds should fall on 
+The order in which sounds should fall
 
 ## stroke
 

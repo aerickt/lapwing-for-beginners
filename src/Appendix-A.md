@@ -47,7 +47,7 @@ I created the initial Lapwing dictionary in early 2022 and have been refining it
 
 If you are used to many of the briefs in Plover's default <code class="code-mono">main.json</code> dictionary, you can use this dictionary in conjunction with Lapwing. Both Plover and Lapwing theory are very similar, and you might benefit from having both dictionaries in your stack. Whether you would like to have <code class="code-mono">lapwing-base</code> above or below <code class="code-mono">main.json</code> is up to you; if you'd like to use Lapwing write-outs as a base and keep Plover briefs secondary, make sure Lapwing is higher up in your stack. On the other hand, if you'd like to prioritize Plover briefs, put <code class="code-mono">main.json</code> above Lapwing.
 
-However, <code class="code-mono">main.json</code> has a few issues (mainly compound words) which make it slightly troublesome to use with Lapwing. Therefore, instead of using the stock dictionary, I reccommend using Harri's Lapwing compatible version of <code class="code-mono">[main.json](https://raw.githubusercontent.com/StenoHarri/steno-Json-dictionaries/main/Plover_main_but_Lapwing_compatible.json)</code>.
+However, <code class="code-mono">main.json</code> has a few issues (mainly compound words) which make it slightly troublesome to use with Lapwing. Therefore, instead of using the stock dictionary, I recommend using Harri's Lapwing compatible version of <code class="code-mono">[main.json](https://raw.githubusercontent.com/StenoHarri/steno-Json-dictionaries/main/Plover_main_but_Lapwing_compatible.json)</code>.
 
 ## Differences
 

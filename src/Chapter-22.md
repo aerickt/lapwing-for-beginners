@@ -51,7 +51,7 @@ In these cases, "-sh" gets precedence and the word with "-rb" is instead asteris
 
 ## Disambiguating "ou" with `OU`
 
-Lapwing is somewhat strict in using `OU` only phonetically. However, for cases where where existing outlines with `OU` do not exist, it is generally okay to use this chord for disambiguation.
+Lapwing is somewhat strict in using `OU` only phonetically. However, for cases where existing outlines with `OU` do not exist, it is generally okay to use this chord for disambiguation.
 
 * `TPOUR` four
   * `TPOR` is already "for^"
@@ -354,4 +354,4 @@ This table contains words that don't quite follow main theory principles.
 | poll/pole | `POL`/`POEL` | No real reason. Feel free to change things around and/or use the asterisk key for disambiguation. |
 | scene | `SKAOEPB` | `SAOEPB` is already the word "seen" so "scene" is written with the `K` to disambiguate. |
 | wolf | `WOEFL` or `WOFL` | While you could write this as `WOEL/*F` or `WOL/*F`, it's just much faster to learn one of these briefs. |
-| werewolf | lots of outlines | You can use `WAEUR` or `WER` for the first stroke. However, if you use `WER`, you will have to to asterisk the second word since there is a potential conflict between the phrase "were wolves" and the word "werewolves". |
+| werewolf | lots of outlines | You can use `WAEUR` or `WER` for the first stroke. However, if you use `WER`, you will have to asterisk the second word since there is a potential conflict between the phrase "were wolves" and the word "werewolves". |
