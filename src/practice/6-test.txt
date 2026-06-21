@@ -9,7 +9,6 @@ gore	TKPWOR
 gob	TKPWOB
 got	TKPWOT
 god	TKPWOD
-give	TKPWEUF
 gill	TKPWEUL
 gig	TKPWEUG
 git	TKPWEUT

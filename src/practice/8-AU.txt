@@ -6,7 +6,6 @@ squad	SKWAUD
 scrawl	SKRAUL
 small	SPHAUL
 sprawl	SPRAUL
-suave	SWAUF
 swap	SWAUP
 swab	SWAUB
 swat	SWAUT

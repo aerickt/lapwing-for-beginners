@@ -35,7 +35,6 @@ shall	SHAL
 shag	SHAG
 shat	SHAT
 shad	SHAD
-shove	SHOF
 shore	SHOR
 shop	SHOP
 shot	SHOT

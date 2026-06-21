@@ -70,7 +70,6 @@ teal	TAOEL
 teat	TAOET
 queer	KWAOER
 quease	KWAOES
-cleave	KHRAOEF
 clear	KHRAOER
 cleat	KHRAOET
 chief	KHAOEF
@@ -127,7 +126,6 @@ reap	RAOEP
 reel	RAOEL
 rete	RAOET
 reed	RAOED
-eve	AOEF
 ear	AOER
 eep	AOEP
 eel	AOEL

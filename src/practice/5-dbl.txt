@@ -2,7 +2,6 @@ dap	TKAP
 dab	TKAB
 dat	TKAT
 dad	TKAD
-dove	TKOF
 doll	TKOL
 dog	TKOG
 dot	TKOT
@@ -74,7 +73,6 @@ lab	HRAB
 lag	HRAG
 lass	HRAS
 lad	HRAD
-love	HROF
 lore	HROR
 lop	HROP
 lob	HROB
@@ -82,7 +80,6 @@ lol	HROL
 log	HROG
 lot	HROT
 loss	HROS
-live	HREUF
 lip	HREUP
 lib	HREUB
 lit	HREUT

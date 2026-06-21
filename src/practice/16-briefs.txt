@@ -1,5 +1,5 @@
 is	S
-sentence	 STEPBS
+sentence	STEPBS
 ask	SK
 and	SKP
 have	SR
