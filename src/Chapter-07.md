@@ -51,6 +51,9 @@ I'm making an effort to include IPA with the hopes that they will be useful for 
 * power `POUR`
 * coil `KOEUL`
 * soy `SOEU`
+* toy `TOEU`
+* joy `SKWROEU`
+* boy `PWOEU`
 
 > If you're having trouble associating the `OE` and `OU` chords, I suggest remembering the words marked with \*.
 
@@ -68,6 +71,8 @@ I'm making an effort to include IPA with the hopes that they will be useful for 
 3. `OEU` can be thought of as `O` + `EU` or "oi" which resembles its pronunciation and spelling (as in the word "s**oi**l")
 
 ### Section practice
+
+> **NOTE:** In the following practice, you may encounter two words which would produce the same stroke. In these cases, the less common word uses `*`. This will be covered in more detail in [chapter 13](Chapter-13.md).
 
 [Single syllable `OE`, `OU`, and `OEU` words drill](practice/7-OE-OU-OEU.txt)
 
@@ -91,8 +96,12 @@ I'm making an effort to include IPA with the hopes that they will be useful for 
 
 * day `TKAEU`
 * lay `HRAEU`
+* say `SAEU`
+* play `PHRAEU`
 * care `KAEUR`
 * pair `PAEUR`
+
+> **NOTE:** `AEU` works without a final consonant key for open-syllable words. The "-ay" family (say, pay, way, hay, ray, play, pray, spray…) all follow this pattern.
 
 <video controls>
 <source src="img/7-pronunciations-4.mp4" type="video/mp4">
@@ -120,7 +129,7 @@ I'm making an effort to include IPA with the hopes that they will be useful for 
    2. The "oo" sound as in "gl<ins>u</ins>e"
       - /u/
       - **Only when the sound is not spelled with "oo"**
-        - E.g., "loo" would **not** use `AOU`
+        - E.g., "loo" would **not** use `AOU`; words spelled with "oo" use `AO` instead (covered in chapter 8)
 
 * `AOUR` is the sound as in "c**ur**e"
   - /ʊər/

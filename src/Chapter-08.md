@@ -37,6 +37,9 @@ Since steno is a primarily phonetic system, homophones can be tricky to deal wit
 
 ### Examples
 
+* bee `PWAOE`
+* she `SHAOE`
+* tree `TRAOE`
 * peel `PAOEL`
 * teal `TAOEL`
 * here `HAOER`
@@ -72,10 +75,15 @@ Since steno is a primarily phonetic system, homophones can be tricky to deal wit
 
 ### Examples
 
+* die `TKAOEU`
+* pie `PAOEU`
+* eye `AOEU`
 * light `HRAOEUT`
 * tile `TAOEUL`
 * liar `HRAOEUR`
 * tire `TAOEUR`
+
+> **NOTE:** very common short words may have briefs that override the full phonetic outline. For example, "my" is written `PHEU` rather than `PHAOEU`. If a word produces unexpected output, check whether it has a brief.
 
 <video controls>
 <source src="img/8-pronunciations-4.mp4" type="video/mp4">
@@ -111,11 +119,21 @@ So while "bot" and "cot" are written as `PWOT` and `KOT`, respectively, "bought"
 * bought `PWAUT`
 * caught `KAUT`
 
+This rule also covers words spelled with "aw":
+
+* jaw `SKWRAU`
+* law `HRAU`
+* draw `TKRAU`
+* thaw `THAU`
+* claw `KHRAU`
+
 <video controls>
 <source src="img/8-pronunciations-5.mp4" type="video/mp4">
 </video>
 
 ### Minor conflicts
+
+> **NOTE:** In the following practice, you may encounter two words which would produce the same stroke. In these cases, the less common word uses `*`. This will be covered in more detail in [chapter 13](Chapter-13.md).
 
 Words spelled with "au" are given `A*UL` when there is a conflict:
 
@@ -242,10 +260,16 @@ By default the Lapwing dictionary assigns `PAER` to "pear" and `PA*EUR` to "pare
 This chord has two uses:
 
 1. Words spelled with "oo", regardless of their pronunciation
+   - boo `PWAO`
+   - loo `HRAO`
+   - too `TAO`
    - wood `WAOD`
    - hood `HAOD`
    - blood `PWHRAOD`
    - tool `TAOL`
+
+> **NOTE:** "loo", "boo", and "too" are the words excluded from `AOU` in chapter 7 due to their "oo" spelling.
+
 2. Words spelled with "oa" to resolve conflicts
    - oar `AOR` (`OR` is already "or")
    - soar `SAOR` (`SOR` is already "sore")

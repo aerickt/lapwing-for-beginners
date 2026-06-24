@@ -76,3 +76,12 @@ road	RAOD
 oof	AOF
 oar	AOR
 ooze	AOZ
+boo	PWAO
+moo	PHAO
+goo	TKPWAO
+loo	HRAO
+poo	PAO
+woo	WAO
+coo	KAO*
+too	TAO
+shoo	SHAO
